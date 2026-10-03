@@ -787,6 +787,9 @@
     if (Date.now() - lastHidden > 10 * 60000 && jumpToNow()) return;
     if (S.tab === "programma") render(true);
   });
+  // la striscia dei giorni prende un'ombra solo quando la pagina è scorsa
+  window.addEventListener("scroll", function () { document.body.classList.toggle("scrolled", window.scrollY > 4); }, { passive: true });
+
   // scorrere il dito a destra o a sinistra cambia giorno
   var sw = null;
   view.addEventListener("touchstart", function (e) {
