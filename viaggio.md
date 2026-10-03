@@ -12,7 +12,11 @@ Questo file vive solo qui: non tenerne copie nel progetto Claude «Giappone».
   `fuso` (solo se non è Tokyo: `roma`). Città: roma, tokyo, kawaguchiko, kamakura, kyoto, takayama, osaka.
 - Tappa: `- HH:MM tipo Titolo | attributo | attributo`, poi righe di dettaglio rientrate di 2 spazi.
   - tipi: `vedere` (luoghi) · `fare` (esperienze, spettacoli, giochi, terme) · `cibo` · `sposta` (spostamento in
-    città: il titolo è la destinazione) · `viaggio` (treno, bus o volo lungo) · `hotel`
+    città: il titolo è la destinazione) · `viaggio` (treno, bus o volo lungo) · `hotel` · `bagagli` (valigie
+    lasciate o riprese: serve l'attributo `deposito` o `ritiro`, che si può mettere anche su un check-in/out)
+  - Uno `sposta` che arriva proprio alla tappa dopo (stessa destinazione) diventa il suo «come arrivarci»: l'app
+    non lo mostra come riga a sé. Se la tappa dopo è un treno, mettere al treno `dove:` la stazione di partenza.
+  - Ogni mattina l'app mette da sola come prima riga l'hotel della notte prima.
   - Titolo corto: solo il posto o la cosa. Tutto il resto va nei dettagli.
   - attributi: `posto: id` (link della sezione Posti) · `treno: id` · `alloggio: id` · `prenotare` · `prenotato`
     · `città: id` (da qui in poi si è in quella città) · `dove: testo` (ricerca Google Maps se non c'è un posto)
@@ -41,6 +45,10 @@ Regole di Federico:
 - Ogni posto con link diretto (Tripadvisor, o la piattaforma più nota); link verificati, mai inventati.
 - Il sito è pubblico: mai link di conferma, numeri di prenotazione, PIN, numeri di passaporto o dati di pagamento.
 - App: poco testo a colpo d'occhio (titolo corto + dettagli a scomparsa), niente simboli giapponesi.
+  Schede: Itinerario, Attività, Ristoranti, Hotel (con le valigie), Trasporti, Info (Prenotazioni, Soldi, posti…).
+  Un posto = una sola riga: lo spostamento per arrivarci sta dentro la tappa. «Indicazioni» = da dove sei a lì,
+  senza mezzo preimpostato. Ogni mattina si parte dall'hotel. Deposito e ritiro valigie sempre come tappe esplicite.
+  Ricerca globale che capisce nomi scritti male.
 
 Già verificato (non riproporre):
 - Escluse Kanazawa (doppione di Kyoto) e Nara/Himeji (al loro posto la giornata nerd a Osaka il 15/11).
@@ -105,7 +113,7 @@ con: voi due
   breve: treno + metro ~55′
   come: treno Keikyu (la linea privata dell'aeroporto) fino a Daimon, metro linea Ōedo fino a Higashi-Shinjuku, 5′ a piedi
   costo: ~¥800 a testa con la Suica
-- 13:30 hotel Valigie all'Airbnb | alloggio: airbnb-shinjuku
+- 13:30 bagagli Valigie all'Airbnb | alloggio: airbnb-shinjuku | deposito
   breve: deposito valigie · check-in dalle 15
   L'annuncio offre il deposito bagagli: da confermare con l'host.
   Ingresso autonomo con cassetta delle chiavi dalle 15:00.
@@ -180,19 +188,23 @@ con: voi due + il gruppo
 - 08:40 sposta Stazione JR di Shinjuku | via piedi: @airbnb-shinjuku > Shinjuku Station, Tokyo (Airbnb → stazione di Shinjuku)
   breve: a piedi 20′ con le valigie · al binario alle 9:15
   alternativa: taxi 7′ (~¥1.000)
-- 09:30 viaggio Fuji Excursion: Shinjuku → Kawaguchiko | foto: Fuji Excursion | treno: fuji-7 | prenotato
+- 09:30 viaggio Fuji Excursion: Shinjuku → Kawaguchiko | foto: Fuji Excursion | treno: fuji-7 | prenotato | dove: Shinjuku Station, Tokyo
   breve: 9:30 → 11:28 · diretto
   Treno diretto per il Monte Fuji fino a Kawaguchiko (il paese sul lago ai piedi del Fuji).
   Alle 11:14 passa da Shimoyoshida, la stazione della pagoda Chureito.
-- 11:30 sposta Lake Bake | città: kawaguchiko | via taxi: Kawaguchiko Station > #lake-bake (Stazione → Lake Bake)
+- 11:30 bagagli Valigie negli armadietti della stazione | città: kawaguchiko | deposito | dove: Kawaguchiko Station
+  breve: stazione di Kawaguchiko · o con la navetta dell'host
+  Armadietti a gettoni nella stazione; in alternativa l'host del cottage può portarle con la navetta.
+- 11:40 sposta Lake Bake | via taxi: Kawaguchiko Station > #lake-bake (Stazione → Lake Bake)
   breve: taxi 10′ · ~¥2.000
-  bagagli: negli armadietti della stazione, o con la navetta dell'host del cottage
 - 12:00 cibo Lake Bake | posto: lake-bake
   breve: pane sul lago e picnic vista Fuji
   Panetteria sul lago (chiusa il mercoledì). Il bar interno è chiuso: pane da asporto e picnic sulla riva.
   alternativa: se il Fuji è nitido e per domani danno brutto, pagoda [[chureito]] subito (treno 15′)
 - 13:30 sposta Stazione di Kawaguchiko | via taxi: #lake-bake > Kawaguchiko Station (Lake Bake → stazione)
   breve: taxi 10′
+- 13:50 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Kawaguchiko Station
+  breve: prima che arrivino gli amici
 - 14:00 fare Arrivano gli amici | dove: Kawaguchiko Station
   breve: dal bus delle 8:40 da Takayama
 - 14:10 sposta Cottage Pastorale | via taxi: Kawaguchiko Station > @cottage-pastorale (Stazione → Cottage)
@@ -277,12 +289,16 @@ camminata: ~5 km a piedi + 15–20 km in bici · pause: pranzo 1 h, cottage 1 h,
 percorso: kawaguchiko > tokyo
 dorme: saibo
 con: voi due + il gruppo
-- 07:00 sposta Stazione di Shimoyoshida | via mezzi: @cottage-pastorale > Shimoyoshida Station, Fujiyoshida (Cottage → Shimoyoshida)
-  breve: taxi + treno locale ~30′
-  come: taxi fino alla stazione di Kawaguchiko (~10′), treno locale Fujikyu fino a Shimoyoshida (~15′), col gruppo
+- 06:45 hotel Check-out dal cottage (proposta) | alloggio: cottage-pastorale
+  breve: proposta al gruppo: uscire presto con le valigie
+  Il check-out sarebbe entro le 10, ma dopo Honcho Street servono ~40′ per tornare al cottage.
+- 06:55 bagagli Valigie negli armadietti della stazione (proposta) | deposito | dove: Kawaguchiko Station
+  breve: stazione di Kawaguchiko, taxi dal cottage ~10′
+- 07:05 sposta Pagoda Chureito | via mezzi: Kawaguchiko Station > #chureito (Stazione → pagoda Chureito)
+  breve: treno locale 15′ + a piedi 10′ e ~400 scalini
+  come: treno locale Fujikyu da Kawaguchiko a Shimoyoshida (~15′, col gruppo), 10′ a piedi (700 m) e ~400 scalini
   costo: treno ¥310
-- 07:45 sposta Pagoda Chureito | via piedi: Shimoyoshida Station, Fujiyoshida > #chureito (Stazione → pagoda Chureito)
-  breve: a piedi 10′ + ~400 scalini
+  Se tenete il check-out alle 10: taxi dal cottage alla stazione (~10′) e niente armadietti.
 - 08:00 vedere Pagoda Chureito | posto: chureito
   breve: la foto simbolo del Giappone
   Pagoda rossa a 5 piani col Fuji dietro.
@@ -291,12 +307,14 @@ con: voi due + il gruppo
 - 09:00 vedere Honcho Street | posto: honcho-street
   breve: la via col Fuji enorme in fondo
   attenzione: il check-out del cottage è entro le 10 ma da qui servono ~40′. Proposta: check-out alle 6:45 e valigie in stazione
-- 09:45 sposta Kawaguchiko | via mezzi: Shimoyoshida Station, Fujiyoshida > Kawaguchiko Station (Shimoyoshida → Kawaguchiko)
-  breve: treno 15′
+- 09:45 sposta Lago Kawaguchi | via mezzi: Shimoyoshida Station, Fujiyoshida > Lake Kawaguchi (Shimoyoshida → lago)
+  breve: treno 15′ fino a Kawaguchiko
 - 10:15 vedere Tempo libero al lago | foto: Lake Kawaguchi | dove: Lake Kawaguchi
 - 12:00 cibo Pranzo al lago | dove: Kawaguchiko Station
   breve: poi alla stazione
-- 14:09 viaggio Fuji Excursion: Kawaguchiko → Shinjuku | foto: Fuji Excursion | treno: fuji-9 | prenotare
+- 13:45 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Kawaguchiko Station
+  breve: prima del treno
+- 14:09 viaggio Fuji Excursion: Kawaguchiko → Shinjuku | foto: Fuji Excursion | treno: fuji-9 | prenotare | dove: Kawaguchiko Station
   breve: 14:09 → 16:07 (o 15:00 → 16:59)
   Lo compra il gruppo il 9/10: verificate che prenda anche i vostri 2 posti.
 - 16:10 sposta Hotel Saibo | città: tokyo | via mezzi: Shinjuku Station, Tokyo > @saibo (Shinjuku → Hotel Saibo)
@@ -304,7 +322,7 @@ con: voi due + il gruppo
   come: 7′ a piedi ai binari della metro Toei, metro linea Toei Shinjuku fino a Hamachō (22′), 6′ a piedi
   costo: ~¥280
 - 16:45 hotel Check-in all'Hotel Saibo | alloggio: saibo
-  breve: valigia in camera
+  breve: valigie in camera
   Ningyōchō è un quartiere tranquillo vicino a Tokyo Station.
 - 18:00 cibo Spuntino a Ningyōchō | foto: Ningyōchō | dove: Ningyocho, Tokyo
   breve: quartiere di botteghe di dolci
@@ -343,7 +361,9 @@ percorso: tokyo > kamakura > tokyo > kyoto
 dorme: apa-kyoto
 con: voi due + il gruppo, la sera solo voi due
 - 06:30 hotel Check-out dall'Hotel Saibo | alloggio: saibo
-  breve: valigie in deposito fino a sera
+  breve: alle 6:30, prima del treno del gruppo
+- 06:32 bagagli Valigie in deposito all'Hotel Saibo | alloggio: saibo | deposito
+  breve: le riprendete alle 18:40
 - 06:35 sposta Kamakura-kōkō-mae | via mezzi: @saibo > #kokomae (Hotel Saibo → Kamakura-kōkō-mae)
   breve: metro + treno + trenino ~1 h 20
   come: 2′ a piedi alla stazione Ningyōchō, metro Toei Asakusa fino a Shimbashi (10′), treno JR Tōkaidō fino a Fujisawa (~45′), Enoden fino a Kamakura-kōkō-mae (20′)
@@ -375,15 +395,16 @@ con: voi due + il gruppo, la sera solo voi due
   breve: a piedi 8′ · 600 m
 - 14:30 vedere Hase-dera | posto: hase-dera
   breve: tempio con terrazza sul mare · chiude alle 16:30
-- 16:15 sposta Koshigoe | via mezzi: #hase-dera > Koshigoe Station, Kamakura (Hase-dera → Koshigoe)
+- 16:15 sposta Spiaggia di Koshigoe | via mezzi: #hase-dera > Koshigoe Beach, Kamakura (Hase-dera → Koshigoe)
   breve: trenino 10′
 - 16:40 vedere Tramonto sul mare a Koshigoe | foto: Enoshima | dove: Koshigoe Beach, Kamakura
 - 17:05 sposta Hotel Saibo | via mezzi: Koshigoe Station, Kamakura > @saibo (Koshigoe → Hotel Saibo)
   breve: trenino + treno + metro ~1 h 20
   come: Enoden fino a Fujisawa (15′), treno JR fino a Shimbashi (45′) col gruppo, metro Toei Asakusa fino a Ningyōchō (10′)
   attenzione: partite da Fujisawa entro le 17:45 per non perdere lo Shinkansen
-- 18:40 hotel Ritiro valigie all'Hotel Saibo | città: tokyo | alloggio: saibo
-- 18:45 sposta Tokyo Station | via taxi: @saibo > Tokyo Station (Hotel Saibo → Tokyo Station)
+- 18:40 bagagli Ritiro valigie all'Hotel Saibo | città: tokyo | alloggio: saibo | ritiro
+  breve: poi taxi per Tokyo Station
+- 18:45 sposta Gransta, Tokyo Station | via taxi: @saibo > #gransta (Hotel Saibo → Tokyo Station)
   breve: taxi 10′ (a piedi 25′)
 - 19:00 cibo Ekiben da Gransta | posto: gransta
   breve: la cena da mangiare in treno
@@ -523,7 +544,7 @@ con: voi due
   breve: il Padiglione d'Oro · 40′
   Tempio ricoperto di foglia d'oro su un laghetto.
   costo: ¥500
-- 12:45 sposta Ginkaku-ji | via taxi: #kinkaku-ji > #ginkaku-ji (Kinkaku-ji → Ginkaku-ji in taxi) | via mezzi: #kinkaku-ji > #ginkaku-ji (Kinkaku-ji → Ginkaku-ji in bus)
+- 12:45 sposta Ginkakuji-michi | via taxi: #kinkaku-ji > Ginkakuji-michi, Kyoto (Kinkaku-ji → Ginkakuji-michi)
   breve: taxi 25′ o bus 40′
   costo: taxi ~¥3.000 (7 km) · bus 204 con la Suica
 - 13:15 cibo Pranzo in Ginkakuji-michi | dove: Ginkakuji-michi, Kyoto
@@ -589,14 +610,14 @@ con: voi due
   breve: colazione e spuntino in stazione
 - 07:50 sposta Stazione di Kyoto | via piedi: @apa-kyoto > Kyoto Station (Hotel → stazione di Kyoto)
   breve: a piedi 7′ con le valigie · binario 0 alle 8:15
-- 08:31 viaggio Treno Hida 25: Kyoto → Takayama | foto: Hida (train) | treno: hida-13 | prenotato
+- 08:31 viaggio Treno Hida 25: Kyoto → Takayama | foto: Hida (train) | treno: hida-13 | prenotato | dove: Kyoto Station
   breve: 8:31 → 12:14 · diretto
   Takayama è una cittadina antica di legno tra le montagne. Zero cambi con le valigie.
   binario: 0 a Kyoto
   Chiedete da che lato si vede il fiume.
 - 12:15 sposta Spa Hotel Alpina | città: takayama | via piedi: Takayama Station > @alpina (Stazione → Spa Hotel Alpina)
   breve: a piedi 3′
-- 12:20 hotel Valigie allo Spa Hotel Alpina | alloggio: alpina
+- 12:20 bagagli Valigie allo Spa Hotel Alpina | alloggio: alpina | deposito
   breve: check-in dalle 15
   Hotel moderno con onsen (le terme) sul tetto.
 - 12:30 sposta Kotte Ushi | via piedi: @alpina > #kotte-ushi (Hotel → Kotte Ushi)
@@ -622,7 +643,8 @@ con: voi due
   breve: ponte rosso · tramonto 16:50
 - 17:00 sposta Hotel | via piedi: #nakabashi > @alpina (Nakabashi → hotel)
   breve: a piedi 12′
-- 17:15 hotel Check-in allo Spa Hotel Alpina | alloggio: alpina
+- 17:15 hotel Check-in allo Spa Hotel Alpina | alloggio: alpina | ritiro
+  breve: riprendete le valigie dal deposito
 - 18:00 sposta Kitchen Hida | via piedi: @alpina > #kitchen-hida (Hotel → Kitchen Hida)
   breve: a piedi 12′
 - 18:15 cibo Steak House Kitchen Hida | posto: kitchen-hida | prenotare
@@ -665,16 +687,21 @@ con: voi due
   orari: 7–12
 - 07:45 sposta Stazione dei bus Nōhi | via piedi: #mercato-miyagawa > Takayama Nohi Bus Center (Mercato → stazione dei bus)
   breve: a piedi 12′ · accanto alla stazione dei treni
-- 08:10 viaggio Bus per Shirakawa-go | treno: bus-14 | prenotare | via mezzi: Takayama Nohi Bus Center > Shirakawa-go Bus Terminal (Bus per Shirakawa-go)
+- 08:10 viaggio Bus per Shirakawa-go | treno: bus-14 | prenotare | dove: Takayama Nohi Bus Center
   breve: 8:10 → 9:00
   Bus Nōhi, con prenotazione.
   costo: ¥2.600 a testa
   prenotazione: dal 14/10, su japanbusonline.com
 - 09:00 sposta Belvedere Shiroyama | via piedi: Shirakawa-go Bus Terminal > #belvedere-shiroyama (Bus → belvedere)
   breve: a piedi 20′ in salita (o navetta ~¥200)
-- 09:30 vedere Shirakawa-go | posto: shirakawa-go
+- 09:20 vedere Belvedere Shiroyama | posto: belvedere-shiroyama
+  breve: il villaggio visto dall'alto
+  Andateci per primo: luce bassa e pochi gruppi.
+- 09:50 sposta Villaggio di Shirakawa-go | via piedi: #belvedere-shiroyama > #shirakawa-go (Belvedere → villaggio)
+  breve: a piedi 15′ in discesa
+- 10:00 vedere Shirakawa-go | posto: shirakawa-go
   breve: il villaggio dei tetti di paglia (UNESCO)
-  Case gasshō, coi tetti di paglia a punta («mani giunte»). Prima il [[belvedere-shiroyama]] (luce bassa, pochi gruppi), poi il villaggio e [[casa-wada]], l'unica grande casa visitabile.
+  Case gasshō, coi tetti di paglia a punta («mani giunte»). Entrate in [[casa-wada]], l'unica grande casa visitabile.
   attenzione: restate sui sentieri: risaie e case private sono protette. Il sabato è il giorno più affollato
 - 12:15 cibo Pranzo a Shirakawa-go | foto: Shirakawa-gō | dove: Shirakawa-go Ogimachi
   breve: verso mezzogiorno, prima della folla
@@ -726,19 +753,19 @@ con: voi due
 - 12:00 sposta Hotel Hillarys | città: osaka | via mezzi: Shin-Osaka Station > @hillarys (Shin-Osaka → Hotel Hillarys)
   breve: metro 15′ + a piedi 4′
   come: metro Midōsuji da Shin-Osaka a Shinsaibashi
-- 12:20 hotel Valigie all'Hotel Hillarys | alloggio: hillarys
+- 12:20 bagagli Valigie all'Hotel Hillarys | alloggio: hillarys | deposito
   breve: check-in dalle 15
 - 12:25 sposta Dōtonbori | via piedi: @hillarys > #dotonbori (Hotel → Dōtonbori)
   breve: a piedi 10′
 - 12:35 cibo Street food a Dōtonbori | posto: dotonbori
   breve: takoyaki (polpette di polpo)
   Dōtonbori è il canale coi neon giganti, il cuore di Osaka.
-- 13:30 sposta Den Den Town | via piedi: #dotonbori > #super-potato (Dōtonbori → Den Den Town)
+- 13:30 sposta Den Den Town | via piedi: #dotonbori > #den-den-town (Dōtonbori → Den Den Town)
   breve: a piedi 15′
 - 13:45 fare Den Den Town | posto: den-den-town
   breve: il quartiere nerd di Osaka
   L'Akihabara di Osaka: [[super-potato]] (videogiochi retro, weekend 10–20), [[mandarake]] (manga, figure e giochi usati, 12–20), Animate (negozio di anime), sale giochi.
-- 15:15 sposta Shinsekai | via piedi: #super-potato > #tsutenkaku (Den Den Town → Shinsekai)
+- 15:15 sposta Shinsekai | via piedi: #den-den-town > #shinsekai (Den Den Town → Shinsekai)
   breve: a piedi 12′
 - 15:30 vedere Shinsekai | posto: shinsekai
   breve: quartiere retrò anni '50 · torre al tramonto (16:55)
@@ -748,7 +775,8 @@ con: voi due
 - 17:10 sposta Hotel Hillarys | via mezzi: #tsutenkaku > @hillarys (Shinsekai → Hotel Hillarys)
   breve: metro 8′ + a piedi 4′
   come: metro Midōsuji da Dōbutsuen-mae a Shinsaibashi
-- 17:30 hotel Check-in all'Hotel Hillarys | alloggio: hillarys
+- 17:30 hotel Check-in all'Hotel Hillarys | alloggio: hillarys | ritiro
+  breve: riprendete le valigie dal deposito
 - 18:00 sposta Fukutaro | via piedi: @hillarys > #fukutaro (Hotel → Fukutaro)
   breve: a piedi 12′
 - 18:15 cibo Fukutaro | posto: fukutaro
@@ -786,10 +814,11 @@ percorso: osaka > tokyo
 dorme: super-hotel
 con: voi due
 - 07:15 hotel Check-out dall'Hotel Hillarys | alloggio: hillarys
-- 07:20 sposta Universal Studios Japan | via mezzi: @hillarys > #usj (Hotel → Universal Studios)
+- 07:20 sposta Armadietti di Universal Studios | via mezzi: @hillarys > Universal Studios Japan lockers (Hotel → Universal Studios)
   breve: metro + treno ~35′
   come: 4′ a piedi, metro Midōsuji da Shinsaibashi a Umeda (6′, la stazione centrale di Osaka), treno JR da Osaka a Universal City (~15′, diretto o cambio a Nishikujō)
-  bagagli: negli armadietti grandi fuori dai cancelli: sono pochi, arrivate all'apertura
+- 07:55 bagagli Valigie negli armadietti grandi | deposito | dove: Universal Studios Japan lockers
+  breve: fuori dai cancelli · sono pochi: arrivate presto
 - 08:00 fare Super Nintendo World | posto: usj | prenotare
   breve: il mondo di Mario dentro Universal Studios
   Mario Kart, Yoshi, Donkey Kong Country (montagne russe nella miniera).
@@ -800,20 +829,21 @@ con: voi due
   breve: prima delle 11:30 o dopo le 13:30
 - 14:00 fare Harry Potter, Jurassic Park, Minion | posto: usj
 - 16:00 fare Hollywood Dream, poi uscita | posto: usj
-  breve: montagne russe · uscita entro le 18:15
-  Ritirate le valigie dagli armadietti.
+  breve: montagne russe · uscita entro le 18:10
+- 18:10 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Universal Studios Japan lockers
+  breve: poi treno per Shin-Osaka
 - 18:20 sposta Shin-Osaka | via mezzi: Universal City Station, Osaka > Shin-Osaka Station (Universal Studios → Shin-Osaka)
   breve: treno ~30′ con 2 cambi
   come: treno JR da Universal City, cambi a Nishikujō e Osaka
   Comprate un ekiben (cestino da treno) per la cena.
-- 20:00 viaggio Shinkansen Shin-Osaka → Tokyo | foto: Tōkaidō Shinkansen | treno: shink-16 | prenotato
+- 20:00 viaggio Shinkansen Shin-Osaka → Tokyo | foto: Tōkaidō Shinkansen | treno: shink-16 | prenotato | dove: Shin-Osaka Station
   breve: 20:00 → 22:24 · Nozomi 280
   Ultimo treno utile alle 21:24.
 - 22:30 sposta Super Hotel Hamamatsuchō | città: tokyo | via mezzi: Tokyo Station > @super-hotel (Tokyo Station → Super Hotel)
   breve: treno 6′ + a piedi 4′
   come: treno JR (linea Yamanote o Keihin-Tōhoku) fino a Hamamatsuchō
 - 22:50 hotel Check-in al Super Hotel | alloggio: super-hotel
-  breve: entro le 24:00
+  breve: entro le 24:00 · valigie in camera
 
 #### Guida
 senso: Universal Studios Japan con Super Nintendo World (il mondo di Mario), poi Shinkansen per Tokyo la sera.
@@ -842,7 +872,7 @@ con: voi due
   breve: colazione: sushi, tamagoyaki, ostriche · contanti
   L'ex mercato del pesce. Tamagoyaki: frittata dolce arrotolata.
   alternativa: go-kart per le strade (serve la patente internazionale)
-- 10:15 sposta Ginza | via piedi: #tsukiji > #depachika-ginza (Tsukiji → Ginza)
+- 10:15 sposta Ginza | via piedi: #tsukiji > Ginza, Tokyo (Tsukiji → Ginza)
   breve: a piedi 12′
 - 10:30 vedere Ginza | foto: Ginza | dove: Ginza, Tokyo
   breve: vetrine e grandi magazzini

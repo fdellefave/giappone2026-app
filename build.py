@@ -21,7 +21,7 @@ OUT = ROOT / "data.json"
 
 CITIES = {"roma": "Roma", "tokyo": "Tokyo", "kawaguchiko": "Kawaguchiko", "kamakura": "Kamakura",
           "kyoto": "Kyoto", "takayama": "Takayama", "osaka": "Osaka"}
-TYPES = ("vedere", "fare", "cibo", "sposta", "viaggio", "hotel")
+TYPES = ("vedere", "fare", "cibo", "sposta", "viaggio", "hotel", "bagagli")
 DETAIL = {"come": "Come arrivare", "costo": "Costo", "orari": "Orari", "binario": "Binario", "bagagli": "Valigie",
           "prenotazione": "Prenotazione", "attenzione": "Attenzione", "alternativa": "In alternativa"}
 MODE = {"mezzi": "transit", "piedi": "walking", "taxi": "driving"}
@@ -280,15 +280,20 @@ def parse_item(line, details, did, city, places, hotels, trains, tz_day):
             item["status"] = "todo"
         elif a == "prenotato":
             item["status"] = "ok"
+        elif a == "deposito":
+            item["bag"] = "in"
+        elif a == "ritiro":
+            item["bag"] = "out"
         elif a.startswith("via "):
             v = VIA.match(a)
             if not v:
                 err(f"{where}: «via» non riconosciuto «{a[:50]}»")
                 continue
             mode_it, o, d, lab = v.groups()
+            dq = resolve(d, places, hotels, where)
             url = ("https://www.google.com/maps/dir/?api=1&origin=" + quote(resolve(o, places, hotels, where)) +
-                   "&destination=" + quote(resolve(d, places, hotels, where)) + "&travelmode=" + MODE[mode_it])
-            item.setdefault("routes", []).append({"label": lab or "Indicazioni", "mode": MODE[mode_it], "url": url})
+                   "&destination=" + quote(dq) + "&travelmode=" + MODE[mode_it])
+            item.setdefault("routes", []).append({"label": lab or "Indicazioni", "mode": MODE[mode_it], "url": url, "to": dq})
         else:
             err(f"{where}: attributo sconosciuto «{a[:40]}»")
     det = []
@@ -317,14 +322,35 @@ def parse_item(line, details, did, city, places, hotels, trains, tz_day):
         item["dest"] = item["q"]
     elif "hotel" in item and item["hotel"] in hotels:
         item["dest"] = hotels[item["hotel"]]["q"]
+    elif kind == "sposta" and item.get("routes"):
+        item["dest"] = item["routes"][0]["to"]
+    if kind == "bagagli" and "bag" not in item:
+        err(f"{where}: per le valigie serve «deposito» o «ritiro»")
     item["city"] = "transit" if kind == "viaggio" else city
     if kind == "sposta" and not item.get("routes"):
         warn(f"{where}: spostamento senza «via»")
     return item, city
 
 
+def morning_and_legs(did, items, prev_sleep, hotels):
+    """Ogni mattina si parte dall'hotel; lo spostamento verso la tappa successiva diventa il suo «come arrivarci»."""
+    if items and prev_sleep in hotels and items[0]["k"] not in ("hotel", "bagagli"):
+        h, first = hotels[prev_sleep], items[0]
+        items.insert(0, {"t": first["t"], "k": "hotel", "title": h["name"], "short": "si parte da qui",
+                         "hotel": prev_sleep, "dest": h["q"], "start": True, "tz": first["tz"], "at": first["at"],
+                         "city": h["cityId"]})
+    for i, it in enumerate(items[:-1]):
+        nx = items[i + 1]
+        if it["k"] == "sposta" and nx["k"] not in ("sposta",) and it.get("dest") and it["dest"] == nx.get("dest"):
+            it["merged"] = True
+            nx["leg"] = i
+        elif it["k"] == "sposta":
+            warn(f"{did} {it['t']}: lo spostamento «{it['title']}» non porta alla tappa dopo (resta una riga a sé)")
+
+
 def parse_days(lines, places, hotels, trains):
     days = []
+    prev_sleep = None
     for n, (did, body) in enumerate(entries(lines), start=1):
         try:
             date = dt.date.fromisoformat(did)
@@ -369,6 +395,8 @@ def parse_days(lines, places, hotels, trains):
                 warn(f"{did}: orario fuori ordine {item['t']} dopo {last['t']}")
             last = item
             items.append(item)
+        morning_and_legs(did, items, prev_sleep, hotels)
+        prev_sleep = f.get("dorme", "")
         guide, key = {}, None
         for line in guide_l:
             m = KV.match(line.strip())

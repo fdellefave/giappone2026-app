@@ -1,10 +1,9 @@
 # Giappone 2026 — guida tascabile
 
-Sito per iPhone del viaggio in Giappone (5–18 novembre 2026): programma giorno per giorno (ogni tappa è una
-riga corta che si apre con dettagli, link e indicazioni Google Maps), l'app si apre da sola sulla tappa di
-adesso e mette in grigio quelle passate (fusi di Roma e Tokyo), foto delle tappe da Wikipedia, giro del giorno
-su Google Maps, prenotazioni con cosa manca
-e chi ha pagato, conti tra i due viaggiatori, convertitore yen/euro e glossario.
+Sito per iPhone del viaggio in Giappone (5–18 novembre 2026). Schede: Itinerario, Attività, Ristoranti,
+Hotel (con deposito e ritiro valigie), Trasporti e Info (prenotazioni, soldi, posti, parole). Ogni tappa è una riga
+che si apre con foto, dettagli, come arrivarci e «Indicazioni» su Google Maps; l'app si apre da sola sulla tappa di
+adesso (fusi di Roma e Tokyo). Ricerca globale che capisce anche i nomi scritti male.
 Si installa sulla Home (Safari → Condividi → «Aggiungi alla schermata Home») e funziona anche senza rete
 dopo la prima apertura.
 
