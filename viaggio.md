@@ -2,8 +2,8 @@
 
 Unica fonte di verità del viaggio (5–18 novembre 2026, Federico + un amico). Il sito
 https://fdellefave.github.io/giappone2026-app/ si genera da questo file con `python3 build.py`.
-Dopo ogni modifica: build, controllo degli avvisi, commit e push su `fdellefave/giappone2026-app`,
-poi copia aggiornata di questo file nel progetto Claude «Giappone» (`viaggio.md`).
+Dopo ogni modifica: build, controllo degli avvisi, commit e push su `fdellefave/giappone2026-app`.
+Questo file vive solo qui: non tenerne copie nel progetto Claude «Giappone».
 
 ## Sintassi
 
