@@ -115,7 +115,7 @@ def parse_places(lines):
             "id": pid, "name": f.get("nome", pid), "type": f.get("tipo", ""), "cityId": f.get("città"),
             "city": CITIES.get(f.get("città"), f.get("città")), "day": f.get("giorno", ""), "note": f.get("nota", ""),
             "q": f.get("maps", f.get("nome", pid)), "ta": f.get("tripadvisor"), "tabelog": f.get("tabelog"),
-            "score": f.get("voto"), "web": f.get("sito"), "map": f.get("mappa", "sì") != "no",
+            "score": f.get("voto"), "web": f.get("sito"), "map": f.get("mappa", "sì") != "no", "photo": f.get("foto"),
         }
         p["maps"] = gmaps(p["q"])
         p["link"] = best_link(p)
@@ -267,6 +267,8 @@ def parse_item(line, details, did, city, places, hotels, trains, tz_day):
             if c not in CITIES:
                 err(f"{where}: città sconosciuta «{c}»")
             city = c
+        elif a.startswith("foto: "):
+            item["photo"] = a[6:].strip()
         elif a.startswith("dove: "):
             item["q"] = a[6:].strip()
         elif a.startswith("fuso: "):
@@ -307,6 +309,8 @@ def parse_item(line, details, did, city, places, hotels, trains, tz_day):
     if item.get("status") == "ok" and "train" in item and trains[item["train"]]["status"] == "pagato":
         item["status"] = "paid"
     # destinazione per «Portami qui» e per la mappa
+    if "place" in item and "photo" not in item and places[item["place"]].get("photo"):
+        item["photo"] = places[item["place"]]["photo"]
     if "place" in item:
         item["dest"] = places[item["place"]]["q"]
     elif "q" in item:

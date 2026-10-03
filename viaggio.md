@@ -16,11 +16,14 @@ Questo file vive solo qui: non tenerne copie nel progetto Claude «Giappone».
   - Titolo corto: solo il posto o la cosa. Tutto il resto va nei dettagli.
   - attributi: `posto: id` (link della sezione Posti) · `treno: id` · `alloggio: id` · `prenotare` · `prenotato`
     · `città: id` (da qui in poi si è in quella città) · `dove: testo` (ricerca Google Maps se non c'è un posto)
-    · `fuso: roma` (orario italiano) · `via mezzi|piedi|taxi: DA > A (etichetta)` = indicazioni Google Maps
+    · `fuso: roma` (orario italiano) · `foto: titolo` (pagina di Wikipedia in inglese da cui prendere la foto)
+    · `via mezzi|piedi|taxi: DA > A (etichetta)` = indicazioni Google Maps
     (DA e A: `#posto`, `@alloggio` o testo libero).
   - righe di dettaglio: `breve:` (riga corta sotto il titolo, si vede sempre), poi `come:`, `costo:`, `orari:`,
     `binario:`, `bagagli:`, `prenotazione:`, `attenzione:`, `alternativa:` oppure testo libero.
     `[[id]]` nel testo = link a un posto della sezione Posti.
+- Posti: `foto: titolo` = pagina di Wikipedia in inglese (posto, piatto o zona) da cui l'app prende la foto;
+  se il titolo non esiste l'app mostra l'icona del tipo.
 - `#### Guida` dentro un giorno: campi `senso, mangiare, prenotare, attenzione, anticipo, stanchi, camminata`.
   Testo su una riga, oppure punti su righe seguenti che iniziano con `  • `.
 - Testo che vede l'utente: italiano semplice, ogni termine giapponese spiegato tra parentesi, prezzi in yen
@@ -72,10 +75,10 @@ percorso: roma
 dorme: volo
 con: voi due
 fuso: roma
-- 11:00 viaggio Aeroporto di Fiumicino | dove: Aeroporto di Roma Fiumicino Terminal 1
+- 11:00 viaggio Aeroporto di Fiumicino | foto: Leonardo da Vinci–Fiumicino Airport | dove: Aeroporto di Roma Fiumicino Terminal 1
   breve: check-in e controlli
   Pranzo in aeroporto prima dei controlli.
-- 15:05 viaggio Volo AZ792 Roma → Tokyo Haneda | prenotato
+- 15:05 viaggio Volo AZ792 Roma → Tokyo Haneda | foto: ITA Airways | prenotato
   breve: 15:05 → 11:20 di domani (ora di Tokyo) · ~12 h
   Provate a dormire nella seconda metà del volo: si atterra a mezzogiorno e domani è lunga.
 
@@ -94,7 +97,7 @@ camminata: ~2 km · volo ~12 h
 percorso: tokyo
 dorme: airbnb-shinjuku
 con: voi due
-- 11:20 viaggio Atterraggio a Haneda, Terminal 3 | dove: Haneda Airport Terminal 3
+- 11:20 viaggio Atterraggio a Haneda, Terminal 3 | foto: Haneda Airport | dove: Haneda Airport Terminal 3
   breve: passaporti e dogana ~1 h
   Tenete pronti i QR di Visit Japan Web (il modulo online d'ingresso) per passaporti e dogana.
   Attivate l'e-SIM e la Suica sul telefono (la tessera ricaricabile per metro e treni).
@@ -177,7 +180,7 @@ con: voi due + il gruppo
 - 08:40 sposta Stazione JR di Shinjuku | via piedi: @airbnb-shinjuku > Shinjuku Station, Tokyo (Airbnb → stazione di Shinjuku)
   breve: a piedi 20′ con le valigie · al binario alle 9:15
   alternativa: taxi 7′ (~¥1.000)
-- 09:30 viaggio Fuji Excursion: Shinjuku → Kawaguchiko | treno: fuji-7 | prenotato
+- 09:30 viaggio Fuji Excursion: Shinjuku → Kawaguchiko | foto: Fuji Excursion | treno: fuji-7 | prenotato
   breve: 9:30 → 11:28 · diretto
   Treno diretto per il Monte Fuji fino a Kawaguchiko (il paese sul lago ai piedi del Fuji).
   Alle 11:14 passa da Shimoyoshida, la stazione della pagoda Chureito.
@@ -237,13 +240,13 @@ camminata: ~10 km (salita al Tenku no Torii) · treno 2 h · pause: pranzo 1 h 1
 percorso: kawaguchiko
 dorme: cottage-pastorale
 con: voi due + il gruppo
-- 08:00 fare Giro del lago in bici | dove: Lake Kawaguchi
+- 08:00 fare Giro del lago in bici | foto: Lake Kawaguchi | dove: Lake Kawaguchi
   breve: col gruppo · bici tramite il cottage
   La pagoda Chureito e Honcho Street si fanno il 9/11.
 - 13:00 cibo Miura Udon | posto: miura-udon
   breve: pranzo, se passate da Fujiyoshida · solo 10–14
   Udon spessi e sodi tipici della zona (Tabelog 3,65). Chiuso il mercoledì.
-- 14:00 vedere Panorami sul Fuji | dove: Oishi Park, Fujikawaguchiko
+- 14:00 vedere Panorami sul Fuji | foto: Mount Fuji | dove: Oishi Park, Fujikawaguchiko
   breve: per esempio Oishi Park, sulla sponda nord
 - 16:00 fare Onsen o funivia Kachi Kachi | posto: funivia-kachi-kachi
   breve: terme con vista Fuji o funivia sul lago
@@ -290,10 +293,10 @@ con: voi due + il gruppo
   attenzione: il check-out del cottage è entro le 10 ma da qui servono ~40′. Proposta: check-out alle 6:45 e valigie in stazione
 - 09:45 sposta Kawaguchiko | via mezzi: Shimoyoshida Station, Fujiyoshida > Kawaguchiko Station (Shimoyoshida → Kawaguchiko)
   breve: treno 15′
-- 10:15 vedere Tempo libero al lago | dove: Lake Kawaguchi
+- 10:15 vedere Tempo libero al lago | foto: Lake Kawaguchi | dove: Lake Kawaguchi
 - 12:00 cibo Pranzo al lago | dove: Kawaguchiko Station
   breve: poi alla stazione
-- 14:09 viaggio Fuji Excursion: Kawaguchiko → Shinjuku | treno: fuji-9 | prenotare
+- 14:09 viaggio Fuji Excursion: Kawaguchiko → Shinjuku | foto: Fuji Excursion | treno: fuji-9 | prenotare
   breve: 14:09 → 16:07 (o 15:00 → 16:59)
   Lo compra il gruppo il 9/10: verificate che prenda anche i vostri 2 posti.
 - 16:10 sposta Hotel Saibo | città: tokyo | via mezzi: Shinjuku Station, Tokyo > @saibo (Shinjuku → Hotel Saibo)
@@ -303,7 +306,7 @@ con: voi due + il gruppo
 - 16:45 hotel Check-in all'Hotel Saibo | alloggio: saibo
   breve: valigia in camera
   Ningyōchō è un quartiere tranquillo vicino a Tokyo Station.
-- 18:00 cibo Spuntino a Ningyōchō | dove: Ningyocho, Tokyo
+- 18:00 cibo Spuntino a Ningyōchō | foto: Ningyōchō | dove: Ningyocho, Tokyo
   breve: quartiere di botteghe di dolci
 - 18:20 sposta teamLab Planets | via mezzi: @saibo > #teamlab (Hotel Saibo → teamLab)
   breve: metro ~35′ o taxi 20′
@@ -374,7 +377,7 @@ con: voi due + il gruppo, la sera solo voi due
   breve: tempio con terrazza sul mare · chiude alle 16:30
 - 16:15 sposta Koshigoe | via mezzi: #hase-dera > Koshigoe Station, Kamakura (Hase-dera → Koshigoe)
   breve: trenino 10′
-- 16:40 vedere Tramonto sul mare a Koshigoe | dove: Koshigoe Beach, Kamakura
+- 16:40 vedere Tramonto sul mare a Koshigoe | foto: Enoshima | dove: Koshigoe Beach, Kamakura
 - 17:05 sposta Hotel Saibo | via mezzi: Koshigoe Station, Kamakura > @saibo (Koshigoe → Hotel Saibo)
   breve: trenino + treno + metro ~1 h 20
   come: Enoden fino a Fujisawa (15′), treno JR fino a Shimbashi (45′) col gruppo, metro Toei Asakusa fino a Ningyōchō (10′)
@@ -385,7 +388,7 @@ con: voi due + il gruppo, la sera solo voi due
 - 19:00 cibo Ekiben da Gransta | posto: gransta
   breve: la cena da mangiare in treno
   Ekiben: il cestino-pranzo da treno. A Gransta, dentro la stazione, ce ne sono oltre 150 tipi.
-- 20:09 viaggio Shinkansen Tokyo → Kyoto | treno: shink-10 | prenotato
+- 20:09 viaggio Shinkansen Tokyo → Kyoto | foto: Tōkaidō Shinkansen | treno: shink-10 | prenotato
   breve: 20:09 → 22:21 · Nozomi 287
   Lo Shinkansen è il treno superveloce. Cena a bordo con l'ekiben.
   attenzione: valigia oltre 160 cm (somma dei lati): serve il posto con spazio bagagli, verificate il biglietto
@@ -586,7 +589,7 @@ con: voi due
   breve: colazione e spuntino in stazione
 - 07:50 sposta Stazione di Kyoto | via piedi: @apa-kyoto > Kyoto Station (Hotel → stazione di Kyoto)
   breve: a piedi 7′ con le valigie · binario 0 alle 8:15
-- 08:31 viaggio Treno Hida 25: Kyoto → Takayama | treno: hida-13 | prenotato
+- 08:31 viaggio Treno Hida 25: Kyoto → Takayama | foto: Hida (train) | treno: hida-13 | prenotato
   breve: 8:31 → 12:14 · diretto
   Takayama è una cittadina antica di legno tra le montagne. Zero cambi con le valigie.
   binario: 0 a Kyoto
@@ -629,7 +632,7 @@ con: voi due
   prenotazione: ore 18:00 per 2, online
 - 20:00 sposta Hotel | via piedi: #kitchen-hida > @alpina (Kitchen Hida → hotel)
   breve: a piedi 12′
-- 20:15 fare Onsen sul tetto | alloggio: alpina
+- 20:15 fare Onsen sul tetto | foto: Onsen | alloggio: alpina
   breve: terme panoramiche dell'hotel, fino all'1:00
   attenzione: con tatuaggi visibili l'ingresso può essere negato
 
@@ -673,7 +676,7 @@ con: voi due
   breve: il villaggio dei tetti di paglia (UNESCO)
   Case gasshō, coi tetti di paglia a punta («mani giunte»). Prima il [[belvedere-shiroyama]] (luce bassa, pochi gruppi), poi il villaggio e [[casa-wada]], l'unica grande casa visitabile.
   attenzione: restate sui sentieri: risaie e case private sono protette. Il sabato è il giorno più affollato
-- 12:15 cibo Pranzo a Shirakawa-go | dove: Shirakawa-go Ogimachi
+- 12:15 cibo Pranzo a Shirakawa-go | foto: Shirakawa-gō | dove: Shirakawa-go Ogimachi
   breve: verso mezzogiorno, prima della folla
 - 13:30 viaggio Bus per Takayama | treno: bus-14 | prenotare | via mezzi: Shirakawa-go Bus Terminal > @alpina (Shirakawa-go → hotel)
   breve: ~50′ · corsa tra le 13:30 e le 14:30
@@ -715,9 +718,9 @@ dorme: hillarys
 con: voi due
 - 07:40 hotel Check-out dall'Alpina | alloggio: alpina | via piedi: @alpina > Takayama Station (Hotel → stazione di Takayama)
   breve: colazione veloce · 3′ a piedi alla stazione
-- 08:00 viaggio Treno Hida: Takayama → Nagoya | treno: hida-15 | prenotato
+- 08:00 viaggio Treno Hida: Takayama → Nagoya | foto: Hida (train) | treno: hida-15 | prenotato
   breve: 8:00 → 10:34 · Hida 4
-- 10:58 viaggio Shinkansen Nagoya → Shin-Osaka | treno: shink-15 | prenotato
+- 10:58 viaggio Shinkansen Nagoya → Shin-Osaka | foto: Tōkaidō Shinkansen | treno: shink-15 | prenotato
   breve: 10:58 → 11:48 · Nozomi 247 · cambio di 24′
   Shin-Osaka è la stazione dello Shinkansen di Osaka, diversa dalla stazione centrale.
 - 12:00 sposta Hotel Hillarys | città: osaka | via mezzi: Shin-Osaka Station > @hillarys (Shin-Osaka → Hotel Hillarys)
@@ -803,7 +806,7 @@ con: voi due
   breve: treno ~30′ con 2 cambi
   come: treno JR da Universal City, cambi a Nishikujō e Osaka
   Comprate un ekiben (cestino da treno) per la cena.
-- 20:00 viaggio Shinkansen Shin-Osaka → Tokyo | treno: shink-16 | prenotato
+- 20:00 viaggio Shinkansen Shin-Osaka → Tokyo | foto: Tōkaidō Shinkansen | treno: shink-16 | prenotato
   breve: 20:00 → 22:24 · Nozomi 280
   Ultimo treno utile alle 21:24.
 - 22:30 sposta Super Hotel Hamamatsuchō | città: tokyo | via mezzi: Tokyo Station > @super-hotel (Tokyo Station → Super Hotel)
@@ -841,7 +844,7 @@ con: voi due
   alternativa: go-kart per le strade (serve la patente internazionale)
 - 10:15 sposta Ginza | via piedi: #tsukiji > #depachika-ginza (Tsukiji → Ginza)
   breve: a piedi 12′
-- 10:30 vedere Ginza | dove: Ginza, Tokyo
+- 10:30 vedere Ginza | foto: Ginza | dove: Ginza, Tokyo
   breve: vetrine e grandi magazzini
   Il quartiere elegante dei grandi magazzini.
   alternativa: [[kabuki-za]], un solo atto di teatro kabuki (~1 h, sottotitoli in inglese)
@@ -923,7 +926,7 @@ con: voi due
 - 10:15 viaggio Tax-free e check-in | dove: Haneda Airport Terminal 3
   breve: check-in ITA entro le 12:20
   attenzione: il rimborso tax-free (l'IVA sugli acquisti) si fa al terminale apposito PRIMA di imbarcare le valigie
-- 13:20 viaggio Volo AZ793 Tokyo → Roma | prenotato
+- 13:20 viaggio Volo AZ793 Tokyo → Roma | foto: ITA Airways | prenotato
   breve: 13:20 → 20:25 (ora italiana)
 - 20:25 viaggio Arrivo a Fiumicino | fuso: roma | dove: Aeroporto di Roma Fiumicino
   breve: bentornati
@@ -1392,6 +1395,7 @@ maps: 風雲児 東京都渋谷区代々木2-14-3
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g14133713-d1679642-Reviews-Fuunji-Yoyogi_Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
 tabelog: https://tabelog.com/tokyo/A1304/A130401/13044091/
 voto: 3,77
+foto: Tsukemen
 
 ### kura-sushi
 nome: Kura Sushi Asakusa ROX (piano B)
@@ -1404,6 +1408,7 @@ tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g1066461-d19976904-Re
 tabelog: https://tabelog.com/tokyo/A1311/A131102/13243597/
 voto: 3,08
 mappa: no
+foto: Conveyor belt sushi
 
 ### senso-ji
 nome: Senso-ji + Nakamise
@@ -1414,6 +1419,7 @@ nota: Sala principale fino alle 17, area sempre aperta; illuminato la sera
 maps: Senso-ji Asakusa Tokyo
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14134311-d320447-Reviews-Senso_ji_Temple-Asakusa_Taito_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.senso-ji.jp/english/
+foto: Sensō-ji
 
 ### azuma-bashi
 nome: Ponte Azuma-bashi (tramonto + Skytree)
@@ -1422,6 +1428,7 @@ città: tokyo
 giorno: 6/11
 nota: 16:30, tramonto 16:42
 maps: Azumabashi Bridge Tokyo
+foto: Azuma Bridge
 
 ### kappabashi
 nome: Kappabashi (se in anticipo)
@@ -1433,6 +1440,7 @@ maps: Kappabashi Dougu Street Tokyo
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066461-d324970-Reviews-Kappabashi_Street_Kappabashi_Dogugai-Taito_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://kappabashi.or.jp/en/overview
 mappa: no
+foto: Kappabashi
 
 ### sumo-club
 nome: Asakusa Sumo Club
@@ -1445,6 +1453,7 @@ tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14134311-d27189884-R
 tabelog: https://tabelog.com/en/tokyo/A1311/A131102/13292875/
 voto: 3,02
 sito: https://asakusa-sumo.com/reserve/
+foto: Sumo
 
 ### hey-akihabara
 nome: HEY — Hirose Entertainment Yard
@@ -1455,6 +1464,7 @@ nota: Cabinati retro e moderni, fino alle 23:45
 maps: HEY Hirose Entertainment Yard Akihabara
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066443-d10094606-Reviews-Hey-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.taito.co.jp/store/00001703
+foto: Akihabara
 
 ### gigo-akihabara
 nome: GiGO Akihabara
@@ -1465,6 +1475,7 @@ nota: UFO catcher, ritmo, picchiaduro
 maps: GiGO Akihabara
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066443-d10094610-Reviews-GiGO_Akihabara_1st-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.gigo.co.jp/en/shops/akihabara3
+foto: Akihabara
 
 ### taito-station
 nome: Taito Station Akihabara
@@ -1474,6 +1485,7 @@ giorno: 6/11
 nota: Fino alle 23–23:30
 maps: Taito Station Akihabara
 sito: https://www.taito.co.jp/store/00001802
+foto: Akihabara
 
 ### godzilla
 nome: Testa di Godzilla (Hotel Gracery)
@@ -1484,6 +1496,7 @@ nota: Kabukichō, 7′ dalla stazione di Shinjuku
 maps: Godzilla Head Hotel Gracery Shinjuku
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14133667-d8048204-Reviews-Godzilla_Road_Head-Kabukicho_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://gracery.com/shinjuku/page/godzilla/en/
+foto: Shinjuku Toho Building
 
 ### lake-bake
 nome: Lake Bake
@@ -1496,6 +1509,7 @@ tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g1165976-d7486115-Rev
 tabelog: https://tabelog.com/en/yamanashi/A1903/A190303/19004468/
 voto: 3,62
 sito: http://lakebake.com/shop.html
+foto: Lake Kawaguchi
 
 ### tenku-no-torii
 nome: Tenku no Torii
@@ -1506,6 +1520,7 @@ nota: Col gruppo 15:30 · chiude verso le 16:00
 maps: Tenku no Torii Fujikawaguchiko
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1165976-d26832180-Reviews-Tenku_no_torii-Fujikawaguchiko_machi_Minamitsuru_gun_Yamanashi_Prefecture_Koshi.html
 sito: https://en.kawaguchiko.net/?p=9830
+foto: Torii
 
 ### momiji-corridor
 nome: Momiji Corridor (festival del foliage)
@@ -1516,6 +1531,7 @@ nota: Illuminazione dal tramonto alle 21:00
 maps: Momiji Corridor Kawaguchiko
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1165976-d10019717-Reviews-Fuji_Lake_Kawaguchi_Koyo_Festival-Fujikawaguchiko_machi_Minamitsuru_gun_Yamanas.html
 sito: https://en.kawaguchiko.net/event-en/fujikawaguchiko-momiji-festival/
+foto: Acer palmatum
 
 ### hoto-fudo
 nome: Hoto Fudo — Kawaguchiko Kita (sede principale)
@@ -1526,6 +1542,7 @@ nota: Cena col gruppo · 11–20, chiude prima se finiscono i noodles · contant
 maps: ほうとう不動 河口湖北本店 富士河口湖町河口707
 tabelog: https://tabelog.com/en/yamanashi/A1903/A190303/19000116/
 voto: 3,48
+foto: Hōtō
 
 ### hoto-fudo-higashi
 nome: Hoto Fudo — Higashi-Koiji (alternativa)
@@ -1538,6 +1555,7 @@ tripadvisor: https://tripadvisor.com/Restaurant_Review-g1165976-d4357940-Reviews
 tabelog: https://tabelog.com/en/yamanashi/A1903/A190303/19004418/
 voto: 3,48
 mappa: no
+foto: Hōtō
 
 ### funivia-kachi-kachi
 nome: Mt. Fuji Panoramic Ropeway (Kachi Kachi)
@@ -1548,6 +1566,7 @@ nota: 8:30–17:00, A/R ¥1.000 · solo se il Fuji è scoperto
 maps: Mt. Fuji Panoramic Ropeway
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1165976-d1368670-Reviews-Mt_Fuji_Panoramic_Ropeway-Fujikawaguchiko_machi_Minamitsuru_gun_Yamanashi_Prefec.html
 sito: https://www.mtfujiropeway.jp/
+foto: Lake Kawaguchi
 
 ### miura-udon
 nome: Miura Udon
@@ -1559,6 +1578,7 @@ maps: みうらうどん 富士吉田市下吉田1-22-5
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g681223-d7434035-Reviews-Miura_Udon-Fujiyoshida_Yamanashi_Prefecture_Koshinetsu_Chubu.html
 tabelog: https://tabelog.com/yamanashi/A1903/A190301/19000359/
 voto: 3,65
+foto: Udon
 
 ### chureito
 nome: Chureito Pagoda
@@ -1569,6 +1589,7 @@ nota: Col gruppo alle 8:00 · ~400 scalini
 maps: Chureito Pagoda Fujiyoshida
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g681223-d12132064-Reviews-Chureito_Pagoda-Fujiyoshida_Yamanashi_Prefecture_Koshinetsu_Chubu.html
 sito: https://fujiyoshida.net/spot/12
+foto: Arakurayama Sengen Park
 
 ### honcho-street
 nome: Honcho Street
@@ -1579,6 +1600,7 @@ nota: Il Fuji in fondo alla via
 maps: Honcho Street Fujiyoshida
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g681223-d20342844-Reviews-Honcho_Nichome_Shotengai-Fujiyoshida_Yamanashi_Prefecture_Koshinetsu_Chubu.html
 sito: https://fujiyoshida.net/en/see-and-do/410
+foto: Fujiyoshida
 
 ### teamlab
 nome: teamLab Planets TOKYO
@@ -1589,6 +1611,7 @@ nota: 19:00, prenotato dal gruppo
 maps: teamLab Planets TOKYO Toyosu
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14134359-d14951238-Reviews-TeamLab_Planets_TOKYO-Toyosu_Koto_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.teamlab.art/e/planets/
+foto: TeamLab
 
 ### kokomae
 nome: Kamakura-kōkō-mae (passaggio a livello)
@@ -1599,6 +1622,7 @@ nota: 8:00 col gruppo
 maps: Kamakurakokomae Station
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g303156-d8400753-Reviews-Kamakura_Kokomae_Station-Kamakura_Kanagawa_Prefecture_Kanto.html
 sito: https://www.enoden.co.jp/en/train/station/kamakurakokomae/
+foto: Kamakurakōkōmae Station
 
 ### hokoku-ji
 nome: Hōkoku-ji (tempio del bambù)
@@ -1609,6 +1633,7 @@ nota: ¥400, tè matcha nel bambù · può chiudere col maltempo
 maps: Hokokuji Temple Kamakura
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g303156-d1311119-Reviews-Hokoku_ji_Temple-Kamakura_Kanagawa_Prefecture_Kanto.html
 sito: https://houkokuji.or.jp/?p=29
+foto: Hōkoku-ji (Kamakura)
 
 ### komachi-dori
 nome: Komachi-dōri
@@ -1619,6 +1644,7 @@ nota: Pranzo 12:30 · mangiare fermi davanti al banco
 maps: Komachi-dori Kamakura
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g303156-d1755776-Reviews-Kamakura_Komachidori-Kamakura_Kanagawa_Prefecture_Kanto.html
 sito: https://visit.trip-kamakura.com/things-to-do/komachi-street/
+foto: Kamakura
 
 ### grande-buddha
 nome: Grande Buddha di Kōtoku-in
@@ -1629,6 +1655,7 @@ nota: 8–17, ¥300
 maps: Kotoku-in Great Buddha Kamakura
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g303156-d319975-Reviews-Kotoku_in_Great_Buddha_of_Kamakura-Kamakura_Kanagawa_Prefecture_Kanto.html
 sito: https://www.kotoku-in.jp/en/
+foto: Kōtoku-in
 
 ### hase-dera
 nome: Hase-dera
@@ -1639,6 +1666,7 @@ nota: Terrazza sul mare · chiude alle 16:30
 maps: Hasedera Temple Kamakura
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g303156-d319981-Reviews-Hasedera_Temple-Kamakura_Kanagawa_Prefecture_Kanto.html
 sito: https://www.hasedera.jp/en/
+foto: Hase-dera (Kamakura)
 
 ### gransta
 nome: Gransta Tokyo — Ekibenya Matsuri
@@ -1649,6 +1677,7 @@ nota: Cestini da treno per la cena sullo Shinkansen
 maps: Ekibenya Matsuri Gransta Tokyo Station
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14129528-d3335816-Reviews-GRANSTA_TOKYO-Marunouchi_Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.gransta.jp/mall/gransta_tokyo/ekibenyamatsuri/
+foto: Ekiben
 
 ### daiichi-asahi
 nome: Honke Daiichi Asahi (ramen)
@@ -1660,6 +1689,7 @@ maps: 本家 第一旭 たかばし 京都市下京区東塩小路向畑町845
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298564-d3178693-Reviews-Honke_Daiichi_Asahi_Main_Store-Kyoto_Kyoto_Prefecture_Kinki.html
 tabelog: https://tabelog.com/en/kyoto/A2601/A260101/26000873/
 voto: 3,74
+foto: Ramen
 
 ### fushimi-inari
 nome: Fushimi Inari Taisha
@@ -1670,6 +1700,7 @@ nota: 7:15, fino a Yotsutsuji
 maps: Fushimi Inari Taisha Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321456-Reviews-Fushimi_Inari_taisha_Shrine-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://inari.jp/en/
+foto: Fushimi Inari-taisha
 
 ### kiyomizu-dera
 nome: Kiyomizu-dera
@@ -1680,6 +1711,7 @@ nota: 13:00
 maps: Kiyomizu-dera Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321401-Reviews-Kiyomizu_dera_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.kiyomizudera.or.jp/en/
+foto: Kiyomizu-dera
 
 ### sannenzaka
 nome: Sannenzaka e Ninenzaka
@@ -1690,6 +1722,7 @@ nota: Tè verso le 15:30
 maps: Sannenzaka Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1386121-Reviews-Sannenzaka_Ninenzaka-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://ja.kyoto.travel/komafuda/show.php?id=2239&lang=en
+foto: Sannenzaka
 
 ### pagoda-yasaka
 nome: Pagoda di Yasaka (Hōkan-ji)
@@ -1700,6 +1733,7 @@ nota: 16:30, tramonto 16:55
 maps: Yasaka Pagoda Hokanji Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1386172-Reviews-Yasaka_Pagoda-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://kyoto.travel/en/destinations/hokanji-templeyasaka-pagoda/
+foto: Hōkan-ji
 
 ### hanami-koji
 nome: Hanami-kōji (Gion)
@@ -1709,6 +1743,7 @@ giorno: 11/11
 nota: 17:10, quando si accendono le lanterne
 maps: Hanamikoji Street Gion Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1956593-Reviews-Hanamikoji_Street-Kyoto_Kyoto_Prefecture_Kinki.html
+foto: Gion
 
 ### gion-corner
 nome: Gion Corner
@@ -1719,6 +1754,7 @@ nota: 18:00, 1 h di arti tradizionali · DA PRENOTARE per 2
 maps: Gion Corner Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d324291-Reviews-Gion_Corner-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.kyoto-gioncorner.com/global/en.html
+foto: Maiko
 
 ### pontocho
 nome: Pontochō
@@ -1729,6 +1765,7 @@ nota: Izakaya (osterie giapponesi) sul fiume, 19:15
 maps: Pontocho Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321442-Reviews-Pontocho_District-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://ja.kyoto.travel/komafuda/show.php?id=2203&lang=en
+foto: Pontochō
 
 ### kiyamachi
 nome: Kiyamachi-dōri
@@ -1738,6 +1775,7 @@ giorno: 11/11
 nota: Bar e osterie lungo il canale
 maps: Kiyamachi-dori Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d3837245-Reviews-Kiyamachi_Street-Kyoto_Kyoto_Prefecture_Kinki.html
+foto: Takase River
 
 ### kodai-ji
 nome: Kōdai-ji illuminato (facoltativo)
@@ -1749,6 +1787,7 @@ maps: Kodaiji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321402-Reviews-Kodai_ji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.kodaiji.com/e_index.html
 mappa: no
+foto: Kōdai-ji
 
 ### bambu-arashiyama
 nome: Bosco di bambù di Arashiyama
@@ -1758,6 +1797,7 @@ giorno: 12/11
 nota: 7:50, vuoto solo a quest'ora
 maps: Arashiyama Bamboo Grove
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1497822-Reviews-Bamboo_Forest_Street-Kyoto_Kyoto_Prefecture_Kinki.html
+foto: Arashiyama
 
 ### tenryu-ji
 nome: Tenryū-ji (giardino zen, facoltativo)
@@ -1769,6 +1809,7 @@ maps: Tenryuji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1386106-Reviews-Tenryu_ji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.tenryuji.com/en/
 mappa: no
+foto: Tenryū-ji
 
 ### monkey-park
 nome: Monkey Park Iwatayama
@@ -1779,6 +1820,7 @@ nota: 9:00 · ¥800 contanti, 20–30′ di salita
 maps: Monkey Park Iwatayama Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d665440-Reviews-Monkey_Park_Iwatayama-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: http://www.monkeypark.jp/eng-index.html
+foto: Japanese macaque
 
 ### ryoan-ji
 nome: Ryōan-ji (giardino zen delle 15 rocce)
@@ -1789,6 +1831,7 @@ nota: 10:50 · ¥600
 maps: Ryoanji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1386112-Reviews-Ryoan_ji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: http://www.ryoanji.jp/smph/eng/
+foto: Ryōan-ji
 
 ### kinkaku-ji
 nome: Kinkaku-ji (Padiglione d'Oro)
@@ -1799,6 +1842,7 @@ nota: 12:00 · ¥500
 maps: Kinkakuji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321400-Reviews-Kinkakuji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.shokoku-ji.jp/en/kinkakuji/
+foto: Kinkaku-ji
 
 ### ginkaku-ji
 nome: Ginkaku-ji (Padiglione d'Argento)
@@ -1809,6 +1853,7 @@ nota: 14:15 · ¥500
 maps: Ginkakuji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321398-Reviews-Ginkakuji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.shokoku-ji.jp/en/ginkakuji/
+foto: Ginkaku-ji
 
 ### sentiero-filosofo
 nome: Sentiero del Filosofo
@@ -1819,6 +1864,7 @@ nota: 2 km verso sud
 maps: Philosopher's Path Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d545965-Reviews-Philosopher_s_Walk-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://kyoto.travel/en/destinations/philosophers-path-tetsugakunomichi/
+foto: Philosopher's Walk
 
 ### honen-in
 nome: Hōnen-in
@@ -1829,6 +1875,7 @@ nota: Piccolo tempio nel bosco, ingresso libero
 maps: Honen-in Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d968349-Reviews-Honen_in-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: http://www.honen-in.jp/
+foto: Hōnen-in
 
 ### eikan-do
 nome: Eikan-dō (facoltativo)
@@ -1840,6 +1887,7 @@ maps: Eikando Zenrinji Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d479881-Reviews-Eikando_Zenrinji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.eikando.or.jp/English/index_eng.html
 mappa: no
+foto: Eikan-dō Zenrin-ji
 
 ### nanzen-ji
 nome: Nanzen-ji (Sanmon + acquedotto)
@@ -1850,6 +1898,7 @@ nota: Ultimo ingresso 16:40
 maps: Nanzenji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321091-Reviews-Nanzen_ji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://nanzenji.or.jp/
+foto: Nanzen-ji
 
 ### keage-incline
 nome: Keage Incline
@@ -1860,6 +1909,7 @@ nota: Al tramonto, 16:45
 maps: Keage Incline Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1975187-Reviews-Keage_Incline-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://biwakososui.city.kyoto.lg.jp/en/place/detail/23
+foto: Keage Incline
 
 ### nishiki
 nome: Mercato di Nishiki
@@ -1870,6 +1920,7 @@ nota: Banchi fino alle 17–18
 maps: Nishiki Market Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d554672-Reviews-Nishiki_Market_Shopping_District-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.kyoto-nishiki.or.jp/en/about/
+foto: Nishiki Market
 
 ### samurai-ninja-museum
 nome: Samurai & Ninja Museum
@@ -1880,6 +1931,7 @@ nota: Armature, katana, shuriken · fino alle 18:30
 maps: Samurai Ninja Museum Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d13551788-Reviews-Samurai_Ninja_Museum_With_Experience-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://mai-ko.com/samurai/
+foto: Samurai
 
 ### sen-no-kaze
 nome: Ramen Sen no Kaze
@@ -1891,6 +1943,7 @@ maps: らーめん千の風 京都市中京区新京極通四条上ル中之町5
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298564-d3788802-Reviews-Ramen_Sen_no_Kaze_Kyoto-Kyoto_Kyoto_Prefecture_Kinki.html
 tabelog: https://tabelog.com/en/kyoto/A2601/A260202/26016307/
 voto: 3,10
+foto: Ramen
 
 ### toei-studio-park
 nome: Toei Kyoto Studio Park (se piove)
@@ -1902,6 +1955,7 @@ maps: Toei Kyoto Studio Park
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321414-Reviews-Toei_Kyoto_Studio_Park-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://global.toei-eigamura.com/
 mappa: no
+foto: Toei Kyoto Studio Park
 
 ### kotte-ushi
 nome: Hida Kotte Ushi (sushi di Hida beef)
@@ -1914,6 +1968,7 @@ tripadvisor: https://www.tripadvisor.ca/Restaurant_Review-g298113-d7729529-Revie
 tabelog: https://tabelog.com/en/gifu/A2104/A210401/21023203/
 voto: 3,43
 sito: https://takayama-kotteushi.jp/
+foto: Hida beef
 
 ### jinya
 nome: Takayama Jinya
@@ -1924,6 +1979,7 @@ nota: 13:30 · 8:45–16:30, ¥440
 maps: Takayama Jinya
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298113-d320174-Reviews-Takayama_Jinya-Takayama_Gifu_Prefecture_Tokai_Chubu.html
 sito: https://jinya.gifu.jp/en/
+foto: Takayama Jin'ya
 
 ### sanmachi
 nome: Sanmachi-suji
@@ -1934,6 +1990,7 @@ nota: Case in legno di epoca Edo (1603–1868)
 maps: Sanmachi Suji Takayama
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298113-d320175-Reviews-Sanmachi_Suji-Takayama_Gifu_Prefecture_Tokai_Chubu.html
 sito: https://www.hida.jp/english/touristattractions/takayamacity/historyandculture/4000153.html
+foto: Takayama, Gifu
 
 ### sake-harada
 nome: Distilleria Harada
@@ -1943,6 +2000,7 @@ giorno: 13/11
 nota: ~¥450 con bicchierino ricordo
 maps: Harada Sake Brewery Takayama
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298113-d8769811-Reviews-Harada_Sake_Brewery-Takayama_Gifu_Prefecture_Tokai_Chubu.html
+foto: Sake
 
 ### sake-hirase
 nome: Distilleria Hirase
@@ -1951,6 +2009,7 @@ città: takayama
 giorno: 13/11
 nota: ~¥1.000 per oltre 20 sakè
 maps: Hirase Sake Brewery Takayama
+foto: Sake
 
 ### sake-funasaka
 nome: Distilleria Funasaka
@@ -1960,6 +2019,7 @@ giorno: 13/11
 nota: Banco e macchinette self-service
 maps: Funasaka Sake Brewery Takayama
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298113-d8145940-Reviews-Funasaka_Shuzo_Brewery-Takayama_Gifu_Prefecture_Tokai_Chubu.html
+foto: Sake
 
 ### nakabashi
 nome: Ponte Nakabashi
@@ -1969,6 +2029,7 @@ giorno: 13/11
 nota: Ponte rosso al tramonto, 16:40
 maps: Nakabashi Bridge Takayama
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298113-d8586387-Reviews-Nakabashi_Bridge-Takayama_Gifu_Prefecture_Tokai_Chubu.html
+foto: Takayama, Gifu
 
 ### showa-kan
 nome: Showa-kan (alternativa)
@@ -1980,6 +2041,7 @@ maps: Takayama Showakan
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298113-d3385796-Reviews-Takayama_Showakan-Takayama_Gifu_Prefecture_Tokai_Chubu.html
 sito: https://showakan.jp/takayama/
 mappa: no
+foto: Shōwa era
 
 ### kitchen-hida
 nome: Steak House Kitchen Hida
@@ -1992,6 +2054,7 @@ tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298113-d1479770-Revi
 tabelog: https://tabelog.com/en/gifu/A2104/A210401/21000080/
 voto: 3,78
 sito: http://kitchenhida.com/
+foto: Hida beef
 
 ### mercato-miyagawa
 nome: Mercato mattutino Miyagawa
@@ -2002,6 +2065,7 @@ nota: 7:00–12:00
 maps: Miyagawa Morning Market Takayama
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298113-d1516746-Reviews-Hida_Takayama_Miyagawa_Morning_Market-Takayama_Gifu_Prefecture_Tokai_Chubu.html
 sito: https://www.asaichi.net/language/english.html
+foto: Takayama, Gifu
 
 ### shirakawa-go
 nome: Shirakawa-go (villaggio)
@@ -2011,6 +2075,7 @@ giorno: 14/11
 nota: Case gasshō, col tetto di paglia a punta
 maps: Shirakawa-go Ogimachi
 sito: https://shirakawa-go.gr.jp/en/
+foto: Shirakawa-gō
 
 ### belvedere-shiroyama
 nome: Belvedere Shiroyama (Ogimachi)
@@ -2020,6 +2085,7 @@ giorno: 14/11
 nota: Prima tappa, 20′ in salita o navetta
 maps: Ogimachi Castle Ruins Observatory Shirakawa
 sito: https://www.vill.shirakawa.lg.jp/1470.htm
+foto: Shirakawa-gō
 
 ### casa-wada
 nome: Casa Wada
@@ -2029,6 +2095,7 @@ giorno: 14/11
 nota: La più grande casa col tetto di paglia visitabile
 maps: Wada House Shirakawa-go
 sito: https://www.vill.shirakawa.lg.jp/1484.htm
+foto: Gasshō-zukuri
 
 ### kyoya
 nome: Kyōya
@@ -2040,6 +2107,7 @@ maps: 飛騨高山 京や 高山市大新町1-77
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298113-d3616009-Reviews-Hidatakayama_Kyoya-Takayama_Gifu_Prefecture_Tokai_Chubu.html
 tabelog: https://tabelog.com/gifu/A2104/A210401/21000305/
 voto: 3,33
+foto: Hida beef
 
 ### dotonbori
 nome: Dōtonbori
@@ -2049,6 +2117,7 @@ giorno: 15/11
 nota: Street food a pranzo, neon la sera
 maps: Dotonbori Osaka
 sito: http://www.dotonbori.or.jp/ja/
+foto: Dōtonbori
 
 ### den-den-town
 nome: Den Den Town (Nipponbashi)
@@ -2058,6 +2127,7 @@ giorno: 15/11
 nota: 13:30
 maps: Den Den Town Nipponbashi Osaka
 sito: https://www.nippombashi.jp/
+foto: Den Den Town
 
 ### super-potato
 nome: Super Potato — Otaroad
@@ -2067,6 +2137,7 @@ giorno: 15/11
 nota: Weekend 10–20 · Nipponbashi 3-8-18
 maps: スーパーポテト オタロード店 大阪市浪速区日本橋3-8-18
 sito: https://www.superpotato.com/shop/otaroad/
+foto: Den Den Town
 
 ### mandarake
 nome: Mandarake Grand Chaos
@@ -2076,6 +2147,7 @@ giorno: 15/11
 nota: 12–20
 maps: Mandarake Grand Chaos Osaka
 sito: https://www.mandarake.co.jp/dir/gcs/
+foto: Mandarake
 
 ### shinsekai
 nome: Shinsekai
@@ -2085,6 +2157,7 @@ giorno: 15/11
 nota: 15:30
 maps: Shinsekai Osaka
 sito: https://shinsekai.net/
+foto: Shinsekai
 
 ### tsutenkaku
 nome: Torre Tsūtenkaku
@@ -2094,6 +2167,7 @@ giorno: 15/11
 nota: Al tramonto · 10–20, ¥1.000
 maps: Tsutenkaku Osaka
 sito: https://www.tsutenkaku.co.jp/
+foto: Tsūtenkaku
 
 ### daruma
 nome: Kushikatsu Daruma — Shinsekai Sōhonten
@@ -2106,6 +2180,7 @@ tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298566-d1678754-Revi
 tabelog: https://tabelog.com/osaka/A2701/A270206/27004260/
 voto: 3,46
 sito: https://www.kushikatu-daruma.com/location/
+foto: Kushikatsu
 
 ### fukutaro
 nome: Fukutaro Honten (okonomiyaki)
@@ -2118,6 +2193,7 @@ tripadvisor: https://www.tripadvisor.com.sg/Restaurant_Review-g14135003-d3610195
 tabelog: https://tabelog.com/en/osaka/A2701/A270202/27002665/
 voto: 3,72
 sito: https://k226600.gorp.jp/
+foto: Okonomiyaki
 
 ### hozenji-yokocho
 nome: Hōzenji Yokochō
@@ -2126,6 +2202,7 @@ città: osaka
 giorno: 15/11
 nota: Statua di Fudō (divinità buddista) coperta di muschio
 maps: Hozenji Yokocho Osaka
+foto: Dōtonbori
 
 ### ura-namba
 nome: Ura-Namba
@@ -2134,6 +2211,7 @@ città: osaka
 giorno: 15/11
 nota: Vicoli di bar e osterie economiche
 maps: Ura Namba Osaka
+foto: Namba
 
 ### round1
 nome: Round1 Stadium Sennichimae
@@ -2143,6 +2221,7 @@ giorno: 15/11
 nota: Fino alle 0:50, bowling, karaoke
 maps: Round1 Stadium Sennichimae Osaka
 sito: https://www.round1.co.jp/
+foto: Round One Corporation
 
 ### namba-grand-kagetsu
 nome: Namba Grand Kagetsu (alternativa)
@@ -2153,6 +2232,7 @@ nota: Comici in coppia (manzai) e commedia slapstick, in giapponese ma molto fis
 maps: Namba Grand Kagetsu
 sito: https://ngk.yoshimoto.co.jp/
 mappa: no
+foto: Namba Grand Kagetsu
 
 ### usj
 nome: Universal Studios Japan + Super Nintendo World
@@ -2162,6 +2242,7 @@ giorno: 16/11
 nota: Area Timed Entry o Express per 2 · DA PRENOTARE
 maps: Universal Studios Japan
 sito: https://www.usj.co.jp/web/en/us
+foto: Super Nintendo World
 
 ### tsukiji
 nome: Mercato esterno di Tsukiji
@@ -2172,6 +2253,7 @@ nota: Colazione alle 9:00 · contanti · chiuso mer/dom
 maps: Tsukiji Outer Market Tokyo
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14129610-d1373675-Reviews-Tsukiji_Jogai_Market-Tsukiji_Chuo_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.tsukiji.or.jp/english/
+foto: Tsukiji fish market
 
 ### kabuki-za
 nome: Kabuki-za (alternativa: un atto singolo)
@@ -2183,6 +2265,7 @@ maps: Kabukiza Theater Ginza
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14129573-d1373683-Reviews-Kabukiza_Theater-Ginza_Chuo_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.kabuki-bito.jp/eng/theatres/kabukiza/
 mappa: no
+foto: Kabuki-za
 
 ### depachika-ginza
 nome: Depachika di Ginza Mitsukoshi
@@ -2191,6 +2274,7 @@ città: tokyo
 giorno: 17/11
 nota: Food hall nel seminterrato
 maps: Ginza Mitsukoshi depachika
+foto: Depachika
 
 ### takeshita-dori
 nome: Takeshita-dōri
@@ -2201,6 +2285,7 @@ nota: Moda, crêpe, purikura (cabine per foto-adesivi)
 maps: Takeshita Street Harajuku
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066456-d1373790-Reviews-Takeshita_Street-Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.takeshita-street.com/
+foto: Takeshita Street
 
 ### meiji-jingu
 nome: Meiji Jingū
@@ -2211,6 +2296,7 @@ nota: 40′ nel bosco
 maps: Meiji Jingu Tokyo
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066456-d1373780-Reviews-Meiji_Jingu_Shrine-Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.meijijingu.or.jp/en/
+foto: Meiji Shrine
 
 ### cat-street
 nome: Cat Street
@@ -2219,6 +2305,7 @@ città: tokyo
 giorno: 17/11
 nota: Harajuku → Shibuya a piedi, 20′
 maps: Cat Street Shibuya Tokyo
+foto: Harajuku
 
 ### shibuya-sky
 nome: Shibuya Sky
@@ -2229,6 +2316,7 @@ nota: 15:40, tramonto 16:30 · biglietti dal 2/11 alle 16:00 italiane
 maps: Shibuya Sky
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066456-d19274143-Reviews-Shibuya_Sky-Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.shibuya-scramble-square.com/en/
+foto: Shibuya Scramble Square
 
 ### shibuya-parco
 nome: Shibuya PARCO (6° piano)
@@ -2239,6 +2327,7 @@ nota: Nintendo, Pokémon, Capcom, Jump Shop
 maps: Shibuya PARCO
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g27462805-d2152004-Reviews-Shibuya_PARCO-Udagawacho_Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://en.shibuya.parco.jp/
+foto: Shibuya
 
 ### omoide-yokocho
 nome: Omoide Yokochō
@@ -2249,6 +2338,7 @@ nota: Spiedini alla brace, 18:15
 maps: Omoide Yokocho Shinjuku
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14133673-d1173749-Reviews-Omoide_Yokocho-Nishishinjuku_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://shinjuku-omoide.com/
+foto: Omoide Yokochō
 
 ### samurai-restaurant
 nome: Samurai Restaurant Time
@@ -2259,6 +2349,7 @@ nota: 19:00, 2 h · DA PRENOTARE per 2
 maps: Samurai Restaurant Kabukicho Shinjuku
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g14133667-d27827586-Reviews-SAMURAI_RESTAURANT-Kabukicho_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://samurai-restaurant.tokyo/
+foto: Taiko
 
 ### golden-gai
 nome: Golden Gai
@@ -2269,6 +2360,7 @@ nota: Micro-bar, coperto ¥500–1.000
 maps: Shinjuku Golden Gai
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14133667-d480651-Reviews-Shinjuku_Golden_Gai-Kabukicho_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://goldengai.jp/
+foto: Golden Gai
 
 ### zojo-ji
 nome: Zōjō-ji + Tokyo Tower
@@ -2279,6 +2371,7 @@ nota: 7:30, foto classica
 maps: Zojoji Temple Tokyo
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066451-d320446-Reviews-Zojoji_Temple-Minato_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.zojoji.or.jp/en/
+foto: Zōjō-ji
 
 ## Glossario
 

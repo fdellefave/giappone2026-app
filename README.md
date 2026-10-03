@@ -2,7 +2,8 @@
 
 Sito per iPhone del viaggio in Giappone (5–18 novembre 2026): programma giorno per giorno (ogni tappa è una
 riga corta che si apre con dettagli, link e indicazioni Google Maps), l'app si apre da sola sulla tappa di
-adesso e mette in grigio quelle passate (fusi di Roma e Tokyo), mappa delle tappe, prenotazioni con cosa manca
+adesso e mette in grigio quelle passate (fusi di Roma e Tokyo), foto delle tappe da Wikipedia, giro del giorno
+su Google Maps, prenotazioni con cosa manca
 e chi ha pagato, conti tra i due viaggiatori, convertitore yen/euro e glossario.
 Si installa sulla Home (Safari → Condividi → «Aggiungi alla schermata Home») e funziona anche senza rete
 dopo la prima apertura.
@@ -32,4 +33,5 @@ GitHub Pages ripubblica in un minuto. Se cambiano `index.html`, `app.js` o `app.
 Il sito è pubblico: in `viaggio.md` non vanno link di conferma, numeri di prenotazione, PIN, numeri di
 passaporto o dati di pagamento.
 
-Icone: [Lucide](https://lucide.dev) (licenza ISC).
+Icone: [Lucide](https://lucide.dev) (licenza ISC). Foto: miniature di Wikipedia/Wikimedia Commons, caricate dal
+telefono e salvate per l'uso offline.

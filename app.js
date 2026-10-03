@@ -17,7 +17,8 @@
   var WD3 = ["Dom", "Lun", "Mar", "Mer", "Gio", "Ven", "Sab"];
 
   var D = null, RATE = 185, TL = [], TRAINS = {}, HOTELS = {};
-  var S = { tab: "programma", day: 0, open: {}, tips: false, seg: "fare", sub: null, q: "", pday: "", mstop: 0 };
+  var S = { tab: "programma", day: 0, open: {}, tips: false, seg: "fare", sub: null, q: "", pday: "" };
+  var PHOTO = store("photos") || {}; // titolo Wikipedia → indirizzo della miniatura ("" = nessuna foto)
   var view = document.getElementById("view");
   var lastHidden = 0;
 
@@ -38,7 +39,9 @@
     return '<a class="btn ' + (cls || "") + '" href="' + esc(href) + '" target="_blank" rel="noopener">' + (ic ? icon(ic) : "") + "<span>" + label + "</span></a>";
   }
   function mapsQ(q) { return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q); }
-  function goto(q, mode) { return "https://www.google.com/maps/dir/?api=1&travelmode=" + (mode || "transit") + "&destination=" + encodeURIComponent(q); }
+  // Indicazioni da dove siete fino a q: il mezzo (a piedi, mezzi, taxi) lo scegliete in Google Maps.
+  function goto(q) { return "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(q); }
+  function noMode(url) { return url.replace(/&travelmode=[a-z]+/, ""); }
   function eur(n, approx) { return n == null ? "—" : (approx ? "≈ " : "") + "€" + Math.round(n).toLocaleString("it-IT"); }
   function eur2(n) { return "€" + n.toLocaleString("it-IT", { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
   function yen(n) { return "¥" + Math.round(n).toLocaleString("it-IT"); }
@@ -47,6 +50,37 @@
   function toast(msg) {
     var t = document.createElement("div"); t.className = "toast"; t.textContent = msg; document.body.appendChild(t);
     setTimeout(function () { t.remove(); }, 1800);
+  }
+
+  // ---------- foto (miniature di Wikipedia, salvate dal service worker per l'offline) ----------
+  function photoOf(it) { var u = it && it.photo && PHOTO[it.photo]; return u || null; }
+  function loadPhotos() {
+    var want = {};
+    Object.keys(D.places).forEach(function (k) { if (D.places[k].photo) want[D.places[k].photo] = 1; });
+    D.days.forEach(function (d) { d.items.forEach(function (it) { if (it.photo) want[it.photo] = 1; }); });
+    var todo = Object.keys(want).filter(function (t) { return !(t in PHOTO); });
+    if (!todo.length) { warmPhotos(); return; }
+    var chunks = [];
+    for (var k = 0; k < todo.length; k += 40) chunks.push(todo.slice(k, k + 40));
+    Promise.all(chunks.map(function (ch) {
+      var u = "https://en.wikipedia.org/w/api.php?action=query&format=json&origin=*&redirects=1&prop=pageimages&piprop=thumbnail&pithumbsize=480&titles=" +
+        encodeURIComponent(ch.join("|"));
+      return fetch(u).then(function (r) { return r.json(); }).then(function (j) {
+        var q = j.query || {}, map = {}, by = {};
+        (q.normalized || []).concat(q.redirects || []).forEach(function (n) { map[n.from] = n.to; });
+        Object.keys(q.pages || {}).forEach(function (id) { var pg = q.pages[id]; by[pg.title] = pg.thumbnail ? pg.thumbnail.source : ""; });
+        ch.forEach(function (t) { var x = t; for (var g = 0; g < 4 && map[x]; g++) x = map[x]; PHOTO[t] = by[x] || ""; });
+      });
+    })).then(function () {
+      store("photos", PHOTO);
+      if (S.tab === "programma") { var y = window.scrollY; render(true); window.scrollTo(0, y); }
+      warmPhotos();
+    }).catch(function () { /* offline: si riprova alla prossima apertura */ });
+  }
+  function warmPhotos() {
+    setTimeout(function () {
+      Object.keys(PHOTO).forEach(function (t) { if (PHOTO[t]) fetch(PHOTO[t], { mode: "no-cors" }).catch(function () {}); });
+    }, 2500);
   }
 
   // ---------- ora ----------
@@ -190,7 +224,7 @@
     }).join("") + "</h1>";
     var walk = (d.guide.camminata || "").split(" · ")[0];
     h += '<div class="facts"><span>' + icon("bed") + esc(d.sleepName) + "</span><span>" + icon("users") + esc(d.with) + "</span>" +
-      (walk ? "<span>" + icon("walk") + esc(walk.replace(/\s*\(.*\)$/, "")) + "</span>" : "") + "</div>";
+      (walk ? "<span>" + icon("walk") + esc((walk.match(/^[~\d.,\s–-]+km/) || [walk])[0]) + " a piedi</span>" : "") + "</div>";
     if (d.guide.senso) h += '<p class="summary">' + esc(d.guide.senso) + "</p>";
     if (ph === "live" && i !== cd) h += '<p style="margin:12px 0 0"><button type="button" class="chip-now" data-now="1">' + icon("locate") + "Vai a dove siete adesso</button></p>";
     h += "</header>";
@@ -198,7 +232,8 @@
     if (ph === "live" && i === cd) h += nowCard();
     if (ph === "after" && i === D.days.length - 1) h += '<div class="nowcard"><span class="lab">Viaggio finito</span><span class="big">Bentornati!</span></div>';
 
-    h += '<div class="plan" style="margin-top:14px">';
+    if (!store("hinted")) h += '<p class="hint">' + icon("info") + "<span>Tocca una tappa per foto, dettagli e indicazioni. Scorri il dito a destra o a sinistra per cambiare giorno.</span></p>";
+    h += '<div class="plan">';
     d.items.forEach(function (it, k) { h += stopHtml(i, k, it); });
     h += "</div>";
 
@@ -207,7 +242,14 @@
     }).join("") + "</div>";
 
     h += tipsHtml(d);
-    h += '<div class="btns" style="margin-top:12px"><button type="button" class="btn block" data-go="mappa">' + icon("map") + "<span>Le tappe di questo giorno sulla mappa</span></button></div>";
+    var stops = dayStops(i);
+    if (stops.length > 2) {
+      var ch = routeChunks(stops);
+      h += '<div class="tour"><div class="tour-t">' + icon("route") + "<span><b>Tutto il giro di oggi</b><small>" + stops.length +
+        " tappe in ordine, dall'alloggio di partenza a quello della sera</small></span></div>" + '<div class="btns">' + ch.map(function (x, n) {
+          return link(x.url, ch.length > 1 ? "Parte " + (n + 1) + " (tappe " + x.from + "–" + x.to + ")" : "Apri in Google Maps", "go block", "map");
+        }).join("") + "</div></div>";
+    }
     return h;
   }
 
@@ -236,7 +278,7 @@
       h += '<div class="nowline"><span class="t">' + esc(n2.t) + '</span><span class="x">' + (n2.k === "sposta" ? "Poi verso " : "Poi: ") + esc(n2.title) +
         "<small>" + esc(inMinutes(nx.at - now())) + (n2.short ? " · " + esc(n2.short) : "") + "</small></span></div>";
       var nr = n2.routes && n2.routes[0];
-      if (nr) btns += link(nr.url, "Indicazioni per la prossima", "small ghost", MODE[nr.mode][0]);
+      if (nr) btns += link(noMode(nr.url), "Indicazioni per la prossima", "small ghost", "nav");
       else if (n2.dest) btns += link(goto(n2.dest), "Indicazioni per la prossima", "small ghost", "nav");
     }
     return h + '<div class="btns">' + btns + "</div></div>";
@@ -246,7 +288,9 @@
     var key = di + "-" + ii, st = stateOf(di, ii), open = !!S.open[key];
     var h = '<div class="stop k-' + it.k + (st ? " " + st : "") + '" id="s-' + key + '" style="--tc:var(--t-' + it.k + ')">';
     h += '<button type="button" class="row" data-open="' + key + '" aria-expanded="' + open + '" aria-controls="p-' + key + '">';
-    h += '<span class="t">' + esc(it.t) + '</span><span class="dot">' + icon(itemIcon(it)) + "</span>";
+    var ph = it.k !== "sposta" && photoOf(it);
+    h += '<span class="t">' + esc(it.t) + "</span>" + (ph ? '<span class="dot ph"><img src="' + esc(ph) + '" alt="" loading="lazy" decoding="async"><span class="tb">' +
+      icon(itemIcon(it)) + "</span></span>" : '<span class="dot">' + icon(itemIcon(it)) + "</span>");
     var pill = st === "now" ? '<span class="pill now">Adesso</span>' : statusPill(it);
     h += '<span class="main"><span class="ttl">' + esc(it.title) + "</span>" + (it.short ? '<span class="sub">' + esc(it.short) + "</span>" : "") +
       (pill ? '<span class="pills">' + pill + "</span>" : "") + "</span>";
@@ -257,6 +301,8 @@
 
   function panelHtml(it) {
     var h = "", kv = "", warn = "";
+    var ph = photoOf(it);
+    if (ph) h += '<figure class="pfig"><img src="' + esc(ph) + '" alt="" loading="lazy" decoding="async"><figcaption>Foto: Wikipedia</figcaption></figure>';
     (it.details || []).forEach(function (x) {
       if (x.k === "text") h += "<p>" + richText(x.text) + "</p>";
       else if (x.k === "attenzione") warn += '<div class="note-warn">' + icon("alert") + "<span>" + richText(x.text) + "</span></div>";
@@ -270,12 +316,9 @@
     var ho = it.hotel && HOTELS[it.hotel];
     if (ho && it.k === "hotel") h += hotelBox(ho);
 
-    var b = "";
-    (it.routes || []).forEach(function (r) {
-      b += link(r.url, MODE[r.mode][1], "go", MODE[r.mode][0]);
-    });
-    if (!(it.routes || []).length && it.dest && it.k !== "viaggio") b += link(goto(it.dest), "Portami qui", "go", "nav");
-    if (!(it.routes || []).length && it.dest && it.k === "viaggio") b += link(mapsQ(it.dest), "Apri in Maps", "", "pin");
+    var b = "", r0 = (it.routes || [])[0];
+    if (r0) b += link(noMode(r0.url), "Indicazioni", "go wide", "nav");
+    else if (it.dest) b += link(goto(it.dest), "Indicazioni", "go wide", "nav");
     var p = it.place && D.places[it.place];
     if (p) {
       if (p.ta) b += link(p.ta, "Tripadvisor", "", "star");
@@ -361,7 +404,7 @@
     var out = [], start = 0;
     while (start < stops.length - 1) {
       var end = Math.min(start + 9, stops.length - 1), part = stops.slice(start, end + 1);
-      var u = "https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=" + encodeURIComponent(part[0].q) +
+      var u = "https://www.google.com/maps/dir/?api=1&origin=" + encodeURIComponent(part[0].q) +
         "&destination=" + encodeURIComponent(part[part.length - 1].q);
       if (part.length > 2) u += "&waypoints=" + encodeURIComponent(part.slice(1, -1).map(function (s) { return s.q; }).join("|"));
       out.push({ from: start + 1, to: end + 1, url: u });
@@ -369,42 +412,6 @@
     }
     return out;
   }
-  function renderMap() {
-    var i = S.day, d = D.days[i], stops = dayStops(i);
-    var h = dayStrip(i);
-    h += '<header class="page-head"><h1 class="page-title">Mappa</h1><p class="page-sub">' + esc(dLong(d.id)) + " · " + esc(d.route.map(function (c) { return CITY[c]; }).join(" › ")) + "</p></header>";
-    if (stops.length < 2) return h + '<p class="empty">Oggi è un giorno di volo: niente tappe da mostrare.</p>';
-    if (S.mstop == null || S.mstop >= stops.length) S.mstop = 0;
-    // in viaggio: la mappa parte dalla prossima tappa
-    if (S.mstopAuto && phase() === "live" && currentDay() === i) {
-      var c = TL[curIndex()];
-      for (var k = 0; k < stops.length; k++) if (stops[k].d === i && stops[k].i >= c.i) { S.mstop = k; break; }
-    }
-    S.mstopAuto = false;
-    var sel = stops[S.mstop];
-    h += '<div class="mapframe"><iframe title="Mappa: ' + esc(sel.name) + '" src="https://www.google.com/maps?q=' + encodeURIComponent(sel.q) +
-      '&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>';
-    var ch = routeChunks(stops);
-    h += '<div class="btns" style="margin-top:10px">' + ch.map(function (x) {
-      return link(x.url, ch.length > 1 ? "Giro a piedi, tappe " + x.from + "–" + x.to : "Tutto il giro in Google Maps", "go block", "route");
-    }).join("") + "</div>";
-    h += '<div class="mlist">';
-    var num = 0;
-    stops.forEach(function (s, k) {
-      var st = s.d != null ? stateOf(s.d, s.i) : "";
-      if (!s.hotel) num++;
-      h += '<div class="mitem' + (k === S.mstop ? " on" : "") + (st ? " " + st : "") + '" style="--tc:var(--t-' + (s.hotel ? "hotel" : s.k || "vedere") + ')">';
-      h += '<span class="n">' + (s.hotel ? icon("bed") : num) + "</span>";
-      h += '<button type="button" class="nm" data-mstop="' + k + '">' + esc(s.name) + "<small>" + esc(s.sub || "") + "</small></button>";
-      h += '<div class="btns">' + link(goto(s.q), "Portami qui", "small go", "nav");
-      if (s.place) h += link(s.place.link.url, s.place.link.label === "Google Maps" ? "Maps" : s.place.link.label, "small", s.place.link.label === "Google Maps" ? "pin" : "star");
-      h += "</div></div>";
-    });
-    h += "</div>";
-    h += '<p class="foot-note">Tocca un nome per vederlo sulla mappa. «Portami qui» apre le indicazioni con i mezzi da dove siete in quel momento.</p>';
-    return h;
-  }
-
   // ---------- prenotazioni ----------
   function todoDate(t) { return t.opens && t.opens >= romeToday() ? t.opens : (t.due || t.day || "9999"); }
   function sortedTodo() {
@@ -530,7 +537,7 @@
         (x.access ? "<dt>Come arrivare</dt><dd>" + esc(x.access) + "</dd>" : "") +
         (x.hours ? "<dt>Orari</dt><dd>" + esc(x.hours) + "</dd>" : "") +
         (x.note ? "<dt>Note</dt><dd>" + esc(x.note) + "</dd>" : "") + "</dl>";
-      h += '<div class="btns">' + link(goto(x.q), "Portami qui", "go", "nav") +
+      h += '<div class="btns">' + link(goto(x.q), "Indicazioni", "go", "nav") +
         (x.address ? '<button type="button" class="btn" data-copy="' + esc(x.address) + '">' + icon("copy") + "<span>Copia indirizzo</span></button>" : "") +
         (x.app ? link(x.app, /airbnb/.test(x.app) ? "App Airbnb" : "App Booking", "", "ext") : "") +
         (di >= 0 ? '<button type="button" class="btn" data-day="' + di + '" data-go="programma">' + icon("cal") + "<span>Vedi il giorno</span></button>" : "") + "</div></article>";
@@ -619,7 +626,7 @@
   function placeCard(p) {
     var h = '<article class="card"><div class="meta">' + esc(p.city) + (p.day ? " · " + esc(p.day) : "") + "</div><h3>" + esc(p.name) + "</h3>";
     if (p.note) h += '<div class="note">' + esc(p.note.replace(/\s*·\s*DA PRENOTARE.*$/i, "")) + "</div>";
-    h += '<div class="btns">' + link(goto(p.q), "Portami qui", "small go", "nav");
+    h += '<div class="btns">' + link(goto(p.q), "Indicazioni", "small go", "nav");
     if (p.ta) h += link(p.ta, "Tripadvisor", "small", "star");
     if (p.tabelog) h += link(p.tabelog, "Tabelog" + (p.score ? " " + esc(p.score) : ""), "small", "star");
     if (p.web) h += link(p.web, "Sito", "small", "ext");
@@ -699,13 +706,13 @@
   // ---------- montaggio ----------
   function render(keepScroll) {
     if (!D) return;
-    var html = { programma: renderProgram, mappa: renderMap, prenotazioni: renderBookings, soldi: renderMoney, info: renderInfo }[S.tab]();
+    var html = { programma: renderProgram, prenotazioni: renderBookings, soldi: renderMoney, info: renderInfo }[S.tab]();
     view.innerHTML = html;
     document.querySelectorAll(".tab").forEach(function (t) { t.setAttribute("aria-current", t.dataset.tab === S.tab ? "page" : "false"); });
     var c = counts(), badge = document.getElementById("badge");
     if (badge) { badge.hidden = !c.book || phase() !== "before"; badge.textContent = c.book; }
     if (!keepScroll) window.scrollTo(0, 0);
-    if (S.tab === "programma" || S.tab === "mappa") {
+    if (S.tab === "programma") {
       var chip = view.querySelector('.daychip[aria-pressed="true"]');
       if (chip && chip.parentNode) chip.parentNode.scrollLeft = chip.offsetLeft - chip.parentNode.clientWidth / 2 + chip.clientWidth / 2;
     }
@@ -722,7 +729,7 @@
   function jumpToNow() {
     if (phase() !== "live") return false;
     var cur = TL[curIndex()];
-    S.tab = "programma"; S.day = cur.d; S.open = {}; S.open[cur.d + "-" + cur.i] = true; S.mstopAuto = true;
+    S.tab = "programma"; S.day = cur.d; S.open = {}; S.open[cur.d + "-" + cur.i] = true;
     render();
     scrollToStop(cur.d + "-" + cur.i);
     return true;
@@ -734,17 +741,18 @@
     var ds = t.dataset;
     if (ds.tab) {
       if (ds.tab === S.tab && ds.tab === "programma" && jumpToNow()) return;
-      S.tab = ds.tab; S.sub = null; S.q = ""; if (ds.tab === "mappa") S.mstopAuto = true; render(); return;
+      S.tab = ds.tab; S.sub = null; S.q = ""; render(); return;
     }
     if (ds.open) {
       var open = !S.open[ds.open]; S.open[ds.open] = open;
+      if (!store("hinted")) { store("hinted", true); var hn = view.querySelector(".hint"); if (hn) hn.remove(); }
       t.setAttribute("aria-expanded", open);
       var p = document.getElementById("p-" + ds.open); if (p) p.hidden = !open;
       return;
     }
     if (ds.day !== undefined && ds.day !== "") {
       var n = parseInt(ds.day, 10);
-      if (n >= 0 && n < D.days.length) { S.day = n; S.mstop = 0; S.open = {}; if (ds.go) S.tab = ds.go; if (S.tab === "mappa") S.mstopAuto = true; render(); }
+      if (n >= 0 && n < D.days.length) { S.day = n; S.open = {}; if (ds.go) S.tab = ds.go; render(); }
       return;
     }
     if (ds.now) { jumpToNow(); return; }
@@ -755,8 +763,7 @@
       scrollToStop(ds.jump); return;
     }
     if (ds.tips) { S.tips = !S.tips; t.setAttribute("aria-expanded", S.tips); t.nextElementSibling.hidden = !S.tips; return; }
-    if (ds.mstop !== undefined) { S.mstop = parseInt(ds.mstop, 10); render(true); return; }
-    if (ds.go) { S.tab = ds.go; S.sub = null; if (ds.go === "mappa") S.mstopAuto = true; render(); return; }
+    if (ds.go) { S.tab = ds.go; S.sub = null; render(); return; }
     if (ds.seg) { S.seg = ds.seg; render(true); return; }
     if (ds.todo) { store("todo:" + ds.todo, !store("todo:" + ds.todo)); render(true); return; }
     if (ds.sub !== undefined) { S.sub = ds.sub || null; S.q = ""; S.pday = ""; render(); return; }
@@ -778,8 +785,24 @@
     if (!D) return;
     // tornando nell'app dopo un po', si riparte da dove dovreste essere adesso
     if (Date.now() - lastHidden > 10 * 60000 && jumpToNow()) return;
-    if (S.tab === "programma" || S.tab === "mappa") render(true);
+    if (S.tab === "programma") render(true);
   });
+  // scorrere il dito a destra o a sinistra cambia giorno
+  var sw = null;
+  view.addEventListener("touchstart", function (e) {
+    if (S.tab !== "programma" || e.touches.length !== 1 || e.target.closest(".daystrip")) { sw = null; return; }
+    sw = { x: e.touches[0].clientX, y: e.touches[0].clientY, t: Date.now() };
+  }, { passive: true });
+  view.addEventListener("touchend", function (e) {
+    if (!sw) return;
+    var dx = e.changedTouches[0].clientX - sw.x, dy = e.changedTouches[0].clientY - sw.y, dt = Date.now() - sw.t;
+    sw = null;
+    if (Math.abs(dx) < 70 || Math.abs(dy) > Math.abs(dx) * 0.6 || dt > 700) return;
+    var n = S.day + (dx < 0 ? 1 : -1);
+    if (n < 0 || n >= D.days.length) return;
+    S.day = n; S.open = {}; render();
+  }, { passive: true });
+
   setInterval(function () {
     if (D && !document.hidden && (S.tab === "programma") && phase() === "live") {
       // aggiorna passato/adesso senza chiudere le tappe aperte
@@ -793,10 +816,11 @@
     D.trains.forEach(function (t) { TRAINS[t.id] = t; });
     D.hotels.forEach(function (h) { HOTELS[h.id] = h; });
     buildTimeline();
+    setTimeout(loadPhotos, 300);
     var saved = store("state") || {};
     S.seg = saved.seg || "fare";
     if (jumpToNow()) return;
-    S.tab = saved.tab && { programma: 1, mappa: 1, prenotazioni: 1, soldi: 1, info: 1 }[saved.tab] ? saved.tab : "programma";
+    S.tab = saved.tab && { programma: 1, prenotazioni: 1, soldi: 1, info: 1 }[saved.tab] ? saved.tab : "programma";
     S.day = saved.day != null && saved.day < D.days.length ? saved.day : currentDay();
     render();
   }
