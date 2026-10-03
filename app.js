@@ -1,5 +1,5 @@
-/* Giappone 2026 — guida tascabile. Tutti i dati arrivano da data.json, generato dal master Excel
-   con tools/excel_to_json.py. Qui non c'è nessun dato del viaggio scritto a mano. */
+/* Giappone 2026 — guida tascabile. Tutti i dati arrivano da data.json, generato da viaggio.md
+   con build.py. Qui non c'è nessun dato del viaggio scritto a mano. */
 (function () {
   "use strict";
 
@@ -52,15 +52,11 @@
   }
 
   // ---------- giorni ----------
-  function dayRoute(i) {
-    var d = D.days[i], prev = i > 0 ? D.days[i - 1].sleepCity : null, r = [];
-    [prev].concat(d.cities).concat([d.sleepCity]).forEach(function (c) {
-      if (c && c !== "transit" && r[r.length - 1] !== c) r.push(c);
-    });
-    if (i === 0) r = ["roma"];
-    return r;
+  function dayRoute(i) { return D.days[i].route.length ? D.days[i].route : ["roma"]; }
+  function mainCity(i) {
+    var r = dayRoute(i).filter(function (c) { return c !== "roma"; });
+    return r.length ? r[r.length - 1] : "roma";
   }
-  function mainCity(i) { var r = dayRoute(i); return r[r.length - 1] === "roma" && i > 0 ? r[r.length - 2] || "roma" : r[r.length - 1]; }
   function defaultDay() {
     var now = tokyoNow(), i;
     for (i = 0; i < D.days.length; i++) if (D.days[i].id === now.date) return i;
@@ -69,7 +65,7 @@
   function currentBlock(day) {
     var now = tokyoNow();
     if (now.date !== day.id) return -1;
-    for (var i = 0; i < day.blocks.length; i++) if (day.blocks[i].from <= now.hm && now.hm < day.blocks[i].to) return i;
+    for (var i = 0; i < day.items.length; i++) if (day.items[i].t <= now.hm && now.hm < day.items[i].end) return i;
     return -1;
   }
 
@@ -89,7 +85,7 @@
     h += '<div class="row"><span class="lab">Percorso</span><span class="route">' + route.map(function (c, k) {
       return (k ? '<span class="sep">›</span>' : "") + '<span><span class="dot" style="--c:' + cityVar(c) + '"></span>' + esc(CITY[c].n) + "</span>";
     }).join("") + "</span></div>";
-    h += '<div class="row"><span class="lab">Dormite</span><span>' + esc(d.sleep || "—") + "</span></div>";
+    h += '<div class="row"><span class="lab">Dormite</span><span>' + esc(d.sleepName || "—") + "</span></div>";
     h += '<div class="row"><span class="lab">Con</span><span>' + esc(d.with) + "</span></div>";
     h += "</div></section>";
 
@@ -97,11 +93,12 @@
 
     var cur = currentBlock(d);
     h += '<div class="line" aria-label="Programma">';
-    d.blocks.forEach(function (b, k) {
-      var c = b.kind === "long" ? "transit" : (b.city || mc);
-      h += '<div class="stop k-' + b.kind + (k === cur ? " is-now" : "") + '" style="--c:' + cityVar(c) + '">';
-      h += '<div class="t">' + esc(b.time || b.from) + '</div><div class="rail"><span class="node"></span></div><div class="body"><div class="card">';
-      b.segs.forEach(function (s) { h += '<div class="seg-' + s.k + '">' + esc(s.t) + "</div>"; });
+    d.items.forEach(function (b, k) {
+      var c = b.k === "long" ? "transit" : (b.city || mc);
+      var kind = b.k === "act" && b.status === "todo" ? "book" : b.k;
+      h += '<div class="stop k-' + kind + (k === cur ? " is-now" : "") + '" style="--c:' + cityVar(c) + '">';
+      h += '<div class="t">' + esc(b.t) + '</div><div class="rail"><span class="node"></span></div><div class="body"><div class="card">';
+      h += '<div class="seg-' + (b.k === "move" ? "move" : "act") + '">' + esc(b.text) + "</div>";
       if (b.routes && b.routes.length) {
         h += '<div class="routes">' + b.routes.map(function (r) {
           return '<a class="btn route m-' + r.mode + '" href="' + esc(r.url) + '" target="_blank" rel="noopener"><span aria-hidden="true">' +
@@ -112,8 +109,8 @@
       if (k === cur) foot += '<span class="pill info">Adesso</span>';
       if (b.status === "ok") foot += '<span class="pill ok">Prenotato</span>';
       if (b.status === "todo") foot += '<span class="pill todo">Da prenotare</span>';
-      if (b.link) foot += a(b.link.url, b.link.label === "Maps" ? "Apri in Maps" : "Apri su " + b.link.label);
-      if (b.stayLink) foot += '<span class="pill muted">Prenotazione nell\'app Booking / Airbnb</span>';
+      if (b.link) foot += a(b.link.url, b.link.label === "Maps" ? "Apri in Maps" : (b.link.label === "Biglietto" ? "Biglietto Klook" : "Apri su " + b.link.label));
+      if (b.hotel) foot += '<button type="button" class="btn" data-go="alloggi">Dettagli alloggio</button>';
       if (foot) h += '<div class="foot">' + foot + "</div>";
       h += "</div></div></div>";
     });
@@ -136,15 +133,14 @@
   }
 
   // ---------- mappa del giorno ----------
-  var SKIP = /facoltativo|se in anticipo|alternativa|piano B|se piove|prenotazione|^Enoden/i;
-  function hotelQ(h) { return /Appartamento|Cottage/i.test(h.name) ? (h.address || h.name) : h.name + ", " + h.city; }
+  function hotelQ(h) { return h.q || h.name; }
   function hotelFor(dateIso, kind) {
     return D.hotels.find(function (x) { return kind === "start" ? (x.in < dateIso && dateIso <= x.out) : (x.in <= dateIso && dateIso < x.out); });
   }
   function dayStops(i) {
     var d = D.days[i], stops = [];
     var places = D.places.filter(function (p) {
-      return p.day === d.dm && !SKIP.test(p.name) && !/Trasporto/.test(p.type) && !/NON è disponibile/.test(p.note);
+      return p.day === d.dm && p.map;
     });
     if (!places.length) return [];
     var h0 = hotelFor(d.id, "start"), h1 = hotelFor(d.id, "end");
@@ -217,7 +213,7 @@
     var now = Date.now();
     if (now < DEPARTURE) {
       var days = Math.ceil((DEPARTURE - now) / 86400000);
-      var urgent = D.todo.filter(function (t) { return /🔴/.test(t.prio) && !store("todo:" + t.id); }).slice(0, 2);
+      var urgent = D.todo.filter(function (t) { return t.prio === "alta" && !store("todo:" + t.id); }).slice(0, 2);
       var h = '<div class="now"><span class="lab">Prima di partire</span><span class="big">Mancano ' + days + (days === 1 ? " giorno" : " giorni") + "</span>";
       if (urgent.length) h += '<span class="small">Da fare: ' + urgent.map(function (t) { return esc(t.task.replace(/\s*\(×2\)/, "")); }).join(" · ") + "</span>";
       h += '<button type="button" class="btn" data-go="fare">Apri la lista</button></div>';
@@ -241,14 +237,15 @@
   function renderTrains() {
     var h = '<h1 class="page-title">Treni e bus</h1><p class="page-sub">Le tratte lunghe. Gli spostamenti in città sono nel programma di ogni giorno.</p><div class="list">';
     D.trains.forEach(function (t) {
-      var st = t.status === "ok" ? '<span class="pill ok">Prenotato</span>' : (t.status === "todo" ? '<span class="pill todo">Da comprare</span>' : "");
+      var st = t.status === "ok" ? '<span class="pill ok">Prenotato</span>' :
+        (t.status === "todo" ? '<span class="pill todo">Da comprare</span>' : '<span class="pill muted">' + esc(t.statusText || "") + "</span>");
       h += '<article class="ticket"><div class="ticket-head"><span>' + (t.date ? esc(fmtDate(t.date)) : "") + "</span>" + st + "</div>";
-      h += '<div class="ticket-route">' + esc(t.route.replace(/→/g, " → ").replace(/⇄/g, " ⇄ ")) + '</div><div class="ticket-line">' + esc(t.line) + "</div>";
-      h += '<div class="ticket-perf"></div><div class="ticket-body"><dl class="kv"><dt>Durata</dt><dd class="num">' + esc(t.time) +
-        "</dd><dt>Prezzo</dt><dd>" + esc(t.eur) + (t.yen ? " · " + esc(t.yen) : "") + "</dd></dl>";
+      h += '<div class="ticket-route">' + esc(t.route) + '</div><div class="ticket-line">' + esc(t.line) + "</div>";
+      h += '<div class="ticket-perf"></div><div class="ticket-body"><dl class="kv"><dt>Orario</dt><dd class="num">' + esc(t.time) +
+        "</dd><dt>Prezzo</dt><dd>" + esc(t.price) + "</dd></dl>";
       if (t.note) h += '<div class="note">' + esc(t.note) + "</div>";
       var day = D.days.findIndex(function (d) { return d.id === t.date; });
-      h += '<div class="btns">' + (t.link ? a(t.link, "Biglietto Klook", "solid") : "") +
+      h += '<div class="btns">' + (t.link ? a(t.link, /klook/.test(t.link) ? "Biglietto Klook" : "Prenota", "solid") : "") +
         (day >= 0 ? '<button type="button" class="btn" data-day="' + day + '" data-go="giorno">Vedi il giorno</button>' : "") + "</div>";
       h += "</div></article>";
     });
@@ -262,8 +259,9 @@
     D.hotels.forEach(function (x) {
       var tonight = today >= x.in && today < x.out;
       var dayIdx = D.days.findIndex(function (d) { return d.id === x.in; });
-      var c = dayIdx >= 0 ? D.days[dayIdx].sleepCity : "roma";
-      var paid = /^PAGATO/i.test(x.paid) ? '<span class="pill ok">Pagato</span>' : (x.paid ? '<span class="pill todo">Da pagare</span>' : '<span class="pill muted">Quota del gruppo</span>');
+      var c = x.cityId || "roma";
+      var paid = x.paidState === "ok" ? '<span class="pill ok">Pagato</span>' :
+        (x.paidState === "group" ? '<span class="pill muted">Quota del gruppo</span>' : '<span class="pill todo">Da pagare</span>');
       h += '<article class="item cityline" style="--c:' + cityVar(c) + '"><div class="btns">' + (tonight ? '<span class="pill info">Stanotte</span>' : "") + paid + "</div>";
       h += "<h3>" + esc(x.name) + '</h3><div class="meta num">' + esc(fmtDate(x.in)) + " → " + esc(fmtDate(x.out)) + " · " + x.nights + (x.nights === 1 ? " notte" : " notti") +
         (x.price ? " · " + eur(x.price) + " in totale" : "") + "</div>";
@@ -271,7 +269,8 @@
       if (x.address) h += "<dt>Indirizzo</dt><dd>" + esc(x.address) + "</dd>";
       if (x.access) h += "<dt>Come arrivare</dt><dd>" + esc(x.access) + "</dd>";
       if (x.hours) h += "<dt>Orari</dt><dd>" + esc(x.hours) + "</dd>";
-      h += '</dl><div class="btns">' + a(mapsQ(x.address || x.name), "Apri in Maps", "solid") +
+      if (x.paidState === "todo" && x.paid && x.paid !== "no") h += "<dt>Pagamento</dt><dd>" + esc(x.paid) + "</dd>";
+      h += '</dl><div class="btns">' + a(mapsQ(x.q || x.address || x.name), "Apri in Maps", "solid") +
         (x.address ? '<button type="button" class="btn" data-copy="' + esc(x.address) + '">Copia indirizzo</button>' : "") +
         (dayIdx >= 0 ? '<button type="button" class="btn" data-day="' + dayIdx + '" data-go="giorno">Vedi il giorno</button>' : "") + "</div></article>";
     });
@@ -291,7 +290,7 @@
     h += '<p class="page-sub" style="margin-top:14px">' + done + " di " + items.length + " fatte · le spunte restano salvate su questo telefono.</p><div class=\"list\">";
     items.forEach(function (t) {
       var on = !!store("todo:" + t.id);
-      var prio = /🔴/.test(t.prio) ? '<span class="pill todo">Urgente</span>' : (/🟢/.test(t.prio) ? '<span class="pill muted">Bassa</span>' : '<span class="pill info">Media</span>');
+      var prio = t.prio === "alta" ? '<span class="pill todo">Urgente</span>' : (t.prio === "bassa" ? '<span class="pill muted">Bassa</span>' : '<span class="pill info">Media</span>');
       h += '<div class="item todo' + (on ? " done" : "") + '"><input type="checkbox" id="cb-' + esc(t.id) + '" data-todo="' + esc(t.id) + '"' + (on ? " checked" : "") + ">";
       h += '<label for="cb-' + esc(t.id) + '"><h3>' + esc(t.task) + '</h3><div class="btns">' + prio + '<span class="pill muted">' + esc(t.when) + "</span></div>";
       if (t.note) h += '<span class="note">' + esc(t.note) + "</span>";
@@ -383,9 +382,9 @@
   }
 
   function renderUpdate() {
-    return '<h1 class="page-title">Aggiornamenti</h1><div class="list"><div class="item"><dl class="kv"><dt>Dati</dt><dd>versione ' + esc(D.version) +
-      "</dd><dt>Generati</dt><dd>" + esc(D.generated) + "</dd><dt>Dal file</dt><dd>" + esc(D.source) + '</dd></dl></div><div class="item"><h3>Come si aggiorna</h3>' +
-      '<p class="note">Il sito legge tutto dal file Excel master. Si modifica l\'Excel (o si chiede a Claude di farlo), si rilancia lo script che rigenera i dati e si pubblica. ' +
+    return '<h1 class="page-title">Aggiornamenti</h1><div class="list"><div class="item"><dl class="kv"><dt>Dati aggiornati</dt><dd>' + esc(D.generated) +
+      '</dd></dl></div><div class="item"><h3>Come si aggiorna</h3>' +
+      '<p class="note">Chiedete a Claude la modifica: aggiorna il file dei dati e ripubblica il sito. ' +
       "Chi ha il sito aperto vede la nuova versione alla prossima apertura con internet; senza rete resta disponibile l'ultima scaricata.</p></div></div>";
   }
 
@@ -480,6 +479,8 @@
 
   function boot(data) {
     D = data;
+    if (D.departure) DEPARTURE = Date.parse(D.departure) || DEPARTURE;
+    if (D.rate) EUR_YEN = D.rate;
     var saved = store("state") || {};
     S.tab = saved.tab || "giorno";
     S.sub = saved.sub || null;

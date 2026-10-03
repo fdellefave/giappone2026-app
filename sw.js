@@ -1,7 +1,7 @@
 /* Service worker: l'app funziona offline dopo la prima apertura.
    data.json: prima la rete (così gli aggiornamenti arrivano subito), poi la copia salvata.
    Il resto: prima la copia salvata. Cambiare VERSION quando si modificano index.html, app.js o app.css. */
-const VERSION = "g26-v2";
+const VERSION = "g26-v3";
 const SHELL = ["./", "index.html", "app.css", "app.js", "data.json", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 
