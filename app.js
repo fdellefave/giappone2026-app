@@ -13,11 +13,13 @@
     ["senso", "La giornata in breve"], ["mangiare", "Dove mangiare"], ["prenotare", "Da prenotare / da avere"],
     ["attenzione", "Attenzione"], ["anticipo", "Se avanza tempo"], ["stanchi", "Se siete stanchi"], ["camminata", "A piedi e pause"]
   ];
+  var MODE_ICON = { transit: "🚇", walking: "🚶", driving: "🚕" };
+  var MODE_TXT = { transit: "Indicazioni con i mezzi", walking: "Indicazioni a piedi", driving: "Indicazioni in taxi" };
   var DEPARTURE = Date.UTC(2026, 10, 5, 14, 5); // 5/11 15:05 ora di Roma (UTC+1)
   var EUR_YEN = 185;
 
   var D = null;
-  var S = { tab: "giorno", day: null, sub: null, q: "", pday: "" };
+  var S = { tab: "giorno", day: null, sub: null, q: "", pday: "", mstop: 0 };
   var view = document.getElementById("view");
 
   // ---------- utilità ----------
@@ -73,13 +75,7 @@
 
   function renderDay() {
     var i = S.day, d = D.days[i], route = dayRoute(i), mc = mainCity(i), now = tokyoNow();
-    var h = "";
-    h += '<div class="daystrip" role="toolbar" aria-label="Giorni del viaggio">';
-    D.days.forEach(function (x, j) {
-      h += '<button type="button" class="daychip' + (x.id === now.date ? " today" : "") + '" data-day="' + j + '" aria-pressed="' + (j === i) +
-        '" style="--c:' + cityVar(mainCity(j)) + '"><span class="d">' + esc(x.dm) + '</span><span class="w">' + esc(x.wd) + "</span></button>";
-    });
-    h += "</div>";
+    var h = dayStrip(i);
 
     var prev = i > 0 ? D.days[i - 1] : null, next = i < D.days.length - 1 ? D.days[i + 1] : null;
     h += '<section class="board" style="--c:' + cityVar(mc) + '" aria-label="Giorno ' + d.n + '">';
@@ -106,6 +102,12 @@
       h += '<div class="stop k-' + b.kind + (k === cur ? " is-now" : "") + '" style="--c:' + cityVar(c) + '">';
       h += '<div class="t">' + esc(b.time || b.from) + '</div><div class="rail"><span class="node"></span></div><div class="body"><div class="card">';
       b.segs.forEach(function (s) { h += '<div class="seg-' + s.k + '">' + esc(s.t) + "</div>"; });
+      if (b.routes && b.routes.length) {
+        h += '<div class="routes">' + b.routes.map(function (r) {
+          return '<a class="btn route m-' + r.mode + '" href="' + esc(r.url) + '" target="_blank" rel="noopener"><span aria-hidden="true">' +
+            (MODE_ICON[r.mode] || "🧭") + "</span><span>" + esc(r.label) + '<small>' + esc(MODE_TXT[r.mode] || "Indicazioni") + "</small></span></a>";
+        }).join("") + "</div>";
+      }
       var foot = "";
       if (k === cur) foot += '<span class="pill info">Adesso</span>';
       if (b.status === "ok") foot += '<span class="pill ok">Prenotato</span>';
@@ -117,13 +119,8 @@
     });
     h += "</div>";
 
-    var places = D.places.filter(function (p) { return p.day === d.dm; });
-    if (places.length) {
-      h += '<h2 class="section-title">Mappa del giorno</h2>';
-      h += '<div class="btns">' + a(dirUrl(places), "Percorso su Google Maps", "transit") + "</div>";
-      h += '<details class="more"><summary>' + places.length + " posti di oggi</summary><div class=\"list\">";
-      places.forEach(function (p) { h += placeItem(p); });
-      h += "</div></details>";
+    if (dayStops(i).length) {
+      h += '<div class="btns" style="margin-top:6px"><button type="button" class="btn transit" data-day="' + i + '" data-go="mappa">Vedi le tappe di oggi sulla mappa</button></div>';
     }
 
     var g = d.guide || {}, any = GUIDE.some(function (x) { return g[x[0]]; });
@@ -138,14 +135,82 @@
     return h;
   }
 
-  function dirUrl(places) {
-    var qs = places.map(function (p) { return p.q || p.name; });
-    if (qs.length === 1) return mapsQ(qs[0]);
-    var u = "https://www.google.com/maps/dir/?api=1&travelmode=transit&origin=" + encodeURIComponent(qs[0]) +
-      "&destination=" + encodeURIComponent(qs[qs.length - 1]);
-    var mid = qs.slice(1, -1).slice(0, 8);
-    if (mid.length) u += "&waypoints=" + encodeURIComponent(mid.join("|"));
-    return u;
+  // ---------- mappa del giorno ----------
+  var SKIP = /facoltativo|se in anticipo|alternativa|piano B|se piove|prenotazione|^Enoden/i;
+  function hotelQ(h) { return /Appartamento|Cottage/i.test(h.name) ? (h.address || h.name) : h.name + ", " + h.city; }
+  function hotelFor(dateIso, kind) {
+    return D.hotels.find(function (x) { return kind === "start" ? (x.in < dateIso && dateIso <= x.out) : (x.in <= dateIso && dateIso < x.out); });
+  }
+  function dayStops(i) {
+    var d = D.days[i], stops = [];
+    var places = D.places.filter(function (p) {
+      return p.day === d.dm && !SKIP.test(p.name) && !/Trasporto/.test(p.type) && !/NON è disponibile/.test(p.note);
+    });
+    if (!places.length) return [];
+    var h0 = hotelFor(d.id, "start"), h1 = hotelFor(d.id, "end");
+    if (h0) stops.push({ name: h0.name, q: hotelQ(h0), hotel: true });
+    places.forEach(function (p) { stops.push({ name: p.name, q: p.q || p.name, place: p }); });
+    if (h1) stops.push({ name: h1.name, q: hotelQ(h1), hotel: true });
+    return stops;
+  }
+  function routeChunks(stops) {
+    // Google Maps accetta al massimo 9 tappe intermedie: oltre si divide il giro in più parti.
+    var out = [], start = 0;
+    while (start < stops.length - 1) {
+      var end = Math.min(start + 9, stops.length - 1), part = stops.slice(start, end + 1);
+      var u = "https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=" + encodeURIComponent(part[0].q) +
+        "&destination=" + encodeURIComponent(part[part.length - 1].q);
+      if (part.length > 2) u += "&waypoints=" + encodeURIComponent(part.slice(1, -1).map(function (s) { return s.q; }).join("|"));
+      out.push({ from: start + 1, to: end + 1, url: u });
+      start = end;
+    }
+    return out;
+  }
+  function embedUrl(q) { return "https://www.google.com/maps?q=" + encodeURIComponent(q) + "&output=embed"; }
+
+  function dayStrip(i) {
+    var now = tokyoNow(), h = '<div class="daystrip" role="toolbar" aria-label="Giorni del viaggio">';
+    D.days.forEach(function (x, j) {
+      h += '<button type="button" class="daychip' + (x.id === now.date ? " today" : "") + '" data-day="' + j + '" aria-pressed="' + (j === i) +
+        '" style="--c:' + cityVar(mainCity(j)) + '"><span class="d">' + esc(x.dm) + '</span><span class="w">' + esc(x.wd) + "</span></button>";
+    });
+    return h + "</div>";
+  }
+
+  function renderMapTab() {
+    var i = S.day, d = D.days[i], mc = mainCity(i), stops = dayStops(i);
+    var h = dayStrip(i);
+    h += '<h1 class="page-title">Mappa · ' + esc(d.dm) + " " + esc(CITY[mc].n) + "</h1>";
+    if (!stops.length) {
+      return h + '<p class="empty">Oggi non ci sono tappe da visitare: è un giorno di volo.</p>';
+    }
+    var sel = Math.min(S.mstop || 0, stops.length - 1);
+    var chunks = routeChunks(stops);
+    h += '<p class="page-sub">' + stops.length + " tappe in ordine di visita, dall'alloggio di partenza a quello della sera. " +
+      "Il pulsante blu le apre tutte insieme in Google Maps.</p>";
+    h += '<div class="btns">' + chunks.map(function (c) {
+      return a(c.url, chunks.length > 1 ? "Tappe " + c.from + "–" + c.to + " su Google Maps" : "Tutte le tappe su Google Maps", "transit");
+    }).join("") + "</div>";
+    h += '<div class="mapframe"><iframe title="Mappa: ' + esc(stops[sel].name) + '" src="' + esc(embedUrl(stops[sel].q)) +
+      '" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>';
+    h += '<p class="foot-note" style="margin-top:6px">Sulla mappa: <strong>' + esc(stops[sel].name) + "</strong>. Tocca una tappa per spostarla.</p>";
+    h += '<ol class="stops">';
+    var num = 0;
+    stops.forEach(function (s, k) {
+      var p = s.place, next = stops[k + 1];
+      if (!s.hotel) num++;
+      h += '<li class="mstop' + (k === sel ? " on" : "") + (s.hotel ? " hotel" : "") + '" style="--c:' + cityVar(mc) + '">';
+      h += '<button type="button" class="mstop-main" data-mstop="' + k + '"><span class="n">' + (s.hotel ? "宿" : num) +
+        '</span><span class="nm">' + esc(s.name) + (p && p.note ? '<small>' + esc(p.note) + "</small>" : (s.hotel ? "<small>Alloggio</small>" : "")) + "</span></button>";
+      h += '<div class="btns mstop-btns">';
+      if (p && p.ta) h += a(p.ta, "Tripadvisor");
+      else if (p && p.tabelog) h += a(p.tabelog, "Tabelog");
+      h += a(mapsQ(s.q), "Apri in Maps");
+      if (next) h += a("https://www.google.com/maps/dir/?api=1&travelmode=transit&origin=" + encodeURIComponent(s.q) + "&destination=" + encodeURIComponent(next.q), "Come arrivare alla prossima", "solid");
+      h += "</div></li>";
+    });
+    h += "</ol>";
+    return h;
   }
 
   function nowCard(i) {
@@ -358,11 +423,11 @@
   // ---------- montaggio ----------
   function render(keepScroll) {
     if (!D) return;
-    var html = { giorno: renderDay, treni: renderTrains, alloggi: renderHotels, fare: renderTodo, altro: renderMore }[S.tab]();
+    var html = { giorno: renderDay, mappa: renderMapTab, treni: renderTrains, alloggi: renderHotels, fare: renderTodo, altro: renderMore }[S.tab]();
     view.innerHTML = html;
     document.querySelectorAll(".tab").forEach(function (t) { t.setAttribute("aria-current", t.dataset.tab === S.tab ? "page" : "false"); });
     if (!keepScroll) window.scrollTo(0, 0);
-    if (S.tab === "giorno") {
+    if (S.tab === "giorno" || S.tab === "mappa") {
       var chip = view.querySelector('.daychip[aria-pressed="true"]');
       if (chip) chip.scrollIntoView({ inline: "center", block: "nearest" });
       var nowEl = view.querySelector(".stop.is-now");
@@ -387,9 +452,10 @@
     if (t.dataset.tab) { S.tab = t.dataset.tab; S.sub = null; S.q = ""; render(); return; }
     if (t.dataset.day !== undefined && t.dataset.day !== "") {
       var n = parseInt(t.dataset.day, 10);
-      if (n >= 0 && n < D.days.length) { S.day = n; if (t.dataset.go) S.tab = t.dataset.go; render(); }
+      if (n >= 0 && n < D.days.length) { S.day = n; S.mstop = 0; if (t.dataset.go) S.tab = t.dataset.go; render(); }
       return;
     }
+    if (t.dataset.mstop !== undefined) { S.mstop = parseInt(t.dataset.mstop, 10); render(true); return; }
     if (t.dataset.go) { S.tab = t.dataset.go; S.sub = null; render(); return; }
     if (t.dataset.sub !== undefined) { S.sub = t.dataset.sub || null; S.q = ""; S.pday = ""; render(); return; }
     if (t.dataset.pday !== undefined) { S.pday = t.dataset.pday; render(true); return; }

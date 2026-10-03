@@ -1,7 +1,7 @@
 {
- "version": "2.20",
- "generated": "2026-10-02 22:51",
- "source": "Giappone_2026_MASTER_v2_20.xlsx",
+ "version": "2.21",
+ "generated": "2026-10-03 12:45",
+ "source": "Giappone_2026_MASTER_v2_21.xlsx",
  "days": [
   {
    "id": "2026-11-05",
@@ -112,7 +112,14 @@
        "t": "🚆 12:30 aeroporto → Airbnb: treno Keikyu (la linea privata dell'aeroporto) fino alla stazione Daimon, poi metro linea Ōedo fino alla stazione Higashi-Shinjuku · ~55′, ~¥800 · 🚶 5′ (400 m)"
       }
      ],
-     "time": "12:30"
+     "time": "12:30",
+     "routes": [
+      {
+       "label": "Aeroporto → Airbnb",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Haneda%20Airport%20Terminal%203&destination=2-13-5%20Okubo%2C%20Shinjuku%20City%2C%20Tokyo&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "13:00",
@@ -151,7 +158,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Restaurant_Review-g14133713-d1679642-Reviews-Fuunji-Yoyogi_Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Airbnb → Fūunji",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=2-13-5%20Okubo%2C%20Shinjuku%20City%2C%20Tokyo&destination=%E9%A2%A8%E9%9B%B2%E5%85%90%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E4%BB%A3%E3%80%85%E6%9C%A82-14-3&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "15:00",
@@ -172,7 +186,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g14134311-d320447-Reviews-Senso_ji_Temple-Asakusa_Taito_Tokyo_Tokyo_Prefecture_Kanto.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Fūunji → Senso-ji",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=%E9%A2%A8%E9%9B%B2%E5%85%90%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E4%BB%A3%E3%80%85%E6%9C%A82-14-3&destination=Senso-ji%2C%20Asakusa%2C%20Tokyo&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "17:00",
@@ -189,7 +210,14 @@
        "t": "🚶 17:40 → Sumo Club 10′ (700 m)"
       }
      ],
-     "time": "17:00"
+     "time": "17:00",
+     "routes": [
+      {
+       "label": "Senso-ji → Sumo Club",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Senso-ji%2C%20Asakusa%2C%20Tokyo&destination=%E6%B5%85%E8%8D%89%E7%9B%B8%E6%92%B2%E9%83%A8%E5%B1%8B%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%892-10-12&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "18:00",
@@ -228,7 +256,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g1066443-d10094606-Reviews-Hey-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Sumo Club → Akihabara",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=%E6%B5%85%E8%8D%89%E7%9B%B8%E6%92%B2%E9%83%A8%E5%B1%8B%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%892-10-12&destination=HEY%20Hirose%20Entertainment%20Yard%20Akihabara&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "21:00",
@@ -253,7 +288,19 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g14133667-d8048204-Reviews-Godzilla_Road_Head-Kabukicho_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Akihabara → Godzilla",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Akihabara%20Station%2C%20Tokyo&destination=Godzilla%20Head%2C%20Hotel%20Gracery%20Shinjuku&travelmode=transit"
+      },
+      {
+       "label": "Godzilla → Airbnb",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Hotel%20Gracery%20Shinjuku&destination=2-13-5%20Okubo%2C%20Shinjuku%20City%2C%20Tokyo&travelmode=walking"
+      }
+     ]
     }
    ],
    "guide": {
@@ -296,7 +343,14 @@
       }
      ],
      "time": "08:30",
-     "stayLink": true
+     "stayLink": true,
+     "routes": [
+      {
+       "label": "Airbnb → stazione di Shinjuku",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=2-13-5%20Okubo%2C%20Shinjuku%20City%2C%20Tokyo&destination=Shinjuku%20Station%2C%20Tokyo&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "09:00",
@@ -330,7 +384,14 @@
        "t": "🌤 in alternativa: pagoda Chureito (treno 15′) se il Fuji è nitido e per domani danno brutto"
       }
      ],
-     "time": "11:30"
+     "time": "11:30",
+     "routes": [
+      {
+       "label": "Stazione → Lake Bake",
+       "mode": "driving",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Kawaguchiko%20Station&destination=Lake%20Bake%20%E5%AF%8C%E5%A3%AB%E6%B2%B3%E5%8F%A3%E6%B9%96%E7%94%BA%E5%A4%A7%E7%9F%B32585-85&travelmode=driving"
+      }
+     ]
     },
     {
      "from": "13:00",
@@ -351,7 +412,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Restaurant_Review-g1165976-d7486115-Reviews-Lake_Bake-Fujikawaguchiko_machi_Minamitsuru_gun_Yamanashi_Prefecture_Koshinetsu_.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Lake Bake → stazione",
+       "mode": "driving",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Lake%20Bake%20%E5%AF%8C%E5%A3%AB%E6%B2%B3%E5%8F%A3%E6%B9%96%E7%94%BA%E5%A4%A7%E7%9F%B32585-85&destination=Kawaguchiko%20Station&travelmode=driving"
+      }
+     ]
     },
     {
      "from": "14:00",
@@ -368,7 +436,14 @@
        "t": "🚕 tutti al Cottage Pastorale (Kawaguchi 3064, sponda nord del lago; l'host fa navetta dalla stazione)"
       }
      ],
-     "time": "14:00"
+     "time": "14:00",
+     "routes": [
+      {
+       "label": "Stazione → Cottage",
+       "mode": "driving",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Kawaguchiko%20Station&destination=Kawaguchi%203064%2C%20Fujikawaguchiko%2C%20Yamanashi&travelmode=driving"
+      }
+     ]
     },
     {
      "from": "15:00",
@@ -404,7 +479,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g1165976-d10019717-Reviews-Fuji_Lake_Kawaguchi_Koyo_Festival-Fujikawaguchiko_machi_Minamitsuru_gun_Yamanas.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Tenku no Torii → viale degli aceri",
+       "mode": "driving",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Kawaguchi%20Asama%20Shrine%2C%20Fujikawaguchiko&destination=Momiji%20Corridor%2C%20Kawaguchiko&travelmode=driving"
+      }
+     ]
     },
     {
      "from": "19:00",
@@ -424,7 +506,14 @@
      "link": {
       "url": "https://tabelog.com/en/yamanashi/A1903/A190303/19000116/",
       "label": "Tabelog"
-     }
+     },
+     "routes": [
+      {
+       "label": "Viale degli aceri → Hoto Fudo",
+       "mode": "driving",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Momiji%20Corridor%2C%20Kawaguchiko&destination=%E3%81%BB%E3%81%86%E3%81%A8%E3%81%86%E4%B8%8D%E5%8B%95%20%E6%B2%B3%E5%8F%A3%E6%B9%96%E5%8C%97%E6%9C%AC%E5%BA%97%20%E5%AF%8C%E5%A3%AB%E6%B2%B3%E5%8F%A3%E6%B9%96%E7%94%BA%E6%B2%B3%E5%8F%A3707&travelmode=driving"
+      }
+     ]
     }
    ],
    "guide": {
@@ -565,6 +654,13 @@
        "k": "move",
        "t": "🚕 Cottage → stazione di Kawaguchiko (~10′) · 🚃 treno locale Fujikyu → Shimoyoshida (~15′, ¥310) col gruppo"
       }
+     ],
+     "routes": [
+      {
+       "label": "Cottage → Shimoyoshida",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Kawaguchi%203064%2C%20Fujikawaguchiko%2C%20Yamanashi&destination=Shimoyoshida%20Station%2C%20Fujiyoshida&travelmode=transit"
+      }
      ]
     },
     {
@@ -585,7 +681,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g681223-d12132064-Reviews-Chureito_Pagoda-Fujiyoshida_Yamanashi_Prefecture_Koshinetsu_Chubu.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Stazione → pagoda Chureito",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Shimoyoshida%20Station%2C%20Fujiyoshida&destination=Chureito%20Pagoda%2C%20Fujiyoshida&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "09:00",
@@ -605,7 +708,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g681223-d20342844-Reviews-Honcho_Nichome_Shotengai-Fujiyoshida_Yamanashi_Prefecture_Koshinetsu_Chubu.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Chureito → Honcho Street",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Chureito%20Pagoda%2C%20Fujiyoshida&destination=Honcho%20Street%2C%20Fujiyoshida&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "10:00",
@@ -620,6 +730,13 @@
       {
        "k": "act",
        "t": "tempo libero al lago"
+      }
+     ],
+     "routes": [
+      {
+       "label": "Shimoyoshida → Kawaguchiko",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Shimoyoshida%20Station%2C%20Fujiyoshida&destination=Kawaguchiko%20Station&travelmode=transit"
       }
      ]
     },
@@ -657,6 +774,13 @@
        "k": "move",
        "t": "🚶 7′ ai binari della metro Toei · 🚇 metro linea Toei Shinjuku fino alla stazione Hamachō, 22′ senza cambi (~¥280) · 🚶 6′ (450 m) all'hotel · arrivo ~16:45 (o ~17:35)"
       }
+     ],
+     "routes": [
+      {
+       "label": "Shinjuku → Hotel Saibo",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Shinjuku%20Station%2C%20Tokyo&destination=Hotel%20Nihonbashi%20Saibo%2C%20Ningyocho%2C%20Tokyo&travelmode=transit"
+      }
      ]
     },
     {
@@ -687,7 +811,14 @@
        "t": "🚇 18:20 → teamLab ~35′: metro Hibiya line fino a Ginza, 🚶 5′ alla stazione Ginza-itchōme, metro Yurakuchō line fino a Toyosu, 🚶 12′ (1 km) · o 🚕 taxi 20′ (~¥3.000)"
       }
      ],
-     "time": "18:20"
+     "time": "18:20",
+     "routes": [
+      {
+       "label": "Hotel Saibo → teamLab",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Hotel%20Nihonbashi%20Saibo%2C%20Ningyocho%2C%20Tokyo&destination=teamLab%20Planets%20TOKYO%2C%20Toyosu&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "19:00",
@@ -718,6 +849,13 @@
       {
        "k": "move",
        "t": "🚇 rientro ~35′ (stessa strada) o 🚕 20′"
+      }
+     ],
+     "routes": [
+      {
+       "label": "teamLab → Hotel Saibo",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=teamLab%20Planets%20TOKYO%2C%20Toyosu&destination=Hotel%20Nihonbashi%20Saibo%2C%20Ningyocho%2C%20Tokyo&travelmode=transit"
       }
      ]
     }
@@ -762,7 +900,14 @@
       }
      ],
      "time": "06:30",
-     "stayLink": true
+     "stayLink": true,
+     "routes": [
+      {
+       "label": "Hotel Saibo → Kamakura-kōkō-mae",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Hotel%20Nihonbashi%20Saibo%2C%20Ningyocho%2C%20Tokyo&destination=Kamakurakokomae%20Station&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "08:00",
@@ -800,7 +945,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g303156-d1311119-Reviews-Hokoku_ji_Temple-Kamakura_Kanagawa_Prefecture_Kanto.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Kōkō-mae → Hōkoku-ji",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Kamakurakokomae%20Station&destination=Hokokuji%20Temple%2C%20Kamakura&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "10:00",
@@ -821,7 +973,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g303156-d1755776-Reviews-Kamakura_Komachidori-Kamakura_Kanagawa_Prefecture_Kanto.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Hōkoku-ji → Komachi-dōri",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Hokokuji%20Temple%2C%20Kamakura&destination=Komachi-dori%2C%20Kamakura&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "13:00",
@@ -842,7 +1001,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g303156-d319975-Reviews-Kotoku_in_Great_Buddha_of_Kamakura-Kamakura_Kanagawa_Prefecture_Kanto.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Komachi-dōri → Grande Buddha",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Kamakura%20Station&destination=Kotoku-in%20Great%20Buddha%2C%20Kamakura&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "14:00",
@@ -863,7 +1029,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g303156-d319981-Reviews-Hasedera_Temple-Kamakura_Kanagawa_Prefecture_Kanto.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Grande Buddha → Hase-dera",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Kotoku-in%20Great%20Buddha%2C%20Kamakura&destination=Hasedera%20Temple%2C%20Kamakura&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "16:00",
@@ -884,7 +1057,19 @@
        "t": "🚃 Enoden fino a Fujisawa 15′"
       }
      ],
-     "time": "16:15"
+     "time": "16:15",
+     "routes": [
+      {
+       "label": "Hase-dera → Koshigoe",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Hasedera%20Temple%2C%20Kamakura&destination=Koshigoe%20Station%2C%20Kamakura&travelmode=transit"
+      },
+      {
+       "label": "Koshigoe → Fujisawa",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Koshigoe%20Station%2C%20Kamakura&destination=Fujisawa%20Station&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "18:00",
@@ -913,7 +1098,19 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g14129528-d3335816-Reviews-GRANSTA_TOKYO-Marunouchi_Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Fujisawa → Hotel Saibo",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Fujisawa%20Station&destination=Hotel%20Nihonbashi%20Saibo%2C%20Ningyocho%2C%20Tokyo&travelmode=transit"
+      },
+      {
+       "label": "Hotel Saibo → Tokyo Station",
+       "mode": "driving",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Hotel%20Nihonbashi%20Saibo%2C%20Ningyocho%2C%20Tokyo&destination=Tokyo%20Station&travelmode=driving"
+      }
+     ]
     },
     {
      "from": "19:00",
@@ -952,7 +1149,19 @@
       }
      ],
      "time": "22:21",
-     "stayLink": true
+     "stayLink": true,
+     "routes": [
+      {
+       "label": "Stazione di Kyoto → APA Hotel",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Kyoto%20Station&destination=APA%20Hotel%20Kyoto%20Eki%20Horikawadori&travelmode=walking"
+      },
+      {
+       "label": "APA Hotel → ramen Daiichi Asahi",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=APA%20Hotel%20Kyoto%20Eki%20Horikawadori&destination=%E6%9C%AC%E5%AE%B6%20%E7%AC%AC%E4%B8%80%E6%97%AD%20%E3%81%9F%E3%81%8B%E3%81%B0%E3%81%97%20%E4%BA%AC%E9%83%BD%E5%B8%82%E4%B8%8B%E4%BA%AC%E5%8C%BA%E6%9D%B1%E5%A1%A9%E5%B0%8F%E8%B7%AF%E5%90%91%E7%95%91%E7%94%BA845&travelmode=walking"
+      }
+     ]
     }
    ],
    "guide": {
@@ -997,7 +1206,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g298564-d321456-Reviews-Fushimi_Inari_taisha_Shrine-Kyoto_Kyoto_Prefecture_Kinki.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Hotel → Fushimi Inari",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=APA%20Hotel%20Kyoto%20Eki%20Horikawadori&destination=Fushimi%20Inari%20Taisha%2C%20Kyoto&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "10:00",
@@ -1014,7 +1230,14 @@
        "t": "🚃 11:00 treno Keihan (linea locale) da Fushimi-Inari a Kiyomizu-Gojō 10′ · 🚶 15′ (1,2 km)"
       }
      ],
-     "time": "09:45"
+     "time": "09:45",
+     "routes": [
+      {
+       "label": "Fushimi Inari → Higashiyama",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Fushimi%20Inari%20Taisha%2C%20Kyoto&destination=Gojozaka%2C%20Higashiyama%2C%20Kyoto&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "12:00",
@@ -1048,7 +1271,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g298564-d321401-Reviews-Kiyomizu_dera_Temple-Kyoto_Kyoto_Prefecture_Kinki.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Pranzo → Kiyomizu-dera",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Gojozaka%2C%20Higashiyama%2C%20Kyoto&destination=Kiyomizu-dera%2C%20Kyoto&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "16:00",
@@ -1069,7 +1299,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g298564-d1386172-Reviews-Yasaka_Pagoda-Kyoto_Kyoto_Prefecture_Kinki.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Ninenzaka → pagoda di Yasaka",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Ninenzaka%2C%20Kyoto&destination=Yasaka%20Pagoda%20Hokanji%2C%20Kyoto&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "17:00",
@@ -1090,7 +1327,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g298564-d1956593-Reviews-Hanamikoji_Street-Kyoto_Kyoto_Prefecture_Kinki.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Pagoda → Hanami-kōji",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Yasaka%20Pagoda%20Hokanji%2C%20Kyoto&destination=Hanamikoji%20Street%2C%20Gion%2C%20Kyoto&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "18:00",
@@ -1129,7 +1373,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g298564-d321442-Reviews-Pontocho_District-Kyoto_Kyoto_Prefecture_Kinki.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Gion Corner → Pontochō",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Gion%20Corner%2C%20Kyoto&destination=Pontocho%2C%20Kyoto&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "20:00",
@@ -1154,7 +1405,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g298564-d3837245-Reviews-Kiyamachi_Street-Kyoto_Kyoto_Prefecture_Kinki.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Kiyamachi → hotel",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Kiyamachi-dori%2C%20Kyoto&destination=APA%20Hotel%20Kyoto%20Eki%20Horikawadori&travelmode=transit"
+      }
+     ]
     }
    ],
    "guide": {
@@ -1191,7 +1449,14 @@
        "t": "🚶 07:10 hotel → stazione di Kyoto 7′ · 🚆 treno JR Sagano line fino a Saga-Arashiyama 15′ · 🚶 10′ (800 m) al bambù"
       }
      ],
-     "time": "07:10"
+     "time": "07:10",
+     "routes": [
+      {
+       "label": "Hotel → bosco di bambù",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=APA%20Hotel%20Kyoto%20Eki%20Horikawadori&destination=Arashiyama%20Bamboo%20Grove%2C%20Kyoto&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "08:00",
@@ -1216,7 +1481,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g298564-d665440-Reviews-Monkey_Park_Iwatayama-Kyoto_Kyoto_Prefecture_Kinki.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Bambù → Monkey Park",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Arashiyama%20Bamboo%20Grove%2C%20Kyoto&destination=Monkey%20Park%20Iwatayama%2C%20Kyoto&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "10:00",
@@ -1229,7 +1501,14 @@
        "t": "🚶 10:00 → stazione del Randen (il tram storico di Kyoto) di Arashiyama 10′ · 🚃 Randen, cambio a Katabiranotsuji, fino a Ryōanji ~30′ · 🚶 7′ (500 m)"
       }
      ],
-     "time": "10:00"
+     "time": "10:00",
+     "routes": [
+      {
+       "label": "Monkey Park → Ryōan-ji",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Arashiyama%20Station%20Randen%2C%20Kyoto&destination=Ryoanji%20Temple%2C%20Kyoto&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "11:00",
@@ -1250,7 +1529,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g298564-d1386112-Reviews-Ryoan_ji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Ryōan-ji → Kinkaku-ji",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Ryoanji%20Temple%2C%20Kyoto&destination=Kinkakuji%20Temple%2C%20Kyoto&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "12:00",
@@ -1284,7 +1570,19 @@
        "t": "13:15 pranzo nella via Ginkakuji-michi (Omen, udon famosi, è chiuso il giovedì: oggi è giovedì)"
       }
      ],
-     "time": "12:45"
+     "time": "12:45",
+     "routes": [
+      {
+       "label": "Kinkaku-ji → Ginkaku-ji (taxi)",
+       "mode": "driving",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Kinkakuji%20Temple%2C%20Kyoto&destination=Ginkakuji%20Temple%2C%20Kyoto&travelmode=driving"
+      },
+      {
+       "label": "Kinkaku-ji → Ginkaku-ji (bus)",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Kinkakuji%20Temple%2C%20Kyoto&destination=Ginkakuji%20Temple%2C%20Kyoto&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "14:00",
@@ -1322,7 +1620,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g298564-d545965-Reviews-Philosopher_s_Walk-Kyoto_Kyoto_Prefecture_Kinki.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Ginkaku-ji → Nanzen-ji",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Ginkakuji%20Temple%2C%20Kyoto&destination=Nanzenji%20Temple%2C%20Kyoto&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "16:00",
@@ -1368,7 +1673,19 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g298564-d1975187-Reviews-Keage_Incline-Kyoto_Kyoto_Prefecture_Kinki.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Nanzen-ji → Keage Incline",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Nanzenji%20Temple%2C%20Kyoto&destination=Keage%20Incline%2C%20Kyoto&travelmode=walking"
+      },
+      {
+       "label": "Keage → Nishiki",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Keage%20Station%2C%20Kyoto&destination=Nishiki%20Market%2C%20Kyoto&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "18:00",
@@ -1389,7 +1706,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Restaurant_Review-g298564-d3788802-Reviews-Ramen_Sen_no_Kaze_Kyoto-Kyoto_Kyoto_Prefecture_Kinki.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Nishiki → Sen no Kaze",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Nishiki%20Market%2C%20Kyoto&destination=%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%E5%8D%83%E3%81%AE%E9%A2%A8%20%E4%BA%AC%E9%83%BD%E5%B8%82%E4%B8%AD%E4%BA%AC%E5%8C%BA%E6%96%B0%E4%BA%AC%E6%A5%B5%E9%80%9A%E5%9B%9B%E6%9D%A1%E4%B8%8A%E3%83%AB%E4%B8%AD%E4%B9%8B%E7%94%BA580&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "19:00",
@@ -1406,7 +1730,14 @@
        "t": "relax o sentō (bagno pubblico giapponese), a letto presto: domani treno alle 8:31"
       }
      ],
-     "time": "20:00"
+     "time": "20:00",
+     "routes": [
+      {
+       "label": "Sen no Kaze → hotel",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%E5%8D%83%E3%81%AE%E9%A2%A8%20%E4%BA%AC%E9%83%BD%E5%B8%82%E4%B8%AD%E4%BA%AC%E5%8C%BA%E6%96%B0%E4%BA%AC%E6%A5%B5%E9%80%9A%E5%9B%9B%E6%9D%A1%E4%B8%8A%E3%83%AB%E4%B8%AD%E4%B9%8B%E7%94%BA580&destination=APA%20Hotel%20Kyoto%20Eki%20Horikawadori&travelmode=transit"
+      }
+     ]
     }
    ],
    "guide": {
@@ -1449,7 +1780,14 @@
       }
      ],
      "time": "07:45",
-     "stayLink": true
+     "stayLink": true,
+     "routes": [
+      {
+       "label": "Hotel → stazione di Kyoto",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=APA%20Hotel%20Kyoto%20Eki%20Horikawadori&destination=Kyoto%20Station&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "08:00",
@@ -1484,7 +1822,14 @@
       }
      ],
      "time": "12:15",
-     "stayLink": true
+     "stayLink": true,
+     "routes": [
+      {
+       "label": "Stazione → Spa Hotel Alpina",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Takayama%20Station&destination=Spa%20Hotel%20Alpina%20Hida%20Takayama&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "13:00",
@@ -1505,7 +1850,14 @@
      "link": {
       "url": "https://www.tripadvisor.ca/Restaurant_Review-g298113-d7729529-Reviews-Hida_Kotte_Ushi-Takayama_Gifu_Prefecture_Tokai_Chubu.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Hotel → Kotte Ushi",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Spa%20Hotel%20Alpina%20Hida%20Takayama&destination=%E3%81%93%E3%81%A3%E3%81%A6%E7%89%9B%20%E9%AB%98%E5%B1%B1%E5%B8%82%E4%B8%8A%E4%B8%89%E4%B9%8B%E7%94%BA82&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "14:00",
@@ -1526,7 +1878,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g298113-d320174-Reviews-Takayama_Jinya-Takayama_Gifu_Prefecture_Tokai_Chubu.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Kotte Ushi → Jinya",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=%E3%81%93%E3%81%A3%E3%81%A6%E7%89%9B%20%E9%AB%98%E5%B1%B1%E5%B8%82%E4%B8%8A%E4%B8%89%E4%B9%8B%E7%94%BA82&destination=Takayama%20Jinya&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "15:00",
@@ -1547,7 +1906,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g298113-d320175-Reviews-Sanmachi_Suji-Takayama_Gifu_Prefecture_Tokai_Chubu.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Jinya → Sanmachi",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Takayama%20Jinya&destination=Sanmachi%20Suji%2C%20Takayama&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "17:00",
@@ -1569,7 +1935,14 @@
       }
      ],
      "time": "16:40",
-     "stayLink": true
+     "stayLink": true,
+     "routes": [
+      {
+       "label": "Nakabashi → hotel",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Nakabashi%20Bridge%2C%20Takayama&destination=Spa%20Hotel%20Alpina%20Hida%20Takayama&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "18:00",
@@ -1591,7 +1964,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Restaurant_Review-g298113-d1479770-Reviews-Kitchen_Hida-Takayama_Gifu_Prefecture_Tokai_Chubu.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Hotel → Kitchen Hida",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Spa%20Hotel%20Alpina%20Hida%20Takayama&destination=%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3%E9%A3%9B%E9%A8%A8%20%E9%AB%98%E5%B1%B1%E5%B8%82%E6%9C%AC%E7%94%BA1-66&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "20:00",
@@ -1608,7 +1988,14 @@
        "t": "onsen panoramico sul tetto dell'Alpina (fino all'1:00)"
       }
      ],
-     "time": "20:00"
+     "time": "20:00",
+     "routes": [
+      {
+       "label": "Kitchen Hida → hotel",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3%E9%A3%9B%E9%A8%A8%20%E9%AB%98%E5%B1%B1%E5%B8%82%E6%9C%AC%E7%94%BA1-66&destination=Spa%20Hotel%20Alpina%20Hida%20Takayama&travelmode=walking"
+      }
+     ]
     }
    ],
    "guide": {
@@ -1653,7 +2040,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g298113-d1516746-Reviews-Hida_Takayama_Miyagawa_Morning_Market-Takayama_Gifu_Prefecture_Tokai_Chubu.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Hotel → mercato Miyagawa",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Spa%20Hotel%20Alpina%20Hida%20Takayama&destination=Miyagawa%20Morning%20Market%2C%20Takayama&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "08:00",
@@ -1670,7 +2064,19 @@
      "link": {
       "url": "https://japanbusonline.com/CourseSearch/11900040002?afcd=MDI=",
       "label": "Sito"
-     }
+     },
+     "routes": [
+      {
+       "label": "Mercato → stazione dei bus",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Miyagawa%20Morning%20Market%2C%20Takayama&destination=Takayama%20Nohi%20Bus%20Center&travelmode=walking"
+      },
+      {
+       "label": "Bus per Shirakawa-go",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Takayama%20Nohi%20Bus%20Center&destination=Shirakawa-go%20Bus%20Terminal&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "09:00",
@@ -1691,7 +2097,14 @@
      "link": {
       "url": "https://shirakawa-go.gr.jp/en/",
       "label": "Sito"
-     }
+     },
+     "routes": [
+      {
+       "label": "Bus → belvedere",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Shirakawa-go%20Bus%20Terminal&destination=Ogimachi%20Castle%20Ruins%20Observatory%2C%20Shirakawa&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "13:00",
@@ -1715,6 +2128,13 @@
       {
        "k": "move",
        "t": "🚌🚨 bus Shirakawa-go → Takayama (~50′) · corsa tra le 13:30 e le 14:30, da fissare · 🚶 3′ all'hotel"
+      }
+     ],
+     "routes": [
+      {
+       "label": "Shirakawa-go → hotel",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Shirakawa-go%20Bus%20Terminal&destination=Spa%20Hotel%20Alpina%20Hida%20Takayama&travelmode=transit"
       }
      ]
     },
@@ -1750,7 +2170,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Restaurant_Review-g298113-d3616009-Reviews-Hidatakayama_Kyoya-Takayama_Gifu_Prefecture_Tokai_Chubu.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Hotel → Kyōya",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Spa%20Hotel%20Alpina%20Hida%20Takayama&destination=%E9%A3%9B%E9%A8%A8%E9%AB%98%E5%B1%B1%20%E4%BA%AC%E3%82%84%20%E9%AB%98%E5%B1%B1%E5%B8%82%E5%A4%A7%E6%96%B0%E7%94%BA1-77&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "20:00",
@@ -1765,6 +2192,13 @@
       {
        "k": "act",
        "t": "valigia pronta · a letto presto (domani treno alle 8:00, check-out alle 7:40)"
+      }
+     ],
+     "routes": [
+      {
+       "label": "Kyōya → hotel",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=%E9%A3%9B%E9%A8%A8%E9%AB%98%E5%B1%B1%20%E4%BA%AC%E3%82%84%20%E9%AB%98%E5%B1%B1%E5%B8%82%E5%A4%A7%E6%96%B0%E7%94%BA1-77&destination=Spa%20Hotel%20Alpina%20Hida%20Takayama&travelmode=walking"
       }
      ]
     }
@@ -1812,7 +2246,14 @@
      "link": {
       "url": "https://s.klook.com/c/Z3Or7m_o3k",
       "label": "Biglietto Klook"
-     }
+     },
+     "routes": [
+      {
+       "label": "Hotel → stazione di Takayama",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Spa%20Hotel%20Alpina%20Hida%20Takayama&destination=Takayama%20Station&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "09:00",
@@ -1858,7 +2299,19 @@
      "link": {
       "url": "https://www.google.com/maps/search/?api=1&query=Dotonbori+Osaka",
       "label": "Maps"
-     }
+     },
+     "routes": [
+      {
+       "label": "Shin-Osaka → Hotel Hillarys",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Shin-Osaka%20Station&destination=Hotel%20Hillarys%20Shinsaibashi%2C%20Osaka&travelmode=transit"
+      },
+      {
+       "label": "Hotel → Dōtonbori",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Hotel%20Hillarys%20Shinsaibashi%2C%20Osaka&destination=Dotonbori%2C%20Osaka&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "13:00",
@@ -1879,7 +2332,14 @@
      "link": {
       "url": "https://www.google.com/maps/search/?api=1&query=Den+Den+Town+Nipponbashi+Osaka",
       "label": "Maps"
-     }
+     },
+     "routes": [
+      {
+       "label": "Dōtonbori → Den Den Town",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Dotonbori%2C%20Osaka&destination=%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9D%E3%83%86%E3%83%88%20%E3%82%AA%E3%82%BF%E3%83%AD%E3%83%BC%E3%83%89%E5%BA%97%20%E5%A4%A7%E9%98%AA%E5%B8%82%E6%B5%AA%E9%80%9F%E5%8C%BA%E6%97%A5%E6%9C%AC%E6%A9%8B3-8-18&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "15:00",
@@ -1900,7 +2360,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Restaurant_Review-g298566-d1678754-Reviews-Ganso_Kushikatsu_Daruma_Shinsekai_Sohonten-Osaka_Osaka_Prefecture_Kinki.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Den Den Town → Shinsekai",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9D%E3%83%86%E3%83%88%20%E3%82%AA%E3%82%BF%E3%83%AD%E3%83%BC%E3%83%89%E5%BA%97%20%E5%A4%A7%E9%98%AA%E5%B8%82%E6%B5%AA%E9%80%9F%E5%8C%BA%E6%97%A5%E6%9C%AC%E6%A9%8B3-8-18&destination=Tsutenkaku%2C%20Osaka&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "17:00",
@@ -1918,7 +2385,14 @@
       }
      ],
      "time": "17:10",
-     "stayLink": true
+     "stayLink": true,
+     "routes": [
+      {
+       "label": "Shinsekai → Hotel Hillarys",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Tsutenkaku%2C%20Osaka&destination=Hotel%20Hillarys%20Shinsaibashi%2C%20Osaka&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "18:00",
@@ -1939,7 +2413,14 @@
      "link": {
       "url": "https://www.tripadvisor.com.sg/Restaurant_Review-g14135003-d3610195-Reviews-Fukutaro_Honten-Sennichimae_Chuo_Osaka_Osaka_Prefecture_Kinki.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Hotel → Fukutaro",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Hotel%20Hillarys%20Shinsaibashi%2C%20Osaka&destination=%E7%A6%8F%E5%A4%AA%E9%83%8E%20%E6%9C%AC%E5%BA%97%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%83%E6%97%A5%E5%89%8D2-3-17&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "19:00",
@@ -1960,7 +2441,14 @@
      "link": {
       "url": "https://www.google.com/maps/search/?api=1&query=Hozenji+Yokocho+Osaka",
       "label": "Maps"
-     }
+     },
+     "routes": [
+      {
+       "label": "Fukutaro → Hōzenji Yokochō",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=%E7%A6%8F%E5%A4%AA%E9%83%8E%20%E6%9C%AC%E5%BA%97%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%83%E6%97%A5%E5%89%8D2-3-17&destination=Hozenji%20Yokocho%2C%20Osaka&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "21:00",
@@ -1985,7 +2473,19 @@
      "link": {
       "url": "https://www.google.com/maps/search/?api=1&query=Round1+Stadium+Sennichimae+Osaka",
       "label": "Maps"
-     }
+     },
+     "routes": [
+      {
+       "label": "Hōzenji → Round1",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Hozenji%20Yokocho%2C%20Osaka&destination=Round1%20Stadium%20Sennichimae%2C%20Osaka&travelmode=walking"
+      },
+      {
+       "label": "Round1 → hotel",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Round1%20Stadium%20Sennichimae%2C%20Osaka&destination=Hotel%20Hillarys%20Shinsaibashi%2C%20Osaka&travelmode=walking"
+      }
+     ]
     }
    ],
    "guide": {
@@ -2028,7 +2528,14 @@
       }
      ],
      "time": "07:15",
-     "stayLink": true
+     "stayLink": true,
+     "routes": [
+      {
+       "label": "Hotel → Universal Studios",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Hotel%20Hillarys%20Shinsaibashi%2C%20Osaka&destination=Universal%20Studios%20Japan&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "08:00",
@@ -2109,7 +2616,14 @@
        "t": "ekiben (cestino da treno) per la cena"
       }
      ],
-     "time": "18:20"
+     "time": "18:20",
+     "routes": [
+      {
+       "label": "Universal Studios → Shin-Osaka",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Universal%20City%20Station%2C%20Osaka&destination=Shin-Osaka%20Station&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "19:00",
@@ -2148,7 +2662,14 @@
       }
      ],
      "time": "22:24",
-     "stayLink": true
+     "stayLink": true,
+     "routes": [
+      {
+       "label": "Tokyo Station → Super Hotel",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Tokyo%20Station&destination=Super%20Hotel%20Tokyo%20Hamamatsucho&travelmode=transit"
+      }
+     ]
     }
    ],
    "guide": {
@@ -2193,7 +2714,19 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g14129610-d1373675-Reviews-Tsukiji_Jogai_Market-Tsukiji_Chuo_Tokyo_Tokyo_Prefecture_Kanto.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Hotel → Tsukiji (a piedi)",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Super%20Hotel%20Tokyo%20Hamamatsucho&destination=Tsukiji%20Outer%20Market%2C%20Tokyo&travelmode=walking"
+      },
+      {
+       "label": "Hotel → Tsukiji (metro)",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Super%20Hotel%20Tokyo%20Hamamatsucho&destination=Tsukiji%20Outer%20Market%2C%20Tokyo&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "11:00",
@@ -2214,7 +2747,14 @@
      "link": {
       "url": "https://www.google.com/maps/search/?api=1&query=Ginza+Tokyo",
       "label": "Maps"
-     }
+     },
+     "routes": [
+      {
+       "label": "Tsukiji → Ginza",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Tsukiji%20Outer%20Market%2C%20Tokyo&destination=Ginza%20Mitsukoshi%2C%20Tokyo&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "12:00",
@@ -2244,7 +2784,14 @@
        "t": "🚇 13:00 metro Ginza line da Ginza a Omotesandō 15′ (7 km) · 🚶 → Harajuku 10′ (800 m)"
       }
      ],
-     "time": "13:00"
+     "time": "13:00",
+     "routes": [
+      {
+       "label": "Ginza → Harajuku",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Ginza%20Mitsukoshi%2C%20Tokyo&destination=Takeshita%20Street%2C%20Harajuku%2C%20Tokyo&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "14:00",
@@ -2265,7 +2812,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g1066456-d1373790-Reviews-Takeshita_Street-Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Harajuku → Shibuya Sky",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Meiji%20Jingu%2C%20Tokyo&destination=Shibuya%20Sky%2C%20Tokyo&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "16:00",
@@ -2303,7 +2857,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g14133673-d1173749-Reviews-Omoide_Yokocho-Nishishinjuku_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Shibuya → Omoide Yokochō",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Shibuya%20Station%2C%20Tokyo&destination=Omoide%20Yokocho%2C%20Shinjuku%2C%20Tokyo&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "19:00",
@@ -2325,7 +2886,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Restaurant_Review-g14133667-d27827586-Reviews-SAMURAI_RESTAURANT-Kabukicho_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Omoide Yokochō → Samurai Restaurant",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Omoide%20Yokocho%2C%20Shinjuku%2C%20Tokyo&destination=Samurai%20Restaurant%2C%20Kabukicho%2C%20Shinjuku&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "21:00",
@@ -2350,7 +2918,19 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g14133667-d480651-Reviews-Shinjuku_Golden_Gai-Kabukicho_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Samurai → Golden Gai",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Samurai%20Restaurant%2C%20Kabukicho%2C%20Shinjuku&destination=Shinjuku%20Golden%20Gai%2C%20Tokyo&travelmode=walking"
+      },
+      {
+       "label": "Golden Gai → hotel",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Shinjuku%20Golden%20Gai%2C%20Tokyo&destination=Super%20Hotel%20Tokyo%20Hamamatsucho&travelmode=transit"
+      }
+     ]
     }
    ],
    "guide": {
@@ -2395,7 +2975,14 @@
      "link": {
       "url": "https://www.tripadvisor.com/Attraction_Review-g1066451-d320446-Reviews-Zojoji_Temple-Minato_Tokyo_Tokyo_Prefecture_Kanto.html",
       "label": "Tripadvisor"
-     }
+     },
+     "routes": [
+      {
+       "label": "Hotel → Zōjō-ji",
+       "mode": "walking",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Super%20Hotel%20Tokyo%20Hamamatsucho&destination=Zojoji%20Temple%2C%20Tokyo&travelmode=walking"
+      }
+     ]
     },
     {
      "from": "09:00",
@@ -2426,7 +3013,14 @@
        "t": "🚨 rimborso tax-free (l'IVA sugli acquisti) al terminale apposito PRIMA di imbarcare le valigie · il check-in ITA chiude alle 12:20"
       }
      ],
-     "time": "09:45"
+     "time": "09:45",
+     "routes": [
+      {
+       "label": "Hotel → aeroporto Haneda",
+       "mode": "transit",
+       "url": "https://www.google.com/maps/dir/?api=1&origin=Super%20Hotel%20Tokyo%20Hamamatsucho&destination=Haneda%20Airport%20Terminal%203&travelmode=transit"
+      }
+     ]
     },
     {
      "from": "13:00",

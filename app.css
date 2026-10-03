@@ -61,7 +61,7 @@ h1, h2, h3 { text-wrap: balance; margin: 0; }
 
 /* barra delle schede */
 .tabbar {
-  position: fixed; inset-inline: 0; bottom: 0; z-index: 20; display: grid; grid-template-columns: repeat(5, 1fr);
+  position: fixed; inset-inline: 0; bottom: 0; z-index: 20; display: grid; grid-template-columns: repeat(6, 1fr);
   background: var(--panel); border-top: 1px solid var(--rule);
   padding-bottom: env(safe-area-inset-bottom, 0px); height: calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px));
 }
@@ -174,6 +174,39 @@ h1, h2, h3 { text-wrap: balance; margin: 0; }
 .card .foot { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 2px; }
 .card .foot .btn { min-height: 32px; padding: 4px 11px; font-size: 13px; }
 .slot { font-size: 12px; color: var(--muted); }
+
+/* indicazioni degli spostamenti */
+.routes { display: grid; gap: 6px; margin-top: 2px; }
+.btn.route {
+  display: grid; grid-template-columns: 26px 1fr; align-items: center; gap: 8px; border-radius: 12px; padding: 8px 12px;
+  background: var(--transit-soft); border-color: transparent; color: var(--ink); font-weight: 700; font-size: 14px; line-height: 1.3;
+}
+.btn.route > span:first-child { font-size: 19px; text-align: center; }
+.btn.route small { display: block; font-weight: 500; font-size: 12px; color: var(--transit); }
+.btn.route.m-walking { background: var(--panel-2); }
+.btn.route.m-walking small { color: var(--muted); }
+.k-long .btn.route { background: var(--panel); }
+
+/* tab mappa */
+.mapframe { margin-top: 12px; border-radius: var(--r); overflow: hidden; border: 1px solid var(--rule); background: var(--panel-2); aspect-ratio: 4 / 3; max-width: 100%; }
+.mapframe { position: relative; }
+.mapframe::before {
+  content: "La mappa si carica con internet. Senza rete usate «Apri in Maps».";
+  position: absolute; inset: 0; display: grid; place-items: center; padding: 24px; text-align: center; color: var(--muted); font-size: 14px;
+}
+.mapframe iframe { position: relative; width: 100%; height: 100%; border: 0; display: block; }
+.stops { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 8px; }
+.mstop { background: var(--panel); border: 1px solid var(--rule); border-radius: 12px; padding: 10px 12px; display: grid; gap: 8px; }
+.mstop.on { outline: 3px solid var(--c); outline-offset: -1px; }
+.mstop-main { display: grid; grid-template-columns: 34px 1fr; gap: 10px; align-items: start; border: 0; background: none; text-align: left; padding: 0; cursor: pointer; }
+.mstop .n {
+  width: 30px; height: 30px; border-radius: 50%; background: var(--c); color: #fff; display: grid; place-items: center;
+  font-weight: 900; font-size: 15px; font-variant-numeric: tabular-nums;
+}
+.mstop.hotel .n { border-radius: 8px; background: var(--ink); color: var(--panel); }
+.mstop .nm { font-weight: 700; font-size: 15px; min-width: 0; }
+.mstop .nm small { display: block; font-weight: 400; font-size: 13px; color: var(--muted); margin-top: 2px; }
+.mstop-btns .btn { min-height: 32px; padding: 4px 11px; font-size: 13px; }
 
 /* guida del giorno */
 .guide { display: grid; gap: 10px; margin-top: 8px; }
