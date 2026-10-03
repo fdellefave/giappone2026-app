@@ -4,8 +4,9 @@
 Uso:  python3 build.py            → scrive data.json e stampa gli avvisi
       python3 build.py --check    → solo controlli, non scrive nulla
 
-Controlla che ogni riferimento (posto:, alloggio:, treno:, #posto, @alloggio, città) esista
-e che gli orari di ogni giorno siano in ordine. Nessuna dipendenza esterna.
+Controlla che ogni riferimento (posto:, alloggio:, treno:, #posto, @alloggio, [[posto]], città) esista,
+che tipi e chiavi dei dettagli siano noti e che gli orari di ogni giorno siano in ordine.
+Nessuna dipendenza esterna.
 """
 import datetime as dt
 import json
@@ -20,10 +21,13 @@ OUT = ROOT / "data.json"
 
 CITIES = {"roma": "Roma", "tokyo": "Tokyo", "kawaguchiko": "Kawaguchiko", "kamakura": "Kamakura",
           "kyoto": "Kyoto", "takayama": "Takayama", "osaka": "Osaka"}
-KIND = {"*": "act", ">": "move", ">>": "long", "@": "stay"}
+TYPES = ("vedere", "fare", "cibo", "sposta", "viaggio", "hotel")
+DETAIL = {"come": "Come arrivare", "costo": "Costo", "orari": "Orari", "binario": "Binario", "bagagli": "Valigie",
+          "prenotazione": "Prenotazione", "attenzione": "Attenzione", "alternativa": "In alternativa"}
 MODE = {"mezzi": "transit", "piedi": "walking", "taxi": "driving"}
 GUIDE_KEYS = ["senso", "mangiare", "prenotare", "attenzione", "anticipo", "stanchi", "camminata"]
 WD = ["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"]
+TZ = {"tokyo": "+09:00", "roma": "+01:00"}  # novembre 2026: Italia con l'ora solare
 
 errors, warnings = [], []
 
@@ -61,6 +65,7 @@ def entries(lines):
 
 
 KV = re.compile(r"^([a-zà-ù ]+):\s*(.*)$")
+REF = re.compile(r"\[\[([a-z0-9-]+)\]\]")
 
 
 def fields(lines):
@@ -72,8 +77,30 @@ def fields(lines):
     return d
 
 
+def num(s):
+    try:
+        return float(str(s).replace(",", "."))
+    except (TypeError, ValueError):
+        return None
+
+
+def iso(s, where):
+    if not s:
+        return None
+    try:
+        return dt.date.fromisoformat(s).isoformat()
+    except ValueError:
+        err(f"{where}: data non valida «{s}» (serve AAAA-MM-GG)")
+        return None
+
+
 def gmaps(q):
     return "https://www.google.com/maps/search/?api=1&query=" + quote(q)
+
+
+def goto(q):
+    """Indicazioni da dove sono adesso fino a q (Google Maps sceglie il punto di partenza)."""
+    return "https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=" + quote(q)
 
 
 def parse_places(lines):
@@ -84,14 +111,26 @@ def parse_places(lines):
             err(f"Posti: id doppio «{pid}»")
         if f.get("città") not in CITIES:
             err(f"Posti/{pid}: città sconosciuta «{f.get('città')}»")
-        places[pid] = {
+        p = {
             "id": pid, "name": f.get("nome", pid), "type": f.get("tipo", ""), "cityId": f.get("città"),
             "city": CITIES.get(f.get("città"), f.get("città")), "day": f.get("giorno", ""), "note": f.get("nota", ""),
             "q": f.get("maps", f.get("nome", pid)), "ta": f.get("tripadvisor"), "tabelog": f.get("tabelog"),
             "score": f.get("voto"), "web": f.get("sito"), "map": f.get("mappa", "sì") != "no",
         }
-        places[pid]["maps"] = gmaps(places[pid]["q"])
+        p["maps"] = gmaps(p["q"])
+        p["link"] = best_link(p)
+        places[pid] = p
     return places
+
+
+def best_link(p):
+    if p.get("ta"):
+        return {"url": p["ta"], "label": "Tripadvisor"}
+    if p.get("tabelog"):
+        return {"url": p["tabelog"], "label": "Tabelog"}
+    if p.get("web"):
+        return {"url": p["web"], "label": "Sito ufficiale"}
+    return {"url": p["maps"], "label": "Google Maps"}
 
 
 def parse_hotels(lines):
@@ -104,26 +143,32 @@ def parse_hotels(lines):
             err(f"Alloggi/{hid}: date «dal»/«al» mancanti o non valide")
             continue
         paid = f.get("pagato", "")
+        if paid not in ("sì", "no", "gruppo"):
+            err(f"Alloggi/{hid}: «pagato» deve essere sì, no o gruppo")
         hotels[hid] = {
             "id": hid, "name": f.get("nome", hid), "cityId": f.get("città"), "city": CITIES.get(f.get("città"), ""),
             "in": d_in.isoformat(), "out": d_out.isoformat(), "nights": (d_out - d_in).days,
-            "price": float(f["prezzo"]) if f.get("prezzo") else None, "paid": paid,
-            "paidState": "ok" if paid.lower().startswith("sì") else ("group" if "gruppo" in paid else "todo"),
+            "price": f.get("prezzo", ""), "yen": num(f.get("yen")), "eur": num(f.get("euro")),
+            "paid": paid, "payer": f.get("pagato da", ""), "shared": f.get("diviso", "no") == "sì",
+            "payment": f.get("pagamento", ""), "cancel": f.get("cancellazione", ""), "note": f.get("nota", ""),
             "address": f.get("indirizzo", ""), "access": f.get("arrivo", ""), "hours": f.get("orari", ""),
-            "q": f.get("maps", f.get("nome", hid)),
+            "app": f.get("app"), "q": f.get("maps", f.get("nome", hid)),
         }
     return hotels
 
 
-def parse_trains(lines):
+def parse_trains(lines, where="Treni"):
     trains = {}
     for tid, body in entries(lines):
         f = fields(body)
         st = f.get("stato", "")
+        if st not in ("pagato", "prenotato", "da comprare", "sul posto"):
+            err(f"{where}/{tid}: stato sconosciuto «{st}»")
         trains[tid] = {
-            "id": tid, "date": f.get("data"), "route": f.get("tratta", ""), "line": f.get("mezzo", ""),
-            "time": f.get("orario", ""), "price": f.get("prezzo", ""), "link": f.get("link"), "note": f.get("nota", ""),
-            "status": "ok" if st == "prenotato" else ("todo" if st == "da comprare" else "info"), "statusText": st,
+            "id": tid, "date": iso(f.get("data"), f"{where}/{tid}"), "route": f.get("tratta", ""),
+            "line": f.get("mezzo", ""), "time": f.get("orario", ""), "price": f.get("prezzo", ""),
+            "eur": num(f.get("euro")), "payer": f.get("pagato da", ""), "confirm": iso(f.get("conferma"), f"{where}/{tid}"),
+            "link": f.get("link"), "note": f.get("nota", ""), "status": st,
         }
     return trains
 
@@ -132,7 +177,12 @@ def parse_todo(lines):
     out = []
     for tid, body in entries(lines):
         f = fields(body)
-        out.append({"id": tid, "task": f.get("cosa", tid), "when": f.get("quando", ""), "prio": f.get("priorità", "media"),
+        where = f"Da fare/{tid}"
+        if f.get("tipo") not in ("prenotare", "gestire"):
+            err(f"{where}: tipo deve essere prenotare o gestire")
+        out.append({"id": tid, "task": f.get("cosa", tid), "kind": f.get("tipo"), "day": iso(f.get("giorno"), where),
+                    "opens": iso(f.get("apre"), where), "due": iso(f.get("entro"), where), "when": f.get("quando", ""),
+                    "cost": f.get("costo", ""), "link": f.get("link"), "prio": f.get("priorità", "media"),
                     "note": f.get("nota", "")})
     return out
 
@@ -157,7 +207,7 @@ def parse_glossary(lines):
     return out
 
 
-ITEM = re.compile(r"^- (\d{2}:\d{2}) (>>|>|\*|@) (.+)$")
+ITEM = re.compile(r"^- (\d{2}:\d{2}) ([a-z]+) (.+)$")
 VIA = re.compile(r"^via (mezzi|piedi|taxi):\s*(.+?)\s*>\s*(.+?)(?:\s*\((.+)\))?$")
 
 
@@ -177,14 +227,96 @@ def resolve(ref, places, hotels, where):
     return ref
 
 
-def best_link(p):
-    if p.get("ta"):
-        return {"url": p["ta"], "label": "Tripadvisor"}
-    if p.get("tabelog"):
-        return {"url": p["tabelog"], "label": "Tabelog"}
-    if p.get("web") and p["type"].startswith(("🎢", "🏡")):
-        return {"url": p["web"], "label": "Sito"}
-    return {"url": p["maps"], "label": "Maps"}
+def check_refs(text, places, where):
+    for pid in REF.findall(text):
+        if pid not in places:
+            err(f"{where}: [[{pid}]] non è nella sezione Posti")
+
+
+def parse_item(line, details, did, city, places, hotels, trains, tz_day):
+    m = ITEM.match(line.strip())
+    if not m:
+        err(f"{did}: riga non riconosciuta «{line.strip()[:60]}»")
+        return None, city
+    t, kind, rest = m.groups()
+    where = f"{did} {t}"
+    if kind not in TYPES:
+        err(f"{where}: tipo sconosciuto «{kind}» (validi: {', '.join(TYPES)})")
+    parts = [p.strip() for p in rest.split(" | ")]
+    item = {"t": t, "k": kind, "title": parts[0], "tz": tz_day}
+    for a in parts[1:]:
+        if a.startswith("posto: "):
+            pid = a[7:].strip()
+            if pid not in places:
+                err(f"{where}: posto sconosciuto «{pid}»")
+            else:
+                item["place"] = pid
+        elif a.startswith("alloggio: "):
+            hid = a[10:].strip()
+            if hid not in hotels:
+                err(f"{where}: alloggio sconosciuto «{hid}»")
+            item["hotel"] = hid
+        elif a.startswith("treno: "):
+            tid = a[7:].strip()
+            if tid not in trains:
+                err(f"{where}: treno sconosciuto «{tid}»")
+            else:
+                item["train"] = tid
+        elif a.startswith("città: "):
+            c = a[7:].strip()
+            if c not in CITIES:
+                err(f"{where}: città sconosciuta «{c}»")
+            city = c
+        elif a.startswith("dove: "):
+            item["q"] = a[6:].strip()
+        elif a.startswith("fuso: "):
+            z = a[6:].strip()
+            if z not in TZ:
+                err(f"{where}: fuso sconosciuto «{z}»")
+            item["tz"] = z
+        elif a == "prenotare":
+            item["status"] = "todo"
+        elif a == "prenotato":
+            item["status"] = "ok"
+        elif a.startswith("via "):
+            v = VIA.match(a)
+            if not v:
+                err(f"{where}: «via» non riconosciuto «{a[:50]}»")
+                continue
+            mode_it, o, d, lab = v.groups()
+            url = ("https://www.google.com/maps/dir/?api=1&origin=" + quote(resolve(o, places, hotels, where)) +
+                   "&destination=" + quote(resolve(d, places, hotels, where)) + "&travelmode=" + MODE[mode_it])
+            item.setdefault("routes", []).append({"label": lab or "Indicazioni", "mode": MODE[mode_it], "url": url})
+        else:
+            err(f"{where}: attributo sconosciuto «{a[:40]}»")
+    det = []
+    for dl in details:
+        s = dl.strip()
+        m2 = KV.match(s)
+        if m2 and m2.group(1) == "breve":
+            item["short"] = m2.group(2).strip()
+        elif m2 and m2.group(1) in DETAIL:
+            det.append({"k": m2.group(1), "label": DETAIL[m2.group(1)], "text": m2.group(2).strip()})
+        elif m2 and " " not in m2.group(1) and len(m2.group(1)) < 14:
+            err(f"{where}: chiave di dettaglio sconosciuta «{m2.group(1)}:»")
+        else:
+            det.append({"k": "text", "text": s})
+        check_refs(s, places, where)
+    if det:
+        item["details"] = det
+    if item.get("status") == "ok" and "train" in item and trains[item["train"]]["status"] == "pagato":
+        item["status"] = "paid"
+    # destinazione per «Portami qui» e per la mappa
+    if "place" in item:
+        item["dest"] = places[item["place"]]["q"]
+    elif "q" in item:
+        item["dest"] = item["q"]
+    elif "hotel" in item and item["hotel"] in hotels:
+        item["dest"] = hotels[item["hotel"]]["q"]
+    item["city"] = "transit" if kind == "viaggio" else city
+    if kind == "sposta" and not item.get("routes"):
+        warn(f"{where}: spostamento senza «via»")
+    return item, city
 
 
 def parse_days(lines, places, hotels, trains):
@@ -195,17 +327,22 @@ def parse_days(lines, places, hotels, trains):
         except ValueError:
             err(f"Giorni: data non valida «{did}»")
             continue
-        head, items_l, guide_l, mode = [], [], [], "head"
+        head, guide_l, mode = [], [], "head"
+        raw_items = []  # [riga, [dettagli]]
         for line in body:
             if line.startswith("#### Guida"):
                 mode = "guide"
             elif mode != "guide" and line.startswith("- "):
                 mode = "items"
-                items_l.append(line)
+                raw_items.append([line, []])
+            elif mode == "items" and line.startswith("  ") and line.strip():
+                raw_items[-1][1].append(line)
             elif mode == "head":
                 head.append(line)
             elif mode == "guide":
                 guide_l.append(line)
+            elif line.strip():
+                err(f"{did}: riga fuori posto «{line.strip()[:60]}»")
         f = fields(head)
         route = [c.strip() for c in f.get("percorso", "").split(">") if c.strip()]
         for c in route:
@@ -214,65 +351,20 @@ def parse_days(lines, places, hotels, trains):
         sleep = f.get("dorme", "")
         if sleep not in hotels and sleep != "volo":
             err(f"{did}: alloggio sconosciuto in «dorme: {sleep}»")
+        tz_day = f.get("fuso", "tokyo")
+        if tz_day not in TZ:
+            err(f"{did}: fuso sconosciuto «{tz_day}»")
         city = route[0] if route else "tokyo"
-        items, last_t = [], "00:00"
-        for line in items_l:
-            m = ITEM.match(line.strip())
-            if not m:
-                err(f"{did}: riga non riconosciuta «{line.strip()[:60]}»")
+        items, last = [], None
+        for line, det in raw_items:
+            item, city = parse_item(line, det, did, city, places, hotels, trains, tz_day)
+            if not item:
                 continue
-            t, sym, rest = m.groups()
-            if t < last_t:
-                warn(f"{did}: orario fuori ordine {t} dopo {last_t}")
-            last_t = t
-            parts = [p.strip() for p in rest.split(" | ")]
-            item = {"t": t, "k": KIND[sym], "text": parts[0]}
-            for a in parts[1:]:
-                where = f"{did} {t}"
-                if a.startswith("posto: "):
-                    pid = a[7:].strip()
-                    if pid not in places:
-                        err(f"{where}: posto sconosciuto «{pid}»")
-                    else:
-                        item["place"] = pid
-                        item["link"] = best_link(places[pid])
-                elif a.startswith("alloggio: "):
-                    hid = a[10:].strip()
-                    if hid not in hotels:
-                        err(f"{where}: alloggio sconosciuto «{hid}»")
-                    item["hotel"] = hid
-                elif a.startswith("treno: "):
-                    tid = a[7:].strip()
-                    if tid not in trains:
-                        err(f"{where}: treno sconosciuto «{tid}»")
-                    else:
-                        item["train"] = tid
-                        if trains[tid].get("link") and "link" not in item:
-                            item["link"] = {"url": trains[tid]["link"], "label": "Biglietto"}
-                elif a.startswith("città: "):
-                    c = a[7:].strip()
-                    if c not in CITIES:
-                        err(f"{where}: città sconosciuta «{c}»")
-                    city = c
-                elif a == "prenotare":
-                    item["status"] = "todo"
-                elif a == "prenotato":
-                    item["status"] = "ok"
-                elif a.startswith("via "):
-                    v = VIA.match(a)
-                    if not v:
-                        err(f"{where}: «via» non riconosciuto «{a[:50]}»")
-                        continue
-                    mode_it, o, d, lab = v.groups()
-                    url = ("https://www.google.com/maps/dir/?api=1&origin=" + quote(resolve(o, places, hotels, where)) +
-                           "&destination=" + quote(resolve(d, places, hotels, where)) + "&travelmode=" + MODE[mode_it])
-                    item.setdefault("routes", []).append({"label": lab or "Indicazioni", "mode": MODE[mode_it], "url": url})
-                else:
-                    err(f"{where}: attributo sconosciuto «{a[:40]}»")
-            item["city"] = "transit" if item["k"] == "long" else city
+            item["at"] = f"{did}T{item['t']}:00{TZ[item['tz']]}"
+            if last and item["tz"] == last["tz"] and item["t"] < last["t"]:
+                warn(f"{did}: orario fuori ordine {item['t']} dopo {last['t']}")
+            last = item
             items.append(item)
-        for i, it in enumerate(items):
-            it["end"] = items[i + 1]["t"] if i + 1 < len(items) else "24:00"
         guide, key = {}, None
         for line in guide_l:
             m = KV.match(line.strip())
@@ -281,14 +373,13 @@ def parse_days(lines, places, hotels, trains):
                 guide[key] = m.group(2).strip()
             elif key and line.strip().startswith("•"):
                 guide[key] = (guide[key] + "\n" + line.strip()).strip()
-        for k in guide:
-            if k not in GUIDE_KEYS:
-                warn(f"{did}: voce guida sconosciuta «{k}»")
+            elif line.strip():
+                warn(f"{did}: riga della guida ignorata «{line.strip()[:50]}»")
         h = hotels.get(sleep)
         days.append({
             "id": did, "n": n, "dm": f"{date.day}/{date.month}", "wd": WD[date.weekday()], "route": route,
             "sleep": sleep, "sleepName": h["name"] if h else ("In volo" if sleep == "volo" else sleep),
-            "sleepCity": h["cityId"] if h else None, "with": f.get("con", ""), "items": items, "guide": guide,
+            "with": f.get("con", ""), "tz": tz_day, "items": items, "guide": guide,
         })
     return days
 
@@ -296,7 +387,7 @@ def parse_days(lines, places, hotels, trains):
 def main():
     text = SRC.read_text(encoding="utf-8")
     S = sections(text)
-    for need in ("Giorni", "Alloggi", "Treni", "Posti", "Da fare", "Budget", "Glossario", "Info"):
+    for need in ("Giorni", "Alloggi", "Treni", "Voli", "Posti", "Da fare", "Budget", "Glossario", "Info"):
         if need not in S:
             err(f"manca la sezione «## {need}»")
     if errors:
@@ -305,18 +396,21 @@ def main():
     places = parse_places(S["Posti"])
     hotels = parse_hotels(S["Alloggi"])
     trains = parse_trains(S["Treni"])
+    flights = parse_trains(S["Voli"], "Voli")
     days = parse_days(S["Giorni"], places, hotels, trains)
     info = fields(S["Info"])
     day_dm = {d["dm"] for d in days}
     for pid, p in places.items():
         if p["day"] and p["day"] not in day_dm:
             err(f"Posti/{pid}: giorno «{p['day']}» fuori dal viaggio")
+    todo = parse_todo(S["Da fare"])
     data = {
         "generated": dt.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "departure": info.get("partenza"), "rate": float(info.get("cambio", 185)),
-        "days": days, "hotels": list(hotels.values()), "trains": list(trains.values()),
-        "todo": parse_todo(S["Da fare"]), "budget": parse_budget(S["Budget"]),
-        "places": list(places.values()), "glossary": parse_glossary(S["Glossario"]),
+        "travellers": [x.strip() for x in info.get("viaggiatori", "").split(",") if x.strip()],
+        "days": days, "hotels": list(hotels.values()), "trains": list(trains.values()), "flights": list(flights.values()),
+        "todo": todo, "budget": parse_budget(S["Budget"]),
+        "places": places, "glossary": parse_glossary(S["Glossario"]),
     }
     for w in warnings:
         print("avviso:", w)
@@ -326,7 +420,8 @@ def main():
     n_items = sum(len(d["items"]) for d in days)
     n_routes = sum(len(it.get("routes", [])) for d in days for it in d["items"])
     print(f"ok: {len(days)} giorni · {n_items} tappe · {n_routes} indicazioni · {len(places)} posti · "
-          f"{len(hotels)} alloggi · {len(trains)} treni · {len(data['todo'])} cose da fare · {len(data['glossary'])} termini")
+          f"{len(hotels)} alloggi · {len(trains)} treni · {len(flights)} voli · {len(todo)} cose da fare · "
+          f"{len(data['glossary'])} termini")
     if "--check" not in sys.argv:
         OUT.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         print("scritto", OUT.name)

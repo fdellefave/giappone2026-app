@@ -1,12 +1,12 @@
 {
   "name": "Giappone 2026",
   "short_name": "Giappone 26",
-  "description": "Itinerario, treni, alloggi e guida del viaggio in Giappone (5–18 novembre 2026)",
+  "description": "Programma, mappe, prenotazioni e guida del viaggio in Giappone (5–18 novembre 2026)",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#EEF1F4",
-  "theme_color": "#D53A2F",
+  "background_color": "#F3F1EC",
+  "theme_color": "#F3F1EC",
   "lang": "it",
   "icons": [
     { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
