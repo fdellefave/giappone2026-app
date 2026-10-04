@@ -135,8 +135,8 @@ con: voi due
   Senso-ji è il tempio buddista più antico di Tokyo; Nakamise è la via di bancarelle che porta al tempio.
   orari: sala principale fino alle 17, la zona resta aperta
 - 16:30 vedere Ponte Azuma-bashi | posto: azuma-bashi
-  breve: tramonto alle 16:42 con la Skytree
-  A 5′ a piedi dal tempio. La Skytree è la torre della tv, 634 m.
+  breve: tramonto alle 16:42 · vista sulla Skytree
+  A 5′ a piedi dal tempio. Dal ponte si guarda il tramonto sul fiume con di fronte la Tokyo Skytree (la torre della tv, 634 m): si vede da fuori, non si sale e non c'è niente da prenotare. La vista dall'alto su Tokyo è Shibuya Sky il 17/11.
 - 17:00 vedere Senso-ji (tempio) illuminato | posto: senso-ji
   breve: vuoto e scenografico
 - 17:30 sposta Super Potato, Akihabara | via mezzi: #senso-ji > #super-potato-akiba (Senso-ji → Akihabara)
