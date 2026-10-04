@@ -61,6 +61,8 @@ Già verificato (non riproporre):
 - Statua del Gundam di Odaiba rimossa ad agosto 2026; Nintendo Museum (Uji) solo a lotteria; illuminazione di
   Eikan-dō dal 20/11 (dopo Kyoto); Tofuku-ji, Kuromon, Hama-rikyu, Ōkochi-Sansō e Hida-no-Sato tolti apposta.
 - Go-kart per le strade di Tokyo escluso su richiesta (niente patente internazionale).
+- Samurai Restaurant Time (verificato il 4/10): spettacoli 10:50, 14:00, 16:30, niente alle 19 · chiuso giovedì e domenica secondo alcune fonti.
+- Tokyo Skytree aggiunta il 6/11 dopo il ponte Azuma-bashi (al posto del Senso-ji illuminato).
 - Il torneo di sumo di novembre è a Fukuoka (fuori rotta). Asakusa Sumo Club (~$100) tolto su richiesta: al suo posto la serata ad Akihabara.
 - Lake Bake: bar interno chiuso, solo asporto. Omen (udon a Ginkaku-ji) chiuso il giovedì: il 12/11 non si va.
 - Super Potato di Osaka = negozio Otaroad a Nipponbashi (Den Den Town).
@@ -136,33 +138,39 @@ con: voi due
   Senso-ji è il tempio buddista più antico di Tokyo; Nakamise è la via di bancarelle che porta al tempio.
   orari: sala principale fino alle 17, la zona resta aperta
 - 16:30 vedere Ponte Azuma-bashi | posto: azuma-bashi
-  breve: tramonto alle 16:42 · vista sulla Skytree
-  A 5′ a piedi dal tempio. Dal ponte si guarda il tramonto sul fiume con di fronte la Tokyo Skytree (la torre della tv, 634 m): si vede da fuori, non si sale e non c'è niente da prenotare. La vista dall'alto su Tokyo è Shibuya Sky il 17/11.
-- 17:00 vedere Senso-ji (tempio) illuminato | posto: senso-ji
-  breve: vuoto e scenografico
-- 17:30 sposta Super Potato, Akihabara | via mezzi: #senso-ji > #super-potato-akiba (Senso-ji → Akihabara)
-  breve: treno 5′ + a piedi 8′
-  come: 7′ a piedi alla stazione Asakusa della Tsukuba Express (treno veloce per Akihabara), treno fino ad Akihabara (5′), 5′ a piedi
-  costo: ~¥210 a testa con la Suica
+  breve: tramonto alle 16:42 · la Skytree di fronte
+  A 5′ a piedi dal tempio. Dal ponte si guarda il tramonto sul fiume con di fronte la Tokyo Skytree (la torre della tv, 634 m), dove si sale subito dopo.
+- 16:50 sposta Tokyo Skytree | via piedi: #azuma-bashi > #skytree (Azuma-bashi → Skytree)
+  breve: a piedi 15′ · 1,2 km, attraversando il ponte
+- 17:05 vedere Tokyo Skytree (torre panoramica) | posto: skytree | prenotare
+  breve: Tokyo di notte da 350 m · ~1 h
+  Si sale al Tembo Deck (la terrazza a 350 m) appena dopo il tramonto: tutta Tokyo illuminata. La Tembo Galleria (il corridoio a spirale a 450 m) è un supplemento, non serve.
+  costo: Tembo Deck ¥2.100 a testa (giorno feriale) · con la Galleria a 450 m ¥3.100
+  orari: 10–21, ultimo ingresso alle 20
+  prenotazione: biglietto con data e ora sul sito ufficiale, oppure in biglietteria al momento (il venerdì sera c'è coda)
+- 18:15 sposta Super Potato, Akihabara | via mezzi: #skytree > #super-potato-akiba (Skytree → Akihabara)
+  breve: metro + treno ~25′
+  come: metro linea Toei Asakusa dalla stazione Oshiage (sotto la Skytree) ad Asakusabashi (8′), treno JR linea Sōbu fino ad Akihabara (2′), 5′ a piedi
+  costo: ~¥330 a testa con la Suica
   Akihabara è il quartiere di elettronica, manga e videogiochi.
-- 17:50 fare Super Potato (videogiochi retro) | posto: super-potato-akiba
+- 18:40 fare Super Potato (videogiochi retro) | posto: super-potato-akiba
   breve: 3 piani di console e cartucce + sala giochi anni '80–'90
   Il negozio di videogiochi retro più famoso di Tokyo: Famicom (il NES giapponese), Super Nintendo, Game Boy, Sega. All'ultimo piano una piccola sala giochi d'epoca.
   orari: chiude verso le 20
-- 18:50 sposta Radio Kaikan | via piedi: #super-potato-akiba > #radio-kaikan (Super Potato → Radio Kaikan)
+- 19:20 sposta Radio Kaikan | via piedi: #super-potato-akiba > #radio-kaikan (Super Potato → Radio Kaikan)
   breve: a piedi 5′
-- 18:55 fare Radio Kaikan (figure e manga) | posto: radio-kaikan
+- 19:25 fare Radio Kaikan (figure e manga) | posto: radio-kaikan
   breve: 10 piani di negozi di figure, modellini e carte da collezione
   Al piano terra e in tutto il quartiere ci sono i gachapon (distributori di gadget a capsule, ¥100–500).
-- 19:45 sposta Kyushu Jangara | via piedi: #radio-kaikan > #kyushu-jangara (Radio Kaikan → ramen)
+- 20:00 sposta Kyushu Jangara | via piedi: #radio-kaikan > #kyushu-jangara (Radio Kaikan → ramen)
   breve: a piedi 8′
-- 20:00 cibo Kyushu Jangara (ramen) | posto: kyushu-jangara
+- 20:10 cibo Kyushu Jangara (ramen) | posto: kyushu-jangara
   breve: cena: ramen col brodo di maiale denso
   Ramen tonkotsu (brodo di ossa di maiale, cremoso) in stile Kyushu; c'è anche la versione vegana. Niente prenotazioni.
   orari: 11–22, ultimo ordine 21:45
-- 20:45 sposta Sale giochi di Akihabara | via piedi: #kyushu-jangara > #hey-akihabara (Ramen → sale giochi)
+- 20:55 sposta Sale giochi di Akihabara | via piedi: #kyushu-jangara > #hey-akihabara (Ramen → sale giochi)
   breve: a piedi 5′
-- 20:50 fare Sale giochi di Akihabara | posto: hey-akihabara
+- 21:00 fare Sale giochi di Akihabara | posto: hey-akihabara
   breve: HEY, GiGO e Taito Station, aperte fino a tardi
   [[hey-akihabara]] (giochi retro e sparatutto, fino alle 23:45), [[gigo-akihabara]] (pupazzi da pescare con la gru, giochi musicali), [[taito-station]].
 - 22:00 sposta Testa di Godzilla, Shinjuku | via mezzi: Akihabara Station, Tokyo > #godzilla (Akihabara → Godzilla)
@@ -176,20 +184,22 @@ con: voi due
   Se le valigie sono al deposito di Radical Storage, passate a riprenderle: è sulla strada.
 
 #### Guida
-senso: Arrivo e prima immersione: Asakusa (la Tokyo antica, col tempio Senso-ji), poi serata nerd ad Akihabara (il quartiere dei videogiochi): giochi retro, figure, ramen e sale giochi. Chiusura con la testa di Godzilla. Giornata lunga per il jet lag: con calma.
+senso: Arrivo e prima immersione: Asakusa (la Tokyo antica, col tempio Senso-ji), tramonto sul fiume e Tokyo di notte dalla Skytree (la torre della tv), poi serata nerd ad Akihabara (il quartiere dei videogiochi): giochi retro, figure, ramen e sale giochi. Chiusura con la testa di Godzilla. Giornata lunga per il jet lag: con calma.
 mangiare:
   • Pranzo: Fūunji, tsukemen (ramen da intingere), tra i migliori di Tokyo (Tabelog 3,77). Chiude alle 15: se siete in ritardo, Kura Sushi ad Asakusa (sushi su nastro, si ordina dal tablet)
   • Cena: Kyushu Jangara ad Akihabara, ramen col brodo di maiale (11–22)
 prenotare:
   • Messaggio all'host dell'Airbnb per lasciare le valigie alle 13:30
+  • Skytree: biglietto con data e ora per le 17:00 circa, per 2
   • Carta Suica (tessera per metro e treni) già sul telefono
 attenzione:
   • Da Fūunji c'è coda e alle 15 chiude
-  • Il Senso-ji chiude la sala alle 17, ma la zona resta aperta e illuminata
+  • Il Senso-ji chiude la sala alle 17: arrivate entro le 16
+  • Ad Akihabara Super Potato e Radio Kaikan chiudono verso le 20: niente soste lunghe sulla Skytree
 anticipo:
   • Kappabashi (la via dei negozi da cucina e del cibo finto in plastica), fino alle 17
   • Distributori di gadget a capsule (gachapon) ovunque ad Akihabara
-stanchi: • Dopo cena saltate le sale giochi e la testa di Godzilla: treno JR per Shinjuku (18′) e a letto
+stanchi: • Saltate la Skytree (dal ponte si vede lo stesso) e andate dritti ad Akihabara · dopo cena saltate le sale giochi e la testa di Godzilla: treno JR per Shinjuku (18′) e a letto
 camminata: ~10 km · mezzi ~1 h 30 in tutto · pause: pranzo 45′, cena 45′
 
 ### 2026-11-07
@@ -1258,6 +1268,7 @@ tipo: prenotare
 giorno: 2026-11-09
 entro: 2026-10-09
 quando: lo compra il gruppo il 9/10
+link: Prenota su JR East (sito ufficiale) = https://www.eki-net.com/en/jreast-train-reservation/Top/Index
 costo: ~€30 in due
 priorità: alta
 nota: Verificare che prendano anche i vostri due posti (corse 14:09 → 16:07 o 15:00 → 16:59, solo posti prenotati).
@@ -1269,9 +1280,9 @@ tipo: prenotare
 giorno: 2026-11-16
 quando: subito: gli Express Pass finiscono
 costo: ~€130–195 a testa
-link: https://www.usj.co.jp/web/en/us
+link: Biglietti (negozio ufficiale USJ) = https://store.usj.co.jp/en/us/c/ticket ; Express Pass (negozio ufficiale) = https://store.usj.co.jp/en/us/c/expresspass ; Cos'è l'Express Pass = https://www.usj.co.jp/web/en/us/tickets/express-pass
 priorità: alta
-nota: Serve l'Area Timed Entry o un Express Pass che include Super Nintendo World, altrimenti nell'area Nintendo non si entra. Orari del 16/11 sul sito ufficiale.
+nota: Dal 2025 il biglietto d'ingresso (Studio Pass) si compra solo online, non più alla cassa. Serve l'Area Timed Entry o un Express Pass che include Super Nintendo World, altrimenti nell'area Nintendo non si entra. Orari del 16/11 sul sito ufficiale.
 
 ### bus-nohi
 tappa: 2026-11-14 08:10, 2026-11-14 13:30
@@ -1281,9 +1292,20 @@ giorno: 2026-11-14
 apre: 2026-10-14
 quando: dal 14/10
 costo: ¥2.600 a tratta a testa
-link: https://japanbusonline.com/CourseSearch/11900040002?afcd=MDI=
+link: Prenota su Japan Bus Online = https://japanbusonline.com/CourseSearch/11900040002?afcd=MDI= ; Sito ufficiale Nōhi Bus = https://www.nouhibus.co.jp/english/
 priorità: alta
 nota: Andata 8:10 → 9:00 e ritorno su una corsa tra 13:30 e 14:30: due prenotazioni di sola andata.
+
+### skytree
+tappa: 2026-11-06 17:05
+cosa: Tokyo Skytree 6/11, ingresso tra le 17:00 e le 17:30 (Tembo Deck), per 2
+tipo: prenotare
+giorno: 2026-11-06
+quando: quando volete: non va a ruba come Shibuya Sky
+costo: ¥2.100 a testa (giorno feriale)
+link: Biglietti (sito ufficiale Skytree) = https://www.tokyo-skytree.jp/en/ticket/
+priorità: bassa
+nota: Si può anche comprare in biglietteria al momento, ma il venerdì sera c'è coda. Il biglietto online ha data e ora fissate.
 
 ### shibuya-sky
 tappa: 2026-11-17 15:40
@@ -1293,7 +1315,7 @@ giorno: 2026-11-17
 apre: 2026-11-02
 quando: 2/11 alle 16:00 italiane
 costo: ~¥2.500 a testa
-link: https://www.shibuya-scramble-square.com/sky/ticket/
+link: Biglietti (sito ufficiale Shibuya Sky) = https://www.shibuya-scramble-square.com/sky/ticket/
 priorità: alta
 nota: In vendita 2 settimane prima alle 00:00 giapponesi: gli slot del tramonto finiscono subito.
 
@@ -1302,11 +1324,11 @@ tappa: 2026-11-13 18:00
 cosa: Steak House Kitchen Hida 13/11 ore 18:00, per 2
 tipo: prenotare
 giorno: 2026-11-13
-quando: subito, online
+quando: subito
 costo: ~¥10.000 a testa
-link: http://kitchenhida.com/
+link: Prenota online (Savor Japan) = https://savorjapan.com/0001035098 ; Chiama il ristorante = tel:+81577362911
 priorità: media
-nota: Ultimo ordine 19:45, chiuso il mercoledì.
+nota: Prenotazione online su Savor Japan (portale di prenotazione in inglese) o per telefono allo 0577-36-2911. Ultimo ordine 19:45, chiuso il mercoledì.
 
 ### kyoya
 tappa: 2026-11-14 18:00
@@ -1314,8 +1336,9 @@ cosa: Kyōya 14/11 ore 18:00, per 2
 tipo: prenotare
 giorno: 2026-11-14
 quando: subito, per telefono o tramite l'hotel
+link: Chiama il ristorante = tel:+81577347660 ; Scheda su Tabelog = https://tabelog.com/gifu/A2104/A210401/21000305/
 priorità: media
-nota: Aperto 17:00–20:00, chiuso il martedì.
+nota: Telefono 0577-34-7660: non ha un sito, si prenota per telefono o chiedendo alla reception dell'Alpina. Aperto 17:00–20:00, chiuso il martedì.
 
 ### gion-corner
 tappa: 2026-11-11 18:00
@@ -1324,9 +1347,9 @@ tipo: prenotare
 giorno: 2026-11-11
 quando: quando siete sicuri (non rimborsabile)
 costo: ~¥5.500 a testa
-link: https://www.kyoto-gioncorner.com/global/en.html
+link: Prenota (biglietteria ufficiale) = https://www.s2.e-get.jp/ookini/pt/?E=1 ; Sito ufficiale Gion Corner = https://www.kyoto-gioncorner.com/global/en.html
 priorità: media
-nota: 1 h di arti tradizionali.
+nota: Spettacoli alle 18:00 e alle 19:00, ~50′. Posto normale ¥5.500, premium ¥6.600.
 
 ### samurai
 tappa: 2026-11-17 19:00
@@ -1336,9 +1359,9 @@ giorno: 2026-11-17
 entro: 2026-11-03
 quando: 1–2 settimane prima
 costo: da ¥8.000 a testa con 2 drink
-link: https://samurai-restaurant.tokyo/
+link: Sito ufficiale = https://samurai-restaurant.tokyo/
 priorità: media
-nota: Show di 2 h a Kabukichō.
+nota: Show di ~1 h 40 a Kabukichō. ATTENZIONE: le fonti più recenti danno spettacoli alle 10:50, 14:00 e 16:30 (l'ultimo finisce alle 18:10), niente spettacolo alle 19: l'orario del 17/11 va rivisto. Biglietti fino a 4 settimane prima.
 
 ### airbnb
 tappa: 2026-11-06 13:30
@@ -1424,7 +1447,7 @@ Stima a persona in euro.
 - Treni e bus lunghi: 364 | metà dei biglietti Klook (€678) + Fuji Excursion del 9/11 + Kamakura
 - Trasporti in città: 150 | metro e bus con la Suica ~€6 al giorno + bus Shirakawa-go ~€28
 - Cibo (~13 giorni): 520 | ~€40 al giorno, comprese le cene da Kitchen Hida e Kyōya
-- Attività e spettacoli: 210 | Samurai Restaurant ~€43 · Gion Corner ~€30 · Shibuya Sky ~€14 · teamLab · sale giochi
+- Attività e spettacoli: 222 | Skytree ~€12 · Samurai Restaurant ~€43 · Gion Corner ~€30 · Shibuya Sky ~€14 · teamLab · sale giochi
 - USJ + Express: 180 | prezzo variabile, ~€130–195 a testa
 - Onsen e sentō: 15 | l'onsen dell'Alpina è incluso
 - Assicurazione + e-SIM: 75
@@ -1450,6 +1473,11 @@ posti: fuunji
 nome: Asakusa
 cosa: la Tokyo antica, col tempio Senso-ji
 posti: senso-ji, azuma-bashi, kura-sushi
+
+### oshiage
+nome: Oshiage (Skytree)
+cosa: di là dal fiume rispetto ad Asakusa, sotto la torre della tv
+posti: skytree
 
 ### akihabara
 nome: Akihabara
@@ -1658,6 +1686,15 @@ maps: Senso-ji Asakusa Tokyo
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14134311-d320447-Reviews-Senso_ji_Temple-Asakusa_Taito_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.senso-ji.jp/english/
 foto: Sensō-ji
+
+### skytree
+nome: Tokyo Skytree (torre panoramica)
+città: tokyo
+giorno: 6/11
+nota: Tembo Deck a 350 m dopo il tramonto · ¥2.100 · biglietto con data e ora
+maps: Tokyo Skytree
+sito: https://www.tokyo-skytree.jp/en/
+foto: Tokyo Skytree
 
 ### azuma-bashi
 nome: Ponte Azuma-bashi (tramonto + Skytree)

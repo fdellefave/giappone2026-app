@@ -173,6 +173,17 @@ def parse_trains(lines, where="Treni"):
     return trains
 
 
+def parse_links(v, where):
+    """«link: URL» oppure «link: Etichetta = URL ; Etichetta = URL» (il primo è il pulsante principale)."""
+    out = []
+    for part in [x.strip() for x in (v or "").split(" ; ") if x.strip()]:
+        lab, _, url = part.rpartition(" = ") if " = " in part else ("", "", part)
+        if not re.match(r"^(https?://|tel:)", url):
+            err(f"{where}: link non valido «{url[:50]}»")
+        out.append({"label": lab.strip(), "url": url.strip()})
+    return out
+
+
 def parse_todo(lines):
     out = []
     for tid, body in entries(lines):
@@ -182,8 +193,9 @@ def parse_todo(lines):
             err(f"{where}: tipo deve essere prenotare o gestire")
         out.append({"id": tid, "task": f.get("cosa", tid), "kind": f.get("tipo"), "day": iso(f.get("giorno"), where),
                     "opens": iso(f.get("apre"), where), "due": iso(f.get("entro"), where), "when": f.get("quando", ""),
-                    "cost": f.get("costo", ""), "link": f.get("link"), "prio": f.get("priorità", "media"),
-                    "note": f.get("nota", ""), "slot": f.get("tappa")})
+                    "cost": f.get("costo", ""), "link": None, "links": parse_links(f.get("link"), where),
+                    "prio": f.get("priorità", "media"), "note": f.get("nota", ""), "slot": f.get("tappa")})
+        out[-1]["link"] = out[-1]["links"][0]["url"] if out[-1]["links"] else None
     return out
 
 

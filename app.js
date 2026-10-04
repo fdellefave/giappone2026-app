@@ -3,7 +3,7 @@
    Per provare un'ora diversa: aggiungere ?ora=2026-11-11T10:00+09:00 all'indirizzo. */
 (function () {
   "use strict";
-  var APP_V = "13"; // uguale al numero di VERSION in sw.js
+  var APP_V = "15"; // uguale al numero di VERSION in sw.js
 
   var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", roma: "Roma" };
   var TYPE = {
@@ -204,7 +204,10 @@
     if (t.cost) meta.push(t.cost);
     return '<div class="todo-box ' + (t.kind === "prenotare" ? "book" : "fix") + '"><div class="tb-h"><span class="tb-k">' + icon("alert") + (t.kind === "prenotare" ? "Da prenotare" : "Da sistemare") + "</span>" + todoPill(t) + "</div>" +
       "<b>" + esc(t.task) + "</b>" + (meta.length ? '<span class="tb-m">' + esc(meta.join(" · ")) + "</span>" : "") +
-      (t.note ? "<p>" + esc(t.note) + "</p>" : "") + '<div class="btns">' + (t.link ? link(t.link, t.kind === "prenotare" ? "Prenota" : "Apri", "go", "ext") : "") +
+      (t.note ? "<p>" + esc(t.note) + "</p>" : "") + '<div class="btns">' + (t.links || (t.link ? [{ url: t.link, label: "" }] : [])).map(function (l, n) {
+        var tel = l.url.indexOf("tel:") === 0;
+        return link(l.url, esc(l.label || (tel ? "Chiama" : t.kind === "prenotare" ? "Prenota" : "Apri")), n ? "" : "go", tel ? "phone" : "ext");
+      }).join("") +
       '<button type="button" class="check" data-todo="' + esc(t.id) + '" aria-pressed="false"><span class="box">' + icon("check") + "</span>Fatto</button></div></div>";
   }
 

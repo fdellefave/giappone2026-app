@@ -505,3 +505,5 @@ body.noscroll { overflow: hidden; }
 }
 /* nell'app installata su iPhone la sfocatura la fa già il sistema: la barra resta piena */
 .ios-app .scrolled .topbar { background: var(--bg); -webkit-backdrop-filter: none; backdrop-filter: none; }
+/* pulsanti secondari nelle cose da fare (es. «Chiama», «Sito ufficiale»): visibili sul fondo bianco */
+.panel .todo-box .btns .btn:not(.go) { background: var(--card-2); }
