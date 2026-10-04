@@ -117,8 +117,9 @@ con: voi due
   costo: ~¥800 a testa con la Suica
 - 13:30 bagagli Valigie all'Airbnb | alloggio: airbnb-shinjuku | deposito
   breve: deposito valigie · check-in dalle 15
-  L'annuncio offre il deposito bagagli: da confermare con l'host.
+  L'annuncio offre il deposito bagagli: da confermare con l'host (o che vi faccia entrare prima delle 15).
   Ingresso autonomo con cassetta delle chiavi dalle 15:00.
+  alternativa: se l'host dice di no, deposito Radical Storage (negozi convenzionati) intorno a Ōkubo, ~¥750–850 a valigia per tutto il giorno, si prenota online. Sceglietene uno aperto fino alle 23 o 24 ore su 24: le riprendete tornando da Godzilla. Meglio non portarle in giro: da Fūunji si fa la coda in un locale minuscolo.
 - 13:40 sposta Fūunji | via piedi: @airbnb-shinjuku > #fuunji (Airbnb → Fūunji)
   breve: a piedi 28′ · 2,3 km
 - 14:10 cibo Fūunji (ramen) | posto: fuunji
@@ -171,6 +172,7 @@ con: voi due
   Kabukichō è il quartiere dei locali notturni di Shinjuku.
 - 22:40 sposta Airbnb | via piedi: #godzilla > @airbnb-shinjuku (Godzilla → Airbnb)
   breve: a piedi 12′ · 1 km
+  Se le valigie sono al deposito di Radical Storage, passate a riprenderle: è sulla strada.
 
 #### Guida
 senso: Arrivo e prima immersione: Asakusa (la Tokyo antica, col tempio Senso-ji), poi serata nerd ad Akihabara (il quartiere dei videogiochi): giochi retro, figure, ramen e sale giochi. Chiusura con la testa di Godzilla. Giornata lunga per il jet lag: con calma.
@@ -1345,7 +1347,7 @@ giorno: 2026-11-06
 quando: prima della partenza
 link: https://www.airbnb.it/trips
 priorità: media
-nota: L'annuncio offre il deposito; il check-in è dalle 15:00. Il 15/10 Airbnb addebita €80,56.
+nota: L'annuncio offre il deposito; il check-in è dalle 15:00. Se l'host non può (né farvi entrare prima), prenotate un deposito Radical Storage vicino a Ōkubo (~¥750–850 a valigia al giorno) aperto fino a tardi: https://radicalstorage.com/luggage-storage/tokyo/okubo-station. Il 15/10 Airbnb addebita €80,56.
 
 ### saibo
 tappa: 2026-11-10 06:32
