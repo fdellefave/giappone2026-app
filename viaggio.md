@@ -64,7 +64,7 @@ Già verificato (non riproporre):
 - Statua del Gundam di Odaiba rimossa ad agosto 2026; Nintendo Museum (Uji) solo a lotteria; illuminazione di
   Eikan-dō dal 20/11 (dopo Kyoto); Tofuku-ji, Kuromon, Hama-rikyu, Ōkochi-Sansō e Hida-no-Sato tolti apposta.
 - Go-kart per le strade di Tokyo escluso su richiesta (niente patente internazionale).
-- Samurai Restaurant Time (verificato il 4/10): spettacoli 10:50, 14:00, 16:30, niente alle 19 · chiuso giovedì e domenica secondo alcune fonti.
+- Samurai Restaurant Time (verificato il 4/10): spettacoli 10:50, 14:00, 16:30, niente alle 19 · chiuso giovedì e domenica secondo alcune fonti. Scelto lo spettacolo delle 14 il 17/11 (martedì), così Shibuya Sky resta al tramonto.
 - Tokyo Skytree aggiunta il 6/11 dopo il ponte Azuma-bashi (al posto del Senso-ji illuminato).
 - Il torneo di sumo di novembre è a Fukuoka (fuori rotta). Asakusa Sumo Club (~$100) tolto su richiesta: al suo posto la serata ad Akihabara.
 - Lake Bake: bar interno chiuso, solo asporto. Omen (udon a Ginkaku-ji) chiuso il giovedì: il 12/11 non si va.
@@ -908,40 +908,43 @@ con: voi due
   breve: vetrine e grandi magazzini
   Il quartiere elegante dei grandi magazzini.
   alternativa: [[kabuki-za]], un solo atto di teatro kabuki (~1 h, sottotitoli in inglese)
-- 12:00 cibo Depachika (food hall) di Ginza Mitsukoshi | posto: depachika-ginza
-  breve: pranzo nella food hall
+- 11:45 cibo Depachika (food hall) di Ginza Mitsukoshi | posto: depachika-ginza
+  breve: pranzo nella food hall · senza perdere tempo
   Depachika: i piani interrati dei grandi magazzini, enormi food hall di piatti pronti.
-- 13:00 sposta Harajuku | via mezzi: #depachika-ginza > #takeshita-dori (Ginza → Harajuku)
-  breve: metro 15′ + a piedi 10′
-  come: metro Ginza line da Ginza a Omotesandō
-- 13:30 vedere Harajuku (quartiere della moda giovane) | posto: takeshita-dori
-  breve: via Takeshita e santuario Meiji nel bosco
-  Takeshita-dōri: moda kawaii, crêpe e purikura (cabine per foto-adesivi). Poi [[meiji-jingu]], il grande santuario nel bosco (40′).
-- 15:00 sposta Shibuya Sky | via piedi: #meiji-jingu > #shibuya-sky (Harajuku → Shibuya Sky)
-  breve: a piedi 20′ da Cat Street
-  [[cat-street]]: via pedonale di negozi streetwear.
-- 15:40 vedere Shibuya Sky (terrazza panoramica) | posto: shibuya-sky | prenotare
-  breve: sul tetto di un grattacielo · tramonto 16:30
-  prenotazione: biglietti dal 2/11 alle 16:00 italiane, ingresso 15:40, per 2
-- 17:00 fare Shibuya PARCO | posto: shibuya-parco
+- 12:55 sposta Samurai Restaurant | via mezzi: #depachika-ginza > #samurai-restaurant (Ginza → Samurai Restaurant)
+  breve: metro 17′ + a piedi 8′
+  come: metro linea Marunouchi da Ginza a Shinjuku-sanchōme, poi a piedi verso Kabukichō
+- 13:30 fare Samurai Restaurant Time | posto: samurai-restaurant | prenotare
+  breve: show di samurai e ninja · ingresso 13:30, show 14:00–15:40
+  Show kitsch con tamburi taiko, samurai, ninja e carri al neon a Kabukichō (il quartiere dei locali notturni), nei locali dell'ex Robot Restaurant. Compresi un pasto o 2 drink.
+  costo: ~¥10.000 a testa (prezzo pieno sul sito ufficiale; online ci sono sconti)
+  prenotazione: spettacolo delle 14:00 per 2, ingresso dalle 13:30 · portate un documento
+  attenzione: lo spettacolo serale delle 19 non c'è più: gli spettacoli sono alle 10:50, 14:00 e 16:30
+- 15:40 sposta Shibuya Sky | via mezzi: #samurai-restaurant > #shibuya-sky (Kabukichō → Shibuya Sky)
+  breve: treno 7′ + a piedi ~15′
+  come: a piedi alla stazione JR di Shinjuku (8′), treno JR Yamanote (la linea circolare di Tokyo) fino a Shibuya (7′), Shibuya Scramble Square è sopra la stazione
+- 16:00 vedere Shibuya Sky (terrazza panoramica) | posto: shibuya-sky | prenotare
+  breve: sul tetto di un grattacielo · tramonto alle 16:31
+  Si arriva con la luce del giorno, si vede il tramonto e Tokyo che si accende.
+  prenotazione: biglietti dal 2/11 alle 16:00 italiane, ingresso 16:00, per 2
+- 17:20 fare Shibuya PARCO | posto: shibuya-parco
   breve: 6° piano: Nintendo, Pokémon, Capcom, Jump
   A 5′ a piedi da Shibuya Sky.
-- 18:00 sposta Omoide Yokochō | via mezzi: Shibuya Station, Tokyo > #omoide-yokocho (Shibuya → Omoide Yokochō)
-  breve: treno 7′ + a piedi 3′
-  come: treno JR Yamanote (la linea circolare di Tokyo) da Shibuya a Shinjuku
-- 18:15 cibo Omoide Yokochō (vicolo degli spiedini) | posto: omoide-yokocho
-  breve: cena veloce: spiedini alla brace
+- 18:00 sposta Harajuku | via piedi: #shibuya-parco > #takeshita-dori (Shibuya → Harajuku a piedi)
+  breve: a piedi 20′ lungo Cat Street
+  [[cat-street]]: via pedonale di negozi streetwear tra Shibuya e Harajuku.
+- 18:20 vedere Harajuku (quartiere della moda giovane) | posto: takeshita-dori
+  breve: via Takeshita illuminata · negozi fino alle 20
+  Takeshita-dōri: moda kawaii, crêpe e purikura (cabine per foto-adesivi). Il santuario Meiji chiude al tramonto: a quest'ora non si visita.
+- 19:05 sposta Omoide Yokochō | via mezzi: Harajuku Station, Tokyo > #omoide-yokocho (Harajuku → Omoide Yokochō)
+  breve: treno 4′ + a piedi 5′
+  come: treno JR Yamanote da Harajuku a Shinjuku, uscita ovest
+- 19:20 cibo Omoide Yokochō (vicolo degli spiedini) | posto: omoide-yokocho
+  breve: cena: spiedini alla brace
   Vicolo di chioschi fumosi.
-- 18:50 sposta Samurai Restaurant | via piedi: #omoide-yokocho > #samurai-restaurant (Omoide Yokochō → Samurai Restaurant)
-  breve: a piedi 7′
-- 19:00 fare Samurai Restaurant Time | posto: samurai-restaurant | prenotare
-  breve: show di samurai e ninja · 2 h
-  Show kitsch con tamburi taiko, samurai, ninja e carri al neon a Kabukichō (nell'ex Robot Restaurant).
-  costo: da ¥8.000 con 2 drink
-  prenotazione: ore 19:00 per 2
-- 21:10 fare Golden Gai (vicoli di micro-bar) | posto: golden-gai | via piedi: #samurai-restaurant > #golden-gai (Samurai → Golden Gai)
+- 20:45 fare Golden Gai (vicoli di micro-bar) | posto: golden-gai | via piedi: #omoide-yokocho > #golden-gai (Omoide Yokochō → Golden Gai)
   breve: micro-bar per l'ultimo giro
-  6 vicoli con oltre 200 bar da 5–10 posti, a 5′ a piedi. Passate dalla [[godzilla]].
+  6 vicoli con oltre 200 bar da 5–10 posti, a 10′ a piedi da Omoide Yokochō. Passate dalla [[godzilla]].
   costo: molti bar chiedono un coperto (¥500–1.000)
   alternativa: karaoke (Big Echo, Karaoke-kan)
 - 23:30 sposta Hotel | via mezzi: #golden-gai > @super-hotel (Golden Gai → hotel)
@@ -949,14 +952,15 @@ con: voi due
   come: treno JR Yamanote da Shinjuku a Hamamatsuchō
 
 #### Guida
-senso: Ultimo giorno pieno a Tokyo: mercato del pesce, Ginza, Harajuku, terrazza panoramica di Shibuya al tramonto, show dei samurai e bar minuscoli a Shinjuku.
+senso: Ultimo giorno pieno a Tokyo: mercato del pesce, Ginza, show dei samurai nel primo pomeriggio, terrazza panoramica di Shibuya al tramonto, Harajuku illuminata e bar minuscoli a Shinjuku.
 mangiare:
   • Colazione: mercato di Tsukiji (sushi, frittata dolce, ostriche; contanti)
   • Pranzo: depachika di Ginza (food hall nei sotterranei dei grandi magazzini)
-  • Cena veloce: Omoide Yokochō (vicolo di spiedini alla brace) prima dello show
+  • Nello show sono compresi un pasto o 2 drink
+  • Cena: Omoide Yokochō (vicolo di spiedini alla brace)
 prenotare:
-  • Shibuya Sky: biglietti il 2/11 alle 16:00 italiane, ingresso 15:40, per 2
-  • Samurai Restaurant Time ore 19:00 per 2
+  • Shibuya Sky: biglietti il 2/11 alle 16:00 italiane, ingresso 16:00, per 2
+  • Samurai Restaurant Time, spettacolo delle 14:00 per 2 (biglietti da 4 settimane prima)
 attenzione:
   • Tsukiji chiude mercoledì e domenica (martedì è aperto)
   • Golden Gai: molti bar chiedono un coperto (¥500–1.000)
@@ -964,8 +968,8 @@ attenzione:
 anticipo:
   • Kabuki-za: un solo atto di teatro kabuki (~1 h, sottotitoli in inglese)
   • Karaoke dopo Golden Gai (Big Echo, Karaoke-kan)
-stanchi: • Saltate Harajuku, andate dritti a Shibuya
-camminata: ~13 km con la metro per Tsukiji (~15 km tutto a piedi) · mezzi ~1 h · pause: pranzo 1 h, show 2 h seduti, bar 1 h
+stanchi: • Saltate Harajuku: da Shibuya treno diretto per Shinjuku e cena
+camminata: ~13 km con la metro per Tsukiji (~15 km tutto a piedi) · mezzi ~1 h · pause: pranzo 50′, show 2 h seduti, cena 1 h, bar 1 h
 
 ### 2026-11-18
 percorso: tokyo > roma
@@ -1315,8 +1319,8 @@ priorità: bassa
 nota: Si può anche comprare in biglietteria al momento, ma il venerdì sera c'è coda. Il biglietto online ha data e ora fissate.
 
 ### shibuya-sky
-tappa: 2026-11-17 15:40
-cosa: Shibuya Sky 17/11, ingresso 15:40, per 2
+tappa: 2026-11-17 16:00
+cosa: Shibuya Sky 17/11, ingresso 16:00, per 2
 tipo: prenotare
 giorno: 2026-11-17
 apre: 2026-11-02
@@ -1359,16 +1363,17 @@ priorità: media
 nota: Spettacoli alle 18:00 e alle 19:00, ~50′. Posto normale ¥5.500, premium ¥6.600.
 
 ### samurai
-tappa: 2026-11-17 19:00
-cosa: Samurai Restaurant Time 17/11 ore 19:00, per 2
+tappa: 2026-11-17 13:30
+cosa: Samurai Restaurant Time 17/11, spettacolo delle 14 (ingresso ore 13:30), per 2
 tipo: prenotare
 giorno: 2026-11-17
+apre: 2026-10-20
 entro: 2026-11-03
-quando: 1–2 settimane prima
-costo: da ¥8.000 a testa con 2 drink
-link: Sito ufficiale = https://samurai-restaurant.tokyo/
+quando: dal 20/10 (4 settimane prima), entro inizio novembre
+costo: ~¥10.000 a testa con pasto o 2 drink
+link: Sito ufficiale = https://samurai-restaurant.tokyo/ ; Con cancellazione gratuita (GetYourGuide) = https://www.getyourguide.com/samurai-restaurant-tokyo-l221944/
 priorità: media
-nota: Show di ~1 h 40 a Kabukichō. ATTENZIONE: le fonti più recenti danno spettacoli alle 10:50, 14:00 e 16:30 (l'ultimo finisce alle 18:10), niente spettacolo alle 19: l'orario del 17/11 va rivisto. Biglietti fino a 4 settimane prima.
+nota: Spettacolo 14:00–15:40, si entra dalle 13:30. Spettacoli solo alle 10:50, 14:00 e 16:30 (quello delle 19 non c'è più). In vendita fino a 4 settimane prima; sul sito ufficiale niente rimborsi, sulle piattaforme (es. GetYourGuide) spesso cancellazione gratuita fino a 24 h prima.
 
 ### airbnb
 tappa: 2026-11-06 13:30
@@ -1492,8 +1497,8 @@ cosa: il quartiere di videogiochi, manga ed elettronica
 posti: super-potato-akiba, radio-kaikan, kyushu-jangara, hey-akihabara
 
 ### shinjuku-notte
-nome: Shinjuku di sera
-cosa: Kabukichō (il quartiere dei locali notturni), Golden Gai e vicoli degli spiedini
+nome: Shinjuku est (Kabukichō)
+cosa: il quartiere dei locali notturni, con Golden Gai e il vicolo degli spiedini
 posti: godzilla, omoide-yokocho, samurai-restaurant, golden-gai
 
 ### ningyocho
@@ -2611,7 +2616,7 @@ nome: Shibuya Sky
 tipo: 🌅 Panorama
 città: tokyo
 giorno: 17/11
-nota: 15:40, tramonto 16:30 · biglietti dal 2/11 alle 16:00 italiane
+nota: 16:00, tramonto 16:31 · biglietti dal 2/11 alle 16:00 italiane
 maps: Shibuya Sky
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066456-d19274143-Reviews-Shibuya_Sky-Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.shibuya-scramble-square.com/en/
@@ -2644,7 +2649,7 @@ nome: Samurai Restaurant Time
 tipo: 🎭 Spettacolo
 città: tokyo
 giorno: 17/11
-nota: 19:00, 2 h · DA PRENOTARE per 2
+nota: Spettacolo delle 14:00 (ingresso 13:30), ~1 h 40 · DA PRENOTARE per 2
 maps: Samurai Restaurant Kabukicho Shinjuku
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g14133667-d27827586-Reviews-SAMURAI_RESTAURANT-Kabukicho_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://samurai-restaurant.tokyo/
