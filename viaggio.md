@@ -223,6 +223,7 @@ gruppo: 14:00-
 - 11:30 bagagli Valigie negli armadietti della stazione | città: kawaguchiko | deposito | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
   breve: stazione di Kawaguchiko · o con la navetta dell'host
   Armadietti a gettoni nella stazione; in alternativa l'host del cottage può portarle con la navetta.
+  alternativa: se gli armadietti sono pieni, Fujikanko Travel, a 1′ dalla stazione: deposito con persona 9:00–17:30, ¥800 a valigia grande. Nello stesso palazzo (Fujikan, davanti alla stazione) ci sono 18 armadietti grandi da ¥800 (80 × 44 × 60 cm).
 - 11:40 sposta Lake Bake | via taxi: Kawaguchiko Station > #lake-bake (Stazione → Lake Bake)
   breve: taxi 10′ · ~¥2.000
 - 12:00 cibo Lake Bake (panetteria sul lago) | posto: lake-bake
@@ -324,6 +325,7 @@ gruppo: tutto
   Il check-out sarebbe entro le 10, ma dopo Honcho Street servono ~40′ per tornare al cottage.
 - 06:55 bagagli Valigie negli armadietti della stazione (proposta) | deposito | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
   breve: stazione di Kawaguchiko, taxi dal cottage ~10′
+  alternativa: alle 7 il deposito con persona è ancora chiuso: se gli armadietti della stazione sono pieni, provate quelli grandi del palazzo Fujikan davanti alla stazione (¥800). Se non si trova posto: check-out alle 10, poi taxi dal cottage alla stazione e niente armadietti.
 - 07:05 sposta Pagoda Chureito | via mezzi: Kawaguchiko Station > #chureito (Stazione → pagoda Chureito)
   breve: treno locale 15′ + a piedi 10′ e ~400 scalini
   come: treno locale Fujikyu da Kawaguchiko a Shimoyoshida (~15′, col gruppo), 10′ a piedi (700 m) e ~400 scalini
@@ -395,6 +397,7 @@ gruppo: 06:35-18:20
   breve: alle 6:30, prima del treno del gruppo
 - 06:32 bagagli Valigie in deposito all'Hotel Saibo | alloggio: saibo | deposito
   breve: le riprendete alle 18:40
+  alternativa: se l'hotel non le tiene, portatele con voi fino a Shimbashi (stessa metro, senza cambi) e lasciatele in un deposito Radical Storage aperto 24 ore su 24 tra Shimbashi e Daimon (~¥850 a valigia, si prenota online). La sera, scesi dal treno a Shimbashi, le riprendete e andate dritti alla stazione di Tokyo (treno JR, 4′) senza ripassare dall'hotel.
 - 06:35 sposta Kamakura-kōkō-mae | via mezzi: @saibo > #kokomae (Hotel Saibo → Kamakura-kōkō-mae)
   breve: metro + treno + trenino ~1 h 20
   come: 2′ a piedi alla stazione Ningyōchō, metro Toei Asakusa fino a Shimbashi (10′), treno JR Tōkaidō fino a Fujisawa (~45′), Enoden fino a Kamakura-kōkō-mae (20′)
@@ -651,6 +654,7 @@ con: voi due
 - 12:20 bagagli Valigie allo Spa Hotel Alpina | alloggio: alpina | deposito
   breve: check-in dalle 15
   Hotel moderno con onsen (le terme) sul tetto.
+  alternativa: armadietti grandi nella stazione di Takayama (~¥700–900 al giorno) o nel terminal dei bus Nōhi accanto (armadietti in 3 punti), entrambi a 3′ dall'hotel.
 - 12:30 sposta Kotte Ushi | via piedi: @alpina > #kotte-ushi (Hotel → Kotte Ushi)
   breve: a piedi 12′
 - 12:45 cibo Kotte Ushi (sushi di manzo) | posto: kotte-ushi
@@ -786,6 +790,7 @@ con: voi due
   come: metro Midōsuji da Shin-Osaka a Shinsaibashi
 - 12:20 bagagli Valigie all'Hotel Hillarys | alloggio: hillarys | deposito
   breve: check-in dalle 15
+  alternativa: deposito Radical Storage vicino alla stazione di Shinsaibashi (si prenota online), oppure gli armadietti extra-large del centro commerciale Namba City (a 10′, ¥600–800).
 - 12:25 sposta Dōtonbori | via piedi: @hillarys > #dotonbori (Hotel → Dōtonbori)
   breve: a piedi 10′
 - 12:35 cibo Street food a Dōtonbori | posto: dotonbori
@@ -850,6 +855,7 @@ con: voi due
   come: 4′ a piedi, metro Midōsuji da Shinsaibashi a Umeda (6′, la stazione centrale di Osaka), treno JR da Osaka a Universal City (~15′, diretto o cambio a Nishikujō)
 - 07:55 bagagli Valigie negli armadietti grandi | deposito | dove: Universal Studios Japan lockers | zona: usj
   breve: fuori dai cancelli · sono pochi: arrivate presto
+  alternativa: se gli armadietti XL (¥1.500, davanti ai controlli di sicurezza) sono finiti, nella CityWalk (la via dei negozi davanti al parco) ci sono due depositi con persona: Keepen Azukaru Tokorona (8:00–22:30, ¥1.500 a valigia grande) e The Backstage Dressing Room (9:00–22:00, ¥1.000). Gli armadietti del parco si svuotano entro 2 h dalla chiusura.
 - 08:00 fare Super Nintendo World | posto: usj | prenotare
   breve: il mondo di Mario dentro Universal Studios
   Mario Kart, Yoshi, Donkey Kong Country (montagne russe nella miniera).
