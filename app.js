@@ -3,7 +3,7 @@
    Per provare un'ora diversa: aggiungere ?ora=2026-11-11T10:00+09:00 all'indirizzo. */
 (function () {
   "use strict";
-  var APP_V = "12"; // uguale al numero di VERSION in sw.js
+  var APP_V = "13"; // uguale al numero di VERSION in sw.js
 
   var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", roma: "Roma" };
   var TYPE = {
@@ -408,7 +408,8 @@
     if (!store("hinted")) h += '<p class="hint">' + icon("info") + "<span>Tocca una tappa per foto, dettagli e indicazioni. Scorri il dito a destra o a sinistra per cambiare giorno. Con «Cerca» in basso a destra trovi qualsiasi cosa.</span></p>";
 
     h += '<div class="plan">';
-    d.items.forEach(function (it, k) { if (!it.merged) h += stopHtml(i, k, it); });
+    var zh = zoneHeads(i);
+    d.items.forEach(function (it, k) { if (!it.merged) h += stopHtml(i, k, it, zh[k]); });
     h += "</div>";
 
     h += '<div class="extras">' + tourHtml(i) + tipsHtml(d) + moneyHtml() + rulesHtml() + "</div>";
@@ -469,7 +470,42 @@
     return h + '<div class="btns">' + btns + "</div></div>";
   }
 
-  function stopHtml(di, ii, it) {
+  // ---------- zone: le tappe di fila nello stesso quartiere sono un gruppo, con quanto ci state ----------
+  function hmMin(t) { var p = t.split(":"); return +p[0] * 60 + +p[1]; }
+  function durText(m) {
+    if (m < 50) return "sosta breve, ~" + Math.max(5, Math.round(m / 5) * 5) + "′";
+    var h = Math.round(m / 30) / 2;
+    return "~" + Math.floor(h) + " h" + (h % 1 ? " 30" : "");
+  }
+  function zoneHeads(di) {
+    var items = D.days[di].items, vis = [], out = {};
+    items.forEach(function (it, k) { if (!it.merged) vis.push(k); });
+    for (var a = 0; a < vis.length; a++) {
+      var it = items[vis[a]], z = it.zone;
+      if (!z || !D.zones || !D.zones[z]) continue;
+      if (a > 0 && items[vis[a - 1]].zone === z) continue;
+      var b = a, onlyBase = true;
+      while (b + 1 < vis.length && items[vis[b + 1]].zone === z) b++;
+      for (var c = a; c <= b; c++) if (["hotel", "bagagli"].indexOf(items[vis[c]].k) < 0 || items[vis[c]].title.indexOf("Onsen") >= 0) onlyBase = false;
+      var start = it.t, end = null, nx = b + 1 < vis.length ? items[vis[b + 1]] : null;
+      if (nx) end = nx.leg != null ? items[nx.leg].t : nx.t;
+      var info = { z: z, start: start, end: end, base: onlyBase };
+      if (end && !onlyBase) {
+        var m = hmMin(end) - hmMin(start);
+        if (m < 0) m += 24 * 60;
+        info.dur = durText(m);
+      }
+      out[vis[a]] = info;
+    }
+    return out;
+  }
+  function zoneHtml(zi, it, past) {
+    var z = D.zones[zi.z], when = zi.base ? "" : zi.end ? zi.start + "–" + zi.end + (zi.dur ? " · " + zi.dur : "") : "dalle " + zi.start;
+    return '<div class="zone' + (past ? " past" : "") + '" style="--c:' + cityVar(it.city) + '"><span class="zn">' + icon("pin") + esc(z.name) + "</span>" +
+      '<span class="zx">' + esc(z.what) + (when ? ' <b class="num">' + esc(when) + "</b>" : "") + "</span></div>";
+  }
+
+  function stopHtml(di, ii, it, zi) {
     var key = di + "-" + ii, st = stateOf(di, ii), open = !!S.open[key], nd = st === "past" ? "" : needs(it);
     var leg = it.leg != null ? D.days[di].items[it.leg] : null;
     var h = '<div class="stop k-' + it.k + (st ? " " + st : "") + (nd ? " needs" : "") + '" id="s-' + key + '" style="--tc:var(--t-' + it.k + ')">';
@@ -478,6 +514,7 @@
       h += '<button type="button" class="leg' + (lst === "past" || st === "past" ? " past" : "") + '" data-open="' + key + '" aria-label="Come arrivarci">' +
         '<span class="lt">' + esc(leg.t) + '</span><span class="li">' + icon(moveIcon(leg)) + '</span><span class="lx">' + esc(leg.short || "spostamento") + "</span></button>";
     }
+    if (zi) h += zoneHtml(zi, it, st === "past");
     h += '<div class="scard"><button type="button" class="row" data-open="' + key + '" aria-expanded="' + open + '" aria-controls="p-' + key + '">';
     var ph = it.k !== "sposta" && photoOf(it);
     h += '<span class="t">' + esc(it.t) + "</span>" + (ph ? '<span class="dot ph"><img src="' + esc(ph) + '" alt="" loading="lazy" decoding="async"><span class="tb">' +
@@ -696,7 +733,7 @@
         var p = it.place && D.places[it.place], leg = it.leg != null ? d.items[it.leg] : null, t = it.train && TRAINS[it.train], h = it.hotel && HOTELS[it.hotel];
         var text = [it.short, (it.details || []).map(function (x) { return plain(x.text); }).join(" "), p ? p.name + " " + p.note : "",
           leg ? leg.title + " " + (leg.short || "") + " " + (leg.details || []).map(function (x) { return plain(x.text); }).join(" ") : "",
-          t ? t.line + " " + t.route : "", h ? h.name : "", TAGS[it.k] || "", it.bag ? TAGS.bagagli : "",
+          t ? t.line + " " + t.route : "", h ? h.name : "", it.zone && D.zones && D.zones[it.zone] ? D.zones[it.zone].name + " " + D.zones[it.zone].what : "", TAGS[it.k] || "", it.bag ? TAGS.bagagli : "",
           (it.todos || []).map(function (id) { return TODO[id].task; }).join(" "), dayWords].join(" ");
         addDoc({ kind: "item", d: di, i: ii, k: it.k, title: it.title, sub: dShort(d.id) + " · " + it.t + (it.short ? " · " + it.short : ""), text: text, w: 1 });
       });

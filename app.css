@@ -249,6 +249,16 @@ body.noscroll .fab { display: none; }
 .stop.travel .leg .li { color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
 .stop.travel .leg .lx { background: var(--accent-soft); color: var(--accent); }
 
+/* zona (quartiere): titoletto sopra la prima tappa del gruppo, con orario e durata */
+.zone { display: grid; gap: 1px; padding: 4px 4px 8px 6px; border-left: 3px solid var(--c); margin: 4px 0 8px; }
+.stop:first-child .zone { margin-top: 0; }
+.zone .zn { display: flex; align-items: center; gap: 5px; font-size: 13.5px; font-weight: 800; color: var(--c); text-transform: uppercase; letter-spacing: .05em; }
+.zone .zn .ic { width: 15px; height: 15px; stroke-width: 2.4; }
+.zone .zx { font-size: 13.5px; color: var(--muted); line-height: 1.35; }
+.zone .zx b { color: var(--ink); font-weight: 700; white-space: nowrap; }
+.zone.past { opacity: .5; }
+.leg + .zone { margin-top: -4px; }
+
 /* la riga della tappa */
 .row {
   position: relative; width: 100%; border: 0; background: none; text-align: left; cursor: pointer;

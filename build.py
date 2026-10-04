@@ -271,6 +271,8 @@ def parse_item(line, details, did, city, places, hotels, trains, tz_day):
             item["photo"] = a[6:].strip()
         elif a.startswith("dove: "):
             item["q"] = a[6:].strip()
+        elif a.startswith("zona: "):
+            item["zone"] = a[6:].strip()
         elif a.startswith("fuso: "):
             z = a[6:].strip()
             if z not in TZ:
@@ -416,6 +418,42 @@ def parse_days(lines, places, hotels, trains):
     return days
 
 
+def parse_zones(lines, places, hotels):
+    """Zone (quartieri): ogni posto o alloggio appartiene a una sola zona."""
+    zones, owner = {}, {}
+    for zid, body in entries(lines):
+        f = fields(body)
+        zones[zid] = {"name": f.get("nome", zid), "what": f.get("cosa", "")}
+        for m in [x.strip() for x in f.get("posti", "").split(",") if x.strip()]:
+            ok = m[1:] in hotels if m.startswith("@") else m in places
+            if not ok:
+                err(f"Zone/{zid}: «{m}» non esiste")
+            if m in owner:
+                err(f"Zone/{zid}: «{m}» è già nella zona «{owner[m]}»")
+            owner[m] = zid
+    return zones, owner
+
+
+def assign_zones(days, zones, owner):
+    """Zona di ogni tappa: attributo «zona», poi il posto, poi l'alloggio. Treni, voli e spostamenti non ne hanno."""
+    for d in days:
+        for it in d["items"]:
+            where = f"{d['id']} {it['t']}"
+            if it.get("zone"):
+                if it["zone"] not in zones:
+                    err(f"{where}: zona sconosciuta «{it['zone']}»")
+                continue
+            z = None
+            if it.get("place"):
+                z = owner.get(it["place"])
+            elif it.get("hotel") and it["k"] in ("hotel", "bagagli", "fare", "cibo"):
+                z = owner.get("@" + it["hotel"])
+            if z:
+                it["zone"] = z
+            elif it["k"] not in ("viaggio", "sposta") and it.get("city") not in ("roma", "transit"):
+                warn(f"{where}: «{it['title']}» senza zona")
+
+
 def attach_todos(todo, days, trains):
     """Ogni cosa da fare va sulla sua tappa (notifica nel giorno giusto).
     Senza «tappa» va sulla prima tappa del primo giorno (la partenza)."""
@@ -488,6 +526,8 @@ def main():
     trains = parse_trains(S["Treni"])
     flights = parse_trains(S["Voli"], "Voli")
     days = parse_days(S["Giorni"], places, hotels, trains)
+    zones, owner = parse_zones(S.get("Zone", []), places, hotels)
+    assign_zones(days, zones, owner)
     info = fields(S["Info"])
     day_dm = {d["dm"] for d in days}
     for pid, p in places.items():
@@ -501,7 +541,7 @@ def main():
         "travellers": [x.strip() for x in info.get("viaggiatori", "").split(",") if x.strip()],
         "days": days, "hotels": list(hotels.values()), "trains": list(trains.values()), "flights": list(flights.values()),
         "todo": todo, "budget": parse_budget(S["Budget"]),
-        "places": places, "glossary": parse_glossary(S["Glossario"]),
+        "places": places, "zones": zones, "glossary": parse_glossary(S["Glossario"]),
     }
     for w in warnings:
         print("avviso:", w)

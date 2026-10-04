@@ -20,7 +20,7 @@ Questo file vive solo qui: non tenerne copie nel progetto Claude «Giappone».
   - Titolo corto: solo il posto o la cosa. Tutto il resto va nei dettagli.
   - attributi: `posto: id` (link della sezione Posti) · `treno: id` · `alloggio: id` · `prenotare` · `prenotato`
     · `città: id` (da qui in poi si è in quella città) · `dove: testo` (ricerca Google Maps se non c'è un posto)
-    · `fuso: roma` (orario italiano) · `foto: titolo` (pagina di Wikipedia in inglese da cui prendere la foto)
+    · `zona: id` (sezione Zone, per le tappe senza posto) · `fuso: roma` (orario italiano) · `foto: titolo` (pagina di Wikipedia in inglese da cui prendere la foto)
     · `via mezzi|piedi|taxi: DA > A (etichetta)` = indicazioni Google Maps
     (DA e A: `#posto`, `@alloggio` o testo libero).
   - righe di dettaglio: `breve:` (riga corta sotto il titolo, si vede sempre), poi `come:`, `costo:`, `orari:`,
@@ -52,6 +52,7 @@ Regole di Federico:
   spiegazione tra parentesi direttamente nel titolo della tappa (es. «Kiyomizu-dera (tempio)»).
   Meteo sotto il titolo del giorno (Open-Meteo, senza chiave): com'è adesso in ogni città del giorno e, nei 16 giorni
   prima, le previsioni per quella data; si aggiorna all'apertura (max 1 volta l'ora) e ogni 3 ore.
+  Ogni tappa ha la sua zona (sezione Zone): le tappe di fila nella stessa zona hanno un titoletto con orario e durata.
   Sopra i giorni, la linea delle città (dalla città della notte prima a quella della sera; le gite in giornata non contano).
   iOS 26 sfoca da solo una fascia sotto la barra di stato nell'app installata: la barra dei giorni parte 40 px più in basso.
 
@@ -205,7 +206,7 @@ con: voi due + il gruppo
   breve: 9:30 → 11:28 · diretto
   Treno diretto per il Monte Fuji fino a Kawaguchiko (il paese sul lago ai piedi del Fuji).
   Alle 11:14 passa da Shimoyoshida, la stazione della pagoda Chureito.
-- 11:30 bagagli Valigie negli armadietti della stazione | città: kawaguchiko | deposito | dove: Kawaguchiko Station
+- 11:30 bagagli Valigie negli armadietti della stazione | città: kawaguchiko | deposito | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
   breve: stazione di Kawaguchiko · o con la navetta dell'host
   Armadietti a gettoni nella stazione; in alternativa l'host del cottage può portarle con la navetta.
 - 11:40 sposta Lake Bake | via taxi: Kawaguchiko Station > #lake-bake (Stazione → Lake Bake)
@@ -216,9 +217,9 @@ con: voi due + il gruppo
   alternativa: se il Fuji è nitido e per domani danno brutto, pagoda [[chureito]] subito (treno 15′)
 - 13:30 sposta Stazione di Kawaguchiko | via taxi: #lake-bake > Kawaguchiko Station (Lake Bake → stazione)
   breve: taxi 10′
-- 13:50 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Kawaguchiko Station
+- 13:50 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
   breve: prima che arrivino gli amici
-- 14:00 fare Arrivano gli amici | dove: Kawaguchiko Station
+- 14:00 fare Arrivano gli amici | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
   breve: dal bus delle 8:40 da Takayama
 - 14:10 sposta Cottage Pastorale | via taxi: Kawaguchiko Station > @cottage-pastorale (Stazione → Cottage)
   breve: navetta dell'host o taxi ~10′
@@ -265,13 +266,13 @@ camminata: ~10 km (salita al Tenku no Torii) · treno 2 h · pause: pranzo 1 h 1
 percorso: kawaguchiko
 dorme: cottage-pastorale
 con: voi due + il gruppo
-- 08:00 fare Giro del lago in bici | foto: Lake Kawaguchi | dove: Lake Kawaguchi
+- 08:00 fare Giro del lago in bici | foto: Lake Kawaguchi | dove: Lake Kawaguchi | zona: lago-kawaguchi
   breve: col gruppo · bici tramite il cottage
   La pagoda Chureito e Honcho Street si fanno il 9/11.
 - 13:00 cibo Miura Udon (spaghettoni udon) | posto: miura-udon
   breve: pranzo, se passate da Fujiyoshida · solo 10–14
   Udon spessi e sodi tipici della zona (Tabelog 3,65). Chiuso il mercoledì.
-- 14:00 vedere Panorami sul Fuji | foto: Mount Fuji | dove: Oishi Park, Fujikawaguchiko
+- 14:00 vedere Panorami sul Fuji | foto: Mount Fuji | dove: Oishi Park, Fujikawaguchiko | zona: kawaguchiko-nord
   breve: per esempio Oishi Park, sulla sponda nord
 - 16:00 fare Onsen (bagno termale) o funivia sul lago | posto: funivia-kachi-kachi
   breve: terme con vista Fuji o funivia sul lago
@@ -305,7 +306,7 @@ con: voi due + il gruppo
 - 06:45 hotel Check-out dal cottage (proposta) | alloggio: cottage-pastorale
   breve: proposta al gruppo: uscire presto con le valigie
   Il check-out sarebbe entro le 10, ma dopo Honcho Street servono ~40′ per tornare al cottage.
-- 06:55 bagagli Valigie negli armadietti della stazione (proposta) | deposito | dove: Kawaguchiko Station
+- 06:55 bagagli Valigie negli armadietti della stazione (proposta) | deposito | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
   breve: stazione di Kawaguchiko, taxi dal cottage ~10′
 - 07:05 sposta Pagoda Chureito | via mezzi: Kawaguchiko Station > #chureito (Stazione → pagoda Chureito)
   breve: treno locale 15′ + a piedi 10′ e ~400 scalini
@@ -322,10 +323,10 @@ con: voi due + il gruppo
   attenzione: il check-out del cottage è entro le 10 ma da qui servono ~40′. Proposta: check-out alle 6:45 e valigie in stazione
 - 09:45 sposta Lago Kawaguchi | via mezzi: Shimoyoshida Station, Fujiyoshida > Lake Kawaguchi (Shimoyoshida → lago)
   breve: treno 15′ fino a Kawaguchiko
-- 10:15 vedere Tempo libero al lago | foto: Lake Kawaguchi | dove: Lake Kawaguchi
-- 12:00 cibo Pranzo al lago | dove: Kawaguchiko Station
+- 10:15 vedere Tempo libero al lago | foto: Lake Kawaguchi | dove: Lake Kawaguchi | zona: lago-kawaguchi
+- 12:00 cibo Pranzo al lago | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
   breve: poi alla stazione
-- 13:45 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Kawaguchiko Station
+- 13:45 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
   breve: prima del treno
 - 14:09 viaggio Treno Fuji Excursion per Shinjuku (Tokyo) | foto: Fuji Excursion | treno: fuji-9 | prenotare | dove: Kawaguchiko Station
   breve: 14:09 → 16:07 (o 15:00 → 16:59)
@@ -337,7 +338,7 @@ con: voi due + il gruppo
 - 16:45 hotel Check-in all'Hotel Saibo | alloggio: saibo
   breve: valigie in camera
   Ningyōchō è un quartiere tranquillo vicino a Tokyo Station.
-- 18:00 cibo Spuntino a Ningyōchō (quartiere antico) | foto: Ningyōchō | dove: Ningyocho, Tokyo
+- 18:00 cibo Spuntino a Ningyōchō (quartiere antico) | foto: Ningyōchō | dove: Ningyocho, Tokyo | zona: ningyocho
   breve: quartiere di botteghe di dolci
 - 18:20 sposta teamLab Planets | via mezzi: @saibo > #teamlab (Hotel Saibo → teamLab)
   breve: metro ~35′ o taxi 20′
@@ -410,7 +411,7 @@ con: voi due + il gruppo, la sera solo voi due
   breve: tempio con terrazza sul mare · chiude alle 16:30
 - 16:15 sposta Spiaggia di Koshigoe | via mezzi: #hase-dera > Koshigoe Beach, Kamakura (Hase-dera → Koshigoe)
   breve: trenino 10′
-- 16:40 vedere Tramonto sul mare a Koshigoe | foto: Enoshima | dove: Koshigoe Beach, Kamakura
+- 16:40 vedere Tramonto sul mare a Koshigoe | foto: Enoshima | dove: Koshigoe Beach, Kamakura | zona: enoden-costa
 - 17:05 sposta Hotel Saibo | via mezzi: Koshigoe Station, Kamakura > @saibo (Koshigoe → Hotel Saibo)
   breve: trenino + treno + metro ~1 h 20
   come: Enoden fino a Fujisawa (15′), treno JR fino a Shimbashi (45′) col gruppo, metro Toei Asakusa fino a Ningyōchō (10′)
@@ -466,13 +467,13 @@ con: voi due
   Santuario coi portali rossi in fila sulla collina: all'alba è vuoto. Salite fino al bivio di Yotsutsuji (~45′, vista sulla città) e tornate giù (~4 km in tutto).
   La cima aggiunge un'ora di gradini senza un panorama migliore.
   attenzione: dopo le 9 si riempie
-- 09:45 cibo Colazione vicino al santuario | dove: Fushimi Inari Station, Kyoto
+- 09:45 cibo Colazione vicino al santuario | dove: Fushimi Inari Station, Kyoto | zona: fushimi
   breve: seduti, con calma
   Ieri siete arrivati alle 22:21: pausa lunga.
 - 11:00 sposta Higashiyama | via mezzi: #fushimi-inari > Gojozaka, Higashiyama, Kyoto (Fushimi Inari → Higashiyama)
   breve: treno 10′ + a piedi 15′
   come: treno Keihan (linea locale) da Fushimi-Inari a Kiyomizu-Gojō (10′), poi 15′ a piedi (1,2 km)
-- 11:45 cibo Pranzo a Higashiyama (quartiere storico) | dove: Gojozaka, Higashiyama, Kyoto
+- 11:45 cibo Pranzo a Higashiyama (quartiere storico) | dove: Gojozaka, Higashiyama, Kyoto | zona: higashiyama
   breve: tra Gojō-zaka e Matsubara-dōri
   Higashiyama è il quartiere storico a est.
 - 12:45 sposta Kiyomizu-dera | via piedi: Gojozaka, Higashiyama, Kyoto > #kiyomizu-dera (Pranzo → Kiyomizu-dera)
@@ -560,7 +561,7 @@ con: voi due
 - 12:45 sposta Ginkakuji-michi | via taxi: #kinkaku-ji > Ginkakuji-michi, Kyoto (Kinkaku-ji → Ginkakuji-michi)
   breve: taxi 25′ o bus 40′
   costo: taxi ~¥3.000 (7 km) · bus 204 con la Suica
-- 13:15 cibo Pranzo in Ginkakuji-michi | dove: Ginkakuji-michi, Kyoto
+- 13:15 cibo Pranzo in Ginkakuji-michi | dove: Ginkakuji-michi, Kyoto | zona: kyoto-est
   breve: la via davanti al Padiglione d'Argento
   Omen (udon famosi) oggi è chiuso: è giovedì.
 - 14:15 vedere Ginkaku-ji (Padiglione d'Argento) | posto: ginkaku-ji
@@ -716,7 +717,7 @@ con: voi due
   breve: patrimonio UNESCO
   Case gasshō, coi tetti di paglia a punta («mani giunte»). Entrate in [[casa-wada]], l'unica grande casa visitabile.
   attenzione: restate sui sentieri: risaie e case private sono protette. Il sabato è il giorno più affollato
-- 12:15 cibo Pranzo a Shirakawa-go | foto: Shirakawa-gō | dove: Shirakawa-go Ogimachi
+- 12:15 cibo Pranzo a Shirakawa-go | foto: Shirakawa-gō | dove: Shirakawa-go Ogimachi | zona: shirakawa
   breve: verso mezzogiorno, prima della folla
 - 13:30 viaggio Bus per Takayama | treno: bus-14 | prenotare | via mezzi: Shirakawa-go Bus Terminal > @alpina (Shirakawa-go → hotel)
   breve: ~50′ · corsa tra le 13:30 e le 14:30
@@ -830,7 +831,7 @@ con: voi due
 - 07:20 sposta Armadietti di Universal Studios | via mezzi: @hillarys > Universal Studios Japan lockers (Hotel → Universal Studios)
   breve: metro + treno ~35′
   come: 4′ a piedi, metro Midōsuji da Shinsaibashi a Umeda (6′, la stazione centrale di Osaka), treno JR da Osaka a Universal City (~15′, diretto o cambio a Nishikujō)
-- 07:55 bagagli Valigie negli armadietti grandi | deposito | dove: Universal Studios Japan lockers
+- 07:55 bagagli Valigie negli armadietti grandi | deposito | dove: Universal Studios Japan lockers | zona: usj
   breve: fuori dai cancelli · sono pochi: arrivate presto
 - 08:00 fare Super Nintendo World | posto: usj | prenotare
   breve: il mondo di Mario dentro Universal Studios
@@ -843,7 +844,7 @@ con: voi due
 - 14:00 fare Harry Potter, Jurassic Park, Minion | posto: usj
 - 16:00 fare Hollywood Dream, poi uscita | posto: usj
   breve: montagne russe · uscita entro le 18:10
-- 18:10 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Universal Studios Japan lockers
+- 18:10 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Universal Studios Japan lockers | zona: usj
   breve: poi treno per Shin-Osaka
 - 18:20 sposta Shin-Osaka | via mezzi: Universal City Station, Osaka > Shin-Osaka Station (Universal Studios → Shin-Osaka)
   breve: treno ~30′ con 2 cambi
@@ -886,7 +887,7 @@ con: voi due
   L'ex mercato del pesce. Tamagoyaki: frittata dolce arrotolata.
 - 10:15 sposta Ginza | via piedi: #tsukiji > Ginza, Tokyo (Tsukiji → Ginza)
   breve: a piedi 12′
-- 10:30 vedere Ginza | foto: Ginza | dove: Ginza, Tokyo
+- 10:30 vedere Ginza | foto: Ginza | dove: Ginza, Tokyo | zona: ginza
   breve: vetrine e grandi magazzini
   Il quartiere elegante dei grandi magazzini.
   alternativa: [[kabuki-za]], un solo atto di teatro kabuki (~1 h, sottotitoli in inglese)
@@ -1428,6 +1429,197 @@ Stima a persona in euro.
 - Onsen e sentō: 15 | l'onsen dell'Alpina è incluso
 - Assicurazione + e-SIM: 75
 - Extra (shopping, imprevisti): 500
+
+## Zone
+
+Quartieri e zone delle tappe: l'app raggruppa le tappe consecutive nella stessa zona e mostra quanto ci state.
+Campi: `nome`, `cosa` (spiegazione breve), `posti` (id della sezione Posti e `@id` degli alloggi, separati da virgola).
+Le tappe senza posto prendono la zona con l'attributo `zona: id`.
+
+### okubo
+nome: Ōkubo
+cosa: quartiere tranquillo dietro Shinjuku, dov'è l'Airbnb
+posti: @airbnb-shinjuku
+
+### shinjuku-sud
+nome: Shinjuku sud
+cosa: a sud della stazione di Shinjuku, verso Yoyogi
+posti: fuunji
+
+### asakusa
+nome: Asakusa
+cosa: la Tokyo antica, col tempio Senso-ji
+posti: senso-ji, azuma-bashi, kura-sushi
+
+### akihabara
+nome: Akihabara
+cosa: il quartiere di videogiochi, manga ed elettronica
+posti: super-potato-akiba, radio-kaikan, kyushu-jangara, hey-akihabara
+
+### shinjuku-notte
+nome: Shinjuku di sera
+cosa: Kabukichō (il quartiere dei locali notturni), Golden Gai e vicoli degli spiedini
+posti: godzilla, omoide-yokocho, samurai-restaurant, golden-gai
+
+### ningyocho
+nome: Ningyōchō
+cosa: quartiere tradizionale di Nihonbashi, dov'è l'Hotel Saibo
+posti: @saibo
+
+### toyosu
+nome: Toyosu
+cosa: isole artificiali sulla baia di Tokyo
+posti: teamlab
+
+### stazione-tokyo
+nome: Stazione di Tokyo
+cosa: la stazione centrale, da cui partono gli Shinkansen
+posti: gransta
+
+### tsukiji
+nome: Tsukiji
+cosa: l'ex mercato del pesce
+posti: tsukiji
+
+### ginza
+nome: Ginza
+cosa: il quartiere elegante dei grandi magazzini
+posti: depachika-ginza
+
+### harajuku
+nome: Harajuku
+cosa: moda giovane e la via Takeshita-dōri
+posti: takeshita-dori, meiji-jingu
+
+### shibuya
+nome: Shibuya
+cosa: il grande incrocio e i grattacieli
+posti: shibuya-sky, shibuya-parco
+
+### hamamatsucho
+nome: Hamamatsuchō e Shiba
+cosa: zona dell'hotel finale, vicino alla Tokyo Tower
+posti: @super-hotel, zojo-ji
+
+### kawaguchiko-stazione
+nome: Kawaguchiko, zona stazione
+cosa: sponda est del lago, intorno alla stazione
+posti: funivia-kachi-kachi
+
+### kawaguchiko-nord
+nome: Kawaguchiko, sponda nord
+cosa: il lato del lago con la vista sul Fuji, dov'è il cottage
+posti: @cottage-pastorale, lake-bake, tenku-no-torii, momiji-corridor, hoto-fudo
+
+### lago-kawaguchi
+nome: Lago Kawaguchi
+cosa: in giro intorno al lago
+posti:
+
+### fujiyoshida
+nome: Fujiyoshida
+cosa: la cittadina accanto, con la pagoda e la via col Fuji in fondo
+posti: chureito, honcho-street, miura-udon
+
+### enoden-costa
+nome: Costa dell'Enoden
+cosa: il trenino sul mare tra Kamakura ed Enoshima
+posti: kokomae
+
+### kamakura-est
+nome: Kamakura est
+cosa: templi tra le colline, a est della stazione
+posti: hokoku-ji
+
+### kamakura-centro
+nome: Kamakura centro
+cosa: la stazione e la via dello street food
+posti: komachi-dori
+
+### hase
+nome: Hase
+cosa: il Grande Buddha e il tempio sul mare
+posti: grande-buddha, hase-dera
+
+### kyoto-stazione
+nome: Stazione di Kyoto
+cosa: zona dell'hotel
+posti: @apa-kyoto, daiichi-asahi
+
+### fushimi
+nome: Fushimi
+cosa: a sud di Kyoto, il santuario dei portali rossi
+posti: fushimi-inari
+
+### higashiyama
+nome: Higashiyama
+cosa: il quartiere storico in collina, coi templi e i vicoli antichi
+posti: kiyomizu-dera, sannenzaka, pagoda-yasaka
+
+### gion
+nome: Gion e Pontochō
+cosa: il quartiere delle geisha e il vicolo delle osterie sul fiume
+posti: hanami-koji, gion-corner, pontocho, kiyamachi
+
+### arashiyama
+nome: Arashiyama
+cosa: bambù, fiume e montagne a ovest di Kyoto
+posti: bambu-arashiyama, monkey-park
+
+### kinkakuji
+nome: Kinkaku-ji e Ryōan-ji
+cosa: i templi del nord-ovest
+posti: ryoan-ji, kinkaku-ji
+
+### kyoto-est
+nome: Collina est (Ginkaku-ji → Nanzen-ji)
+cosa: lungo il Sentiero del Filosofo, in discesa
+posti: ginkaku-ji, sentiero-filosofo, nanzen-ji, keage-incline
+
+### kawaramachi
+nome: Centro di Kyoto (Kawaramachi)
+cosa: vie dei negozi e mercato coperto
+posti: nishiki, sen-no-kaze
+
+### takayama-stazione
+nome: Stazione di Takayama
+cosa: zona dell'hotel
+posti: @alpina
+
+### takayama-centro
+nome: Centro storico di Takayama
+cosa: vie di case in legno, distillerie e mercati
+posti: kotte-ushi, jinya, sanmachi, nakabashi, kitchen-hida, mercato-miyagawa, kyoya
+
+### shirakawa
+nome: Shirakawa-go
+cosa: il villaggio dei tetti di paglia, in montagna
+posti: belvedere-shiroyama, shirakawa-go
+
+### shinsaibashi
+nome: Shinsaibashi
+cosa: zona dell'hotel, accanto a Namba
+posti: @hillarys
+
+### namba
+nome: Namba e Dōtonbori
+cosa: insegne luminose, street food e vita notturna
+posti: dotonbori, hozenji-yokocho, fukutaro, round1
+
+### nipponbashi
+nome: Nipponbashi
+cosa: Den Den Town, il quartiere nerd di Osaka
+posti: den-den-town
+
+### shinsekai
+nome: Shinsekai
+cosa: il quartiere retrò anni '50
+posti: shinsekai
+
+### usj
+nome: Universal Studios Japan
+cosa: il parco divertimenti sulla baia di Osaka
+posti: usj
 
 ## Posti
 
