@@ -69,7 +69,7 @@ body {
   padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 #app { max-width: 640px; margin: 0 auto; }
-main { padding: 0 16px 40px; outline: none; }
+main { padding: 0 16px 96px; outline: none; } /* spazio per il pulsante Cerca */
 a { color: inherit; }
 button { font: inherit; color: inherit; touch-action: manipulation; }
 :focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; border-radius: 8px; }
@@ -91,7 +91,7 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
 @media (orientation: portrait) { .ios-app { --inset-top: calc(env(safe-area-inset-top, 0px) + 40px); } }
 .topbar {
   position: sticky; top: 0; z-index: 20; margin-inline: -16px;
-  padding: calc(var(--inset-top) + 4px) 12px 8px 0;
+  padding: calc(var(--inset-top) + 4px) 0 8px 0;
   display: flex; align-items: flex-end; gap: 8px; background: var(--bg);
   transition: background-color .25s, box-shadow .25s;
 }
@@ -103,14 +103,19 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
 @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
   .scrolled .topbar { background: var(--bg); }
 }
-.sbtn {
-  flex: none; width: 46px; height: 50px; border: 0; border-radius: 12px; background: var(--ink); color: var(--card);
-  display: grid; place-items: center; cursor: pointer;
+/* ricerca: pulsante fisso in basso a destra, sempre a portata di pollice */
+.fab {
+  position: fixed; z-index: 40; right: 16px; bottom: calc(env(safe-area-inset-bottom, 0px) + 18px);
+  height: 48px; padding: 0 18px 0 15px; border: 0; border-radius: 24px; cursor: pointer;
+  display: flex; align-items: center; gap: 8px; font-size: 15.5px; font-weight: 700;
+  background: var(--ink); color: var(--card); box-shadow: 0 6px 20px -6px rgb(0 0 0 / .45);
 }
-.sbtn .ic { width: 22px; height: 22px; }
+.fab .ic { width: 20px; height: 20px; stroke-width: 2.4; }
+body.noscroll .fab { display: none; }
+@media (min-width: 700px) { .fab { right: calc(50% - 320px + 16px); } }
 .daystrip {
   --cw: 50px; --g: 8px; /* larghezza di un giorno e spazio tra i giorni: li usa anche la linea delle città */
-  flex: 1; min-width: 0; padding: 0 6px 0 16px; position: relative;
+  flex: 1; min-width: 0; padding: 0 16px; position: relative;
   overflow-x: auto; scrollbar-width: none; scroll-snap-type: x proximity;
 }
 .chips { display: flex; gap: var(--g); padding-top: 6px; /* spazio per i pallini rossi */ width: max-content; }
@@ -433,7 +438,7 @@ a.inl { color: var(--blue); font-weight: 600; text-decoration: none; }
 .foot-note { color: var(--muted); font-size: 13px; margin: 16px 4px 0; }
 .empty { color: var(--muted); padding: 24px 4px; text-align: center; }
 .toast {
-  position: fixed; left: 50%; bottom: calc(env(safe-area-inset-bottom, 0px) + 20px); transform: translateX(-50%);
+  position: fixed; left: 50%; bottom: calc(env(safe-area-inset-bottom, 0px) + 80px); transform: translateX(-50%);
   background: var(--ink); color: var(--card); padding: 10px 16px; border-radius: 12px; font-size: 14px; font-weight: 600; z-index: 70;
 }
 
@@ -485,8 +490,8 @@ body.noscroll { overflow: hidden; }
 }
 @media (min-width: 700px) {
   main { padding-inline: 24px; }
-  .topbar { margin-inline: -24px; padding-right: 24px; }
-  .daystrip { padding-left: 24px; }
+  .topbar { margin-inline: -24px; }
+  .daystrip { padding-inline: 24px; }
 }
 /* nell'app installata su iPhone la sfocatura la fa già il sistema: la barra resta piena */
 .ios-app .scrolled .topbar { background: var(--bg); -webkit-backdrop-filter: none; backdrop-filter: none; }

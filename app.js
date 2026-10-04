@@ -3,7 +3,7 @@
    Per provare un'ora diversa: aggiungere ?ora=2026-11-11T10:00+09:00 all'indirizzo. */
 (function () {
   "use strict";
-  var APP_V = "11"; // uguale al numero di VERSION in sw.js
+  var APP_V = "12"; // uguale al numero di VERSION in sw.js
 
   var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", roma: "Roma" };
   var TYPE = {
@@ -376,7 +376,7 @@
         '" data-day="' + j + '" aria-pressed="' + (j === sel) + '" style="--c:' + cityVar(mainCity(j)) + '" aria-label="' + esc(dLong(x.id)) + (n ? ", " + n + " cose da sistemare" : "") + '">' +
         '<span class="w">' + WD3[d.getDay()] + '</span><span class="d">' + d.getDate() + "</span>" + (n ? '<b class="nb">' + n + "</b>" : "") + "</button>";
     });
-    return h + '</div></div><button type="button" class="sbtn" data-search="1" aria-label="Cerca">' + icon("search") + "</button></div>";
+    return h + "</div></div></div>";
   }
   function dayHead(i) {
     var d = D.days[i], ph = phase(), cd = currentDay();
@@ -405,7 +405,7 @@
     var h = topBar(i) + dayHead(i);
     if (ph === "live" && i === cd) h += nowCard();
     if (ph === "after" && i === D.days.length - 1) h += '<div class="nowcard"><span class="lab">Viaggio finito</span><span class="big">Bentornati!</span></div>';
-    if (!store("hinted")) h += '<p class="hint">' + icon("info") + "<span>Tocca una tappa per foto, dettagli e indicazioni. Scorri il dito a destra o a sinistra per cambiare giorno. Con la lente in alto cerchi qualsiasi cosa.</span></p>";
+    if (!store("hinted")) h += '<p class="hint">' + icon("info") + "<span>Tocca una tappa per foto, dettagli e indicazioni. Scorri il dito a destra o a sinistra per cambiare giorno. Con «Cerca» in basso a destra trovi qualsiasi cosa.</span></p>";
 
     h += '<div class="plan">';
     d.items.forEach(function (it, k) { if (!it.merged) h += stopHtml(i, k, it); });
@@ -417,6 +417,12 @@
     }).join("") + '<span class="lg-bad"><i></i>Da prenotare o sistemare</span></div>';
     h += '<p class="foot-note">Versione ' + APP_V + " · dati del " + esc(D.generated || "") + "</p>";
     view.innerHTML = h;
+    if (!document.getElementById("fab")) {
+      var fab = document.createElement("button");
+      fab.id = "fab"; fab.type = "button"; fab.className = "fab"; fab.setAttribute("data-search", "1"); fab.setAttribute("aria-label", "Cerca");
+      fab.innerHTML = icon("search") + "<span>Cerca</span>";
+      document.body.appendChild(fab);
+    }
     if (!keepScroll) window.scrollTo(0, 0);
     var chip = view.querySelector('.daychip[aria-pressed="true"]');
     var strip = view.querySelector(".daystrip");
