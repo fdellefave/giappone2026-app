@@ -259,6 +259,81 @@
     return p;
   }
 
+  // ---------- meteo (Open-Meteo, gratuito e senza chiave) ----------
+  // Un'unica richiesta per tutte le città: com'è adesso e le previsioni dei prossimi 16 giorni.
+  // Si aggiorna all'apertura dell'app (al massimo una volta l'ora) e ogni 3 ore se resta aperta;
+  // senza rete resta l'ultimo dato salvato, con l'ora in cui è stato preso.
+  var WX_POS = { tokyo: [35.6812, 139.7671], kawaguchiko: [35.4983, 138.769], kamakura: [35.3192, 139.5467], kyoto: [34.9858, 135.7588],
+    takayama: [36.1461, 137.2522], osaka: [34.6687, 135.5013], roma: [41.9028, 12.4964] };
+  var WX = null, wxBusy = false;
+  function wxCode(c, day) {
+    if (c === 0) return [day === 0 ? "w-moon" : "w-sun", "sereno"];
+    if (c === 1) return [day === 0 ? "w-moon" : "w-cloudsun", "poco nuvoloso"];
+    if (c === 2) return [day === 0 ? "w-cloud" : "w-cloudsun", "parzialmente nuvoloso"];
+    if (c === 3) return ["w-cloud", "coperto"];
+    if (c === 45 || c === 48) return ["w-fog", "nebbia"];
+    if (c >= 51 && c <= 57) return ["w-rain", "pioggerella"];
+    if (c === 61 || c === 80) return ["w-rain", "pioggia debole"];
+    if (c === 63 || c === 81 || c === 66) return ["w-rain", "pioggia"];
+    if (c === 65 || c === 82 || c === 67) return ["w-rain", "pioggia forte"];
+    if ((c >= 71 && c <= 77) || c === 85 || c === 86) return ["w-snow", "neve"];
+    if (c >= 95) return ["w-storm", "temporale"];
+    return ["w-cloud", ""];
+  }
+  function wxLoad(force) {
+    if (!WX) WX = store("wx");
+    var age = WX ? Date.now() - WX.t : Infinity;
+    if (wxBusy || (!force && age < 60 * 60000)) return;
+    wxBusy = true;
+    var keys = Object.keys(WX_POS);
+    var url = "https://api.open-meteo.com/v1/forecast?latitude=" + keys.map(function (k) { return WX_POS[k][0]; }).join(",") +
+      "&longitude=" + keys.map(function (k) { return WX_POS[k][1]; }).join(",") +
+      "&current=temperature_2m,weather_code,is_day&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max" +
+      "&timezone=auto&forecast_days=16";
+    fetch(url).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (j) {
+      var list = Array.isArray(j) ? j : [j], out = { t: Date.now(), c: {} };
+      keys.forEach(function (k, n) {
+        var x = list[n];
+        if (!x || !x.current) return;
+        var days = {};
+        (x.daily && x.daily.time || []).forEach(function (d, m) {
+          days[d] = [x.daily.weather_code[m], Math.round(x.daily.temperature_2m_min[m]), Math.round(x.daily.temperature_2m_max[m]), x.daily.precipitation_probability_max[m]];
+        });
+        out.c[k] = { now: [Math.round(x.current.temperature_2m), x.current.weather_code, x.current.is_day], days: days };
+      });
+      WX = out; store("wx", out); paintWx();
+    }).catch(function () {}).then(function () { wxBusy = false; });
+  }
+  function hm(ms) { var d = new Date(ms); return d.getHours() + ":" + ("0" + d.getMinutes()).slice(-2); } // ora del telefono
+  function wxHtml(i) {
+    var d = D.days[i], cities = d.route.filter(function (c, k) { return WX_POS[c] && d.route.indexOf(c) === k; });
+    if (!cities.length) return "";
+    if (!WX || !WX.c) return '<div class="wx" id="wx"><p class="wx-none">' + icon("w-cloudsun") + "Meteo non ancora disponibile: serve la rete.</p></div>";
+    var old = Date.now() - WX.t > 3 * 3600000;
+    var h = '<div class="wx" id="wx">';
+    cities.forEach(function (c) {
+      var w = WX.c[c];
+      if (!w) return;
+      var cur = wxCode(w.now[1], w.now[2]), f = w.days[d.id], fc;
+      if (f) {
+        fc = "il " + d.dm + ": " + f[1] + "–" + f[2] + "°" + (f[3] != null && f[3] >= 20 ? " · pioggia " + f[3] + "%" : "") +
+          (wxCode(f[0], 1)[1] && wxCode(f[0], 1)[1] !== cur[1] ? " · " + wxCode(f[0], 1)[1] : "");
+      } else {
+        var from = isoDate(d.id); from.setDate(from.getDate() - 15);
+        fc = "previsioni per il " + d.dm + " dal " + from.getDate() + "/" + (from.getMonth() + 1);
+      }
+      h += '<div class="wx-c" style="--c:' + cityVar(c) + '"><span class="wx-i">' + icon(cur[0]) + '</span><span class="wx-t num">' + w.now[0] + "°</span>" +
+        '<span class="wx-x"><b>' + esc(CITY[c]) + "</b> · " + (old ? "alle " + hm(WX.t) : "adesso") + " " + esc(cur[1]) + "<small>" + esc(fc) + "</small></span></div>";
+    });
+    return h + '<p class="wx-up">Meteo aggiornato alle ' + hm(WX.t) + "</p></div>";
+  }
+  function paintWx() {
+    var el = document.getElementById("wx");
+    if (!el || !D) return;
+    var tmp = document.createElement("div"); tmp.innerHTML = wxHtml(S.day);
+    if (tmp.firstChild) el.replaceWith(tmp.firstChild);
+  }
+
   // ---------- la pagina ----------
   function mainCity(i) {
     var r = D.days[i].route.filter(function (c) { return c !== "roma"; });
@@ -285,7 +360,7 @@
     }).join("") + "</h1>";
     var walk = (d.guide.camminata || "").split(" · ")[0];
     h += '<div class="facts"><span>' + icon("bed") + esc(d.sleepName) + "</span><span>" + icon("users") + esc(d.with) + "</span>" +
-      (walk ? "<span>" + icon("walk") + esc((walk.match(/^[~\d.,\s–-]+km/) || [walk])[0]) + " a piedi</span>" : "") + "</div>";
+      (walk ? "<span>" + icon("walk") + esc((walk.match(/^[~\d.,\s–-]+km/) || [walk])[0]) + " a piedi</span>" : "") + "</div>" + wxHtml(i);
     if (d.guide.senso) h += '<p class="summary">' + esc(d.guide.senso) + "</p>";
     if (ph === "live" && i !== cd) h += '<p style="margin:12px 0 0"><button type="button" class="chip-now" data-now="1">' + icon("locate") + "Vai a oggi, a dove siete adesso</button></p>";
     var n = dayCount(i);
@@ -693,7 +768,7 @@
   function scrollToId(id) {
     var el = document.getElementById(id);
     if (!el) return;
-    var top = el.getBoundingClientRect().top + window.scrollY - 92;
+    var bar = document.getElementById("topbar"), top = el.getBoundingClientRect().top + window.scrollY - (bar ? bar.offsetHeight + 12 : 92);
     window.scrollTo({ top: Math.max(0, top), behavior: "auto" });
   }
   function openStop(d, i) {
@@ -763,6 +838,7 @@
   });
   document.addEventListener("visibilitychange", function () {
     if (document.hidden) { lastHidden = Date.now(); return; }
+    wxLoad();
     if (!D || S.searching) return;
     // tornando nell'app dopo un po', si riparte da dove dovreste essere adesso
     if (Date.now() - lastHidden > 10 * 60000 && jumpToNow()) return;
@@ -787,6 +863,7 @@
   }, { passive: true });
 
   setInterval(function () {
+    if (D && !document.hidden && WX && Date.now() - WX.t > 3 * 3600000) wxLoad(true);
     if (D && !document.hidden && !S.searching && phase() === "live") {
       // aggiorna passato/adesso senza chiudere le tappe aperte
       var y = window.scrollY; render(true); window.scrollTo(0, y);
@@ -803,6 +880,7 @@
     buildTimeline();
     buildIndex();
     setTimeout(loadPhotos, 300);
+    wxLoad();
     if (jumpToNow()) return;
     var saved = store("state") || {};
     S.day = saved.day != null && saved.day < D.days.length ? saved.day : currentDay();

@@ -85,9 +85,13 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
 /* ---------- barra in alto: giorni + ricerca ----------
    In cima alla pagina è piatta, dello stesso colore dello sfondo.
    Solo scendendo prende una sfocatura leggera e una riga sottile. */
+/* --inset-top: dove inizia la zona libera. Nell'app installata su iPhone (iOS 26) il sistema sfoca
+   una fascia di ~40 px sotto la barra di stato: lì resta solo il colore dello sfondo. */
+:root { --inset-top: env(safe-area-inset-top, 0px); }
+@media (orientation: portrait) { .ios-app { --inset-top: calc(env(safe-area-inset-top, 0px) + 40px); } }
 .topbar {
   position: sticky; top: 0; z-index: 20; margin-inline: -16px;
-  padding: calc(env(safe-area-inset-top, 0px) + 4px) 12px 8px 0;
+  padding: calc(var(--inset-top) + 4px) 12px 8px 0;
   display: flex; align-items: center; gap: 8px; background: var(--bg);
   transition: background-color .25s, box-shadow .25s;
 }
@@ -161,6 +165,22 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
   min-width: 30px; height: 30px; padding: 0 8px; border-radius: 15px; background: var(--bad); color: var(--on);
   font-size: 15px; font-weight: 800; line-height: 30px; text-align: center; font-variant-numeric: tabular-nums;
 }
+
+/* meteo: una scheda per città del giorno */
+.wx { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.wx-c {
+  flex: 1 1 200px; min-width: 0; display: grid; grid-template-columns: auto auto 1fr; gap: 10px; align-items: center;
+  background: var(--card); border-radius: 14px; padding: 10px 12px; box-shadow: inset 3px 0 0 var(--c);
+}
+.wx-i { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; background: var(--card-2); color: var(--ink); }
+.wx-i .ic { width: 21px; height: 21px; }
+.wx-t { font-size: 24px; font-weight: 800; line-height: 1; }
+.wx-x { min-width: 0; font-size: 14px; line-height: 1.3; color: var(--muted); }
+.wx-x b { color: var(--ink); font-weight: 700; }
+.wx-x small { display: block; font-size: 13px; margin-top: 2px; }
+.wx-up { flex-basis: 100%; margin: 0 2px; font-size: 12px; color: var(--faint); }
+.wx-none { margin: 0; display: flex; gap: 8px; align-items: center; font-size: 14px; color: var(--muted); }
+.wx-none .ic { width: 18px; height: 18px; }
 
 /* ---------- riquadro "adesso" ---------- */
 .nowcard { margin-top: 14px; background: var(--ink); color: var(--card); border-radius: var(--r); padding: 14px 16px; display: grid; gap: 10px; }
@@ -451,3 +471,5 @@ body.noscroll { overflow: hidden; }
   .topbar { margin-inline: -24px; padding-right: 24px; }
   .daystrip { padding-left: 24px; }
 }
+/* nell'app installata su iPhone la sfocatura la fa già il sistema: la barra resta piena */
+.ios-app .scrolled .topbar { background: var(--bg); -webkit-backdrop-filter: none; backdrop-filter: none; }
