@@ -59,6 +59,7 @@ Già verificato (non riproporre):
 - Escluse Kanazawa (doppione di Kyoto) e Nara/Himeji (al loro posto la giornata nerd a Osaka il 15/11).
 - Statua del Gundam di Odaiba rimossa ad agosto 2026; Nintendo Museum (Uji) solo a lotteria; illuminazione di
   Eikan-dō dal 20/11 (dopo Kyoto); Tofuku-ji, Kuromon, Hama-rikyu, Ōkochi-Sansō e Hida-no-Sato tolti apposta.
+- Go-kart per le strade di Tokyo escluso su richiesta (niente patente internazionale).
 - Il torneo di sumo di novembre è a Fukuoka (fuori rotta). Asakusa Sumo Club (~$100) tolto su richiesta: al suo posto la serata ad Akihabara.
 - Lake Bake: bar interno chiuso, solo asporto. Omen (udon a Ginkaku-ji) chiuso il giovedì: il 12/11 non si va.
 - Super Potato di Osaka = negozio Otaroad a Nipponbashi (Den Den Town).
@@ -655,9 +656,9 @@ con: voi due
   breve: a piedi 12′
 - 17:15 hotel Check-in allo Spa Hotel Alpina | alloggio: alpina | ritiro
   breve: riprendete le valigie dal deposito
-- 18:00 sposta Kitchen Hida | via piedi: @alpina > #kitchen-hida (Hotel → Kitchen Hida)
+- 17:45 sposta Kitchen Hida | via piedi: @alpina > #kitchen-hida (Hotel → Kitchen Hida)
   breve: a piedi 12′
-- 18:15 cibo Steak House Kitchen Hida | posto: kitchen-hida | prenotare
+- 18:00 cibo Steak House Kitchen Hida | posto: kitchen-hida | prenotare
   breve: bistecca di manzo di Hida · ~¥10.000 a testa
   Tabelog 3,78: la bistecca di Hida beef più votata della città.
   orari: ultimo ordine 19:45, chiuso il mercoledì
@@ -881,7 +882,6 @@ con: voi due
 - 09:00 cibo Mercato esterno di Tsukiji | posto: tsukiji
   breve: colazione: sushi, frittata dolce, ostriche · contanti
   L'ex mercato del pesce. Tamagoyaki: frittata dolce arrotolata.
-  alternativa: go-kart per le strade (serve la patente internazionale)
 - 10:15 sposta Ginza | via piedi: #tsukiji > Ginza, Tokyo (Tsukiji → Ginza)
   breve: a piedi 12′
 - 10:30 vedere Ginza | foto: Ginza | dove: Ginza, Tokyo
@@ -937,7 +937,6 @@ mangiare:
 prenotare:
   • Shibuya Sky: biglietti il 2/11 alle 16:00 italiane, ingresso 15:40, per 2
   • Samurai Restaurant Time ore 19:00 per 2
-  • Patente internazionale (modello Ginevra 1949) solo se fate il go-kart
 attenzione:
   • Tsukiji chiude mercoledì e domenica (martedì è aperto)
   • Golden Gai: molti bar chiedono un coperto (¥500–1.000)
@@ -1296,7 +1295,7 @@ priorità: alta
 nota: In vendita 2 settimane prima alle 00:00 giapponesi: gli slot del tramonto finiscono subito.
 
 ### kitchen-hida
-tappa: 2026-11-13 18:15
+tappa: 2026-11-13 18:00
 cosa: Steak House Kitchen Hida 13/11 ore 18:00, per 2
 tipo: prenotare
 giorno: 2026-11-13
@@ -1412,14 +1411,6 @@ entro: 2026-11-04
 quando: prima della partenza
 priorità: media
 nota: Solo contanti in molti posti: Hoto Fudo, Monkey Park, Tsukiji, Golden Gai, banchi di street food.
-
-### patente
-cosa: Patente internazionale Ginevra 1949 (solo per il go-kart del 17/11)
-tipo: gestire
-entro: 2026-11-04
-quando: prima della partenza
-priorità: bassa
-nota: Cartacea, insieme alla patente italiana; il modello Vienna 1968 non vale in Giappone.
 
 ## Budget
 

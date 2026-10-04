@@ -463,6 +463,15 @@ def attach_todos(todo, days, trains):
             t["at"].append({"d": found[0], "i": found[1]})
             t["day"] = t.get("day") or date
             days[found[0]]["items"][found[1]].setdefault("todos", []).append(t["id"])
+        # controllo di coerenza: date e orari scritti nel testo devono essere quelli della tappa
+        txt = t.get("task", "")
+        dates = {f"2026-{int(mo):02d}-{int(dd):02d}" for dd, mo in re.findall(r"\b(\d{1,2})/(1[01])\b", txt)}
+        slot_dates = {x.split()[0] for x in t["slot"].split(",") if x.strip()}
+        if dates and not dates & slot_dates:
+            err(f"Da fare/{t['id']}: il testo parla del {', '.join(sorted(dates))} ma la tappa è il {', '.join(sorted(slot_dates))}")
+        for hh, mm in re.findall(r"\bore (\d{1,2})[:.](\d{2})", txt):
+            if not any(x.strip().endswith(f"{int(hh):02d}:{mm}") for x in t["slot"].split(",")):
+                err(f"Da fare/{t['id']}: il testo dice ore {hh}:{mm} ma la tappa è alle {t['slot']}")
 
 
 def main():
