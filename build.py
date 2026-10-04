@@ -183,7 +183,7 @@ def parse_todo(lines):
         out.append({"id": tid, "task": f.get("cosa", tid), "kind": f.get("tipo"), "day": iso(f.get("giorno"), where),
                     "opens": iso(f.get("apre"), where), "due": iso(f.get("entro"), where), "when": f.get("quando", ""),
                     "cost": f.get("costo", ""), "link": f.get("link"), "prio": f.get("priorità", "media"),
-                    "note": f.get("nota", "")})
+                    "note": f.get("nota", ""), "slot": f.get("tappa")})
     return out
 
 
@@ -416,6 +416,55 @@ def parse_days(lines, places, hotels, trains):
     return days
 
 
+def attach_todos(todo, days, trains):
+    """Ogni cosa da fare va sulla sua tappa (notifica nel giorno giusto).
+    Senza «tappa» va sulla prima tappa del primo giorno (la partenza)."""
+    seen_links = set()
+    for t in trains.values():
+        if t["status"] != "pagato" or not t.get("confirm") or (t.get("link") in seen_links):
+            continue
+        seen_links.add(t.get("link"))
+        cd = dt.date.fromisoformat(t["confirm"])
+        for d in days:
+            for it in d["items"]:
+                if it.get("train") == t["id"]:
+                    todo.append({"id": "klook-" + t["id"], "task": "Controllare che Klook emetta il biglietto", "kind": "gestire",
+                                 "day": d["id"], "opens": t["confirm"], "due": None, "when": f"dal {cd.day}/{cd.month}: arriva un'email col voucher",
+                                 "cost": "", "link": t.get("link"), "prio": "alta", "slot": f"{d['id']} {it['t']}",
+                                 "note": "Pagato il 7/9: Klook emette i biglietti quando apre la vendita ufficiale. "
+                                         "Se la conferma non arriva, rimborsa e il treno va ricomprato subito."})
+                    break
+    for t in todo:
+        if not t.get("slot"):
+            first = next((it for it in days[0]["items"] if not it.get("merged") and not it.get("start")), None)
+            if first:
+                t["slot"] = f"{days[0]['id']} {first['t']}"
+            else:
+                t["general"] = True
+                continue
+        t["at"] = []
+        for slot in [x.strip() for x in t["slot"].split(",") if x.strip()]:
+            try:
+                date, hm = slot.split()
+            except ValueError:
+                err(f"Da fare/{t['id']}: «tappa» deve essere AAAA-MM-GG HH:MM")
+                continue
+            found = None
+            for di, d in enumerate(days):
+                if d["id"] != date:
+                    continue
+                for ii, it in enumerate(d["items"]):
+                    if it["t"] == hm and not it.get("merged") and not it.get("start"):
+                        found = (di, ii)
+                        break
+            if not found:
+                err(f"Da fare/{t['id']}: nessuna tappa alle {hm} del {date}")
+                continue
+            t["at"].append({"d": found[0], "i": found[1]})
+            t["day"] = t.get("day") or date
+            days[found[0]]["items"][found[1]].setdefault("todos", []).append(t["id"])
+
+
 def main():
     text = SRC.read_text(encoding="utf-8")
     S = sections(text)
@@ -436,6 +485,7 @@ def main():
         if p["day"] and p["day"] not in day_dm:
             err(f"Posti/{pid}: giorno «{p['day']}» fuori dal viaggio")
     todo = parse_todo(S["Da fare"])
+    attach_todos(todo, days, trains)
     data = {
         "generated": dt.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "departure": info.get("partenza"), "rate": float(info.get("cambio", 185)),

@@ -45,16 +45,17 @@ Regole di Federico:
 - Ogni posto con link diretto (Tripadvisor, o la piattaforma più nota); link verificati, mai inventati.
 - Il sito è pubblico: mai link di conferma, numeri di prenotazione, PIN, numeri di passaporto o dati di pagamento.
 - App: poco testo a colpo d'occhio (titolo corto + dettagli a scomparsa), niente simboli giapponesi.
-  Schede: Itinerario, Attività, Ristoranti, Hotel (con le valigie), Trasporti, Info (Prenotazioni, Soldi, posti…).
   Un posto = una sola riga: lo spostamento per arrivarci sta dentro la tappa. «Indicazioni» = da dove sei a lì,
   senza mezzo preimpostato. Ogni mattina si parte dall'hotel. Deposito e ritiro valigie sempre come tappe esplicite.
-  Ricerca globale che capisce nomi scritti male.
+  Ricerca globale che capisce nomi scritti male. Una sola pagina (l'itinerario), niente schede: cosa manca da
+  prenotare o sistemare si vede come numero rosso sul giorno e sulla tappa. Ogni nome giapponese ha la sua
+  spiegazione tra parentesi direttamente nel titolo della tappa (es. «Kiyomizu-dera (tempio)»).
 
 Già verificato (non riproporre):
 - Escluse Kanazawa (doppione di Kyoto) e Nara/Himeji (al loro posto la giornata nerd a Osaka il 15/11).
 - Statua del Gundam di Odaiba rimossa ad agosto 2026; Nintendo Museum (Uji) solo a lotteria; illuminazione di
   Eikan-dō dal 20/11 (dopo Kyoto); Tofuku-ji, Kuromon, Hama-rikyu, Ōkochi-Sansō e Hida-no-Sato tolti apposta.
-- Il torneo di sumo di novembre è a Fukuoka (fuori rotta): per questo l'Asakusa Sumo Club.
+- Il torneo di sumo di novembre è a Fukuoka (fuori rotta). Asakusa Sumo Club (~$100) tolto su richiesta: al suo posto la serata ad Akihabara.
 - Lake Bake: bar interno chiuso, solo asporto. Omen (udon a Ginkaku-ji) chiuso il giovedì: il 12/11 non si va.
 - Super Potato di Osaka = negozio Otaroad a Nipponbashi (Den Den Town).
 - Shibuya Sky: biglietti 2 settimane prima alle 00:00 giapponesi. Bus Nōhi per Shirakawa-go: prenotazioni 1 mese prima.
@@ -63,11 +64,7 @@ Già verificato (non riproporre):
   Klook: pagati il 7/9, i biglietti vengono confermati quando apre la vendita ufficiale (un mese prima).
   Booking: Super Hotel già pagato; gli altri li addebita Booking sulla carta. I prezzi veri degli hotel sono in yen.
 
-Punti aperti:
-- 7/11: Tenku no Torii alle 15:30 rischia la chiusura (verso le 16). Decide il gruppo.
-- 9/11: check-out del cottage entro le 10 ma il giro Chureito–Honcho finisce lontano: proposta check-out alle 6:45.
-- 9/11: cena da SUMO (ristorante a tema) non risulta nel file del gruppo: verificare.
-- 9/11: Fuji Excursion del ritorno lo compra il gruppo il 9/10: verificare i vostri 2 posti.
+Punti aperti: sono nella sezione «Da fare», ognuno agganciato alla sua tappa (l'app li mostra come notifiche).
 - Chi ha pagato i voli e la quota del cottage non risulta dalle email: chiedere a Federico se serve nei conti.
 
 ## Info
@@ -119,7 +116,7 @@ con: voi due
   Ingresso autonomo con cassetta delle chiavi dalle 15:00.
 - 13:40 sposta Fūunji | via piedi: @airbnb-shinjuku > #fuunji (Airbnb → Fūunji)
   breve: a piedi 28′ · 2,3 km
-- 14:10 cibo Fūunji | posto: fuunji
+- 14:10 cibo Fūunji (ramen) | posto: fuunji
   breve: ramen tsukemen · chiude alle 15
   Tsukemen: spaghettoni di ramen da intingere in un brodo denso. Tabelog 3,77 (Tabelog = il Tripadvisor giapponese).
   attenzione: c'è coda e alle 15:00 chiude
@@ -127,46 +124,55 @@ con: voi due
 - 15:00 sposta Senso-ji, Asakusa | via mezzi: #fuunji > #senso-ji (Fūunji → Senso-ji)
   breve: treno + metro ~35′
   come: treno JR linea Chūō da Shinjuku a Kanda (10′), metro Ginza line fino ad Asakusa (10′)
-- 15:35 vedere Senso-ji e Nakamise | posto: senso-ji
+- 15:35 vedere Senso-ji (tempio) e Nakamise (bancarelle) | posto: senso-ji
   breve: il tempio più antico di Tokyo
   Senso-ji è il tempio buddista più antico di Tokyo; Nakamise è la via di bancarelle che porta al tempio.
   orari: sala principale fino alle 17, la zona resta aperta
 - 16:30 vedere Ponte Azuma-bashi | posto: azuma-bashi
   breve: tramonto alle 16:42 con la Skytree
   A 5′ a piedi dal tempio. La Skytree è la torre della tv, 634 m.
-- 17:00 vedere Senso-ji illuminato | posto: senso-ji
+- 17:00 vedere Senso-ji (tempio) illuminato | posto: senso-ji
   breve: vuoto e scenografico
-- 17:40 sposta Asakusa Sumo Club | via piedi: #senso-ji > #sumo-club (Senso-ji → Sumo Club)
-  breve: a piedi 10′ · 700 m
-- 18:00 fare Asakusa Sumo Club | posto: sumo-club | prenotare
-  breve: spettacolo di sumo con cena · fino alle 19:40
-  Ex lottatori professionisti: potete sfidarli sul ring. Cena a volontà con chanko-nabe (lo stufato dei lottatori).
-  costo: da ~$100 a testa
-  prenotazione: ore 18:00 per 2, sul sito del Sumo Club
-- 19:45 sposta Akihabara | via piedi: #sumo-club > #hey-akihabara (Sumo Club → Akihabara)
-  breve: a piedi 30′ · 2,5 km
-  alternativa: se siete cotti, treno Tsukuba Express 5′
-- 20:15 fare Sale giochi di Akihabara | posto: hey-akihabara
-  breve: HEY, GiGO, Taito Station
+- 17:30 sposta Super Potato, Akihabara | via mezzi: #senso-ji > #super-potato-akiba (Senso-ji → Akihabara)
+  breve: treno 5′ + a piedi 8′
+  come: 7′ a piedi alla stazione Asakusa della Tsukuba Express (treno veloce per Akihabara), treno fino ad Akihabara (5′), 5′ a piedi
+  costo: ~¥210 a testa con la Suica
   Akihabara è il quartiere di elettronica, manga e videogiochi.
-  Sale giochi: [[hey-akihabara]] (giochi retro, fino alle 23:45), [[gigo-akihabara]], [[taito-station]].
-  Distributori di gadget a capsule (gachapon) ovunque.
+- 17:50 fare Super Potato (videogiochi retro) | posto: super-potato-akiba
+  breve: 3 piani di console e cartucce + sala giochi anni '80–'90
+  Il negozio di videogiochi retro più famoso di Tokyo: Famicom (il NES giapponese), Super Nintendo, Game Boy, Sega. All'ultimo piano una piccola sala giochi d'epoca.
+  orari: chiude verso le 20
+- 18:50 sposta Radio Kaikan | via piedi: #super-potato-akiba > #radio-kaikan (Super Potato → Radio Kaikan)
+  breve: a piedi 5′
+- 18:55 fare Radio Kaikan (figure e manga) | posto: radio-kaikan
+  breve: 10 piani di negozi di figure, modellini e carte da collezione
+  Al piano terra e in tutto il quartiere ci sono i gachapon (distributori di gadget a capsule, ¥100–500).
+- 19:45 sposta Kyushu Jangara | via piedi: #radio-kaikan > #kyushu-jangara (Radio Kaikan → ramen)
+  breve: a piedi 8′
+- 20:00 cibo Kyushu Jangara (ramen) | posto: kyushu-jangara
+  breve: cena: ramen col brodo di maiale denso
+  Ramen tonkotsu (brodo di ossa di maiale, cremoso) in stile Kyushu; c'è anche la versione vegana. Niente prenotazioni.
+  orari: 11–22, ultimo ordine 21:45
+- 20:45 sposta Sale giochi di Akihabara | via piedi: #kyushu-jangara > #hey-akihabara (Ramen → sale giochi)
+  breve: a piedi 5′
+- 20:50 fare Sale giochi di Akihabara | posto: hey-akihabara
+  breve: HEY, GiGO e Taito Station, aperte fino a tardi
+  [[hey-akihabara]] (giochi retro e sparatutto, fino alle 23:45), [[gigo-akihabara]] (pupazzi da pescare con la gru, giochi musicali), [[taito-station]].
 - 22:00 sposta Testa di Godzilla, Shinjuku | via mezzi: Akihabara Station, Tokyo > #godzilla (Akihabara → Godzilla)
   breve: treno JR 18′
   come: treno JR linea Sōbu da Akihabara a Shinjuku, poi 7′ a piedi
-- 22:25 vedere Testa di Godzilla | posto: godzilla
+- 22:25 vedere Testa di Godzilla (statua gigante) | posto: godzilla
   breve: sull'Hotel Gracery, a Kabukichō
   Kabukichō è il quartiere dei locali notturni di Shinjuku.
 - 22:40 sposta Airbnb | via piedi: #godzilla > @airbnb-shinjuku (Godzilla → Airbnb)
   breve: a piedi 12′ · 1 km
 
 #### Guida
-senso: Arrivo e prima immersione: Asakusa (la Tokyo antica, col tempio Senso-ji), cena-spettacolo di sumo, sale giochi ad Akihabara (il quartiere nerd) e la testa di Godzilla. Giornata lunga per il jet lag: con calma.
+senso: Arrivo e prima immersione: Asakusa (la Tokyo antica, col tempio Senso-ji), poi serata nerd ad Akihabara (il quartiere dei videogiochi): giochi retro, figure, ramen e sale giochi. Chiusura con la testa di Godzilla. Giornata lunga per il jet lag: con calma.
 mangiare:
   • Pranzo: Fūunji, tsukemen (ramen da intingere), tra i migliori di Tokyo (Tabelog 3,77). Chiude alle 15: se siete in ritardo, Kura Sushi ad Asakusa (sushi su nastro, si ordina dal tablet)
-  • Cena: compresa nel Sumo Club (stufato dei lottatori a volontà + sushi e fritti)
+  • Cena: Kyushu Jangara ad Akihabara, ramen col brodo di maiale (11–22)
 prenotare:
-  • Asakusa Sumo Club ore 18:00 per 2
   • Messaggio all'host dell'Airbnb per lasciare le valigie alle 13:30
   • Carta Suica (tessera per metro e treni) già sul telefono
 attenzione:
@@ -175,20 +181,20 @@ attenzione:
 anticipo:
   • Kappabashi (la via dei negozi da cucina e del cibo finto in plastica), fino alle 17
   • Distributori di gadget a capsule (gachapon) ovunque ad Akihabara
-stanchi: • Dopo il sumo prendete il treno per Akihabara (5′) invece di camminare, o andate dritti a casa: Akihabara si recupera il 17/11
-camminata: ~13 km · mezzi ~2 h in tutto · pause: pranzo 45′, Sumo Club seduti 1 h 40
+stanchi: • Dopo cena saltate le sale giochi e la testa di Godzilla: treno JR per Shinjuku (18′) e a letto
+camminata: ~10 km · mezzi ~1 h 30 in tutto · pause: pranzo 45′, cena 45′
 
 ### 2026-11-07
 percorso: tokyo > kawaguchiko
 dorme: cottage-pastorale
 con: voi due + il gruppo
 - 08:30 hotel Check-out dall'Airbnb | alloggio: airbnb-shinjuku
-  breve: entro le 10 · colazione al konbini
+  breve: entro le 10 · colazione al konbini (minimarket)
   Colazione al konbini (i minimarket aperti 24 h: 7-Eleven, Lawson, FamilyMart).
 - 08:40 sposta Stazione JR di Shinjuku | via piedi: @airbnb-shinjuku > Shinjuku Station, Tokyo (Airbnb → stazione di Shinjuku)
   breve: a piedi 20′ con le valigie · al binario alle 9:15
   alternativa: taxi 7′ (~¥1.000)
-- 09:30 viaggio Fuji Excursion: Shinjuku → Kawaguchiko | foto: Fuji Excursion | treno: fuji-7 | prenotato | dove: Shinjuku Station, Tokyo
+- 09:30 viaggio Treno Fuji Excursion per Kawaguchiko (lago del Fuji) | foto: Fuji Excursion | treno: fuji-7 | prenotato | dove: Shinjuku Station, Tokyo
   breve: 9:30 → 11:28 · diretto
   Treno diretto per il Monte Fuji fino a Kawaguchiko (il paese sul lago ai piedi del Fuji).
   Alle 11:14 passa da Shimoyoshida, la stazione della pagoda Chureito.
@@ -197,7 +203,7 @@ con: voi due + il gruppo
   Armadietti a gettoni nella stazione; in alternativa l'host del cottage può portarle con la navetta.
 - 11:40 sposta Lake Bake | via taxi: Kawaguchiko Station > #lake-bake (Stazione → Lake Bake)
   breve: taxi 10′ · ~¥2.000
-- 12:00 cibo Lake Bake | posto: lake-bake
+- 12:00 cibo Lake Bake (panetteria sul lago) | posto: lake-bake
   breve: pane sul lago e picnic vista Fuji
   Panetteria sul lago (chiusa il mercoledì). Il bar interno è chiuso: pane da asporto e picnic sulla riva.
   alternativa: se il Fuji è nitido e per domani danno brutto, pagoda [[chureito]] subito (treno 15′)
@@ -211,21 +217,21 @@ con: voi due + il gruppo
   breve: navetta dell'host o taxi ~10′
   Il cottage è sulla sponda nord del lago.
 - 15:00 hotel Check-in al Cottage Pastorale | alloggio: cottage-pastorale
-- 15:30 vedere Tenku no Torii | posto: tenku-no-torii
+- 15:30 vedere Tenku no Torii (portale sul Fuji) | posto: tenku-no-torii
   breve: il portale nel cielo · chiude verso le 16
   Un torii (il portale rosso dei santuari) affacciato sul Fuji, sopra il santuario Kawaguchi Asama.
   attenzione: chiude verso le 16:00, ci sono 20–30′ di salita e nel weekend non si sale in auto: rischio di trovarlo chiuso
 - 16:30 sposta Momiji Corridor | via taxi: Kawaguchi Asama Shrine, Fujikawaguchiko > #momiji-corridor (Tenku no Torii → viale degli aceri)
   breve: bus turistico o taxi
   come: bus turistico Red Line (fino alle ~17:45) o taxi
-- 17:00 vedere Momiji Corridor | posto: momiji-corridor
+- 17:00 vedere Momiji Corridor (viale degli aceri) | posto: momiji-corridor
   breve: viale degli aceri rossi illuminato
   Festival del foliage dal 7/11: illuminato dal tramonto alle 21:00.
 - 18:45 sposta Hoto Fudo | via taxi: #momiji-corridor > #hoto-fudo (Viale degli aceri → Hoto Fudo)
   breve: taxi ~8′ o a piedi 40′
   attenzione: i taxi sono pochi
-- 19:00 cibo Hoto Fudo | posto: hoto-fudo
-  breve: cena col gruppo · solo contanti
+- 19:00 cibo Hoto Fudo (zuppa hoto) | posto: hoto-fudo
+  breve: cena col gruppo: tagliatelle in brodo con zucca · solo contanti
   Hoto: zuppa di tagliatelle larghe con zucca e verdure, il piatto tipico del Fuji.
   attenzione: chiude alle 20:00, o prima se finiscono i noodles
 
@@ -255,12 +261,12 @@ con: voi due + il gruppo
 - 08:00 fare Giro del lago in bici | foto: Lake Kawaguchi | dove: Lake Kawaguchi
   breve: col gruppo · bici tramite il cottage
   La pagoda Chureito e Honcho Street si fanno il 9/11.
-- 13:00 cibo Miura Udon | posto: miura-udon
+- 13:00 cibo Miura Udon (spaghettoni udon) | posto: miura-udon
   breve: pranzo, se passate da Fujiyoshida · solo 10–14
   Udon spessi e sodi tipici della zona (Tabelog 3,65). Chiuso il mercoledì.
 - 14:00 vedere Panorami sul Fuji | foto: Mount Fuji | dove: Oishi Park, Fujikawaguchiko
   breve: per esempio Oishi Park, sulla sponda nord
-- 16:00 fare Onsen o funivia Kachi Kachi | posto: funivia-kachi-kachi
+- 16:00 fare Onsen (bagno termale) o funivia sul lago | posto: funivia-kachi-kachi
   breve: terme con vista Fuji o funivia sul lago
   Onsen: le terme giapponesi (si entra lavati e nudi). La funivia porta a un belvedere sul lago e sul Fuji: solo se il Fuji è scoperto.
   costo: funivia andata e ritorno ¥1.000
@@ -314,7 +320,7 @@ con: voi due + il gruppo
   breve: poi alla stazione
 - 13:45 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Kawaguchiko Station
   breve: prima del treno
-- 14:09 viaggio Fuji Excursion: Kawaguchiko → Shinjuku | foto: Fuji Excursion | treno: fuji-9 | prenotare | dove: Kawaguchiko Station
+- 14:09 viaggio Treno Fuji Excursion per Shinjuku (Tokyo) | foto: Fuji Excursion | treno: fuji-9 | prenotare | dove: Kawaguchiko Station
   breve: 14:09 → 16:07 (o 15:00 → 16:59)
   Lo compra il gruppo il 9/10: verificate che prenda anche i vostri 2 posti.
 - 16:10 sposta Hotel Saibo | città: tokyo | via mezzi: Shinjuku Station, Tokyo > @saibo (Shinjuku → Hotel Saibo)
@@ -324,17 +330,17 @@ con: voi due + il gruppo
 - 16:45 hotel Check-in all'Hotel Saibo | alloggio: saibo
   breve: valigie in camera
   Ningyōchō è un quartiere tranquillo vicino a Tokyo Station.
-- 18:00 cibo Spuntino a Ningyōchō | foto: Ningyōchō | dove: Ningyocho, Tokyo
+- 18:00 cibo Spuntino a Ningyōchō (quartiere antico) | foto: Ningyōchō | dove: Ningyocho, Tokyo
   breve: quartiere di botteghe di dolci
 - 18:20 sposta teamLab Planets | via mezzi: @saibo > #teamlab (Hotel Saibo → teamLab)
   breve: metro ~35′ o taxi 20′
   come: metro Hibiya line fino a Ginza, 5′ a piedi a Ginza-itchōme, metro Yūrakuchō line fino a Toyosu, 12′ a piedi
   alternativa: taxi 20′ (~¥3.000)
-- 19:00 fare teamLab Planets | posto: teamlab | prenotato
+- 19:00 fare teamLab Planets (museo di luci digitali) | posto: teamlab | prenotato
   breve: col gruppo · ingresso 19:00–19:30
   Museo d'arte digitale: stanze di luci e specchi, si cammina nell'acqua.
   attenzione: acqua fino al ginocchio (pantaloncini in prestito gratis); armadietti piccoli (23×34×37 cm): la valigia resta in hotel
-- 21:00 cibo Cena da SUMO
+- 21:00 cibo Cena da SUMO (ristorante a tema)
   breve: ristorante a tema sumo, col gruppo
   attenzione: non risulta nel file del gruppo: da verificare
 - 22:30 sposta Hotel Saibo | via mezzi: #teamlab > @saibo (teamLab → Hotel Saibo)
@@ -376,24 +382,24 @@ con: voi due + il gruppo, la sera solo voi due
 - 08:45 sposta Hōkoku-ji | via mezzi: #kokomae > #hokoku-ji (Kōkō-mae → Hōkoku-ji)
   breve: trenino 20′ + bus 10′
   come: Enoden fino a Kamakura (20′), bus dalla fermata 4 fino a Jōmyōji (10′)
-- 09:30 vedere Hōkoku-ji | posto: hokoku-ji
+- 09:30 vedere Hōkoku-ji (tempio del bambù) | posto: hokoku-ji
   breve: il tempio col boschetto di bambù
   costo: ¥400, tè matcha nel bambù a parte
   attenzione: può chiudere se piove
 - 10:30 sposta Komachi-dōri | via piedi: #hokoku-ji > #komachi-dori (Hōkoku-ji → Komachi-dōri)
   breve: a piedi 25′ · 2 km
-- 11:00 cibo Komachi-dōri | posto: komachi-dori
+- 11:00 cibo Komachi-dōri (via dello street food) | posto: komachi-dori
   breve: street food e shopping · pranzo verso le 12:30
   La via dello street food di Kamakura: si mangia fermi davanti al banco.
 - 13:30 sposta Grande Buddha | via mezzi: Kamakura Station > #grande-buddha (Komachi-dōri → Grande Buddha)
   breve: trenino 5′ + a piedi 7′
   come: Enoden da Kamakura a Hase, poi 7′ a piedi
-- 13:45 vedere Grande Buddha di Kōtoku-in | posto: grande-buddha
+- 13:45 vedere Grande Buddha di Kōtoku-in (tempio) | posto: grande-buddha
   breve: statua di bronzo di 13 m all'aperto
   costo: ¥300
 - 14:20 sposta Hase-dera | via piedi: #grande-buddha > #hase-dera (Grande Buddha → Hase-dera)
   breve: a piedi 8′ · 600 m
-- 14:30 vedere Hase-dera | posto: hase-dera
+- 14:30 vedere Hase-dera (tempio sul mare) | posto: hase-dera
   breve: tempio con terrazza sul mare · chiude alle 16:30
 - 16:15 sposta Spiaggia di Koshigoe | via mezzi: #hase-dera > Koshigoe Beach, Kamakura (Hase-dera → Koshigoe)
   breve: trenino 10′
@@ -406,10 +412,10 @@ con: voi due + il gruppo, la sera solo voi due
   breve: poi taxi per Tokyo Station
 - 18:45 sposta Gransta, Tokyo Station | via taxi: @saibo > #gransta (Hotel Saibo → Tokyo Station)
   breve: taxi 10′ (a piedi 25′)
-- 19:00 cibo Ekiben da Gransta | posto: gransta
+- 19:00 cibo Ekiben (cestino da treno) da Gransta | posto: gransta
   breve: la cena da mangiare in treno
   Ekiben: il cestino-pranzo da treno. A Gransta, dentro la stazione, ce ne sono oltre 150 tipi.
-- 20:09 viaggio Shinkansen Tokyo → Kyoto | foto: Tōkaidō Shinkansen | treno: shink-10 | prenotato
+- 20:09 viaggio Shinkansen (treno superveloce) Tokyo → Kyoto | foto: Tōkaidō Shinkansen | treno: shink-10 | prenotato
   breve: 20:09 → 22:21 · Nozomi 287
   Lo Shinkansen è il treno superveloce. Cena a bordo con l'ekiben.
   attenzione: valigia oltre 160 cm (somma dei lati): serve il posto con spazio bagagli, verificate il biglietto
@@ -418,7 +424,7 @@ con: voi due + il gruppo, la sera solo voi due
 - 22:30 hotel Check-in all'APA Hotel Kyoto | alloggio: apa-kyoto
   breve: 3 notti
   Saluti agli amici: volano il 12.
-- 22:40 cibo Honke Daiichi Asahi | posto: daiichi-asahi | via piedi: @apa-kyoto > #daiichi-asahi (APA Hotel → ramen Daiichi Asahi)
+- 22:40 cibo Honke Daiichi Asahi (ramen) | posto: daiichi-asahi | via piedi: @apa-kyoto > #daiichi-asahi (APA Hotel → ramen Daiichi Asahi)
   breve: ramen se avete fame · a piedi 13′, fino all'1:00
   Tabelog 3,74. Chiuso il giovedì.
 
@@ -448,7 +454,7 @@ con: voi due
 - 06:50 sposta Fushimi Inari | via mezzi: @apa-kyoto > #fushimi-inari (Hotel → Fushimi Inari)
   breve: a piedi 7′ + treno 5′
   come: a piedi alla stazione di Kyoto (7′), treno JR Nara line fino a Inari (5′)
-- 07:15 vedere Fushimi Inari Taisha | posto: fushimi-inari
+- 07:15 vedere Fushimi Inari (santuario dei portali rossi) | posto: fushimi-inari
   breve: i 10.000 portali rossi · fino alle 9:30
   Santuario coi portali rossi in fila sulla collina: all'alba è vuoto. Salite fino al bivio di Yotsutsuji (~45′, vista sulla città) e tornate giù (~4 km in tutto).
   La cima aggiunge un'ora di gradini senza un panorama migliore.
@@ -459,15 +465,15 @@ con: voi due
 - 11:00 sposta Higashiyama | via mezzi: #fushimi-inari > Gojozaka, Higashiyama, Kyoto (Fushimi Inari → Higashiyama)
   breve: treno 10′ + a piedi 15′
   come: treno Keihan (linea locale) da Fushimi-Inari a Kiyomizu-Gojō (10′), poi 15′ a piedi (1,2 km)
-- 11:45 cibo Pranzo a Higashiyama | dove: Gojozaka, Higashiyama, Kyoto
+- 11:45 cibo Pranzo a Higashiyama (quartiere storico) | dove: Gojozaka, Higashiyama, Kyoto
   breve: tra Gojō-zaka e Matsubara-dōri
   Higashiyama è il quartiere storico a est.
 - 12:45 sposta Kiyomizu-dera | via piedi: Gojozaka, Higashiyama, Kyoto > #kiyomizu-dera (Pranzo → Kiyomizu-dera)
   breve: a piedi 10′ in salita
-- 13:00 vedere Kiyomizu-dera | posto: kiyomizu-dera
+- 13:00 vedere Kiyomizu-dera (tempio) | posto: kiyomizu-dera
   breve: tempio di legno su palafitte
   La terrazza di legno guarda tutta la città.
-- 14:15 vedere Sannenzaka e Ninenzaka | posto: sannenzaka
+- 14:15 vedere Sannenzaka e Ninenzaka (vicoli antichi) | posto: sannenzaka
   breve: vicoli antichi · pausa tè alle 15:30
   Vicoli in salita con case di legno e negozietti.
 - 16:15 sposta Pagoda di Yasaka | via piedi: Ninenzaka, Kyoto > #pagoda-yasaka (Ninenzaka → pagoda di Yasaka)
@@ -477,20 +483,20 @@ con: voi due
   La foto classica di Kyoto, dalla salita di Yasaka-dōri.
 - 17:00 sposta Hanami-kōji | via piedi: #pagoda-yasaka > #hanami-koji (Pagoda → Hanami-kōji)
   breve: a piedi 10′
-- 17:10 vedere Gion e Hanami-kōji | posto: hanami-koji
+- 17:10 vedere Gion (quartiere delle geisha) e Hanami-kōji | posto: hanami-koji
   breve: la via delle geisha, lanterne accese
   attenzione: niente foto alle geisha da vicino e niente vicoli privati (multe)
-- 18:00 fare Gion Corner | posto: gion-corner | prenotare
+- 18:00 fare Gion Corner (spettacolo di arti tradizionali) | posto: gion-corner | prenotare
   breve: 1 h di arti tradizionali
   Assaggi di danza delle maiko (apprendiste geisha), teatro comico e marionette.
   costo: ~¥5.500 a testa
   prenotazione: ore 18:00 per 2, biglietti non rimborsabili
 - 19:00 sposta Pontochō | via piedi: #gion-corner > #pontocho (Gion Corner → Pontochō)
   breve: a piedi 15′
-- 19:15 cibo Izakaya a Pontochō | posto: pontocho
+- 19:15 cibo Izakaya (osteria) a Pontochō | posto: pontocho
   breve: cena nel vicolo dei ristoranti sul fiume
   Izakaya: osteria giapponese, piattini da condividere e birra.
-- 20:45 fare Bar di Kiyamachi-dōri | posto: kiyamachi
+- 20:45 fare Bar lungo il canale (Kiyamachi-dōri) | posto: kiyamachi
   breve: bar e osterie lungo il canale
   Bar in piedi e birra artigianale, fino a mezzanotte.
   alternativa: [[kodai-ji]] illuminato (17–22, ¥800)
@@ -528,20 +534,20 @@ con: voi due
   alternativa: [[tenryu-ji]] (giardino zen con laghetto), apre alle 8:30
 - 08:30 sposta Monkey Park | via piedi: #bambu-arashiyama > #monkey-park (Bambù → Monkey Park)
   breve: a piedi 15′, dal ponte Togetsukyō
-- 09:00 vedere Monkey Park Iwatayama | posto: monkey-park
+- 09:00 vedere Monkey Park (parco delle scimmie) | posto: monkey-park
   breve: scimmie libere e vista su Kyoto
   20–30′ di salita.
   costo: ¥800, solo contanti
 - 10:00 sposta Ryōan-ji | via mezzi: Arashiyama Station Randen, Kyoto > #ryoan-ji (Monkey Park → Ryōan-ji)
   breve: tram storico ~30′
   come: 10′ a piedi alla stazione del Randen (il tram storico di Kyoto) di Arashiyama, cambio a Katabiranotsuji, fino a Ryōanji (~30′), 7′ a piedi
-- 10:50 vedere Ryōan-ji | posto: ryoan-ji
+- 10:50 vedere Ryōan-ji (tempio del giardino zen) | posto: ryoan-ji
   breve: il giardino zen delle 15 rocce · 30–40′
   costo: ¥600
 - 11:30 sposta Kinkaku-ji | via piedi: #ryoan-ji > #kinkaku-ji (Ryōan-ji → Kinkaku-ji)
   breve: a piedi 20′ · 1,5 km
-- 12:00 vedere Kinkaku-ji | posto: kinkaku-ji
-  breve: il Padiglione d'Oro · 40′
+- 12:00 vedere Kinkaku-ji (Padiglione d'Oro) | posto: kinkaku-ji
+  breve: tempio d'oro sul laghetto · 40′
   Tempio ricoperto di foglia d'oro su un laghetto.
   costo: ¥500
 - 12:45 sposta Ginkakuji-michi | via taxi: #kinkaku-ji > Ginkakuji-michi, Kyoto (Kinkaku-ji → Ginkakuji-michi)
@@ -550,21 +556,21 @@ con: voi due
 - 13:15 cibo Pranzo in Ginkakuji-michi | dove: Ginkakuji-michi, Kyoto
   breve: la via davanti al Padiglione d'Argento
   Omen (udon famosi) oggi è chiuso: è giovedì.
-- 14:15 vedere Ginkaku-ji | posto: ginkaku-ji
-  breve: il Padiglione d'Argento · 45′
+- 14:15 vedere Ginkaku-ji (Padiglione d'Argento) | posto: ginkaku-ji
+  breve: tempio con giardino di sabbia e muschio · 45′
   Giardino di sabbia e muschio.
   costo: ¥500
 - 15:00 vedere Sentiero del Filosofo | posto: sentiero-filosofo | via piedi: #ginkaku-ji > #nanzen-ji (Ginkaku-ji → Nanzen-ji)
   breve: 2 km lungo un canale alberato · ~35′
   Si passa da [[honen-in]] (tempietto nel bosco, gratis).
   alternativa: [[eikan-do]] (il tempio degli aceri), ultimo ingresso alle 16
-- 15:50 vedere Nanzen-ji | posto: nanzen-ji
+- 15:50 vedere Nanzen-ji (tempio zen) | posto: nanzen-ji
   breve: grande tempio zen con acquedotto dell'800
   orari: ultimo ingresso 16:40
 - 16:35 sposta Keage Incline | via piedi: #nanzen-ji > #keage-incline (Nanzen-ji → Keage Incline)
   breve: a piedi 8′
-- 16:45 vedere Keage Incline | posto: keage-incline
-  breve: vecchi binari tra gli alberi · tramonto 16:55
+- 16:45 vedere Keage Incline (vecchi binari tra gli alberi) | posto: keage-incline
+  breve: al tramonto, 16:55
 - 17:15 sposta Mercato di Nishiki | via mezzi: Keage Station, Kyoto > #nishiki (Keage → Nishiki)
   breve: metro 8′ + a piedi 8′
   come: metro Tōzai line da Keage a Kyoto Shiyakusho-mae (il municipio), 8′ a piedi
@@ -610,7 +616,7 @@ con: voi due
   breve: colazione e spuntino in stazione
 - 07:50 sposta Stazione di Kyoto | via piedi: @apa-kyoto > Kyoto Station (Hotel → stazione di Kyoto)
   breve: a piedi 7′ con le valigie · binario 0 alle 8:15
-- 08:31 viaggio Treno Hida 25: Kyoto → Takayama | foto: Hida (train) | treno: hida-13 | prenotato | dove: Kyoto Station
+- 08:31 viaggio Treno Hida (espresso di montagna) Kyoto → Takayama | foto: Hida (train) | treno: hida-13 | prenotato | dove: Kyoto Station
   breve: 8:31 → 12:14 · diretto
   Takayama è una cittadina antica di legno tra le montagne. Zero cambi con le valigie.
   binario: 0 a Kyoto
@@ -622,19 +628,19 @@ con: voi due
   Hotel moderno con onsen (le terme) sul tetto.
 - 12:30 sposta Kotte Ushi | via piedi: @alpina > #kotte-ushi (Hotel → Kotte Ushi)
   breve: a piedi 12′
-- 12:45 cibo Kotte Ushi | posto: kotte-ushi
+- 12:45 cibo Kotte Ushi (sushi di manzo) | posto: kotte-ushi
   breve: sushi di Hida beef, pranzo veloce
   Hida beef: il manzo pregiato locale, scottato e servito su riso. Chiuso il martedì.
 - 13:25 sposta Takayama Jinya | via piedi: #kotte-ushi > #jinya (Kotte Ushi → Jinya)
   breve: a piedi 5′
-- 13:30 vedere Takayama Jinya | posto: jinya
+- 13:30 vedere Takayama Jinya (palazzo del governatore) | posto: jinya
   breve: l'antico palazzo del governatore · 45′
   orari: 8:45–16:30
   costo: ¥440
 - 14:25 sposta Sanmachi-suji | via piedi: #jinya > #sanmachi (Jinya → Sanmachi)
   breve: a piedi 5′
-- 14:30 vedere Sanmachi e le distillerie di sakè | posto: sanmachi
-  breve: case di legno antiche + assaggi di sakè
+- 14:30 vedere Sanmachi (vie antiche) e distillerie di sakè | posto: sanmachi
+  breve: case di legno + assaggi di sakè (vino di riso)
   Le 3 vie di case di legno di epoca Edo (1603–1868).
   Distillerie: [[sake-harada]] (~¥450 con bicchierino ricordo), [[sake-hirase]] (~¥1.000 per oltre 20 sakè), [[sake-funasaka]] (assaggi self-service).
   attenzione: niente profumo forte prima delle distillerie (rovina il sakè)
@@ -648,13 +654,13 @@ con: voi due
 - 18:00 sposta Kitchen Hida | via piedi: @alpina > #kitchen-hida (Hotel → Kitchen Hida)
   breve: a piedi 12′
 - 18:15 cibo Steak House Kitchen Hida | posto: kitchen-hida | prenotare
-  breve: bistecca di Hida beef · ~¥10.000 a testa
+  breve: bistecca di manzo di Hida · ~¥10.000 a testa
   Tabelog 3,78: la bistecca di Hida beef più votata della città.
   orari: ultimo ordine 19:45, chiuso il mercoledì
   prenotazione: ore 18:00 per 2, online
 - 20:00 sposta Hotel | via piedi: #kitchen-hida > @alpina (Kitchen Hida → hotel)
   breve: a piedi 12′
-- 20:15 fare Onsen sul tetto | foto: Onsen | alloggio: alpina
+- 20:15 fare Onsen sul tetto (bagno termale) | foto: Onsen | alloggio: alpina
   breve: terme panoramiche dell'hotel, fino all'1:00
   attenzione: con tatuaggi visibili l'ingresso può essere negato
 
@@ -699,8 +705,8 @@ con: voi due
   Andateci per primo: luce bassa e pochi gruppi.
 - 09:50 sposta Villaggio di Shirakawa-go | via piedi: #belvedere-shiroyama > #shirakawa-go (Belvedere → villaggio)
   breve: a piedi 15′ in discesa
-- 10:00 vedere Shirakawa-go | posto: shirakawa-go
-  breve: il villaggio dei tetti di paglia (UNESCO)
+- 10:00 vedere Shirakawa-go (villaggio dei tetti di paglia) | posto: shirakawa-go
+  breve: patrimonio UNESCO
   Case gasshō, coi tetti di paglia a punta («mani giunte»). Entrate in [[casa-wada]], l'unica grande casa visitabile.
   attenzione: restate sui sentieri: risaie e case private sono protette. Il sabato è il giorno più affollato
 - 12:15 cibo Pranzo a Shirakawa-go | foto: Shirakawa-gō | dove: Shirakawa-go Ogimachi
@@ -713,8 +719,8 @@ con: voi due
   alternativa: passeggiata tra i templi di Higashiyama, a est del centro
 - 17:45 sposta Kyōya | via piedi: @alpina > #kyoya (Hotel → Kyōya)
   breve: a piedi 15′
-- 18:00 cibo Kyōya | posto: kyoya | prenotare
-  breve: cucina di montagna in una casa antica
+- 18:00 cibo Kyōya (cucina di montagna) | posto: kyoya | prenotare
+  breve: in una casa antica · manzo e miso alla brace
   Hoba miso (miso cotto su una foglia sul braciere) e Hida beef. Tabelog 3,33.
   orari: 17–20, chiuso il martedì
   prenotazione: ore 18:00 per 2, per telefono o tramite l'hotel
@@ -745,9 +751,9 @@ dorme: hillarys
 con: voi due
 - 07:40 hotel Check-out dall'Alpina | alloggio: alpina | via piedi: @alpina > Takayama Station (Hotel → stazione di Takayama)
   breve: colazione veloce · 3′ a piedi alla stazione
-- 08:00 viaggio Treno Hida: Takayama → Nagoya | foto: Hida (train) | treno: hida-15 | prenotato
+- 08:00 viaggio Treno Hida (espresso) Takayama → Nagoya | foto: Hida (train) | treno: hida-15 | prenotato
   breve: 8:00 → 10:34 · Hida 4
-- 10:58 viaggio Shinkansen Nagoya → Shin-Osaka | foto: Tōkaidō Shinkansen | treno: shink-15 | prenotato
+- 10:58 viaggio Shinkansen (treno superveloce) Nagoya → Osaka | foto: Tōkaidō Shinkansen | treno: shink-15 | prenotato
   breve: 10:58 → 11:48 · Nozomi 247 · cambio di 24′
   Shin-Osaka è la stazione dello Shinkansen di Osaka, diversa dalla stazione centrale.
 - 12:00 sposta Hotel Hillarys | città: osaka | via mezzi: Shin-Osaka Station > @hillarys (Shin-Osaka → Hotel Hillarys)
@@ -762,12 +768,12 @@ con: voi due
   Dōtonbori è il canale coi neon giganti, il cuore di Osaka.
 - 13:30 sposta Den Den Town | via piedi: #dotonbori > #den-den-town (Dōtonbori → Den Den Town)
   breve: a piedi 15′
-- 13:45 fare Den Den Town | posto: den-den-town
-  breve: il quartiere nerd di Osaka
+- 13:45 fare Den Den Town (quartiere nerd) | posto: den-den-town
+  breve: videogiochi retro, manga e figure
   L'Akihabara di Osaka: [[super-potato]] (videogiochi retro, weekend 10–20), [[mandarake]] (manga, figure e giochi usati, 12–20), Animate (negozio di anime), sale giochi.
 - 15:15 sposta Shinsekai | via piedi: #den-den-town > #shinsekai (Den Den Town → Shinsekai)
   breve: a piedi 12′
-- 15:30 vedere Shinsekai | posto: shinsekai
+- 15:30 vedere Shinsekai (quartiere retrò) | posto: shinsekai
   breve: quartiere retrò anni '50 · torre al tramonto (16:55)
   [[tsutenkaku]] al tramonto (¥1.000) e sale giochi d'epoca.
   Assaggio di kushikatsu (spiedini fritti) da [[daruma]], solo contanti.
@@ -779,13 +785,13 @@ con: voi due
   breve: riprendete le valigie dal deposito
 - 18:00 sposta Fukutaro | via piedi: @hillarys > #fukutaro (Hotel → Fukutaro)
   breve: a piedi 12′
-- 18:15 cibo Fukutaro | posto: fukutaro
-  breve: okonomiyaki · niente prenotazioni, c'è coda
+- 18:15 cibo Fukutaro (okonomiyaki) | posto: fukutaro
+  breve: la frittata-pizza di Osaka · niente prenotazioni, c'è coda
   Okonomiyaki: la frittata-pizza di Osaka cotta sulla piastra; negiyaki: la versione al cipollotto. Tabelog 3,72, il più votato di Namba.
 - 19:30 vedere Dōtonbori di notte | posto: hozenji-yokocho | via piedi: #fukutaro > #hozenji-yokocho (Fukutaro → Hōzenji Yokochō)
-  breve: neon, insegna Glico e Hōzenji Yokochō
+  breve: neon, insegna Glico e il vicolo delle lanterne
   Hōzenji Yokochō: vicolo lastricato di lanterne con una statua coperta di muschio, a 3′ a piedi.
-- 21:00 fare Round1 o Ura-Namba | posto: round1 | via piedi: #hozenji-yokocho > #round1 (Hōzenji → Round1)
+- 21:00 fare Round1 (centro giochi) o bar di Ura-Namba | posto: round1 | via piedi: #hozenji-yokocho > #round1 (Hōzenji → Round1)
   breve: centro giochi enorme o vicoli di bar
   Round1 Sennichimae: sale giochi fino alle 0:50, bowling, karaoke. In alternativa [[ura-namba]]: vicoli di bar e osterie economiche.
 - 23:30 sposta Hotel | via piedi: #round1 > @hillarys (Round1 → hotel)
@@ -836,7 +842,7 @@ con: voi due
   breve: treno ~30′ con 2 cambi
   come: treno JR da Universal City, cambi a Nishikujō e Osaka
   Comprate un ekiben (cestino da treno) per la cena.
-- 20:00 viaggio Shinkansen Shin-Osaka → Tokyo | foto: Tōkaidō Shinkansen | treno: shink-16 | prenotato | dove: Shin-Osaka Station
+- 20:00 viaggio Shinkansen (treno superveloce) Osaka → Tokyo | foto: Tōkaidō Shinkansen | treno: shink-16 | prenotato | dove: Shin-Osaka Station
   breve: 20:00 → 22:24 · Nozomi 280
   Ultimo treno utile alle 21:24.
 - 22:30 sposta Super Hotel Hamamatsuchō | città: tokyo | via mezzi: Tokyo Station > @super-hotel (Tokyo Station → Super Hotel)
@@ -869,7 +875,7 @@ con: voi due
   breve: a piedi 30′ o metro 5′
   come: a piedi 2,5 km, oppure metro Ōedo da Daimon a Tsukijishijō
 - 09:00 cibo Mercato esterno di Tsukiji | posto: tsukiji
-  breve: colazione: sushi, tamagoyaki, ostriche · contanti
+  breve: colazione: sushi, frittata dolce, ostriche · contanti
   L'ex mercato del pesce. Tamagoyaki: frittata dolce arrotolata.
   alternativa: go-kart per le strade (serve la patente internazionale)
 - 10:15 sposta Ginza | via piedi: #tsukiji > Ginza, Tokyo (Tsukiji → Ginza)
@@ -878,20 +884,20 @@ con: voi due
   breve: vetrine e grandi magazzini
   Il quartiere elegante dei grandi magazzini.
   alternativa: [[kabuki-za]], un solo atto di teatro kabuki (~1 h, sottotitoli in inglese)
-- 12:00 cibo Depachika di Ginza Mitsukoshi | posto: depachika-ginza
+- 12:00 cibo Depachika (food hall) di Ginza Mitsukoshi | posto: depachika-ginza
   breve: pranzo nella food hall
   Depachika: i piani interrati dei grandi magazzini, enormi food hall di piatti pronti.
 - 13:00 sposta Harajuku | via mezzi: #depachika-ginza > #takeshita-dori (Ginza → Harajuku)
   breve: metro 15′ + a piedi 10′
   come: metro Ginza line da Ginza a Omotesandō
-- 13:30 vedere Harajuku | posto: takeshita-dori
-  breve: Takeshita-dōri e santuario Meiji
+- 13:30 vedere Harajuku (quartiere della moda giovane) | posto: takeshita-dori
+  breve: via Takeshita e santuario Meiji nel bosco
   Takeshita-dōri: moda kawaii, crêpe e purikura (cabine per foto-adesivi). Poi [[meiji-jingu]], il grande santuario nel bosco (40′).
 - 15:00 sposta Shibuya Sky | via piedi: #meiji-jingu > #shibuya-sky (Harajuku → Shibuya Sky)
   breve: a piedi 20′ da Cat Street
   [[cat-street]]: via pedonale di negozi streetwear.
-- 15:40 vedere Shibuya Sky | posto: shibuya-sky | prenotare
-  breve: terrazza sul grattacielo · tramonto 16:30
+- 15:40 vedere Shibuya Sky (terrazza panoramica) | posto: shibuya-sky | prenotare
+  breve: sul tetto di un grattacielo · tramonto 16:30
   prenotazione: biglietti dal 2/11 alle 16:00 italiane, ingresso 15:40, per 2
 - 17:00 fare Shibuya PARCO | posto: shibuya-parco
   breve: 6° piano: Nintendo, Pokémon, Capcom, Jump
@@ -899,7 +905,7 @@ con: voi due
 - 18:00 sposta Omoide Yokochō | via mezzi: Shibuya Station, Tokyo > #omoide-yokocho (Shibuya → Omoide Yokochō)
   breve: treno 7′ + a piedi 3′
   come: treno JR Yamanote (la linea circolare di Tokyo) da Shibuya a Shinjuku
-- 18:15 cibo Omoide Yokochō | posto: omoide-yokocho
+- 18:15 cibo Omoide Yokochō (vicolo degli spiedini) | posto: omoide-yokocho
   breve: cena veloce: spiedini alla brace
   Vicolo di chioschi fumosi.
 - 18:50 sposta Samurai Restaurant | via piedi: #omoide-yokocho > #samurai-restaurant (Omoide Yokochō → Samurai Restaurant)
@@ -909,7 +915,7 @@ con: voi due
   Show kitsch con tamburi taiko, samurai, ninja e carri al neon a Kabukichō (nell'ex Robot Restaurant).
   costo: da ¥8.000 con 2 drink
   prenotazione: ore 19:00 per 2
-- 21:10 fare Golden Gai | posto: golden-gai | via piedi: #samurai-restaurant > #golden-gai (Samurai → Golden Gai)
+- 21:10 fare Golden Gai (vicoli di micro-bar) | posto: golden-gai | via piedi: #samurai-restaurant > #golden-gai (Samurai → Golden Gai)
   breve: micro-bar per l'ultimo giro
   6 vicoli con oltre 200 bar da 5–10 posti, a 5′ a piedi. Passate dalla [[godzilla]].
   costo: molti bar chiedono un coperto (¥500–1.000)
@@ -944,7 +950,7 @@ dorme: volo
 con: voi due
 - 07:20 sposta Zōjō-ji | via piedi: @super-hotel > #zojo-ji (Hotel → Zōjō-ji)
   breve: a piedi 8′
-- 07:30 vedere Zōjō-ji e Tokyo Tower | posto: zojo-ji
+- 07:30 vedere Zōjō-ji (tempio) e Tokyo Tower | posto: zojo-ji
   breve: la foto classica, gratis
 - 08:15 cibo Colazione in hotel | alloggio: super-hotel
   breve: e ultimi acquisti
@@ -953,7 +959,7 @@ con: voi due
 - 09:45 sposta Aeroporto di Haneda | via mezzi: @super-hotel > Haneda Airport Terminal 3 (Hotel → aeroporto Haneda)
   breve: monorotaia ~15′ · ~¥500
   come: Tokyo Monorail da Hamamatsuchō al Terminal 3
-- 10:15 viaggio Tax-free e check-in | dove: Haneda Airport Terminal 3
+- 10:15 viaggio Rimborso tax-free e check-in | dove: Haneda Airport Terminal 3
   breve: check-in ITA entro le 12:20
   attenzione: il rimborso tax-free (l'IVA sugli acquisti) si fa al terminale apposito PRIMA di imbarcare le valigie
 - 13:20 viaggio Volo AZ793 Tokyo → Roma | foto: ITA Airways | prenotato
@@ -1234,19 +1240,13 @@ nota: Check-in in aeroporto entro le 12:20.
 
 ## Da fare
 
-Campi: `cosa`, `tipo` (prenotare / gestire), `giorno` (data dell'evento), `apre` e `entro` (date), `quando` (testo),
-`costo`, `link`, `priorità` (alta / media / bassa), `nota`.
-
-### klook
-cosa: Controllare che Klook confermi i treni
-tipo: gestire
-apre: 2026-10-07
-entro: 2026-10-16
-quando: 7/10 Fuji · 10/10 Kyoto · 13/10 Takayama · 15/10 Osaka · 16/10 Tokyo
-priorità: alta
-nota: I biglietti sono pagati ma Klook li emette solo quando apre la vendita ufficiale (un mese prima). Arriva un'email col voucher: se una conferma non arriva, Klook rimborsa e il treno va ricomprato subito.
+Campi: `tappa` (AAAA-MM-GG HH:MM della tappa a cui si riferisce, anche più di una separate da virgola: l'app mette lì la notifica), `cosa`, `tipo`
+(prenotare / gestire), `giorno`, `apre` e `entro` (date), `quando` (testo), `costo`, `link`, `priorità`, `nota`.
+Senza `tappa` la cosa finisce sulla prima tappa del primo giorno (la partenza). I controlli dei biglietti Klook
+li genera build.py dai treni con `conferma`.
 
 ### fuji-9
+tappa: 2026-11-09 14:09
 cosa: Fuji Excursion 9/11 Kawaguchiko → Shinjuku, per 2
 tipo: prenotare
 giorno: 2026-11-09
@@ -1257,6 +1257,7 @@ priorità: alta
 nota: Verificare che prendano anche i vostri due posti (corse 14:09 → 16:07 o 15:00 → 16:59, solo posti prenotati).
 
 ### usj
+tappa: 2026-11-16 08:00
 cosa: Universal Studios Japan + Express Pass, per 2
 tipo: prenotare
 giorno: 2026-11-16
@@ -1267,6 +1268,7 @@ priorità: alta
 nota: Serve l'Area Timed Entry o un Express Pass che include Super Nintendo World, altrimenti nell'area Nintendo non si entra. Orari del 16/11 sul sito ufficiale.
 
 ### bus-nohi
+tappa: 2026-11-14 08:10, 2026-11-14 13:30
 cosa: Bus Nōhi Takayama ⇄ Shirakawa-go 14/11, per 2
 tipo: prenotare
 giorno: 2026-11-14
@@ -1278,6 +1280,7 @@ priorità: alta
 nota: Andata 8:10 → 9:00 e ritorno su una corsa tra 13:30 e 14:30: due prenotazioni di sola andata.
 
 ### shibuya-sky
+tappa: 2026-11-17 15:40
 cosa: Shibuya Sky 17/11, ingresso 15:40, per 2
 tipo: prenotare
 giorno: 2026-11-17
@@ -1288,18 +1291,8 @@ link: https://www.shibuya-scramble-square.com/sky/ticket/
 priorità: alta
 nota: In vendita 2 settimane prima alle 00:00 giapponesi: gli slot del tramonto finiscono subito.
 
-### sumo-club
-cosa: Asakusa Sumo Club 6/11 ore 18:00, per 2
-tipo: prenotare
-giorno: 2026-11-06
-entro: 2026-10-16
-quando: 2–3 settimane prima
-costo: da ~$100 a testa
-link: https://asakusa-sumo.com/reserve/
-priorità: media
-nota: ~100 minuti con cena; lo slot delle 18 si riempie per primo.
-
 ### kitchen-hida
+tappa: 2026-11-13 18:15
 cosa: Steak House Kitchen Hida 13/11 ore 18:00, per 2
 tipo: prenotare
 giorno: 2026-11-13
@@ -1310,6 +1303,7 @@ priorità: media
 nota: Ultimo ordine 19:45, chiuso il mercoledì.
 
 ### kyoya
+tappa: 2026-11-14 18:00
 cosa: Kyōya 14/11 ore 18:00, per 2
 tipo: prenotare
 giorno: 2026-11-14
@@ -1318,6 +1312,7 @@ priorità: media
 nota: Aperto 17:00–20:00, chiuso il martedì.
 
 ### gion-corner
+tappa: 2026-11-11 18:00
 cosa: Gion Corner 11/11 ore 18:00, per 2
 tipo: prenotare
 giorno: 2026-11-11
@@ -1328,6 +1323,7 @@ priorità: media
 nota: 1 h di arti tradizionali.
 
 ### samurai
+tappa: 2026-11-17 19:00
 cosa: Samurai Restaurant Time 17/11 ore 19:00, per 2
 tipo: prenotare
 giorno: 2026-11-17
@@ -1339,6 +1335,7 @@ priorità: media
 nota: Show di 2 h a Kabukichō.
 
 ### airbnb
+tappa: 2026-11-06 13:30
 cosa: Airbnb: chiedere all'host il deposito valigie alle 13:30 del 6/11
 tipo: gestire
 giorno: 2026-11-06
@@ -1348,6 +1345,7 @@ priorità: media
 nota: L'annuncio offre il deposito; il check-in è dalle 15:00. Il 15/10 Airbnb addebita €80,56.
 
 ### saibo
+tappa: 2026-11-10 06:32
 cosa: Hotel Saibo: avvisare che lasciate le valigie dalle 6:30 alle 18:40 del 10/11
 tipo: gestire
 giorno: 2026-11-10
@@ -1364,6 +1362,27 @@ quando: prima delle scadenze di cancellazione
 link: https://secure.booking.com/mytrips.html
 priorità: media
 nota: Booking addebita da solo APA, Saibo, Alpina e Hillarys (¥138.828 in tutto, ~€750). Se volete pagare con Revolut, cambiate la carta nell'app Booking.
+
+### cottage-checkout
+tappa: 2026-11-09 06:45
+cosa: Proporre al gruppo il check-out alle 6:45 con le valigie in stazione
+tipo: gestire
+priorità: media
+nota: Il check-out del cottage è entro le 10, ma dopo Honcho Street servono ~40′ per tornare al cottage e poi c'è il treno.
+
+### cena-sumo
+tappa: 2026-11-09 21:00
+cosa: Chiedere al gruppo se la cena da SUMO è confermata
+tipo: gestire
+priorità: bassa
+nota: Non risulta nel file del gruppo.
+
+### tenku
+tappa: 2026-11-07 15:30
+cosa: Decidere col gruppo se salire al Tenku no Torii
+tipo: gestire
+priorità: bassa
+nota: Chiude verso le 16 e ci sono 20–30′ di salita: si va solo se il gruppo arriva puntuale alle 14.
 
 ### controlli
 cosa: Controlli di inizio novembre
@@ -1407,7 +1426,7 @@ Stima a persona in euro.
 - Treni e bus lunghi: 364 | metà dei biglietti Klook (€678) + Fuji Excursion del 9/11 + Kamakura
 - Trasporti in città: 150 | metro e bus con la Suica ~€6 al giorno + bus Shirakawa-go ~€28
 - Cibo (~13 giorni): 520 | ~€40 al giorno, comprese le cene da Kitchen Hida e Kyōya
-- Attività e spettacoli: 300 | Sumo Club ~€90 · Samurai Restaurant ~€43 · Gion Corner ~€30 · Shibuya Sky ~€14 · teamLab
+- Attività e spettacoli: 210 | Samurai Restaurant ~€43 · Gion Corner ~€30 · Shibuya Sky ~€14 · teamLab · sale giochi
 - USJ + Express: 180 | prezzo variabile, ~€130–195 a testa
 - Onsen e sentō: 15 | l'onsen dell'Alpina è incluso
 - Assicurazione + e-SIM: 75
@@ -1472,18 +1491,35 @@ sito: https://kappabashi.or.jp/en/overview
 mappa: no
 foto: Kappabashi
 
-### sumo-club
-nome: Asakusa Sumo Club
-tipo: 🎭 Spettacolo
+### super-potato-akiba
+nome: Super Potato Akihabara
+tipo: 🎮 Retro game
 città: tokyo
 giorno: 6/11
-nota: 18:00, ~100 min con cena chanko-nabe · DA PRENOTARE per 2
-maps: Asakusa Sumo Club 東京都台東区浅草2-10-12
-tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14134311-d27189884-Reviews-Asakusa_Sumo_Club-Asakusa_Taito_Tokyo_Tokyo_Prefecture_Kanto.html
-tabelog: https://tabelog.com/en/tokyo/A1311/A131102/13292875/
-voto: 3,02
-sito: https://asakusa-sumo.com/reserve/
-foto: Sumo
+nota: 3 piani di videogiochi retro + sala giochi anni '80–'90
+maps: Super Potato Akihabara
+sito: https://www.japan.travel/en/spot/2178/
+foto: Famicom
+
+### radio-kaikan
+nome: Akihabara Radio Kaikan
+tipo: 🎮 Figure e manga
+città: tokyo
+giorno: 6/11
+nota: 10 piani di figure, modellini e carte da collezione
+maps: Akihabara Radio Kaikan
+sito: https://en.jal.japantravel.com/tokyo/akiba-radio-kaikan/25669
+foto: Akihabara
+
+### kyushu-jangara
+nome: Kyushu Jangara Akihabara (ramen)
+tipo: 🍜 Ristorante
+città: tokyo
+giorno: 6/11
+nota: Ramen tonkotsu (brodo di maiale) · 11–22, ultimo ordine 21:45
+maps: 九州じゃんがら 秋葉原本店 Sotokanda 3-11-6
+sito: https://visit-chiyoda.tokyo/app/en/spot/detail/927
+foto: Ramen
 
 ### hey-akihabara
 nome: HEY — Hirose Entertainment Yard
@@ -2444,7 +2480,6 @@ foto: Zōjō-ji
 - Gasshō-zukuri: Le case col tetto di paglia a punta di Shirakawa-go («mani giunte in preghiera»)
 - Maiko / geiko: Apprendista geisha / geisha (a Kyoto si dice geiko)
 - Kabuki: Teatro tradizionale con trucco e costumi vistosi, solo attori uomini
-- Sumo: La lotta giapponese: vince chi spinge l'avversario fuori dal cerchio o lo fa toccare terra
 - Momiji / kōyō: Gli aceri rossi / il foliage d'autunno
 
 ### Cibo
@@ -2456,7 +2491,6 @@ foto: Zōjō-ji
 - Negiyaki: Okonomiyaki con tanto cipollotto al posto del cavolo
 - Takoyaki: Polpette di pastella con un pezzo di polpo
 - Kushikatsu: Spiedini impanati e fritti; la salsa è comune: si intinge una volta sola
-- Chanko-nabe: Lo stufato ricco che mangiano i lottatori di sumo
 - Hida beef: Manzo pregiato della zona di Takayama, molto marmorizzato
 - Hoba miso: Miso con verdure e carne cotto su una grande foglia sul braciere
 - Tamagoyaki: Frittata giapponese dolce, arrotolata a strati

@@ -1,7 +1,7 @@
 /* Service worker: l'app funziona offline dopo la prima apertura (anche in Giappone senza rete).
    data.json: prima la rete, ma se non risponde entro 3 secondi si usa la copia salvata (reti lente in metro).
    Foto di Wikipedia: cache separata che sopravvive agli aggiornamenti. Il resto: prima la copia salvata. Cambiare VERSION quando si modificano index.html, app.js o app.css. */
-const VERSION = "g26-v7";
+const VERSION = "g26-v8";
 const PHOTOS = "g26-foto";  // non si svuota agli aggiornamenti
 const SHELL = ["./", "index.html", "app.css", "app.js", "data.json", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
