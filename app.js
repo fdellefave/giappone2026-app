@@ -3,6 +3,7 @@
    Per provare un'ora diversa: aggiungere ?ora=2026-11-11T10:00+09:00 all'indirizzo. */
 (function () {
   "use strict";
+  var APP_V = "11"; // uguale al numero di VERSION in sw.js
 
   var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", roma: "Roma" };
   var TYPE = {
@@ -414,6 +415,7 @@
     h += '<div class="legend" aria-label="Legenda">' + Object.keys(TYPE).map(function (k) {
       return '<span style="--tc:var(--t-' + k + ')"><i></i>' + TYPE[k].n + "</span>";
     }).join("") + '<span class="lg-bad"><i></i>Da prenotare o sistemare</span></div>';
+    h += '<p class="foot-note">Versione ' + APP_V + " · dati del " + esc(D.generated || "") + "</p>";
     view.innerHTML = h;
     if (!keepScroll) window.scrollTo(0, 0);
     var chip = view.querySelector('.daychip[aria-pressed="true"]');

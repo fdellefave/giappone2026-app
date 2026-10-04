@@ -1,13 +1,14 @@
 /* Service worker: l'app funziona offline dopo la prima apertura (anche in Giappone senza rete).
    data.json: prima la rete, ma se non risponde entro 3 secondi si usa la copia salvata (reti lente in metro).
    Foto di Wikipedia: cache separata che sopravvive agli aggiornamenti. Il resto: prima la copia salvata. Cambiare VERSION quando si modificano index.html, app.js o app.css. */
-const VERSION = "g26-v10";
+const VERSION = "g26-v11";
 const PHOTOS = "g26-foto";  // non si svuota agli aggiornamenti
 const SHELL = ["./", "index.html", "app.css", "app.js", "data.json", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 
 self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
+  // cache: "reload" scavalca la cache del browser (GitHub Pages la tiene 10 minuti): così si salvano davvero i file nuovi
+  e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL.map((u) => new Request(u, { cache: "reload" })))).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", (e) => {
   e.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== VERSION && k !== PHOTOS).map((k) => caches.delete(k))))
