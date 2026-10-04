@@ -52,6 +52,7 @@ Regole di Federico:
   spiegazione tra parentesi direttamente nel titolo della tappa (es. «Kiyomizu-dera (tempio)»).
   Meteo sotto il titolo del giorno (Open-Meteo, senza chiave): com'è adesso in ogni città del giorno e, nei 16 giorni
   prima, le previsioni per quella data; si aggiorna all'apertura (max 1 volta l'ora) e ogni 3 ore.
+  Sopra i giorni, la linea delle città (dalla città della notte prima a quella della sera; le gite in giornata non contano).
   iOS 26 sfoca da solo una fascia sotto la barra di stato nell'app installata: la barra dei giorni parte 40 px più in basso.
 
 Già verificato (non riproporre):

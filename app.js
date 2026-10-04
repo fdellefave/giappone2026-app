@@ -339,16 +339,43 @@
     var r = D.days[i].route.filter(function (c) { return c !== "roma"; });
     return r.length ? r[r.length - 1] : "roma";
   }
+  // Linea del tempo delle città sopra i giorni: ogni giorno va dalla città della notte prima a quella della sera
+  // (le gite in giornata, tipo Kamakura, non contano). Nei giorni di trasferimento la casella è divisa a metà.
+  function cityTimeline(sel, cd, ph) {
+    var segs = [], prev = null;
+    D.days.forEach(function (d, j) {
+      var end = d.route[d.route.length - 1], start = j ? prev : d.route[0];
+      var parts = start === end ? [[start, j, j + 1]] : [[start, j, j + 0.5], [end, j + 0.5, j + 1]];
+      parts.forEach(function (p) {
+        var last = segs[segs.length - 1];
+        if (last && last.c === p[0]) last.to = p[2];
+        else segs.push({ c: p[0], from: p[1], to: p[2] });
+      });
+      prev = end;
+    });
+    var h = '<div class="ctl" style="--n:' + D.days.length + '" aria-label="Città, giorno per giorno">';
+    segs.forEach(function (g) {
+      // posizione in «caselle» (--a) e in spazi tra caselle (--b), così segue la larghezza dei giorni
+      var a = g.from, b = Math.floor(g.from), a2 = g.to, b2 = Math.ceil(g.to) - 1;
+      var first = Math.min(Math.ceil(g.from - 0.01), D.days.length - 1), lastDay = Math.ceil(g.to) - 1;
+      var on = sel >= Math.floor(g.from) && sel <= lastDay, past = ph === "after" || (ph === "live" && g.to <= cd);
+      var small = g.to - g.from < 0.8;
+      h += '<button type="button" class="ctl-s' + (on ? " on" : "") + (past ? " past" : "") + (small ? " small" : "") + '" data-day="' + first + '" style="--c:' + cityVar(g.c) +
+        ";--a:" + a + ";--b:" + b + ";--a2:" + a2 + ";--b2:" + b2 + '" aria-label="' + esc(CITY[g.c]) + '">' +
+        (small ? (g.c === "roma" ? icon("plane") : "") : "<span>" + esc(CITY[g.c]) + "</span>") + "</button>";
+    });
+    return h + "</div>";
+  }
   function topBar(sel) {
     var ph = phase(), cd = ph === "live" ? currentDay() : -1, today = tokyoToday();
-    var h = '<div class="topbar" id="topbar"><div class="daystrip" role="toolbar" aria-label="Giorni del viaggio">';
+    var h = '<div class="topbar" id="topbar"><div class="daystrip" role="toolbar" aria-label="Giorni del viaggio">' + cityTimeline(sel, cd, ph) + '<div class="chips">';
     D.days.forEach(function (x, j) {
       var past = ph === "after" || (ph === "live" && j < cd), n = dayCount(j), d = isoDate(x.id);
       h += '<button type="button" class="daychip' + (j === cd || (ph !== "live" && x.id === today) ? " today" : "") + (past ? " past" : "") +
         '" data-day="' + j + '" aria-pressed="' + (j === sel) + '" style="--c:' + cityVar(mainCity(j)) + '" aria-label="' + esc(dLong(x.id)) + (n ? ", " + n + " cose da sistemare" : "") + '">' +
         '<span class="w">' + WD3[d.getDay()] + '</span><span class="d">' + d.getDate() + "</span>" + (n ? '<b class="nb">' + n + "</b>" : "") + "</button>";
     });
-    return h + '</div><button type="button" class="sbtn" data-search="1" aria-label="Cerca">' + icon("search") + "</button></div>";
+    return h + '</div></div><button type="button" class="sbtn" data-search="1" aria-label="Cerca">' + icon("search") + "</button></div>";
   }
   function dayHead(i) {
     var d = D.days[i], ph = phase(), cd = currentDay();
@@ -390,7 +417,8 @@
     view.innerHTML = h;
     if (!keepScroll) window.scrollTo(0, 0);
     var chip = view.querySelector('.daychip[aria-pressed="true"]');
-    if (chip && chip.parentNode) chip.parentNode.scrollLeft = chip.offsetLeft - chip.parentNode.clientWidth / 2 + chip.clientWidth / 2;
+    var strip = view.querySelector(".daystrip");
+    if (chip && strip) strip.scrollLeft = chip.offsetLeft - strip.clientWidth / 2 + chip.clientWidth / 2;
     if (S.fold.money) conv("yen");
     onScroll();
     store("state", { day: S.day });
