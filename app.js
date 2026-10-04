@@ -3,7 +3,7 @@
    Per provare un'ora diversa: aggiungere ?ora=2026-11-11T10:00+09:00 all'indirizzo. */
 (function () {
   "use strict";
-  var APP_V = "15"; // uguale al numero di VERSION in sw.js
+  var APP_V = "16"; // uguale al numero di VERSION in sw.js
 
   var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", roma: "Roma" };
   var TYPE = {
@@ -256,6 +256,9 @@
     if (nd === "book") p += '<span class="pill todo">' + icon("alert") + "Da prenotare</span>";
     if (nd === "fix") p += '<span class="pill warn">' + icon("alert") + "Da sistemare</span>";
     if (it.start) p += '<span class="pill muted">Partenza</span>';
+    var hh = it.k === "hotel" || it.k === "bagagli" ? hotelOf(it) : null;
+    if (hh) p += hotelMine(hh) ? '<span class="pill mine">' + icon("bed") + "Hotel vostro</span>" : '<span class="pill grp">' + icon("users") + "Alloggio del gruppo</span>";
+    else if (it.group && it.k !== "sposta") p += '<span class="pill grp">' + icon("users") + "Col gruppo</span>";
     if (it.bag === "in") p += '<span class="pill bag">' + icon("luggage") + "Lasciate le valigie</span>";
     if (it.bag === "out") p += '<span class="pill bag">' + icon("luggage") + "Riprendete le valigie</span>";
     if (!nd && it.status === "paid") p += '<span class="pill ok">' + icon("check") + "Pagato</span>";
@@ -368,6 +371,18 @@
         ";--a:" + a + ";--b:" + b + ";--a2:" + a2 + ";--b2:" + b2 + '" aria-label="' + esc(CITY[g.c]) + '">' +
         (small ? (g.c === "roma" ? icon("plane") : "") : "<span>" + esc(CITY[g.c]) + "</span>") + "</button>";
     });
+    // fascia col gruppo: le ore 6–24 di ogni giorno riempiono la casella
+    var gs = [];
+    D.days.forEach(function (d, j) {
+      if (!d.group) return;
+      var f = function (t) { var m = hmMin(t); return Math.min(1, Math.max(0, (m - 360) / 1080)); };
+      var a0 = j + f(d.group.from), a1 = j + f(d.group.to), last = gs[gs.length - 1];
+      if (last && a0 - last.to < 0.15) last.to = a1; else gs.push({ from: a0, to: a1 }); // la notte non interrompe la fascia
+    });
+    gs.forEach(function (g) {
+      var a = g.from, b = Math.floor(g.from), a2 = g.to, b2 = Math.ceil(g.to) - 1;
+      h += '<button type="button" class="ctl-g" data-day="' + Math.floor(g.from) + '" style="--a:' + a + ";--b:" + b + ";--a2:" + a2 + ";--b2:" + b2 + '">' + icon("users") + "<span>col gruppo</span></button>";
+    });
     return h + "</div>";
   }
   function topBar(sel) {
@@ -381,6 +396,14 @@
     });
     return h + "</div></div></div>";
   }
+  function groupText(d) {
+    var g = d.group;
+    if (!g) return "Solo voi due";
+    if (g.from === "00:00" && g.to === "23:59") return "Tutto il giorno col gruppo";
+    if (g.to === "23:59") return "Col gruppo dalle " + g.from;
+    if (g.from === "00:00") return "Col gruppo fino alle " + g.to + ", poi solo voi due";
+    return "Col gruppo " + g.from + "–" + g.to + " circa, poi solo voi due";
+  }
   function dayHead(i) {
     var d = D.days[i], ph = phase(), cd = currentDay();
     var h = '<header class="dayhead"><div class="dayhead-top"><span class="kicker">Giorno ' + d.n + " · " + esc(dLong(d.id)) + "</span>";
@@ -390,8 +413,12 @@
       return (k ? ' <span class="sep">›</span> ' : "") + '<span class="c" style="--c:' + cityVar(c) + '">' + esc(CITY[c]) + "</span>";
     }).join("") + "</h1>";
     var walk = (d.guide.camminata || "").split(" · ")[0];
-    h += '<div class="facts"><span>' + icon("bed") + esc(d.sleepName) + "</span><span>" + icon("users") + esc(d.with) + "</span>" +
+    var sh = HOTELS[d.sleep];
+    h += '<div class="facts">' + (sh ? '<button type="button" class="sleepbtn" data-sleep="1" aria-expanded="' + !!S.sleep + '">' + icon("bed") + "<span>Dormite: <b>" + esc(d.sleepName) + "</b></span>" + icon("down", "chev") + "</button>"
+        : "<span>" + icon("plane") + esc(d.sleepName) + "</span>") +
+      '<span class="gfact' + (d.group ? " on" : "") + '">' + icon("users") + esc(groupText(d)) + "</span>" +
       (walk ? "<span>" + icon("walk") + esc((walk.match(/^[~\d.,\s–-]+km/) || [walk])[0]) + " a piedi</span>" : "") + "</div>" + wxHtml(i);
+    if (sh) h += '<div class="sleepbox" id="sleepbox"' + (S.sleep ? "" : " hidden") + ">" + hotelBox(sh) + '<div class="btns">' + hotelActions(sh) + "</div></div>";
     if (d.guide.senso) h += '<p class="summary">' + esc(d.guide.senso) + "</p>";
     if (ph === "live" && i !== cd) h += '<p style="margin:12px 0 0"><button type="button" class="chip-now" data-now="1">' + icon("locate") + "Vai a oggi, a dove siete adesso</button></p>";
     var n = dayCount(i);
@@ -411,8 +438,13 @@
     if (!store("hinted")) h += '<p class="hint">' + icon("info") + "<span>Tocca una tappa per foto, dettagli e indicazioni. Scorri il dito a destra o a sinistra per cambiare giorno. Con «Cerca» in basso a destra trovi qualsiasi cosa.</span></p>";
 
     h += '<div class="plan">';
-    var zh = zoneHeads(i);
-    d.items.forEach(function (it, k) { if (!it.merged) h += stopHtml(i, k, it, zh[k]); });
+    var zh = zoneHeads(i), prevG = null;
+    d.items.forEach(function (it, k) {
+      if (it.merged) return;
+      var g = !!it.group, sep = prevG !== null && g !== prevG ? (g ? "on" : "off") : "";
+      prevG = g;
+      h += stopHtml(i, k, it, zh[k], sep);
+    });
     h += "</div>";
 
     h += '<div class="extras">' + tourHtml(i) + tipsHtml(d) + moneyHtml() + rulesHtml() + "</div>";
@@ -508,7 +540,7 @@
       '<span class="zx">' + esc(z.what) + (when ? ' <b class="num">' + esc(when) + "</b>" : "") + "</span></div>";
   }
 
-  function stopHtml(di, ii, it, zi) {
+  function stopHtml(di, ii, it, zi, sep) {
     var key = di + "-" + ii, st = stateOf(di, ii), open = !!S.open[key], nd = st === "past" ? "" : needs(it);
     var leg = it.leg != null ? D.days[di].items[it.leg] : null;
     var h = '<div class="stop k-' + it.k + (st ? " " + st : "") + (nd ? " needs" : "") + '" id="s-' + key + '" style="--tc:var(--t-' + it.k + ')">';
@@ -517,6 +549,7 @@
       h += '<button type="button" class="leg' + (lst === "past" || st === "past" ? " past" : "") + '" data-open="' + key + '" aria-label="Come arrivarci">' +
         '<span class="lt">' + esc(leg.t) + '</span><span class="li">' + icon(moveIcon(leg)) + '</span><span class="lx">' + esc(leg.short || "spostamento") + "</span></button>";
     }
+    if (sep) h += '<div class="grpsep ' + sep + '">' + icon("users") + "<span>" + (sep === "on" ? "Da qui siete <b>col gruppo</b>" : "Da qui siete di nuovo <b>solo voi due</b>") + "</span></div>";
     if (zi) h += zoneHtml(zi, it, st === "past");
     h += '<div class="scard"><button type="button" class="row" data-open="' + key + '" aria-expanded="' + open + '" aria-controls="p-' + key + '">';
     var ph = it.k !== "sposta" && photoOf(it);
@@ -550,8 +583,8 @@
     }
     var t = it.train && TRAINS[it.train];
     if (t) h += trainBox(t);
-    var ho = it.hotel && HOTELS[it.hotel];
-    if (ho && (it.k === "hotel" || it.k === "bagagli")) h += hotelBox(ho);
+    var ho = hotelOf(it), showHo = ho && (it.k === "hotel" || it.k === "bagagli" || it.k === "sposta");
+    if (showHo) h += hotelBox(ho);
 
     var b = "";
     if (it.dest) b += link(goto(it.dest), it.k === "viaggio" && it.train ? "Indicazioni per la stazione" : "Indicazioni", "go wide", "nav");
@@ -563,7 +596,7 @@
       if (!p.ta && !p.tabelog && !p.web) b += link(p.maps, "Apri in Maps", "", "pin");
     }
     if (t && t.link) b += link(t.link, /klook/.test(t.link) ? "Biglietto Klook" : "Prenota", "", "ticket");
-    if (ho && (it.k === "hotel" || it.k === "bagagli")) {
+    if (showHo) {
       if (ho.address) b += '<button type="button" class="btn" data-copy="' + esc(ho.address) + '">' + icon("copy") + "<span>Copia indirizzo</span></button>";
       if (ho.app) b += link(ho.app, /airbnb/.test(ho.app) ? "App Airbnb" : "App Booking", "", "ext");
     }
@@ -586,9 +619,29 @@
       (t.price ? "<dt>Prezzo</dt><dd>" + esc(t.price) + (t.eur ? " per 2" : "") + "</dd>" : "") +
       "<dt>Biglietto</dt><dd>" + esc(trainState(t)) + "</dd></dl></div>";
   }
+  function hotelOf(it) {
+    if (it.hotel && HOTELS[it.hotel]) return HOTELS[it.hotel];
+    if (it.k === "sposta" && it.dest) for (var k in HOTELS) if (HOTELS[k].q === it.dest) return HOTELS[k];
+    return null;
+  }
+  function hotelMine(h) { return h.paid !== "gruppo"; }
+  function hotelWho(h) {
+    if (!hotelMine(h)) return "Del gruppo: l'ha prenotato il gruppo, voi pagate la vostra quota (" + h.price + ")";
+    var where = /airbnb/.test(h.app || "") ? "Airbnb" : /booking/.test(h.app || "") ? "Booking" : "";
+    return "Vostro: prenotato da " + (h.payer || "voi") + (where ? " su " + where : "") + " per voi due" + (h.shared ? ", si divide a metà" : "");
+  }
+  function hotelNights(h) { return "dal " + dm(h.in) + " al " + dm(h.out) + " · " + h.nights + (h.nights === 1 ? " notte" : " notti"); }
+  function hotelActions(h) {
+    var b = link(goto(h.q), "Indicazioni", "go", "nav");
+    if (h.address) b += '<button type="button" class="btn" data-copy="' + esc(h.address) + '">' + icon("copy") + "<span>Copia indirizzo</span></button>";
+    if (h.app) b += link(h.app, /airbnb/.test(h.app) ? "App Airbnb" : "App Booking", "", "ext");
+    return b;
+  }
   function hotelBox(h) {
-    return '<div class="infobox"><span class="ttl2">' + esc(h.name) + '</span><dl class="kv">' +
-      (h.address ? "<dt>Indirizzo</dt><dd>" + esc(h.address) + "</dd>" : "") + (h.hours ? "<dt>Orari</dt><dd>" + esc(h.hours) + "</dd>" : "") +
+    return '<div class="infobox hotelbox"><span class="ttl2">' + esc(h.name) + '</span><p class="who' + (hotelMine(h) ? "" : " grp") + '">' + icon(hotelMine(h) ? "bed" : "users") + "<span>" + esc(hotelWho(h)) + "</span></p>" +
+      '<dl class="kv"><dt>Notti</dt><dd>' + esc(hotelNights(h)) + "</dd>" +
+      (h.address ? "<dt>Indirizzo</dt><dd>" + esc(h.address) + "</dd>" : "") + (h.access ? "<dt>Come si arriva</dt><dd>" + esc(h.access) + "</dd>" : "") +
+      (h.hours ? "<dt>Orari</dt><dd>" + esc(h.hours) + "</dd>" : "") +
       "<dt>Pagamento</dt><dd>" + esc(hotelPayText(h)) + "</dd>" + (h.cancel ? "<dt>Cancellazione</dt><dd>" + esc(h.cancel) + "</dd>" : "") +
       (h.note ? "<dt>Note</dt><dd>" + esc(h.note) + "</dd>" : "") + "</dl></div>";
   }
@@ -889,6 +942,11 @@
       S.open = {};
       D.days[S.day].items.forEach(function (it, k) { if (!it.merged && stateOf(S.day, k) !== "past" && needs(it)) { S.open[S.day + "-" + k] = true; if (!first) first = "s-" + S.day + "-" + k; } });
       render(true); if (first) scrollToId(first); return;
+    }
+    if (ds.sleep) {
+      S.sleep = !S.sleep; t.setAttribute("aria-expanded", S.sleep);
+      var sb = document.getElementById("sleepbox"); if (sb) sb.hidden = !S.sleep;
+      return;
     }
     if (ds.fold) {
       S.fold[ds.fold] = !S.fold[ds.fold]; t.setAttribute("aria-expanded", S.fold[ds.fold]); t.nextElementSibling.hidden = !S.fold[ds.fold];

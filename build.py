@@ -422,10 +422,26 @@ def parse_days(lines, places, hotels, trains):
             elif line.strip():
                 warn(f"{did}: riga della guida ignorata «{line.strip()[:50]}»")
         h = hotels.get(sleep)
+        # «gruppo: 14:00-» / «gruppo: tutto» / «gruppo: 06:35-18:20»: quando siete insieme al gruppo
+        grp = None
+        gv = f.get("gruppo", "").strip()
+        if gv:
+            if gv == "tutto":
+                grp = {"from": "00:00", "to": "23:59"}
+            else:
+                mg = re.match(r"^(\d\d:\d\d)?\s*-\s*(\d\d:\d\d)?$", gv)
+                if not mg:
+                    err(f"{did}: «gruppo» deve essere tutto, HH:MM-, -HH:MM o HH:MM-HH:MM")
+                else:
+                    grp = {"from": mg.group(1) or "00:00", "to": mg.group(2) or "23:59"}
+            if grp:
+                for it in items:
+                    if grp["from"] <= it["t"] <= grp["to"] and it["tz"] == "tokyo":
+                        it["group"] = True
         days.append({
             "id": did, "n": n, "dm": f"{date.day}/{date.month}", "wd": WD[date.weekday()], "route": route,
             "sleep": sleep, "sleepName": h["name"] if h else ("In volo" if sleep == "volo" else sleep),
-            "with": f.get("con", ""), "tz": tz_day, "items": items, "guide": guide,
+            "with": f.get("con", ""), "group": grp, "tz": tz_day, "items": items, "guide": guide,
         })
     return days
 

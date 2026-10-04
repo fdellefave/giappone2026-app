@@ -9,6 +9,7 @@ Questo file vive solo qui: non tenerne copie nel progetto Claude «Giappone».
 
 - Sezioni `##`, voci `### id`, campi `chiave: valore` (una riga ciascuno).
 - Giorno `### AAAA-MM-GG`: campi `percorso` (città separate da `>`), `dorme` (id alloggio o `volo`), `con`,
+  `gruppo` (quando siete col gruppo: `tutto`, `14:00-`, `-18:20` o `06:35-18:20`),
   `fuso` (solo se non è Tokyo: `roma`). Città: roma, tokyo, kawaguchiko, kamakura, kyoto, takayama, osaka.
 - Tappa: `- HH:MM tipo Titolo | attributo | attributo`, poi righe di dettaglio rientrate di 2 spazi.
   - tipi: `vedere` (luoghi) · `fare` (esperienze, spettacoli, giochi, terme) · `cibo` · `sposta` (spostamento in
@@ -53,6 +54,8 @@ Regole di Federico:
   Meteo sotto il titolo del giorno (Open-Meteo, senza chiave): com'è adesso in ogni città del giorno e, nei 16 giorni
   prima, le previsioni per quella data; si aggiorna all'apertura (max 1 volta l'ora) e ogni 3 ore.
   Ogni tappa ha la sua zona (sezione Zone): le tappe di fila nella stessa zona hanno un titoletto con orario e durata.
+  Gruppo: campo `gruppo` del giorno → fascia «col gruppo» sotto le città, pillola rosa sulle tappe, avviso quando vi unite o vi staccate.
+  Ogni alloggio dice di chi è (vostro, prenotato da Federico / del gruppo); «Dormite: …» nella testata si apre con tutti i dettagli.
   Sopra i giorni, la linea delle città (dalla città della notte prima a quella della sera; le gite in giornata non contano).
   iOS 26 sfoca da solo una fascia sotto la barra di stato nell'app installata: la barra dei giorni parte 40 px più in basso.
 
@@ -206,6 +209,7 @@ camminata: ~10 km · mezzi ~1 h 30 in tutto · pause: pranzo 45′, cena 45′
 percorso: tokyo > kawaguchiko
 dorme: cottage-pastorale
 con: voi due + il gruppo
+gruppo: 14:00-
 - 08:30 hotel Check-out dall'Airbnb | alloggio: airbnb-shinjuku
   breve: entro le 10 · colazione al konbini (minimarket)
   Colazione al konbini (i minimarket aperti 24 h: 7-Eleven, Lawson, FamilyMart).
@@ -276,6 +280,7 @@ camminata: ~10 km (salita al Tenku no Torii) · treno 2 h · pause: pranzo 1 h 1
 percorso: kawaguchiko
 dorme: cottage-pastorale
 con: voi due + il gruppo
+gruppo: tutto
 - 08:00 fare Giro del lago in bici | foto: Lake Kawaguchi | dove: Lake Kawaguchi | zona: lago-kawaguchi
   breve: col gruppo · bici tramite il cottage
   La pagoda Chureito e Honcho Street si fanno il 9/11.
@@ -313,6 +318,7 @@ camminata: ~5 km a piedi + 15–20 km in bici · pause: pranzo 1 h, cottage 1 h,
 percorso: kawaguchiko > tokyo
 dorme: saibo
 con: voi due + il gruppo
+gruppo: tutto
 - 06:45 hotel Check-out dal cottage (proposta) | alloggio: cottage-pastorale
   breve: proposta al gruppo: uscire presto con le valigie
   Il check-out sarebbe entro le 10, ma dopo Honcho Street servono ~40′ per tornare al cottage.
@@ -384,6 +390,7 @@ camminata: ~10 km (400 scalini della Chureito) · treni ~3 h · pause: lago 1 h 
 percorso: tokyo > kamakura > tokyo > kyoto
 dorme: apa-kyoto
 con: voi due + il gruppo, la sera solo voi due
+gruppo: 06:35-18:20
 - 06:30 hotel Check-out dall'Hotel Saibo | alloggio: saibo
   breve: alle 6:30, prima del treno del gruppo
 - 06:32 bagagli Valigie in deposito all'Hotel Saibo | alloggio: saibo | deposito
@@ -428,6 +435,7 @@ con: voi due + il gruppo, la sera solo voi due
   attenzione: partite da Fujisawa entro le 17:45 per non perdere lo Shinkansen
 - 18:40 bagagli Ritiro valigie all'Hotel Saibo | città: tokyo | alloggio: saibo | ritiro
   breve: poi taxi per Tokyo Station
+  Il gruppo lo salutate a Shimbashi, scendendo dal treno (loro volano il 12): da qui siete solo voi due.
 - 18:45 sposta Gransta, Tokyo Station | via taxi: @saibo > #gransta (Hotel Saibo → Tokyo Station)
   breve: taxi 10′ (a piedi 25′)
 - 19:00 cibo Ekiben (cestino da treno) da Gransta | posto: gransta
@@ -441,7 +449,6 @@ con: voi due + il gruppo, la sera solo voi due
   breve: a piedi 7′ dall'uscita Central
 - 22:30 hotel Check-in all'APA Hotel Kyoto | alloggio: apa-kyoto
   breve: 3 notti
-  Saluti agli amici: volano il 12.
 - 22:40 cibo Honke Daiichi Asahi (ramen) | posto: daiichi-asahi | via piedi: @apa-kyoto > #daiichi-asahi (APA Hotel → ramen Daiichi Asahi)
   breve: ramen se avete fame · a piedi 13′, fino all'1:00
   Tabelog 3,74. Chiuso il giovedì.

@@ -22,6 +22,7 @@
   --bad-soft: #FCE6E3;
 
   --on: #FFFFFF; /* testo sopra i colori pieni */
+  --grp: #D6336C; /* col gruppo */
   --t-vedere: #4654D0;
   --t-fare: #A23C9C;
   --t-cibo: #D1700E;
@@ -47,7 +48,7 @@
     --bg: #111318; --card: #1B1E25; --card-2: #22262E; --ink: #ECEEF2; --muted: #9AA1AD; --faint: #6B7280;
     --line: #2C313B; --accent: #F0675B; --accent-soft: #3A1E1C; --blue: #72A6F2; --blue-soft: #1B2A42;
     --ok: #55C285; --ok-soft: #16301F; --warn: #E7A94A; --warn-soft: #36290F; --bad: #F07A70; --bad-soft: #3A1D1B;
-    --on: #111318; --t-vedere: #8C96F2; --t-fare: #D985D3; --t-cibo: #F0A14E; --t-sposta: #9AA1AD; --t-viaggio: #5DB3EA; --t-hotel: #5CC488; --t-bagagli: #D9A066;
+    --on: #111318; --grp: #F06595; --t-vedere: #8C96F2; --t-fare: #D985D3; --t-cibo: #F0A14E; --t-sposta: #9AA1AD; --t-viaggio: #5DB3EA; --t-hotel: #5CC488; --t-bagagli: #D9A066;
     --tokyo: #F06A5E; --kawaguchiko: #33BFA9; --kamakura: #A788D9; --kyoto: #D9A445; --takayama: #7CBB67;
     --osaka: #E36AB4; --roma: #9AA3B0; color-scheme: dark;
   }
@@ -56,7 +57,7 @@
   --bg: #111318; --card: #1B1E25; --card-2: #22262E; --ink: #ECEEF2; --muted: #9AA1AD; --faint: #6B7280;
   --line: #2C313B; --accent: #F0675B; --accent-soft: #3A1E1C; --blue: #72A6F2; --blue-soft: #1B2A42;
   --ok: #55C285; --ok-soft: #16301F; --warn: #E7A94A; --warn-soft: #36290F; --bad: #F07A70; --bad-soft: #3A1D1B;
-  --on: #111318; --t-vedere: #8C96F2; --t-fare: #D985D3; --t-cibo: #F0A14E; --t-sposta: #9AA1AD; --t-viaggio: #5DB3EA; --t-hotel: #5CC488; --t-bagagli: #D9A066;
+  --on: #111318; --grp: #F06595; --t-vedere: #8C96F2; --t-fare: #D985D3; --t-cibo: #F0A14E; --t-sposta: #9AA1AD; --t-viaggio: #5DB3EA; --t-hotel: #5CC488; --t-bagagli: #D9A066;
   --tokyo: #F06A5E; --kawaguchiko: #33BFA9; --kamakura: #A788D9; --kyoto: #D9A445; --takayama: #7CBB67;
   --osaka: #E36AB4; --roma: #9AA3B0; color-scheme: dark;
 }
@@ -120,7 +121,7 @@ body.noscroll .fab { display: none; }
 }
 .chips { display: flex; gap: var(--g); padding-top: 6px; /* spazio per i pallini rossi */ width: max-content; }
 /* linea del tempo delle città */
-.ctl { position: relative; height: 22px; margin-bottom: 4px; width: calc(var(--n) * var(--cw) + (var(--n) - 1) * var(--g)); }
+.ctl { position: relative; height: 42px; margin-bottom: 4px; width: calc(var(--n) * var(--cw) + (var(--n) - 1) * var(--g)); }
 .ctl-s {
   position: absolute; top: 0; height: 22px; border: 0; padding: 0 6px; cursor: pointer;
   left: calc(var(--a) * var(--cw) + var(--b) * var(--g) + 1px);
@@ -507,3 +508,43 @@ body.noscroll { overflow: hidden; }
 .ios-app .scrolled .topbar { background: var(--bg); -webkit-backdrop-filter: none; backdrop-filter: none; }
 /* pulsanti secondari nelle cose da fare (es. «Chiama», «Sito ufficiale»): visibili sul fondo bianco */
 .panel .todo-box .btns .btn:not(.go) { background: var(--card-2); }
+
+/* fascia «col gruppo» sotto le città */
+.ctl-g {
+  position: absolute; top: 25px; height: 15px; border: 0; padding: 0 6px; cursor: pointer; border-radius: 5px;
+  left: calc(var(--a) * var(--cw) + var(--b) * var(--g) + 1px);
+  width: calc((var(--a2) - var(--a)) * var(--cw) + (var(--b2) - var(--b)) * var(--g) - 2px);
+  background: color-mix(in srgb, var(--grp) 20%, var(--bg)); color: var(--grp);
+  display: flex; align-items: center; justify-content: center; gap: 4px; overflow: hidden; white-space: nowrap;
+  font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .05em;
+}
+.ctl-g .ic { width: 12px; height: 12px; stroke-width: 2.5; }
+/* testata: dove dormite (si apre) e col gruppo / solo voi due */
+.sleepbtn {
+  display: inline-flex; align-items: center; gap: 6px; border: 0; background: var(--card); border-radius: 999px;
+  padding: 5px 10px 5px 9px; font-size: 14px; color: var(--muted); cursor: pointer; text-align: left;
+}
+.sleepbtn b { color: var(--ink); font-weight: 650; }
+.sleepbtn .ic { width: 16px; height: 16px; }
+.sleepbtn .chev { color: var(--faint); transition: transform .2s; }
+.sleepbtn[aria-expanded="true"] .chev { transform: rotate(180deg); }
+.facts .gfact.on { color: var(--grp); font-weight: 700; }
+.sleepbox { margin-top: 10px; display: grid; gap: 10px; background: var(--card); border-radius: 14px; padding: 12px; }
+.sleepbox[hidden] { display: none; }
+.sleepbox .infobox { background: var(--card-2); }
+.sleepbox .btns { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.sleepbox .btns .btn.go { grid-column: 1 / -1; }
+.hotelbox .who { margin: 0; display: flex; gap: 8px; align-items: flex-start; font-size: 14.5px; font-weight: 600; color: var(--ok); }
+.hotelbox .who.grp { color: var(--grp); }
+.hotelbox .who .ic { width: 17px; height: 17px; margin-top: 2px; }
+.pill.grp { background: color-mix(in srgb, var(--grp) 15%, var(--card)); color: var(--grp); }
+.pill.mine { background: var(--ok-soft); color: var(--ok); }
+/* separatore: da qui col gruppo / di nuovo solo voi due */
+.grpsep {
+  display: flex; align-items: center; gap: 8px; margin: 2px 0 10px; padding: 8px 12px; border-radius: 12px;
+  font-size: 14px; color: var(--grp); background: color-mix(in srgb, var(--grp) 10%, transparent);
+  border: 1.5px dashed color-mix(in srgb, var(--grp) 45%, transparent);
+}
+.grpsep b { font-weight: 800; }
+.grpsep .ic { width: 18px; height: 18px; }
+.grpsep.off { color: var(--muted); background: transparent; border-color: var(--line); }
