@@ -87,9 +87,9 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
    In cima alla pagina è piatta, dello stesso colore dello sfondo.
    Solo scendendo prende una sfocatura leggera e una riga sottile. */
 /* --inset-top: dove inizia la zona libera. Nell'app installata su iPhone (iOS 26) il sistema sfoca
-   una fascia di ~40 px sotto la barra di stato: lì resta solo il colore dello sfondo. */
+   una fascia sotto la barra di stato: lasciamo 14 px liberi, la riga delle città assorbe il resto della sfumatura. */
 :root { --inset-top: env(safe-area-inset-top, 0px); }
-@media (orientation: portrait) { .ios-app { --inset-top: calc(env(safe-area-inset-top, 0px) + 40px); } }
+@media (orientation: portrait) { .ios-app { --inset-top: calc(env(safe-area-inset-top, 0px) + 14px); } }
 .topbar {
   position: sticky; top: 0; z-index: 20; margin-inline: -16px;
   padding: calc(var(--inset-top) + 4px) 0 8px 0;
@@ -573,3 +573,39 @@ body.noscroll { overflow: hidden; }
 .money-row { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-top: 1px solid var(--line); font-size: 15px; }
 .money-row small { display: block; color: var(--muted); font-size: 13px; }
 .money-row b { white-space: nowrap; }
+
+/* ---------- respiro: testi un filo più piccoli, più spazio tra e dentro le schede ---------- */
+body { font-size: 15.5px; }
+.dayhead h1 { font-size: 26px; }
+.dayhead h1.long { font-size: 22px; }
+.dayhead .kicker { font-size: 12.5px; }
+.facts { font-size: 13.5px; gap: 8px 14px; margin-top: 12px; }
+.summary { font-size: 14.5px; line-height: 1.55; margin-top: 12px; }
+.stop + .stop { margin-top: 14px; }
+.row { padding: 16px 14px 16px 0; min-height: 80px; }
+.row .t { font-size: 14.5px; }
+.row .ttl { font-size: 16px; line-height: 1.32; }
+.row .sub { font-size: 13.5px; margin-top: 4px; line-height: 1.45; }
+.row .pills { margin-top: 8px; gap: 5px; }
+.pill { font-size: 11px; padding: 2px 8px; }
+.k-sposta .row .ttl { font-size: 15px; }
+.leg { min-height: 62px; padding-bottom: 16px; }
+.leg .lx { font-size: 13.5px; }
+.leg .lt { font-size: 12.5px; }
+.zone { margin: 6px 0 10px; }
+.zone .zn { font-size: 12.5px; }
+.zone .zx { font-size: 13px; }
+.panel { gap: 14px; padding: 16px; }
+.panel p, .kv2 dd { font-size: 14.5px; }
+.kv { font-size: 14px; gap: 6px 10px; }
+.infobox { font-size: 14px; padding: 12px 14px; }
+.todo-box > b { font-size: 15.5px; }
+.todo-box p { font-size: 14px; }
+.nowline .x { font-size: 16px; }
+.tips > button { font-size: 15px; padding: 15px 16px; }
+.tips ul, .tips p { font-size: 14.5px; }
+.wx-t { font-size: 22px; }
+.wx-x { font-size: 13.5px; }
+.issues b { font-size: 15px; }
+.grpsep { font-size: 13.5px; }
+.daychip .d { font-size: 17px; }

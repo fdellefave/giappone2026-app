@@ -58,7 +58,7 @@ Regole di Federico:
   Gruppo: campo `gruppo` del giorno → fascia «col gruppo» sotto le città, pillola rosa sulle tappe, avviso quando vi unite o vi staccate.
   Ogni alloggio dice di chi è (vostro, prenotato da Federico / del gruppo); «Dormite: …» nella testata si apre con tutti i dettagli.
   Sopra i giorni, la linea delle città (dalla città della notte prima a quella della sera; le gite in giornata non contano).
-  iOS 26 sfoca da solo una fascia sotto la barra di stato nell'app installata: la barra dei giorni parte 40 px più in basso.
+  iOS 26 sfoca da solo una fascia sotto la barra di stato nell'app installata: la barra parte 14 px più in basso (40 px lasciavano troppo vuoto).
 
 Già verificato (non riproporre):
 - Escluse Kanazawa (doppione di Kyoto) e Nara/Himeji (al loro posto la giornata nerd a Osaka il 15/11).
