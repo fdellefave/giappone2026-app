@@ -45,7 +45,7 @@ Regole di Federico:
 - Giornate troppo piene: si toglie la cosa meno utile.
 - Ogni posto con link diretto (Tripadvisor, o la piattaforma più nota); link verificati, mai inventati.
 - Il sito è pubblico: mai link di conferma, numeri di prenotazione, PIN, numeri di passaporto o dati di pagamento.
-  Numero di conferma e PIN di Booking: solo nell'app sul telefono (riquadro «Codici delle prenotazioni», salvati in locale), mai qui.
+  Numero di conferma e PIN di Booking, codice e telefono dell'host Airbnb: solo nell'app sul telefono (riquadro «Codici delle prenotazioni», salvati in locale), mai qui.
 - App: poco testo a colpo d'occhio (titolo corto + dettagli a scomparsa), niente simboli giapponesi.
   Un posto = una sola riga: lo spostamento per arrivarci sta dentro la tappa. «Indicazioni» = da dove sei a lì,
   senza mezzo preimpostato. Ogni mattina si parte dall'hotel. Deposito e ritiro valigie sempre come tappe esplicite.
@@ -1033,7 +1033,8 @@ cancellazione: gratuita fino al 23/10 alle 15:00
 indirizzo: Ōkubo 2-13-5, Shinjuku-ku, Tokyo 169-0072
 arrivo: Stazione Higashi-Shinjuku (metro Ōedo) a piedi 5′ · JR Shinjuku a piedi 20′
 orari: Check-in dalle 15:00 con cassetta delle chiavi (istruzioni nell'app dal 4/11) · check-out entro le 10:00
-nota: L'annuncio offre il deposito bagagli: chiedere all'host per le 13:30 del 6/11.
+camera: Monolocale per 2 ospiti
+nota: La conferma Airbnb dice «deposito bagagli disponibile»: chiedere all'host per le 13:30 del 6/11. Il telefono dell'host e il codice di conferma sono nell'app (solo sul telefono).
 app: https://www.airbnb.it/trips
 maps: 2-13-5 Okubo, Shinjuku City, Tokyo
 

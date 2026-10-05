@@ -3,7 +3,7 @@
    Per provare un'ora diversa: aggiungere ?ora=2026-11-11T10:00+09:00 all'indirizzo. */
 (function () {
   "use strict";
-  var APP_V = "17"; // uguale al numero di VERSION in sw.js
+  var APP_V = "18"; // uguale al numero di VERSION in sw.js
 
   var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", roma: "Roma" };
   var TYPE = {
@@ -649,37 +649,46 @@
   }
   // ---------- codici di prenotazione: SOLO su questo telefono (localStorage), mai nel sito pubblico ----------
   function codes() { return store("codes") || {}; }
-  function fmtConf(c) { var d = String(c).replace(/\D/g, ""); return d.length === 10 ? d.slice(0, 4) + "." + d.slice(4, 7) + "." + d.slice(7) : d; }
+  function fmtConf(c) {
+    if (/[a-z]/i.test(c)) return String(c).toUpperCase();
+    var d = String(c).replace(/\D/g, ""); return d.length === 10 ? d.slice(0, 4) + "." + d.slice(4, 7) + "." + d.slice(7) : d;
+  }
   function codesHtml(h) {
-    if (!/booking/.test(h.app || "")) return "";
-    var c = codes()[h.id];
+    if (!/booking|airbnb/.test(h.app || "")) return "";
+    var c = codes()[h.id], air = /airbnb/.test(h.app), brand = air ? "Airbnb" : "Booking";
     if (S.codeEdit === h.id) {
-      return '<div class="codes"><b>Codici Booking</b><label>N. di conferma<input id="cc-conf" inputmode="numeric" autocomplete="off" value="' + esc(c ? fmtConf(c.conf) : "") + '"></label>' +
-        '<label>PIN<input id="cc-pin" inputmode="numeric" autocomplete="off" value="' + esc(c ? c.pin : "") + '"></label>' +
+      return '<div class="codes"><b>Codici ' + brand + '</b><label>' + (air ? "Codice di conferma" : "N. di conferma") + '<input id="cc-conf" ' + (air ? 'autocapitalize="characters"' : 'inputmode="numeric"') + ' autocomplete="off" value="' + esc(c ? fmtConf(c.conf) : "") + '"></label>' +
+        (air ? '<label>Telefono dell\'host<input id="cc-tel" inputmode="tel" autocomplete="off" value="' + esc(c && c.tel || "") + '"></label>'
+          : '<label>PIN<input id="cc-pin" inputmode="numeric" autocomplete="off" value="' + esc(c ? c.pin : "") + '"></label>') +
         '<div class="btns"><button type="button" class="btn go" data-codes-save="' + esc(h.id) + '">Salva sul telefono</button><button type="button" class="btn" data-codes-cancel="1">Annulla</button>' +
         (c ? '<button type="button" class="btn" data-codes-del="' + esc(h.id) + '">Cancella</button>' : "") + "</div>" +
         '<small>Restano solo su questo telefono: non vanno sul sito, che è pubblico.</small></div>';
     }
-    if (!c) return '<div class="codes empty"><span>' + icon("ticket") + 'Numero di conferma e PIN non salvati su questo telefono</span><button type="button" class="btn small" data-codes-edit="' + esc(h.id) + '">Aggiungi</button></div>';
-    return '<div class="codes"><b>' + icon("ticket") + "Codici Booking <small>(solo su questo telefono)</small></b>" +
-      '<div class="crow"><span>N. di conferma</span><b class="num">' + esc(fmtConf(c.conf)) + '</b><button type="button" class="btn small" data-copy="' + esc(String(c.conf).replace(/\D/g, "")) + '" data-copy-msg="Numero di conferma copiato">' + icon("copy") + "</button></div>" +
-      '<div class="crow"><span>PIN</span><b class="num">' + esc(c.pin) + '</b><button type="button" class="btn small" data-copy="' + esc(c.pin) + '" data-copy-msg="PIN copiato">' + icon("copy") + "</button></div>" +
+    if (!c) return '<div class="codes empty"><span>' + icon("ticket") + (air ? "Codice di conferma e telefono dell'host" : "Numero di conferma e PIN") + ' non salvati su questo telefono</span><button type="button" class="btn small" data-codes-edit="' + esc(h.id) + '">Aggiungi</button></div>';
+    return '<div class="codes"><b>' + icon("ticket") + "Codici " + brand + " <small>(solo su questo telefono)</small></b>" +
+      '<div class="crow"><span>' + (air ? "Codice di conferma" : "N. di conferma") + '</span><b class="num">' + esc(fmtConf(c.conf)) + '</b><button type="button" class="btn small" data-copy="' + esc(air ? c.conf : String(c.conf).replace(/\D/g, "")) + '" data-copy-msg="Codice copiato">' + icon("copy") + "</button></div>" +
+      (c.pin ? '<div class="crow"><span>PIN</span><b class="num">' + esc(c.pin) + '</b><button type="button" class="btn small" data-copy="' + esc(c.pin) + '" data-copy-msg="PIN copiato">' + icon("copy") + "</button></div>" : "") +
+      (c.tel ? '<div class="crow"><span>Host</span><b class="num">' + esc(c.tel) + '</b><a class="btn small" href="tel:' + esc(c.tel.replace(/[^\d+]/g, "")) + '">' + icon("phone") + "</a></div>" : "") +
       '<button type="button" class="linkbtn" data-codes-edit="' + esc(h.id) + '">Modifica</button></div>';
   }
   function importCodes(txt) {
     var all = codes(), n = 0;
     String(txt).split(/[\n;]+/).forEach(function (line) {
-      var m = line.trim().match(/^([a-z0-9-]+)\s*[:=]?\s*([\d.\s]{8,})\s+(?:pin\s*)?(\d{3,6})$/i);
-      if (m && HOTELS[m[1]]) { all[m[1]] = { conf: m[2].replace(/\D/g, ""), pin: m[3] }; n++; }
+      var tel = null, l = line.trim().replace(/\s+tel[:\s]+(\+?[\d\s-]{8,})$/i, function (_, t) { tel = t.trim(); return ""; });
+      var m = l.match(/^([a-z0-9-]+)\s*[:=]?\s*([\d.]{8,}|[A-Z0-9]{8,12})(?:\s+(?:pin\s*)?(\d{3,6}))?$/i);
+      if (m && HOTELS[m[1]] && (m[3] || /[a-z]/i.test(m[2]))) {
+        var conf = /[a-z]/i.test(m[2]) ? m[2].toUpperCase() : m[2].replace(/\D/g, "");
+        all[m[1]] = { conf: conf, pin: m[3] || "", tel: tel || (all[m[1]] && all[m[1]].tel) || "" }; n++;
+      }
     });
     store("codes", all);
     return n;
   }
   function codesFold() {
-    var list = D.hotels.filter(function (h) { return /booking/.test(h.app || ""); });
+    var list = D.hotels.filter(function (h) { return /booking|airbnb/.test(h.app || ""); });
     var have = list.filter(function (h) { return codes()[h.id]; }).length;
     return fold("codes", "Codici delle prenotazioni" + (have ? " (" + have + "/" + list.length + ")" : ""), "ticket",
-      '<p class="note-s">Numero di conferma e PIN di Booking restano <b>solo su questo telefono</b>: il sito è pubblico e con quei codici chiunque potrebbe modificare o cancellare la prenotazione. Ognuno li inserisce sul proprio telefono.</p>' +
+      '<p class="note-s">Codici di conferma, PIN e telefono dell\'host restano <b>solo su questo telefono</b>: il sito è pubblico e con quei codici chiunque potrebbe modificare o cancellare la prenotazione. Ognuno li inserisce sul proprio telefono.</p>' +
       list.map(function (h) { var c = codes()[h.id]; return '<div class="money-row"><span>' + esc(h.name) + "<small>" + esc(dm(h.in)) + "–" + esc(dm(h.out)) + "</small></span><b>" + (c ? "salvati" : "—") + "</b></div>"; }).join("") +
       '<label class="imp">Incolla qui i codici ricevuti (una riga per hotel)<textarea id="cc-import" rows="4" autocomplete="off" spellcheck="false" placeholder="saibo 1234567890 0000"></textarea></label>' +
       '<div class="btns"><button type="button" class="btn go" data-codes-import="1">Salva sul telefono</button></div>');
@@ -986,9 +995,11 @@
     if (ds.codesCancel) { S.codeEdit = null; var y1 = window.scrollY; render(true); window.scrollTo(0, y1); return; }
     if (ds.codesDel) { var cd0 = codes(); delete cd0[ds.codesDel]; store("codes", cd0); S.codeEdit = null; var y2 = window.scrollY; render(true); window.scrollTo(0, y2); return; }
     if (ds.codesSave) {
-      var cf = (document.getElementById("cc-conf").value || "").replace(/\D/g, ""), pn = (document.getElementById("cc-pin").value || "").replace(/\D/g, "");
-      if (cf.length < 8 || pn.length < 3) { toast("Controlla numero e PIN"); return; }
-      var cd1 = codes(); cd1[ds.codesSave] = { conf: cf, pin: pn }; store("codes", cd1); S.codeEdit = null;
+      var pinEl = document.getElementById("cc-pin"), telEl = document.getElementById("cc-tel"), raw = (document.getElementById("cc-conf").value || "").trim();
+      var cf = /[a-z]/i.test(raw) ? raw.replace(/[^a-z0-9]/gi, "").toUpperCase() : raw.replace(/\D/g, "");
+      var pn = pinEl ? (pinEl.value || "").replace(/\D/g, "") : "", tl = telEl ? (telEl.value || "").trim() : "";
+      if (cf.length < 8 || (pinEl && pn.length < 3)) { toast("Controlla i codici"); return; }
+      var cd1 = codes(); cd1[ds.codesSave] = { conf: cf, pin: pn, tel: tl }; store("codes", cd1); S.codeEdit = null;
       var y3 = window.scrollY; render(true); window.scrollTo(0, y3); toast("Salvati solo su questo telefono"); return;
     }
     if (ds.codesImport) {
