@@ -548,3 +548,28 @@ body.noscroll { overflow: hidden; }
 .grpsep b { font-weight: 800; }
 .grpsep .ic { width: 18px; height: 18px; }
 .grpsep.off { color: var(--muted); background: transparent; border-color: var(--line); }
+
+/* codici di prenotazione (solo sul telefono) */
+.codes { margin-top: 4px; padding-top: 10px; border-top: 1px solid var(--line); display: grid; gap: 8px; font-size: 14.5px; }
+.codes > b { display: flex; align-items: center; gap: 6px; }
+.codes > b .ic { width: 17px; height: 17px; color: var(--blue); }
+.codes > b small { font-weight: 500; color: var(--muted); }
+.codes .crow { display: grid; grid-template-columns: 1fr auto auto; gap: 10px; align-items: center; }
+.codes .crow span { color: var(--muted); }
+.codes .crow b { font-size: 17px; letter-spacing: .03em; }
+.codes .crow .btn { min-height: 34px; padding: 6px 9px; }
+.codes .crow .btn .ic { width: 16px; height: 16px; }
+.codes.empty { grid-template-columns: 1fr auto; align-items: center; color: var(--muted); }
+.codes.empty span { display: flex; gap: 6px; align-items: center; }
+.codes.empty .ic { width: 16px; height: 16px; }
+.codes label, .imp { display: grid; gap: 4px; font-size: 13px; color: var(--muted); font-weight: 600; }
+.codes input, .imp textarea {
+  font: inherit; font-size: 17px; padding: 9px 11px; border-radius: 10px; border: 1px solid var(--line);
+  background: var(--card); color: var(--ink); width: 100%; min-width: 0;
+}
+.imp textarea { font-size: 15px; resize: vertical; }
+.codes small { color: var(--muted); font-size: 12.5px; }
+.linkbtn { border: 0; background: none; color: var(--blue); font-weight: 600; padding: 0; justify-self: start; cursor: pointer; font-size: 14px; }
+.money-row { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-top: 1px solid var(--line); font-size: 15px; }
+.money-row small { display: block; color: var(--muted); font-size: 13px; }
+.money-row b { white-space: nowrap; }

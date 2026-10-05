@@ -3,7 +3,7 @@
    Per provare un'ora diversa: aggiungere ?ora=2026-11-11T10:00+09:00 all'indirizzo. */
 (function () {
   "use strict";
-  var APP_V = "16"; // uguale al numero di VERSION in sw.js
+  var APP_V = "17"; // uguale al numero di VERSION in sw.js
 
   var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", roma: "Roma" };
   var TYPE = {
@@ -447,7 +447,7 @@
     });
     h += "</div>";
 
-    h += '<div class="extras">' + tourHtml(i) + tipsHtml(d) + moneyHtml() + rulesHtml() + "</div>";
+    h += '<div class="extras">' + tourHtml(i) + tipsHtml(d) + moneyHtml() + codesFold() + rulesHtml() + "</div>";
     h += '<div class="legend" aria-label="Legenda">' + Object.keys(TYPE).map(function (k) {
       return '<span style="--tc:var(--t-' + k + ')"><i></i>' + TYPE[k].n + "</span>";
     }).join("") + '<span class="lg-bad"><i></i>Da prenotare o sistemare</span></div>';
@@ -640,10 +640,49 @@
   function hotelBox(h) {
     return '<div class="infobox hotelbox"><span class="ttl2">' + esc(h.name) + '</span><p class="who' + (hotelMine(h) ? "" : " grp") + '">' + icon(hotelMine(h) ? "bed" : "users") + "<span>" + esc(hotelWho(h)) + "</span></p>" +
       '<dl class="kv"><dt>Notti</dt><dd>' + esc(hotelNights(h)) + "</dd>" +
+      (h.room ? "<dt>Camera</dt><dd>" + esc(h.room) + "</dd>" : "") +
       (h.address ? "<dt>Indirizzo</dt><dd>" + esc(h.address) + "</dd>" : "") + (h.access ? "<dt>Come si arriva</dt><dd>" + esc(h.access) + "</dd>" : "") +
+      (h.phone ? '<dt>Telefono</dt><dd><a class="inl" href="tel:' + esc(h.phone.replace(/\s/g, "")) + '">' + esc(h.phone) + "</a></dd>" : "") +
       (h.hours ? "<dt>Orari</dt><dd>" + esc(h.hours) + "</dd>" : "") +
       "<dt>Pagamento</dt><dd>" + esc(hotelPayText(h)) + "</dd>" + (h.cancel ? "<dt>Cancellazione</dt><dd>" + esc(h.cancel) + "</dd>" : "") +
-      (h.note ? "<dt>Note</dt><dd>" + esc(h.note) + "</dd>" : "") + "</dl></div>";
+      (h.note ? "<dt>Note</dt><dd>" + esc(h.note) + "</dd>" : "") + "</dl>" + codesHtml(h) + "</div>";
+  }
+  // ---------- codici di prenotazione: SOLO su questo telefono (localStorage), mai nel sito pubblico ----------
+  function codes() { return store("codes") || {}; }
+  function fmtConf(c) { var d = String(c).replace(/\D/g, ""); return d.length === 10 ? d.slice(0, 4) + "." + d.slice(4, 7) + "." + d.slice(7) : d; }
+  function codesHtml(h) {
+    if (!/booking/.test(h.app || "")) return "";
+    var c = codes()[h.id];
+    if (S.codeEdit === h.id) {
+      return '<div class="codes"><b>Codici Booking</b><label>N. di conferma<input id="cc-conf" inputmode="numeric" autocomplete="off" value="' + esc(c ? fmtConf(c.conf) : "") + '"></label>' +
+        '<label>PIN<input id="cc-pin" inputmode="numeric" autocomplete="off" value="' + esc(c ? c.pin : "") + '"></label>' +
+        '<div class="btns"><button type="button" class="btn go" data-codes-save="' + esc(h.id) + '">Salva sul telefono</button><button type="button" class="btn" data-codes-cancel="1">Annulla</button>' +
+        (c ? '<button type="button" class="btn" data-codes-del="' + esc(h.id) + '">Cancella</button>' : "") + "</div>" +
+        '<small>Restano solo su questo telefono: non vanno sul sito, che è pubblico.</small></div>';
+    }
+    if (!c) return '<div class="codes empty"><span>' + icon("ticket") + 'Numero di conferma e PIN non salvati su questo telefono</span><button type="button" class="btn small" data-codes-edit="' + esc(h.id) + '">Aggiungi</button></div>';
+    return '<div class="codes"><b>' + icon("ticket") + "Codici Booking <small>(solo su questo telefono)</small></b>" +
+      '<div class="crow"><span>N. di conferma</span><b class="num">' + esc(fmtConf(c.conf)) + '</b><button type="button" class="btn small" data-copy="' + esc(String(c.conf).replace(/\D/g, "")) + '" data-copy-msg="Numero di conferma copiato">' + icon("copy") + "</button></div>" +
+      '<div class="crow"><span>PIN</span><b class="num">' + esc(c.pin) + '</b><button type="button" class="btn small" data-copy="' + esc(c.pin) + '" data-copy-msg="PIN copiato">' + icon("copy") + "</button></div>" +
+      '<button type="button" class="linkbtn" data-codes-edit="' + esc(h.id) + '">Modifica</button></div>';
+  }
+  function importCodes(txt) {
+    var all = codes(), n = 0;
+    String(txt).split(/[\n;]+/).forEach(function (line) {
+      var m = line.trim().match(/^([a-z0-9-]+)\s*[:=]?\s*([\d.\s]{8,})\s+(?:pin\s*)?(\d{3,6})$/i);
+      if (m && HOTELS[m[1]]) { all[m[1]] = { conf: m[2].replace(/\D/g, ""), pin: m[3] }; n++; }
+    });
+    store("codes", all);
+    return n;
+  }
+  function codesFold() {
+    var list = D.hotels.filter(function (h) { return /booking/.test(h.app || ""); });
+    var have = list.filter(function (h) { return codes()[h.id]; }).length;
+    return fold("codes", "Codici delle prenotazioni" + (have ? " (" + have + "/" + list.length + ")" : ""), "ticket",
+      '<p class="note-s">Numero di conferma e PIN di Booking restano <b>solo su questo telefono</b>: il sito è pubblico e con quei codici chiunque potrebbe modificare o cancellare la prenotazione. Ognuno li inserisce sul proprio telefono.</p>' +
+      list.map(function (h) { var c = codes()[h.id]; return '<div class="money-row"><span>' + esc(h.name) + "<small>" + esc(dm(h.in)) + "–" + esc(dm(h.out)) + "</small></span><b>" + (c ? "salvati" : "—") + "</b></div>"; }).join("") +
+      '<label class="imp">Incolla qui i codici ricevuti (una riga per hotel)<textarea id="cc-import" rows="4" autocomplete="off" spellcheck="false" placeholder="saibo 1234567890 0000"></textarea></label>' +
+      '<div class="btns"><button type="button" class="btn go" data-codes-import="1">Salva sul telefono</button></div>');
   }
   function hotelPayText(h) {
     if (h.paid === "sì") return "Pagato" + (h.payer ? " da " + h.payer : "") + " · " + h.price;
@@ -943,6 +982,20 @@
       D.days[S.day].items.forEach(function (it, k) { if (!it.merged && stateOf(S.day, k) !== "past" && needs(it)) { S.open[S.day + "-" + k] = true; if (!first) first = "s-" + S.day + "-" + k; } });
       render(true); if (first) scrollToId(first); return;
     }
+    if (ds.codesEdit) { S.codeEdit = ds.codesEdit; var y0 = window.scrollY; render(true); window.scrollTo(0, y0); return; }
+    if (ds.codesCancel) { S.codeEdit = null; var y1 = window.scrollY; render(true); window.scrollTo(0, y1); return; }
+    if (ds.codesDel) { var cd0 = codes(); delete cd0[ds.codesDel]; store("codes", cd0); S.codeEdit = null; var y2 = window.scrollY; render(true); window.scrollTo(0, y2); return; }
+    if (ds.codesSave) {
+      var cf = (document.getElementById("cc-conf").value || "").replace(/\D/g, ""), pn = (document.getElementById("cc-pin").value || "").replace(/\D/g, "");
+      if (cf.length < 8 || pn.length < 3) { toast("Controlla numero e PIN"); return; }
+      var cd1 = codes(); cd1[ds.codesSave] = { conf: cf, pin: pn }; store("codes", cd1); S.codeEdit = null;
+      var y3 = window.scrollY; render(true); window.scrollTo(0, y3); toast("Salvati solo su questo telefono"); return;
+    }
+    if (ds.codesImport) {
+      var n = importCodes(document.getElementById("cc-import").value);
+      var y4 = window.scrollY; render(true); window.scrollTo(0, y4);
+      toast(n ? n + (n === 1 ? " hotel salvato" : " hotel salvati") + " sul telefono" : "Nessun codice riconosciuto"); return;
+    }
     if (ds.sleep) {
       S.sleep = !S.sleep; t.setAttribute("aria-expanded", S.sleep);
       var sb = document.getElementById("sleepbox"); if (sb) sb.hidden = !S.sleep;
@@ -957,7 +1010,8 @@
     if (ds.yen) { document.getElementById("yen").value = ds.yen; conv("yen"); return; }
     if (ds.copy) {
       var txt = ds.copy;
-      if (navigator.clipboard) navigator.clipboard.writeText(txt).then(function () { toast("Indirizzo copiato"); }, function () {});
+      var msg = ds.copyMsg || "Indirizzo copiato";
+      if (navigator.clipboard) navigator.clipboard.writeText(txt).then(function () { toast(msg); }, function () {});
     }
   });
   document.addEventListener("input", function (ev) {

@@ -45,6 +45,7 @@ Regole di Federico:
 - Giornate troppo piene: si toglie la cosa meno utile.
 - Ogni posto con link diretto (Tripadvisor, o la piattaforma più nota); link verificati, mai inventati.
 - Il sito è pubblico: mai link di conferma, numeri di prenotazione, PIN, numeri di passaporto o dati di pagamento.
+  Numero di conferma e PIN di Booking: solo nell'app sul telefono (riquadro «Codici delle prenotazioni», salvati in locale), mai qui.
 - App: poco testo a colpo d'occhio (titolo corto + dettagli a scomparsa), niente simboli giapponesi.
   Un posto = una sola riga: lo spostamento per arrivarci sta dentro la tappa. «Indicazioni» = da dove sei a lì,
   senza mezzo preimpostato. Ogni mattina si parte dall'hotel. Deposito e ritiro valigie sempre come tappe esplicite.
@@ -71,6 +72,7 @@ Già verificato (non riproporre):
 - Super Potato di Osaka = negozio Otaroad a Nipponbashi (Den Den Town).
 - Shibuya Sky: biglietti 2 settimane prima alle 00:00 giapponesi. Bus Nōhi per Shirakawa-go: prenotazioni 1 mese prima.
 - Le coordinate dei posti non sono disponibili: la mappa del sito usa ricerche Google Maps.
+- Conferme Booking lette il 5/10: tutte le 5 camere hanno 1 letto alla francese (131–150 cm) per 2 adulti; cancellazioni e telefoni aggiornati negli Alloggi.
 - Pagamenti (dalle email di conferma, 3/10): hotel, Airbnb e treni Klook li ha prenotati Federico per 2 persone.
   Klook: pagati il 7/9, i biglietti vengono confermati quando apre la vendita ufficiale (un mese prima).
   Booking: Super Hotel già pagato; gli altri li addebita Booking sulla carta. I prezzi veri degli hotel sono in yen.
@@ -1061,11 +1063,13 @@ pagato: no
 pagato da: Federico
 diviso: sì
 pagamento: Booking addebita da solo sulla carta
-cancellazione: gratuita fino al 7/11
+cancellazione: gratuita fino al 7/11 alle 23:59, poi nessun rimborso
 indirizzo: Nihonbashi Ningyōchō 3-3-16, Chūō-ku, Tokyo
 arrivo: Ningyōchō (metro Hibiya / Toei Asakusa) a piedi 2′ · Hamachō (metro Toei Shinjuku) a piedi 6′
+telefono: +81 3 3668 2323
+camera: Matrimoniale standard, 1 letto alla francese (131–150 cm), non fumatori
 orari: Check-in 15:00–24:00 · check-out entro le 10:00 · deposito bagagli
-nota: Colazione non inclusa (¥1.500 a testa). Tassa di soggiorno da pagare in hotel.
+nota: Colazione non inclusa (¥1.500 a testa). Tassa di soggiorno da pagare in hotel. L'hotel chiede di comunicare in anticipo l'ora d'arrivo (9/11 verso le 16:45).
 app: https://secure.booking.com/mytrips.html
 maps: Hotel Nihonbashi Saibo, Ningyocho, Tokyo
 
@@ -1080,11 +1084,13 @@ pagato: no
 pagato da: Federico
 diviso: sì
 pagamento: Booking addebita da solo sulla carta
-cancellazione: gratuita fino all'8/11
+cancellazione: gratuita fino all'8/11 alle 23:59, poi rimborso di €207,43 (si perde la prima notte)
 indirizzo: Aburanokōji, Shiokōji-dōri, Shimogyō-ku, Kyoto
 arrivo: Stazione di Kyoto, uscita Central, a piedi 7′ · metro Karasuma uscita C7 a piedi 5′
+telefono: +81 75 341 6111
+camera: Doppia, 1 letto alla francese (131–150 cm), non fumatori
 orari: Check-in dalle 15:00 · check-out entro le 10:00 · deposito bagagli
-nota: Colazione non inclusa (¥1.800 a testa). Bagno pubblico interno 6–10 e 15–1.
+nota: Colazione non inclusa (¥1.800 a testa, 6:30–10:00, ultimo ordine 9:30). Bagno pubblico interno 6–10 e 15–1 (con tatuaggi visibili può essere vietato). Su Booking risulta arrivo tra le 21 e le 22, ma arrivate verso le 22:30: aggiornatelo.
 app: https://secure.booking.com/mytrips.html
 maps: APA Hotel Kyoto Eki Horikawadori
 
@@ -1098,11 +1104,13 @@ yen: 55566
 pagato: no
 pagato da: Federico
 diviso: sì
-pagamento: Booking addebita da solo sulla carta · in hotel ¥600 di tassa delle terme
-cancellazione: gratuita fino al 10/11
+pagamento: Booking addebita da solo sulla carta (¥56.166 con la tassa delle terme) · tassa di soggiorno in hotel
+cancellazione: gratuita fino al 10/11 alle 23:59, poi rimborso di €164,42 (si perde la prima notte)
 indirizzo: Nadamachi 5-41, Takayama (Gifu)
 arrivo: Stazione di Takayama a piedi 3′ · bus Nōhi accanto alla stazione
-orari: Check-in 15:00–23:00 · check-out entro le 10:00 · onsen sul tetto fino all'1:00
+telefono: +81 577 33 0033
+camera: Matrimoniale standard, 1 letto alla francese (131–150 cm), non fumatori
+orari: Check-in 15:00–23:00 · check-out 5:00–10:00 · onsen sul tetto fino all'1:00
 nota: Colazione inclusa. Con tatuaggi visibili l'onsen può essere vietato.
 app: https://secure.booking.com/mytrips.html
 maps: Spa Hotel Alpina Hida Takayama
@@ -1118,11 +1126,13 @@ pagato: no
 pagato da: Federico
 diviso: sì
 pagamento: Booking addebita da solo sulla carta
-cancellazione: gratuita fino all'11/11
+cancellazione: gratuita fino all'11/11 alle 23:59, poi nessun rimborso
 indirizzo: Higashi-Shinsaibashi 1-17-11, Chūō-ku, Osaka
 arrivo: Shinsaibashi (metro Midōsuji) a piedi 4′ · Nagahoribashi a piedi 7′
+telefono: +81 6 6281 8000
+camera: Matrimoniale standard, 1 letto alla francese (131–150 cm), non fumatori
 orari: Check-in dalle 15:00 · check-out entro le 10:00 · deposito bagagli
-nota: Colazione inclusa. Tassa di soggiorno da pagare in hotel.
+nota: Colazione inclusa. Tassa di soggiorno da pagare in hotel. Wi-Fi solo nelle aree comuni.
 app: https://secure.booking.com/mytrips.html
 maps: Hotel Hillarys Shinsaibashi, Osaka
 
@@ -1137,9 +1147,11 @@ pagato: sì
 pagato da: Federico
 diviso: sì
 pagamento: pagato il 28/7
-cancellazione: gratuita fino al 14/11
+cancellazione: gratuita fino al 14/11 alle 23:59, poi nessun rimborso
 indirizzo: Hamamatsuchō 2-2-1, Minato-ku, Tokyo
 arrivo: JR Hamamatsuchō a piedi 4′ · Daimon (metro Ōedo / Toei Asakusa) a piedi 2′ · monorotaia per Haneda
+telefono: +81 3 6361 9000
+camera: Assegnata all'arrivo, 1 letto alla francese (131–150 cm)
 orari: Check-in 15:00–24:00 · check-out entro le 10:00
 nota: Colazione inclusa. Sulla fattura dell'hotel comparirà ¥51.062 (lo sconto Booking non viene mostrato). Tassa di soggiorno a parte.
 app: https://secure.booking.com/mytrips.html
@@ -1399,7 +1411,7 @@ giorno: 2026-11-10
 quando: prima della partenza
 link: https://secure.booking.com/mytrips.html
 priorità: media
-nota: Check-out alle 6:30, ritiro verso le 18:40, prima dello Shinkansen delle 20:09.
+nota: Check-out alle 6:30, ritiro verso le 18:40, prima dello Shinkansen delle 20:09. Nello stesso messaggio dite anche l'ora d'arrivo del 9/11 (verso le 16:45): l'hotel la chiede. Si scrive dall'app Booking, nella chat con la struttura.
 
 ### hotel-carta
 cosa: Controllare la carta su Booking per gli addebiti degli hotel
@@ -1455,6 +1467,16 @@ entro: 2026-11-04
 quando: prima della partenza
 priorità: media
 nota: Solo contanti in molti posti: Hoto Fudo, Monkey Park, Tsukiji, Golden Gai, banchi di street food.
+
+### apa-arrivo
+tappa: 2026-11-10 22:30
+cosa: APA Hotel Kyoto: aggiornare l'ora d'arrivo (verso le 22:30)
+tipo: gestire
+giorno: 2026-11-10
+quando: prima della partenza
+link: App Booking = https://secure.booking.com/mytrips.html
+priorità: bassa
+nota: Su Booking c'è scritto arrivo tra le 21 e le 22, ma lo Shinkansen arriva a Kyoto alle 22:21. Basta un messaggio alla struttura dall'app Booking.
 
 ## Budget
 

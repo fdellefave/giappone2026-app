@@ -152,7 +152,8 @@ def parse_hotels(lines):
             "paid": paid, "payer": f.get("pagato da", ""), "shared": f.get("diviso", "no") == "sì",
             "payment": f.get("pagamento", ""), "cancel": f.get("cancellazione", ""), "note": f.get("nota", ""),
             "address": f.get("indirizzo", ""), "access": f.get("arrivo", ""), "hours": f.get("orari", ""),
-            "app": f.get("app"), "q": f.get("maps", f.get("nome", hid)),
+            "app": f.get("app"), "q": f.get("maps", f.get("nome", hid)), "phone": f.get("telefono", ""),
+            "room": f.get("camera", ""),
         }
     return hotels
 
