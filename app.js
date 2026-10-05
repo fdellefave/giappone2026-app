@@ -3,7 +3,7 @@
    Per provare un'ora diversa: aggiungere ?ora=2026-11-11T10:00+09:00 all'indirizzo. */
 (function () {
   "use strict";
-  var APP_V = "19"; // uguale al numero di VERSION in sw.js
+  var APP_V = "20"; // uguale al numero di VERSION in sw.js
 
   var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", roma: "Roma" };
   var TYPE = {
@@ -19,7 +19,9 @@
   var WD3 = ["Dom", "Lun", "Mar", "Mer", "Gio", "Ven", "Sab"];
 
   var D = null, RATE = 185, TL = [], TRAINS = {}, HOTELS = {}, TODO = {}, USED = {};
-  var S = { day: 0, open: {}, fold: {}, q: "", searching: false };
+  var S = { day: 0, open: {}, fold: {}, q: "", searching: false, menu: null };
+  var PREF = (function () { var p = {}; try { p = JSON.parse(localStorage.getItem("g26:prefs") || "{}") || {}; } catch (e) {}
+    return { maps: p.maps || "google", theme: p.theme || "auto", size: p.size || "m", openNow: p.openNow !== false }; })();
   var PHOTO = store("photos") || {}; // titolo Wikipedia → indirizzo della miniatura ("" = nessuna foto)
   var view = document.getElementById("view");
   var lastHidden = 0;
@@ -40,9 +42,9 @@
   function link(href, label, cls, ic) {
     return '<a class="btn ' + (cls || "") + '" href="' + esc(href) + '" target="_blank" rel="noopener">' + (ic ? icon(ic) : "") + "<span>" + label + "</span></a>";
   }
-  function mapsQ(q) { return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q); }
+  function mapsQ(q) { return PREF.maps === "apple" ? "https://maps.apple.com/?q=" + encodeURIComponent(q) : "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q); }
   // Indicazioni da dove siete fino a q: il mezzo (a piedi, mezzi, taxi) lo scegliete in Google Maps.
-  function goto(q) { return "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(q); }
+  function goto(q) { return PREF.maps === "apple" ? "https://maps.apple.com/?daddr=" + encodeURIComponent(q) : "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(q); }
   function yen(n) { return "¥" + Math.round(n).toLocaleString("it-IT"); }
   function cityVar(c) { return "var(--" + (CITY[c] ? c : "roma") + ")"; }
   function shortName(n) { return String(n).replace(/\s*\([^)]*\)\s*$/, ""); }
@@ -435,7 +437,7 @@
     var h = topBar(i) + dayHead(i);
     if (ph === "live" && i === cd) h += nowCard();
     if (ph === "after" && i === D.days.length - 1) h += '<div class="nowcard"><span class="lab">Viaggio finito</span><span class="big">Bentornati!</span></div>';
-    if (!store("hinted")) h += '<p class="hint">' + icon("info") + "<span>Tocca una tappa per foto, dettagli e indicazioni. Scorri il dito a destra o a sinistra per cambiare giorno. Con «Cerca» in basso a destra trovi qualsiasi cosa.</span></p>";
+    if (!store("hinted")) h += '<p class="hint">' + icon("info") + "<span>Tocca una tappa per foto, dettagli e indicazioni. Scorri il dito a destra o a sinistra per cambiare giorno. In basso a destra: la lente cerca qualsiasi cosa, i tre puntini aprono prenotazioni, cambio, codici e impostazioni.</span></p>";
 
     h += '<div class="plan">';
     var zh = zoneHeads(i), prevG = null;
@@ -447,23 +449,22 @@
     });
     h += "</div>";
 
-    h += '<div class="extras">' + tourHtml(i) + tipsHtml(d) + moneyHtml() + codesFold() + rulesHtml() + "</div>";
+    h += '<div class="extras">' + tourHtml(i) + tipsHtml(d) + "</div>";
     h += '<div class="legend" aria-label="Legenda">' + Object.keys(TYPE).map(function (k) {
       return '<span style="--tc:var(--t-' + k + ')"><i></i>' + TYPE[k].n + "</span>";
     }).join("") + '<span class="lg-bad"><i></i>Da prenotare o sistemare</span></div>';
     h += '<p class="foot-note">Versione ' + APP_V + " · dati del " + esc(D.generated || "") + "</p>";
     view.innerHTML = h;
-    if (!document.getElementById("fab")) {
-      var fab = document.createElement("button");
-      fab.id = "fab"; fab.type = "button"; fab.className = "fab"; fab.setAttribute("data-search", "1"); fab.setAttribute("aria-label", "Cerca");
-      fab.innerHTML = icon("search") + "<span>Cerca</span>";
-      document.body.appendChild(fab);
+    if (!document.getElementById("fabs")) {
+      var fb = document.createElement("div");
+      fb.id = "fabs"; fb.className = "fabs";
+      fb.innerHTML = '<button type="button" class="gbtn" data-menu="1" aria-label="Menu">' + icon("more") + '</button><button type="button" class="gbtn" data-search="1" aria-label="Cerca">' + icon("search") + "</button>";
+      document.body.appendChild(fb);
     }
     if (!keepScroll) window.scrollTo(0, 0);
     var chip = view.querySelector('.daychip[aria-pressed="true"]');
     var strip = view.querySelector(".daystrip");
     if (chip && strip) strip.scrollLeft = chip.offsetLeft - strip.clientWidth / 2 + chip.clientWidth / 2;
-    if (S.fold.money) conv("yen");
     onScroll();
     store("state", { day: S.day });
   }
@@ -593,7 +594,7 @@
       if (p.ta) b += link(p.ta, "Tripadvisor", "", "star");
       if (p.tabelog) b += link(p.tabelog, "Tabelog" + (p.score ? " " + esc(p.score) : ""), "", "star");
       if (p.web && !p.ta && !p.tabelog) b += link(p.web, "Sito ufficiale", "", "ext");
-      if (!p.ta && !p.tabelog && !p.web) b += link(p.maps, "Apri in Maps", "", "pin");
+      if (!p.ta && !p.tabelog && !p.web) b += link(mapsQ(p.q), "Apri in Mappe", "", "pin");
     }
     if (t && t.link) b += link(t.link, /klook/.test(t.link) ? "Biglietto Klook" : "Prenota", "", "ticket");
     if (showHo) {
@@ -684,15 +685,6 @@
     store("codes", all);
     return n;
   }
-  function codesFold() {
-    var list = D.hotels.filter(function (h) { return /booking|airbnb/.test(h.app || ""); });
-    var have = list.filter(function (h) { return codes()[h.id]; }).length;
-    return fold("codes", "Codici delle prenotazioni" + (have ? " (" + have + "/" + list.length + ")" : ""), "ticket",
-      '<p class="note-s">Codici di conferma, PIN e telefono dell\'host restano <b>solo su questo telefono</b>: il sito è pubblico e con quei codici chiunque potrebbe modificare o cancellare la prenotazione. Ognuno li inserisce sul proprio telefono.</p>' +
-      list.map(function (h) { var c = codes()[h.id]; return '<div class="money-row"><span>' + esc(h.name) + "<small>" + esc(dm(h.in)) + "–" + esc(dm(h.out)) + "</small></span><b>" + (c ? "salvati" : "—") + "</b></div>"; }).join("") +
-      '<label class="imp">Incolla qui i codici ricevuti (una riga per hotel)<textarea id="cc-import" rows="4" autocomplete="off" spellcheck="false" placeholder="saibo 1234567890 0000"></textarea></label>' +
-      '<div class="btns"><button type="button" class="btn go" data-codes-import="1">Salva sul telefono</button></div>');
-  }
   function hotelPayText(h) {
     if (h.paid === "sì") return "Pagato" + (h.payer ? " da " + h.payer : "") + " · " + h.price;
     if (h.paid === "gruppo") return h.payment || "Quota del gruppo";
@@ -710,22 +702,6 @@
     var secs = GUIDE.filter(function (x) { return g[x[0]]; });
     if (!secs.length) return "";
     return fold("tips", "Consigli per la giornata", "sparkles", secs.map(function (x) { return "<div><h3>" + esc(x[1]) + "</h3>" + bulletsHtml(g[x[0]]) + "</div>"; }).join(""));
-  }
-  function moneyHtml() {
-    return fold("money", "Yen ↔ euro", "yen", '<p class="note-s">Cambio fisso del viaggio: 1 € ≈ ' + RATE + " ¥.</p>" +
-      '<div class="conv-row"><span class="cur">¥</span><input id="yen" inputmode="decimal" value="1000" aria-label="Yen"></div>' +
-      '<div class="conv-row"><span class="cur">€</span><input id="eur" inputmode="decimal" aria-label="Euro"></div>' +
-      '<div class="btns">' + [500, 1000, 3000, 5000, 10000].map(function (y) { return '<button type="button" class="btn small" data-yen="' + y + '">' + yen(y) + "</button>"; }).join("") + "</div>");
-  }
-  function rulesHtml() {
-    return fold("rules", "Numeri utili e regole", "phone",
-      '<div><h3>Emergenze</h3><p><a class="inl" href="tel:110">110</a> polizia · <a class="inl" href="tel:119">119</a> ambulanza e pompieri · ' +
-      '<a class="inl" href="' + esc(mapsQ("Ambasciata d'Italia Tokyo")) + '" target="_blank" rel="noopener">Ambasciata d\'Italia a Tokyo</a></p></div>' +
-      "<div><h3>Soldi</h3><p>Molti locali piccoli, mercati, templi e sale giochi vogliono contanti. Gli ATM dei konbini (i minimarket, es. 7-Eleven) accettano le carte estere. Le mance non si danno.</p></div>" +
-      "<div><h3>Treni e metro</h3><p>La Suica (la tessera dei trasporti) nel Wallet dell'iPhone vale per metro, treni locali, bus e konbini. Per Shinkansen ed espressi servono i biglietti Klook. Sulle scale mobili a Tokyo si sta a sinistra, a Osaka a destra.</p></div>" +
-      "<div><h3>Valigie</h3><p>Nelle stazioni ci sono armadietti a gettoni o con la Suica: quelli grandi finiscono presto. Gli hotel tengono le valigie prima del check-in e dopo il check-out.</p></div>" +
-      "<div><h3>Templi e terme</h3><p>Nei templi spesso ci si toglie le scarpe. Negli onsen (bagni termali) si entra lavati e nudi, l'asciugamano piccolo non va in acqua; i tatuaggi grandi possono essere un problema.</p></div>" +
-      "<div><h3>Strada</h3><p>I cestini sono rari: tenete un sacchetto. Mangiare camminando è malvisto nelle vie affollate.</p></div>");
   }
   function conv(from) {
     var y = document.getElementById("yen"), e = document.getElementById("eur");
@@ -768,8 +744,201 @@
     var ch = routeChunks(stops);
     return '<div class="tour"><div class="tour-t">' + icon("route") + "<span><b>Tutto il giro di oggi</b><small>" + stops.length +
       " tappe in ordine, dall'hotel del mattino a quello della sera</small></span></div>" + '<div class="btns">' + ch.map(function (x, n) {
-        return link(x.url, ch.length > 1 ? "Parte " + (n + 1) + " (tappe " + x.from + "–" + x.to + ")" : "Apri in Google Maps", "go block", "map");
+        return link(x.url, ch.length > 1 ? "Parte " + (n + 1) + " (tappe " + x.from + "–" + x.to + ")" : "Apri in Google Maps" + (PREF.maps === "apple" ? " (più tappe)" : ""), "go block", "map");
       }).join("") + "</div></div>";
+  }
+
+  // ---------- menu (i tre puntini): adesso, prenotazioni, cambio, codici, numeri utili, impostazioni ----------
+  var MENU = [
+    ["todo", "Da prenotare o sistemare", "alert"],
+    ["hotels", "Prenotazioni hotel", "bed"],
+    ["trains", "Treni, bus e voli", "train"],
+    ["acts", "Attività e ristoranti", "ticket"],
+    ["codes", "Codici delle prenotazioni", "copy"],
+    ["money", "Yen ↔ euro", "yen"],
+    ["rules", "Numeri utili e regole", "phone"],
+    ["settings", "Impostazioni", "sparkles"]
+  ];
+  function allOpenTodos() {
+    var out = [];
+    D.todo.forEach(function (t) {
+      if (done(t.id)) return;
+      var a = (t.at && t.at[0]) || null, it = a ? D.days[a.d].items[a.i] : null;
+      if (a && stateOf(a.d, a.i) === "past") return;
+      out.push({ t: t, a: a, it: it });
+    });
+    out.sort(function (x, y) { return (x.a ? D.days[x.a.d].id + x.it.t : "") < (y.a ? D.days[y.a.d].id + y.it.t : "") ? -1 : 1; });
+    return out;
+  }
+  function withWho(it) { return it && it.group ? '<span class="pill grp">' + icon("users") + "Col gruppo</span>" : '<span class="pill muted">' + icon("users") + "Voi due</span>"; }
+  function whereOf(it, d) {
+    var z = it && it.zone && D.zones && D.zones[it.zone];
+    return z ? z.name : CITY[it && it.city] || CITY[d.route[d.route.length - 1]] || "";
+  }
+  function statusHtml() {
+    var ph = phase(), r = partsIn(now(), "Europe/Rome").hm, tk = partsIn(now(), "Asia/Tokyo").hm, n = allOpenTodos().length;
+    var h = '<div class="m-now"><div class="m-clock"><span>' + icon("clock") + "Italia <b class=\"num\">" + r + "</b></span><span>Giappone <b class=\"num\">" + tk + "</b></span></div>";
+    if (ph === "before") {
+      var dd = daysUntil(D.days[0].id, romeToday());
+      h += '<p class="m-big">' + (dd === 0 ? "Si parte oggi!" : dd === 1 ? "Si parte domani" : "Mancano " + dd + " giorni alla partenza") + "</p>" +
+        '<p class="m-sub">Siete a <b>Roma</b>, voi due. Volo giovedì 5/11 alle 15:05 da Fiumicino.</p>';
+    } else if (ph === "after") {
+      h += '<p class="m-big">Viaggio finito</p><p class="m-sub">Bentornati a Roma.</p>';
+    } else {
+      var tg = nowTarget(), d = D.days[tg.d], it = d.items[tg.i], nd = needs(it);
+      h += '<p class="m-sub">' + esc(dLong(d.id)) + " · giorno " + d.n + "</p>" +
+        '<p class="m-big">' + (tg.travel ? "In viaggio verso " : tg.rest ? "Riposo, poi " : "") + esc(it.title) + "</p>" +
+        '<p class="m-sub">' + icon("pin") + esc(whereOf(it, d)) + " · alle " + esc(it.t) + "</p>" +
+        '<div class="pills">' + withWho(it) + (nd ? '<span class="pill todo">' + icon("alert") + (nd === "book" ? "Da prenotare" : "Da sistemare") + "</span>"
+          : it.status === "ok" || it.status === "paid" ? '<span class="pill ok">' + icon("check") + "Prenotato</span>" : "") + "</div>" +
+        '<div class="btns"><button type="button" class="btn small go" data-jump="' + tg.d + "-" + tg.i + '">Vai alla tappa</button></div>';
+    }
+    return h + (n ? '<button type="button" class="m-todo" data-mpage="todo"><span class="nb2">' + n + "</span><span>" + (n === 1 ? "cosa ancora da prenotare o sistemare" : "cose ancora da prenotare o sistemare") + "</span>" + icon("right") + "</button>"
+      : '<p class="m-ok">' + icon("circle-check") + "Tutto prenotato e sistemato</p>") + "</div>";
+  }
+  function stopRef(d, i) { var x = D.days[d], it = x.items[i]; return dShort(x.id) + " · " + it.t; }
+  function findStop(pred) {
+    for (var d = 0; d < D.days.length; d++) for (var i = 0; i < D.days[d].items.length; i++) { var it = D.days[d].items[i]; if (!it.merged && !it.start && pred(it)) return { d: d, i: i, it: it }; }
+    return null;
+  }
+  function bookCard(o) {
+    return '<div class="bk' + (o.red ? " red" : "") + '"><div class="bk-h"><span class="bk-i">' + icon(o.ic) + '</span><span class="bk-t"><b>' + esc(o.title) + "</b><small>" + esc(o.sub) + "</small></span></div>" +
+      (o.lines || []).map(function (l) { return '<p class="bk-l">' + l + "</p>"; }).join("") +
+      (o.pills ? '<div class="pills">' + o.pills + "</div>" : "") +
+      '<div class="btns">' + (o.jump ? '<button type="button" class="btn small go" data-jump="' + o.jump + '">Vai alla tappa</button>' : "") + (o.btns || "") + "</div></div>";
+  }
+  function todoPillsFor(it) {
+    return (it && it.todos || []).filter(function (id) { return !done(id); }).map(function (id) {
+      var t = TODO[id]; return '<span class="pill ' + (t.kind === "prenotare" ? "todo" : "warn") + '">' + icon("alert") + esc(t.kind === "prenotare" ? "Da prenotare" : "Da sistemare") + "</span>" + todoPill(t);
+    }).join("");
+  }
+  function pageHotels() {
+    return D.hotels.slice().sort(function (a, b) { return a.in < b.in ? -1 : 1; }).map(function (h) {
+      var s = findStop(function (it) { return it.hotel === h.id && it.k === "hotel"; }) || findStop(function (it) { return it.hotel === h.id; });
+      var tp = "";
+      D.days.forEach(function (d) { d.items.forEach(function (it) { if (it.hotel === h.id) tp += todoPillsFor(it); }); });
+      var c = codes()[h.id];
+      return bookCard({ ic: hotelMine(h) ? "bed" : "users", title: h.name, sub: hotelNights(h) + " · " + (h.city || ""), red: !!tp,
+        lines: [esc(hotelWho(h)), "<b>Pagamento:</b> " + esc(hotelPayText(h)), h.cancel ? "<b>Cancellazione:</b> " + esc(h.cancel) : "", h.hours ? "<b>Orari:</b> " + esc(h.hours) : ""].filter(Boolean),
+        pills: (hotelMine(h) ? '<span class="pill mine">' + icon("bed") + "Vostro</span>" : '<span class="pill grp">' + icon("users") + "Del gruppo</span>") +
+          (/booking|airbnb/.test(h.app || "") ? (c ? '<span class="pill ok">' + icon("check") + "Codici salvati</span>" : '<span class="pill muted">Codici non salvati</span>') : "") + tp,
+        jump: s ? s.d + "-" + s.i : "", btns: link(goto(h.q), "Indicazioni", "small", "nav") + (h.app ? link(h.app, /airbnb/.test(h.app) ? "App Airbnb" : "App Booking", "small", "ext") : "") });
+    }).join("");
+  }
+  function pageTrains() {
+    var list = D.trains.concat(D.flights || []).slice().sort(function (a, b) { return (a.date + a.time) < (b.date + b.time) ? -1 : 1; });
+    return list.map(function (t) {
+      var s = findStop(function (it) { return it.train === t.id; }), tp = s ? todoPillsFor(s.it) : "";
+      var flight = (D.flights || []).indexOf(t) >= 0;
+      return bookCard({ ic: flight ? "plane" : /bus/i.test(t.line) ? "bus" : "train", title: t.route, sub: (t.date ? dLong(t.date) : "") + (t.time ? " · " + t.time : ""), red: /da comprare/.test(t.status) || !!tp,
+        lines: [esc(t.line), "<b>Biglietto:</b> " + esc(trainState(t)) + (t.price ? " · " + esc(t.price) : "")],
+        pills: (s ? withWho(s.it) : "") + tp, jump: s ? s.d + "-" + s.i : "",
+        btns: t.link ? link(t.link, /klook/.test(t.link) ? "Biglietto Klook" : "Prenota", "small", "ticket") : "" });
+    }).join("");
+  }
+  function pageActs() {
+    var out = [];
+    D.days.forEach(function (d, di) {
+      d.items.forEach(function (it, ii) {
+        if (it.merged || ["vedere", "fare", "cibo"].indexOf(it.k) < 0) return;
+        var book = (it.todos || []).some(function (id) { return TODO[id].kind === "prenotare"; });
+        if (!it.status && !book) return;
+        var nd = stateOf(di, ii) === "past" ? "" : needs(it), first = (it.todos || []).map(function (id) { return TODO[id]; }).filter(function (t) { return t.links && t.links.length; })[0];
+        out.push(bookCard({ ic: itemIcon(it), title: it.title, sub: dShort(d.id) + " · " + it.t + " · " + whereOf(it, d), red: !!nd,
+          lines: it.short ? [esc(it.short)] : [],
+          pills: withWho(it) + (nd ? todoPillsFor(it) : '<span class="pill ok">' + icon("check") + (it.status === "paid" ? "Pagato" : "Prenotato") + "</span>"),
+          jump: di + "-" + ii, btns: nd && first ? link(first.links[0].url, esc(first.links[0].label || "Prenota"), "small", "ext") : "" }));
+      });
+    });
+    return out.join("") || '<p class="s-hint">Nessuna attività da prenotare.</p>';
+  }
+  function pageTodo() {
+    var list = allOpenTodos();
+    if (!list.length) return '<p class="m-ok">' + icon("circle-check") + "Tutto prenotato e sistemato.</p>";
+    return '<p class="note-s">In ordine di data. «Vai alla tappa» apre il punto del programma con i pulsanti per prenotare e la spunta «Fatto».</p>' +
+      list.map(function (x) {
+        var t = x.t;
+        return bookCard({ ic: "alert", title: t.task, sub: x.a ? stopRef(x.a.d, x.a.i) + " · " + x.it.title : "", red: t.kind === "prenotare",
+          lines: [t.when ? esc(t.when) : "", t.cost ? esc(t.cost) : ""].filter(Boolean),
+          pills: '<span class="pill ' + (t.kind === "prenotare" ? "todo" : "warn") + '">' + (t.kind === "prenotare" ? "Da prenotare" : "Da sistemare") + "</span>" + todoPill(t) + (x.it ? withWho(x.it) : ""),
+          jump: x.a ? x.a.d + "-" + x.a.i : "" });
+      }).join("");
+  }
+  function pageCodes() {
+    var list = D.hotels.filter(function (h) { return /booking|airbnb/.test(h.app || ""); });
+    return '<p class="note-s">Codici di conferma, PIN e telefono dell\'host restano <b>solo su questo telefono</b>: il sito è pubblico e con quei codici chiunque potrebbe modificare o cancellare la prenotazione. Ognuno li inserisce sul proprio telefono.</p>' +
+      list.map(function (h) { return '<div class="bk"><div class="bk-h"><span class="bk-i">' + icon("bed") + '</span><span class="bk-t"><b>' + esc(h.name) + "</b><small>" + esc(hotelNights(h)) + "</small></span></div>" + codesHtml(h) + "</div>"; }).join("") +
+      '<label class="imp">Incolla qui i codici ricevuti (una riga per hotel)<textarea id="cc-import" rows="4" autocomplete="off" spellcheck="false" placeholder="saibo 1234567890 0000"></textarea></label>' +
+      '<div class="btns"><button type="button" class="btn go" data-codes-import="1">Salva sul telefono</button></div>';
+  }
+  function pageMoney() {
+    return '<p class="note-s">Cambio fisso del viaggio: 1 € ≈ ' + RATE + " ¥.</p>" +
+      '<div class="conv-row"><span class="cur">¥</span><input id="yen" inputmode="decimal" value="1000" aria-label="Yen"></div>' +
+      '<div class="conv-row"><span class="cur">€</span><input id="eur" inputmode="decimal" aria-label="Euro"></div>' +
+      '<div class="btns">' + [500, 1000, 3000, 5000, 10000].map(function (y) { return '<button type="button" class="btn small" data-yen="' + y + '">' + yen(y) + "</button>"; }).join("") + "</div>";
+  }
+  function pageRules() {
+    return '<div class="m-rules"><div><h3>Emergenze</h3><p><a class="inl" href="tel:110">110</a> polizia · <a class="inl" href="tel:119">119</a> ambulanza e pompieri · ' +
+      '<a class="inl" href="' + esc(mapsQ("Ambasciata d'Italia Tokyo")) + '" target="_blank" rel="noopener">Ambasciata d\'Italia a Tokyo</a></p></div>' +
+      "<div><h3>Soldi</h3><p>Molti locali piccoli, mercati, templi e sale giochi vogliono contanti. Gli ATM dei konbini (i minimarket, es. 7-Eleven) accettano le carte estere. Le mance non si danno.</p></div>" +
+      "<div><h3>Treni e metro</h3><p>La Suica (la tessera dei trasporti) nel Wallet dell'iPhone vale per metro, treni locali, bus e konbini. Per Shinkansen ed espressi servono i biglietti Klook. Sulle scale mobili a Tokyo si sta a sinistra, a Osaka a destra.</p></div>" +
+      "<div><h3>Valigie</h3><p>Nelle stazioni ci sono armadietti a gettoni o con la Suica: quelli grandi finiscono presto. Gli hotel tengono le valigie prima del check-in e dopo il check-out.</p></div>" +
+      "<div><h3>Templi e terme</h3><p>Nei templi spesso ci si toglie le scarpe. Negli onsen (bagni termali) si entra lavati e nudi, l'asciugamano piccolo non va in acqua; i tatuaggi grandi possono essere un problema.</p></div>" +
+      "<div><h3>Strada</h3><p>I cestini sono rari: tenete un sacchetto. Mangiare camminando è malvisto nelle vie affollate.</p></div></div>";
+  }
+  function seg(key, val, opts) {
+    return '<div class="seg2">' + opts.map(function (o) { return '<button type="button" data-pref="' + key + '" data-val="' + o[0] + '" aria-pressed="' + (String(val) === String(o[0])) + '">' + esc(o[1]) + "</button>"; }).join("") + "</div>";
+  }
+  function pageSettings() {
+    return '<div class="set"><h3>Mappe per le indicazioni</h3><p class="note-s">Con quale app si aprono «Indicazioni» e i posti. «Tutto il giro» con più tappe resta su Google Maps (Mappe di Apple non lo permette da link).</p>' +
+      seg("maps", PREF.maps, [["google", "Google Maps"], ["apple", "Mappe di Apple"]]) + "</div>" +
+      '<div class="set"><h3>Aspetto</h3>' + seg("theme", PREF.theme, [["auto", "Automatico"], ["light", "Chiaro"], ["dark", "Scuro"]]) + "</div>" +
+      '<div class="set"><h3>Dimensione del testo</h3>' + seg("size", PREF.size, [["s", "Più piccolo"], ["m", "Normale"], ["l", "Più grande"]]) + "</div>" +
+      '<div class="set"><h3>All\'apertura durante il viaggio</h3>' + seg("openNow", PREF.openNow, [["true", "Vai a dove siete adesso"], ["false", "Resta sul giorno lasciato"]]) + "</div>" +
+      '<div class="set"><h3>Suggerimenti</h3><p class="note-s">Il riquadro azzurro «Tocca una tappa…» in cima al giorno.</p><button type="button" class="btn small" data-hint-reset="1">Mostralo di nuovo</button></div>' +
+      '<div class="set"><h3>Dati salvati su questo telefono</h3><p class="note-s">Spunte «Fatto», codici delle prenotazioni, meteo e foto. Cancellarli non tocca il programma.</p><button type="button" class="btn small" data-wipe="codes">Cancella i codici</button> <button type="button" class="btn small" data-wipe="done">Azzera le spunte «Fatto»</button></div>' +
+      '<p class="foot-note">Versione ' + APP_V + " · dati del " + esc(D.generated || "") + "</p>";
+  }
+  var PAGES = { todo: pageTodo, hotels: pageHotels, trains: pageTrains, acts: pageActs, codes: pageCodes, money: pageMoney, rules: pageRules, settings: pageSettings };
+  function menuHome() {
+    var n = allOpenTodos().length;
+    return statusHtml() + '<div class="m-list">' + MENU.map(function (m) {
+      return '<button type="button" class="m-item" data-mpage="' + m[0] + '"><span class="m-ic">' + icon(m[2]) + '</span><span class="m-l">' + esc(m[1]) + "</span>" +
+        (m[0] === "todo" && n ? '<b class="nb">' + n + "</b>" : "") + icon("right", "chev") + "</button>";
+    }).join("") + "</div>";
+  }
+  function renderMenu() {
+    var ov = document.getElementById("menu");
+    if (!ov || !S.menu) return;
+    var p = S.menu, title = p === "home" ? "Menu" : (MENU.filter(function (m) { return m[0] === p; })[0] || [0, ""])[1];
+    ov.querySelector(".m-top").innerHTML = (p === "home" ? "" : '<button type="button" class="m-back" data-mpage="home">' + icon("left") + "Menu</button>") +
+      "<h2>" + esc(title) + '</h2><button type="button" class="s-close" data-mclose="1">Chiudi</button>';
+    var y = ov.querySelector(".s-body").scrollTop;
+    ov.querySelector(".s-body").innerHTML = p === "home" ? menuHome() : PAGES[p]();
+    if (p === "money") conv("yen");
+    return y;
+  }
+  function openMenu(page) {
+    var ov = document.getElementById("menu");
+    if (!ov) {
+      ov = document.createElement("div"); ov.id = "menu"; ov.className = "search-ov menu-ov"; ov.setAttribute("role", "dialog"); ov.setAttribute("aria-label", "Menu");
+      ov.innerHTML = '<div class="s-top m-top"></div><div class="s-body"></div>';
+      document.body.appendChild(ov);
+    }
+    S.menu = page || "home"; ov.hidden = false; document.body.classList.add("noscroll");
+    renderMenu(); ov.querySelector(".s-body").scrollTop = 0;
+  }
+  function closeMenu() { S.menu = null; var ov = document.getElementById("menu"); if (ov) ov.hidden = true; document.body.classList.remove("noscroll"); }
+  // ridisegna la pagina (e il menu, se aperto) senza perdere la posizione
+  function refresh() {
+    var y = window.scrollY; render(true); window.scrollTo(0, y);
+    if (S.menu) { var b = document.querySelector("#menu .s-body"), sy = b.scrollTop; renderMenu(); b.scrollTop = sy; }
+  }
+  // ---------- impostazioni ----------
+  function applyPrefs() {
+    var r = document.documentElement;
+    if (PREF.theme === "light" || PREF.theme === "dark") r.setAttribute("data-theme", PREF.theme); else r.removeAttribute("data-theme");
+    r.style.setProperty("--zoom", PREF.size === "s" ? ".93" : PREF.size === "l" ? "1.08" : "1");
   }
 
   // ---------- ricerca globale ----------
@@ -967,7 +1136,17 @@
     var t = ev.target.closest("button, [data-day]");
     if (!t || t.tagName === "A") return;
     var ds = t.dataset;
-    if (ds.search) { openSearch(); return; }
+    if (ds.menu) { openMenu("home"); return; }
+    if (ds.mpage) { S.menu = ds.mpage; renderMenu(); document.querySelector("#menu .s-body").scrollTop = 0; return; }
+    if (ds.mclose) { closeMenu(); return; }
+    if (ds.pref) {
+      var v = ds.val === "true" ? true : ds.val === "false" ? false : ds.val;
+      PREF[ds.pref] = v; store("prefs", PREF); applyPrefs(); refresh(); return;
+    }
+    if (ds.hintReset) { store("hinted", false); refresh(); toast("Il suggerimento è tornato in cima al giorno"); return; }
+    if (ds.wipe === "codes") { store("codes", {}); refresh(); toast("Codici cancellati da questo telefono"); return; }
+    if (ds.wipe === "done") { D.todo.forEach(function (t) { store("todo:" + t.id, false); }); buildIndex(); refresh(); toast("Spunte azzerate"); return; }
+    if (ds.search) { if (S.menu) closeMenu(); openSearch(); return; }
     if (ds.sclose) { closeSearch(); return; }
     if (ds.sq) { document.getElementById("gq").value = ds.sq; updateResults(); return; }
     if (ds.res !== undefined) { goResult(parseInt(ds.res, 10)); return; }
@@ -984,27 +1163,27 @@
       return;
     }
     if (ds.now) { jumpToNow(); return; }
-    if (ds.jump) { var pr = ds.jump.split("-"); openStop(+pr[0], +pr[1]); return; }
+    if (ds.jump) { if (S.menu) closeMenu(); var pr = ds.jump.split("-"); openStop(+pr[0], +pr[1]); return; }
     if (ds.issues) {
       var first = null;
       S.open = {};
       D.days[S.day].items.forEach(function (it, k) { if (!it.merged && stateOf(S.day, k) !== "past" && needs(it)) { S.open[S.day + "-" + k] = true; if (!first) first = "s-" + S.day + "-" + k; } });
       render(true); if (first) scrollToId(first); return;
     }
-    if (ds.codesEdit) { S.codeEdit = ds.codesEdit; var y0 = window.scrollY; render(true); window.scrollTo(0, y0); return; }
-    if (ds.codesCancel) { S.codeEdit = null; var y1 = window.scrollY; render(true); window.scrollTo(0, y1); return; }
-    if (ds.codesDel) { var cd0 = codes(); delete cd0[ds.codesDel]; store("codes", cd0); S.codeEdit = null; var y2 = window.scrollY; render(true); window.scrollTo(0, y2); return; }
+    if (ds.codesEdit) { S.codeEdit = ds.codesEdit; refresh(); return; }
+    if (ds.codesCancel) { S.codeEdit = null; refresh(); return; }
+    if (ds.codesDel) { var cd0 = codes(); delete cd0[ds.codesDel]; store("codes", cd0); S.codeEdit = null; refresh(); return; }
     if (ds.codesSave) {
       var pinEl = document.getElementById("cc-pin"), telEl = document.getElementById("cc-tel"), raw = (document.getElementById("cc-conf").value || "").trim();
       var cf = /[a-z]/i.test(raw) ? raw.replace(/[^a-z0-9]/gi, "").toUpperCase() : raw.replace(/\D/g, "");
       var pn = pinEl ? (pinEl.value || "").replace(/\D/g, "") : "", tl = telEl ? (telEl.value || "").trim() : "";
       if (cf.length < 8 || (pinEl && pn.length < 3)) { toast("Controlla i codici"); return; }
       var cd1 = codes(); cd1[ds.codesSave] = { conf: cf, pin: pn, tel: tl }; store("codes", cd1); S.codeEdit = null;
-      var y3 = window.scrollY; render(true); window.scrollTo(0, y3); toast("Salvati solo su questo telefono"); return;
+      refresh(); toast("Salvati solo su questo telefono"); return;
     }
     if (ds.codesImport) {
       var n = importCodes(document.getElementById("cc-import").value);
-      var y4 = window.scrollY; render(true); window.scrollTo(0, y4);
+      refresh();
       toast(n ? n + (n === 1 ? " hotel salvato" : " hotel salvati") + " sul telefono" : "Nessun codice riconosciuto"); return;
     }
     if (ds.sleep) {
@@ -1033,6 +1212,7 @@
   });
   document.addEventListener("keydown", function (ev) {
     if (ev.key === "Escape" && S.searching) closeSearch();
+    if (ev.key === "Escape" && S.menu) closeMenu();
     if (ev.key === "Enter" && ev.target.id === "gq") { ev.target.blur(); if (LAST.length) goResult(0); }
   });
   document.addEventListener("visibilitychange", function () {
@@ -1040,7 +1220,8 @@
     wxLoad();
     if (!D || S.searching) return;
     // tornando nell'app dopo un po', si riparte da dove dovreste essere adesso
-    if (Date.now() - lastHidden > 10 * 60000 && jumpToNow()) return;
+    if (S.menu) { renderMenu(); return; }
+    if (PREF.openNow && Date.now() - lastHidden > 10 * 60000 && jumpToNow()) return;
     var y = window.scrollY; render(true); window.scrollTo(0, y);
   });
   window.addEventListener("scroll", onScroll, { passive: true });
@@ -1063,12 +1244,13 @@
 
   setInterval(function () {
     if (D && !document.hidden && WX && Date.now() - WX.t > 3 * 3600000) wxLoad(true);
-    if (D && !document.hidden && !S.searching && phase() === "live") {
+    if (D && !document.hidden && !S.searching && !S.menu && phase() === "live") {
       // aggiorna passato/adesso senza chiudere le tappe aperte
       var y = window.scrollY; render(true); window.scrollTo(0, y);
     }
   }, 60000);
 
+  applyPrefs();
   function boot(data) {
     D = data;
     RATE = D.rate || 185;
@@ -1080,7 +1262,7 @@
     buildIndex();
     setTimeout(loadPhotos, 300);
     wxLoad();
-    if (jumpToNow()) return;
+    if (PREF.openNow && jumpToNow()) return;
     var saved = store("state") || {};
     S.day = saved.day != null && saved.day < D.days.length ? saved.day : currentDay();
     render();

@@ -4,8 +4,8 @@ Sito per iPhone del viaggio in Giappone (5–18 novembre 2026). Una sola pagina:
 Ogni tappa è una scheda che si apre con foto, dettagli, come arrivarci e «Indicazioni» su Google Maps; tra una
 scheda e l'altra c'è lo spostamento. Le tappe con qualcosa da prenotare o sistemare sono in rosso e i giorni in
 alto hanno un pallino col numero. Sotto il titolo del giorno c'è il meteo delle città (adesso e, da 16 giorni prima,
-le previsioni per quella data). In fondo al giorno: tutto il giro su Google Maps, consigli, cambio yen ↔ euro,
-numeri utili. L'app si apre da sola sulla tappa di adesso (fusi di Roma e Tokyo). Il pulsante «Cerca» in basso a destra cerca
+le previsioni per quella data). In fondo al giorno: tutto il giro su Google Maps e i consigli. I tre puntini in basso aprono il menu:
+adesso, cose da fare, hotel, treni, attività, codici (solo sul telefono), cambio, numeri utili, impostazioni. L'app si apre da sola sulla tappa di adesso (fusi di Roma e Tokyo). La lente in basso a destra cerca
 qualsiasi cosa, anche scritta male; «da prenotare» elenca tutto ciò che manca.
 Si installa sulla Home (Safari → Condividi → «Aggiungi alla schermata Home») e funziona anche senza rete
 dopo la prima apertura.
