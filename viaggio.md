@@ -37,7 +37,7 @@ Questo file vive solo qui: non tenerne copie nel progetto Claude «Giappone».
 ## Note per Claude
 
 Regole di Federico:
-- Nei giorni col gruppo (7–10/11) si segue il programma del gruppo: solo note e indicazioni, niente riordini.
+- Nei giorni col gruppo (7–10/11) si segue il programma del gruppo: solo note e indicazioni, niente riordini. Le decisioni le prende il gruppo: niente cose «da fare» per proporre o decidere col gruppo.
 - A piedi le tratte sotto i 3 km, oltre coi mezzi (con mezzo e minuti); 10–15 km a piedi al giorno.
 - Due 30enni un po' nerd: templi in 1–2 h, cose «wow», sale giochi e quartieri otaku, vita serale, cibo buono non
   da trappola turistica (ma i must-see restano). Niente musei d'arte moderna o cose occidentali. Sì natura, giardini
@@ -1413,20 +1413,6 @@ giorno: 2026-11-07
 quando: prima della partenza (l'ha prenotato il gruppo)
 priorità: media
 nota: Booking chiede di comunicare in anticipo l'ora d'arrivo. Check-in dalle 16:00, ma col gruppo arrivate verso le 14:30 e alle 15:30 c'è il Tenku no Torii (portale sul Fuji): serve lasciare le valigie prima.
-
-### nagomi-checkout
-tappa: 2026-11-09 06:45
-cosa: Proporre al gruppo il check-out alle 6:45 con le valigie in stazione
-tipo: gestire
-priorità: media
-nota: Il check-out di Nagomi è entro le 10, ma dopo Honcho Street servono ~40′ per tornare alla casa e poi c'è il treno.
-
-### tenku
-tappa: 2026-11-07 15:30
-cosa: Decidere col gruppo se salire al Tenku no Torii
-tipo: gestire
-priorità: bassa
-nota: Chiude verso le 16 e ci sono 20–30′ di salita: si va solo se il gruppo arriva puntuale alle 14.
 
 ### controlli
 cosa: Controlli di inizio novembre
