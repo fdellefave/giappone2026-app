@@ -76,11 +76,12 @@ Già verificato (non riproporre):
 - Le coordinate dei posti non sono disponibili: la mappa del sito usa ricerche Google Maps.
 - Conferme Booking lette il 5/10: tutte le 5 camere hanno 1 letto alla francese (131–150 cm) per 2 adulti; cancellazioni e telefoni aggiornati negli Alloggi.
 - Pagamenti (dalle email di conferma, 3/10): hotel, Airbnb e treni Klook li ha prenotati Federico per 2 persone.
+  Nagomi (10/10): sostituisce il Cottage Pastorale per il 7–9/11, prenotata dal gruppo, €115,50 a testa.
   Klook: pagati il 7/9, i biglietti vengono confermati quando apre la vendita ufficiale (un mese prima).
   Booking: Super Hotel già pagato; gli altri li addebita Booking sulla carta. I prezzi veri degli hotel sono in yen.
 
 Punti aperti: sono nella sezione «Da fare», ognuno agganciato alla sua tappa (l'app li mostra come notifiche).
-- Chi ha pagato i voli e la quota del cottage non risulta dalle email: chiedere a Federico se serve nei conti.
+- Chi ha pagato i voli e la quota di Nagomi non risulta dalle email: chiedere a Federico se serve nei conti.
 
 ## Info
 
@@ -211,7 +212,7 @@ camminata: ~10 km · mezzi ~1 h 30 in tutto · pause: pranzo 45′, cena 45′
 
 ### 2026-11-07
 percorso: tokyo > kawaguchiko
-dorme: cottage-pastorale
+dorme: nagomi
 con: voi due + il gruppo
 gruppo: 14:00-
 - 08:30 hotel Check-out dall'Airbnb | alloggio: airbnb-shinjuku
@@ -225,8 +226,8 @@ gruppo: 14:00-
   Treno diretto per il Monte Fuji fino a Kawaguchiko (il paese sul lago ai piedi del Fuji).
   Alle 11:14 passa da Shimoyoshida, la stazione della pagoda Chureito.
 - 11:30 bagagli Valigie negli armadietti della stazione | città: kawaguchiko | deposito | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
-  breve: stazione di Kawaguchiko · o con la navetta dell'host
-  Armadietti a gettoni nella stazione; in alternativa l'host del cottage può portarle con la navetta.
+  breve: stazione di Kawaguchiko
+  Armadietti a gettoni nella stazione.
   alternativa: se gli armadietti sono pieni, Fujikanko Travel, a 1′ dalla stazione: deposito con persona 9:00–17:30, ¥800 a valigia grande. Nello stesso palazzo (Fujikan, davanti alla stazione) ci sono 18 armadietti grandi da ¥800 (80 × 44 × 60 cm).
 - 11:40 sposta Lake Bake | via taxi: Kawaguchiko Station > #lake-bake (Stazione → Lake Bake)
   breve: taxi 10′ · ~¥2.000
@@ -240,10 +241,12 @@ gruppo: 14:00-
   breve: prima che arrivino gli amici
 - 14:00 fare Arrivano gli amici | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
   breve: dal bus delle 8:40 da Takayama
-- 14:10 sposta Cottage Pastorale | via taxi: Kawaguchiko Station > @cottage-pastorale (Stazione → Cottage)
-  breve: navetta dell'host o taxi ~10′
-  Il cottage è sulla sponda nord del lago.
-- 15:00 hotel Check-in al Cottage Pastorale | alloggio: cottage-pastorale
+- 14:10 sposta Nagomi | via taxi: Kawaguchiko Station > @nagomi (Stazione → Nagomi)
+  breve: taxi ~10′ · o bus fino a Kawaguchi-kyoku-mae + 5′ a piedi
+  La casa è sulla sponda nord del lago, a 600 m dal santuario Kawaguchi Asama (dove parte la salita al Tenku no Torii).
+- 15:00 hotel Check-in a Nagomi (casa del gruppo) | alloggio: nagomi
+  breve: check-in dalle 16 · prima solo valigie, se l'host è d'accordo
+  attenzione: il check-in è dalle 16:00: chiedere all'host se alle 14:30 si possono lasciare le valigie
 - 15:30 vedere Tenku no Torii (portale sul Fuji) | posto: tenku-no-torii
   breve: il portale nel cielo · chiude verso le 16
   Un torii (il portale rosso dei santuari) affacciato sul Fuji, sopra il santuario Kawaguchi Asama.
@@ -269,7 +272,7 @@ mangiare:
   • Cena col gruppo: Hoto Fudo, hoto (zuppa di tagliatelle larghe con zucca e verdure). Solo contanti
 prenotare:
   • Treno Fuji Excursion già pagato
-  • Chiedere all'host del cottage navetta dalla stazione e deposito valigie
+  • Chiedere all'host di Nagomi di lasciare le valigie prima delle 16 (check-in dalle 16)
   • Contanti per la cena
 attenzione:
   • Il Tenku no Torii chiude verso le 16 ed è a 20–30′ di salita: se il gruppo arriva tardi, meglio rimandarlo
@@ -277,17 +280,17 @@ attenzione:
   • Il bus turistico smette verso le 17:45: poi solo taxi (pochi)
 anticipo:
   • Pagoda Chureito (la foto simbolo del Fuji) subito, treno 15′, se il Fuji è limpido e per domani danno brutto
-  • Santuario Kawaguchi Asama (cedri secolari), vicino al cottage
+  • Santuario Kawaguchi Asama (cedri secolari), a 600 m dalla casa
 stanchi: • Saltate il Tenku no Torii: viale degli aceri + cena bastano
 camminata: ~10 km (salita al Tenku no Torii) · treno 2 h · pause: pranzo 1 h 15, cena 1 h
 
 ### 2026-11-08
 percorso: kawaguchiko
-dorme: cottage-pastorale
+dorme: nagomi
 con: voi due + il gruppo
 gruppo: tutto
 - 08:00 fare Giro del lago in bici | foto: Lake Kawaguchi | dove: Lake Kawaguchi | zona: lago-kawaguchi
-  breve: col gruppo · bici tramite il cottage
+  breve: col gruppo · 5 bici gratis alla casa
   La pagoda Chureito e Honcho Street si fanno il 9/11.
 - 13:00 cibo Miura Udon (spaghettoni udon) | posto: miura-udon
   breve: pranzo, se passate da Fujiyoshida · solo 10–14
@@ -299,7 +302,7 @@ gruppo: tutto
   Onsen: le terme giapponesi (si entra lavati e nudi). La funivia porta a un belvedere sul lago e sul Fuji: solo se il Fuji è scoperto.
   costo: funivia andata e ritorno ¥1.000
   orari: funivia fino alle 17
-- 18:00 hotel Relax al cottage | alloggio: cottage-pastorale
+- 18:00 hotel Relax a Nagomi | alloggio: nagomi
 - 20:00 cibo Cena col gruppo
 
 #### Guida
@@ -308,7 +311,7 @@ mangiare:
   • Pranzo: se passate da Fujiyoshida, Miura Udon (udon spessi e sodi tipici della zona, Tabelog 3,65; solo 10–14)
   • Cena col gruppo
 prenotare:
-  • Bici tramite il cottage
+  • Bici: 5 gratis a Nagomi, le altre a noleggio
   • Contanti per terme e funivia
 attenzione:
   • Il Fuji è più limpido al mattino: foto prima delle 10
@@ -317,24 +320,24 @@ anticipo:
   • Funivia Kachi Kachi (panorama sul lago e sul Fuji, fino alle 17): solo se il Fuji è scoperto
   • Onsen (terme) prima di cena
 stanchi: • Saltate la funivia, tenete bici e cena
-camminata: ~5 km a piedi + 15–20 km in bici · pause: pranzo 1 h, cottage 1 h, cena 1 h 30
+camminata: ~5 km a piedi + 15–20 km in bici · pause: pranzo 1 h, casa 1 h, cena 1 h 30
 
 ### 2026-11-09
 percorso: kawaguchiko > tokyo
 dorme: saibo
 con: voi due + il gruppo
 gruppo: tutto
-- 06:45 hotel Check-out dal cottage (proposta) | alloggio: cottage-pastorale
+- 06:45 hotel Check-out da Nagomi (proposta) | alloggio: nagomi
   breve: proposta al gruppo: uscire presto con le valigie
-  Il check-out sarebbe entro le 10, ma dopo Honcho Street servono ~40′ per tornare al cottage.
+  Il check-out sarebbe entro le 10, ma dopo Honcho Street servono ~40′ per tornare alla casa.
 - 06:55 bagagli Valigie negli armadietti della stazione (proposta) | deposito | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
-  breve: stazione di Kawaguchiko, taxi dal cottage ~10′
-  alternativa: alle 7 il deposito con persona è ancora chiuso: se gli armadietti della stazione sono pieni, provate quelli grandi del palazzo Fujikan davanti alla stazione (¥800). Se non si trova posto: check-out alle 10, poi taxi dal cottage alla stazione e niente armadietti.
+  breve: stazione di Kawaguchiko, taxi da Nagomi ~10′
+  alternativa: alle 7 il deposito con persona è ancora chiuso: se gli armadietti della stazione sono pieni, provate quelli grandi del palazzo Fujikan davanti alla stazione (¥800). Se non si trova posto: check-out alle 10, poi taxi da Nagomi alla stazione e niente armadietti.
 - 07:05 sposta Pagoda Chureito | via mezzi: Kawaguchiko Station > #chureito (Stazione → pagoda Chureito)
   breve: treno locale 15′ + a piedi 10′ e ~400 scalini
   come: treno locale Fujikyu da Kawaguchiko a Shimoyoshida (~15′, col gruppo), 10′ a piedi (700 m) e ~400 scalini
   costo: treno ¥310
-  Se tenete il check-out alle 10: taxi dal cottage alla stazione (~10′) e niente armadietti.
+  Se tenete il check-out alle 10: taxi da Nagomi alla stazione (~10′) e niente armadietti.
 - 08:00 vedere Pagoda Chureito | posto: chureito
   breve: la foto simbolo del Giappone
   Pagoda rossa a 5 piani col Fuji dietro.
@@ -342,7 +345,7 @@ gruppo: tutto
   breve: a piedi 15′ · 1 km
 - 09:00 vedere Honcho Street | posto: honcho-street
   breve: la via col Fuji enorme in fondo
-  attenzione: il check-out del cottage è entro le 10 ma da qui servono ~40′. Proposta: check-out alle 6:45 e valigie in stazione
+  attenzione: il check-out di Nagomi è entro le 10 ma da qui servono ~40′. Proposta: check-out alle 6:45 e valigie in stazione
 - 09:45 sposta Lago Kawaguchi | via mezzi: Shimoyoshida Station, Fujiyoshida > Lake Kawaguchi (Shimoyoshida → lago)
   breve: treno 15′ fino a Kawaguchiko
 - 10:15 vedere Tempo libero al lago | foto: Lake Kawaguchi | dove: Lake Kawaguchi | zona: lago-kawaguchi
@@ -386,7 +389,7 @@ prenotare:
   • teamLab già prenotato dal gruppo
   • Pantaloni arrotolabili per teamLab
 attenzione:
-  • Il check-out del cottage è entro le 10 ma dal centro al cottage servono 40′: proposta al gruppo di uscire alle 6:45 con le valigie e lasciarle in stazione
+  • Il check-out di Nagomi è entro le 10 ma dal centro alla casa servono 40′: proposta al gruppo di uscire alle 6:45 con le valigie e lasciarle in stazione
   • A teamLab gli armadietti sono piccoli: la valigia resta in hotel
 anticipo: • Giro a Ningyōchō (quartiere tradizionale con botteghe di dolci) prima di teamLab
 stanchi: • Giornata già leggera, niente da tagliare
@@ -1040,20 +1043,22 @@ nota: La conferma Airbnb dice «deposito bagagli disponibile»: chiedere all'hos
 app: https://www.airbnb.it/trips
 maps: 2-13-5 Okubo, Shinjuku City, Tokyo
 
-### cottage-pastorale
-nome: Cottage Pastorale (col gruppo)
+### nagomi
+nome: Nagomi (casa giapponese ristrutturata, col gruppo)
 città: kawaguchiko
 dal: 2026-11-07
 al: 2026-11-09
-prezzo: €200 a testa
-euro: 200
+prezzo: €115,50 a testa
+euro: 115.5
 pagato: gruppo
 diviso: no
 pagamento: quota a testa, da saldare col gruppo
-indirizzo: Kawaguchi 3064, Fujikawaguchiko (sponda nord del lago)
-arrivo: Navetta dell'host dalla stazione di Kawaguchiko · taxi ~10′
-orari: Check-in dalle 15:00 · check-out entro le 10:00
-maps: Kawaguchi 3064, Fujikawaguchiko, Yamanashi
+indirizzo: Kawaguchi 1575-4, Fujikawaguchiko (Yamanashi), sponda nord del lago, 600 m dal santuario Kawaguchi Asama
+arrivo: Taxi dalla stazione di Kawaguchiko ~10′ (4,6 km) · bus fino alla fermata Kawaguchi-kyoku-mae (10–15′) + 5′ a piedi
+orari: Check-in dalle 16:00 (va comunicata prima l'ora d'arrivo) · check-out entro le 10:00 · silenzio dalle 21 alle 8
+camera: Casa intera per il gruppo: 4 camere, 2 bagni, cucina, vista sul Fuji dal piano di sopra
+nota: 5 bici gratis, stufa a pellet (da novembre), proiettore con Netflix, lavatrice con asciugatrice. Barbecue vietato in giardino (c'è una griglia interna). Strada d'accesso stretta. Eventuali danni fino a ¥15.000.
+maps: Kawaguchi 1575-4, Fujikawaguchiko, Yamanashi
 
 ### saibo
 nome: Hotel Nihonbashi Saibo
@@ -1425,12 +1430,21 @@ link: https://secure.booking.com/mytrips.html
 priorità: media
 nota: Booking addebita da solo APA, Saibo, Alpina e Hillarys (¥138.828 in tutto, ~€750). Se volete pagare con Revolut, cambiate la carta nell'app Booking.
 
-### cottage-checkout
+### nagomi-arrivo
+tappa: 2026-11-07 15:00
+cosa: Nagomi: comunicare l'ora d'arrivo e chiedere di lasciare le valigie prima delle 16
+tipo: gestire
+giorno: 2026-11-07
+quando: prima della partenza (l'ha prenotato il gruppo)
+priorità: media
+nota: Booking chiede di comunicare in anticipo l'ora d'arrivo. Check-in dalle 16:00, ma col gruppo arrivate verso le 14:30 e alle 15:30 c'è il Tenku no Torii (portale sul Fuji): serve lasciare le valigie prima.
+
+### nagomi-checkout
 tappa: 2026-11-09 06:45
 cosa: Proporre al gruppo il check-out alle 6:45 con le valigie in stazione
 tipo: gestire
 priorità: media
-nota: Il check-out del cottage è entro le 10, ma dopo Honcho Street servono ~40′ per tornare al cottage e poi c'è il treno.
+nota: Il check-out di Nagomi è entro le 10, ma dopo Honcho Street servono ~40′ per tornare alla casa e poi c'è il treno.
 
 ### cena-sumo
 tappa: 2026-11-09 21:00
@@ -1486,7 +1500,7 @@ nota: Su Booking c'è scritto arrivo tra le 21 e le 22, ma lo Shinkansen arriva 
 Stima a persona in euro.
 
 - Volo andata e ritorno: 1226 | da bozza
-- Alloggi 12 notti: 747 | metà delle camere (¥187.569 + €80,56 l'Airbnb) + quota del cottage €200
+- Alloggi 12 notti: 663 | metà delle camere (¥187.569 + €80,56 l'Airbnb) + quota di Nagomi €115,50
 - Treni e bus lunghi: 364 | metà dei biglietti Klook (€678) + Fuji Excursion del 9/11 + Kamakura
 - Trasporti in città: 150 | metro e bus con la Suica ~€6 al giorno + bus Shirakawa-go ~€28
 - Cibo (~13 giorni): 520 | ~€40 al giorno, comprese le cene da Kitchen Hida e Kyōya
@@ -1579,8 +1593,8 @@ posti: funivia-kachi-kachi
 
 ### kawaguchiko-nord
 nome: Kawaguchiko, sponda nord
-cosa: il lato del lago con la vista sul Fuji, dov'è il cottage
-posti: @cottage-pastorale, lake-bake, tenku-no-torii, momiji-corridor, hoto-fudo
+cosa: il lato del lago con la vista sul Fuji, dov'è Nagomi
+posti: @nagomi, lake-bake, tenku-no-torii, momiji-corridor, hoto-fudo
 
 ### lago-kawaguchi
 nome: Lago Kawaguchi
