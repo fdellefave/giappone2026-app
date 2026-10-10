@@ -59,7 +59,8 @@ Regole di Federico:
   Ogni alloggio dice di chi è (vostro, prenotato da Federico / del gruppo); «Dormite: …» nella testata si apre con tutti i dettagli.
   In basso a destra due pulsanti di vetro: la lente (ricerca) e i tre puntini (menu: adesso, da prenotare, hotel, treni e voli,
   attività, codici, yen ↔ euro, numeri utili, impostazioni con Google Maps / Mappe di Apple, tema, testo). In fondo al giorno solo il giro e i consigli.
-  Sopra i giorni, la linea delle città (dalla città della notte prima a quella della sera; le gite in giornata non contano).
+  Sopra i giorni, la linea delle città (dalla città della notte prima a quella della sera) e sotto, a parte, le gite in giornata
+  (città in mezzo al `percorso`, es. `takayama > shirakawago > takayama`, con `città:` sulle tappe di andata e ritorno).
   iOS 26 sfoca da solo una fascia sotto la barra di stato nell'app installata: la barra parte 14 px più in basso (40 px lasciavano troppo vuoto).
 
 Già verificato (non riproporre):
@@ -718,7 +719,7 @@ stanchi: • Saltate il Jinya, solo Sanmachi (le vie antiche); la sera resta ugu
 camminata: ~8 km · treno 3 h 45 seduti · pause: pranzo 45′, cena 1 h 30, terme 1 h
 
 ### 2026-11-14
-percorso: takayama
+percorso: takayama > shirakawago > takayama
 dorme: alpina
 con: voi due
 - 06:50 sposta Mercato Miyagawa | via piedi: @alpina > #mercato-miyagawa (Hotel → mercato Miyagawa)
@@ -734,7 +735,7 @@ con: voi due
   Bus Nōhi, con prenotazione.
   costo: ¥2.600 a testa
   prenotazione: dal 14/10, su japanbusonline.com
-- 09:00 sposta Belvedere Shiroyama | via piedi: Shirakawa-go Bus Terminal > #belvedere-shiroyama (Bus → belvedere)
+- 09:00 sposta Belvedere Shiroyama | città: shirakawago | via piedi: Shirakawa-go Bus Terminal > #belvedere-shiroyama (Bus → belvedere)
   breve: a piedi 20′ in salita (o navetta ~¥200)
 - 09:20 vedere Belvedere Shiroyama | posto: belvedere-shiroyama
   breve: il villaggio visto dall'alto
@@ -747,7 +748,7 @@ con: voi due
   attenzione: restate sui sentieri: risaie e case private sono protette. Il sabato è il giorno più affollato
 - 12:15 cibo Pranzo a Shirakawa-go | foto: Shirakawa-gō | dove: Shirakawa-go Ogimachi | zona: shirakawa
   breve: verso mezzogiorno, prima della folla
-- 13:30 viaggio Bus per Takayama | treno: bus-14 | prenotare | via mezzi: Shirakawa-go Bus Terminal > @alpina (Shirakawa-go → hotel)
+- 13:30 viaggio Bus per Takayama | treno: bus-14 | prenotare | città: takayama | via mezzi: Shirakawa-go Bus Terminal > @alpina (Shirakawa-go → hotel)
   breve: ~50′ · corsa tra le 13:30 e le 14:30
   Corsa da fissare. All'arrivo 3′ a piedi all'hotel.
 - 14:30 hotel Pomeriggio lento all'Alpina | alloggio: alpina

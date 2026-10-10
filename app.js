@@ -5,7 +5,7 @@
   "use strict";
   var APP_V = "20"; // uguale al numero di VERSION in sw.js
 
-  var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", roma: "Roma" };
+  var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", shirakawago: "Shirakawa-go", roma: "Roma" };
   var TYPE = {
     vedere: { n: "Da vedere", i: "pin" }, fare: { n: "Esperienza", i: "sparkles" }, cibo: { n: "Mangiare", i: "food" },
     sposta: { n: "Spostamento", i: "walk" }, viaggio: { n: "Treno, bus o volo", i: "train" }, hotel: { n: "Hotel", i: "bed" },
@@ -273,7 +273,7 @@
   // Si aggiorna all'apertura dell'app (al massimo una volta l'ora) e ogni 3 ore se resta aperta;
   // senza rete resta l'ultimo dato salvato, con l'ora in cui è stato preso.
   var WX_POS = { tokyo: [35.6812, 139.7671], kawaguchiko: [35.4983, 138.769], kamakura: [35.3192, 139.5467], kyoto: [34.9858, 135.7588],
-    takayama: [36.1461, 137.2522], osaka: [34.6687, 135.5013], roma: [41.9028, 12.4964] };
+    takayama: [36.1461, 137.2522], shirakawago: [36.2578, 136.9064], osaka: [34.6687, 135.5013], roma: [41.9028, 12.4964] };
   var WX = null, wxBusy = false;
   function wxCode(c, day) {
     if (c === 0) return [day === 0 ? "w-moon" : "w-sun", "sereno"];
@@ -373,11 +373,22 @@
         ";--a:" + a + ";--b:" + b + ";--a2:" + a2 + ";--b2:" + b2 + '" aria-label="' + esc(CITY[g.c]) + '">' +
         (small ? (g.c === "roma" ? icon("plane") : "") : "<span>" + esc(CITY[g.c]) + "</span>") + "</button>";
     });
-    // fascia col gruppo: le ore 6–24 di ogni giorno riempiono la casella
+    // le ore 6–24 di ogni giorno riempiono la casella
+    var f = function (t) { var m = hmMin(t); return Math.min(1, Math.max(0, (m - 360) / 1080)); };
+    // gite in giornata: città in mezzo al percorso (non quella della notte prima né quella della sera), centrate sul giorno
+    D.days.forEach(function (d, j) {
+      var r = d.route;
+      r.slice(1, -1).forEach(function (c) {
+        if (c === r[0] || c === r[r.length - 1]) return;
+        var past = ph === "after" || (ph === "live" && j < cd);
+        h += '<button type="button" class="ctl-x' + (j === sel ? " on" : "") + (past ? " past" : "") + '" data-day="' + j + '" style="--c:' + cityVar(c) +
+          ";--j:" + j + '" aria-label="Gita a ' + esc(CITY[c]) + '">' + icon("route") + "<span>" + esc(CITY[c]) + "</span></button>";
+      });
+    });
+    // fascia col gruppo
     var gs = [];
     D.days.forEach(function (d, j) {
       if (!d.group) return;
-      var f = function (t) { var m = hmMin(t); return Math.min(1, Math.max(0, (m - 360) / 1080)); };
       var a0 = j + f(d.group.from), a1 = j + f(d.group.to), last = gs[gs.length - 1];
       if (last && a0 - last.to < 0.15) last.to = a1; else gs.push({ from: a0, to: a1 }); // la notte non interrompe la fascia
     });

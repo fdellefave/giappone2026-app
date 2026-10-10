@@ -37,6 +37,7 @@
   --kyoto: #B07A1F;
   --takayama: #4C8A3B;
   --osaka: #C2348C;
+  --shirakawago: #8A5A3C;
   --roma: #6E7785;
 
   --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -50,7 +51,7 @@
     --ok: #55C285; --ok-soft: #16301F; --warn: #E7A94A; --warn-soft: #36290F; --bad: #F07A70; --bad-soft: #3A1D1B;
     --on: #111318; --grp: #F06595; --t-vedere: #8C96F2; --t-fare: #D985D3; --t-cibo: #F0A14E; --t-sposta: #9AA1AD; --t-viaggio: #5DB3EA; --t-hotel: #5CC488; --t-bagagli: #D9A066;
     --tokyo: #F06A5E; --kawaguchiko: #33BFA9; --kamakura: #A788D9; --kyoto: #D9A445; --takayama: #7CBB67;
-    --osaka: #E36AB4; --roma: #9AA3B0; color-scheme: dark;
+    --osaka: #E36AB4; --shirakawago: #C99472; --roma: #9AA3B0; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
@@ -59,7 +60,7 @@
   --ok: #55C285; --ok-soft: #16301F; --warn: #E7A94A; --warn-soft: #36290F; --bad: #F07A70; --bad-soft: #3A1D1B;
   --on: #111318; --grp: #F06595; --t-vedere: #8C96F2; --t-fare: #D985D3; --t-cibo: #F0A14E; --t-sposta: #9AA1AD; --t-viaggio: #5DB3EA; --t-hotel: #5CC488; --t-bagagli: #D9A066;
   --tokyo: #F06A5E; --kawaguchiko: #33BFA9; --kamakura: #A788D9; --kyoto: #D9A445; --takayama: #7CBB67;
-  --osaka: #E36AB4; --roma: #9AA3B0; color-scheme: dark;
+  --osaka: #E36AB4; --shirakawago: #C99472; --roma: #9AA3B0; color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
@@ -121,7 +122,7 @@ body.noscroll .fab { display: none; }
 }
 .chips { display: flex; gap: var(--g); padding-top: 6px; /* spazio per i pallini rossi */ width: max-content; }
 /* linea del tempo delle città */
-.ctl { position: relative; height: 42px; margin-bottom: 4px; width: calc(var(--n) * var(--cw) + (var(--n) - 1) * var(--g)); }
+.ctl { position: relative; height: 60px; margin-bottom: 4px; width: calc(var(--n) * var(--cw) + (var(--n) - 1) * var(--g)); }
 .ctl-s {
   position: absolute; top: 0; height: 22px; border: 0; padding: 0 6px; cursor: pointer;
   left: calc(var(--a) * var(--cw) + var(--b) * var(--g) + 1px);
@@ -511,7 +512,7 @@ body.noscroll { overflow: hidden; }
 
 /* fascia «col gruppo» sotto le città */
 .ctl-g {
-  position: absolute; top: 25px; height: 15px; border: 0; padding: 0 6px; cursor: pointer; border-radius: 5px;
+  position: absolute; top: 43px; height: 15px; border: 0; padding: 0 6px; cursor: pointer; border-radius: 5px;
   left: calc(var(--a) * var(--cw) + var(--b) * var(--g) + 1px);
   width: calc((var(--a2) - var(--a)) * var(--cw) + (var(--b2) - var(--b)) * var(--g) - 2px);
   background: color-mix(in srgb, var(--grp) 20%, var(--bg)); color: var(--grp);
@@ -519,6 +520,18 @@ body.noscroll { overflow: hidden; }
   font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .05em;
 }
 .ctl-g .ic { width: 12px; height: 12px; stroke-width: 2.5; }
+/* gite in giornata, tra le città e il gruppo */
+.ctl-x {
+  position: absolute; top: 25px; height: 15px; border: 0; padding: 0 4px; cursor: pointer; border-radius: 5px;
+  left: calc(var(--j) * (var(--cw) + var(--g)) + var(--cw) / 2); transform: translateX(-50%);
+  min-width: calc(var(--cw) - 2px); width: max-content; /* il nome intero, anche se sborda sui giorni vicini */
+  background: color-mix(in srgb, var(--c) 20%, var(--bg)); color: var(--c);
+  display: flex; align-items: center; justify-content: center; gap: 3px; white-space: nowrap;
+  font-size: 9.5px; font-weight: 800; text-transform: uppercase; letter-spacing: .02em;
+}
+.ctl-x .ic { width: 11px; height: 11px; stroke-width: 2.5; flex: none; }
+.ctl-x.on { background: var(--c); color: var(--on); }
+.ctl-x.past:not(.on) { opacity: .45; }
 /* testata: dove dormite (si apre) e col gruppo / solo voi due */
 .sleepbtn {
   display: inline-flex; align-items: center; gap: 6px; border: 0; background: var(--card); border-radius: 999px;

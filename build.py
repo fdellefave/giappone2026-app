@@ -20,7 +20,8 @@ SRC = ROOT / "viaggio.md"
 OUT = ROOT / "data.json"
 
 CITIES = {"roma": "Roma", "tokyo": "Tokyo", "kawaguchiko": "Kawaguchiko", "kamakura": "Kamakura",
-          "kyoto": "Kyoto", "takayama": "Takayama", "osaka": "Osaka"}
+          "kyoto": "Kyoto", "takayama": "Takayama", "osaka": "Osaka",
+          "shirakawago": "Shirakawa-go"}
 TYPES = ("vedere", "fare", "cibo", "sposta", "viaggio", "hotel", "bagagli")
 DETAIL = {"come": "Come arrivare", "costo": "Costo", "orari": "Orari", "binario": "Binario", "bagagli": "Valigie",
           "prenotazione": "Prenotazione", "attenzione": "Attenzione", "alternativa": "In alternativa"}
