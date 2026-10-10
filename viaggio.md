@@ -68,7 +68,7 @@ Già verificato (non riproporre):
   Eikan-dō dal 20/11 (dopo Kyoto); Tofuku-ji, Kuromon, Hama-rikyu, Ōkochi-Sansō e Hida-no-Sato tolti apposta.
 - Go-kart per le strade di Tokyo escluso su richiesta (niente patente internazionale).
 - Samurai Restaurant Time (verificato il 4/10): spettacoli 10:50, 14:00, 16:30, niente alle 19 · chiuso giovedì e domenica secondo alcune fonti. Scelto lo spettacolo delle 14 il 17/11 (martedì), così Shibuya Sky resta al tramonto.
-- Tokyo Skytree aggiunta il 6/11 dopo il ponte Azuma-bashi (al posto del Senso-ji illuminato).
+- Tokyo Skytree aggiunta il 6/11 dopo il ponte Azuma-bashi (al posto del Senso-ji illuminato). Biglietti presi il 10/10 (link eTicket solo nell'email, mai qui).
 - Il torneo di sumo di novembre è a Fukuoka (fuori rotta). Asakusa Sumo Club (~$100) tolto su richiesta: al suo posto la serata ad Akihabara.
 - Lake Bake: bar interno chiuso, solo asporto. Omen (udon a Ginkaku-ji) chiuso il giovedì: il 12/11 non si va.
 - Super Potato di Osaka = negozio Otaroad a Nipponbashi (Den Den Town).
@@ -151,12 +151,12 @@ con: voi due
   A 5′ a piedi dal tempio. Dal ponte si guarda il tramonto sul fiume con di fronte la Tokyo Skytree (la torre della tv, 634 m), dove si sale subito dopo.
 - 16:50 sposta Tokyo Skytree | via piedi: #azuma-bashi > #skytree (Azuma-bashi → Skytree)
   breve: a piedi 15′ · 1,2 km, attraversando il ponte
-- 17:05 vedere Tokyo Skytree (torre panoramica) | posto: skytree | prenotare
+- 17:05 vedere Tokyo Skytree (torre panoramica) | posto: skytree | prenotato
   breve: Tokyo di notte da 350 m · ~1 h
   Si sale al Tembo Deck (la terrazza a 350 m) appena dopo il tramonto: tutta Tokyo illuminata. La Tembo Galleria (il corridoio a spirale a 450 m) è un supplemento, non serve.
   costo: Tembo Deck ¥2.100 a testa (giorno feriale) · con la Galleria a 450 m ¥3.100
   orari: 10–21, ultimo ingresso alle 20
-  prenotazione: biglietto con data e ora sul sito ufficiale, oppure in biglietteria al momento (il venerdì sera c'è coda)
+  prenotazione: biglietti presi per 2, con data e ora. Il biglietto elettronico (eTicket) si apre dal link nell'email, da mostrare all'ingresso
 - 18:15 sposta Super Potato, Akihabara | via mezzi: #skytree > #super-potato-akiba (Skytree → Akihabara)
   breve: metro + treno ~25′
   come: metro linea Toei Asakusa dalla stazione Oshiage (sotto la Skytree) ad Asakusabashi (8′), treno JR linea Sōbu fino ad Akihabara (2′), 5′ a piedi
@@ -199,7 +199,6 @@ mangiare:
   • Cena: Kyushu Jangara ad Akihabara, ramen col brodo di maiale (11–22)
 prenotare:
   • Messaggio all'host dell'Airbnb per lasciare le valigie alle 13:30
-  • Skytree: biglietto con data e ora per le 17:00 circa, per 2
   • Carta Suica (tessera per metro e treni) già sul telefono
 attenzione:
   • Da Fūunji c'è coda e alle 15 chiude
@@ -208,7 +207,7 @@ attenzione:
 anticipo:
   • Kappabashi (la via dei negozi da cucina e del cibo finto in plastica), fino alle 17
   • Distributori di gadget a capsule (gachapon) ovunque ad Akihabara
-stanchi: • Saltate la Skytree (dal ponte si vede lo stesso) e andate dritti ad Akihabara · dopo cena saltate le sale giochi e la testa di Godzilla: treno JR per Shinjuku (18′) e a letto
+stanchi: • Sulla Skytree (biglietto già preso) restate poco e andate dritti ad Akihabara · dopo cena saltate le sale giochi e la testa di Godzilla: treno JR per Shinjuku (18′) e a letto
 camminata: ~10 km · mezzi ~1 h 30 in tutto · pause: pranzo 45′, cena 45′
 
 ### 2026-11-07
@@ -1335,17 +1334,6 @@ costo: ¥2.600 a tratta a testa
 link: Prenota su Japan Bus Online = https://japanbusonline.com/CourseSearch/11900040002?afcd=MDI= ; Sito ufficiale Nōhi Bus = https://www.nouhibus.co.jp/english/
 priorità: alta
 nota: Andata 8:10 → 9:00 e ritorno su una corsa tra 13:30 e 14:30: due prenotazioni di sola andata.
-
-### skytree
-tappa: 2026-11-06 17:05
-cosa: Tokyo Skytree 6/11, ingresso tra le 17:00 e le 17:30 (Tembo Deck), per 2
-tipo: prenotare
-giorno: 2026-11-06
-quando: quando volete: non va a ruba come Shibuya Sky
-costo: ¥2.100 a testa (giorno feriale)
-link: Biglietti (sito ufficiale Skytree) = https://www.tokyo-skytree.jp/en/ticket/
-priorità: bassa
-nota: Si può anche comprare in biglietteria al momento, ma il venerdì sera c'è coda. Il biglietto online ha data e ora fissate.
 
 ### shibuya-sky
 tappa: 2026-11-17 16:00
