@@ -70,7 +70,7 @@ Già verificato (non riproporre):
 - Go-kart per le strade di Tokyo escluso su richiesta (niente patente internazionale).
 - Samurai Restaurant Time (verificato il 4/10): spettacoli 10:50, 14:00, 16:30, niente alle 19 · chiuso giovedì e domenica secondo alcune fonti. Scelto lo spettacolo delle 14 il 17/11 (martedì), così Shibuya Sky resta al tramonto.
 - Tokyo Skytree aggiunta il 6/11 dopo il ponte Azuma-bashi (al posto del Senso-ji illuminato). Biglietti presi il 10/10 (link eTicket solo nell'email, mai qui).
-- Il torneo di sumo di novembre è a Fukuoka (fuori rotta). Asakusa Sumo Club (~$100) tolto su richiesta: al suo posto la serata ad Akihabara.
+- Cena da SUMO (ristorante a tema) del 9/11 tolta su richiesta (10/10). Il torneo di sumo di novembre è a Fukuoka (fuori rotta). Asakusa Sumo Club (~$100) tolto su richiesta: al suo posto la serata ad Akihabara.
 - Lake Bake: bar interno chiuso, solo asporto. Omen (udon a Ginkaku-ji) chiuso il giovedì: il 12/11 non si va.
 - Super Potato di Osaka = negozio Otaroad a Nipponbashi (Den Den Town).
 - Shibuya Sky: biglietti 2 settimane prima alle 00:00 giapponesi. Bus Nōhi per Shirakawa-go: prenotazioni 1 mese prima.
@@ -379,17 +379,14 @@ gruppo: tutto
   breve: col gruppo · ingresso 19:00–19:30
   Museo d'arte digitale: stanze di luci e specchi, si cammina nell'acqua.
   attenzione: acqua fino al ginocchio (pantaloncini in prestito gratis); armadietti piccoli (23×34×37 cm): la valigia resta in hotel
-- 21:00 cibo Cena da SUMO (ristorante a tema)
-  breve: ristorante a tema sumo, col gruppo
-  attenzione: non risulta nel file del gruppo: da verificare
-- 22:30 sposta Hotel Saibo | via mezzi: #teamlab > @saibo (teamLab → Hotel Saibo)
+- 21:00 sposta Hotel Saibo | via mezzi: #teamlab > @saibo (teamLab → Hotel Saibo)
   breve: metro ~35′ o taxi 20′
 
 #### Guida
 senso: Mattina col gruppo alla pagoda Chureito (la foto simbolo del Fuji), pomeriggio in treno a Tokyo, sera a teamLab (museo di luci digitali dove si cammina nell'acqua).
 mangiare:
   • Pranzo al lago prima del treno
-  • Cena col gruppo da SUMO (da verificare), o dopo le 21 vicino all'hotel
+  • Cena dopo teamLab, da decidere: a Toyosu (il quartiere di teamLab) prima di tornare, oppure vicino all'hotel a Ningyōchō
 prenotare:
   • Treno Fuji Excursion del pomeriggio già preso (si sale a Fujisan alle 14:16)
   • teamLab già prenotato dal gruppo
@@ -1423,13 +1420,6 @@ cosa: Proporre al gruppo il check-out alle 6:45 con le valigie in stazione
 tipo: gestire
 priorità: media
 nota: Il check-out di Nagomi è entro le 10, ma dopo Honcho Street servono ~40′ per tornare alla casa e poi c'è il treno.
-
-### cena-sumo
-tappa: 2026-11-09 21:00
-cosa: Chiedere al gruppo se la cena da SUMO è confermata
-tipo: gestire
-priorità: bassa
-nota: Non risulta nel file del gruppo.
 
 ### tenku
 tappa: 2026-11-07 15:30
