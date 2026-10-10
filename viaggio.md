@@ -60,7 +60,7 @@ Regole di Federico:
   In basso a destra due pulsanti di vetro: la lente (ricerca) e i tre puntini (menu: adesso, da prenotare, hotel, treni e voli,
   attività, codici, yen ↔ euro, numeri utili, impostazioni con Google Maps / Mappe di Apple, tema, testo). In fondo al giorno solo il giro e i consigli.
   Sopra i giorni, la linea delle città (dalla città della notte prima a quella della sera) e sotto, a parte, le gite in giornata
-  (città in mezzo al `percorso`, es. `takayama > shirakawago > takayama`, con `città:` sulle tappe di andata e ritorno).
+  (città in mezzo al `percorso`, es. `takayama > shirakawago > takayama`, con `città:` sulle tappe di andata e ritorno; se si parte e si torna nella stessa città la fascia è larga quanto quella città).
   iOS 26 sfoca da solo una fascia sotto la barra di stato nell'app installata: la barra parte 14 px più in basso (40 px lasciavano troppo vuoto).
 
 Già verificato (non riproporre):

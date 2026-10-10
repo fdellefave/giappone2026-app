@@ -529,6 +529,10 @@ body.noscroll { overflow: hidden; }
   display: flex; align-items: center; justify-content: center; gap: 3px; white-space: nowrap;
   font-size: 9.5px; font-weight: 800; text-transform: uppercase; letter-spacing: .02em;
 }
+.ctl-x.wide {
+  left: calc(var(--a) * var(--cw) + var(--b) * var(--g) + 1px); transform: none; min-width: 0;
+  width: calc((var(--a2) - var(--a)) * var(--cw) + (var(--b2) - var(--b)) * var(--g) - 2px);
+}
 .ctl-x .ic { width: 11px; height: 11px; stroke-width: 2.5; flex: none; }
 .ctl-x.on { background: var(--c); color: var(--on); }
 .ctl-x.past:not(.on) { opacity: .45; }

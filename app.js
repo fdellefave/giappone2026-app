@@ -381,8 +381,11 @@
       r.slice(1, -1).forEach(function (c) {
         if (c === r[0] || c === r[r.length - 1]) return;
         var past = ph === "after" || (ph === "live" && j < cd);
-        h += '<button type="button" class="ctl-x' + (j === sel ? " on" : "") + (past ? " past" : "") + '" data-day="' + j + '" style="--c:' + cityVar(c) +
-          ";--j:" + j + '" aria-label="Gita a ' + esc(CITY[c]) + '">' + icon("route") + "<span>" + esc(CITY[c]) + "</span></button>";
+        // gita con partenza e ritorno nella stessa città: la fascia è larga quanto quella città nella riga sopra
+        var home = r[0] === r[r.length - 1] && segs.filter(function (g) { return g.c === r[0] && g.from <= j && g.to >= j + 1; })[0];
+        var pos = home ? ";--a:" + home.from + ";--b:" + Math.floor(home.from) + ";--a2:" + home.to + ";--b2:" + (Math.ceil(home.to) - 1) : ";--j:" + j;
+        h += '<button type="button" class="ctl-x' + (home ? " wide" : "") + (j === sel ? " on" : "") + (past ? " past" : "") + '" data-day="' + j + '" style="--c:' + cityVar(c) +
+          pos + '" aria-label="Gita a ' + esc(CITY[c]) + '">' + icon("route") + "<span>" + esc(CITY[c]) + "</span></button>";
       });
     });
     // fascia col gruppo
