@@ -78,6 +78,7 @@ Già verificato (non riproporre):
 - Conferme Booking lette il 5/10: tutte le 5 camere hanno 1 letto alla francese (131–150 cm) per 2 adulti; cancellazioni e telefoni aggiornati negli Alloggi.
 - Pagamenti (dalle email di conferma, 3/10): hotel, Airbnb e treni Klook li ha prenotati Federico per 2 persone.
   Nagomi (10/10): sostituisce il Cottage Pastorale per il 7–9/11, prenotata dal gruppo, €115,50 a testa.
+  Fuji Excursion 9/11 (10/10): preso da Federico per 2, Fujisan 14:16 → Shinjuku 16:08, €51,68.
   Klook: pagati il 7/9, i biglietti vengono confermati quando apre la vendita ufficiale (un mese prima).
   10/10: tutti gli alloggi sono pagati (Nagomi compresa), €686 a testa in tutto. Assicurazione Heymondo €44 a testa e Visit Japan Web fatti.
 
@@ -352,11 +353,15 @@ gruppo: tutto
 - 10:15 vedere Tempo libero al lago | foto: Lake Kawaguchi | dove: Lake Kawaguchi | zona: lago-kawaguchi
 - 12:00 cibo Pranzo al lago | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
   breve: poi alla stazione
-- 13:45 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
-  breve: prima del treno
-- 14:09 viaggio Treno Fuji Excursion per Shinjuku (Tokyo) | foto: Fuji Excursion | treno: fuji-9 | prenotare | dove: Kawaguchiko Station
-  breve: 14:09 → 16:07 (o 15:00 → 16:59)
-  Lo compra il gruppo il 9/10: verificate che prenda anche i vostri 2 posti.
+- 13:30 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
+  breve: prima del treno locale
+- 13:40 sposta Stazione Fujisan (Monte Fuji) | via mezzi: Kawaguchiko Station > Mt. Fuji Station, Fujiyoshida (Kawaguchiko → stazione Fujisan)
+  breve: treno locale Fujikyu ~10′, una fermata prima di Shimoyoshida
+  come: treno locale Fujikyu (la ferrovia del Fuji) da Kawaguchiko a Fujisan, si paga con la Suica (tessera per metro e treni). Controllate in stazione l'orario del treno locale: deve arrivare prima delle 14:16
+  alternativa: salire già a Kawaguchiko sullo stesso Fuji Excursion (parte da lì qualche minuto prima), ma il vostro biglietto vale da Fujisan: serve un biglietto in più per il tratto Kawaguchiko → Fujisan, da chiedere in biglietteria
+- 14:16 viaggio Treno Fuji Excursion per Shinjuku (Tokyo) | foto: Fuji Excursion | treno: fuji-9 | prenotato | dove: Mt. Fuji Station, Fujiyoshida
+  breve: 14:16 → 16:08 · dalla stazione Fujisan (Monte Fuji)
+  Biglietto per 2 già preso, posti prenotati. Il treno parte da Kawaguchiko e si sale alla fermata dopo, Fujisan.
 - 16:10 sposta Hotel Saibo | città: tokyo | via mezzi: Shinjuku Station, Tokyo > @saibo (Shinjuku → Hotel Saibo)
   breve: metro 22′ senza cambi
   come: 7′ a piedi ai binari della metro Toei, metro linea Toei Shinjuku fino a Hamachō (22′), 6′ a piedi
@@ -386,7 +391,7 @@ mangiare:
   • Pranzo al lago prima del treno
   • Cena col gruppo da SUMO (da verificare), o dopo le 21 vicino all'hotel
 prenotare:
-  • Treno Fuji Excursion del pomeriggio: lo compra il gruppo il 9/10 alle 3:00 italiane, verificate che prendano anche i vostri 2 posti
+  • Treno Fuji Excursion del pomeriggio già preso (si sale a Fujisan alle 14:16)
   • teamLab già prenotato dal gruppo
   • Pantaloni arrotolabili per teamLab
 attenzione:
@@ -1187,12 +1192,14 @@ nota: Passa da Shimoyoshida (stazione della pagoda Chureito) alle 11:14.
 
 ### fuji-9
 data: 2026-11-09
-tratta: Kawaguchiko → Shinjuku
+tratta: Fujisan (Monte Fuji) → Shinjuku
 mezzo: Fuji Excursion (treno espresso diretto, solo posti prenotati)
-orario: 14:09 → 16:07 (o 15:00 → 16:59)
-prezzo: ~€30
-stato: da comprare
-nota: Lo compra il gruppo il 9/10 alle 10:00 giapponesi (3:00 italiane): verificare che prenda anche i vostri 2 posti.
+orario: 14:16 → 16:08
+prezzo: €51,68
+euro: 51.68
+stato: pagato
+pagato da: Federico
+nota: Si sale alla stazione Fujisan, una fermata dopo Kawaguchiko: da Kawaguchiko treno locale Fujikyu (~10′).
 
 ### kamakura-10
 data: 2026-11-10
@@ -1300,18 +1307,6 @@ Campi: `tappa` (AAAA-MM-GG HH:MM della tappa a cui si riferisce, anche più di u
 (prenotare / gestire), `giorno`, `apre` e `entro` (date), `quando` (testo), `costo`, `link`, `priorità`, `nota`.
 Senza `tappa` la cosa finisce sulla prima tappa del primo giorno (la partenza). I controlli dei biglietti Klook
 li genera build.py dai treni con `conferma`.
-
-### fuji-9
-tappa: 2026-11-09 14:09
-cosa: Fuji Excursion 9/11 Kawaguchiko → Shinjuku, per 2
-tipo: prenotare
-giorno: 2026-11-09
-entro: 2026-10-09
-quando: lo compra il gruppo il 9/10
-link: Prenota su JR East (sito ufficiale) = https://www.eki-net.com/en/jreast-train-reservation/Top/Index
-costo: ~€30 in due
-priorità: alta
-nota: Verificare che prendano anche i vostri due posti (corse 14:09 → 16:07 o 15:00 → 16:59, solo posti prenotati).
 
 ### usj
 tappa: 2026-11-16 08:00
@@ -1494,7 +1489,7 @@ Stima a persona in euro.
 
 - Volo andata e ritorno: 1226 | da bozza
 - Alloggi 12 notti: 686 | tutti pagati: totale vero addebitato, Nagomi compresa
-- Treni e bus lunghi: 364 | metà dei biglietti Klook (€678) + Fuji Excursion del 9/11 + Kamakura
+- Treni e bus lunghi: 375 | metà dei biglietti Klook (€678) + Fuji Excursion del 9/11 (€51,68, pagato) + Kamakura
 - Trasporti in città: 150 | metro e bus con la Suica ~€6 al giorno + bus Shirakawa-go ~€28
 - Cibo (~13 giorni): 520 | ~€40 al giorno, comprese le cene da Kitchen Hida e Kyōya
 - Attività e spettacoli: 222 | Skytree ~€12 · Samurai Restaurant ~€43 · Gion Corner ~€30 · Shibuya Sky ~€14 · teamLab · sale giochi
