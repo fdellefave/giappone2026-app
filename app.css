@@ -676,5 +676,21 @@ body.noscroll .fabs { display: none; }
 .set .seg2 button { background: var(--card-2); }
 .set .seg2 button[aria-pressed="true"] { background: var(--ink); }
 .set .note-s { margin: 0; }
+/* soldi */
+.cost { background: var(--card); border-radius: 14px; padding: 14px 14px 4px; }
+.cost h3 { font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin: 0 0 4px; }
+.c-row { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: start; padding: 10px 0; border-top: 1px solid var(--line); }
+.cost h3 + .c-row { border-top: 0; }
+.c-l b { display: block; font-size: 15px; line-height: 1.3; }
+.c-l small { display: block; color: var(--muted); font-size: 13px; line-height: 1.4; margin-top: 2px; }
+.c-l .pills { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
+.c-v { text-align: right; font-weight: 700; font-size: 15px; white-space: nowrap; }
+.c-v small { display: block; color: var(--muted); font-weight: 500; font-size: 12.5px; }
+.c-v .c-txt { display: block; max-width: 40vw; white-space: normal; font-weight: 600; font-size: 13.5px; color: var(--muted); }
+.c-foot { margin: 0; padding: 10px 0; border-top: 1px solid var(--line); text-align: right; font-size: 15px; }
+.m-big small { font-size: 14px; font-weight: 600; opacity: .75; }
+.c-sum { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.c-sum span { display: grid; font-size: 12.5px; opacity: .8; }
+.c-sum b { font-size: 16px; opacity: 1; }
 .m-rules { background: var(--card); border-radius: 14px; padding: 14px; display: grid; gap: 14px; }
 .m-rules p { margin: 4px 0 0; font-size: 14.5px; line-height: 1.5; }

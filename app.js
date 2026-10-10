@@ -754,6 +754,7 @@
     ["hotels", "Prenotazioni hotel", "bed"],
     ["trains", "Treni, bus e voli", "train"],
     ["acts", "Attività e ristoranti", "ticket"],
+    ["costs", "Soldi", "wallet"],
     ["codes", "Codici delle prenotazioni", "copy"],
     ["money", "Yen ↔ euro", "yen"],
     ["rules", "Numeri utili e regole", "phone"],
@@ -871,6 +872,59 @@
       '<label class="imp">Incolla qui i codici ricevuti (una riga per hotel)<textarea id="cc-import" rows="4" autocomplete="off" spellcheck="false" placeholder="saibo 1234567890 0000"></textarea></label>' +
       '<div class="btns"><button type="button" class="btn go" data-codes-import="1">Salva sul telefono</button></div>';
   }
+  // ---------- soldi: quanto costano le prenotazioni (dai campi prezzo/yen/euro di Alloggi e Treni) ----------
+  function eur(n, dec) { return "€" + Number(n).toLocaleString("it-IT", { minimumFractionDigits: dec ? 2 : 0, maximumFractionDigits: dec ? 2 : 0 }); }
+  function costRow(o) {
+    return '<div class="c-row"><span class="c-l"><b>' + esc(o.title) + "</b>" + (o.sub ? "<small>" + esc(o.sub) + "</small>" : "") +
+      (o.pill ? '<span class="pills">' + o.pill + "</span>" : "") + '</span><span class="c-v num">' + o.val + "</span></div>";
+  }
+  function costBox(title, rows, foot) {
+    return '<section class="cost"><h3>' + esc(title) + "</h3>" + rows.join("") + (foot ? '<p class="c-foot">' + foot + "</p>" : "") + "</section>";
+  }
+  function pageCosts() {
+    var tot = 0, paid = 0, toCharge = 0, grp = 0, adv = 0;
+    var hRows = D.hotels.slice().sort(function (a, b) { return a.in < b.in ? -1 : 1; }).map(function (h) {
+      var each = /a testa/.test(h.price), base = h.eur != null ? h.eur : h.yen != null ? h.yen / RATE : null;
+      var two = base == null ? null : each ? base * 2 : base, pill, val;
+      if (two != null) {
+        tot += two;
+        if (h.paid === "sì") paid += two; else if (h.paid === "gruppo") grp += two; else toCharge += two;
+        if (h.paid !== "gruppo" && h.payer === "Federico") adv += two;
+      }
+      if (h.paid === "sì") pill = '<span class="pill ok">' + icon("check") + "Pagato</span>";
+      else if (h.paid === "gruppo") pill = '<span class="pill grp">' + icon("users") + "Quota col gruppo</span>";
+      else pill = '<span class="pill warn">Da addebitare</span>';
+      val = h.yen != null ? yen(h.yen) + "<small>≈ " + eur(h.yen / RATE) + "</small>" : each ? eur(base) + " a testa<small>" + eur(two) + " in due</small>" : esc(h.price);
+      return costRow({ title: h.name, sub: hotelNights(h) + (h.paid === "no" && h.payment ? " · " + h.payment : ""), pill: pill, val: val });
+    });
+    var tRows = D.trains.slice().sort(function (a, b) { return (a.date + a.time) < (b.date + b.time) ? -1 : 1; }).map(function (t) {
+      var pill;
+      if (t.eur != null) { tot += t.eur; if (t.status === "pagato") paid += t.eur; else toCharge += t.eur; if (t.payer === "Federico") adv += t.eur; }
+      if (t.status === "pagato") pill = '<span class="pill ok">' + icon("check") + "Pagato</span>";
+      else if (t.status === "da comprare") pill = '<span class="pill todo">Da comprare</span>';
+      else if (t.status === "sul posto") pill = '<span class="pill muted">Sul posto</span>';
+      return costRow({ title: t.route, sub: dShort(t.date) + " · " + t.line, pill: pill,
+        val: t.eur != null ? eur(t.eur, true) : '<span class="c-txt">' + esc(t.price) + "</span>" });
+    });
+    var fRows = (D.flights || []).map(function (f) {
+      return costRow({ title: f.route, sub: dShort(f.date) + " · " + f.line, pill: '<span class="pill ok">' + icon("check") + "Prenotato</span>", val: '<span class="c-txt">prezzo non segnato</span>' });
+    });
+    var open = D.todo.filter(function (t) { var a = t.at && t.at[0]; return t.kind === "prenotare" && t.cost && !done(t.id) && !(a && D.days[a.d].items[a.i].train); }).map(function (t) {
+      return costRow({ title: t.task, sub: t.when || "", val: '<span class="c-txt">' + esc(t.cost) + "</span>" });
+    });
+    var head = '<div class="m-now"><p class="m-sub">Prenotazioni fatte finora, in due</p><p class="m-big num">≈ ' + eur(tot) + " <small>(" + eur(tot / 2) + " a testa)</small></p>" +
+      '<div class="c-sum"><span><b class="num">' + eur(paid) + "</b>già pagato</span><span><b class=\"num\">" + eur(toCharge) + "</b>da addebitare</span><span><b class=\"num\">" + eur(grp) + "</b>quota col gruppo</span></div>" +
+      (adv ? '<p class="m-sub">Sulla carta di Federico: ≈ ' + eur(adv) + ", la metà è " + eur(adv / 2) + ".</p>" : "") + "</div>";
+    var bTot = (D.budget || []).reduce(function (s, b) { return s + b.eur; }, 0);
+    var bud = (D.budget || []).map(function (b) { return costRow({ title: b.item, sub: b.note, val: eur(b.eur) }); });
+    return head +
+      '<p class="note-s">Hotel in yen al cambio del viaggio (1 € ≈ ' + RATE + " ¥). Esclusi voli, tasse di soggiorno e colazioni pagate in hotel.</p>" +
+      costBox("Alloggi · prezzo della camera per 2", hRows) +
+      costBox("Treni e bus · per 2", tRows) +
+      (fRows.length ? costBox("Voli", fRows) : "") +
+      (open.length ? costBox("Ancora da prenotare · stime", open) : "") +
+      (bud.length ? costBox("Stima di tutto il viaggio · a persona", bud, "Totale ≈ <b class=\"num\">" + eur(bTot) + "</b> a testa") : "");
+  }
   function pageMoney() {
     return '<p class="note-s">Cambio fisso del viaggio: 1 € ≈ ' + RATE + " ¥.</p>" +
       '<div class="conv-row"><span class="cur">¥</span><input id="yen" inputmode="decimal" value="1000" aria-label="Yen"></div>' +
@@ -899,7 +953,7 @@
       '<div class="set"><h3>Dati salvati su questo telefono</h3><p class="note-s">Spunte «Fatto», codici delle prenotazioni, meteo e foto. Cancellarli non tocca il programma.</p><button type="button" class="btn small" data-wipe="codes">Cancella i codici</button> <button type="button" class="btn small" data-wipe="done">Azzera le spunte «Fatto»</button></div>' +
       '<p class="foot-note">Versione ' + APP_V + " · dati del " + esc(D.generated || "") + "</p>";
   }
-  var PAGES = { todo: pageTodo, hotels: pageHotels, trains: pageTrains, acts: pageActs, codes: pageCodes, money: pageMoney, rules: pageRules, settings: pageSettings };
+  var PAGES = { todo: pageTodo, hotels: pageHotels, trains: pageTrains, acts: pageActs, codes: pageCodes, costs: pageCosts, money: pageMoney, rules: pageRules, settings: pageSettings };
   function menuHome() {
     var n = allOpenTodos().length;
     return statusHtml() + '<div class="m-list">' + MENU.map(function (m) {
