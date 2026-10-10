@@ -150,6 +150,7 @@ def parse_hotels(lines):
             "in": d_in.isoformat(), "out": d_out.isoformat(), "nights": (d_out - d_in).days,
             "price": f.get("prezzo", ""), "yen": num(f.get("yen")), "eur": num(f.get("euro")),
             "paid": paid, "payer": f.get("pagato da", ""), "shared": f.get("diviso", "no") == "sì",
+            "settled": f.get("saldato", "no") == "sì",
             "payment": f.get("pagamento", ""), "cancel": f.get("cancellazione", ""), "note": f.get("nota", ""),
             "address": f.get("indirizzo", ""), "access": f.get("arrivo", ""), "hours": f.get("orari", ""),
             "app": f.get("app"), "q": f.get("maps", f.get("nome", hid)), "phone": f.get("telefono", ""),
@@ -197,6 +198,18 @@ def parse_todo(lines):
                     "cost": f.get("costo", ""), "link": None, "links": parse_links(f.get("link"), where),
                     "prio": f.get("priorità", "media"), "note": f.get("nota", ""), "slot": f.get("tappa")})
         out[-1]["link"] = out[-1]["links"][0]["url"] if out[-1]["links"] else None
+    return out
+
+
+def parse_extras(lines):
+    out = []
+    for xid, body in entries(lines):
+        f = fields(body)
+        st = f.get("stato", "")
+        if st not in ("pagato", "da pagare"):
+            err(f"Altre spese/{xid}: «stato» deve essere pagato o da pagare")
+        out.append({"id": xid, "task": f.get("cosa", xid), "price": f.get("prezzo", ""), "eur": num(f.get("euro")),
+                    "status": st, "payer": f.get("pagato da", ""), "note": f.get("nota", "")})
     return out
 
 
@@ -569,7 +582,8 @@ def main():
         "departure": info.get("partenza"), "rate": float(info.get("cambio", 185)),
         "travellers": [x.strip() for x in info.get("viaggiatori", "").split(",") if x.strip()],
         "days": days, "hotels": list(hotels.values()), "trains": list(trains.values()), "flights": list(flights.values()),
-        "todo": todo, "budget": parse_budget(S["Budget"]),
+        "todo": todo, "budget": parse_budget(S["Budget"]), "extras": parse_extras(S.get("Altre spese", [])),
+        "hotelsEach": num(info.get("alloggi a testa")),
         "places": places, "zones": zones, "glossary": parse_glossary(S["Glossario"]),
     }
     for w in warnings:

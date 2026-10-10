@@ -687,7 +687,7 @@
   }
   function hotelPayText(h) {
     if (h.paid === "sì") return "Pagato" + (h.payer ? " da " + h.payer : "") + " · " + h.price;
-    if (h.paid === "gruppo") return h.payment || "Quota del gruppo";
+    if (h.paid === "gruppo") return (h.payment || "Quota del gruppo") + (h.price ? " · " + h.price : "");
     return h.price + " · " + h.payment;
   }
 
@@ -882,21 +882,28 @@
     return '<section class="cost"><h3>' + esc(title) + "</h3>" + rows.join("") + (foot ? '<p class="c-foot">' + foot + "</p>" : "") + "</section>";
   }
   function pageCosts() {
-    var tot = 0, paid = 0, toCharge = 0, grp = 0, adv = 0;
+    var tot = 0, paid = 0, toCharge = 0, grp = 0, adv = 0, hEst = 0, hGrp = 0, hAllPaid = true;
     var hRows = D.hotels.slice().sort(function (a, b) { return a.in < b.in ? -1 : 1; }).map(function (h) {
       var each = /a testa/.test(h.price), base = h.eur != null ? h.eur : h.yen != null ? h.yen / RATE : null;
-      var two = base == null ? null : each ? base * 2 : base, pill, val;
+      var two = base == null ? null : each ? base * 2 : base, pill, val, ok = h.paid === "sì" || (h.paid === "gruppo" && h.settled);
+      if (!ok) hAllPaid = false;
       if (two != null) {
-        tot += two;
-        if (h.paid === "sì") paid += two; else if (h.paid === "gruppo") grp += two; else toCharge += two;
+        hEst += two; if (h.paid === "gruppo") hGrp += two;
+        if (ok) paid += two; else if (h.paid === "gruppo") grp += two; else toCharge += two;
         if (h.paid !== "gruppo" && h.payer === "Federico") adv += two;
       }
-      if (h.paid === "sì") pill = '<span class="pill ok">' + icon("check") + "Pagato</span>";
+      if (ok) pill = '<span class="pill ok">' + icon("check") + (h.paid === "gruppo" ? "Quota pagata" : "Pagato") + "</span>" + (h.paid === "gruppo" ? '<span class="pill grp">' + icon("users") + "Col gruppo</span>" : "");
       else if (h.paid === "gruppo") pill = '<span class="pill grp">' + icon("users") + "Quota col gruppo</span>";
       else pill = '<span class="pill warn">Da addebitare</span>';
-      val = h.yen != null ? yen(h.yen) + "<small>≈ " + eur(h.yen / RATE) + "</small>" : each ? eur(base) + " a testa<small>" + eur(two) + " in due</small>" : esc(h.price);
+      val = h.yen != null ? yen(h.yen) + "<small>≈ " + eur(h.yen / RATE) + "</small>" : each ? eur(base, base % 1 !== 0) + " a testa<small>" + eur(two, two % 1 !== 0) + " in due</small>" : esc(h.price);
       return costRow({ title: h.name, sub: hotelNights(h) + (h.paid === "no" && h.payment ? " · " + h.payment : ""), pill: pill, val: val });
     });
+    tot += hEst;
+    var hReal = D.hotelsEach ? D.hotelsEach * 2 : null, hFoot = "";
+    if (hReal && hAllPaid) {
+      paid += hReal - hEst; adv += (hReal - hGrp) - (hEst - hGrp); tot += hReal - hEst;
+      hFoot = "Addebitato davvero: <b class=\"num\">" + eur(D.hotelsEach) + "</b> a testa (" + eur(hReal) + " in due)";
+    }
     var tRows = D.trains.slice().sort(function (a, b) { return (a.date + a.time) < (b.date + b.time) ? -1 : 1; }).map(function (t) {
       var pill;
       if (t.eur != null) { tot += t.eur; if (t.status === "pagato") paid += t.eur; else toCharge += t.eur; if (t.payer === "Federico") adv += t.eur; }
@@ -909,18 +916,24 @@
     var fRows = (D.flights || []).map(function (f) {
       return costRow({ title: f.route, sub: dShort(f.date) + " · " + f.line, pill: '<span class="pill ok">' + icon("check") + "Prenotato</span>", val: '<span class="c-txt">prezzo non segnato</span>' });
     });
+    var xRows = (D.extras || []).map(function (x) {
+      if (x.eur != null) { tot += x.eur; if (x.status === "pagato") paid += x.eur; else toCharge += x.eur; if (x.payer === "Federico") adv += x.eur; }
+      return costRow({ title: x.task, sub: x.note, pill: x.status === "pagato" ? '<span class="pill ok">' + icon("check") + "Pagato</span>" : '<span class="pill warn">Da pagare</span>',
+        val: x.eur != null ? eur(x.eur, true) + (x.price ? "<small>" + esc(x.price) + "</small>" : "") : '<span class="c-txt">' + esc(x.price) + "</span>" });
+    });
     var open = D.todo.filter(function (t) { var a = t.at && t.at[0]; return t.kind === "prenotare" && t.cost && !done(t.id) && !(a && D.days[a.d].items[a.i].train); }).map(function (t) {
       return costRow({ title: t.task, sub: t.when || "", val: '<span class="c-txt">' + esc(t.cost) + "</span>" });
     });
-    var head = '<div class="m-now"><p class="m-sub">Prenotazioni fatte finora, in due</p><p class="m-big num">≈ ' + eur(tot) + " <small>(" + eur(tot / 2) + " a testa)</small></p>" +
+    var head = '<div class="m-now"><p class="m-sub">Prenotazioni e spese fatte finora, in due</p><p class="m-big num">≈ ' + eur(tot) + " <small>(" + eur(tot / 2) + " a testa)</small></p>" +
       '<div class="c-sum"><span><b class="num">' + eur(paid) + "</b>già pagato</span><span><b class=\"num\">" + eur(toCharge) + "</b>da addebitare</span><span><b class=\"num\">" + eur(grp) + "</b>quota col gruppo</span></div>" +
       (adv ? '<p class="m-sub">Sulla carta di Federico: ≈ ' + eur(adv) + ", la metà è " + eur(adv / 2) + ".</p>" : "") + "</div>";
     var bTot = (D.budget || []).reduce(function (s, b) { return s + b.eur; }, 0);
     var bud = (D.budget || []).map(function (b) { return costRow({ title: b.item, sub: b.note, val: eur(b.eur) }); });
     return head +
-      '<p class="note-s">Hotel in yen al cambio del viaggio (1 € ≈ ' + RATE + " ¥). Esclusi voli, tasse di soggiorno e colazioni pagate in hotel.</p>" +
-      costBox("Alloggi · prezzo della camera per 2", hRows) +
+      '<p class="note-s">Hotel in yen al cambio del viaggio (1 € ≈ ' + RATE + " ¥)" + (hFoot ? ", ma il totale usa quanto addebitato davvero" : "") + ". Esclusi voli, tasse di soggiorno e colazioni pagate in hotel.</p>" +
+      costBox("Alloggi · prezzo della camera per 2", hRows, hFoot) +
       costBox("Treni e bus · per 2", tRows) +
+      (xRows.length ? costBox("Altre spese · per 2", xRows) : "") +
       (fRows.length ? costBox("Voli", fRows) : "") +
       (open.length ? costBox("Ancora da prenotare · stime", open) : "") +
       (bud.length ? costBox("Stima di tutto il viaggio · a persona", bud, "Totale ≈ <b class=\"num\">" + eur(bTot) + "</b> a testa") : "");

@@ -78,7 +78,7 @@ Già verificato (non riproporre):
 - Pagamenti (dalle email di conferma, 3/10): hotel, Airbnb e treni Klook li ha prenotati Federico per 2 persone.
   Nagomi (10/10): sostituisce il Cottage Pastorale per il 7–9/11, prenotata dal gruppo, €115,50 a testa.
   Klook: pagati il 7/9, i biglietti vengono confermati quando apre la vendita ufficiale (un mese prima).
-  Booking: Super Hotel già pagato; gli altri li addebita Booking sulla carta. I prezzi veri degli hotel sono in yen.
+  10/10: tutti gli alloggi sono pagati (Nagomi compresa), €686 a testa in tutto. Assicurazione Heymondo €44 a testa e Visit Japan Web fatti.
 
 Punti aperti: sono nella sezione «Da fare», ognuno agganciato alla sua tappa (l'app li mostra come notifiche).
 - Chi ha pagato i voli e la quota di Nagomi non risulta dalle email: chiedere a Federico se serve nei conti.
@@ -87,6 +87,7 @@ Punti aperti: sono nella sezione «Da fare», ognuno agganciato alla sua tappa (
 
 partenza: 2026-11-05T15:05+01:00
 cambio: 185
+alloggi a testa: 686
 viaggiatori: Federico, amico
 
 ## Giorni
@@ -1021,7 +1022,8 @@ camminata: ~3 km · monorotaia 15′
 
 ## Alloggi
 
-Prezzi: totale della camera per 2 persone, nella valuta in cui è stata prenotata. `pagato`: sì / no / gruppo.
+Prezzi: totale della camera per 2 persone, nella valuta in cui è stata prenotata. `pagato`: sì / no / gruppo
+(per gli alloggi del gruppo `saldato: sì` quando la quota è pagata). Il totale vero addebitato è in Info (`alloggi a testa`).
 
 ### airbnb-shinjuku
 nome: Airbnb Shinjuku (Ōkubo)
@@ -1030,10 +1032,10 @@ dal: 2026-11-06
 al: 2026-11-07
 prezzo: €80,56
 euro: 80.56
-pagato: no
+pagato: sì
 pagato da: Federico
 diviso: sì
-pagamento: Airbnb addebita da solo il 15/10
+pagamento: pagato
 cancellazione: gratuita fino al 23/10 alle 15:00
 indirizzo: Ōkubo 2-13-5, Shinjuku-ku, Tokyo 169-0072
 arrivo: Stazione Higashi-Shinjuku (metro Ōedo) a piedi 5′ · JR Shinjuku a piedi 20′
@@ -1052,7 +1054,8 @@ prezzo: €115,50 a testa
 euro: 115.5
 pagato: gruppo
 diviso: no
-pagamento: quota a testa, da saldare col gruppo
+pagamento: quota a testa, pagata
+saldato: sì
 indirizzo: Kawaguchi 1575-4, Fujikawaguchiko (Yamanashi), sponda nord del lago, 600 m dal santuario Kawaguchi Asama
 arrivo: Taxi dalla stazione di Kawaguchiko ~10′ (4,6 km) · bus fino alla fermata Kawaguchi-kyoku-mae (10–15′) + 5′ a piedi
 orari: Check-in dalle 16:00 (va comunicata prima l'ora d'arrivo) · check-out entro le 10:00 · silenzio dalle 21 alle 8
@@ -1067,10 +1070,10 @@ dal: 2026-11-09
 al: 2026-11-10
 prezzo: ¥16.835
 yen: 16835
-pagato: no
+pagato: sì
 pagato da: Federico
 diviso: sì
-pagamento: Booking addebita da solo sulla carta
+pagamento: pagato
 cancellazione: gratuita fino al 7/11 alle 23:59, poi nessun rimborso
 indirizzo: Nihonbashi Ningyōchō 3-3-16, Chūō-ku, Tokyo
 arrivo: Ningyōchō (metro Hibiya / Toei Asakusa) a piedi 2′ · Hamachō (metro Toei Shinjuku) a piedi 6′
@@ -1088,10 +1091,10 @@ dal: 2026-11-10
 al: 2026-11-13
 prezzo: ¥54.570
 yen: 54570
-pagato: no
+pagato: sì
 pagato da: Federico
 diviso: sì
-pagamento: Booking addebita da solo sulla carta
+pagamento: pagato
 cancellazione: gratuita fino all'8/11 alle 23:59, poi rimborso di €207,43 (si perde la prima notte)
 indirizzo: Aburanokōji, Shiokōji-dōri, Shimogyō-ku, Kyoto
 arrivo: Stazione di Kyoto, uscita Central, a piedi 7′ · metro Karasuma uscita C7 a piedi 5′
@@ -1109,10 +1112,10 @@ dal: 2026-11-13
 al: 2026-11-15
 prezzo: ¥55.566
 yen: 55566
-pagato: no
+pagato: sì
 pagato da: Federico
 diviso: sì
-pagamento: Booking addebita da solo sulla carta (¥56.166 con la tassa delle terme) · tassa di soggiorno in hotel
+pagamento: pagato · tassa di soggiorno da pagare in hotel
 cancellazione: gratuita fino al 10/11 alle 23:59, poi rimborso di €164,42 (si perde la prima notte)
 indirizzo: Nadamachi 5-41, Takayama (Gifu)
 arrivo: Stazione di Takayama a piedi 3′ · bus Nōhi accanto alla stazione
@@ -1130,10 +1133,10 @@ dal: 2026-11-15
 al: 2026-11-16
 prezzo: ¥11.857
 yen: 11857
-pagato: no
+pagato: sì
 pagato da: Federico
 diviso: sì
-pagamento: Booking addebita da solo sulla carta
+pagamento: pagato
 cancellazione: gratuita fino all'11/11 alle 23:59, poi nessun rimborso
 indirizzo: Higashi-Shinsaibashi 1-17-11, Chūō-ku, Osaka
 arrivo: Shinsaibashi (metro Midōsuji) a piedi 4′ · Nagahoribashi a piedi 7′
@@ -1409,7 +1412,7 @@ giorno: 2026-11-06
 quando: prima della partenza
 link: https://www.airbnb.it/trips
 priorità: media
-nota: L'annuncio offre il deposito; il check-in è dalle 15:00. Se l'host non può (né farvi entrare prima), prenotate un deposito Radical Storage vicino a Ōkubo (~¥750–850 a valigia al giorno) aperto fino a tardi: https://radicalstorage.com/luggage-storage/tokyo/okubo-station. Il 15/10 Airbnb addebita €80,56.
+nota: L'annuncio offre il deposito; il check-in è dalle 15:00. Se l'host non può (né farvi entrare prima), prenotate un deposito Radical Storage vicino a Ōkubo (~¥750–850 a valigia al giorno) aperto fino a tardi: https://radicalstorage.com/luggage-storage/tokyo/okubo-station.
 
 ### saibo
 tappa: 2026-11-10 06:32
@@ -1420,15 +1423,6 @@ quando: prima della partenza
 link: https://secure.booking.com/mytrips.html
 priorità: media
 nota: Check-out alle 6:30, ritiro verso le 18:40, prima dello Shinkansen delle 20:09. Nello stesso messaggio dite anche l'ora d'arrivo del 9/11 (verso le 16:45): l'hotel la chiede. Si scrive dall'app Booking, nella chat con la struttura.
-
-### hotel-carta
-cosa: Controllare la carta su Booking per gli addebiti degli hotel
-tipo: gestire
-entro: 2026-11-07
-quando: prima delle scadenze di cancellazione
-link: https://secure.booking.com/mytrips.html
-priorità: media
-nota: Booking addebita da solo APA, Saibo, Alpina e Hillarys (¥138.828 in tutto, ~€750). Se volete pagare con Revolut, cambiate la carta nell'app Booking.
 
 ### nagomi-arrivo
 tappa: 2026-11-07 15:00
@@ -1469,13 +1463,12 @@ priorità: media
 nota: Linea di Takayama (traininfo.jr-central.co.jp) · orari USJ del 16/11 · meteo e foliage.
 
 ### documenti
-cosa: Visit Japan Web, e-SIM, Suica, assicurazione (per tutti e due)
+cosa: e-SIM e Suica (per tutti e due)
 tipo: gestire
 entro: 2026-11-04
 quando: prima della partenza
-link: https://www.vjw.digital.go.jp/
 priorità: media
-nota: QR di Visit Japan Web salvati sul telefono.
+nota: Visit Japan Web (il modulo online per l'ingresso in Giappone) e assicurazione Heymondo già fatti: tenete i QR di Visit Japan Web salvati sul telefono.
 
 ### contanti
 cosa: Contanti in yen
@@ -1495,19 +1488,30 @@ link: App Booking = https://secure.booking.com/mytrips.html
 priorità: bassa
 nota: Su Booking c'è scritto arrivo tra le 21 e le 22, ma lo Shinkansen arriva a Kyoto alle 22:21. Basta un messaggio alla struttura dall'app Booking.
 
+## Altre spese
+
+Campi: `cosa`, `prezzo` (testo), `euro` (totale per 2), `stato` (pagato / da pagare), `pagato da`, `nota`.
+
+### assicurazione
+cosa: Assicurazione di viaggio Heymondo
+prezzo: €44 a testa
+euro: 88
+stato: pagato
+nota: Polizza nell'email e nell'app Heymondo (non sul sito: contiene i dati personali).
+
 ## Budget
 
 Stima a persona in euro.
 
 - Volo andata e ritorno: 1226 | da bozza
-- Alloggi 12 notti: 663 | metà delle camere (¥187.569 + €80,56 l'Airbnb) + quota di Nagomi €115,50
+- Alloggi 12 notti: 686 | tutti pagati: totale vero addebitato, Nagomi compresa
 - Treni e bus lunghi: 364 | metà dei biglietti Klook (€678) + Fuji Excursion del 9/11 + Kamakura
 - Trasporti in città: 150 | metro e bus con la Suica ~€6 al giorno + bus Shirakawa-go ~€28
 - Cibo (~13 giorni): 520 | ~€40 al giorno, comprese le cene da Kitchen Hida e Kyōya
 - Attività e spettacoli: 222 | Skytree ~€12 · Samurai Restaurant ~€43 · Gion Corner ~€30 · Shibuya Sky ~€14 · teamLab · sale giochi
 - USJ + Express: 180 | prezzo variabile, ~€130–195 a testa
 - Onsen e sentō: 15 | l'onsen dell'Alpina è incluso
-- Assicurazione + e-SIM: 75
+- Assicurazione + e-SIM: 75 | assicurazione Heymondo €44 (pagata) + e-SIM
 - Extra (shopping, imprevisti): 500
 
 ## Zone
