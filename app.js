@@ -3,7 +3,7 @@
    Per provare un'ora diversa: aggiungere ?ora=2026-11-11T10:00+09:00 all'indirizzo. */
 (function () {
   "use strict";
-  var APP_V = "20"; // uguale al numero di VERSION in sw.js
+  var APP_V = "25"; // uguale al numero di VERSION in sw.js
 
   var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", shirakawago: "Shirakawa-go", roma: "Roma" };
   var TYPE = {
@@ -348,6 +348,71 @@
     var r = D.days[i].route.filter(function (c) { return c !== "roma"; });
     return r.length ? r[r.length - 1] : "roma";
   }
+  // Orari di arrivo e partenza in ogni città del percorso del giorno: [{c, arr, dep}] (null = notte prima / notte dopo).
+  function pad5(t) { return t.length === 4 ? "0" + t : t; }
+  function addMin(t, m) { var x = hmMin(t) + m; return ("0" + Math.floor(x / 60)).slice(-2) + ":" + ("0" + (x % 60)).slice(-2); }
+  function chainDep(ch) { // il treno, bus o volo vero e proprio (quello con «HH:MM → HH:MM»), altrimenti il primo della catena
+    for (var k = 0; k < ch.length; k++) if (/→\s*\d{1,2}:\d{2}/.test(ch[k].short || "")) return ch[k].t;
+    return ch[0].t;
+  }
+  function chainArr(ch) {
+    var it = ch[ch.length - 1], s = it.short || "", m = s.match(/→\s*(\d{1,2}:\d{2})/);
+    if (m) return pad5(m[1]);
+    if (/^(Atterraggio|Arrivo)/.test(it.title)) return it.t;
+    if ((m = s.match(/~?\s*(\d+)\s*′/))) return addMin(it.t, +m[1]);
+    if ((m = s.match(/~?\s*(\d+(?:,\d+)?)\s*h\b/))) return addMin(it.t, Math.round(parseFloat(m[1].replace(",", ".")) * 60));
+    return null;
+  }
+  function citySegs(i) {
+    var d = D.days[i], segs = d.route.map(function (c) { return { c: c, arr: null, dep: null }; });
+    var idx = 0, ch = [], last = null, seen = false;
+    d.items.forEach(function (it) {
+      if (it.city === "transit") { ch.push(it); return; }
+      if (!seen) { // prima tappa in città del giorno
+        seen = true;
+        var s0 = segs.findIndex(function (s) { return s.c === it.city; });
+        if (s0 > 0 || (s0 === 0 && ch.length)) { idx = Math.max(s0, 0); if (ch.length) { segs[idx].arr = chainArr(ch) || it.t; if (idx) segs[idx - 1].dep = chainDep(ch); } }
+        ch = []; last = it; return;
+      }
+      if (it.city !== segs[idx].c) {
+        var nx = -1;
+        for (var k = idx + 1; k < segs.length; k++) if (segs[k].c === it.city) { nx = k; break; }
+        if (nx < 0) { ch = []; return; }
+        segs[idx].dep = ch.length ? chainDep(ch) : last && last.k === "sposta" ? last.t : it.t;
+        segs[nx].arr = ch.length ? chainArr(ch) || it.t : it.t;
+        idx = nx;
+      }
+      ch = []; last = it;
+    });
+    if (ch.length) { // la giornata finisce in viaggio (volo di ritorno) o è tutta in viaggio (volo d'andata)
+      segs[idx].dep = chainDep(ch);
+      if (segs[idx + 1]) segs[idx + 1].arr = chainArr(ch);
+    }
+    return segs;
+  }
+  function segTime(s) {
+    if (s.arr && s.dep) return s.arr + "–" + s.dep;
+    if (s.dep) return "partenza " + s.dep;
+    if (s.arr) return "arrivo " + s.arr;
+    return "";
+  }
+  // Colore del quadratino del giorno: ogni città occupa la sua parte della giornata (6–24); il viaggio si divide a metà.
+  function dayGradient(i) {
+    var segs = citySegs(i), f = function (t) { return Math.min(1, Math.max(0, (hmMin(t) - 360) / 1080)); };
+    if (segs.length < 2) return cityVar(mainCity(i));
+    var cuts = [];
+    for (var k = 0; k < segs.length - 1; k++) {
+      var a = segs[k].dep, b = segs[k + 1].arr;
+      cuts.push(a && b ? (f(a) + f(b)) / 2 : f(a || b || "15:00"));
+    }
+    var stops = [], from = 0;
+    segs.forEach(function (s, k) {
+      var to = k < cuts.length ? Math.max(from, cuts[k]) : 1, col = cityVar(s.c);
+      stops.push(col + " " + (from * 100).toFixed(1) + "%", col + " " + (to * 100).toFixed(1) + "%");
+      from = to;
+    });
+    return "linear-gradient(90deg," + stops.join(",") + ")";
+  }
   // Linea del tempo delle città sopra i giorni: ogni giorno va dalla città della notte prima a quella della sera
   // (le gite in giornata, tipo Kamakura, non contano). Nei giorni di trasferimento la casella è divisa a metà.
   function cityTimeline(sel, cd, ph) {
@@ -407,7 +472,7 @@
     D.days.forEach(function (x, j) {
       var past = ph === "after" || (ph === "live" && j < cd), n = dayCount(j), d = isoDate(x.id);
       h += '<button type="button" class="daychip' + (j === cd || (ph !== "live" && x.id === today) ? " today" : "") + (past ? " past" : "") +
-        '" data-day="' + j + '" aria-pressed="' + (j === sel) + '" style="--c:' + cityVar(mainCity(j)) + '" aria-label="' + esc(dLong(x.id)) + (n ? ", " + n + " cose da sistemare" : "") + '">' +
+        '" data-day="' + j + '" aria-pressed="' + (j === sel) + '" style="--c:' + cityVar(mainCity(j)) + ";--cg:" + dayGradient(j) + '" aria-label="' + esc(dLong(x.id)) + (n ? ", " + n + " cose da sistemare" : "") + '">' +
         '<span class="w">' + WD3[d.getDay()] + '</span><span class="d">' + d.getDate() + "</span>" + (n ? '<b class="nb">' + n + "</b>" : "") + "</button>";
     });
     return h + "</div></div></div>";
@@ -425,8 +490,11 @@
     var h = '<header class="dayhead"><div class="dayhead-top"><span class="kicker">Giorno ' + d.n + " · " + esc(dLong(d.id)) + "</span>";
     h += '<div class="navbtns"><button type="button" class="navbtn" data-day="' + (i - 1) + '" aria-label="Giorno prima"' + (i > 0 ? "" : " disabled") + ">" + icon("left") + "</button>";
     h += '<button type="button" class="navbtn" data-day="' + (i + 1) + '" aria-label="Giorno dopo"' + (i < D.days.length - 1 ? "" : " disabled") + ">" + icon("right") + "</button></div></div>";
+    var segs = citySegs(i);
     h += "<h1" + (d.route.length > 2 ? ' class="long"' : "") + ">" + d.route.map(function (c, k) {
-      return (k ? ' <span class="sep">›</span> ' : "") + '<span class="c" style="--c:' + cityVar(c) + '">' + esc(CITY[c]) + "</span>";
+      var tm = segTime(segs[k]);
+      return (k ? ' <span class="sep">›</span> ' : "") + '<span class="c" style="--c:' + cityVar(c) + '">' + esc(CITY[c]) +
+        (tm ? ' <small class="ct">(' + tm + ")</small>" : "") + "</span>";
     }).join("") + "</h1>";
     var walk = (d.guide.camminata || "").split(" · ")[0];
     var sh = HOTELS[d.sleep];

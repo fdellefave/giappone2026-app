@@ -140,7 +140,11 @@ body.noscroll .fab { display: none; }
 .daychip {
   flex: 0 0 auto; scroll-snap-align: center; border: 0; background: var(--card); border-radius: 12px; cursor: pointer;
   width: var(--cw); height: 50px; padding: 0; display: grid; align-content: center; justify-items: center; line-height: 1.1; position: relative;
-  box-shadow: inset 0 -3px 0 var(--c, var(--line));
+  overflow: visible;
+}
+.daychip::after { /* colore della città: diviso in proporzione al tempo passato in ognuna */
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 4px; border-radius: 0 0 12px 12px;
+  background: var(--cg, var(--c, var(--line)));
 }
 .daychip .w { font-size: 10.5px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
 .daychip .d { font-size: 18px; font-weight: 700; font-variant-numeric: tabular-nums; }
@@ -148,7 +152,7 @@ body.noscroll .fab { display: none; }
 .daychip[aria-pressed="true"] { background: var(--ink); color: var(--card); }
 .daychip[aria-pressed="true"] .w, .daychip[aria-pressed="true"] .d { color: inherit; }
 .daychip[aria-pressed="true"] .w { opacity: .7; }
-.daychip.today { box-shadow: inset 0 -3px 0 var(--c, var(--line)), 0 0 0 2px var(--accent); }
+.daychip.today { box-shadow: 0 0 0 2px var(--accent); }
 .daychip .nb { /* quante cose restano da prenotare o sistemare in quel giorno */
   position: absolute; top: -6px; right: -6px; min-width: 19px; height: 19px; padding: 0 5px; border-radius: 10px;
   background: var(--bad); color: var(--on); font-size: 11.5px; font-weight: 800; line-height: 19px; text-align: center;
@@ -163,6 +167,7 @@ body.noscroll .fab { display: none; }
 .dayhead h1.long { font-size: 24px; }
 .dayhead h1 .sep { color: var(--faint); font-weight: 500; margin: 0 4px; }
 .dayhead h1 .c { color: var(--c); }
+.dayhead h1 .ct { font-size: .5em; font-weight: 700; color: var(--muted); letter-spacing: 0; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .navbtns { display: flex; gap: 6px; }
 .navbtn {
   width: 38px; height: 38px; border-radius: 50%; border: 0; background: var(--card); display: grid; place-items: center; cursor: pointer;
