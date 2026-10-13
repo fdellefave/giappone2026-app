@@ -82,6 +82,8 @@ Già verificato (non riproporre):
   Klook: pagati il 7/9, i biglietti vengono confermati quando apre la vendita ufficiale (un mese prima).
   10/10: tutti gli alloggi sono pagati (Nagomi compresa), €686 a testa in tutto. Assicurazione Heymondo €44 a testa e Visit Japan Web fatti.
 
+Messaggio del gruppo (13/10): 7 del gruppo dormono al Cottage Pastorale (navetta dalla stazione il 7/11, bici l'8/11, transfer alla stazione Fujisan il 9/11: solo per i loro ospiti). PDF dei biglietti e guide per il ritiro dei Fuji Excursion sul drive condiviso del gruppo. Il resto (Kanazawa, Shirakawa-go del 4/11, Nara, Osaka, ristoranti col gruppo) riguarda giorni senza di voi.
+
 Punti aperti: sono nella sezione «Da fare», ognuno agganciato alla sua tappa (l'app li mostra come notifiche).
 - Chi ha pagato i voli e la quota di Nagomi non risulta dalle email: chiedere a Federico se serve nei conti.
 
@@ -221,12 +223,13 @@ gruppo: 14:00-
   breve: entro le 10 · colazione al konbini (minimarket)
   Colazione al konbini (i minimarket aperti 24 h: 7-Eleven, Lawson, FamilyMart).
 - 08:40 sposta Stazione JR di Shinjuku | via piedi: @airbnb-shinjuku > Shinjuku Station, Tokyo (Airbnb → stazione di Shinjuku)
-  breve: a piedi 20′ con le valigie · al binario alle 9:15
+  breve: a piedi 20′ con le valigie · ritiro biglietti alle 9:00 · al binario alle 9:15
   alternativa: taxi 7′ (~¥1.000)
 - 09:30 viaggio Treno Fuji Excursion per Kawaguchiko (lago del Fuji) | foto: Fuji Excursion | treno: fuji-7 | prenotato | dove: Shinjuku Station, Tokyo
   breve: 9:30 → 11:28 · diretto
   Treno diretto per il Monte Fuji fino a Kawaguchiko (il paese sul lago ai piedi del Fuji).
   Alle 11:14 passa da Shimoyoshida, la stazione della pagoda Chureito.
+  attenzione: per salire servono i biglietti di carta. Prima del treno ritirateli alle macchinette JR di Shinjuku scansionando il QR dell'app Klook, e ritirate anche quelli del ritorno del 9/11: nella zona del Fuji le stazioni non sono JR e non si possono ritirare. La guida al ritiro è sul drive condiviso del gruppo.
 - 11:30 bagagli Valigie negli armadietti della stazione | città: kawaguchiko | deposito | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
   breve: stazione di Kawaguchiko
   Armadietti a gettoni nella stazione.
@@ -243,6 +246,7 @@ gruppo: 14:00-
   breve: prima che arrivino gli amici
 - 14:00 fare Arrivano gli amici | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
   breve: dal bus delle 8:40 da Takayama
+  Chi dorme al Cottage Pastorale (7 del gruppo) ha la navetta della struttura dalla stazione; voi andate a Nagomi in taxi o bus.
 - 14:10 sposta Nagomi | via taxi: Kawaguchiko Station > @nagomi (Stazione → Nagomi)
   breve: taxi ~10′ · o bus fino a Kawaguchi-kyoku-mae + 5′ a piedi
   La casa è sulla sponda nord del lago, a 600 m dal santuario Kawaguchi Asama (dove parte la salita al Tenku no Torii).
@@ -294,6 +298,7 @@ gruppo: tutto
 - 08:00 fare Giro del lago in bici | foto: Lake Kawaguchi | dove: Lake Kawaguchi | zona: lago-kawaguchi
   breve: col gruppo · 5 bici gratis alla casa
   La pagoda Chureito e Honcho Street si fanno il 9/11.
+  Chi dorme al Cottage Pastorale noleggia le bici lì (solo per i loro ospiti): voi usate le 5 gratis di Nagomi.
 - 13:00 cibo Miura Udon (spaghettoni udon) | posto: miura-udon
   breve: pranzo, se passate da Fujiyoshida · solo 10–14
   Udon spessi e sodi tipici della zona (Tabelog 3,65). Chiuso il mercoledì.
@@ -332,6 +337,7 @@ gruppo: tutto
 - 06:45 hotel Check-out da Nagomi (proposta) | alloggio: nagomi
   breve: proposta al gruppo: uscire presto con le valigie
   Il check-out sarebbe entro le 10, ma dopo Honcho Street servono ~40′ per tornare alla casa.
+  Il gruppo del Cottage Pastorale ha chiesto il transfer della struttura fino alla stazione Fujisan (Monte Fuji) al check-out: vale solo per i loro ospiti, non per Nagomi.
 - 06:55 bagagli Valigie negli armadietti della stazione (proposta) | deposito | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
   breve: stazione di Kawaguchiko, taxi da Nagomi ~10′
   alternativa: alle 7 il deposito con persona è ancora chiuso: se gli armadietti della stazione sono pieni, provate quelli grandi del palazzo Fujikan davanti alla stazione (¥800). Se non si trova posto: check-out alle 10, poi taxi da Nagomi alla stazione e niente armadietti.
@@ -379,6 +385,7 @@ gruppo: tutto
   breve: col gruppo · ingresso 19:00–19:30
   Museo d'arte digitale: stanze di luci e specchi, si cammina nell'acqua.
   attenzione: acqua fino al ginocchio (pantaloncini in prestito gratis); armadietti piccoli (23×34×37 cm): la valigia resta in hotel
+  prenotazione: fatta dal gruppo, i biglietti sono sul drive condiviso del gruppo (link nella descrizione della chat)
 - 21:00 sposta Hotel Saibo | via mezzi: #teamlab > @saibo (teamLab → Hotel Saibo)
   breve: metro ~35′ o taxi 20′
 
@@ -1422,13 +1429,22 @@ quando: ~1/11
 priorità: media
 nota: Linea di Takayama (traininfo.jr-central.co.jp) · orari USJ del 16/11 · meteo e foliage.
 
+### ritiro-fuji
+tappa: 2026-11-07 09:30
+cosa: Ritirare i biglietti di carta dei due Fuji Excursion (7/11 e 9/11) a Shinjuku
+tipo: gestire
+giorno: 2026-11-07
+quando: 7/11 prima del treno delle 9:30
+priorità: alta
+nota: Macchinette JR della stazione di Shinjuku (o di un'altra stazione JR di Tokyo): si scansiona il QR del biglietto. Senza biglietto di carta non si sale. Quelli del 9/11 vanno ritirati subito, perché le stazioni della zona del Fuji (Kawaguchiko, Fujisan) non sono JR. Guida passo passo sul drive condiviso del gruppo.
+
 ### documenti
-cosa: e-SIM e Suica (per tutti e due)
+cosa: e-SIM, Suica e app utili (per tutti e due)
 tipo: gestire
 entro: 2026-11-04
 quando: prima della partenza
 priorità: media
-nota: Visit Japan Web (il modulo online per l'ingresso in Giappone) e assicurazione Heymondo già fatti: tenete i QR di Visit Japan Web salvati sul telefono.
+nota: Visit Japan Web (il modulo online per l'ingresso in Giappone) e assicurazione Heymondo già fatti: tenete i QR di Visit Japan Web salvati sul telefono. App consigliate dal gruppo: Suica (tessera per metro e treni, già nel Wallet), Tabelog (recensioni dei ristoranti), Kuli Kuli (traduce menù e cartelli), Flush (bagni pubblici vicini), Payke (legge gli ingredienti di cibi e cosmetici), Bounce (depositi bagagli), Japan Travel di Navitime (percorsi coi mezzi, di riserva).
 
 ### contanti
 cosa: Contanti in yen
