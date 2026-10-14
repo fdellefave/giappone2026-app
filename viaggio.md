@@ -742,7 +742,7 @@ con: voi due
 - 08:10 viaggio Bus per Shirakawa-go | treno: bus-14 | prenotare | dove: Takayama Nohi Bus Center
   breve: 8:10 → 9:00
   Bus Nōhi, con prenotazione.
-  costo: ¥2.600 a testa
+  costo: ¥2.800 a testa
   prenotazione: dal 14/10, su japanbusonline.com
 - 09:00 sposta Belvedere Shiroyama | città: shirakawago | via piedi: Shirakawa-go Bus Terminal > #belvedere-shiroyama (Bus → belvedere)
   breve: a piedi 20′ in salita (o navetta ~¥200)
@@ -759,7 +759,7 @@ con: voi due
   breve: verso mezzogiorno, prima della folla
 - 13:30 viaggio Bus per Takayama | treno: bus-14 | prenotare | città: takayama | via mezzi: Shirakawa-go Bus Terminal > @alpina (Shirakawa-go → hotel)
   breve: ~50′ · corsa tra le 13:30 e le 14:30
-  Corsa da fissare. All'arrivo 3′ a piedi all'hotel.
+  Corsa da fissare: 13:30 → 14:20 (Nōhi, arriva da Toyama) o 14:00 → 14:50 (Iruka, arriva da Takaoka), entrambe con prenotazione. Senza prenotazione: 13:15 → 14:05. All'arrivo 3′ a piedi all'hotel.
 - 14:30 hotel Pomeriggio lento all'Alpina | alloggio: alpina
   breve: riposo · onsen sul tetto verso le 16:30
   alternativa: passeggiata tra i templi di Higashiyama, a est del centro
@@ -1244,8 +1244,8 @@ nota: Zero cambi con le valigie; panorama sulle gole del fiume Hida.
 data: 2026-11-14
 tratta: Takayama ⇄ Shirakawa-go
 mezzo: Bus Nōhi (con prenotazione)
-orario: andata 8:10 → 9:00 · ritorno su una corsa 13:30–14:30
-prezzo: ¥2.600 a tratta a testa (~€14)
+orario: andata 8:10 → 9:00 · ritorno 13:30 → 14:20 o 14:00 → 14:50
+prezzo: ¥2.800 a tratta a testa (~€15)
 stato: da comprare
 link: https://japanbusonline.com/CourseSearch/11900040002?afcd=MDI=
 nota: Prenotabile dal 14/10; andata e ritorno sono due prenotazioni, per 2 persone.
@@ -1330,7 +1330,7 @@ tipo: prenotare
 giorno: 2026-11-14
 apre: 2026-10-14
 quando: dal 14/10
-costo: ¥2.600 a tratta a testa
+costo: ¥2.800 a tratta a testa
 link: Prenota su Japan Bus Online = https://japanbusonline.com/CourseSearch/11900040002?afcd=MDI= ; Sito ufficiale Nōhi Bus = https://www.nouhibus.co.jp/english/
 priorità: alta
 nota: Andata 8:10 → 9:00 e ritorno su una corsa tra 13:30 e 14:30: due prenotazioni di sola andata.
