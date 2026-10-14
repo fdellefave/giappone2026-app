@@ -815,7 +815,8 @@ con: voi due
   come: metro Midōsuji da Shin-Osaka a Shinsaibashi
 - 12:20 bagagli Valigie all'Hotel Hillarys | alloggio: hillarys | deposito
   breve: check-in dalle 15
-  prenotazione: chiesto all'hotel di lasciarle tra le 12 e le 13 e di fare il check-in tra le 17 e le 18:30 (messaggio inviato il 14/10, attesa risposta)
+  prenotazione: confermato dall'hotel (14/10): deposito valigie gratis prima del check-in
+  Opzione: check-in anticipato già dalle 12:00 a ¥1.000 (~€5,40), da chiedere prima all'hotel così preparano la camera. Senza, valigie in deposito e check-in alle 17:30 come da programma.
   alternativa: deposito Radical Storage vicino alla stazione di Shinsaibashi (si prenota online), oppure gli armadietti extra-large del centro commerciale Namba City (a 10′, ¥600–800).
 - 12:25 sposta Dōtonbori | via piedi: @hillarys > #dotonbori (Hotel → Dōtonbori)
   breve: a piedi 10′
@@ -1161,7 +1162,7 @@ arrivo: Shinsaibashi (metro Midōsuji) a piedi 4′ · Nagahoribashi a piedi 7�
 telefono: +81 6 6281 8000
 camera: Matrimoniale standard, 1 letto alla francese (131–150 cm), non fumatori
 orari: Check-in dalle 15:00 · check-out entro le 10:00 · deposito bagagli
-nota: Colazione inclusa. Tassa di soggiorno da pagare in hotel. Wi-Fi solo nelle aree comuni. Messaggio del 14/10: valigie tra le 12 e le 13 del 15/11, check-in tra le 17 e le 18:30, check-out tra le 6:45 e le 7:30 del 16/11, chiesto l'orario della colazione; attesa risposta.
+nota: Colazione inclusa. Tassa di soggiorno da pagare in hotel. Wi-Fi solo nelle aree comuni. Risposta del 14/10: deposito valigie gratis prima del check-in; check-in anticipato possibile dalle 12:00 a ¥1.000, da chiedere in anticipo. Non hanno detto da che ora c'è la colazione (il 16/11 uscite alle 7:15).
 app: https://secure.booking.com/mytrips.html
 maps: Hotel Hillarys Shinsaibashi, Osaka
 
@@ -1491,14 +1492,14 @@ nota: Chiesto il 14/10: valigie tra le 12 e le 13 del 13/11, check-in tra le 17 
 
 ### risposta-hillarys
 tappa: 2026-11-15 12:20
-cosa: Hotel Hillarys: controllare la risposta su valigie e orario della colazione
+cosa: Hotel Hillarys: orario della colazione e check-in anticipato (sì o no)
 tipo: gestire
 giorno: 2026-11-15
 entro: 2026-10-21
 quando: entro il 21/10 (messaggio inviato il 14/10)
 link: App Booking = https://secure.booking.com/mytrips.html
 priorità: media
-nota: Chiesto il 14/10: valigie tra le 12 e le 13 del 15/11, check-in tra le 17 e le 18:30, check-out tra le 6:45 e le 7:30 del 16/11 e da che ora c'è la colazione.
+nota: Risposta del 14/10: deposito valigie gratis confermato; check-in anticipato dalle 12:00 a ¥1.000, da chiedere in anticipo. Ancora senza risposta: da che ora c'è la colazione (il 16/11 uscite alle 7:15 per Universal Studios). Decidere se volete il check-in anticipato e, se sì, scriverlo all'hotel.
 
 ### risposta-super-hotel
 tappa: 2026-11-16 22:50
