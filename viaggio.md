@@ -84,6 +84,8 @@ Già verificato (non riproporre):
 
 Messaggio del gruppo (13/10): 7 del gruppo dormono al Cottage Pastorale (navetta dalla stazione il 7/11, bici l'8/11, transfer alla stazione Fujisan il 9/11: solo per i loro ospiti). PDF dei biglietti e guide per il ritiro dei Fuji Excursion sul drive condiviso del gruppo. Il resto (Kanazawa, Shirakawa-go del 4/11, Nara, Osaka, ristoranti col gruppo) riguarda giorni senza di voi.
 
+Messaggi agli alloggi (14/10): Federico ha scritto a tutti e 7 con orari di arrivo e partenza (con margine) e le richieste: deposito valigie (Airbnb, Nagomi, Saibo, Alpina, Hillarys), arrivo tardi (APA, Super Hotel), orario della colazione (Alpina, Hillarys). Le risposte da verificare sono le voci «risposta-…» in «Da fare».
+
 Punti aperti: sono nella sezione «Da fare», ognuno agganciato alla sua tappa (l'app li mostra come notifiche).
 - Chi ha pagato i voli e la quota di Nagomi non risulta dalle email: chiedere a Federico se serve nei conti.
 
@@ -133,7 +135,7 @@ con: voi due
   costo: ~¥800 a testa con la Suica
 - 13:30 bagagli Valigie all'Airbnb | alloggio: airbnb-shinjuku | deposito
   breve: deposito valigie · check-in dalle 15
-  L'annuncio offre il deposito bagagli: da confermare con l'host (o che vi faccia entrare prima delle 15).
+  L'annuncio offre il deposito bagagli: chiesto all'host di lasciarle tra le 13 e le 14:30 e di rientrare tra le 22 e le 23:30 (messaggio inviato il 14/10, attesa risposta).
   Ingresso autonomo con cassetta delle chiavi dalle 15:00.
   alternativa: se l'host dice di no, deposito Radical Storage (negozi convenzionati) intorno a Ōkubo, ~¥750–850 a valigia per tutto il giorno, si prenota online. Sceglietene uno aperto fino alle 23 o 24 ore su 24: le riprendete tornando da Godzilla. Meglio non portarle in giro: da Fūunji si fa la coda in un locale minuscolo.
 - 13:40 sposta Fūunji | via piedi: @airbnb-shinjuku > #fuunji (Airbnb → Fūunji)
@@ -202,7 +204,7 @@ mangiare:
   • Pranzo: Fūunji, tsukemen (ramen da intingere), tra i migliori di Tokyo (Tabelog 3,77). Chiude alle 15: se siete in ritardo, Kura Sushi ad Asakusa (sushi su nastro, si ordina dal tablet)
   • Cena: Kyushu Jangara ad Akihabara, ramen col brodo di maiale (11–22)
 prenotare:
-  • Messaggio all'host dell'Airbnb per lasciare le valigie alle 13:30
+  • Risposta dell'host dell'Airbnb sul deposito valigie (chiesto il 14/10)
   • Carta Suica (tessera per metro e treni) già sul telefono
 attenzione:
   • Da Fūunji c'è coda e alle 15 chiude
@@ -252,7 +254,7 @@ gruppo: 14:00-
   La casa è sulla sponda nord del lago, a 600 m dal santuario Kawaguchi Asama (dove parte la salita al Tenku no Torii).
 - 15:00 hotel Check-in a Nagomi (casa del gruppo) | alloggio: nagomi
   breve: check-in dalle 16 · prima solo valigie, se l'host è d'accordo
-  attenzione: il check-in è dalle 16:00: chiedere all'host se alle 14:30 si possono lasciare le valigie
+  attenzione: il check-in è dalle 16:00: chiesto all'host di lasciare le valigie all'arrivo, tra le 14 e le 15 (messaggio inviato il 14/10, attesa risposta)
 - 15:30 vedere Tenku no Torii (portale sul Fuji) | posto: tenku-no-torii
   breve: il portale nel cielo · chiude verso le 16
   Un torii (il portale rosso dei santuari) affacciato sul Fuji, sopra il santuario Kawaguchi Asama.
@@ -278,7 +280,7 @@ mangiare:
   • Cena col gruppo: Hoto Fudo, hoto (zuppa di tagliatelle larghe con zucca e verdure). Solo contanti
 prenotare:
   • Treno Fuji Excursion già pagato
-  • Chiedere all'host di Nagomi di lasciare le valigie prima delle 16 (check-in dalle 16)
+  • Risposta di Nagomi sulle valigie prima delle 16 (chiesto il 14/10)
   • Contanti per la cena
 attenzione:
   • Il Tenku no Torii chiude verso le 16 ed è a 20–30′ di salita: se il gruppo arriva tardi, meglio rimandarlo
@@ -414,6 +416,7 @@ gruppo: 06:35-18:20
   breve: alle 6:30, prima del treno del gruppo
 - 06:32 bagagli Valigie in deposito all'Hotel Saibo | alloggio: saibo | deposito
   breve: le riprendete alle 18:40
+  prenotazione: chiesto all'hotel il deposito dalle 6–6:45 alle 18:15–19 e se la reception è aperta così presto (messaggio inviato il 14/10, attesa risposta)
   alternativa: se l'hotel non le tiene, portatele con voi fino a Shimbashi (stessa metro, senza cambi) e lasciatele in un deposito Radical Storage aperto 24 ore su 24 tra Shimbashi e Daimon (~¥850 a valigia, si prenota online). La sera, scesi dal treno a Shimbashi, le riprendete e andate dritti alla stazione di Tokyo (treno JR, 4′) senza ripassare dall'hotel.
 - 06:35 sposta Kamakura-kōkō-mae | via mezzi: @saibo > #kokomae (Hotel Saibo → Kamakura-kōkō-mae)
   breve: metro + treno + trenino ~1 h 20
@@ -482,7 +485,7 @@ mangiare:
 prenotare:
   • Biglietto giornaliero del trenino Enoden ¥800
   • Shinkansen già pagato: valigia oltre 160 cm (somma dei lati) = serve il posto con spazio bagagli
-  • Avvisare l'Hotel Saibo che ritirate le valigie alle 18:40
+  • Risposta dell'Hotel Saibo sul deposito valigie e sulla reception alle 6:30 (chiesto il 14/10)
 attenzione:
   • Il tempio del bambù (Hōkoku-ji) può chiudere con la pioggia
   • Hase-dera chiude alle 16:30
@@ -670,6 +673,7 @@ con: voi due
   breve: a piedi 3′
 - 12:20 bagagli Valigie allo Spa Hotel Alpina | alloggio: alpina | deposito
   breve: check-in dalle 15
+  prenotazione: chiesto all'hotel di lasciarle tra le 12 e le 13 e di fare il check-in tra le 17 e le 18:30 (messaggio inviato il 14/10, attesa risposta)
   Hotel moderno con onsen (le terme) sul tetto.
   alternativa: armadietti grandi nella stazione di Takayama (~¥700–900 al giorno) o nel terminal dei bus Nōhi accanto (armadietti in 3 punti), entrambi a 3′ dall'hotel.
 - 12:30 sposta Kotte Ushi | via piedi: @alpina > #kotte-ushi (Hotel → Kotte Ushi)
@@ -807,6 +811,7 @@ con: voi due
   come: metro Midōsuji da Shin-Osaka a Shinsaibashi
 - 12:20 bagagli Valigie all'Hotel Hillarys | alloggio: hillarys | deposito
   breve: check-in dalle 15
+  prenotazione: chiesto all'hotel di lasciarle tra le 12 e le 13 e di fare il check-in tra le 17 e le 18:30 (messaggio inviato il 14/10, attesa risposta)
   alternativa: deposito Radical Storage vicino alla stazione di Shinsaibashi (si prenota online), oppure gli armadietti extra-large del centro commerciale Namba City (a 10′, ¥600–800).
 - 12:25 sposta Dōtonbori | via piedi: @hillarys > #dotonbori (Hotel → Dōtonbori)
   breve: a piedi 10′
@@ -1050,7 +1055,7 @@ indirizzo: Ōkubo 2-13-5, Shinjuku-ku, Tokyo 169-0072
 arrivo: Stazione Higashi-Shinjuku (metro Ōedo) a piedi 5′ · JR Shinjuku a piedi 20′
 orari: Check-in dalle 15:00 con cassetta delle chiavi (istruzioni nell'app dal 4/11) · check-out entro le 10:00
 camera: Monolocale per 2 ospiti
-nota: La conferma Airbnb dice «deposito bagagli disponibile»: chiedere all'host per le 13:30 del 6/11. Il telefono dell'host e il codice di conferma sono nell'app (solo sul telefono).
+nota: La conferma Airbnb dice «deposito bagagli disponibile»: chiesto all'host il 14/10 (valigie tra le 13 e le 14:30 del 6/11, rientro tra le 22 e le 23:30, check-out tra le 8 e le 9 del 7/11), attesa risposta. Il telefono dell'host e il codice di conferma sono nell'app (solo sul telefono).
 app: https://www.airbnb.it/trips
 maps: 2-13-5 Okubo, Shinjuku City, Tokyo
 
@@ -1089,7 +1094,7 @@ arrivo: Ningyōchō (metro Hibiya / Toei Asakusa) a piedi 2′ · Hamachō (metr
 telefono: +81 3 3668 2323
 camera: Matrimoniale standard, 1 letto alla francese (131–150 cm), non fumatori
 orari: Check-in 15:00–24:00 · check-out entro le 10:00 · deposito bagagli
-nota: Colazione non inclusa (¥1.500 a testa). Tassa di soggiorno da pagare in hotel. L'hotel chiede di comunicare in anticipo l'ora d'arrivo (9/11 verso le 16:45).
+nota: Colazione non inclusa (¥1.500 a testa). Tassa di soggiorno da pagare in hotel. Messaggio del 14/10: arrivo tra le 16:30 e le 17:30 del 9/11, check-out tra le 6 e le 6:45 del 10/11, deposito valigie fino alle 18:15–19, tassa di soggiorno pagata all'arrivo; attesa risposta.
 app: https://secure.booking.com/mytrips.html
 maps: Hotel Nihonbashi Saibo, Ningyocho, Tokyo
 
@@ -1110,7 +1115,7 @@ arrivo: Stazione di Kyoto, uscita Central, a piedi 7′ · metro Karasuma uscita
 telefono: +81 75 341 6111
 camera: Doppia, 1 letto alla francese (131–150 cm), non fumatori
 orari: Check-in dalle 15:00 · check-out entro le 10:00 · deposito bagagli
-nota: Colazione non inclusa (¥1.800 a testa, 6:30–10:00, ultimo ordine 9:30). Bagno pubblico interno 6–10 e 15–1 (con tatuaggi visibili può essere vietato). Su Booking risulta arrivo tra le 21 e le 22, ma arrivate verso le 22:30: aggiornatelo.
+nota: Colazione non inclusa (¥1.800 a testa, 6:30–10:00, ultimo ordine 9:30). Bagno pubblico interno 6–10 e 15–1 (con tatuaggi visibili può essere vietato). Messaggio del 14/10: arrivo tra le 22:15 e le 23 del 10/11, check-out tra le 7:30 e le 8:15 del 13/11; attesa conferma che tengano la camera.
 app: https://secure.booking.com/mytrips.html
 maps: APA Hotel Kyoto Eki Horikawadori
 
@@ -1131,7 +1136,7 @@ arrivo: Stazione di Takayama a piedi 3′ · bus Nōhi accanto alla stazione
 telefono: +81 577 33 0033
 camera: Matrimoniale standard, 1 letto alla francese (131–150 cm), non fumatori
 orari: Check-in 15:00–23:00 · check-out 5:00–10:00 · onsen sul tetto fino all'1:00
-nota: Colazione inclusa. Con tatuaggi visibili l'onsen può essere vietato.
+nota: Colazione inclusa. Con tatuaggi visibili l'onsen può essere vietato. Messaggio del 14/10: valigie tra le 12 e le 13 del 13/11, check-in tra le 17 e le 18:30, check-out tra le 7:15 e le 7:45 del 15/11, chiesto l'orario della colazione; attesa risposta.
 app: https://secure.booking.com/mytrips.html
 maps: Spa Hotel Alpina Hida Takayama
 
@@ -1152,7 +1157,7 @@ arrivo: Shinsaibashi (metro Midōsuji) a piedi 4′ · Nagahoribashi a piedi 7�
 telefono: +81 6 6281 8000
 camera: Matrimoniale standard, 1 letto alla francese (131–150 cm), non fumatori
 orari: Check-in dalle 15:00 · check-out entro le 10:00 · deposito bagagli
-nota: Colazione inclusa. Tassa di soggiorno da pagare in hotel. Wi-Fi solo nelle aree comuni.
+nota: Colazione inclusa. Tassa di soggiorno da pagare in hotel. Wi-Fi solo nelle aree comuni. Messaggio del 14/10: valigie tra le 12 e le 13 del 15/11, check-in tra le 17 e le 18:30, check-out tra le 6:45 e le 7:30 del 16/11, chiesto l'orario della colazione; attesa risposta.
 app: https://secure.booking.com/mytrips.html
 maps: Hotel Hillarys Shinsaibashi, Osaka
 
@@ -1173,7 +1178,7 @@ arrivo: JR Hamamatsuchō a piedi 4′ · Daimon (metro Ōedo / Toei Asakusa) a p
 telefono: +81 3 6361 9000
 camera: Assegnata all'arrivo, 1 letto alla francese (131–150 cm)
 orari: Check-in 15:00–24:00 · check-out entro le 10:00
-nota: Colazione inclusa. Sulla fattura dell'hotel comparirà ¥51.062 (lo sconto Booking non viene mostrato). Tassa di soggiorno a parte.
+nota: Colazione inclusa. Sulla fattura dell'hotel comparirà ¥51.062 (lo sconto Booking non viene mostrato). Tassa di soggiorno a parte. Messaggio del 14/10: arrivo tra le 22:30 e le 23:30 del 16/11 (chiesto di tenere la camera anche dopo mezzanotte se il treno ritarda), check-out tra le 9 e le 10 del 18/11; attesa risposta.
 app: https://secure.booking.com/mytrips.html
 maps: Super Hotel Tokyo Hamamatsucho
 
@@ -1392,35 +1397,6 @@ link: Sito ufficiale = https://samurai-restaurant.tokyo/ ; Con cancellazione gra
 priorità: media
 nota: Spettacolo 14:00–15:40, si entra dalle 13:30. Spettacoli solo alle 10:50, 14:00 e 16:30 (quello delle 19 non c'è più). In vendita fino a 4 settimane prima; sul sito ufficiale niente rimborsi, sulle piattaforme (es. GetYourGuide) spesso cancellazione gratuita fino a 24 h prima.
 
-### airbnb
-tappa: 2026-11-06 13:30
-cosa: Airbnb: chiedere all'host il deposito valigie alle 13:30 del 6/11
-tipo: gestire
-giorno: 2026-11-06
-quando: prima della partenza
-link: https://www.airbnb.it/trips
-priorità: media
-nota: L'annuncio offre il deposito; il check-in è dalle 15:00. Se l'host non può (né farvi entrare prima), prenotate un deposito Radical Storage vicino a Ōkubo (~¥750–850 a valigia al giorno) aperto fino a tardi: https://radicalstorage.com/luggage-storage/tokyo/okubo-station.
-
-### saibo
-tappa: 2026-11-10 06:32
-cosa: Hotel Saibo: avvisare che lasciate le valigie dalle 6:30 alle 18:40 del 10/11
-tipo: gestire
-giorno: 2026-11-10
-quando: prima della partenza
-link: https://secure.booking.com/mytrips.html
-priorità: media
-nota: Check-out alle 6:30, ritiro verso le 18:40, prima dello Shinkansen delle 20:09. Nello stesso messaggio dite anche l'ora d'arrivo del 9/11 (verso le 16:45): l'hotel la chiede. Si scrive dall'app Booking, nella chat con la struttura.
-
-### nagomi-arrivo
-tappa: 2026-11-07 15:00
-cosa: Nagomi: comunicare l'ora d'arrivo e chiedere di lasciare le valigie prima delle 16
-tipo: gestire
-giorno: 2026-11-07
-quando: prima della partenza (l'ha prenotato il gruppo)
-priorità: media
-nota: Booking chiede di comunicare in anticipo l'ora d'arrivo. Check-in dalle 16:00, ma col gruppo arrivate verso le 14:30 e alle 15:30 c'è il Tenku no Torii (portale sul Fuji): serve lasciare le valigie prima.
-
 ### controlli
 cosa: Controlli di inizio novembre
 tipo: gestire
@@ -1454,15 +1430,81 @@ quando: prima della partenza
 priorità: media
 nota: Solo contanti in molti posti: Hoto Fudo, Monkey Park, Tsukiji, Golden Gai, banchi di street food.
 
-### apa-arrivo
-tappa: 2026-11-10 22:30
-cosa: APA Hotel Kyoto: aggiornare l'ora d'arrivo (verso le 22:30)
+### risposta-airbnb
+tappa: 2026-11-06 13:30
+cosa: Airbnb Shinjuku: controllare la risposta dell'host
+tipo: gestire
+giorno: 2026-11-06
+entro: 2026-10-21
+quando: entro il 21/10 (messaggio inviato il 14/10)
+link: App Airbnb = https://www.airbnb.it/trips
+priorità: alta
+nota: Chiesto il 14/10: valigie tra le 13 e le 14:30 del 6/11, rientro tra le 22 e le 23:30, check-out tra le 8 e le 9 del 7/11. Se l'host non può tenere le valigie, prenotate un deposito Radical Storage vicino a Ōkubo (~¥750–850 a valigia al giorno) aperto fino a tardi: https://radicalstorage.com/luggage-storage/tokyo/okubo-station. Cancellazione gratuita fino al 23/10.
+
+### risposta-nagomi
+tappa: 2026-11-07 15:00
+cosa: Nagomi: controllare la risposta sulle valigie prima delle 16
+tipo: gestire
+giorno: 2026-11-07
+entro: 2026-10-21
+quando: entro il 21/10 (messaggio inviato il 14/10)
+priorità: media
+nota: Chiesto il 14/10: arrivo tra le 14 e le 15 del 7/11 e valigie in casa prima del check-in delle 16. La risposta arriva a chi ha la prenotazione del gruppo. Se non si può, armadietti della stazione di Kawaguchiko fino al rientro.
+
+### risposta-saibo
+tappa: 2026-11-10 06:32
+cosa: Hotel Saibo: controllare la risposta su reception alle 6:30 e deposito valigie
 tipo: gestire
 giorno: 2026-11-10
-quando: prima della partenza
+entro: 2026-10-21
+quando: entro il 21/10 (messaggio inviato il 14/10)
+link: App Booking = https://secure.booking.com/mytrips.html
+priorità: alta
+nota: Chiesto il 14/10: arrivo tra le 16:30 e le 17:30 del 9/11, check-out tra le 6 e le 6:45 del 10/11, valigie in deposito fino alle 18:15–19, tassa di soggiorno pagata all'arrivo. Se l'hotel non le tiene, c'è l'alternativa Radical Storage tra Shimbashi e Daimon (vedi la tappa).
+
+### risposta-apa
+tappa: 2026-11-10 22:30
+cosa: APA Hotel Kyoto: controllare che tengano la camera per l'arrivo tardi
+tipo: gestire
+giorno: 2026-11-10
+entro: 2026-10-21
+quando: entro il 21/10 (messaggio inviato il 14/10)
 link: App Booking = https://secure.booking.com/mytrips.html
 priorità: bassa
-nota: Su Booking c'è scritto arrivo tra le 21 e le 22, ma lo Shinkansen arriva a Kyoto alle 22:21. Basta un messaggio alla struttura dall'app Booking.
+nota: Scritto il 14/10: arrivo tra le 22:15 e le 23 del 10/11, check-out tra le 7:30 e le 8:15 del 13/11.
+
+### risposta-alpina
+tappa: 2026-11-13 12:20
+cosa: Spa Hotel Alpina: controllare la risposta su valigie e orario della colazione
+tipo: gestire
+giorno: 2026-11-13
+entro: 2026-10-21
+quando: entro il 21/10 (messaggio inviato il 14/10)
+link: App Booking = https://secure.booking.com/mytrips.html
+priorità: media
+nota: Chiesto il 14/10: valigie tra le 12 e le 13 del 13/11, check-in tra le 17 e le 18:30, check-out tra le 7:15 e le 7:45 del 15/11 (treno delle 8:00) e da che ora c'è la colazione. Se non tengono le valigie: armadietti della stazione di Takayama.
+
+### risposta-hillarys
+tappa: 2026-11-15 12:20
+cosa: Hotel Hillarys: controllare la risposta su valigie e orario della colazione
+tipo: gestire
+giorno: 2026-11-15
+entro: 2026-10-21
+quando: entro il 21/10 (messaggio inviato il 14/10)
+link: App Booking = https://secure.booking.com/mytrips.html
+priorità: media
+nota: Chiesto il 14/10: valigie tra le 12 e le 13 del 15/11, check-in tra le 17 e le 18:30, check-out tra le 6:45 e le 7:30 del 16/11 e da che ora c'è la colazione.
+
+### risposta-super-hotel
+tappa: 2026-11-16 22:50
+cosa: Super Hotel: controllare che tengano la camera per l'arrivo tardi
+tipo: gestire
+giorno: 2026-11-16
+entro: 2026-10-21
+quando: entro il 21/10 (messaggio inviato il 14/10)
+link: App Booking = https://secure.booking.com/mytrips.html
+priorità: bassa
+nota: Scritto il 14/10: arrivo tra le 22:30 e le 23:30 del 16/11 (anche dopo mezzanotte se il treno ritarda), check-out tra le 9 e le 10 del 18/11.
 
 ## Altre spese
 
