@@ -1,7 +1,8 @@
 /* Service worker: l'app funziona offline dopo la prima apertura (anche in Giappone senza rete).
    data.json: prima la rete, ma se non risponde entro 3 secondi si usa la copia salvata (reti lente in metro).
-   Foto di Wikipedia: cache separata che sopravvive agli aggiornamenti. Il resto: prima la copia salvata. Cambiare VERSION quando si modificano index.html, app.js o app.css. */
-const VERSION = "g26-v25";
+   Foto di Wikipedia: cache separata che sopravvive agli aggiornamenti. Il resto: prima la copia salvata. Cambiare VERSION quando si modificano index.html, app.js o app.css.
+   Il back office (admin.html, admin.js, admin.css, admin-worker.js) non passa dalla cache: serve la rete per pubblicare. */
+const VERSION = "g26-v26";
 const PHOTOS = "g26-foto";  // non si svuota agli aggiornamenti
 const SHELL = ["./", "index.html", "app.css", "app.js", "data.json", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
@@ -28,6 +29,7 @@ self.addEventListener("fetch", (e) => {
     return;
   }
   if (url.origin !== location.origin) return;
+  if (/\/admin[^/]*$/.test(url.pathname)) return; // back office: sempre dalla rete, mai dalla cache
   if (url.pathname.endsWith("data.json")) {
     const net = fetch(req).then((res) => {
       if (res.ok) { const copy = res.clone(); caches.open(VERSION).then((c) => c.put("data.json", copy)); }

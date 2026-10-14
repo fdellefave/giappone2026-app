@@ -197,8 +197,37 @@ def parse_todo(lines):
         out.append({"id": tid, "task": f.get("cosa", tid), "kind": f.get("tipo"), "day": iso(f.get("giorno"), where),
                     "opens": iso(f.get("apre"), where), "due": iso(f.get("entro"), where), "when": f.get("quando", ""),
                     "cost": f.get("costo", ""), "link": None, "links": parse_links(f.get("link"), where),
-                    "prio": f.get("priorità", "media"), "note": f.get("nota", ""), "slot": f.get("tappa")})
+                    "prio": f.get("priorità", "media"), "note": f.get("nota", ""), "slot": f.get("tappa"),
+                    "done": iso(f.get("fatto"), where)})
         out[-1]["link"] = out[-1]["links"][0]["url"] if out[-1]["links"] else None
+        if f.get("priorità", "media") not in ("alta", "media", "bassa"):
+            err(f"{where}: priorità deve essere alta, media o bassa")
+    return out
+
+
+def parse_notes(lines, day_ids):
+    """Note e aggiornamenti (scritti di solito dal back office): «testo» può continuare su righe rientrate di 2 spazi."""
+    out = []
+    for nid, body in entries(lines):
+        f, where, txt, cur = fields(body), f"Note/{nid}", [], None
+        for line in body:
+            m = KV.match(line.strip())
+            if line == line.lstrip() and m:
+                cur = m.group(1).strip()
+                if cur == "testo" and m.group(2).strip():
+                    txt.append(m.group(2).strip())
+            elif cur == "testo" and line.startswith("  "):
+                txt.append(line.strip())
+        when = f.get("data", "")
+        if not re.match(r"^\d{4}-\d{2}-\d{2}( \d{2}:\d{2})?$", when):
+            err(f"{where}: «data» deve essere AAAA-MM-GG HH:MM")
+        day = f.get("giorno") or None
+        if day and day not in day_ids:
+            err(f"{where}: giorno «{day}» fuori dal viaggio")
+        if not txt and not f.get("titolo"):
+            err(f"{where}: nota vuota (servono «titolo» o «testo»)")
+        out.append({"id": nid, "when": when, "day": day, "title": f.get("titolo", ""), "text": "\n".join(txt)})
+    out.sort(key=lambda n: n["when"], reverse=True)
     return out
 
 
@@ -586,6 +615,7 @@ def main():
         "todo": todo, "budget": parse_budget(S["Budget"]), "extras": parse_extras(S.get("Altre spese", [])),
         "hotelsEach": num(info.get("alloggi a testa")),
         "places": places, "zones": zones, "glossary": parse_glossary(S["Glossario"]),
+        "notes": parse_notes(S.get("Note", []), {d["id"] for d in days}),
     }
     for w in warnings:
         print("avviso:", w)
@@ -596,7 +626,7 @@ def main():
     n_routes = sum(len(it.get("routes", [])) for d in days for it in d["items"])
     print(f"ok: {len(days)} giorni · {n_items} tappe · {n_routes} indicazioni · {len(places)} posti · "
           f"{len(hotels)} alloggi · {len(trains)} treni · {len(flights)} voli · {len(todo)} cose da fare · "
-          f"{len(data['glossary'])} termini")
+          f"{len(data['glossary'])} termini · {len(data['notes'])} note")
     if "--check" not in sys.argv:
         OUT.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         print("scritto", OUT.name)

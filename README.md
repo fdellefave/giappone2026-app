@@ -10,13 +10,30 @@ qualsiasi cosa, anche scritta male; «da prenotare» elenca tutto ciò che manca
 Si installa sulla Home (Safari → Condividi → «Aggiungi alla schermata Home») e funziona anche senza rete
 dopo la prima apertura.
 
+## Back office dal computer
+
+`admin.html` (https://fdellefave.github.io/giappone2026-app/admin.html, link anche dal menu dell'app su schermi larghi)
+è la versione per il PC: panoramica con scadenze e calendario, ogni giorno con le tappe da modificare (ora, tipo,
+titolo, attributi, dettagli, consigli), cose da fare da spuntare per tutti e due, note e aggiornamenti, alloggi, treni,
+voli, posti, zone, budget, glossario, «Note per Claude» e il file intero come testo. Ricerca su tutto (Ctrl+K),
+anteprima del telefono con le modifiche non ancora pubblicate, elenco delle modifiche con il confronto riga per riga.
+
+«Pubblica» (Ctrl+S) controlla tutto con lo stesso `build.py` eseguito nel browser (Pyodide, Python in WebAssembly) e
+fa un solo commit su main con `viaggio.md` e `data.json`. Se nel frattempo qualcuno ha cambiato il file su GitHub, unisce
+le voci diverse e chiede quale tenere solo se è stata cambiata la stessa voce. Avvisa se una riga nuova sembra un dato
+privato (codici, PIN, carte). Le modifiche non pubblicate restano salvate nel browser.
+
+Serve un token GitHub «fine-grained» solo per questo repository con **Contents: Read and write**; resta nel browser del
+PC («Accesso a GitHub», l'icona con la chiave). Il back office non va in cache: serve la rete.
+
 ## Come è fatto
 
 ```
 viaggio.md     ← unica fonte dei dati (giorni, tappe, alloggi, treni, posti, cose da fare, budget, glossario)
 build.py       ← legge viaggio.md, controlla i riferimenti e scrive data.json
 data.json      ← generato: non modificarlo a mano
-index.html, app.js, app.css, sw.js, manifest.webmanifest, icons/   ← il sito
+index.html, app.js, app.css, sw.js, manifest.webmanifest, icons/   ← l'app per il telefono
+admin.html, admin.js, admin.css, admin-worker.js                  ← il back office per il computer
 ```
 
 La sintassi di `viaggio.md` è spiegata in cima al file. Per provare l'app a un'ora qualsiasi del viaggio:

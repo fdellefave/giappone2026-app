@@ -3,7 +3,7 @@
    Per provare un'ora diversa: aggiungere ?ora=2026-11-11T10:00+09:00 all'indirizzo. */
 (function () {
   "use strict";
-  var APP_V = "25"; // uguale al numero di VERSION in sw.js
+  var APP_V = "26"; // uguale al numero di VERSION in sw.js
 
   var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", shirakawago: "Shirakawa-go", roma: "Roma" };
   var TYPE = {
@@ -166,7 +166,7 @@
   }
 
   // ---------- cose da prenotare o sistemare ----------
-  function done(id) { return !!store("todo:" + id); }
+  function done(id) { return !!(TODO[id] && TODO[id].done) || !!store("todo:" + id); } // «fatto:» in viaggio.md vale per tutti i telefoni
   function openTodos(it) { return (it.todos || []).filter(function (id) { return !done(id); }).map(function (id) { return TODO[id]; }); }
   function needs(it) {
     var o = openTodos(it);
@@ -199,7 +199,8 @@
   }
   function todoBox(t) {
     if (done(t.id)) {
-      return '<div class="todo-box done"><span class="tb-d">' + icon("circle-check") + "<b>" + esc(t.task) + '</b></span><button type="button" class="btn small" data-todo="' + esc(t.id) + '">Annulla</button></div>';
+      return '<div class="todo-box done"><span class="tb-d">' + icon("circle-check") + "<b>" + esc(t.task) + "</b></span>" +
+        (t.done ? '<span class="pill ok">Fatto il ' + dm(t.done) + "</span>" : '<button type="button" class="btn small" data-todo="' + esc(t.id) + '">Annulla</button>') + "</div>";
     }
     var meta = [];
     if (t.when) meta.push(t.when);
@@ -531,7 +532,7 @@
     });
     h += "</div>";
 
-    h += '<div class="extras">' + tourHtml(i) + tipsHtml(d) + "</div>";
+    h += '<div class="extras">' + tourHtml(i) + dayNotes(d) + tipsHtml(d) + "</div>";
     h += '<div class="legend" aria-label="Legenda">' + Object.keys(TYPE).map(function (k) {
       return '<span style="--tc:var(--t-' + k + ')"><i></i>' + TYPE[k].n + "</span>";
     }).join("") + '<span class="lg-bad"><i></i>Da prenotare o sistemare</span></div>';
@@ -785,6 +786,18 @@
     if (!secs.length) return "";
     return fold("tips", "Consigli per la giornata", "sparkles", secs.map(function (x) { return "<div><h3>" + esc(x[1]) + "</h3>" + bulletsHtml(g[x[0]]) + "</div>"; }).join(""));
   }
+  // ---------- note e aggiornamenti (sezione «Note» di viaggio.md, scritte dal back office) ----------
+  function noteWhen(n) { var p = String(n.when || "").split(" "); return p[0] ? dm(p[0]) + (p[1] ? " alle " + p[1] : "") : ""; }
+  function noteHtml(n, withDay) {
+    var di = n.day ? D.days.findIndex(function (d) { return d.id === n.day; }) : -1;
+    return '<div class="note-i"><div class="note-h"><b>' + esc(n.title || "Nota") + "</b><small>scritta il " + esc(noteWhen(n)) +
+      (withDay && di >= 0 ? ' · <button type="button" class="lnk" data-day="' + di + '">' + esc(dShort(n.day)) + "</button>" : "") + "</small></div>" +
+      (n.text ? bulletsHtml(n.text) : "") + "</div>";
+  }
+  function dayNotes(d) {
+    var list = (D.notes || []).filter(function (n) { return n.day === d.id; });
+    return list.length ? fold("notes", "Note del giorno (" + list.length + ")", "book", list.map(function (n) { return noteHtml(n, false); }).join("")) : "";
+  }
   function conv(from) {
     var y = document.getElementById("yen"), e = document.getElementById("eur");
     if (!y || !e) return;
@@ -833,6 +846,7 @@
   // ---------- menu (i tre puntini): adesso, prenotazioni, cambio, codici, numeri utili, impostazioni ----------
   var MENU = [
     ["todo", "Da prenotare o sistemare", "alert"],
+    ["notes", "Note e aggiornamenti", "book"],
     ["hotels", "Prenotazioni hotel", "bed"],
     ["trains", "Treni, bus e voli", "train"],
     ["acts", "Attività e ristoranti", "ticket"],
@@ -947,6 +961,11 @@
           jump: x.a ? x.a.d + "-" + x.a.i : "" });
       }).join("");
   }
+  function pageNotes() {
+    var list = D.notes || [];
+    if (!list.length) return '<p class="note-s">Ancora nessuna nota. Si scrivono dal computer, nel back office.</p>';
+    return '<p class="note-s">Dalla più recente. Quelle legate a un giorno si vedono anche in fondo a quel giorno.</p>' + list.map(function (n) { return noteHtml(n, true); }).join("");
+  }
   function pageCodes() {
     var list = D.hotels.filter(function (h) { return /booking|airbnb/.test(h.app || ""); });
     return '<p class="note-s">Codici di conferma, PIN e telefono dell\'host restano <b>solo su questo telefono</b>: il sito è pubblico e con quei codici chiunque potrebbe modificare o cancellare la prenotazione. Ognuno li inserisce sul proprio telefono.</p>' +
@@ -1046,14 +1065,16 @@
       '<div class="set"><h3>All\'apertura durante il viaggio</h3>' + seg("openNow", PREF.openNow, [["true", "Vai a dove siete adesso"], ["false", "Resta sul giorno lasciato"]]) + "</div>" +
       '<div class="set"><h3>Suggerimenti</h3><p class="note-s">Il riquadro azzurro «Tocca una tappa…» in cima al giorno.</p><button type="button" class="btn small" data-hint-reset="1">Mostralo di nuovo</button></div>' +
       '<div class="set"><h3>Dati salvati su questo telefono</h3><p class="note-s">Spunte «Fatto», codici delle prenotazioni, meteo e foto. Cancellarli non tocca il programma.</p><button type="button" class="btn small" data-wipe="codes">Cancella i codici</button> <button type="button" class="btn small" data-wipe="done">Azzera le spunte «Fatto»</button></div>' +
+      (wide() ? '<div class="set"><h3>Dal computer</h3><p class="note-s">Il back office per modificare il programma, segnare le cose fatte e scrivere note: si pubblica su questo sito.</p><a class="btn small" href="admin.html">Apri il back office</a></div>' : "") +
       '<p class="foot-note">Versione ' + APP_V + " · dati del " + esc(D.generated || "") + "</p>";
   }
-  var PAGES = { todo: pageTodo, hotels: pageHotels, trains: pageTrains, acts: pageActs, codes: pageCodes, costs: pageCosts, money: pageMoney, rules: pageRules, settings: pageSettings };
+  function wide() { return !!(window.matchMedia && matchMedia("(min-width: 900px) and (pointer: fine)").matches); }
+  var PAGES = { todo: pageTodo, notes: pageNotes, hotels: pageHotels, trains: pageTrains, acts: pageActs, codes: pageCodes, costs: pageCosts, money: pageMoney, rules: pageRules, settings: pageSettings };
   function menuHome() {
     var n = allOpenTodos().length;
     return statusHtml() + '<div class="m-list">' + MENU.map(function (m) {
       return '<button type="button" class="m-item" data-mpage="' + m[0] + '"><span class="m-ic">' + icon(m[2]) + '</span><span class="m-l">' + esc(m[1]) + "</span>" +
-        (m[0] === "todo" && n ? '<b class="nb">' + n + "</b>" : "") + icon("right", "chev") + "</button>";
+        (m[0] === "todo" && n ? '<b class="nb">' + n + "</b>" : "") + (m[0] === "notes" && (D.notes || []).length ? '<b class="nb soft">' + D.notes.length + "</b>" : "") + icon("right", "chev") + "</button>";
     }).join("") + "</div>";
   }
   function renderMenu() {
@@ -1308,7 +1329,7 @@
     }
     if (ds.day !== undefined && ds.day !== "") {
       var n = parseInt(ds.day, 10);
-      if (n >= 0 && n < D.days.length) { S.day = n; S.open = {}; render(); }
+      if (n >= 0 && n < D.days.length) { if (S.menu) closeMenu(); S.day = n; S.open = {}; render(); }
       return;
     }
     if (ds.now) { jumpToNow(); return; }
@@ -1411,13 +1432,23 @@
     buildIndex();
     setTimeout(loadPhotos, 300);
     wxLoad();
+    if (PREVIEW) { S.day = Math.min(S.day || 0, D.days.length - 1); render(true); return; }
     if (PREF.openNow && jumpToNow()) return;
     var saved = store("state") || {};
     S.day = saved.day != null && saved.day < D.days.length ? saved.day : currentDay();
     render();
   }
 
-  fetch("data.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(boot).catch(function () {
+  // ?anteprima: dentro il back office (admin.html) i dati arrivano dalla pagina madre, non da data.json
+  var PREVIEW = /[?&]anteprima\b/.test(location.search) && window.parent !== window;
+  if (PREVIEW) {
+    window.addEventListener("message", function (e) {
+      if (e.origin !== location.origin || !e.data) return;
+      if (e.data.type === "g26-data") { TODO = {}; TRAINS = {}; HOTELS = {}; USED = {}; if (e.data.day != null) S.day = e.data.day; boot(e.data.data); }
+      if (e.data.type === "g26-day" && D) { S.day = e.data.day; S.open = {}; if (S.menu) closeMenu(); render(); }
+    });
+    parent.postMessage({ type: "g26-ready" }, location.origin);
+  } else fetch("data.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(boot).catch(function () {
     view.innerHTML = '<div class="empty"><h1 class="page-title">Dati non disponibili</h1><p>Non riesco a leggere i dati. Se siete offline, aprite il sito una volta con internet: da lì in poi funziona anche senza rete.</p><button type="button" class="btn go" onclick="location.reload()">Riprova</button></div>';
   });
 

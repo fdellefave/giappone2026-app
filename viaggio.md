@@ -84,9 +84,13 @@ Già verificato (non riproporre):
 
 Messaggio del gruppo (13/10): 7 del gruppo dormono al Cottage Pastorale (navetta dalla stazione il 7/11, bici l'8/11, transfer alla stazione Fujisan il 9/11: solo per i loro ospiti). PDF dei biglietti e guide per il ritiro dei Fuji Excursion sul drive condiviso del gruppo. Il resto (Kanazawa, Shirakawa-go del 4/11, Nara, Osaka, ristoranti col gruppo) riguarda giorni senza di voi.
 
+Back office (14/10): admin.html, dal PC, modifica questo file e pubblica da solo (viaggio.md + data.json generato
+con build.py nel browser, commit su main col token GitHub di Federico salvato solo sul suo PC). Le note scritte lì sono
+nella sezione «Note»: leggerle all'inizio della chat, possono contenere decisioni o aggiornamenti.
+
 Messaggi agli alloggi (14/10): Federico ha scritto a tutti e 7 con orari di arrivo e partenza (con margine) e le richieste: deposito valigie (Airbnb, Nagomi, Saibo, Alpina, Hillarys), arrivo tardi (APA, Super Hotel), orario della colazione (Alpina, Hillarys). Le risposte da verificare sono le voci «risposta-…» in «Da fare».
 
-Punti aperti: sono nella sezione «Da fare», ognuno agganciato alla sua tappa (l'app li mostra come notifiche).
+Punti aperti: sono nella sezione «Da fare», ognuno agganciato alla sua tappa (l'app li mostra come notifiche). Quando una cosa è fatta: `fatto: AAAA-MM-GG` (non cancellarla).
 - Chi ha pagato i voli e la quota di Nagomi non risulta dalle email: chiedere a Federico se serve nei conti.
 
 ## Info
@@ -1313,7 +1317,8 @@ nota: Check-in in aeroporto entro le 12:20.
 ## Da fare
 
 Campi: `tappa` (AAAA-MM-GG HH:MM della tappa a cui si riferisce, anche più di una separate da virgola: l'app mette lì la notifica), `cosa`, `tipo`
-(prenotare / gestire), `giorno`, `apre` e `entro` (date), `quando` (testo), `costo`, `link`, `priorità`, `nota`.
+(prenotare / gestire), `giorno`, `apre` e `entro` (date), `quando` (testo), `costo`, `link`, `priorità` (alta / media / bassa), `nota`,
+`fatto` (data in cui è stata fatta: resta come storico e l'app la mostra già spuntata su tutti i telefoni).
 Senza `tappa` la cosa finisce sulla prima tappa del primo giorno (la partenza). I controlli dei biglietti Klook
 li genera build.py dai treni con `conferma`.
 
@@ -1505,6 +1510,13 @@ quando: entro il 21/10 (messaggio inviato il 14/10)
 link: App Booking = https://secure.booking.com/mytrips.html
 priorità: bassa
 nota: Scritto il 14/10: arrivo tra le 22:30 e le 23:30 del 16/11 (anche dopo mezzanotte se il treno ritarda), check-out tra le 9 e le 10 del 18/11.
+
+## Note
+
+Note e aggiornamenti, scritti di solito dal back office (admin.html dal PC). L'app li mostra nel giorno indicato
+(«Note del giorno» in fondo) e tutte insieme nel menu «Note e aggiornamenti». Il sito è pubblico: niente dati privati.
+Campi: `data` (AAAA-MM-GG HH:MM, quando è stata scritta), `giorno` (facoltativo, AAAA-MM-GG del viaggio), `titolo`,
+`testo` (si va a capo con righe rientrate di 2 spazi).
 
 ## Altre spese
 
