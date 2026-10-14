@@ -902,12 +902,13 @@ con: voi due
   Comprate un ekiben (cestino da treno) per la cena.
 - 20:00 viaggio Shinkansen (treno superveloce) Osaka → Tokyo | foto: Tōkaidō Shinkansen | treno: shink-16 | prenotato | dove: Shin-Osaka Station
   breve: 20:00 → 22:24 · Nozomi 280
-  Ultimo treno utile alle 21:24.
+  attenzione: la reception del Super Hotel chiude alle 24:00 e chi non è arrivato perde la prenotazione. Il Nozomi delle 21:24 arriva a Tokyo verso le 23:45: troppo tirato. Se perdete il treno delle 20:00, prendete il primo dopo, entro le 21 circa.
 - 22:30 sposta Super Hotel Hamamatsuchō | città: tokyo | via mezzi: Tokyo Station > @super-hotel (Tokyo Station → Super Hotel)
   breve: treno 6′ + a piedi 4′
   come: treno JR (linea Yamanote o Keihin-Tōhoku) fino a Hamamatsuchō
 - 22:50 hotel Check-in al Super Hotel | alloggio: super-hotel
   breve: entro le 24:00 · valigie in camera
+  attenzione: alle 24:00 la reception chiude: chi non è arrivato perde la prenotazione e non si può fare il check-in dopo (email dell'hotel). Se siete in ritardo, telefonate prima delle 24.
 
 #### Guida
 senso: Universal Studios Japan con Super Nintendo World (il mondo di Mario), poi Shinkansen per Tokyo la sera.
@@ -1182,8 +1183,8 @@ indirizzo: Hamamatsuchō 2-2-1, Minato-ku, Tokyo
 arrivo: JR Hamamatsuchō a piedi 4′ · Daimon (metro Ōedo / Toei Asakusa) a piedi 2′ · monorotaia per Haneda
 telefono: +81 3 6361 9000
 camera: Assegnata all'arrivo, 1 letto alla francese (131–150 cm)
-orari: Check-in 15:00–24:00 · check-out entro le 10:00
-nota: Colazione inclusa. Sulla fattura dell'hotel comparirà ¥51.062 (lo sconto Booking non viene mostrato). Tassa di soggiorno a parte. Messaggio del 14/10: arrivo tra le 22:30 e le 23:30 del 16/11 (chiesto di tenere la camera anche dopo mezzanotte se il treno ritarda), check-out tra le 9 e le 10 del 18/11; attesa risposta.
+orari: Check-in 15:00–24:00, poi la reception chiude: chi non arriva entro le 24 perde la prenotazione · check-out entro le 10:00 · deposito valigie il giorno d'arrivo dalle 7:00 e dopo il check-out dalle 7:00 alle 24:00
+nota: Colazione inclusa. Sulla fattura dell'hotel comparirà ¥51.062 (lo sconto Booking non viene mostrato). Tassa di soggiorno a parte. Email automatica dell'hotel: niente check-in dopo le 24:00 (la prenotazione si cancella da sola), cancellazione a pagamento dal giorno prima. Il messaggio del 14/10 (arrivo tra le 22:30 e le 23:30) è in regola.
 app: https://secure.booking.com/mytrips.html
 maps: Super Hotel Tokyo Hamamatsucho
 
@@ -1295,7 +1296,7 @@ stato: pagato
 pagato da: Federico
 conferma: 2026-10-16
 link: https://s.klook.com/c/vw7g65Km1W
-nota: Ultimo treno utile alle 21:24.
+nota: Il Super Hotel accetta check-in solo fino alle 24:00: col Nozomi delle 21:24 (arrivo verso le 23:45) non si fa in tempo. Se si perde quello delle 20:00, prendere il primo dopo, entro le 21 circa.
 
 ## Voli
 
@@ -1500,17 +1501,6 @@ quando: entro il 21/10 (messaggio inviato il 14/10)
 link: App Booking = https://secure.booking.com/mytrips.html
 priorità: media
 nota: Risposta del 14/10: deposito valigie gratis confermato; check-in anticipato dalle 12:00 a ¥1.000, da chiedere in anticipo. Ancora senza risposta: da che ora c'è la colazione (il 16/11 uscite alle 7:15 per Universal Studios). Decidere se volete il check-in anticipato e, se sì, scriverlo all'hotel.
-
-### risposta-super-hotel
-tappa: 2026-11-16 22:50
-cosa: Super Hotel: controllare che tengano la camera per l'arrivo tardi
-tipo: gestire
-giorno: 2026-11-16
-entro: 2026-10-21
-quando: entro il 21/10 (messaggio inviato il 14/10)
-link: App Booking = https://secure.booking.com/mytrips.html
-priorità: bassa
-nota: Scritto il 14/10: arrivo tra le 22:30 e le 23:30 del 16/11 (anche dopo mezzanotte se il treno ritarda), check-out tra le 9 e le 10 del 18/11.
 
 ## Note
 
