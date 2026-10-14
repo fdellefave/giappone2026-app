@@ -420,8 +420,7 @@ gruppo: 06:35-18:20
   breve: alle 6:30, prima del treno del gruppo
 - 06:32 bagagli Valigie in deposito all'Hotel Saibo | alloggio: saibo | deposito
   breve: le riprendete alle 18:40
-  prenotazione: chiesto all'hotel il deposito dalle 6–6:45 alle 18:15–19 e se la reception è aperta così presto (messaggio inviato il 14/10, attesa risposta)
-  alternativa: se l'hotel non le tiene, portatele con voi fino a Shimbashi (stessa metro, senza cambi) e lasciatele in un deposito Radical Storage aperto 24 ore su 24 tra Shimbashi e Daimon (~¥850 a valigia, si prenota online). La sera, scesi dal treno a Shimbashi, le riprendete e andate dritti alla stazione di Tokyo (treno JR, 4′) senza ripassare dall'hotel.
+  prenotazione: confermato dall'hotel (14/10): reception aperta 24 ore su 24 e le due valigie restano in deposito fino al ritiro della sera
 - 06:35 sposta Kamakura-kōkō-mae | via mezzi: @saibo > #kokomae (Hotel Saibo → Kamakura-kōkō-mae)
   breve: metro + treno + trenino ~1 h 20
   come: 2′ a piedi alla stazione Ningyōchō, metro Toei Asakusa fino a Shimbashi (10′), treno JR Tōkaidō fino a Fujisawa (~45′), Enoden fino a Kamakura-kōkō-mae (20′)
@@ -489,7 +488,7 @@ mangiare:
 prenotare:
   • Biglietto giornaliero del trenino Enoden ¥800
   • Shinkansen già pagato: valigia oltre 160 cm (somma dei lati) = serve il posto con spazio bagagli
-  • Risposta dell'Hotel Saibo sul deposito valigie e sulla reception alle 6:30 (chiesto il 14/10)
+  • Deposito valigie all'Hotel Saibo: confermato (reception aperta 24 ore su 24)
 attenzione:
   • Il tempio del bambù (Hōkoku-ji) può chiudere con la pioggia
   • Hase-dera chiude alle 16:30
@@ -1099,8 +1098,8 @@ indirizzo: Nihonbashi Ningyōchō 3-3-16, Chūō-ku, Tokyo
 arrivo: Ningyōchō (metro Hibiya / Toei Asakusa) a piedi 2′ · Hamachō (metro Toei Shinjuku) a piedi 6′
 telefono: +81 3 3668 2323
 camera: Matrimoniale standard, 1 letto alla francese (131–150 cm), non fumatori
-orari: Check-in 15:00–24:00 · check-out entro le 10:00 · deposito bagagli
-nota: Colazione non inclusa (¥1.500 a testa). Tassa di soggiorno da pagare in hotel. Messaggio del 14/10: arrivo tra le 16:30 e le 17:30 del 9/11, check-out tra le 6 e le 6:45 del 10/11, deposito valigie fino alle 18:15–19, tassa di soggiorno pagata all'arrivo; attesa risposta.
+orari: Check-in 15:00–24:00 · check-out entro le 10:00 · reception aperta 24 ore su 24 · deposito bagagli
+nota: Colazione non inclusa (¥1.500 a testa). Tassa di soggiorno da pagare in hotel. Risposta del 14/10: preso nota dell'arrivo del 9/11 (tra le 16:30 e le 17:30); reception aperta 24 ore su 24, quindi il check-out alle 6:30 del 10/11 va bene; tengono le due valigie fino al ritiro della sera.
 app: https://secure.booking.com/mytrips.html
 maps: Hotel Nihonbashi Saibo, Ningyocho, Tokyo
 
@@ -1456,17 +1455,6 @@ entro: 2026-10-21
 quando: entro il 21/10 (messaggio inviato il 14/10)
 priorità: media
 nota: Chiesto il 14/10: arrivo tra le 14 e le 15 del 7/11 e valigie in casa prima del check-in delle 16. La risposta arriva a chi ha la prenotazione del gruppo. Se non si può, armadietti della stazione di Kawaguchiko fino al rientro.
-
-### risposta-saibo
-tappa: 2026-11-10 06:32
-cosa: Hotel Saibo: controllare la risposta su reception alle 6:30 e deposito valigie
-tipo: gestire
-giorno: 2026-11-10
-entro: 2026-10-21
-quando: entro il 21/10 (messaggio inviato il 14/10)
-link: App Booking = https://secure.booking.com/mytrips.html
-priorità: alta
-nota: Chiesto il 14/10: arrivo tra le 16:30 e le 17:30 del 9/11, check-out tra le 6 e le 6:45 del 10/11, valigie in deposito fino alle 18:15–19, tassa di soggiorno pagata all'arrivo. Se l'hotel non le tiene, c'è l'alternativa Radical Storage tra Shimbashi e Daimon (vedi la tappa).
 
 ### risposta-apa
 tappa: 2026-11-10 22:30
