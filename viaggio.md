@@ -815,7 +815,7 @@ con: voi due
 - 12:20 bagagli Valigie all'Hotel Hillarys | alloggio: hillarys | deposito
   breve: check-in dalle 15
   prenotazione: confermato dall'hotel (14/10): deposito valigie gratis prima del check-in
-  Opzione: check-in anticipato già dalle 12:00 a ¥1.000 (~€5,40), da chiedere prima all'hotel così preparano la camera. Senza, valigie in deposito e check-in alle 17:30 come da programma.
+  Check-in anticipato chiesto: l'hotel farà il possibile per avere la camera pronta prima, ma non è garantito (di solito ¥1.000, ~€5,40). Chiedete alla reception: se la camera è pronta salite, altrimenti valigie in deposito e check-in alle 17:30 come da programma.
   alternativa: deposito Radical Storage vicino alla stazione di Shinsaibashi (si prenota online), oppure gli armadietti extra-large del centro commerciale Namba City (a 10′, ¥600–800).
 - 12:25 sposta Dōtonbori | via piedi: @hillarys > #dotonbori (Hotel → Dōtonbori)
   breve: a piedi 10′
@@ -876,6 +876,8 @@ percorso: osaka > tokyo
 dorme: super-hotel
 con: voi due
 - 07:15 hotel Check-out dall'Hotel Hillarys | alloggio: hillarys
+  breve: colazione dalle 6:45 · anche da asporto
+  La colazione (inclusa) inizia alle 6:45: scendete presto, oppure chiedete al personale della colazione di prepararla da portare via e mangiatela in treno o in coda a Universal Studios.
 - 07:20 sposta Armadietti di Universal Studios | via mezzi: @hillarys > Universal Studios Japan lockers (Hotel → Universal Studios)
   breve: metro + treno ~35′
   come: 4′ a piedi, metro Midōsuji da Shinsaibashi a Umeda (6′, la stazione centrale di Osaka), treno JR da Osaka a Universal City (~15′, diretto o cambio a Nishikujō)
@@ -1162,7 +1164,7 @@ arrivo: Shinsaibashi (metro Midōsuji) a piedi 4′ · Nagahoribashi a piedi 7�
 telefono: +81 6 6281 8000
 camera: Matrimoniale standard, 1 letto alla francese (131–150 cm), non fumatori
 orari: Check-in dalle 15:00 · check-out entro le 10:00 · deposito bagagli
-nota: Colazione inclusa. Tassa di soggiorno da pagare in hotel. Wi-Fi solo nelle aree comuni. Risposta del 14/10: deposito valigie gratis prima del check-in; check-in anticipato possibile dalle 12:00 a ¥1.000, da chiedere in anticipo. Non hanno detto da che ora c'è la colazione (il 16/11 uscite alle 7:15).
+nota: Colazione inclusa. Tassa di soggiorno da pagare in hotel. Wi-Fi solo nelle aree comuni. Risposte del 14/10: deposito valigie gratis prima del check-in; check-in anticipato possibile dalle 12:00 a ¥1.000, chiesto: faranno il possibile, non garantito. Colazione dalle 6:45, anche da asporto (chiederlo al personale della colazione).
 app: https://secure.booking.com/mytrips.html
 maps: Hotel Hillarys Shinsaibashi, Osaka
 
@@ -1476,7 +1478,8 @@ entro: 2026-10-21
 quando: entro il 21/10 (messaggio inviato il 14/10)
 link: App Booking = https://secure.booking.com/mytrips.html
 priorità: media
-nota: Risposta del 14/10: deposito valigie gratis confermato; check-in anticipato dalle 12:00 a ¥1.000, da chiedere in anticipo. Ancora senza risposta: da che ora c'è la colazione (il 16/11 uscite alle 7:15 per Universal Studios). Decidere se volete il check-in anticipato e, se sì, scriverlo all'hotel.
+nota: Risposte del 14/10: deposito valigie gratis confermato; check-in anticipato chiesto, l'hotel farà il possibile (non garantito); colazione dalle 6:45, anche da asporto.
+fatto: 2026-10-14
 
 ## Note
 
