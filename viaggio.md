@@ -1120,7 +1120,7 @@ arrivo: Stazione di Kyoto, uscita Central, a piedi 7′ · metro Karasuma uscita
 telefono: +81 75 341 6111
 camera: Doppia, 1 letto alla francese (131–150 cm), non fumatori
 orari: Check-in dalle 15:00 · check-out entro le 10:00 · deposito bagagli
-nota: Colazione non inclusa (¥1.800 a testa, 6:30–10:00, ultimo ordine 9:30). Bagno pubblico interno 6–10 e 15–1 (con tatuaggi visibili può essere vietato). Messaggio del 14/10: arrivo tra le 22:15 e le 23 del 10/11, check-out tra le 7:30 e le 8:15 del 13/11; attesa conferma che tengano la camera.
+nota: Colazione non inclusa (¥1.800 a testa, 6:30–10:00, ultimo ordine 9:30). Bagno pubblico interno 6–10 e 15–1 (con tatuaggi visibili può essere vietato). Messaggio del 14/10 (arrivo tra le 22:15 e le 23 del 10/11, check-out tra le 7:30 e le 8:15 del 13/11): l'hotel ha confermato che tiene la prenotazione.
 app: https://secure.booking.com/mytrips.html
 maps: APA Hotel Kyoto Eki Horikawadori
 
@@ -1455,17 +1455,6 @@ entro: 2026-10-21
 quando: entro il 21/10 (messaggio inviato il 14/10)
 priorità: media
 nota: Chiesto il 14/10: arrivo tra le 14 e le 15 del 7/11 e valigie in casa prima del check-in delle 16. La risposta arriva a chi ha la prenotazione del gruppo. Se non si può, armadietti della stazione di Kawaguchiko fino al rientro.
-
-### risposta-apa
-tappa: 2026-11-10 22:30
-cosa: APA Hotel Kyoto: controllare che tengano la camera per l'arrivo tardi
-tipo: gestire
-giorno: 2026-11-10
-entro: 2026-10-21
-quando: entro il 21/10 (messaggio inviato il 14/10)
-link: App Booking = https://secure.booking.com/mytrips.html
-priorità: bassa
-nota: Scritto il 14/10: arrivo tra le 22:15 e le 23 del 10/11, check-out tra le 7:30 e le 8:15 del 13/11.
 
 ### risposta-alpina
 tappa: 2026-11-13 12:20
