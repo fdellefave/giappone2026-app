@@ -139,7 +139,7 @@ con: voi due
   costo: ~¥800 a testa con la Suica
 - 13:30 bagagli Valigie all'Airbnb | alloggio: airbnb-shinjuku | deposito
   breve: deposito valigie · check-in dalle 15
-  L'annuncio offre il deposito bagagli: chiesto all'host di lasciarle tra le 13 e le 14:30 e di rientrare tra le 22 e le 23:30 (messaggio inviato il 14/10, attesa risposta).
+  Confermato dall'host (14/10): il deposito bagagli è self-service, si possono lasciare a qualsiasi ora. Le istruzioni le manda l'host se gli scrivete qualche giorno prima.
   Ingresso autonomo con cassetta delle chiavi dalle 15:00.
   alternativa: se l'host dice di no, deposito Radical Storage (negozi convenzionati) intorno a Ōkubo, ~¥750–850 a valigia per tutto il giorno, si prenota online. Sceglietene uno aperto fino alle 23 o 24 ore su 24: le riprendete tornando da Godzilla. Meglio non portarle in giro: da Fūunji si fa la coda in un locale minuscolo.
 - 13:40 sposta Fūunji | via piedi: @airbnb-shinjuku > #fuunji (Airbnb → Fūunji)
@@ -208,7 +208,7 @@ mangiare:
   • Pranzo: Fūunji, tsukemen (ramen da intingere), tra i migliori di Tokyo (Tabelog 3,77). Chiude alle 15: se siete in ritardo, Kura Sushi ad Asakusa (sushi su nastro, si ordina dal tablet)
   • Cena: Kyushu Jangara ad Akihabara, ramen col brodo di maiale (11–22)
 prenotare:
-  • Risposta dell'host dell'Airbnb sul deposito valigie (chiesto il 14/10)
+  • Istruzioni del deposito valigie self-service dall'host dell'Airbnb (scrivergli qualche giorno prima)
   • Carta Suica (tessera per metro e treni) già sul telefono
 attenzione:
   • Da Fūunji c'è coda e alle 15 chiude
@@ -1061,7 +1061,7 @@ indirizzo: Ōkubo 2-13-5, Shinjuku-ku, Tokyo 169-0072
 arrivo: Stazione Higashi-Shinjuku (metro Ōedo) a piedi 5′ · JR Shinjuku a piedi 20′
 orari: Check-in dalle 15:00 con cassetta delle chiavi (istruzioni nell'app dal 4/11) · check-out entro le 10:00
 camera: Monolocale per 2 ospiti
-nota: La conferma Airbnb dice «deposito bagagli disponibile»: chiesto all'host il 14/10 (valigie tra le 13 e le 14:30 del 6/11, rientro tra le 22 e le 23:30, check-out tra le 8 e le 9 del 7/11), attesa risposta. Il telefono dell'host e il codice di conferma sono nell'app (solo sul telefono).
+nota: La conferma Airbnb dice «deposito bagagli disponibile»: confermato dall'host il 14/10: deposito self-service, valigie a qualsiasi ora. Le istruzioni arrivano se gli scrivete un promemoria qualche giorno prima del check-in. Il telefono dell'host e il codice di conferma sono nell'app (solo sul telefono).
 app: https://www.airbnb.it/trips
 maps: 2-13-5 Okubo, Shinjuku City, Tokyo
 
@@ -1437,17 +1437,16 @@ quando: prima della partenza
 priorità: media
 nota: Solo contanti in molti posti: Hoto Fudo, Monkey Park, Tsukiji, Golden Gai, banchi di street food.
 
-### risposta-airbnb
+### istruzioni-airbnb
 tappa: 2026-11-06 13:30
-cosa: Airbnb Shinjuku: controllare la risposta dell'host
+cosa: Airbnb: promemoria all'host per le istruzioni del deposito valigie
 tipo: gestire
 giorno: 2026-11-06
-entro: 2026-10-21
-quando: entro il 21/10 (messaggio inviato il 14/10)
+entro: 2026-11-03
+quando: verso il 2–3/11
 link: App Airbnb = https://www.airbnb.it/trips
-priorità: alta
-nota: Chiesto il 14/10: valigie tra le 13 e le 14:30 del 6/11, rientro tra le 22 e le 23:30, check-out tra le 8 e le 9 del 7/11. Se l'host non può tenere le valigie, prenotate un deposito Radical Storage vicino a Ōkubo (~¥750–850 a valigia al giorno) aperto fino a tardi: https://radicalstorage.com/luggage-storage/tokyo/okubo-station. Cancellazione gratuita fino al 23/10.
-
+priorità: media
+nota: L'host ha confermato (14/10) che il deposito bagagli è self-service e si può usare a qualsiasi ora, e ha chiesto di scrivergli vicino al check-in per mandare le istruzioni. Arrivo previsto tra le 13 e le 14:30 del 6/11.
 ### risposta-nagomi
 tappa: 2026-11-07 15:00
 cosa: Nagomi: controllare la risposta sulle valigie prima delle 16
