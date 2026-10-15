@@ -13,7 +13,7 @@
   var TYPE = { vedere: ["Da vedere", "pin"], fare: ["Esperienza", "sparkles"], cibo: ["Mangiare", "food"], sposta: ["Spostamento in città", "walk"],
     viaggio: ["Treno, bus o volo", "train"], hotel: ["Hotel", "bed"], bagagli: ["Valigie", "luggage"] };
   var DETAIL = [["testo", "Testo libero"], ["breve", "Breve (sempre visibile)"], ["come", "Come arrivare"], ["costo", "Costo"], ["orari", "Orari"],
-    ["binario", "Binario"], ["bagagli", "Valigie"], ["prenotazione", "Prenotazione"], ["attenzione", "Attenzione"], ["alternativa", "In alternativa"]];
+    ["binario", "Binario"], ["bagagli", "Valigie"], ["prenotazione", "Prenotazione"], ["attenzione", "Attenzione"], ["alternativa", "In alternativa"], ["veloce", "Veloce ed economico"]];
   var GUIDE = [["senso", "Il senso della giornata"], ["mangiare", "Dove mangiare"], ["prenotare", "Da avere con sé"], ["attenzione", "Attenzione"],
     ["anticipo", "Se avanza tempo"], ["stanchi", "Se siete stanchi"], ["camminata", "A piedi e pause"]];
   var ATTR = [["posto", "posto: ", "place"], ["alloggio", "alloggio: ", "hotel"], ["treno", "treno: ", "train"], ["città", "città: ", "city"],
@@ -23,7 +23,7 @@
   var SCHEMA = {
     "Alloggi": [["nome"], ["città", "city"], ["dal", "date"], ["al", "date"], ["prezzo", "text", "es. €80,56 o ¥12.000 (totale per 2)"], ["euro", "num"], ["yen", "num"],
       ["pagato", "sel", ["sì", "no", "gruppo"]], ["pagato da"], ["diviso", "sel", ["", "sì", "no"]], ["saldato", "sel", ["", "sì", "no"]], ["pagamento"], ["cancellazione"],
-      ["indirizzo"], ["arrivo"], ["orari"], ["camera"], ["telefono"], ["app", "url"], ["maps", "text", "testo della ricerca su Google Maps"], ["nota", "area"]],
+      ["indirizzo"], ["arrivo"], ["orari"], ["camera"], ["telefono"], ["app", "url"], ["maps", "text", "testo della ricerca su Google Maps"], ["foto", "text", "titolo della pagina di Wikipedia in inglese (foto della zona)"], ["nota", "area"]],
     "Treni": [["data", "date"], ["tratta"], ["mezzo"], ["orario"], ["prezzo"], ["euro", "num"], ["stato", "sel", ["pagato", "prenotato", "da comprare", "sul posto"]],
       ["pagato da"], ["conferma", "date"], ["link", "url"], ["nota", "area"]],
     "Da fare": [["cosa"], ["tipo", "sel", ["prenotare", "gestire"]], ["tappa", "slots"], ["giorno", "day"], ["apre", "date"], ["entro", "date"], ["quando"],

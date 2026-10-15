@@ -24,7 +24,8 @@ CITIES = {"roma": "Roma", "tokyo": "Tokyo", "kawaguchiko": "Kawaguchiko", "kamak
           "shirakawago": "Shirakawa-go"}
 TYPES = ("vedere", "fare", "cibo", "sposta", "viaggio", "hotel", "bagagli")
 DETAIL = {"come": "Come arrivare", "costo": "Costo", "orari": "Orari", "binario": "Binario", "bagagli": "Valigie",
-          "prenotazione": "Prenotazione", "attenzione": "Attenzione", "alternativa": "In alternativa"}
+          "prenotazione": "Prenotazione", "attenzione": "Attenzione", "alternativa": "In alternativa",
+          "veloce": "Veloce ed economico"}
 MODE = {"mezzi": "transit", "piedi": "walking", "taxi": "driving"}
 GUIDE_KEYS = ["senso", "mangiare", "prenotare", "attenzione", "anticipo", "stanchi", "camminata"]
 WD = ["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"]
@@ -155,7 +156,7 @@ def parse_hotels(lines):
             "payment": f.get("pagamento", ""), "cancel": f.get("cancellazione", ""), "note": f.get("nota", ""),
             "address": f.get("indirizzo", ""), "access": f.get("arrivo", ""), "hours": f.get("orari", ""),
             "app": f.get("app"), "q": f.get("maps", f.get("nome", hid)), "phone": f.get("telefono", ""),
-            "room": f.get("camera", ""),
+            "room": f.get("camera", ""), "photo": f.get("foto"),
         }
     return hotels
 
@@ -455,6 +456,9 @@ def parse_days(lines, places, hotels, trains):
             last = item
             items.append(item)
         morning_and_legs(did, items, prev_sleep, hotels)
+        for it in items:  # tappe in hotel senza foto propria: la foto dell'alloggio (la sua zona)
+            if "photo" not in it and it.get("hotel") in hotels and hotels[it["hotel"]].get("photo"):
+                it["photo"] = hotels[it["hotel"]]["photo"]
         prev_sleep = f.get("dorme", "")
         guide, key = {}, None
         for line in guide_l:

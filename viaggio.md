@@ -25,10 +25,10 @@ Questo file vive solo qui: non tenerne copie nel progetto Claude «Giappone».
     · `via mezzi|piedi|taxi: DA > A (etichetta)` = indicazioni Google Maps
     (DA e A: `#posto`, `@alloggio` o testo libero).
   - righe di dettaglio: `breve:` (riga corta sotto il titolo, si vede sempre), poi `come:`, `costo:`, `orari:`,
-    `binario:`, `bagagli:`, `prenotazione:`, `attenzione:`, `alternativa:` oppure testo libero.
+    `binario:`, `bagagli:`, `prenotazione:`, `attenzione:`, `alternativa:`, `veloce:` (due opzioni economiche vicine: konbini, fast food, street food) oppure testo libero.
     `[[id]]` nel testo = link a un posto della sezione Posti.
 - Posti: `foto: titolo` = pagina di Wikipedia in inglese (posto, piatto o zona) da cui l'app prende la foto;
-  se il titolo non esiste l'app mostra l'icona del tipo.
+  se il titolo non esiste l'app mostra l'icona del tipo. Alloggi: `foto:` = foto della zona, usata da check-in, check-out e valigie.
 - `#### Guida` dentro un giorno: campi `senso, mangiare, prenotare, attenzione, anticipo, stanchi, camminata`.
   Testo su una riga, oppure punti su righe seguenti che iniziano con `  • `.
 - Testo che vede l'utente: italiano semplice, ogni termine giapponese spiegato tra parentesi, prezzi in yen
@@ -90,6 +90,9 @@ Già verificato (non riproporre):
   10/10: tutti gli alloggi sono pagati (Nagomi compresa), €686 a testa in tutto. Assicurazione Heymondo €44 a testa e Visit Japan Web fatti.
 
 Messaggio del gruppo (13/10): 7 del gruppo dormono al Cottage Pastorale (navetta dalla stazione il 7/11, bici l'8/11, transfer alla stazione Fujisan il 9/11: solo per i loro ospiti). PDF dei biglietti e guide per il ritiro dei Fuji Excursion sul drive condiviso del gruppo. Il resto (Kanazawa, Shirakawa-go del 4/11, Nara, Osaka, ristoranti col gruppo) riguarda giorni senza di voi.
+
+Pasti veloci (15/10 sera): ogni pasto al ristorante ha la riga `veloce:` con due alternative economiche vicine (konbini, fast food, street food), voti Google letti il 15/10, aperte in quel giorno e a quell'ora. Nei giorni col gruppo sono solo indicazioni.
+Colori dei tipi (15/10 sera, richiesta di Federico): mangiare arancione acceso, valigie grigio-marrone; striscia colorata a sinistra di ogni scheda, bollino del tipo più grande sulle foto, etichetta «Mangiare» sui pasti.
 
 Back office (14/10): admin.html, dal PC, modifica questo file e pubblica da solo (viaggio.md + data.json generato
 con build.py nel browser, commit su main col token GitHub di Federico salvato solo sul suo PC). Le note scritte lì sono
@@ -156,6 +159,7 @@ con: voi due
   Tsukemen: spaghettoni di ramen da intingere in un brodo denso. Tabelog 3,77 (Tabelog = il Tripadvisor giapponese).
   attenzione: c'è coda e alle 15:00 chiude
   alternativa: se uscite dall'Airbnb dopo le 14, sushi su nastro da [[kura-sushi]] ad Asakusa
+  veloce: [[sukiya-shinjuku-sud]] (gyudon, ciotola di riso e manzo, ~¥500) o il konbini (minimarket) [[famima-yoyogi]]
 - 15:00 sposta Senso-ji, Asakusa | via mezzi: #fuunji > #senso-ji (Fūunji → Senso-ji)
   breve: treno + metro ~35′
   come: treno JR linea Chūō da Shinjuku a Kanda (10′), metro Ginza line fino ad Asakusa (10′)
@@ -194,6 +198,7 @@ con: voi due
   breve: cena: ramen col brodo di maiale denso
   Ramen tonkotsu (brodo di ossa di maiale, cremoso) in stile Kyushu; c'è anche la versione vegana. Niente prenotazioni.
   orari: 11–22, ultimo ordine 21:45
+  veloce: [[matsuya-akiba]] (gyudon, aperto 24 h) o il konbini [[seven-sotokanda]]
 - 20:55 sposta Sale giochi di Akihabara | via piedi: #kyushu-jangara > #hey-akihabara (Ramen → sale giochi)
   breve: a piedi 5′
 - 21:00 fare Sale giochi di Akihabara | posto: hey-akihabara
@@ -257,7 +262,7 @@ gruppo: 14:00-
   breve: taxi 10′
 - 13:50 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
   breve: prima che arrivino gli amici
-- 14:00 fare Arrivano gli amici | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
+- 14:00 fare Arrivano gli amici | dove: Kawaguchiko Station | zona: kawaguchiko-stazione | foto: Kawaguchiko Station
   breve: dal bus delle 8:40 da Takayama
   Chi dorme al Cottage Pastorale (7 del gruppo) ha la navetta della struttura dalla stazione; voi andate a Nagomi in taxi o bus.
 - 14:10 sposta Nagomi | via taxi: Kawaguchiko Station > @nagomi (Stazione → Nagomi)
@@ -283,6 +288,7 @@ gruppo: 14:00-
   breve: cena col gruppo: tagliatelle in brodo con zucca · solo contanti
   Hoto: zuppa di tagliatelle larghe con zucca e verdure, il piatto tipico del Fuji.
   attenzione: chiude alle 20:00, o prima se finiscono i noodles
+  veloce: [[sushiro-kawaguchiko]] (sushi su nastro, fino alle 22:30) o [[sukiya-kawaguchiko]] (gyudon), uno accanto all'altro, 8′ a piedi
 
 #### Guida
 senso: Si va al Monte Fuji: treno diretto la mattina, pranzo sul lago, dal pomeriggio col gruppo (portale nel cielo, viale degli aceri illuminato, cena tipica).
@@ -315,6 +321,7 @@ gruppo: tutto
 - 13:00 cibo Miura Udon (spaghettoni udon) | posto: miura-udon
   breve: pranzo, se passate da Fujiyoshida · solo 10–14
   Udon spessi e sodi tipici della zona (Tabelog 3,65). Chiuso il mercoledì.
+  veloce: [[fuuto]] (dolci e panini, la domenica 11–17) o il konbini [[seven-shimoyoshida]]
 - 14:00 vedere Panorami sul Fuji | foto: Mount Fuji | dove: Oishi Park, Fujikawaguchiko | zona: kawaguchiko-nord
   breve: per esempio Oishi Park, sulla sponda nord
 - 16:00 fare Onsen (bagno termale) o funivia sul lago | posto: funivia-kachi-kachi
@@ -323,7 +330,7 @@ gruppo: tutto
   costo: funivia andata e ritorno ¥1.000
   orari: funivia fino alle 17
 - 18:00 hotel Relax a Nagomi | alloggio: nagomi
-- 20:00 cibo Cena col gruppo
+- 20:00 cibo Cena col gruppo | foto: Japanese cuisine
 
 #### Guida
 senso: Giornata col gruppo intorno al lago: bici, panorami sul Fuji, terme.
@@ -370,8 +377,9 @@ gruppo: tutto
 - 09:45 sposta Lago Kawaguchi | via mezzi: Shimoyoshida Station, Fujiyoshida > Lake Kawaguchi (Shimoyoshida → lago)
   breve: treno 15′ fino a Kawaguchiko
 - 10:15 vedere Tempo libero al lago | foto: Lake Kawaguchi | dove: Lake Kawaguchi | zona: lago-kawaguchi
-- 12:00 cibo Pranzo al lago | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
+- 12:00 cibo Pranzo al lago | dove: Kawaguchiko Station | zona: kawaguchiko-stazione | foto: Bento
   breve: poi alla stazione
+  veloce: [[takadaya]] (supermercato: bento e sashimi) o il konbini [[lawson-kawaguchiko]] davanti alla stazione
 - 13:30 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
   breve: prima del treno locale
 - 13:40 sposta Stazione Fujisan (Monte Fuji) | via mezzi: Kawaguchiko Station > Mt. Fuji Station, Fujiyoshida (Kawaguchiko → stazione Fujisan)
@@ -407,6 +415,7 @@ gruppo: tutto
   Monjayaki: la versione di Tokyo dell'okonomiyaki, più liquida: si cuoce da soli sulla piastra al tavolo e si mangia con la spatolina. Tsukishima (quartiere sull'acqua a una fermata da Toyosu) ha una via intera di locali di monja.
   orari: Kondō 17–22, ultimo ordine 21:30 · si prenota online anche in giornata, fino alle 21
   alternativa: se uscite tardi da teamLab, nella stessa via ci sono locali di monja aperti fino alle 23
+  veloce: bento caldi da [[origin-tsukishima]] o il konbini [[famima-tsukishima]], accanto a Kondō
 - 22:15 sposta Hotel Saibo | via taxi: #monja-kondo > @saibo (Tsukishima → Hotel Saibo)
   breve: taxi ~12′ (~¥1.800)
   alternativa: metro ~30′: Yūrakuchō line fino a Ginza-itchōme, 5′ a piedi a Ginza, Hibiya line fino a Ningyōchō
@@ -494,6 +503,7 @@ gruppo: 06:35-18:20
 - 22:40 cibo Honke Daiichi Asahi (ramen) | posto: daiichi-asahi | via piedi: @apa-kyoto > #daiichi-asahi (APA Hotel → ramen Daiichi Asahi)
   breve: ramen se avete fame · a piedi 13′, fino all'1:00
   Tabelog 3,74. Chiuso il giovedì.
+  veloce: [[sukiya-shichijo]] (gyudon, fino alle 3) o il konbini [[lawson-kyoto-st]], vicino all'hotel
 
 #### Guida
 senso: Gita a Kamakura (cittadina sul mare a un'ora da Tokyo, piena di templi) col gruppo, poi Shinkansen (treno superveloce) per Kyoto la sera.
@@ -538,7 +548,7 @@ con: voi due
   Udon (spaghettoni di grano spessi) in stile Sanuki, con tempura (fritto leggero); la bukkake fredda (udon con poco brodo versato sopra) costa ~¥700. Tabelog 3,53 su 297 recensioni. Locale piccolo: meglio presto.
   costo: ~¥1.000–2.000 a testa · solo contanti
   orari: 11–15 · chiuso il martedì
-  alternativa: Nakau (catena di donburi e udon), all'incrocio Kawaramachi-Gojō, 5′ a piedi
+  veloce: [[nakau-gojo]] (donburi e udon, 5′ a piedi) o il konbini [[lawson100-gojo]] all'uscita della stazione
 - 12:30 sposta Kiyomizu-dera | via piedi: #sanshiki > #kiyomizu-dera (SANSHIKI → Kiyomizu-dera)
   breve: a piedi 25′ in salita per Gojō-zaka · 1,6 km
 - 13:00 vedere Kiyomizu-dera (tempio) | posto: kiyomizu-dera
@@ -571,7 +581,7 @@ con: voi due
   costo: ~¥4.000–6.000 a testa · carte accettate
   orari: 17–23, ultimo ordine 22:00, aperto tutti i giorni
   prenotazione: ore 19:30 per 2, solo online su Tabelog (il telefono non risponde)
-  alternativa: Ichiran Kawaramachi (ramen, fino alle 22), 3′ a piedi
+  veloce: [[ichiran-kawaramachi]] (ramen, fino alle 22) o [[matsuya-kawaramachi]] (gyudon, 24 h), entrambi a 3′
 - 21:00 vedere Pontochō (vicolo sul fiume) | posto: pontocho | via piedi: #onikai > #pontocho (Onikai → Pontochō)
   breve: il vicolo delle lanterne · a 3′
   Il vicolo stretto dei ristoranti affacciati sul fiume Kamo, illuminato dalle lanterne.
@@ -637,6 +647,7 @@ con: voi due
   breve: pranzo veloce ed economico · ~¥1.000
   Shokudō: la trattoria giapponese di quartiere, con piatti unici (teishoku: riso, zuppa, sottaceti e un piatto di carne o pesce), udon e donburi (ciotole di riso condito). Menù in inglese e piatti finti in vetrina; insegna arancione e nera senza scritte in inglese. Omen (udon famosi) oggi è chiuso: è giovedì.
   orari: 11–20:40 · chiuso il mercoledì
+  veloce: [[fresco-ginkakuji]] (supermercato aperto 24 h: sushi e bento) o il konbini [[famima-ginkakuji]]
 - 14:15 vedere Ginkaku-ji (Padiglione d'Argento) | posto: ginkaku-ji
   breve: tempio con giardino di sabbia e muschio · 45′
   Giardino di sabbia e muschio.
@@ -672,6 +683,7 @@ con: voi due
   orari: 18–24 · chiuso il mercoledì
   prenotazione: ore 19:00 per 2, solo online su Tabelog (il telefono non risponde)
   alternativa: [[sen-no-kaze]] (ramen in via Shinkyōgoku, 12–21)
+  veloce: [[yoichiba]] (takoyaki e spiedini, dalle 17) o [[sukiya-kiyamachi]] (gyudon, 3′ a piedi)
 - 20:15 sposta Hotel | via mezzi: #kotetsu > @apa-kyoto (Kotetsu → hotel)
   breve: taxi 10′ (~¥1.300) o metro ~25′
   come: 10′ a piedi a Shijō, metro Karasuma fino a Kyoto (4′), 7′ a piedi
@@ -753,6 +765,7 @@ con: voi due
   Tabelog 3,78: la bistecca di Hida beef più votata della città.
   orari: ultimo ordine 19:45, chiuso il mercoledì
   prenotazione: ore 18:00 per 2, online
+  veloce: [[dekonaru]] (vicolo di banchetti: spiedini, ramen, gyoza, dalle 17) o il konbini [[famima-kamininomachi]]
 - 20:00 sposta Hotel | via piedi: #kitchen-hida > @alpina (Kitchen Hida → hotel)
   breve: a piedi 12′
 - 20:15 fare Onsen sul tetto (bagno termale) | foto: Onsen | alloggio: alpina
@@ -788,7 +801,7 @@ con: voi due
   orari: 7–12
 - 07:45 sposta Stazione dei bus Nōhi | via piedi: #mercato-miyagawa > Takayama Nohi Bus Center (Mercato → stazione dei bus)
   breve: a piedi 12′ · accanto alla stazione dei treni
-- 08:30 viaggio Gita in bus a Ainokura e Shirakawa-go | treno: bus-14 | prenotato | dove: Takayama Nohi Bus Center
+- 08:30 viaggio Gita in bus a Ainokura e Shirakawa-go | treno: bus-14 | prenotato | dove: Takayama Nohi Bus Center | foto: Gokayama
   breve: 8:30 → rientro 15:50 · cambiate il biglietto al bancone entro le 8:15
   Gita Nōhi: bus con assistente (parla giapponese), tempo libero nei due villaggi. Inclusi l'ingresso al Minkaen (museo all'aperto delle case gasshō) e la navetta per il belvedere. Pranzo escluso.
   come: biglietto elettronico nell'email di Japan Bus Online: meglio stamparlo, altrimenti dal telefono
@@ -806,11 +819,11 @@ con: voi due
   costo: ~¥1.500–3.000 a testa · carte JCB e AMEX e PayPay, non Visa e Mastercard: portate contanti
   orari: pranzo 10–14
   prenotazione: ore 12:30 per 2, online su Tabelog
-  alternativa: Yuinosato (crocchette, spiedini, onigiri al miso, 9:30–16), pranzo in piedi
+  veloce: [[yuinosato]] (crocchette, spiedini, onigiri al miso, 9:30–16) o [[yui-takoyaki]] (anche al manzo di Hida, accetta carte): si mangia in piedi
 - 13:45 vedere Belvedere Shiroyama | posto: belvedere-shiroyama
   breve: il villaggio visto dall'alto · navetta inclusa
   La navetta per il belvedere passa ogni 20′ circa: tenete d'occhio l'ora del bus.
-- 15:00 viaggio Rientro a Takayama | treno: bus-14 | prenotato | città: takayama | via piedi: Takayama Nohi Bus Center > @alpina (Stazione dei bus → hotel)
+- 15:00 viaggio Rientro a Takayama | treno: bus-14 | prenotato | città: takayama | via piedi: Takayama Nohi Bus Center > @alpina (Stazione dei bus → hotel) | foto: Takayama, Gifu
   breve: 15:00 → 15:50 · poi 3′ a piedi all'hotel
 - 16:00 hotel Riposo all'Alpina | alloggio: alpina
   breve: onsen sul tetto verso le 16:30
@@ -821,6 +834,7 @@ con: voi due
   Hoba miso (miso cotto su una foglia sul braciere) e Hida beef. Tabelog 3,33.
   orari: 17–20, chiuso il martedì
   prenotazione: ore 18:00 per 2, per telefono o tramite l'hotel
+  veloce: [[takochu]] (takoyaki e ramen, dalle 18) o [[satoh]] (supermercato con tavoli e microonde al 1° piano, fino alle 20)
 - 19:45 sposta Hotel | via piedi: #kyoya > @alpina (Kyōya → hotel)
   breve: a piedi 15′
 - 20:00 hotel Valigia pronta, a letto presto | alloggio: alpina
@@ -869,7 +883,7 @@ con: voi due
 - 12:40 cibo Fukutaro (okonomiyaki) | posto: fukutaro
   breve: pranzo: la frittata-pizza di Osaka · niente prenotazioni, c'è coda
   Okonomiyaki: la frittata-pizza di Osaka cotta sulla piastra; negiyaki: la versione al cipollotto. Tabelog 3,72, il più votato di Namba. La domenica apre alle 12: a pranzo la coda è più corta che la sera.
-  alternativa: takoyaki (polpette di polpo) in piedi lungo [[dotonbori]]
+  veloce: [[wanaka-dotonbori]] (takoyaki, polpette di polpo, con posti a sedere) o il konbini [[famima-dotonbori]]
 - 13:45 sposta Den Den Town | via piedi: #fukutaro > #den-den-town (Fukutaro → Den Den Town)
   breve: a piedi 12′
 - 14:00 fare Den Den Town (quartiere nerd) | posto: den-den-town
@@ -896,6 +910,7 @@ con: voi due
   costo: cena da ~¥13.000 a testa (~€70) · +10% se prenotate online con My Concierge Japan
   orari: cena 16:30–23, ultimo ordine 21:30, aperto tutti i giorni
   prenotazione: ore 18:30 per 2, online su My Concierge Japan (pagamento anticipato) o per telefono
+  veloce: [[harves-umeda]] (supermercato nello stesso edificio: sushi e bento, sconti dopo le 19) o [[warau-umeda]] (udon e oyakodon, ~¥650)
 - 20:00 sposta Dōtonbori | via mezzi: #kobe-ishida > #hozenji-yokocho (Umeda → Dōtonbori)
   breve: metro 8′ + a piedi 5′
   come: metro Midōsuji da Umeda a Namba (8′)
@@ -1040,7 +1055,7 @@ con: voi due
   costo: omakase ¥9.900 a testa (~€54) · con aragosta ¥13.200 · solo carta, niente contanti
   prenotazione: ore 19:00 per 2 su TableCheck, serve la carta di credito
   attenzione: arrivate puntuali (in ritardo e senza avvisare il posto va ad altri); chi disdice il giorno stesso paga tutto
-  alternativa: Uogashi Nihon-Ichi Dōgenzaka (sushi in piedi, set da ¥1.200, fino alle 23)
+  veloce: [[uogashi-shibuya]] (sushi in piedi, set da ¥1.200, fino alle 23) o [[ichiran-shibuya]] (ramen, 24 h)
 - 20:35 sposta Omoide Yokochō | via mezzi: Shibuya Station, Tokyo > #omoide-yokocho (Shibuya → Omoide Yokochō)
   breve: treno 7′ + a piedi 5′
   come: treno JR Yamanote da Shibuya a Shinjuku, uscita ovest
@@ -1092,12 +1107,12 @@ con: voi due
 - 09:45 sposta Aeroporto di Haneda | via mezzi: @super-hotel > Haneda Airport Terminal 3 (Hotel → aeroporto Haneda)
   breve: monorotaia ~15′ · ~¥500
   come: Tokyo Monorail da Hamamatsuchō al Terminal 3
-- 10:15 viaggio Rimborso tax-free e check-in | dove: Haneda Airport Terminal 3
+- 10:15 viaggio Rimborso tax-free e check-in | dove: Haneda Airport Terminal 3 | foto: Haneda Airport
   breve: check-in ITA entro le 12:20
   attenzione: il rimborso tax-free (l'IVA sugli acquisti) si fa al terminale apposito PRIMA di imbarcare le valigie
 - 13:20 viaggio Volo AZ793 Tokyo → Roma | foto: ITA Airways | prenotato
   breve: 13:20 → 20:25 (ora italiana)
-- 20:25 viaggio Arrivo a Fiumicino | fuso: roma | dove: Aeroporto di Roma Fiumicino
+- 20:25 viaggio Arrivo a Fiumicino | fuso: roma | dove: Aeroporto di Roma Fiumicino | foto: Leonardo da Vinci–Fiumicino Airport
   breve: bentornati
 
 #### Guida
@@ -1120,6 +1135,7 @@ Prezzi: totale della camera per 2 persone, nella valuta in cui è stata prenotat
 ### airbnb-shinjuku
 nome: Airbnb Shinjuku (Ōkubo)
 città: tokyo
+foto: Shinjuku
 dal: 2026-11-06
 al: 2026-11-07
 prezzo: €80,56
@@ -1140,6 +1156,7 @@ maps: 2-13-5 Okubo, Shinjuku City, Tokyo
 ### nagomi
 nome: Nagomi (casa giapponese ristrutturata, col gruppo)
 città: kawaguchiko
+foto: Minka
 dal: 2026-11-07
 al: 2026-11-09
 prezzo: €115,50 a testa
@@ -1158,6 +1175,7 @@ maps: Kawaguchi 1575-4, Fujikawaguchiko, Yamanashi
 ### saibo
 nome: Hotel Nihonbashi Saibo
 città: tokyo
+foto: Nihonbashi, Tokyo
 dal: 2026-11-09
 al: 2026-11-10
 prezzo: ¥16.835
@@ -1179,6 +1197,7 @@ maps: Hotel Nihonbashi Saibo, Ningyocho, Tokyo
 ### apa-kyoto
 nome: APA Hotel Kyoto Eki Horikawadori
 città: kyoto
+foto: Kyoto Station
 dal: 2026-11-10
 al: 2026-11-13
 prezzo: ¥54.570
@@ -1200,6 +1219,7 @@ maps: APA Hotel Kyoto Eki Horikawadori
 ### alpina
 nome: Spa Hotel Alpina Hida Takayama
 città: takayama
+foto: Takayama Station
 dal: 2026-11-13
 al: 2026-11-15
 prezzo: ¥55.566
@@ -1221,6 +1241,7 @@ maps: Spa Hotel Alpina Hida Takayama
 ### hillarys
 nome: Hotel Hillarys Shinsaibashi
 città: osaka
+foto: Shinsaibashi
 dal: 2026-11-15
 al: 2026-11-16
 prezzo: ¥11.857
@@ -1242,6 +1263,7 @@ maps: Hotel Hillarys Shinsaibashi, Osaka
 ### super-hotel
 nome: Super Hotel Tokyo Hamamatsuchō
 città: tokyo
+foto: Hamamatsuchō Station
 dal: 2026-11-16
 al: 2026-11-18
 prezzo: ¥48.741
@@ -3043,6 +3065,346 @@ tabelog: https://tabelog.com/tokyo/A1313/A131302/13012771/
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g14129637-d6060617-Reviews-Kondo_Honten-Tsukishima_Chuo_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.hotpepper.jp/strJ000103075/
 foto: Monjayaki
+
+### sukiya-shinjuku-sud
+nome: Sukiya Shinjuku Sud (gyudon)
+tipo: 🍚 Fast food
+città: tokyo
+giorno: 6/11
+nota: Gyudon (ciotola di riso con manzo) da ~¥500, si ordina dal tablet in inglese, 4–3 · Google 3,5 (1.095)
+maps: Sukiya Shinjuku 3-32-2 Shinjuku
+mappa: no
+foto: Gyūdon
+
+### famima-yoyogi
+nome: FamilyMart Yoyogi 2-chome (konbini)
+tipo: 🏪 Konbini
+città: tokyo
+giorno: 6/11
+nota: Aperto 24 h, a 3′ da Fūunji · Google 3,5 (97)
+maps: FamilyMart Yoyogi 2-7-5 Shibuya Tokyo
+mappa: no
+foto: Convenience stores in Japan
+
+### matsuya-akiba
+nome: Matsuya Akihabara (gyudon)
+tipo: 🍚 Fast food
+città: tokyo
+giorno: 6/11
+nota: Aperto 24 h, si ordina al totem · Google 3,7 (981)
+maps: Matsuya Akihabara Kanda Matsunagacho
+mappa: no
+foto: Gyūdon
+
+### seven-sotokanda
+nome: 7-Eleven Sotokanda 4-chome (konbini)
+tipo: 🏪 Konbini
+città: tokyo
+giorno: 6/11
+nota: Aperto 24 h · Google 3,4 (77)
+maps: 7-Eleven Sotokanda 4-7-7 Chiyoda Tokyo
+mappa: no
+foto: Convenience stores in Japan
+
+### sushiro-kawaguchiko
+nome: Sushiro Kawaguchiko (sushi su nastro)
+tipo: 🍣 Sushi su nastro
+città: kawaguchiko
+giorno: 7/11
+nota: Piattini da ~¥120, si ordina dal tablet in inglese, fino alle 22:30, 8′ a piedi da Hoto Fudo · Google 3,9 (1.370)
+maps: Sushiro Funatsu 2986 Fujikawaguchiko
+mappa: no
+foto: Conveyor belt sushi
+
+### sukiya-kawaguchiko
+nome: Sukiya Kawaguchiko (gyudon)
+tipo: 🍚 Fast food
+città: kawaguchiko
+giorno: 7/11
+nota: Gyudon da ~¥500, 4–3, accanto a Sushiro · Google 3,2 (638)
+maps: Sukiya Funatsu 2986 Fujikawaguchiko
+mappa: no
+foto: Gyūdon
+
+### fuuto
+nome: Fuuto Coffee & Bakeshop
+tipo: ☕ Caffè e dolci
+città: kawaguchiko
+giorno: 8/11
+nota: Dolci, panini e caffè, domenica 11–17, chiuso lunedì e martedì, vicino a Honchō · Google 4,9 (393)
+maps: Fuuto Coffee Bakeshop Shimoyoshida 3-12-3 Fujiyoshida
+mappa: no
+foto: Coffee
+
+### seven-shimoyoshida
+nome: 7-Eleven Shimoyoshida 4-chome (konbini)
+tipo: 🏪 Konbini
+città: kawaguchiko
+giorno: 8/11
+nota: Aperto 24 h · Google 3,8 (72)
+maps: 7-Eleven Shimoyoshida 4-7-53 Fujiyoshida
+mappa: no
+foto: Convenience stores in Japan
+
+### takadaya
+nome: Supermercato Takadaya
+tipo: 🛒 Supermercato
+città: kawaguchiko
+giorno: 9/11
+nota: Bento, sashimi e frutta a buon prezzo, tra la stazione e il lago, 9–20 (chiuso la domenica) · Google 4,3 (222)
+maps: Takadaya Funatsu 3860 Fujikawaguchiko
+mappa: no
+foto: Bento
+
+### lawson-kawaguchiko
+nome: Lawson stazione di Kawaguchiko (konbini)
+tipo: 🏪 Konbini
+città: kawaguchiko
+giorno: 9/11
+nota: Aperto 24 h, a 1′ dalla stazione · Google 3,8 (808)
+maps: LAWSON Kawaguchiko Station Funatsu 3495-2
+mappa: no
+foto: Convenience stores in Japan
+
+### origin-tsukishima
+nome: Kitchen Origin Tsukishima (bento)
+tipo: 🍱 Bento
+città: tokyo
+giorno: 9/11
+nota: Bento caldi da asporto da ~¥300, 5–3 · Google 3,4 (122)
+maps: Kitchen Origin Tsukishima 1-25-5 Chuo Tokyo
+mappa: no
+foto: Bento
+
+### famima-tsukishima
+nome: FamilyMart Tsukishima 3-chome (konbini)
+tipo: 🏪 Konbini
+città: tokyo
+giorno: 9/11
+nota: Aperto 24 h, nello stesso isolato di Monja Kondō · Google 3,3 (44)
+maps: FamilyMart Tsukishima 3-12-4 Chuo Tokyo
+mappa: no
+foto: Convenience stores in Japan
+
+### sukiya-shichijo
+nome: Sukiya Karasuma Shichijō (gyudon)
+tipo: 🍚 Fast food
+città: kyoto
+giorno: 10/11
+nota: Gyudon da ~¥500, 4–3, ~10′ a piedi dall'APA · Google 3,7 (1.152)
+maps: Sukiya Karasuma Shichijo Maoyacho 197 Kyoto
+mappa: no
+foto: Gyūdon
+
+### lawson-kyoto-st
+nome: Lawson davanti alla stazione di Kyoto (konbini)
+tipo: 🏪 Konbini
+città: kyoto
+giorno: 10/11
+nota: Aperto 24 h, lato Shiokōji · Google 3,6 (124)
+maps: LAWSON Kyoto Station Front Higashishiokojicho 843-2
+mappa: no
+foto: Convenience stores in Japan
+
+### nakau-gojo
+nome: Nakau Kawaramachi Gojō (donburi e udon)
+tipo: 🍚 Fast food
+città: kyoto
+giorno: 11/11
+nota: Donburi (ciotole di riso condito) e udon, 4–3, si ordina al totem · Google 3,9 (875)
+maps: Nakau Kawaramachi Gojo Mikagedomaecho 843 Kyoto
+mappa: no
+foto: Donburi
+
+### lawson100-gojo
+nome: Lawson Store 100 Keihan Gojō (konbini)
+tipo: 🏪 Konbini
+città: kyoto
+giorno: 11/11
+nota: Aperto 24 h, all'uscita della stazione Kiyomizu-Gojō · Google 3,7 (45)
+maps: Lawson Store 100 Keihan Gojo Higashihashizumecho Kyoto
+mappa: no
+foto: Convenience stores in Japan
+
+### ichiran-kawaramachi
+nome: Ichiran Kawaramachi (ramen)
+tipo: 🍜 Ramen
+città: kyoto
+giorno: 11/11
+nota: Ramen tonkotsu (brodo di maiale) in box singoli, 9–22 · Google 4,3 (5.959)
+maps: Ichiran Kyoto Kawaramachi Uraderacho 598
+mappa: no
+foto: Tonkotsu ramen
+
+### matsuya-kawaramachi
+nome: Matsuya Kawaramachi (gyudon)
+tipo: 🍚 Fast food
+città: kyoto
+giorno: 11/11
+nota: Aperto 24 h · Google 3,8 (801)
+maps: Matsuya Kawaramachi Narayacho 305 Kyoto
+mappa: no
+foto: Gyūdon
+
+### fresco-ginkakuji
+nome: Supermercato Fresco Shirakawa
+tipo: 🛒 Supermercato
+città: kyoto
+giorno: 12/11
+nota: Sushi e bento, aperto 24 h, solo contanti, 6′ a piedi da Daigin · Google 3,7 (197)
+maps: Fresco Shirakawa Jodoji Shimobanbacho 97-1 Kyoto
+mappa: no
+foto: Bento
+
+### famima-ginkakuji
+nome: FamilyMart Ginkaku-ji Shirakawa-dōri (konbini)
+tipo: 🏪 Konbini
+città: kyoto
+giorno: 12/11
+nota: Aperto 24 h · Google 2,7 (42)
+maps: FamilyMart Ginkakuji Shirakawa-dori Jodoji Banbacho 7-1 Kyoto
+mappa: no
+foto: Convenience stores in Japan
+
+### yoichiba
+nome: yoichiba (takoyaki e spiedini)
+tipo: 🍢 Street food
+città: kyoto
+giorno: 12/11
+nota: Locale informale con tavoli dentro e fuori, il giovedì dalle 17 all'1, si ordina col QR · Google 4,8 (445)
+maps: yoichiba Uraderacho 595-9 Nakagyo Kyoto
+mappa: no
+foto: Takoyaki
+
+### sukiya-kiyamachi
+nome: Sukiya Shijō Kiyamachi (gyudon)
+tipo: 🍚 Fast food
+città: kyoto
+giorno: 12/11
+nota: Gyudon da ~¥500, 4–3 · Google 3,6 (837)
+maps: Sukiya Shijo Kiyamachi Hashimotocho 109 Kyoto
+mappa: no
+foto: Gyūdon
+
+### dekonaru
+nome: Dekonaru Yokochō (vicolo di localini)
+tipo: 🍢 Street food
+città: takayama
+giorno: 13/11
+nota: Banchetti di spiedini, ramen, gyoza e takoyaki, 17–3, solo contanti · Google 4,1 (403)
+maps: Dekonaru Yokocho Asahimachi Takayama
+mappa: no
+foto: Yakitori
+
+### famima-kamininomachi
+nome: FamilyMart Kamininomachi (konbini)
+tipo: 🏪 Konbini
+città: takayama
+giorno: 13/11
+nota: Aperto 24 h, in Sanmachi, bagni gratis · Google 3,8 (88)
+maps: FamilyMart Takayama Kamininomachi
+mappa: no
+foto: Convenience stores in Japan
+
+### yuinosato
+nome: Yuinosato (crocchette e spiedini)
+tipo: 🍢 Street food
+città: shirakawago
+giorno: 14/11
+nota: Crocchette, spiedini e onigiri al miso da asporto, 9:30–16 · Google 4,6 (97)
+maps: Yuinosato Ogimachi 103 Shirakawa Gifu
+mappa: no
+foto: Korokke
+
+### yui-takoyaki
+nome: Yui Takoyaki
+tipo: 🍢 Street food
+città: shirakawago
+giorno: 14/11
+nota: Takoyaki anche col manzo di Hida, 10–16:30, accetta carte · Google 4,0 (61)
+maps: Yui Takoyaki Ogimachi 705 Shirakawa Gifu
+mappa: no
+foto: Takoyaki
+
+### takochu
+nome: Takochu (takoyaki)
+tipo: 🍢 Street food
+città: takayama
+giorno: 14/11
+nota: Takoyaki e ramen al bancone, pochi posti, sabato 18–24 · Google 4,7 (62)
+maps: Takochu Asahimachi Takayama
+mappa: no
+foto: Takoyaki
+
+### satoh
+nome: Supermercato Satoh (Kokubunji)
+tipo: 🛒 Supermercato
+città: takayama
+giorno: 14/11
+nota: Bento e piatti pronti, al 1° piano tavoli, microonde e prese, 9–20 · Google 4,2 (458)
+maps: Family Store Satoh Kokubunji Aioimachi 23 Takayama
+mappa: no
+foto: Bento
+
+### wanaka-dotonbori
+nome: Takoyaki Wanaka Dōtonbori
+tipo: 🍢 Street food
+città: osaka
+giorno: 15/11
+nota: Takoyaki (polpette di polpo) con posti a sedere dietro il banco, domenica 10:30–21 · Google 4,2 (1.711)
+maps: Takoyaki Wanaka Dotonbori 1-6-7 Osaka
+mappa: no
+foto: Takoyaki
+
+### famima-dotonbori
+nome: FamilyMart Dōtonbori (konbini)
+tipo: 🏪 Konbini
+città: osaka
+giorno: 15/11
+nota: Aperto 24 h · Google 3,4 (66)
+maps: FamilyMart Dotonbori 1-5-8 Chuo Osaka
+mappa: no
+foto: Convenience stores in Japan
+
+### harves-umeda
+nome: Supermercato Harves (LINKS UMEDA, piano B1)
+tipo: 🛒 Supermercato
+città: osaka
+giorno: 15/11
+nota: Sushi, sashimi e bento, sconti del 10–20% dopo le 19, 9:30–22, stesso edificio di Ishida · Google 4,1 (624)
+maps: Harves LINKS UMEDA B1 Ofukacho Osaka
+mappa: no
+foto: Bento
+
+### warau-umeda
+nome: Warau (udon e oyakodon)
+tipo: 🍚 Fast food
+città: osaka
+giorno: 15/11
+nota: Bancone da 8 posti, set da ~¥650, si ordina al totem, domenica 11–21, 5′ a piedi da LINKS UMEDA · Google 4,1 (531)
+maps: Warau Kakudacho 9-26 Kita Osaka
+mappa: no
+foto: Oyakodon
+
+### uogashi-shibuya
+nome: Uogashi Nihon-Ichi Dōgenzaka (sushi in piedi)
+tipo: 🍣 Sushi
+città: tokyo
+giorno: 17/11
+nota: Set da ¥1.200 o pezzi singoli, fino alle 23 · Google 4,5 (1.142)
+maps: Uogashi Nihon-Ichi Shibuya Dogenzaka 2-9-1
+mappa: no
+foto: Sushi
+
+### ichiran-shibuya
+nome: Ichiran Shibuya (ramen)
+tipo: 🍜 Ramen
+città: tokyo
+giorno: 17/11
+nota: Aperto 24 h, lista d'attesa col QR · Google 4,4 (5.277)
+maps: ICHIRAN Shibuya Jinnan 1-22-7
+mappa: no
+foto: Tonkotsu ramen
 
 ## Glossario
 

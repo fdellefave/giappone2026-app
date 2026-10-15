@@ -3,7 +3,7 @@
    Per provare un'ora diversa: aggiungere ?ora=2026-11-11T10:00+09:00 all'indirizzo. */
 (function () {
   "use strict";
-  var APP_V = "27"; // uguale al numero di VERSION in sw.js
+  var APP_V = "28"; // uguale al numero di VERSION in sw.js
 
   var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", shirakawago: "Shirakawa-go", roma: "Roma" };
   var TYPE = {
@@ -259,6 +259,7 @@
     if (nd === "book") p += '<span class="pill todo">' + icon("alert") + "Da prenotare</span>";
     if (nd === "fix") p += '<span class="pill warn">' + icon("alert") + "Da sistemare</span>";
     if (it.start) p += '<span class="pill muted">Partenza</span>';
+    if (it.k === "cibo") p += '<span class="pill kind">' + icon("food") + "Mangiare</span>";
     var hh = it.k === "hotel" || it.k === "bagagli" ? hotelOf(it) : null;
     if (hh) p += hotelMine(hh) ? '<span class="pill mine">' + icon("bed") + "Hotel vostro</span>" : '<span class="pill grp">' + icon("users") + "Alloggio del gruppo</span>";
     else if (it.group && it.k !== "sposta") p += '<span class="pill grp">' + icon("users") + "Col gruppo</span>";
