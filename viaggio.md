@@ -73,7 +73,8 @@ Già verificato (non riproporre):
 - Cena da SUMO (ristorante a tema) del 9/11 tolta su richiesta (10/10). Il torneo di sumo di novembre è a Fukuoka (fuori rotta). Asakusa Sumo Club (~$100) tolto su richiesta: al suo posto la serata ad Akihabara.
 - Lake Bake: bar interno chiuso, solo asporto. Omen (udon a Ginkaku-ji) chiuso il giovedì: il 12/11 non si va.
 - Super Potato di Osaka = negozio Otaroad a Nipponbashi (Den Den Town).
-- Shibuya Sky: biglietti 2 settimane prima alle 00:00 giapponesi. Bus Nōhi per Shirakawa-go: prenotazioni 1 mese prima.
+- Shibuya Sky: biglietti 2 settimane prima alle 00:00 giapponesi.
+- Shirakawa-go (15/10): corse Nōhi con prenotazione esaurite; 12go vendeva solo le corse senza prenotazione (8:50, 15:15), Headout e Civitatis nulla sotto €50. Presa la gita Nōhi Ainokura + Shirakawa-go dell'8:30 (rientro 15:50), pagata da Federico, ¥18.000 per 2.
 - Le coordinate dei posti non sono disponibili: la mappa del sito usa ricerche Google Maps.
 - Conferme Booking lette il 5/10: tutte le 5 camere hanno 1 letto alla francese (131–150 cm) per 2 adulti; cancellazioni e telefoni aggiornati negli Alloggi.
 - Pagamenti (dalle email di conferma, 3/10): hotel, Airbnb e treni Klook li ha prenotati Federico per 2 persone.
@@ -746,30 +747,27 @@ con: voi due
   orari: 7–12
 - 07:45 sposta Stazione dei bus Nōhi | via piedi: #mercato-miyagawa > Takayama Nohi Bus Center (Mercato → stazione dei bus)
   breve: a piedi 12′ · accanto alla stazione dei treni
-- 08:10 viaggio Bus per Shirakawa-go | treno: bus-14 | prenotare | dove: Takayama Nohi Bus Center
-  breve: 8:10 → 9:00
-  Bus Nōhi, con prenotazione.
-  costo: ¥2.800 a testa
-  prenotazione: dal 14/10, su japanbusonline.com
-- 09:00 sposta Belvedere Shiroyama | città: shirakawago | via piedi: Shirakawa-go Bus Terminal > #belvedere-shiroyama (Bus → belvedere)
-  breve: a piedi 20′ in salita (o navetta ~¥200)
-- 09:20 vedere Belvedere Shiroyama | posto: belvedere-shiroyama
-  breve: il villaggio visto dall'alto
-  Andateci per primo: luce bassa e pochi gruppi.
-- 09:50 sposta Villaggio di Shirakawa-go | via piedi: #belvedere-shiroyama > #shirakawa-go (Belvedere → villaggio)
-  breve: a piedi 15′ in discesa
-- 10:00 vedere Shirakawa-go (villaggio dei tetti di paglia) | posto: shirakawa-go
-  breve: patrimonio UNESCO
-  Case gasshō, coi tetti di paglia a punta («mani giunte»). Entrate in [[casa-wada]], l'unica grande casa visitabile.
+- 08:30 viaggio Gita in bus a Ainokura e Shirakawa-go | treno: bus-14 | prenotato | dove: Takayama Nohi Bus Center
+  breve: 8:30 → rientro 15:50 · cambiate il biglietto al bancone entro le 8:15
+  Gita Nōhi: bus con assistente (parla giapponese), tempo libero nei due villaggi. Inclusi l'ingresso al Minkaen (museo all'aperto delle case gasshō) e la navetta per il belvedere. Pranzo escluso.
+  come: biglietto elettronico nell'email di Japan Bus Online: meglio stamparlo, altrimenti dal telefono
+  attenzione: con neve o traffico il bus può tardare molto. Si può restare a Shirakawa-go, ma senza rimborso del ritorno
+- 10:00 vedere Ainokura (villaggio dei tetti di paglia) | posto: ainokura | città: shirakawago
+  breve: prima tappa · più piccolo e tranquillo di Shirakawa-go
+  Villaggio gasshō di Gokayama (valle vicina, UNESCO), pochi turisti. Orari delle soste decisi dall'assistente: segnatevi l'ora di ripartenza.
+- 11:30 vedere Shirakawa-go (villaggio dei tetti di paglia) | posto: shirakawa-go
+  breve: patrimonio UNESCO · tempo libero fino a metà pomeriggio
+  Case gasshō, coi tetti di paglia a punta («mani giunte»). Entrate in [[casa-wada]], l'unica grande casa visitabile, e nel Minkaen (incluso).
   attenzione: restate sui sentieri: risaie e case private sono protette. Il sabato è il giorno più affollato
-- 12:15 cibo Pranzo a Shirakawa-go | foto: Shirakawa-gō | dove: Shirakawa-go Ogimachi | zona: shirakawa
-  breve: verso mezzogiorno, prima della folla
-- 13:30 viaggio Bus per Takayama | treno: bus-14 | prenotare | città: takayama | via mezzi: Shirakawa-go Bus Terminal > @alpina (Shirakawa-go → hotel)
-  breve: ~50′ · corsa tra le 13:30 e le 14:30
-  Corsa da fissare: 13:30 → 14:20 (Nōhi, arriva da Toyama) o 14:00 → 14:50 (Iruka, arriva da Takaoka), entrambe con prenotazione. Senza prenotazione: 13:15 → 14:05. All'arrivo 3′ a piedi all'hotel.
-- 14:30 hotel Pomeriggio lento all'Alpina | alloggio: alpina
-  breve: riposo · onsen sul tetto verso le 16:30
-  alternativa: passeggiata tra i templi di Higashiyama, a est del centro
+- 12:30 cibo Pranzo a Shirakawa-go | foto: Shirakawa-gō | dove: Shirakawa-go Ogimachi | zona: shirakawa
+  breve: pranzo libero, non incluso nella gita
+- 13:45 vedere Belvedere Shiroyama | posto: belvedere-shiroyama
+  breve: il villaggio visto dall'alto · navetta inclusa
+  La navetta per il belvedere passa ogni 20′ circa: tenete d'occhio l'ora del bus.
+- 15:00 viaggio Rientro a Takayama | treno: bus-14 | prenotato | città: takayama | via piedi: Takayama Nohi Bus Center > @alpina (Stazione dei bus → hotel)
+  breve: 15:00 → 15:50 · poi 3′ a piedi all'hotel
+- 16:00 hotel Riposo all'Alpina | alloggio: alpina
+  breve: onsen sul tetto verso le 16:30
 - 17:45 sposta Kyōya | via piedi: @alpina > #kyoya (Hotel → Kyōya)
   breve: a piedi 15′
 - 18:00 cibo Kyōya (cucina di montagna) | posto: kyoya | prenotare
@@ -783,20 +781,20 @@ con: voi due
   breve: domani check-out alle 7:40, treno alle 8:00
 
 #### Guida
-senso: Mercato sul fiume all'alba e gita a Shirakawa-go, il villaggio delle case col tetto di paglia; pomeriggio di riposo e terme.
+senso: Mercato sul fiume all'alba, poi gita in bus a Ainokura e Shirakawa-go, i villaggi delle case col tetto di paglia; rientro alle 15:50, terme e cena di montagna.
 mangiare:
   • Al mercato: mochi grigliati (dolcetti di riso) e sottaceti
-  • Pranzo a Shirakawa-go verso le 12, prima della folla
+  • Pranzo libero a Shirakawa-go (non incluso nella gita)
   • Cena: Kyōya, cucina di montagna in una casa antica (hoba miso, Hida beef; Tabelog 3,33)
 prenotare:
-  • Bus Takayama ↔ Shirakawa-go: prenotabile dal 14/10, andata 8:10 e ritorno sono 2 prenotazioni separate
   • Kyōya ore 18:00 per 2 (telefono o tramite hotel)
 attenzione:
   • Il sabato è il giorno più affollato a Shirakawa-go
+  • Portate il biglietto della gita stampato
   • Le case abitate non si visitano, le risaie non si calpestano
 anticipo: • Passeggiata nella zona dei templi di Takayama (Higashiyama, a est del centro)
-stanchi: • Saltate il mercato e prendete un bus più tardi; non tagliate Shirakawa-go
-camminata: ~9 km (salita al belvedere) · bus 1 h 40 · pause: pranzo 1 h, riposo 2 h, terme 1 h, cena 1 h 30
+stanchi: • Saltate il mercato: il bus della gita parte comunque alle 8:30
+camminata: ~7 km (belvedere con la navetta) · bus ~3 h in tutto · pause: pranzo 1 h, riposo 1 h, terme 1 h, cena 1 h 30
 
 ### 2026-11-15
 percorso: takayama > osaka
@@ -1254,13 +1252,15 @@ nota: Zero cambi con le valigie; panorama sulle gole del fiume Hida.
 
 ### bus-14
 data: 2026-11-14
-tratta: Takayama ⇄ Shirakawa-go
-mezzo: Bus Nōhi (con prenotazione)
-orario: andata 8:10 → 9:00 · ritorno 13:30 → 14:20 o 14:00 → 14:50
-prezzo: ¥2.800 a tratta a testa (~€15)
-stato: da comprare
-link: https://japanbusonline.com/CourseSearch/11900040002?afcd=MDI=
-nota: Prenotabile dal 14/10; andata e ritorno sono due prenotazioni, per 2 persone.
+tratta: Takayama → Ainokura → Shirakawa-go → Takayama
+mezzo: Gita in bus Nōhi «Shirakawa-go & Gokayama Ainokura» (senza pasto, con assistente)
+orario: 8:30 → 15:50, partenza e arrivo al Takayama Nohi Bus Center
+prezzo: ¥18.000 per 2 (¥9.000 a testa, ~€49)
+stato: pagato
+pagato da: Federico
+conferma: 2026-10-15
+link: https://japanbusonline.com/en/CourseDetail/index/12102010001
+nota: Comprata su Japan Bus Online il 15/10 (le corse Nōhi con prenotazione erano esaurite). Biglietto elettronico nell'email: da cambiare al bancone del Nohi Bus Center almeno 10′ prima; meglio stamparlo. Cancellazione ¥100 a testa fino alla partenza.
 
 ### hida-15
 data: 2026-11-15
@@ -1337,7 +1337,7 @@ priorità: alta
 nota: Dal 2025 il biglietto d'ingresso (Studio Pass) si compra solo online, non più alla cassa. Serve l'Area Timed Entry o un Express Pass che include Super Nintendo World, altrimenti nell'area Nintendo non si entra. Orari del 16/11 sul sito ufficiale.
 
 ### bus-nohi
-tappa: 2026-11-14 08:10, 2026-11-14 13:30
+tappa: 2026-11-14 08:30, 2026-11-14 15:00
 cosa: Bus Nōhi Takayama ⇄ Shirakawa-go 14/11, per 2
 tipo: prenotare
 giorno: 2026-11-14
@@ -1346,7 +1346,8 @@ quando: dal 14/10
 costo: ¥2.800 a tratta a testa
 link: Prenota su Japan Bus Online = https://japanbusonline.com/CourseSearch/11900040002?afcd=MDI= ; Sito ufficiale Nōhi Bus = https://www.nouhibus.co.jp/english/
 priorità: alta
-nota: Andata 8:10 → 9:00 e ritorno su una corsa tra 13:30 e 14:30: due prenotazioni di sola andata.
+nota: Corse con prenotazione esaurite il 15/10: presa al loro posto la gita Nōhi Ainokura + Shirakawa-go (8:30 → 15:50), ¥9.000 a testa.
+fatto: 2026-10-15
 
 ### shibuya-sky
 tappa: 2026-11-17 16:00
@@ -1506,7 +1507,7 @@ Stima a persona in euro.
 - Volo andata e ritorno: 1226 | da bozza
 - Alloggi 12 notti: 686 | tutti pagati: totale vero addebitato, Nagomi compresa
 - Treni e bus lunghi: 375 | metà dei biglietti Klook (€678) + Fuji Excursion del 9/11 (€51,68, pagato) + Kamakura
-- Trasporti in città: 150 | metro e bus con la Suica ~€6 al giorno + bus Shirakawa-go ~€28
+- Trasporti in città: 171 | metro e bus con la Suica ~€6 al giorno + gita Shirakawa-go ~€49
 - Cibo (~13 giorni): 520 | ~€40 al giorno, comprese le cene da Kitchen Hida e Kyōya
 - Attività e spettacoli: 222 | Skytree ~€12 · Samurai Restaurant ~€43 · Gion Corner ~€30 · Shibuya Sky ~€14 · teamLab · sale giochi
 - USJ + Express: 180 | prezzo variabile, ~€130–195 a testa
@@ -1684,6 +1685,11 @@ posti: kotte-ushi, jinya, sanmachi, nakabashi, kitchen-hida, mercato-miyagawa, k
 nome: Shirakawa-go
 cosa: il villaggio dei tetti di paglia, in montagna
 posti: belvedere-shiroyama, shirakawa-go
+
+### ainokura
+nome: Ainokura (Gokayama)
+cosa: piccolo villaggio dei tetti di paglia nella valle di Gokayama
+posti: ainokura
 
 ### shinsaibashi
 nome: Shinsaibashi
@@ -2440,6 +2446,16 @@ maps: Ogimachi Castle Ruins Observatory Shirakawa
 sito: https://www.vill.shirakawa.lg.jp/1470.htm
 foto: Shirakawa-gō
 
+### ainokura
+nome: Ainokura (villaggio)
+tipo: 🏡 UNESCO
+città: takayama
+giorno: 14/11
+nota: Villaggio gasshō di Gokayama, piccolo e tranquillo
+maps: Ainokura Gassho-zukuri Village
+sito: https://gokayama-info.jp/en/%e3%81%bf%e3%81%a9%e3%81%93%e3%82%8d/%e4%ba%94%e7%ae%87%e5%b1%b1%e3%81%a8%e4%b8%96%e7%95%8c%e9%81%ba%e7%94%a3/world-heritage-ainokura-gassho-style-village
+foto: Gokayama
+
 ### casa-wada
 nome: Casa Wada
 tipo: 🏡 Casa storica
@@ -2742,7 +2758,7 @@ foto: Zōjō-ji
 - Randen: Tram storico di Kyoto che va ad Arashiyama
 - Keihan: Linea ferroviaria privata di Kyoto (Fushimi Inari, Gion, Kiyomizu-Gojō)
 - Hida (treno): Treno espresso tra le montagne per Takayama
-- Nōhi Bus: Compagnia dei bus Takayama ↔ Shirakawa-go, con prenotazione
+- Nōhi Bus: Compagnia dei bus di Takayama (corse per Shirakawa-go e gite organizzate)
 - Midōsuji: La linea principale della metro di Osaka (Shin-Osaka, Umeda, Shinsaibashi, Namba)
 - Suica: Tessera ricaricabile (anche sull'iPhone, nel Wallet) per metro, treni locali, bus e conbini
 - Shin-Osaka: La stazione dello Shinkansen di Osaka, diversa dalla stazione centrale (Osaka/Umeda)
