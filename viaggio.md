@@ -73,6 +73,7 @@ Già verificato (non riproporre):
 - Cena da SUMO (ristorante a tema) del 9/11 tolta su richiesta (10/10). Il torneo di sumo di novembre è a Fukuoka (fuori rotta). Asakusa Sumo Club (~$100) tolto su richiesta: al suo posto la serata ad Akihabara.
 - Lake Bake: bar interno chiuso, solo asporto. Omen (udon a Ginkaku-ji) chiuso il giovedì: il 12/11 non si va.
 - Super Potato di Osaka = negozio Otaroad a Nipponbashi (Den Den Town).
+- Bagagli (15/10): a testa uno zaino formato Ryanair e un trolley piccolo, sotto i 160 cm (somma dei lati): sugli Shinkansen non serve il posto con spazio bagagli.
 - Shibuya Sky: biglietti 2 settimane prima alle 00:00 giapponesi.
 - Shirakawa-go (15/10): corse Nōhi con prenotazione esaurite; 12go vendeva solo le corse senza prenotazione (8:50, 15:15), Headout e Civitatis nulla sotto €50. Presa la gita Nōhi Ainokura + Shirakawa-go dell'8:30 (rientro 15:50), pagata da Federico, ¥18.000 per 2.
 - Le coordinate dei posti non sono disponibili: la mappa del sito usa ricerche Google Maps.
@@ -471,7 +472,7 @@ gruppo: 06:35-18:20
 - 20:09 viaggio Shinkansen (treno superveloce) Tokyo → Kyoto | foto: Tōkaidō Shinkansen | treno: shink-10 | prenotato
   breve: 20:09 → 22:21 · Nozomi 287
   Lo Shinkansen è il treno superveloce. Cena a bordo con l'ekiben.
-  attenzione: valigia oltre 160 cm (somma dei lati): serve il posto con spazio bagagli, verificate il biglietto
+  bagagli: trolley piccolo nella cappelliera, zaino sotto i piedi
 - 22:21 sposta APA Hotel Kyoto | città: kyoto | via piedi: Kyoto Station > @apa-kyoto (Stazione di Kyoto → APA Hotel)
   breve: a piedi 7′ dall'uscita Central
 - 22:30 hotel Check-in all'APA Hotel Kyoto | alloggio: apa-kyoto
@@ -488,7 +489,7 @@ mangiare:
   • Fame all'arrivo a Kyoto: ramen da Honke Daiichi Asahi (Tabelog 3,74, fino all'1:00)
 prenotare:
   • Biglietto giornaliero del trenino Enoden ¥800
-  • Shinkansen già pagato: valigia oltre 160 cm (somma dei lati) = serve il posto con spazio bagagli
+  • Shinkansen già pagato
   • Deposito valigie all'Hotel Saibo: confermato (reception aperta 24 ore su 24)
 attenzione:
   • Il tempio del bambù (Hōkoku-ji) può chiudere con la pioggia
@@ -1246,7 +1247,7 @@ pagato da: Federico
 conferma: 2026-10-10
 emesso: 2026-10-15
 link: https://s.klook.com/c/D1Zn6JaV1o
-nota: Valigia oltre 160 cm (somma dei lati): serve il posto con spazio bagagli.
+nota: Bagagli piccoli (trolley e zaino): vanno nella cappelliera, non serve il posto con spazio bagagli.
 
 ### hida-13
 data: 2026-11-13
