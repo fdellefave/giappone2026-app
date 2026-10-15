@@ -1929,6 +1929,7 @@ città: tokyo
 giorno: 6/11
 nota: Tembo Deck a 350 m dopo il tramonto · ¥2.100 · biglietto con data e ora
 maps: Tokyo Skytree
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14134337-d1872416-Reviews-Tokyo_Skytree-Oshiage_Sumida_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.tokyo-skytree.jp/en/
 foto: Tokyo Skytree
 
@@ -1939,6 +1940,7 @@ città: tokyo
 giorno: 6/11
 nota: 16:30, tramonto 16:42
 maps: Azumabashi Bridge Tokyo
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1023181-d3676886-Reviews-Azuma_Bridge-Tokyo_Prefecture_Kanto.html
 foto: Azuma Bridge
 
 ### kappabashi
@@ -1960,6 +1962,7 @@ città: tokyo
 giorno: 6/11
 nota: 3 piani di videogiochi retro + sala giochi anni '80–'90
 maps: Super Potato Akihabara
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066443-d13608105-Reviews-Super_Potato-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.japan.travel/en/spot/2178/
 foto: Famicom
 
@@ -1970,6 +1973,7 @@ città: tokyo
 giorno: 6/11
 nota: 10 piani di figure, modellini e carte da collezione
 maps: Akihabara Radio Kaikan
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066443-d25190470-Reviews-Akihabara_Radio_Kaikan-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://en.jal.japantravel.com/tokyo/akiba-radio-kaikan/25669
 foto: Akihabara
 
@@ -1980,6 +1984,8 @@ città: tokyo
 giorno: 6/11
 nota: Ramen tonkotsu (brodo di maiale) · 11–22, ultimo ordine 21:45
 maps: 九州じゃんがら 秋葉原本店 Sotokanda 3-11-6
+tabelog: https://tabelog.com/tokyo/A1310/A131001/13000344/
+tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g1066443-d1688751-Reviews-Kyushu_Jangara_Ramen_Akihabara_Honten-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://visit-chiyoda.tokyo/app/en/spot/detail/927
 foto: Ramen
 
@@ -2012,6 +2018,7 @@ città: tokyo
 giorno: 6/11
 nota: Fino alle 23–23:30
 maps: Taito Station Akihabara
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066443-d10429337-Reviews-Taito_Station_Akihabara-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.taito.co.jp/store/00001802
 foto: Akihabara
 
@@ -2068,6 +2075,7 @@ città: kawaguchiko
 giorno: 7/11
 nota: Cena col gruppo · 11–20, chiude prima se finiscono i noodles · contanti
 maps: ほうとう不動 河口湖北本店 富士河口湖町河口707
+tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g1165976-d1703447-Reviews-Houtou_Fudou_Kawaguchikokita_Honten-Fujikawaguchiko_machi_Minamitsuru_gun_Yamana.html
 tabelog: https://tabelog.com/en/yamanashi/A1903/A190303/19000116/
 voto: 3,48
 foto: Hōtō
@@ -2537,6 +2545,7 @@ città: takayama
 giorno: 13/11
 nota: ~¥1.000 per oltre 20 sakè
 maps: Hirase Sake Brewery Takayama
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298113-d8714368-Reviews-Hirase_Shuzo_Brewery-Takayama_Gifu_Prefecture_Tokai_Chubu.html
 foto: Sake
 
 ### sake-funasaka
@@ -2602,6 +2611,7 @@ città: takayama
 giorno: 14/11
 nota: Case gasshō, col tetto di paglia a punta
 maps: Shirakawa-go Ogimachi
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1119912-d1407426-Reviews-The_Historic_Villages_of_Shirakawa_go_Gassho_Style_Houses-Shirakawa_mura_Ono_gun.html
 sito: https://shirakawa-go.gr.jp/en/
 foto: Shirakawa-gō
 
@@ -2612,6 +2622,7 @@ città: takayama
 giorno: 14/11
 nota: Prima tappa, 20′ in salita o navetta
 maps: Ogimachi Castle Ruins Observatory Shirakawa
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1119912-d3749769-Reviews-Shirakawago_Shiroyama_Observatory_Deck-Shirakawa_mura_Ono_gun_Gifu_Prefecture_Ch.html
 sito: https://www.vill.shirakawa.lg.jp/1470.htm
 foto: Shirakawa-gō
 
@@ -2622,6 +2633,7 @@ città: takayama
 giorno: 14/11
 nota: Villaggio gasshō di Gokayama, piccolo e tranquillo
 maps: Ainokura Gassho-zukuri Village
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1021438-d1407505-Reviews-Ainokura_Gassho_Community-Nanto_Toyama_Prefecture_Hokuriku_Chubu.html
 sito: https://gokayama-info.jp/en/%e3%81%bf%e3%81%a9%e3%81%93%e3%82%8d/%e4%ba%94%e7%ae%87%e5%b1%b1%e3%81%a8%e4%b8%96%e7%95%8c%e9%81%ba%e7%94%a3/world-heritage-ainokura-gassho-style-village
 foto: Gokayama
 
@@ -2632,6 +2644,7 @@ città: takayama
 giorno: 14/11
 nota: La più grande casa col tetto di paglia visitabile
 maps: Wada House Shirakawa-go
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1119912-d324182-Reviews-Wada_House-Shirakawa_mura_Ono_gun_Gifu_Prefecture_Tokai_Chubu.html
 sito: https://www.vill.shirakawa.lg.jp/1484.htm
 foto: Gasshō-zukuri
 
@@ -2654,6 +2667,7 @@ città: osaka
 giorno: 15/11
 nota: Street food a pranzo, neon la sera
 maps: Dotonbori Osaka
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14135010-d325333-Reviews-Dotombori_District-Dotombori_Chuo_Osaka_Osaka_Prefecture_Kinki.html
 sito: http://www.dotonbori.or.jp/ja/
 foto: Dōtonbori
 
@@ -2664,6 +2678,7 @@ città: osaka
 giorno: 15/11
 nota: 13:30
 maps: Den Den Town Nipponbashi Osaka
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14134994-d321314-Reviews-Nipponbashi_Denden_Town-Nippombashi_Chuo_Osaka_Osaka_Prefecture_Kinki.html
 sito: https://www.nippombashi.jp/
 foto: Den Den Town
 
@@ -2674,6 +2689,7 @@ città: osaka
 giorno: 15/11
 nota: Weekend 10–20 · Nipponbashi 3-8-18
 maps: スーパーポテト オタロード店 大阪市浪速区日本橋3-8-18
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298566-d28449079-Reviews-Super_Potato_Ota_Road-Osaka_Osaka_Prefecture_Kinki.html
 sito: https://www.superpotato.com/shop/otaroad/
 foto: Den Den Town
 
@@ -2684,6 +2700,7 @@ città: osaka
 giorno: 15/11
 nota: 12–20
 maps: Mandarake Grand Chaos Osaka
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298566-d9727254-Reviews-Mandarake_Grandchaos-Osaka_Osaka_Prefecture_Kinki.html
 sito: https://www.mandarake.co.jp/dir/gcs/
 foto: Mandarake
 
@@ -2694,6 +2711,7 @@ città: osaka
 giorno: 15/11
 nota: 15:30
 maps: Shinsekai Osaka
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298566-d1407290-Reviews-Shinsekai-Osaka_Osaka_Prefecture_Kinki.html
 sito: https://shinsekai.net/
 foto: Shinsekai
 
@@ -2704,6 +2722,7 @@ città: osaka
 giorno: 15/11
 nota: Al tramonto · 10–20, ¥1.000
 maps: Tsutenkaku Osaka
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298566-d1195795-Reviews-Tsutenkaku-Osaka_Osaka_Prefecture_Kinki.html
 sito: https://www.tsutenkaku.co.jp/
 foto: Tsūtenkaku
 
@@ -2740,6 +2759,7 @@ città: osaka
 giorno: 15/11
 nota: Statua di Fudō (divinità buddista) coperta di muschio
 maps: Hozenji Yokocho Osaka
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14134988-d2710498-Reviews-Hozenji_Yokocho-Namba_Chuo_Osaka_Osaka_Prefecture_Kinki.html
 foto: Dōtonbori
 
 ### ura-namba
@@ -2758,6 +2778,7 @@ città: osaka
 giorno: 15/11
 nota: Fino alle 0:50, bowling, karaoke
 maps: Round1 Stadium Sennichimae Osaka
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14134988-d12967346-Reviews-Round_One_Stadium_Sennichimae-Namba_Chuo_Osaka_Osaka_Prefecture_Kinki.html
 sito: https://www.round1.co.jp/
 foto: Round One Corporation
 
@@ -2768,6 +2789,7 @@ città: osaka
 giorno: 15/11
 nota: Comici in coppia (manzai) e commedia slapstick, in giapponese ma molto fisica
 maps: Namba Grand Kagetsu
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14127623-d1195814-Reviews-Nanba_Grand_Kagetsu-Chuo_Osaka_Osaka_Prefecture_Kinki.html
 sito: https://ngk.yoshimoto.co.jp/
 mappa: no
 foto: Namba Grand Kagetsu
@@ -2779,6 +2801,7 @@ città: osaka
 giorno: 16/11
 nota: Area Timed Entry o Express per 2 · DA PRENOTARE
 maps: Universal Studios Japan
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298566-d320976-Reviews-Universal_Studios_Japan-Osaka_Osaka_Prefecture_Kinki.html
 sito: https://www.usj.co.jp/web/en/us
 foto: Super Nintendo World
 
@@ -2812,6 +2835,7 @@ città: tokyo
 giorno: 17/11
 nota: Food hall nel seminterrato
 maps: Ginza Mitsukoshi depachika
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14129573-d605050-Reviews-Ginza_Mitsukoshi-Ginza_Chuo_Tokyo_Tokyo_Prefecture_Kanto.html
 foto: Depachika
 
 ### takeshita-dori
@@ -2843,6 +2867,7 @@ città: tokyo
 giorno: 17/11
 nota: Harajuku → Shibuya a piedi, 20′
 maps: Cat Street Shibuya Tokyo
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066456-d610349-Reviews-Shibuya_Cat_Street-Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
 foto: Harajuku
 
 ### shibuya-sky
@@ -2918,6 +2943,7 @@ città: kyoto
 giorno: 11/11
 nota: Colazione 9:45 · 9–17 · a due passi dall'ingresso di Fushimi Inari
 maps: Vermillion Espresso Bar Fushimi Inari Kyoto
+tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298564-d5964170-Reviews-Vermillion_espresso_bar_info-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://insidekyoto.com/vermillion-cafe
 foto: Espresso
 
@@ -2928,6 +2954,7 @@ città: kyoto
 giorno: 11/11
 nota: Pranzo 11:20 · 11–15, chiuso mar. · solo contanti
 maps: 讃式 京都市東山区五条橋東2-9-4
+tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298564-d9652076-Reviews-Sanshiki-Kyoto_Kyoto_Prefecture_Kinki.html
 tabelog: https://tabelog.com/en/kyoto/A2601/A260301/26023919/
 voto: 3,53
 foto: Udon
@@ -2939,6 +2966,7 @@ città: kyoto
 giorno: 11/11
 nota: Cena 19:30 · 17–23, ultimo ordine 22 · DA PRENOTARE per 2 (online)
 maps: おにかい 京都市中京区河原町通四条上ル米屋町388
+tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298564-d7460060-Reviews-Onikai-Kyoto_Kyoto_Prefecture_Kinki.html
 tabelog: https://tabelog.com/en/kyoto/A2601/A260201/26002004/
 voto: 3,60
 foto: Izakaya
@@ -2950,6 +2978,8 @@ città: kyoto
 giorno: 12/11
 nota: Pranzo 13:15 · 11–20:40, chiuso mer. · ~¥1.000
 maps: 大銀食堂 京都市左京区浄土寺東田町60
+tabelog: https://tabelog.com/en/kyoto/A2601/A260302/26007440/
+tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298564-d7437466-Reviews-Daigin_Shokudo-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://insidekyoto.com/daigin-shokudo-northern-higashiyama
 foto: Teishoku
 
@@ -2960,6 +2990,7 @@ città: kyoto
 giorno: 12/11
 nota: Cena 19:00 · 18–24, chiuso mer. · solo contanti · DA PRENOTARE per 2 (online)
 maps: 串揚げ専門店 コテツ 京都市下京区船頭町232-2
+tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298564-d7460418-Reviews-Kotetsu-Kyoto_Kyoto_Prefecture_Kinki.html
 tabelog: https://tabelog.com/en/kyoto/A2601/A260201/26020610/
 voto: 3,58
 foto: Kushikatsu
@@ -2971,6 +3002,7 @@ città: takayama
 giorno: 14/11
 nota: Pranzo 12:30 · 10–14 · carte JCB/AMEX e PayPay · DA PRENOTARE per 2 (online)
 maps: いろり 白川村荻町374-1
+tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g1119912-d5036818-Reviews-Irori-Shirakawa_mura_Ono_gun_Gifu_Prefecture_Tokai_Chubu.html
 tabelog: https://tabelog.com/en/gifu/A2104/A210404/21003222/
 voto: 3,47
 foto: Irori
@@ -2982,6 +3014,8 @@ città: osaka
 giorno: 15/11
 nota: Cena 18:30 · manzo di Kobe al teppanyaki · DA PRENOTARE per 2
 maps: Kobe Beef Steak Ishida LINKS UMEDA, Osaka
+tabelog: https://tabelog.com/en/osaka/A2701/A270101/27114781/
+tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298566-d19617987-Reviews-Ishida_Links_Umeda-Osaka_Osaka_Prefecture_Kinki.html
 sito: https://myconciergejapan.com/restaurants/kobe-steak-ishida-links-umeda
 foto: Kobe beef
 
@@ -2992,6 +3026,8 @@ città: tokyo
 giorno: 17/11
 nota: Cena 19:00 · omakase ¥9.900 · solo carta · DA PRENOTARE per 2 (TableCheck)
 maps: Sushi Tokyo Ten Shibuya Stream
+tabelog: https://tabelog.com/en/tokyo/A1303/A130301/13225919/
+tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g1066456-d23934063-Reviews-Sushi_Tokyo_Ten_Shibuya-Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.tablecheck.com/en/shops/sushitokyo-ten-shibuya/reserve
 voto: 3,56
 foto: Sushi
@@ -3003,6 +3039,8 @@ città: tokyo
 giorno: 9/11
 nota: Cena dopo teamLab · 17–22, ultimo ordine 21:30 · prenotabile online anche in giornata
 maps: もんじゃ近どう 本店 東京都中央区月島3-12-10
+tabelog: https://tabelog.com/tokyo/A1313/A131302/13012771/
+tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g14129637-d6060617-Reviews-Kondo_Honten-Tsukishima_Chuo_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.hotpepper.jp/strJ000103075/
 foto: Monjayaki
 
