@@ -23,7 +23,8 @@
   var SCHEMA = {
     "Alloggi": [["nome"], ["città", "city"], ["dal", "date"], ["al", "date"], ["prezzo", "text", "es. €80,56 o ¥12.000 (totale per 2)"], ["euro", "num"], ["yen", "num"],
       ["pagato", "sel", ["sì", "no", "gruppo"]], ["pagato da"], ["diviso", "sel", ["", "sì", "no"]], ["saldato", "sel", ["", "sì", "no"]], ["pagamento"], ["cancellazione"],
-      ["indirizzo"], ["arrivo"], ["orari"], ["camera"], ["telefono"], ["app", "url"], ["maps", "text", "testo della ricerca su Google Maps"], ["foto", "text", "titolo della pagina di Wikipedia in inglese (foto della zona)"], ["nota", "area"]],
+      ["indirizzo"], ["arrivo"], ["orari"], ["camera"], ["telefono"], ["app", "url"], ["maps", "text", "testo della ricerca su Google Maps"], ["foto", "text", "titolo della pagina di Wikipedia in inglese (foto della zona)"],
+      ["colazione", "sel", ["", "inclusa", "a pagamento", "no"]], ["colazione orari", "text", "es. 7:00–9:30, oppure 6:45– se non si sa la fine"], ["colazione prezzo", "text", "solo se a pagamento, es. ¥1.800 a testa"], ["colazione nota"], ["nota", "area"]],
     "Treni": [["data", "date"], ["tratta"], ["mezzo"], ["orario"], ["prezzo"], ["euro", "num"], ["stato", "sel", ["pagato", "prenotato", "da comprare", "sul posto"]],
       ["pagato da"], ["conferma", "date"], ["link", "url"], ["nota", "area"]],
     "Da fare": [["cosa"], ["tipo", "sel", ["prenotare", "gestire"]], ["tappa", "slots"], ["giorno", "day"], ["apre", "date"], ["entro", "date"], ["quando"],

@@ -3,13 +3,13 @@
    Per provare un'ora diversa: aggiungere ?ora=2026-11-11T10:00+09:00 all'indirizzo. */
 (function () {
   "use strict";
-  var APP_V = "28"; // uguale al numero di VERSION in sw.js
+  var APP_V = "29"; // uguale al numero di VERSION in sw.js
 
   var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", shirakawago: "Shirakawa-go", roma: "Roma" };
   var TYPE = {
     vedere: { n: "Da vedere", i: "pin" }, fare: { n: "Esperienza", i: "sparkles" }, cibo: { n: "Mangiare", i: "food" },
     sposta: { n: "Spostamento", i: "walk" }, viaggio: { n: "Treno, bus o volo", i: "train" }, hotel: { n: "Hotel", i: "bed" },
-    bagagli: { n: "Valigie", i: "luggage" }
+    bagagli: { n: "Valigie", i: "luggage" }, sveglia: { n: "Sveglia", i: "sun" }
   };
   var MODE = { transit: "train", walking: "walk", driving: "taxi" };
   var GUIDE = [["mangiare", "Dove mangiare"], ["prenotare", "Da avere con sé"], ["attenzione", "Attenzione"],
@@ -215,8 +215,19 @@
   }
 
   // ---------- testi e icone ----------
+  // «¥1.000–2.000» → «¥1.000–2.000 (~€5–11)», se l'euro non c'è già subito dopo
+  function eurNum(x) {
+    var n = parseInt(String(x).replace(/\./g, ""), 10) / RATE;
+    return n < 10 ? n.toFixed(1).replace(".", ",").replace(",0", "") : Math.round(n).toLocaleString("it-IT");
+  }
+  function withEur(h) {
+    return String(h).replace(/¥\s?(\d{1,3}(?:\.\d{3})+|\d+)(?:\s?[–-]\s?¥?(\d{1,3}(?:\.\d{3})+|\d+))?/g, function (m, a, b, off, str) {
+      if (/^\s*[,(]?\s*(~|≈|circa\s)?\s*€/.test(str.slice(off + m.length, off + m.length + 14))) return m;
+      return m + ' <span class="eur">(~€' + eurNum(a) + (b ? "–" + eurNum(b) : "") + ")</span>";
+    });
+  }
   function richText(t) {
-    return esc(t).replace(/\[\[([a-z0-9-]+)\]\]/g, function (_, id) {
+    return withEur(esc(t)).replace(/\[\[([a-z0-9-]+)\]\]/g, function (_, id) {
       var p = D.places[id];
       return p ? '<a class="inl" href="' + esc(p.link.url) + '" target="_blank" rel="noopener">' + esc(shortName(p.name)) + "</a>" : id;
     });
@@ -606,7 +617,7 @@
       if (a > 0 && items[vis[a - 1]].zone === z) continue;
       var b = a, onlyBase = true;
       while (b + 1 < vis.length && items[vis[b + 1]].zone === z) b++;
-      for (var c = a; c <= b; c++) if (["hotel", "bagagli"].indexOf(items[vis[c]].k) < 0 || items[vis[c]].title.indexOf("Onsen") >= 0) onlyBase = false;
+      for (var c = a; c <= b; c++) if (["hotel", "bagagli", "sveglia"].indexOf(items[vis[c]].k) < 0 || items[vis[c]].title.indexOf("Onsen") >= 0) onlyBase = false;
       var start = it.t, end = null, nx = b + 1 < vis.length ? items[vis[b + 1]] : null;
       if (nx) end = nx.leg != null ? items[nx.leg].t : nx.t;
       var info = { z: z, start: start, end: end, base: onlyBase };
@@ -644,10 +655,12 @@
     h += '<span class="main"><span class="ttl">' + esc(it.title) + "</span>" + (it.short ? '<span class="sub">' + esc(it.short) + "</span>" : "") +
       (pills ? '<span class="pills">' + pills + "</span>" : "") + "</span>";
     h += '<span class="end">' + icon("down", "chev") + "</span></button>";
+    h += quickHtml(it);
     h += '<div class="panel" id="p-' + key + '"' + (open ? "" : " hidden") + ">" + panelHtml(it, leg) + "</div></div></div>";
     return h;
   }
 
+  var FACT = { orari: "clock", costo: "yen", prenotazione: "ticket", binario: "train", bagagli: "luggage", programma: "clock", colazione: "food", come: "route" };
   function detailsHtml(list, inLeg) {
     var h = "", kv = "", warn = "";
     (list || []).forEach(function (x) {
@@ -657,11 +670,40 @@
     });
     return h + (kv ? '<dl class="kv2">' + kv + "</dl>" : "") + warn;
   }
+  // Dettagli di una tappa, in ordine fisso: le cose pratiche (orari, costo, prenotazione…) in un riquadro con le icone,
+  // poi la descrizione, gli avvisi e le alternative (ristorante o pasto veloce) raggruppate.
+  function factsHtml(list) {
+    var facts = "", text = "", warn = "", alts = "";
+    (list || []).forEach(function (x) {
+      if (x.k === "text") text += "<p>" + richText(x.text) + "</p>";
+      else if (x.k === "attenzione") warn += '<div class="note-warn">' + icon("alert") + "<span>" + richText(x.text) + "</span></div>";
+      else if (x.k === "alternativa" || x.k === "veloce")
+        alts += '<div class="alt"><b>' + icon(x.k === "veloce" ? "bag" : "food") + (x.k === "veloce" ? "Veloce ed economico" : "Un altro posto") + "</b><span>" + richText(x.text) + "</span></div>";
+      else if (x.k === "programma")
+        facts += '<div class="fact">' + icon("clock") + "<div><dt>" + esc(x.label) + '</dt><dd><ol class="sched">' + x.text.split(" · ").map(function (r) {
+          var m = /^(\d{1,2}:\d\d)\s+(.*)$/.exec(r);
+          return m ? '<li><b class="num">' + esc(m[1]) + "</b><span>" + richText(m[2]) + "</span></li>" : "<li><span>" + richText(r) + "</span></li>";
+        }).join("") + "</ol></dd></div></div>";
+      else facts += '<div class="fact">' + icon(FACT[x.k] || "info") + "<div><dt>" + esc(x.label) + "</dt><dd>" + richText(x.text) + "</dd></div></div>";
+    });
+    return (facts ? '<dl class="facts">' + facts + "</dl>" : "") + (text ? '<div class="desc">' + text + "</div>" : "") + warn +
+      (alts ? '<div class="alts"><span class="alts-t">Se non vi va</span>' + alts + "</div>" : "");
+  }
+  function quickHtml(it) {
+    if (!it.quick || !it.quick.length) return "";
+    return '<div class="quick"><span class="q-l">Oppure, veloce:</span>' + it.quick.map(function (id) {
+      var p = D.places[id]; if (!p) return "";
+      var kind = String(p.type || "").replace(/^[^A-Za-zÀ-ú]+/, "").toLowerCase();
+      var ic = /konbini|supermercato/.test(kind) ? "bag" : "food";
+      return '<a class="qchip" href="' + esc(goto(p.q)) + '" target="_blank" rel="noopener">' + icon(ic) + "<span><b>" + esc(shortName(p.name)) + "</b>" +
+        (kind ? "<small>" + esc(kind) + "</small>" : "") + "</span></a>";
+    }).join("") + "</div>";
+  }
   function panelHtml(it, leg) {
-    var h = (it.todos || []).map(function (id) { return todoBox(TODO[id]); }).join("");
+    var h = (it.todos || []).filter(function (id) { return !done(id); }).map(function (id) { return todoBox(TODO[id]); }).join("");
     var ph = photoOf(it);
     if (ph) h += '<figure class="pfig"><img src="' + esc(ph) + '" alt="" loading="lazy" decoding="async"><figcaption>Foto: Wikipedia</figcaption></figure>';
-    h += detailsHtml(it.details);
+    h += factsHtml(it.details);
     if (leg) {
       h += '<div class="howto"><div class="howto-t">' + icon(moveIcon(leg)) + "<span><b>Come arrivarci</b><small>partenza alle " + esc(leg.t) +
         (leg.short ? " · " + esc(leg.short) : "") + "</small></span></div>" + detailsHtml(leg.details, true) + "</div>";
@@ -704,7 +746,7 @@
     return '<div class="infobox"><span class="ttl2">' + esc(t.line) + '</span><dl class="kv">' +
       (t.seats ? "<dt>Posti</dt><dd>" + esc(t.seats) + "</dd>" : "") +
       (t.platforms ? "<dt>Binari</dt><dd>" + esc(t.platforms) + "</dd>" : "") +
-      (t.price ? "<dt>Prezzo</dt><dd>" + esc(t.price) + (t.eur ? " per 2" : "") + "</dd>" : "") +
+      (t.price ? "<dt>Prezzo</dt><dd>" + withEur(esc(t.price)) + (t.eur ? " per 2" : "") + "</dd>" : "") +
       "<dt>Biglietto</dt><dd>" + esc(trainState(t)) + "</dd></dl></div>";
   }
   function hotelOf(it) {
@@ -727,13 +769,22 @@
   }
   function hotelBox(h) {
     return '<div class="infobox hotelbox"><span class="ttl2">' + esc(h.name) + '</span><p class="who' + (hotelMine(h) ? "" : " grp") + '">' + icon(hotelMine(h) ? "bed" : "users") + "<span>" + esc(hotelWho(h)) + "</span></p>" +
-      '<dl class="kv"><dt>Notti</dt><dd>' + esc(hotelNights(h)) + "</dd>" +
+      breakfastHtml(h) + '<dl class="kv"><dt>Notti</dt><dd>' + esc(hotelNights(h)) + "</dd>" +
       (h.room ? "<dt>Camera</dt><dd>" + esc(h.room) + "</dd>" : "") +
       (h.address ? "<dt>Indirizzo</dt><dd>" + esc(h.address) + "</dd>" : "") + (h.access ? "<dt>Come si arriva</dt><dd>" + esc(h.access) + "</dd>" : "") +
       (h.phone ? '<dt>Telefono</dt><dd><a class="inl" href="tel:' + esc(h.phone.replace(/\s/g, "")) + '">' + esc(h.phone) + "</a></dd>" : "") +
       (h.hours ? "<dt>Orari</dt><dd>" + esc(h.hours) + "</dd>" : "") +
-      "<dt>Pagamento</dt><dd>" + esc(hotelPayText(h)) + "</dd>" + (h.cancel ? "<dt>Cancellazione</dt><dd>" + esc(h.cancel) + "</dd>" : "") +
-      (h.note ? "<dt>Note</dt><dd>" + esc(h.note) + "</dd>" : "") + "</dl>" + codesHtml(h) + "</div>";
+      "<dt>Pagamento</dt><dd>" + withEur(esc(hotelPayText(h))) + "</dd>" + (h.cancel ? "<dt>Cancellazione</dt><dd>" + esc(h.cancel) + "</dd>" : "") +
+      (h.note ? "<dt>Note</dt><dd>" + withEur(esc(h.note)) + "</dd>" : "") + "</dl>" + codesHtml(h) + "</div>";
+  }
+  function breakfastHtml(h) {
+    var b = h.breakfast;
+    if (!b) return "";
+    var head = b.kind === "inclusa" ? "Colazione inclusa" : b.kind === "a pagamento" ? "Colazione non inclusa" : "Niente colazione";
+    var hours = b.hours ? (/–$/.test(b.hours) ? "dalle " + b.hours.replace(/–$/, "") : b.hours) : "";
+    var sub = [b.kind === "a pagamento" ? b.price : "", b.kind !== "no" ? hours : "", b.note].filter(Boolean).join(" · ");
+    return '<div class="bfast ' + (b.kind === "inclusa" ? "yes" : "no") + '">' + icon(b.kind === "inclusa" ? "circle-check" : "food") +
+      "<span><b>" + head + "</b>" + (sub ? "<small>" + withEur(esc(sub)) + "</small>" : "") + "</span></div>";
   }
   // ---------- codici di prenotazione: SOLO su questo telefono (localStorage), mai nel sito pubblico ----------
   function codes() { return store("codes") || {}; }
@@ -1291,6 +1342,11 @@
     var bar = document.getElementById("topbar"), top = el.getBoundingClientRect().top + window.scrollY - (bar ? bar.offsetHeight + 12 : 92);
     window.scrollTo({ top: Math.max(0, top), behavior: "auto" });
   }
+  function setOpen(key, open) {
+    S.open[key] = open;
+    var row = document.querySelector('.row[data-open="' + key + '"]'); if (row) row.setAttribute("aria-expanded", open);
+    var p = document.getElementById("p-" + key); if (p) p.hidden = !open;
+  }
   function openStop(d, i) {
     S.day = d; S.open = {}; S.open[d + "-" + i] = true;
     render(); scrollToId("s-" + d + "-" + i);
@@ -1325,10 +1381,11 @@
     if (ds.sq) { document.getElementById("gq").value = ds.sq; updateResults(); return; }
     if (ds.res !== undefined) { goResult(parseInt(ds.res, 10)); return; }
     if (ds.open) {
-      var open = !S.open[ds.open]; S.open[ds.open] = open;
+      var open = !S.open[ds.open], anchor = document.getElementById("s-" + ds.open), top0 = anchor ? anchor.getBoundingClientRect().top : 0;
       if (!store("hinted")) { store("hinted", true); var hn = view.querySelector(".hint"); if (hn) hn.remove(); }
-      var row = document.querySelector('.row[data-open="' + ds.open + '"]'); if (row) row.setAttribute("aria-expanded", open);
-      var p = document.getElementById("p-" + ds.open); if (p) p.hidden = !open;
+      Object.keys(S.open).forEach(function (k) { if (S.open[k] && k !== ds.open) setOpen(k, false); });
+      setOpen(ds.open, open);
+      if (anchor) { var dy = anchor.getBoundingClientRect().top - top0; if (Math.abs(dy) > 1) window.scrollBy(0, dy); }
       return;
     }
     if (ds.day !== undefined && ds.day !== "") {

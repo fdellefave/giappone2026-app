@@ -30,6 +30,7 @@
   --t-viaggio: #1B7FC0;
   --t-hotel: #2A8E52;
   --t-bagagli: #7A6E62;
+  --t-sveglia: #C99A06;
 
   --tokyo: #D23A2E;
   --kawaguchiko: #12907E;
@@ -49,7 +50,7 @@
     --bg: #111318; --card: #1B1E25; --card-2: #22262E; --ink: #ECEEF2; --muted: #9AA1AD; --faint: #6B7280;
     --line: #2C313B; --accent: #F0675B; --accent-soft: #3A1E1C; --blue: #72A6F2; --blue-soft: #1B2A42;
     --ok: #55C285; --ok-soft: #16301F; --warn: #E7A94A; --warn-soft: #36290F; --bad: #F07A70; --bad-soft: #3A1D1B;
-    --on: #111318; --grp: #F06595; --t-vedere: #8C96F2; --t-fare: #D985D3; --t-cibo: #FF922B; --t-sposta: #9AA1AD; --t-viaggio: #5DB3EA; --t-hotel: #5CC488; --t-bagagli: #B3A799;
+    --on: #111318; --grp: #F06595; --t-vedere: #8C96F2; --t-fare: #D985D3; --t-cibo: #FF922B; --t-sposta: #9AA1AD; --t-viaggio: #5DB3EA; --t-hotel: #5CC488; --t-bagagli: #B3A799; --t-sveglia: #F2C94C;
     --tokyo: #F06A5E; --kawaguchiko: #33BFA9; --kamakura: #A788D9; --kyoto: #D9A445; --takayama: #7CBB67;
     --osaka: #E36AB4; --shirakawago: #C99472; --roma: #9AA3B0; color-scheme: dark;
   }
@@ -58,7 +59,7 @@
   --bg: #111318; --card: #1B1E25; --card-2: #22262E; --ink: #ECEEF2; --muted: #9AA1AD; --faint: #6B7280;
   --line: #2C313B; --accent: #F0675B; --accent-soft: #3A1E1C; --blue: #72A6F2; --blue-soft: #1B2A42;
   --ok: #55C285; --ok-soft: #16301F; --warn: #E7A94A; --warn-soft: #36290F; --bad: #F07A70; --bad-soft: #3A1D1B;
-  --on: #111318; --grp: #F06595; --t-vedere: #8C96F2; --t-fare: #D985D3; --t-cibo: #FF922B; --t-sposta: #9AA1AD; --t-viaggio: #5DB3EA; --t-hotel: #5CC488; --t-bagagli: #B3A799;
+  --on: #111318; --grp: #F06595; --t-vedere: #8C96F2; --t-fare: #D985D3; --t-cibo: #FF922B; --t-sposta: #9AA1AD; --t-viaggio: #5DB3EA; --t-hotel: #5CC488; --t-bagagli: #B3A799; --t-sveglia: #F2C94C;
   --tokyo: #F06A5E; --kawaguchiko: #33BFA9; --kamakura: #A788D9; --kyoto: #D9A445; --takayama: #7CBB67;
   --osaka: #E36AB4; --shirakawago: #C99472; --roma: #9AA3B0; color-scheme: dark;
 }
@@ -350,6 +351,44 @@ body.noscroll .fab { display: none; }
 }
 .panel[hidden] { display: none; }
 .panel .infobox, .panel .howto { background: var(--card); }
+/* riquadro pratico: orari, costo, prenotazione… una riga per voce con l'icona */
+.facts { margin: 0; background: var(--card); border-radius: 12px; padding: 4px 12px; display: grid; }
+.fact { display: grid; grid-template-columns: 22px 1fr; gap: 10px; padding: 9px 0; align-items: start; }
+.fact + .fact { border-top: 1px solid var(--line); }
+.fact > .ic { width: 20px; height: 20px; color: var(--tc); margin-top: 1px; }
+.fact dt { font-size: 11.5px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+.fact dd { margin: 1px 0 0; font-size: 15px; line-height: 1.45; overflow-wrap: anywhere; }
+.desc { display: grid; gap: 8px; }
+.sched { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 4px; }
+.sched li { display: grid; grid-template-columns: 46px 1fr; gap: 8px; }
+.sched b { font-variant-numeric: tabular-nums; }
+.eur { color: var(--muted); font-weight: 500; white-space: nowrap; }
+.alts { background: var(--card); border-radius: 12px; padding: 10px 12px; display: grid; gap: 8px; }
+.alts-t { font-size: 11.5px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+.alt { display: grid; gap: 2px; font-size: 15px; line-height: 1.45; }
+.alt b { display: flex; align-items: center; gap: 6px; font-size: 14px; }
+.alt b .ic { width: 17px; height: 17px; color: var(--t-cibo); }
+/* alternative veloci sotto il ristorante, sempre visibili */
+.quick { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: -4px 12px 0 62px; padding-bottom: 12px; }
+.q-l { font-size: 12.5px; color: var(--muted); font-weight: 600; width: 100%; }
+.qchip {
+  display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px 6px 8px; border-radius: 10px; text-decoration: none; color: var(--ink);
+  background: color-mix(in srgb, var(--t-cibo) 10%, var(--card)); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--t-cibo) 30%, transparent);
+  max-width: 100%; min-width: 0;
+}
+.qchip .ic { width: 16px; height: 16px; color: var(--t-cibo); flex: none; }
+.qchip span { display: grid; min-width: 0; line-height: 1.2; }
+.qchip b { font-size: 13.5px; font-weight: 650; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.qchip small { font-size: 11.5px; color: var(--muted); }
+.stop.past .quick { opacity: .55; }
+/* colazione dell'hotel */
+.bfast { display: flex; gap: 10px; align-items: flex-start; border-radius: 10px; padding: 8px 10px; }
+.bfast.yes { background: var(--ok-soft); }
+.bfast.no { background: var(--card-2); }
+.bfast > .ic { width: 20px; height: 20px; flex: none; margin-top: 1px; }
+.bfast.yes > .ic { color: var(--ok); }
+.bfast b { display: block; font-size: 15px; }
+.bfast small { display: block; font-size: 13.5px; color: var(--muted); line-height: 1.4; margin-top: 1px; }
 .panel p { margin: 0; font-size: 15px; line-height: 1.5; }
 .kv2 { display: grid; gap: 8px; margin: 0; }
 .kv2 div { display: grid; gap: 1px; }

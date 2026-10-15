@@ -18,6 +18,8 @@ Questo file vive solo qui: non tenerne copie nel progetto Claude «Giappone».
   - Uno `sposta` che arriva proprio alla tappa dopo (stessa destinazione) diventa il suo «come arrivarci»: l'app
     non lo mostra come riga a sé. Se la tappa dopo è un treno, mettere al treno `dove:` la stazione di partenza.
   - Ogni mattina l'app mette da sola come prima riga l'hotel della notte prima.
+  - Prima ancora mette la «Sveglia» (doccia e colazione): 1 h prima di uscire se la colazione dell'hotel è inclusa e
+    apre almeno 30′ prima; 40′ se la colazione è una tappa `cibo` prima delle 10:30 o è scritta nel check-out; altrimenti 45′ (konbini).
   - Titolo corto: solo il posto o la cosa. Tutto il resto va nei dettagli.
   - attributi: `posto: id` (link della sezione Posti) · `treno: id` · `alloggio: id` · `prenotare` · `prenotato`
     · `città: id` (da qui in poi si è in quella città) · `dove: testo` (ricerca Google Maps se non c'è un posto)
@@ -29,6 +31,8 @@ Questo file vive solo qui: non tenerne copie nel progetto Claude «Giappone».
     `[[id]]` nel testo = link a un posto della sezione Posti.
 - Posti: `foto: titolo` = pagina di Wikipedia in inglese (posto, piatto o zona) da cui l'app prende la foto;
   se il titolo non esiste l'app mostra l'icona del tipo. Alloggi: `foto:` = foto della zona, usata da check-in, check-out e valigie.
+- Alloggi, colazione: `colazione: inclusa | a pagamento | no`, `colazione orari: 7:00–9:30` (solo l'inizio se non si sa la fine:
+  `6:45–`), `colazione prezzo:` (se a pagamento), `colazione nota:`. Non ripeterla in `nota:`.
 - `#### Guida` dentro un giorno: campi `senso, mangiare, prenotare, attenzione, anticipo, stanchi, camminata`.
   Testo su una riga, oppure punti su righe seguenti che iniziano con `  • `.
 - Testo che vede l'utente: italiano semplice, ogni termine giapponese spiegato tra parentesi, prezzi in yen
@@ -93,6 +97,8 @@ Messaggio del gruppo (13/10): 7 del gruppo dormono al Cottage Pastorale (navetta
 
 Pasti veloci (15/10 sera): ogni pasto al ristorante ha la riga `veloce:` con due alternative economiche vicine (konbini, fast food, street food), voti Google letti il 15/10, aperte in quel giorno e a quell'ora. Nei giorni col gruppo sono solo indicazioni.
 Colori dei tipi (15/10 sera, richiesta di Federico): mangiare arancione acceso, valigie grigio-marrone; striscia colorata a sinistra di ogni scheda, bollino del tipo più grande sulle foto, etichetta «Mangiare» sui pasti.
+Dettagli delle tappe (15/10 notte, richiesta di Federico): una tappa aperta alla volta; dentro, prima il riquadro pratico (orari, costo, prenotazione con icone), poi la descrizione, gli avvisi e le alternative; ogni prezzo in yen ha accanto l'euro (lo aggiunge l'app, non serve scriverlo); le alternative `veloce:` si vedono anche sulla scheda chiusa, sotto il ristorante; le cose «da fare» già fatte non si mostrano più nelle tappe (restano in «Da fare»).
+Colazioni (15/10 notte): campi `colazione` negli Alloggi (orari Saibo da Expedia, Alpina da Travelocity in attesa di risposta, Super Hotel da newt.net). Ogni mattina l'app mette la «Sveglia» calcolata da sola (vedi Sintassi): se cambia l'ora d'uscita o la colazione, si aggiorna senza toccare niente.
 
 Back office (14/10): admin.html, dal PC, modifica questo file e pubblica da solo (viaggio.md + data.json generato
 con build.py nel browser, commit su main col token GitHub di Federico salvato solo sul suo PC). Le note scritte lì sono
@@ -1149,6 +1155,8 @@ indirizzo: Ōkubo 2-13-5, Shinjuku-ku, Tokyo 169-0072
 arrivo: Stazione Higashi-Shinjuku (metro Ōedo) a piedi 5′ · JR Shinjuku a piedi 20′
 orari: Check-in dalle 15:00 con cassetta delle chiavi (istruzioni nell'app dal 4/11) · check-out entro le 10:00
 camera: Monolocale per 2 ospiti
+colazione: no
+colazione nota: niente colazione nell'appartamento: konbini (minimarket) sotto casa, ce ne sono diversi a 2–3′
 nota: La conferma Airbnb dice «deposito bagagli disponibile»: confermato dall'host il 14/10: deposito self-service, valigie a qualsiasi ora. Le istruzioni arrivano se gli scrivete un promemoria qualche giorno prima del check-in. Il telefono dell'host e il codice di conferma sono nell'app (solo sul telefono).
 app: https://www.airbnb.it/trips
 maps: 2-13-5 Okubo, Shinjuku City, Tokyo
@@ -1169,6 +1177,8 @@ indirizzo: Kawaguchi 1575-4, Fujikawaguchiko (Yamanashi), sponda nord del lago, 
 arrivo: Taxi dalla stazione di Kawaguchiko ~10′ (4,6 km) · bus fino alla fermata Kawaguchi-kyoku-mae (10–15′) + 5′ a piedi
 orari: Check-in dalle 16:00 (va comunicata prima l'ora d'arrivo) · check-out entro le 10:00 · silenzio dalle 21 alle 8
 camera: Casa intera per il gruppo: 4 camere, 2 bagni, cucina, vista sul Fuji dal piano di sopra
+colazione: no
+colazione nota: casa con cucina: si compra la sera prima al konbini (minimarket) o al supermercato
 nota: 5 bici gratis, stufa a pellet (da novembre), proiettore con Netflix, lavatrice con asciugatrice. Barbecue vietato in giardino (c'è una griglia interna). Strada d'accesso stretta. Eventuali danni fino a ¥15.000.
 maps: Kawaguchi 1575-4, Fujikawaguchiko, Yamanashi
 
@@ -1190,7 +1200,11 @@ arrivo: Ningyōchō (metro Hibiya / Toei Asakusa) a piedi 2′ · Hamachō (metr
 telefono: +81 3 3668 2323
 camera: Matrimoniale standard, 1 letto alla francese (131–150 cm), non fumatori
 orari: Check-in 15:00–24:00 · check-out entro le 10:00 · reception aperta 24 ore su 24 · deposito bagagli
-nota: Colazione non inclusa (¥1.500 a testa). Tassa di soggiorno da pagare in hotel. Risposta del 14/10: preso nota dell'arrivo del 9/11 (tra le 16:30 e le 17:30); reception aperta 24 ore su 24, quindi il check-out alle 6:30 del 10/11 va bene; tengono le due valigie fino al ritiro della sera.
+colazione: a pagamento
+colazione prezzo: ¥1.500 a testa
+colazione orari: 7:00–10:00
+colazione nota: il 10/11 uscite alle 6:30, prima che apra: colazione al konbini
+nota: Tassa di soggiorno da pagare in hotel. Risposta del 14/10: preso nota dell'arrivo del 9/11 (tra le 16:30 e le 17:30); reception aperta 24 ore su 24, quindi il check-out alle 6:30 del 10/11 va bene; tengono le due valigie fino al ritiro della sera.
 app: https://secure.booking.com/mytrips.html
 maps: Hotel Nihonbashi Saibo, Ningyocho, Tokyo
 
@@ -1212,7 +1226,11 @@ arrivo: Stazione di Kyoto, uscita Central, a piedi 7′ · metro Karasuma uscita
 telefono: +81 75 341 6111
 camera: Doppia, 1 letto alla francese (131–150 cm), non fumatori
 orari: Check-in dalle 15:00 · check-out entro le 10:00 · deposito bagagli
-nota: Colazione non inclusa (¥1.800 a testa, 6:30–10:00, ultimo ordine 9:30). Bagno pubblico interno 6–10 e 15–1 (con tatuaggi visibili può essere vietato). Messaggio del 14/10 (arrivo tra le 22:15 e le 23 del 10/11, check-out tra le 7:30 e le 8:15 del 13/11): l'hotel ha confermato che tiene la prenotazione.
+colazione: a pagamento
+colazione prezzo: ¥1.800 a testa
+colazione orari: 6:30–10:00
+colazione nota: buffet, ultimo ordine alle 9:30. Il konbini costa molto meno (circa ¥500 a testa)
+nota: Bagno pubblico interno 6–10 e 15–1 (con tatuaggi visibili può essere vietato). Messaggio del 14/10 (arrivo tra le 22:15 e le 23 del 10/11, check-out tra le 7:30 e le 8:15 del 13/11): l'hotel ha confermato che tiene la prenotazione.
 app: https://secure.booking.com/mytrips.html
 maps: APA Hotel Kyoto Eki Horikawadori
 
@@ -1234,7 +1252,10 @@ arrivo: Stazione di Takayama a piedi 3′ · bus Nōhi accanto alla stazione
 telefono: +81 577 33 0033
 camera: Matrimoniale standard, 1 letto alla francese (131–150 cm), non fumatori
 orari: Check-in 15:00–23:00 · check-out 5:00–10:00 · onsen sul tetto fino all'1:00
-nota: Colazione inclusa. Con tatuaggi visibili l'onsen può essere vietato. Messaggio del 14/10: valigie tra le 12 e le 13 del 13/11, check-in tra le 17 e le 18:30, check-out tra le 7:15 e le 7:45 del 15/11, chiesto l'orario della colazione; attesa risposta.
+colazione: inclusa
+colazione orari: 7:00–9:00
+colazione nota: buffet; orario da siti di viaggio, chiesto conferma all'hotel il 14/10
+nota: Con tatuaggi visibili l'onsen può essere vietato. Messaggio del 14/10: valigie tra le 12 e le 13 del 13/11, check-in tra le 17 e le 18:30, check-out tra le 7:15 e le 7:45 del 15/11, chiesto l'orario della colazione: attesa risposta.
 app: https://secure.booking.com/mytrips.html
 maps: Spa Hotel Alpina Hida Takayama
 
@@ -1256,7 +1277,10 @@ arrivo: Shinsaibashi (metro Midōsuji) a piedi 4′ · Nagahoribashi a piedi 7�
 telefono: +81 6 6281 8000
 camera: Matrimoniale standard, 1 letto alla francese (131–150 cm), non fumatori
 orari: Check-in dalle 15:00 · check-out entro le 10:00 · deposito bagagli
-nota: Colazione inclusa. Tassa di soggiorno da pagare in hotel. Wi-Fi solo nelle aree comuni. Risposte del 14/10: deposito valigie gratis prima del check-in; check-in anticipato possibile dalle 12:00 a ¥1.000, chiesto: faranno il possibile, non garantito. Colazione dalle 6:45, anche da asporto (chiederlo al personale della colazione).
+colazione: inclusa
+colazione orari: 6:45–
+colazione nota: si può anche portare via (chiederlo al personale della colazione)
+nota: Tassa di soggiorno da pagare in hotel. Wi-Fi solo nelle aree comuni. Risposte del 14/10: deposito valigie gratis prima del check-in; check-in anticipato possibile dalle 12:00 a ¥1.000, chiesto: faranno il possibile, non garantito.
 app: https://secure.booking.com/mytrips.html
 maps: Hotel Hillarys Shinsaibashi, Osaka
 
@@ -1278,7 +1302,10 @@ arrivo: JR Hamamatsuchō a piedi 4′ · Daimon (metro Ōedo / Toei Asakusa) a p
 telefono: +81 3 6361 9000
 camera: Assegnata all'arrivo, 1 letto alla francese (131–150 cm)
 orari: Check-in 15:00–24:00, poi la reception chiude: chi non arriva entro le 24 perde la prenotazione · check-out entro le 10:00 · deposito valigie il giorno d'arrivo dalle 7:00 e dopo il check-out dalle 7:00 alle 24:00
-nota: Colazione inclusa. Sulla fattura dell'hotel comparirà ¥51.062 (lo sconto Booking non viene mostrato). Tassa di soggiorno a parte. Email automatica dell'hotel: niente check-in dopo le 24:00 (la prenotazione si cancella da sola), cancellazione a pagamento dal giorno prima. Il messaggio del 14/10 (arrivo tra le 22:30 e le 23:30) è in regola.
+colazione: inclusa
+colazione orari: 7:00–9:30
+colazione nota: buffet
+nota: Sulla fattura dell'hotel comparirà ¥51.062 (lo sconto Booking non viene mostrato). Tassa di soggiorno a parte. Email automatica dell'hotel: niente check-in dopo le 24:00 (la prenotazione si cancella da sola), cancellazione a pagamento dal giorno prima. Il messaggio del 14/10 (arrivo tra le 22:30 e le 23:30) è in regola.
 app: https://secure.booking.com/mytrips.html
 maps: Super Hotel Tokyo Hamamatsucho
 

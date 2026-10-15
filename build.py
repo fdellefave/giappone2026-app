@@ -158,6 +158,14 @@ def parse_hotels(lines):
             "app": f.get("app"), "q": f.get("maps", f.get("nome", hid)), "phone": f.get("telefono", ""),
             "room": f.get("camera", ""), "photo": f.get("foto"),
         }
+        bk = f.get("colazione", "")
+        if bk:
+            if bk not in ("inclusa", "a pagamento", "no"):
+                err(f"Alloggi/{hid}: «colazione» deve essere inclusa, a pagamento o no")
+            hours = f.get("colazione orari", "")
+            m = re.match(r"(\d{1,2}):(\d\d)", hours)
+            hotels[hid]["breakfast"] = {"kind": bk, "hours": hours, "price": f.get("colazione prezzo", ""),
+                                        "note": f.get("colazione nota", ""), "from": f"{int(m.group(1)):02d}:{m.group(2)}" if m else ""}
     return hotels
 
 
@@ -371,6 +379,9 @@ def parse_item(line, details, did, city, places, hotels, trains, tz_day):
         check_refs(s, places, where)
     if det:
         item["details"] = det
+    quick = [r for x in det if x["k"] == "veloce" for r in REF.findall(x["text"])]
+    if quick:
+        item["quick"] = quick
     if item.get("status") == "ok" and "train" in item and trains[item["train"]]["status"] == "pagato":
         item["status"] = "paid"
     # destinazione per «Portami qui» e per la mappa
@@ -392,6 +403,58 @@ def parse_item(line, details, did, city, places, hotels, trains, tz_day):
     return item, city
 
 
+def hm(t):
+    return int(t[:2]) * 60 + int(t[3:5])
+
+
+def mh(m):
+    return f"{m // 60:02d}:{m % 60:02d}"
+
+
+def wake_up(did, items, h):
+    """Sveglia: doccia e colazione prima di uscire dall'hotel (1 h con la colazione dell'hotel, 40-45′ altrimenti)."""
+    first = items[0]
+    out = hm(first["t"])
+    bk = h.get("breakfast") or {}
+    hhmm = lambda m: mh(m).lstrip("0")
+    planned = next((it for it in items if it["k"] == "cibo" and out <= hm(it["t"]) <= out + 60), None)
+    said = next((x for x in first.get("short", "").split(" · ") if "colazione" in x.lower()), None)
+    hotel_ok = bk.get("kind") == "inclusa" and bk.get("from") and hm(bk["from"]) <= out - 30
+    if planned:
+        name = planned["title"].split(" (")[0]
+        what = name[0].lower() + name[1:] if "colazione" in name.lower() else "colazione: " + name
+        how = (name[0].lower() + name[1:] if "colazione" in name.lower() else "colazione") + " alle " + planned["t"].lstrip("0") + \
+            ("" if "colazione" in name.lower() else " (" + name + ")")
+        wake = out - 40
+        plan = [(wake, "sveglia e doccia"), (out, "si esce"), (hm(planned["t"]), what)]
+    elif hotel_ok:
+        wake, how = out - 60, "colazione in hotel (inclusa)"
+        plan = [(wake, "sveglia e doccia"), (max(hm(bk["from"]), wake + 25), "colazione in hotel"), (out, "si esce")]
+    elif said:
+        wake, how = out - 40, said
+        plan = [(wake, "sveglia e doccia"), (out, "si esce: " + said)]
+    else:
+        wake, how = out - 45, "colazione veloce (konbini)"
+        plan = [(wake, "sveglia e doccia"), (wake + 25, "colazione veloce, presa al konbini"), (out, "si esce")]
+    det = [{"k": "programma", "label": "Programma", "text": " · ".join(f"{hhmm(m)} {w}" for m, w in plan)}]
+    if bk:
+        hours = bk.get("hours", "")
+        hours = "dalle " + hours.rstrip("–") if hours.endswith("–") else hours
+        text = {"inclusa": "inclusa nel prezzo", "a pagamento": "non inclusa" + (f" ({bk['price']})" if bk.get("price") else ""),
+                "no": "non c'è"}[bk["kind"]]
+        if hours and bk["kind"] != "no":
+            text += " · " + hours
+        if bk.get("note"):
+            text += " · " + bk["note"]
+        det.append({"k": "colazione", "label": "Colazione dell'alloggio", "text": text})
+        if bk["kind"] == "inclusa" and planned and "hotel" not in planned["title"].lower():
+            det.append({"k": "attenzione", "label": "Attenzione",
+                        "text": f"oggi saltate la colazione inclusa (apre alle {bk['from'].lstrip('0')}): colazione alla tappa «{planned['title'].split(' (')[0]}»" +
+                        (". Volendo, un caffè in hotel prima di uscire" if hotel_ok else "")})
+    return {"t": mh(wake), "k": "sveglia", "title": "Sveglia", "short": f"doccia e {how} · si esce alle {first['t'].lstrip('0')}",
+            "wake": h["id"], "details": det, "tz": first["tz"], "at": f"{did}T{mh(wake)}:00{TZ[first['tz']]}", "city": h["cityId"]}
+
+
 def morning_and_legs(did, items, prev_sleep, hotels):
     """Ogni mattina si parte dall'hotel; lo spostamento verso la tappa successiva diventa il suo «come arrivarci»."""
     if items and prev_sleep in hotels and items[0]["k"] not in ("hotel", "bagagli"):
@@ -399,6 +462,8 @@ def morning_and_legs(did, items, prev_sleep, hotels):
         items.insert(0, {"t": first["t"], "k": "hotel", "title": h["name"], "short": "si parte da qui",
                          "hotel": prev_sleep, "dest": h["q"], "start": True, "tz": first["tz"], "at": first["at"],
                          "city": h["cityId"]})
+    if items and prev_sleep in hotels:
+        items.insert(0, wake_up(did, items, hotels[prev_sleep]))
     for i, it in enumerate(items[:-1]):
         nx = items[i + 1]
         if it["k"] == "sposta" and nx["k"] not in ("sposta",) and it.get("dest") and it["dest"] == nx.get("dest"):
@@ -525,6 +590,8 @@ def assign_zones(days, zones, owner):
                 z = owner.get(it["place"])
             elif it.get("hotel") and it["k"] in ("hotel", "bagagli", "fare", "cibo"):
                 z = owner.get("@" + it["hotel"])
+            elif it.get("wake"):
+                z = owner.get("@" + it["wake"])
             if z:
                 it["zone"] = z
             elif it["k"] not in ("viaggio", "sposta") and it.get("city") not in ("roma", "transit"):
