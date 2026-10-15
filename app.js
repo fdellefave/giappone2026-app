@@ -3,7 +3,7 @@
    Per provare un'ora diversa: aggiungere ?ora=2026-11-11T10:00+09:00 all'indirizzo. */
 (function () {
   "use strict";
-  var APP_V = "26"; // uguale al numero di VERSION in sw.js
+  var APP_V = "27"; // uguale al numero di VERSION in sw.js
 
   var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", shirakawago: "Shirakawa-go", roma: "Roma" };
   var TYPE = {
@@ -691,7 +691,8 @@
     var today = romeToday();
     if (t.status === "pagato") {
       var s = "Pagato" + (t.payer ? " da " + t.payer : "");
-      if (t.confirm) s += today < t.confirm ? ". Klook emette i biglietti il " + dm(t.confirm) + ": controllate l'email" : ". Biglietti nell'app Klook";
+      if (t.issued) s += ". Biglietti emessi, nell'app Klook";
+      else if (t.confirm) s += today < t.confirm ? ". Klook emette i biglietti il " + dm(t.confirm) + ": controllate l'email" : ". Biglietti nell'app Klook";
       return s;
     }
     if (t.status === "da comprare") return "Da comprare";
@@ -700,6 +701,8 @@
   }
   function trainBox(t) {
     return '<div class="infobox"><span class="ttl2">' + esc(t.line) + '</span><dl class="kv">' +
+      (t.seats ? "<dt>Posti</dt><dd>" + esc(t.seats) + "</dd>" : "") +
+      (t.platforms ? "<dt>Binari</dt><dd>" + esc(t.platforms) + "</dd>" : "") +
       (t.price ? "<dt>Prezzo</dt><dd>" + esc(t.price) + (t.eur ? " per 2" : "") + "</dd>" : "") +
       "<dt>Biglietto</dt><dd>" + esc(trainState(t)) + "</dd></dl></div>";
   }
@@ -928,7 +931,7 @@
       var s = findStop(function (it) { return it.train === t.id; }), tp = s ? todoPillsFor(s.it) : "";
       var flight = (D.flights || []).indexOf(t) >= 0;
       return bookCard({ ic: flight ? "plane" : /bus/i.test(t.line) ? "bus" : "train", title: t.route, sub: (t.date ? dLong(t.date) : "") + (t.time ? " · " + t.time : ""), red: /da comprare/.test(t.status) || !!tp,
-        lines: [esc(t.line), "<b>Biglietto:</b> " + esc(trainState(t)) + (t.price ? " · " + esc(t.price) : "")],
+        lines: [esc(t.line)].concat(t.seats ? ["<b>Posti:</b> " + esc(t.seats) + (t.platforms ? " · <b>Binari:</b> " + esc(t.platforms) : "")] : []).concat(["<b>Biglietto:</b> " + esc(trainState(t)) + (t.price ? " · " + esc(t.price) : "")]),
         pills: (s ? withWho(s.it) : "") + tp, jump: s ? s.d + "-" + s.i : "",
         btns: t.link ? link(t.link, /klook/.test(t.link) ? "Biglietto Klook" : "Prenota", "small", "ticket") : "" });
     }).join("");

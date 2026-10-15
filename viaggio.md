@@ -230,7 +230,7 @@ gruppo: 14:00-
   breve: entro le 10 · colazione al konbini (minimarket)
   Colazione al konbini (i minimarket aperti 24 h: 7-Eleven, Lawson, FamilyMart).
 - 08:40 sposta Stazione JR di Shinjuku | via piedi: @airbnb-shinjuku > Shinjuku Station, Tokyo (Airbnb → stazione di Shinjuku)
-  breve: a piedi 20′ con le valigie · ritiro biglietti alle 9:00 · al binario alle 9:15
+  breve: a piedi 20′ con le valigie · ritiro biglietti alle 9:00 · al binario 10 alle 9:15
   alternativa: taxi 7′ (~¥1.000)
 - 09:30 viaggio Treno Fuji Excursion per Kawaguchiko (lago del Fuji) | foto: Fuji Excursion | treno: fuji-7 | prenotato | dove: Shinjuku Station, Tokyo
   breve: 9:30 → 11:28 · diretto
@@ -806,6 +806,7 @@ con: voi due
   breve: 8:00 → 10:34 · Hida 4
 - 10:58 viaggio Shinkansen (treno superveloce) Nagoya → Osaka | foto: Tōkaidō Shinkansen | treno: shink-15 | prenotato
   breve: 10:58 → 11:48 · Nozomi 247 · cambio di 24′
+  come: dal binario 4 al 17 seguendo i cartelli dello Shinkansen, passando dai tornelli di cambio (si infilano i biglietti)
   Shin-Osaka è la stazione dello Shinkansen di Osaka, diversa dalla stazione centrale.
 - 12:00 sposta Hotel Hillarys | città: osaka | via mezzi: Shin-Osaka Station > @hillarys (Shin-Osaka → Hotel Hillarys)
   breve: metro 15′ + a piedi 4′
@@ -1190,29 +1191,36 @@ maps: Super Hotel Tokyo Hamamatsucho
 ## Treni
 
 Prezzi: totale per 2 persone. `stato`: pagato / da comprare / sul posto. `conferma`: giorno in cui Klook emette i biglietti.
+`emesso`: giorno in cui è arrivato il biglietto (spunta il controllo Klook). `posti` e `binari`: dal biglietto, l'app li mostra sulla tappa.
 
 ### fuji-7
 data: 2026-11-07
 tratta: Shinjuku → Kawaguchiko
 mezzo: Fuji Excursion 11 (treno espresso diretto, solo posti prenotati)
 orario: 9:30 → 11:28
+posti: carrozza 1, posti 5A e 5B
+binari: parte dal 10 a Shinjuku
 prezzo: €53,67
 euro: 53.67
 stato: pagato
 pagato da: Federico
 conferma: 2026-10-07
+emesso: 2026-10-15
 link: https://s.klook.com/c/V3Mr8Oq2y0
 nota: Passa da Shimoyoshida (stazione della pagoda Chureito) alle 11:14.
 
 ### fuji-9
 data: 2026-11-09
 tratta: Fujisan (Monte Fuji) → Shinjuku
-mezzo: Fuji Excursion (treno espresso diretto, solo posti prenotati)
+mezzo: Fuji Excursion 32 (treno espresso diretto, solo posti prenotati)
 orario: 14:16 → 16:08
+posti: carrozza 2, posti 8C e 8D
+binari: arriva al 7 a Shinjuku
 prezzo: €51,68
 euro: 51.68
 stato: pagato
 pagato da: Federico
+emesso: 2026-10-15
 nota: Si sale alla stazione Fujisan, una fermata dopo Kawaguchiko: da Kawaguchiko treno locale Fujikyu (~10′).
 
 ### kamakura-10
@@ -1229,24 +1237,30 @@ data: 2026-11-10
 tratta: Tokyo → Kyoto
 mezzo: Shinkansen Nozomi 287 (treno superveloce)
 orario: 20:09 → 22:21
+posti: carrozza 12, posti 3A e 3B
+binari: parte dal 16 a Tokyo, arriva al 13 a Kyoto
 prezzo: €175,76
 euro: 175.76
 stato: pagato
 pagato da: Federico
 conferma: 2026-10-10
+emesso: 2026-10-15
 link: https://s.klook.com/c/D1Zn6JaV1o
 nota: Valigia oltre 160 cm (somma dei lati): serve il posto con spazio bagagli.
 
 ### hida-13
 data: 2026-11-13
 tratta: Kyoto → Takayama
-mezzo: Treno espresso Hida 25, diretto (binario 0 a Kyoto)
+mezzo: Treno espresso Hida 25, diretto
 orario: 8:31 → 12:14
+posti: carrozza 2, posti 2A e 2B
+binari: parte dallo 0 a Kyoto
 prezzo: €102,09
 euro: 102.09
 stato: pagato
 pagato da: Federico
 conferma: 2026-10-13
+emesso: 2026-10-15
 link: https://s.klook.com/c/g3BJGnMMw8
 nota: Zero cambi con le valigie; panorama sulle gole del fiume Hida.
 
@@ -1259,6 +1273,7 @@ prezzo: ¥18.000 per 2 (¥9.000 a testa, ~€49)
 stato: pagato
 pagato da: Federico
 conferma: 2026-10-15
+emesso: 2026-10-15
 link: https://japanbusonline.com/en/CourseDetail/index/12102010001
 nota: Comprata su Japan Bus Online il 15/10 (le corse Nōhi con prenotazione erano esaurite). Biglietto elettronico nell'email: da cambiare al bancone del Nohi Bus Center almeno 10′ prima; meglio stamparlo. Cancellazione ¥100 a testa fino alla partenza.
 
@@ -1267,11 +1282,14 @@ data: 2026-11-15
 tratta: Takayama → Nagoya
 mezzo: Treno espresso Hida 4
 orario: 8:00 → 10:34
+posti: carrozza 2, posti 5A e 5B
+binari: arriva al 4 a Nagoya
 prezzo: €163,98 insieme allo Shinkansen per Shin-Osaka
 euro: 163.98
 stato: pagato
 pagato da: Federico
 conferma: 2026-10-15
+emesso: 2026-10-15
 link: https://s.klook.com/c/Z3Or7m_o3k
 nota: Un solo biglietto Klook fino a Shin-Osaka, con cambio di 24′ a Nagoya.
 
@@ -1280,10 +1298,13 @@ data: 2026-11-15
 tratta: Nagoya → Shin-Osaka
 mezzo: Shinkansen Nozomi 247 (treno superveloce)
 orario: 10:58 → 11:48
+posti: carrozza 12, posti 3A e 3B
+binari: parte dal 17 a Nagoya, arriva al 22 a Shin-Osaka
 prezzo: compreso nel biglietto del treno Hida
 stato: pagato
 pagato da: Federico
 conferma: 2026-10-15
+emesso: 2026-10-15
 link: https://s.klook.com/c/Z3Or7m_o3k
 
 ### shink-16

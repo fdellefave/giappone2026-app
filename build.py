@@ -172,6 +172,7 @@ def parse_trains(lines, where="Treni"):
             "line": f.get("mezzo", ""), "time": f.get("orario", ""), "price": f.get("prezzo", ""),
             "eur": num(f.get("euro")), "payer": f.get("pagato da", ""), "confirm": iso(f.get("conferma"), f"{where}/{tid}"),
             "link": f.get("link"), "note": f.get("nota", ""), "status": st,
+            "seats": f.get("posti", ""), "platforms": f.get("binari", ""), "issued": iso(f.get("emesso"), f"{where}/{tid}"),
         }
     return trains
 
@@ -540,7 +541,7 @@ def attach_todos(todo, days, trains):
                 if it.get("train") == t["id"]:
                     todo.append({"id": "klook-" + t["id"], "task": "Controllare che Klook emetta il biglietto", "kind": "gestire",
                                  "day": d["id"], "opens": t["confirm"], "due": None, "when": f"dal {cd.day}/{cd.month}: arriva un'email col voucher",
-                                 "cost": "", "link": t.get("link"), "prio": "alta", "slot": f"{d['id']} {it['t']}",
+                                 "cost": "", "link": t.get("link"), "prio": "alta", "slot": f"{d['id']} {it['t']}", "done": t.get("issued"),
                                  "note": "Pagato il 7/9: Klook emette i biglietti quando apre la vendita ufficiale. "
                                          "Se la conferma non arriva, rimborsa e il treno va ricomprato subito."})
                     break
