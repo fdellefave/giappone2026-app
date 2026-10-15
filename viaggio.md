@@ -75,6 +75,10 @@ Già verificato (non riproporre):
 - Super Potato di Osaka = negozio Otaroad a Nipponbashi (Den Den Town).
 - Bagagli (15/10): a testa uno zaino formato Ryanair e un trolley piccolo, sotto i 160 cm (somma dei lati): sugli Shinkansen non serve il posto con spazio bagagli.
 - Shibuya Sky: biglietti 2 settimane prima alle 00:00 giapponesi.
+- Attività extra (15/10). Regola di Federico: al massimo 2 attività al giorno sotto i €20 o fino a €45 a testa (le cose da €5–10 veloci non contano), solo se hanno senso, con voto oltre 4/5 e tante recensioni.
+  Gion Corner tolto (recensioni basse): al suo posto il tour di Gion «Storie di geisha» delle 17 (~$30, Tripadvisor 4,9 su 1.354).
+  Samurai & Ninja Museum promosso a tappa il 12/11 alle 17:35 (~¥3.300, Tripadvisor 4,7 su 2.186): Nishiki a quell'ora chiude.
+  Scartati: Art Aquarium di Ginza (Tripadvisor 3,4), crociera Tombori a Dōtonbori (3,8), sumo show di Osaka (Sumo Studio, Hanazonochō: 4,9–5 ma ~¥9.600–12.000, sopra il tetto; Hirakuza ¥12.500), Kyoto Sumo Club (~€92), tour del sakè a Takayama (poche recensioni; ci sono già le distillerie di Sanmachi).
 - Shirakawa-go (15/10): corse Nōhi con prenotazione esaurite; 12go vendeva solo le corse senza prenotazione (8:50, 15:15), Headout e Civitatis nulla sotto €50. Presa la gita Nōhi Ainokura + Shirakawa-go dell'8:30 (rientro 15:50), pagata da Federico, ¥18.000 per 2.
 - Le coordinate dei posti non sono disponibili: la mappa del sito usa ricerche Google Maps.
 - Conferme Booking lette il 5/10: tutte le 5 camere hanno 1 letto alla francese (131–150 cm) per 2 adulti; cancellazioni e telefoni aggiornati negli Alloggi.
@@ -527,25 +531,26 @@ con: voi due
   breve: tempio di legno su palafitte
   La terrazza di legno guarda tutta la città.
 - 14:15 vedere Sannenzaka e Ninenzaka (vicoli antichi) | posto: sannenzaka
-  breve: vicoli antichi · pausa tè alle 15:30
+  breve: vicoli antichi · pausa tè alle 15:00
   Vicoli in salita con case di legno e negozietti.
-- 16:15 sposta Pagoda di Yasaka | via piedi: Ninenzaka, Kyoto > #pagoda-yasaka (Ninenzaka → pagoda di Yasaka)
+- 15:50 sposta Pagoda di Yasaka | via piedi: Ninenzaka, Kyoto > #pagoda-yasaka (Ninenzaka → pagoda di Yasaka)
   breve: a piedi 10′
-- 16:30 vedere Pagoda di Yasaka | posto: pagoda-yasaka
-  breve: tramonto alle 16:55
-  La foto classica di Kyoto, dalla salita di Yasaka-dōri.
-- 17:00 sposta Hanami-kōji | via piedi: #pagoda-yasaka > #hanami-koji (Pagoda → Hanami-kōji)
-  breve: a piedi 10′
-- 17:10 vedere Gion (quartiere delle geisha) e Hanami-kōji | posto: hanami-koji
-  breve: la via delle geisha, lanterne accese
-  attenzione: niente foto alle geisha da vicino e niente vicoli privati (multe)
-- 18:00 fare Gion Corner (spettacolo di arti tradizionali) | posto: gion-corner | prenotare
-  breve: 1 h di arti tradizionali
-  Assaggi di danza delle maiko (apprendiste geisha), teatro comico e marionette.
-  costo: ~¥5.500 a testa
-  prenotazione: ore 18:00 per 2, biglietti non rimborsabili
-- 19:00 sposta Pontochō | via piedi: #gion-corner > #pontocho (Gion Corner → Pontochō)
-  breve: a piedi 15′
+- 16:00 vedere Pagoda di Yasaka | posto: pagoda-yasaka
+  breve: luce del tardo pomeriggio
+  La foto classica di Kyoto, dalla salita di Yasaka-dōri. Il tramonto (16:55) lo vedete durante il tour.
+- 16:25 sposta Ritrovo del tour (Shijō) | via piedi: #pagoda-yasaka > #tour-geisha (Pagoda → ritrovo del tour)
+  breve: a piedi 25′ · 2 km
+  come: giù per Yasaka-dōri fino al santuario Yasaka, poi dritti lungo Shijō-dōri (la via principale) oltre il ponte sul fiume Kamo
+- 17:00 fare Tour di Gion (quartiere delle geisha) con guida | posto: tour-geisha | prenotare
+  breve: 2 h a piedi al tramonto · finisce al santuario Yasaka
+  Al posto di Gion Corner (recensioni basse): una guida vi porta per Gion mentre si accendono le lanterne e vi spiega la vita di geisha e maiko (apprendiste geisha), le case da tè e come riconoscerle. Tappe: statua di Izumo no Okuni (la fondatrice del teatro kabuki), teatro Minamiza, ponte Tatsumi sul canale Shirakawa, [[hanami-koji]] e santuario Yasaka.
+  Tripadvisor 4,9 su 1.354 recensioni, Viator 4,9 su 2.177. In inglese.
+  costo: ~$30 a testa (~€26)
+  prenotazione: turno delle 17:00 per 2 · cancellazione gratuita fino a 24 h prima
+  attenzione: la guida aspetta col cartello davanti a Ben's Cookies e non aspetta i ritardatari · niente foto alle geisha da vicino e niente vicoli privati (multe)
+  alternativa: free tour di Gion di Civitatis (9,2 su 2.084 opinioni, gratis + mancia), ritrovo al teatro Minamiza
+- 19:00 sposta Pontochō | via piedi: Yasaka Shrine, Kyoto > #pontocho (Santuario Yasaka → Pontochō)
+  breve: a piedi 15′ · 1,2 km lungo Shijō-dōri
 - 19:15 cibo Izakaya (osteria) a Pontochō | posto: pontocho
   breve: cena nel vicolo dei ristoranti sul fiume
   Izakaya: osteria giapponese, piattini da condividere e birra.
@@ -558,13 +563,13 @@ con: voi due
   come: taxi 12′ (~¥1.500), oppure 12′ a piedi fino a Shijō, metro Karasuma fino a Kyoto (4′), 7′ a piedi
 
 #### Guida
-senso: Kyoto classica: santuario dei portali rossi all'alba, tempio su palafitte, vicoli antichi, quartiere delle geisha al tramonto, spettacolo di arti tradizionali e serata nei bar lungo il canale.
+senso: Kyoto classica: santuario dei portali rossi all'alba, tempio su palafitte, vicoli antichi, quartiere delle geisha al tramonto con una guida che ne racconta i segreti e serata nei bar lungo il canale.
 mangiare:
   • Colazione seduti vicino a Fushimi Inari dopo la salita
   • Pranzo in zona Higashiyama (quartiere storico) verso le 11:45
   • Cena in una izakaya (osteria giapponese, piattini da condividere) a Pontochō, il vicolo dei ristoranti sul fiume
 prenotare:
-  • Gion Corner ore 18:00 per 2 (non rimborsabile)
+  • Tour di Gion con guida, turno delle 17:00 per 2 (cancellazione gratuita fino a 24 h prima)
   • Contanti per i locali piccoli
 attenzione:
   • Fushimi Inari dopo le 9 si riempie: partite presto
@@ -572,7 +577,7 @@ attenzione:
   • A Gion non si fotografano le geisha da vicino e non si entra nei vicoli privati (multe)
 anticipo: • Kōdai-ji illuminato (tempio con giardino e bambù illuminati, 17–22, ¥800) dopo cena
 stanchi: • Saltate Kiyamachi: cena a Gion e a letto. Non tagliate Kiyomizu
-camminata: ~13 km (salita a Fushimi) · mezzi 30′ · pause: colazione 1 h 15, pranzo 1 h, tè 30′, Gion Corner 1 h, cena 1 h 15
+camminata: ~14 km (salita a Fushimi, tour a passo lento) · mezzi 30′ · pause: colazione 1 h 15, pranzo 1 h, tè 30′, cena 1 h 15
 
 ### 2026-11-12
 percorso: kyoto
@@ -624,12 +629,19 @@ con: voi due
   breve: a piedi 8′
 - 16:45 vedere Keage Incline (vecchi binari tra gli alberi) | posto: keage-incline
   breve: al tramonto, 16:55
-- 17:15 sposta Mercato di Nishiki | via mezzi: Keage Station, Kyoto > #nishiki (Keage → Nishiki)
-  breve: metro 8′ + a piedi 8′
-  come: metro Tōzai line da Keage a Kyoto Shiyakusho-mae (il municipio), 8′ a piedi
-- 17:30 cibo Mercato di Nishiki | posto: nishiki
-  breve: via coperta di banchi di cibo · chiude 17–18
-  alternativa: [[samurai-ninja-museum]] (armature, prova con la katana; fino alle 18:30)
+- 17:10 sposta Samurai & Ninja Museum | via mezzi: Keage Station, Kyoto > #samurai-ninja-museum (Keage → museo dei samurai)
+  breve: metro 8′ + a piedi 14′
+  come: metro Tōzai line da Keage a Kyoto Shiyakusho-mae (il municipio), poi 14′ a piedi verso sud (1,1 km)
+- 17:35 fare Samurai & Ninja Museum (armature e katane) | posto: samurai-ninja-museum | prenotare
+  breve: visita guidata 30′ + armatura, katana e shuriken · ~1 h
+  Piccolo museo di armature, elmi e katane originali con una guida in inglese (30′), poi si prova: armatura da samurai, posa con la katana, lancio degli shuriken (le stelle dei ninja) al bersaglio. Mezz'ora quasi tutta in piedi ma senza camminare: giusto per la fine della giornata più lunga.
+  Tripadvisor 4,7 su 2.186 recensioni, 6° su 2.275 cose da fare a Kyoto.
+  costo: biglietto base ~¥3.300 a testa (~€18), un po' meno online
+  orari: visite guidate ogni 15′; chiusura tra le 18:30 e le 19:30 a seconda delle fonti: prenotate l'ingresso delle 17:30–17:45 e controllate l'orario sul sito
+  prenotazione: biglietto base per 2, sul sito ufficiale o su GetYourGuide
+- 18:35 cibo Mercato di Nishiki | posto: nishiki | via piedi: #samurai-ninja-museum > #nishiki (Museo → Nishiki)
+  breve: di passaggio verso la cena · a 4′ dal museo
+  Via coperta di banchi di cibo: chiude verso le 17–18, a quest'ora resta aperto solo qualche banco. Assaggio veloce se trovate qualcosa, poi dritti al ramen.
 - 19:00 cibo Ramen Sen no Kaze | posto: sen-no-kaze | via piedi: #nishiki > #sen-no-kaze (Nishiki → Sen no Kaze)
   breve: cena in via Shinkyōgoku
   Molto amato su Tripadvisor (voto Tabelog basso, 3,10).
@@ -642,11 +654,12 @@ con: voi due
   L'APA ha un bagno pubblico interno (15:00–01:00), un sentō (bagno pubblico giapponese) in piccolo.
 
 #### Guida
-senso: Kyoto natura e zen: bambù e scimmie ad Arashiyama, giardino di rocce, Padiglione d'Oro e d'Argento, Sentiero del Filosofo, tramonto sui vecchi binari tra gli alberi. È il giorno più pesante.
+senso: Kyoto natura e zen: bambù e scimmie ad Arashiyama, giardino di rocce, Padiglione d'Oro e d'Argento, Sentiero del Filosofo, tramonto sui vecchi binari tra gli alberi, poi armature e katane al museo dei samurai. È il giorno più pesante.
 mangiare:
   • Pranzo in Ginkakuji-michi (la via davanti al Padiglione d'Argento). Omen (udon famosi) oggi è chiuso: è giovedì
   • Cena: Ramen Sen no Kaze, 12–21 (molto amato su Tripadvisor; voto Tabelog basso, 3,10)
 prenotare:
+  • Samurai & Ninja Museum, ingresso delle 17:30–17:45 per 2 (~¥3.300 a testa)
   • Contanti: il parco delle scimmie (¥800) accetta solo contanti
   • Scarpe comode: ~15 km
 attenzione:
@@ -655,11 +668,11 @@ attenzione:
 anticipo:
   • Tenryū-ji (giardino zen con laghetto) alle 8:30
   • Eikan-dō (il tempio degli aceri) fino alle 16
-  • Samurai & Ninja Museum dopo il tramonto
 stanchi:
   • Taxi da Ginkaku-ji a Nanzen-ji, saltando il Sentiero (−2,5 km)
+  • Il museo dei samurai si fa quasi da fermi: non è quello da tagliare
   • Se piove: Toei Kyoto Studio Park (set dei film di samurai con spettacoli di ninja)
-camminata: ~15 km (salita al parco delle scimmie), il massimo del viaggio · mezzi ~1 h 30 · pause: pranzo 1 h, cena 1 h
+camminata: ~15 km (salita al parco delle scimmie), il massimo del viaggio · mezzi ~1 h 30 · pause: pranzo 1 h, museo 1 h, cena 1 h
 
 ### 2026-11-13
 percorso: kyoto > takayama
@@ -1404,16 +1417,27 @@ link: Chiama il ristorante = tel:+81577347660 ; Scheda su Tabelog = https://tabe
 priorità: media
 nota: Telefono 0577-34-7660: non ha un sito, si prenota per telefono o chiedendo alla reception dell'Alpina. Aperto 17:00–20:00, chiuso il martedì.
 
-### gion-corner
-tappa: 2026-11-11 18:00
-cosa: Gion Corner 11/11 ore 18:00, per 2
+### tour-geisha
+tappa: 2026-11-11 17:00
+cosa: Tour di Gion con guida «Storie di geisha» 11/11 ore 17:00, per 2
 tipo: prenotare
 giorno: 2026-11-11
-quando: quando siete sicuri (non rimborsabile)
-costo: ~¥5.500 a testa
-link: Prenota (biglietteria ufficiale) = https://www.s2.e-get.jp/ookini/pt/?E=1 ; Sito ufficiale Gion Corner = https://www.kyoto-gioncorner.com/global/en.html
+quando: quando volete: cancellazione gratuita fino a 24 h prima
+costo: ~$30 a testa (~€26)
+link: Prenota su GetYourGuide = https://www.getyourguide.com/kyoto-l96826/kyoto-night-walking-tour-gion-stories-of-geisha-t563565/ ; Lo stesso tour su Viator = https://www.viator.com/en-AU/tours/Kyoto/Kyoto-Gion-Night-Walking-Tour-Stories-of-Geisha/d332-175777P12 ; Recensioni (Tripadvisor) = https://www.tripadvisor.com/AttractionProductReview-g298564-d26638683-Kyoto_Gion_Geisha_District_Walking_Tour_The_Stories_of_Geisha-Kyoto_Kyoto_Prefectu.html ; Alternativa gratis + mancia (Civitatis) = https://www.civitatis.com/it/kyoto/free-tour-quartiere-gion/
 priorità: media
-nota: Spettacoli alle 18:00 e alle 19:00, ~50′. Posto normale ¥5.500, premium ¥6.600.
+nota: Sostituisce Gion Corner. Tour di 2 h in inglese, ritrovo da Ben's Cookies Kyoto Shijo (la guida ha un cartello), fine al santuario Yasaka. Scegliete il turno delle 17:00: se non c'è, va bene anche uno più tardi spostando la cena. Tripadvisor 4,9 su 1.354, Viator 4,9 su 2.177. In alternativa il free tour di Gion di Civitatis (9,2 su 2.084 opinioni, ritrovo al teatro Minamiza): gratis con mancia, orario da vedere sul sito.
+
+### samurai-museum
+tappa: 2026-11-12 17:35
+cosa: Samurai & Ninja Museum 12/11, ingresso 17:30–17:45, per 2
+tipo: prenotare
+giorno: 2026-11-12
+quando: qualche giorno prima (online costa un po' meno)
+costo: ~¥3.300 a testa (~€18)
+link: Sito ufficiale = https://mai-ko.com/samurai/ ; Su GetYourGuide = https://www.getyourguide.com/kyoto-l96826/kyoto-samurai-ninja-museum-guided-tour-t1079387/ ; Recensioni (Tripadvisor) = https://www.tripadvisor.com/Attraction_Review-g298564-d13551788-Reviews-Samurai_Ninja_Museum_With_Experience-Kyoto_Kyoto_Prefecture_Kinki.html
+priorità: bassa
+nota: Biglietto base: visita guidata di 30′ in inglese, prova dell'armatura, posa con la katana e lancio degli shuriken. L'orario di chiusura cambia tra le fonti (18:30–19:30): prima di prenotare controllate che l'ingresso delle 17:30 ci sia.
 
 ### samurai
 tappa: 2026-11-17 13:30
@@ -1531,7 +1555,7 @@ Stima a persona in euro.
 - Treni e bus lunghi: 375 | metà dei biglietti Klook (€678) + Fuji Excursion del 9/11 (€51,68, pagato) + Kamakura
 - Trasporti in città: 171 | metro e bus con la Suica ~€6 al giorno + gita Shirakawa-go ~€49
 - Cibo (~13 giorni): 520 | ~€40 al giorno, comprese le cene da Kitchen Hida e Kyōya
-- Attività e spettacoli: 222 | Skytree ~€12 · Samurai Restaurant ~€43 · Gion Corner ~€30 · Shibuya Sky ~€14 · teamLab · sale giochi
+- Attività e spettacoli: 236 | Skytree ~€12 · Samurai Restaurant ~€43 · tour di Gion ~€26 · Samurai & Ninja Museum ~€18 · Shibuya Sky ~€14 · teamLab · sale giochi
 - USJ + Express: 180 | prezzo variabile, ~€130–195 a testa
 - Onsen e sentō: 15 | l'onsen dell'Alpina è incluso
 - Assicurazione + e-SIM: 75 | assicurazione Heymondo €44 (pagata) + e-SIM
@@ -1671,7 +1695,7 @@ posti: kiyomizu-dera, sannenzaka, pagoda-yasaka
 ### gion
 nome: Gion e Pontochō
 cosa: il quartiere delle geisha e il vicolo delle osterie sul fiume
-posti: hanami-koji, gion-corner, pontocho, kiyamachi
+posti: tour-geisha, hanami-koji, pontocho, kiyamachi
 
 ### arashiyama
 nome: Arashiyama
@@ -1691,7 +1715,7 @@ posti: ginkaku-ji, sentiero-filosofo, nanzen-ji, keage-incline
 ### kawaramachi
 nome: Centro di Kyoto (Kawaramachi)
 cosa: vie dei negozi e mercato coperto
-posti: nishiki, sen-no-kaze
+posti: samurai-ninja-museum, nishiki, sen-no-kaze
 
 ### takayama-stazione
 nome: Stazione di Takayama
@@ -2121,20 +2145,20 @@ nome: Hanami-kōji (Gion)
 tipo: 🏮 Quartiere
 città: kyoto
 giorno: 11/11
-nota: 17:10, quando si accendono le lanterne
+nota: Col tour delle 17, quando si accendono le lanterne
 maps: Hanamikoji Street Gion Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1956593-Reviews-Hanamikoji_Street-Kyoto_Kyoto_Prefecture_Kinki.html
 foto: Gion
 
-### gion-corner
-nome: Gion Corner
-tipo: 🎭 Spettacolo
+### tour-geisha
+nome: Tour di Gion «Storie di geisha»
+tipo: 🏮 Tour a piedi
 città: kyoto
 giorno: 11/11
-nota: 18:00, 1 h di arti tradizionali · DA PRENOTARE per 2
-maps: Gion Corner Kyoto
-tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d324291-Reviews-Gion_Corner-Kyoto_Kyoto_Prefecture_Kinki.html
-sito: https://www.kyoto-gioncorner.com/global/en.html
+nota: 17:00, 2 h con guida · ritrovo da Ben's Cookies (Shijō), fine al santuario Yasaka · DA PRENOTARE per 2
+maps: Ben's Cookies Kyoto Shijo
+tripadvisor: https://www.tripadvisor.com/AttractionProductReview-g298564-d26638683-Kyoto_Gion_Geisha_District_Walking_Tour_The_Stories_of_Geisha-Kyoto_Kyoto_Prefectu.html
+sito: https://www.getyourguide.com/kyoto-l96826/kyoto-night-walking-tour-gion-stories-of-geisha-t563565/
 foto: Maiko
 
 ### pontocho
@@ -2308,7 +2332,7 @@ nome: Samurai & Ninja Museum
 tipo: ⚔️ Museo
 città: kyoto
 giorno: 12/11
-nota: Armature, katana, shuriken · fino alle 18:30
+nota: 17:35 · armature, katana, shuriken · ~¥3.300 · DA PRENOTARE per 2
 maps: Samurai Ninja Museum Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d13551788-Reviews-Samurai_Ninja_Museum_With_Experience-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://mai-ko.com/samurai/
