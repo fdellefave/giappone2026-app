@@ -514,6 +514,8 @@
     var sh = HOTELS[d.sleep];
     h += '<div class="facts">' + (sh ? '<button type="button" class="sleepbtn" data-sleep="1" aria-expanded="' + !!S.sleep + '">' + icon("bed") + "<span>Dormite: <b>" + esc(d.sleepName) + "</b></span>" + icon("down", "chev") + "</button>"
         : "<span>" + icon("plane") + esc(d.sleepName) + "</span>") +
+      (sh && sh.breakfast && sh.breakfast.kind === "inclusa" ? '<span class="bfpill">' + icon("circle-check") + "Colazione inclusa domani" +
+        (sh.breakfast.from ? " · " + esc(sh.breakfast.from.replace(/^0/, "")) : "") + "</span>" : "") +
       '<span class="gfact' + (d.group ? " on" : "") + '">' + icon("users") + esc(groupText(d)) + "</span>" +
       (walk ? "<span>" + icon("walk") + esc((walk.match(/^[~\d.,\s–-]+km/) || [walk])[0]) + " a piedi</span>" : "") +
       (cash ? "<span>" + icon("yen") + withEur(esc(cash)) + " in contanti</span>" : "") + "</div>" + wxHtml(i);

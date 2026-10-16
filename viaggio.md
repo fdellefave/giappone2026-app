@@ -62,6 +62,7 @@ Regole di Federico:
   Ogni tappa ha la sua zona (sezione Zone): le tappe di fila nella stessa zona hanno un titoletto con orario e durata.
   Gruppo: campo `gruppo` del giorno → fascia «col gruppo» sotto le città, pillola rosa sulle tappe, avviso quando vi unite o vi staccate.
   Ogni alloggio dice di chi è (vostro, prenotato da Federico / del gruppo); «Dormite: …» nella testata si apre con tutti i dettagli.
+  Se la colazione dell'hotel della notte è inclusa, accanto a «Dormite» c'è la pillola verde «Colazione inclusa domani · ora d'inizio» (16/10).
   In basso a destra due pulsanti di vetro: la lente (ricerca) e i tre puntini (menu: adesso, da prenotare, hotel, treni e voli,
   attività, codici, yen ↔ euro, numeri utili, impostazioni con Google Maps / Mappe di Apple, tema, testo). In fondo al giorno solo il giro e i consigli.
   Sopra i giorni, la linea delle città (dalla città della notte prima a quella della sera) e sotto, a parte, le gite in giornata

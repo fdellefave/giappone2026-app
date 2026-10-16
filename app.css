@@ -598,6 +598,8 @@ body.noscroll { overflow: hidden; }
 .sleepbtn .chev { color: var(--faint); transition: transform .2s; }
 .sleepbtn[aria-expanded="true"] .chev { transform: rotate(180deg); }
 .facts .gfact.on { color: var(--grp); font-weight: 700; }
+.facts .bfpill { background: var(--ok-soft); color: var(--ok); font-weight: 650; border-radius: 999px; padding: 5px 10px; }
+.facts .bfpill .ic { width: 16px; height: 16px; }
 .sleepbox { margin-top: 10px; display: grid; gap: 10px; background: var(--card); border-radius: 14px; padding: 12px; }
 .sleepbox[hidden] { display: none; }
 .sleepbox .infobox { background: var(--card-2); }
