@@ -1433,11 +1433,13 @@ data: 2026-11-16
 tratta: Shin-Osaka → Tokyo
 mezzo: Shinkansen Nozomi 280 (treno superveloce)
 orario: 20:00 → 22:24
+posti: carrozza 12, posti 6D e 6E
 prezzo: €182,50
 euro: 182.50
 stato: pagato
 pagato da: Federico
 conferma: 2026-10-16
+emesso: 2026-10-16
 link: https://s.klook.com/c/vw7g65Km1W
 nota: Se si perde questo treno va bene anche uno dopo: il Super Hotel ha confermato (16/10) che, essendo prepagato, si entra anche dopo mezzanotte col telefono notturno all'ingresso.
 
