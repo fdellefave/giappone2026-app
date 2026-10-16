@@ -100,6 +100,7 @@ Messaggio del gruppo (13/10): 7 del gruppo dormono al Cottage Pastorale (navetta
 Pasti veloci (15/10 sera): ogni pasto al ristorante ha la riga `veloce:` con due alternative economiche vicine (konbini, fast food, street food), voti Google letti il 15/10, aperte in quel giorno e a quell'ora. Nei giorni col gruppo sono solo indicazioni.
 Colori dei tipi (15/10 sera, richiesta di Federico): mangiare arancione acceso, valigie grigio-marrone; striscia colorata a sinistra di ogni scheda, bollino del tipo più grande sulle foto, etichetta «Mangiare» sui pasti.
 Dettagli delle tappe (15/10 notte, richiesta di Federico): una tappa aperta alla volta; dentro, prima il riquadro pratico (orari, costo, prenotazione con icone), poi la descrizione, gli avvisi e le alternative; ogni prezzo in yen ha accanto l'euro (lo aggiunge l'app, non serve scriverlo); le alternative `veloce:` si vedono anche sulla scheda chiusa, sotto il ristorante; le cose «da fare» già fatte non si mostrano più nelle tappe (restano in «Da fare»).
+Check-in dei voli (16/10): ITA apre il check-in online 48 h prima e lo chiude 1 h prima dei voli internazionali (verificato sul sito ITA). Voci «checkin-andata» e «checkin-ritorno» in «Da fare», più promemoria sul telefono di Federico.
 Contanti (16/10, richiesta di Federico): campo `contanti` nella Guida di ogni giorno con la forchetta a testa in yen (min–max) e per cosa servono; l'app aggiunge l'euro e la mostra in testata. Piano: ¥50.000 a testa a Haneda, secondo prelievo la sera del 12/11 a Kyoto. Se cambiano le tappe a pagamento in contanti, aggiornare la forchetta del giorno.
 Colazioni (15/10 notte): campi `colazione` negli Alloggi (orari Saibo da Expedia, Alpina da Travelocity in attesa di risposta, Super Hotel da newt.net). Ogni mattina l'app mette la «Sveglia» calcolata da sola (vedi Sintassi): se cambia l'ora d'uscita o la colazione, si aggiorna senza toccare niente.
 
@@ -1646,6 +1647,30 @@ entro: 2026-11-04
 quando: prima della partenza
 priorità: media
 nota: Visit Japan Web (il modulo online per l'ingresso in Giappone) e assicurazione Heymondo già fatti: tenete i QR di Visit Japan Web salvati sul telefono. App consigliate dal gruppo: Suica (tessera per metro e treni, già nel Wallet), Tabelog (recensioni dei ristoranti), Kuli Kuli (traduce menù e cartelli), Flush (bagni pubblici vicini), Payke (legge gli ingredienti di cibi e cosmetici), Bounce (depositi bagagli), Japan Travel di Navitime (percorsi coi mezzi, di riserva).
+
+### checkin-andata
+tappa: 2026-11-05 15:05
+cosa: Check-in online del volo AZ792 Roma → Tokyo, per 2
+tipo: gestire
+giorno: 2026-11-05
+apre: 2026-11-03
+entro: 2026-11-05
+quando: dal 3/11 alle 15:05 (48 h prima) fino a 1 h prima del volo
+link: Check-in online ITA Airways = https://www.ita-airways.com/it_it/fly-ita/check-in/online-check-in.html
+priorità: alta
+nota: Sul sito o nell'app ITA. Per i voli da e per il Giappone servono i dati del passaporto. Scegliete i posti appena apre e salvate le carte d'imbarco sul telefono. Le valigie si lasciano al banco «bag drop» (consegna bagagli) a Fiumicino.
+
+### checkin-ritorno
+tappa: 2026-11-16 14:00, 2026-11-18 13:20
+cosa: Check-in online del volo AZ793 Tokyo → Roma, per 2
+tipo: gestire
+giorno: 2026-11-18
+apre: 2026-11-16
+entro: 2026-11-18
+quando: dal 16/11 alle 13:20 ora di Tokyo (5:20 italiane), mentre siete a Universal Studios: bastano 5 minuti in una coda
+link: Check-in online ITA Airways = https://www.ita-airways.com/it_it/fly-ita/check-in/online-check-in.html
+priorità: alta
+nota: Si chiude 1 h prima del volo; a Haneda il banco ITA va comunque raggiunto entro le 12:20 per le valigie. Servono i dati del passaporto. Fatto online, all'aeroporto c'è solo la consegna bagagli.
 
 ### contanti
 tappa: 2026-11-06 11:20, 2026-11-12 20:30
