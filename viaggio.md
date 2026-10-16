@@ -33,7 +33,8 @@ Questo file vive solo qui: non tenerne copie nel progetto Claude «Giappone».
   se il titolo non esiste l'app mostra l'icona del tipo. Alloggi: `foto:` = foto della zona, usata da check-in, check-out e valigie.
 - Alloggi, colazione: `colazione: inclusa | a pagamento | no`, `colazione orari: 7:00–9:30` (solo l'inizio se non si sa la fine:
   `6:45–`), `colazione prezzo:` (se a pagamento), `colazione nota:`. Non ripeterla in `nota:`.
-- `#### Guida` dentro un giorno: campi `senso, mangiare, prenotare, attenzione, anticipo, stanchi, camminata`.
+- `#### Guida` dentro un giorno: campi `senso, mangiare, prenotare, contanti, attenzione, anticipo, stanchi, camminata`.
+  `contanti:` prima riga = forchetta a testa in yen (`¥3.000–7.000 a testa`, l'app la mostra in testata con l'euro), poi i punti «per cosa».
   Testo su una riga, oppure punti su righe seguenti che iniziano con `  • `.
 - Testo che vede l'utente: italiano semplice, ogni termine giapponese spiegato tra parentesi, prezzi in yen
   con euro quando servono (1 € ≈ 185 ¥). Niente kanji.
@@ -98,6 +99,7 @@ Messaggio del gruppo (13/10): 7 del gruppo dormono al Cottage Pastorale (navetta
 Pasti veloci (15/10 sera): ogni pasto al ristorante ha la riga `veloce:` con due alternative economiche vicine (konbini, fast food, street food), voti Google letti il 15/10, aperte in quel giorno e a quell'ora. Nei giorni col gruppo sono solo indicazioni.
 Colori dei tipi (15/10 sera, richiesta di Federico): mangiare arancione acceso, valigie grigio-marrone; striscia colorata a sinistra di ogni scheda, bollino del tipo più grande sulle foto, etichetta «Mangiare» sui pasti.
 Dettagli delle tappe (15/10 notte, richiesta di Federico): una tappa aperta alla volta; dentro, prima il riquadro pratico (orari, costo, prenotazione con icone), poi la descrizione, gli avvisi e le alternative; ogni prezzo in yen ha accanto l'euro (lo aggiunge l'app, non serve scriverlo); le alternative `veloce:` si vedono anche sulla scheda chiusa, sotto il ristorante; le cose «da fare» già fatte non si mostrano più nelle tappe (restano in «Da fare»).
+Contanti (16/10, richiesta di Federico): campo `contanti` nella Guida di ogni giorno con la forchetta a testa in yen (min–max) e per cosa servono; l'app aggiunge l'euro e la mostra in testata. Piano: ¥50.000 a testa a Haneda, secondo prelievo la sera del 12/11 a Kyoto. Se cambiano le tappe a pagamento in contanti, aggiornare la forchetta del giorno.
 Colazioni (15/10 notte): campi `colazione` negli Alloggi (orari Saibo da Expedia, Alpina da Travelocity in attesa di risposta, Super Hotel da newt.net). Ogni mattina l'app mette la «Sveglia» calcolata da sola (vedi Sintassi): se cambia l'ora d'uscita o la colazione, si aggiorna senza toccare niente.
 
 Back office (14/10): admin.html, dal PC, modifica questo file e pubblica da solo (viaggio.md + data.json generato
@@ -137,8 +139,9 @@ prenotare:
   • Passaporto
   • Visit Japan Web (il modulo online d'ingresso in Giappone): QR salvati sul telefono
   • e-SIM attiva
-  • Un po' di yen in contanti
+  • Carta per prelevare gli yen all'arrivo (niente cambio in Italia)
 attenzione: • Dormite nella seconda metà del volo: si atterra a mezzogiorno e domani è lunga
+contanti: nessuno: gli yen si prelevano domani all'arrivo a Haneda (aeroporto di Tokyo)
 camminata: ~2 km · volo ~12 h
 
 ### 2026-11-06
@@ -149,6 +152,7 @@ con: voi due
   breve: passaporti e dogana ~1 h
   Tenete pronti i QR di Visit Japan Web (il modulo online d'ingresso) per passaporti e dogana.
   Attivate l'e-SIM e la Suica sul telefono (la tessera ricaricabile per metro e treni).
+  Contanti: prelevate ¥50.000 a testa all'ATM Seven Bank (gli sportelli dei 7-Eleven) negli arrivi. Scegliete sempre «yen» / senza conversione e guardate la commissione sullo schermo prima di confermare.
 - 12:30 sposta Airbnb Shinjuku | via mezzi: Haneda Airport Terminal 3 > @airbnb-shinjuku (Aeroporto → Airbnb)
   breve: treno + metro ~55′
   come: treno Keikyu (la linea privata dell'aeroporto) fino a Daimon, metro linea Ōedo fino a Higashi-Shinjuku, 5′ a piedi
@@ -236,6 +240,11 @@ anticipo:
   • Kappabashi (la via dei negozi da cucina e del cibo finto in plastica), fino alle 17
   • Distributori di gadget a capsule (gachapon) ovunque ad Akihabara
 stanchi: • Sulla Skytree (biglietto già preso) restate poco e andate dritti ad Akihabara · dopo cena saltate le sale giochi e la testa di Godzilla: treno JR per Shinjuku (18′) e a letto
+contanti: ¥3.000–7.000 a testa
+  • Appena atterrati: prelevate ¥50.000 a testa all'ATM Seven Bank (gli sportelli dei 7-Eleven) negli arrivi
+  • Fūunji (ramen): si paga alla macchinetta dei biglietti, in contanti
+  • Bancarelle di Nakamise e omikuji (bigliettini della fortuna, ¥100–200) al Senso-ji
+  • Sale giochi e gachapon (capsule coi giocattolini) vanno a monete da ¥100: dentro ci sono le macchinette per cambiare le banconote
 camminata: ~10 km · mezzi ~1 h 30 in tutto · pause: pranzo 45′, cena 45′
 
 ### 2026-11-07
@@ -313,6 +322,10 @@ anticipo:
   • Pagoda Chureito (la foto simbolo del Fuji) subito, treno 15′, se il Fuji è limpido e per domani danno brutto
   • Santuario Kawaguchi Asama (cedri secolari), a 600 m dalla casa
 stanchi: • Saltate il Tenku no Torii: viale degli aceri + cena bastano
+contanti: ¥2.500–5.000 a testa
+  • Armadietti della stazione di Kawaguchiko (¥400–800)
+  • Hoto Fudo (zuppa hoto, ~¥1.500): solo contanti
+  • Offerta al Tenku no Torii (portale sul Fuji)
 camminata: ~10 km (salita al Tenku no Torii) · treno 2 h · pause: pranzo 1 h 15, cena 1 h
 
 ### 2026-11-08
@@ -353,6 +366,11 @@ anticipo:
   • Funivia Kachi Kachi (panorama sul lago e sul Fuji, fino alle 17): solo se il Fuji è scoperto
   • Onsen (terme) prima di cena
 stanchi: • Saltate la funivia, tenete bici e cena
+contanti: ¥3.000–7.000 a testa
+  • Noleggio bici (se non lo paga il gruppo)
+  • Miura Udon e i locali di udon della zona: spesso solo contanti
+  • Onsen (bagno termale, ~¥1.000–1.500) o funivia (¥1.000)
+  • Quota della cena col gruppo
 camminata: ~5 km a piedi + 15–20 km in bici · pause: pranzo 1 h, casa 1 h, cena 1 h 30
 
 ### 2026-11-09
@@ -440,6 +458,10 @@ attenzione:
   • A teamLab gli armadietti sono piccoli: la valigia resta in hotel
 anticipo: • Giro a Ningyōchō (quartiere tradizionale con botteghe di dolci) prima di teamLab
 stanchi: • Giornata già leggera, niente da tagliare
+contanti: ¥2.000–5.000 a testa
+  • Armadietti della stazione
+  • Assaggi a Ningyōchō (quartiere antico): botteghe piccole
+  • Monjayaki (frittata di verdure cotta sulla piastra) a Tsukishima: portate contanti nel caso
 camminata: ~10 km (400 scalini della Chureito) · treni ~3 h · pause: lago 1 h 30, pranzo 1 h, cena 1 h
 
 ### 2026-11-10
@@ -528,6 +550,10 @@ attenzione:
   • Al passaggio a livello ci sono gli steward: foto dal marciapiede
 anticipo: • Più tempo a Hase-dera (grotta e terrazza) o una puntata a Enoshima (isoletta collegata da un ponte)
 stanchi: • Con la pioggia saltate Hōkoku-ji: tenete Buddha, Hase-dera e Komachi-dōri
+contanti: ¥4.000–7.000 a testa
+  • Ingressi: Hōkoku-ji ¥400 + matcha (tè verde) ¥600, Grande Buddha ¥300, Hase-dera ¥400
+  • Street food di Komachi-dōri: banchetti, quasi tutti in contanti
+  • Ramen Honke Daiichi Asahi la sera, se avete fame
 camminata: ~12 km · treni ~4 h (Shinkansen compreso) · pausa: pranzo 1 h
 
 ### 2026-11-11
@@ -615,6 +641,10 @@ attenzione:
   • A Gion non si fotografano le geisha da vicino e non si entra nei vicoli privati (multe)
 anticipo: • Kōdai-ji illuminato (tempio con giardino e bambù illuminati, 17–22, ¥800) dopo cena
 stanchi: • Saltate Pontochō e Kiyamachi: cena e a letto. Non tagliate Kiyomizu
+contanti: ¥3.000–7.000 a testa
+  • SANSHIKI (udon e tempura, ~¥1.000–2.000): solo contanti
+  • Kiyomizu-dera (tempio) ¥500
+  • Snack nei vicoli di Sannenzaka e un drink nei bar di Kiyamachi
 camminata: ~14 km (salita a Fushimi, tour a passo lento) · mezzi 30′ · pause: colazione 1 h 15, pranzo 1 h, tè 30′, cena 1 h 15
 
 ### 2026-11-12
@@ -717,6 +747,14 @@ stanchi:
   • Taxi da Ginkaku-ji a Nanzen-ji, saltando il Sentiero (−2,5 km)
   • Il museo dei samurai si fa quasi da fermi: non è quello da tagliare
   • Se piove: Toei Kyoto Studio Park (set dei film di samurai con spettacoli di ninja)
+contanti: ¥7.500–12.000 a testa
+  • Giornata più cara in contanti
+  • Monkey Park (parco delle scimmie) ¥800, solo contanti
+  • Templi: Ryōan-ji ¥600, Kinkaku-ji ¥500, Ginkaku-ji ¥500
+  • Metà taxi da Kinkaku-ji (~¥1.500 a testa)
+  • Daigin Shokudō (~¥1.000), assaggi al mercato di Nishiki
+  • Kotetsu (spiedini fritti, ~¥3.000–4.000): solo contanti
+  • Sera: secondo prelievo a un 7-Eleven vicino all'hotel, quanto serve per avere ~¥35.000 a testa fino alla fine (Takayama e Shirakawa-go sono in campagna)
 camminata: ~15 km (salita al parco delle scimmie), il massimo del viaggio · mezzi ~1 h 30 · pause: pranzo 1 h, museo 1 h, cena 1 h
 
 ### 2026-11-13
@@ -793,6 +831,10 @@ attenzione:
   • Takayama la sera si spegne presto
 anticipo: • Showa-kan (museo della vita anni '50: giocattoli e negozi d'epoca)
 stanchi: • Saltate il Jinya, solo Sanmachi (le vie antiche); la sera resta uguale
+contanti: ¥2.500–5.000 a testa
+  • Kotte Ushi (sushi di manzo)
+  • Takayama Jinya (palazzo del governatore) ¥440
+  • Assaggi di sakè e snack nelle vie di Sanmachi
 camminata: ~8 km · treno 3 h 45 seduti · pause: pranzo 45′, cena 1 h 30, terme 1 h
 
 ### 2026-11-14
@@ -861,6 +903,10 @@ attenzione:
   • Le case abitate non si visitano, le risaie non si calpestano
 anticipo: • Passeggiata nella zona dei templi di Takayama (Higashiyama, a est del centro)
 stanchi: • Saltate il mercato: il bus della gita parte comunque alle 8:30
+contanti: ¥3.000–6.000 a testa
+  • Mercato mattutino di Miyagawa: bancarelle in contanti
+  • Irori (~¥1.500–3.000): niente Visa e Mastercard, pagate in contanti
+  • Snack a Shirakawa-go
 camminata: ~7 km (belvedere con la navetta) · bus ~3 h in tutto · pause: pranzo 1 h, riposo 1 h, terme 1 h, cena 1 h 30
 
 ### 2026-11-15
@@ -947,6 +993,10 @@ anticipo:
   • Castello di Osaka (bello da fuori; dentro museo dei samurai, 1 h)
   • Namba Grand Kagetsu (teatro della comicità di Osaka: in giapponese ma molto fisico)
 stanchi: • Saltate Shinsekai: Den Den Town, cena e Dōtonbori sono vicini all'hotel
+contanti: ¥3.000–8.000 a testa
+  • Den Den Town (quartiere nerd): gachapon e negozietti di usato
+  • Daruma (spiedini fritti) a Shinsekai: solo contanti
+  • Takoyaki (polpette di polpo) a Dōtonbori e giochi a Round1
 camminata: ~11 km · treni ~4 h al mattino + metro 45′ · pause: pranzo 1 h, check-in 30′, cena 1 h 30
 
 ### 2026-11-16
@@ -1005,6 +1055,9 @@ attenzione:
   • Uscita entro le 18:10
   • Orari del parco del 16/11 sul sito USJ
 stanchi: • Solo Super Nintendo World + 2 attrazioni con l'Express Pass
+contanti: ¥1.500–3.000 a testa
+  • Armadietti di Universal Studios o deposito della CityWalk (¥1.000–1.500 a valigia)
+  • Nel parco e per l'ekiben (cestino da treno) va bene la carta
 camminata: ~11 km nel parco + code in piedi · treni ~3 h · pausa: pranzo 45′
 
 ### 2026-11-17
@@ -1096,6 +1149,11 @@ anticipo:
   • Kabuki-za: un solo atto di teatro kabuki (~1 h, sottotitoli in inglese)
   • Karaoke dopo Golden Gai (Big Echo, Karaoke-kan)
 stanchi: • Saltate Harajuku: da PARCO restate a Shibuya fino alla cena
+contanti: ¥5.000–10.000 a testa
+  • Mercato di Tsukiji: colazione ai banchi, in contanti
+  • Crêpe a Harajuku e spiedini a Omoide Yokochō (vicolo degli spiedini)
+  • Golden Gai (micro-bar): coperto ¥500–1.000 + drink, quasi tutti in contanti
+  • Sushi Tokyo Ten: solo carta
 camminata: ~13 km con la metro per Tsukiji (~15 km tutto a piedi) · mezzi ~1 h · pause: pranzo 50′, show 2 h seduti, cena 1 h 30, bar 1 h
 
 ### 2026-11-18
@@ -1131,6 +1189,8 @@ attenzione:
   • Rimborso tax-free al terminale apposito PRIMA di imbarcare le valigie
   • Il check-in ITA chiude alle 12:20
 stanchi: • Saltate Zōjō-ji e dormite
+contanti: ¥0–1.000 a testa
+  • Spendete le monete rimaste in aeroporto: a Roma non si cambiano
 camminata: ~3 km · monorotaia 15′
 
 ## Alloggi
@@ -1587,12 +1647,13 @@ priorità: media
 nota: Visit Japan Web (il modulo online per l'ingresso in Giappone) e assicurazione Heymondo già fatti: tenete i QR di Visit Japan Web salvati sul telefono. App consigliate dal gruppo: Suica (tessera per metro e treni, già nel Wallet), Tabelog (recensioni dei ristoranti), Kuli Kuli (traduce menù e cartelli), Flush (bagni pubblici vicini), Payke (legge gli ingredienti di cibi e cosmetici), Bounce (depositi bagagli), Japan Travel di Navitime (percorsi coi mezzi, di riserva).
 
 ### contanti
-cosa: Contanti in yen
+tappa: 2026-11-06 11:20, 2026-11-12 20:30
+cosa: Prelevare yen: ¥50.000 a testa a Haneda, poi fino a ~¥35.000 a Kyoto la sera del 12/11
 tipo: gestire
-entro: 2026-11-04
-quando: prima della partenza
+giorno: 2026-11-06
+quando: all'arrivo e la sera del 12/11
 priorità: media
-nota: Solo contanti in molti posti: Hoto Fudo, Monkey Park, Tsukiji, Golden Gai, banchi di street food.
+nota: Stima dei contanti a testa per tutto il viaggio: ¥40.000–83.000 (forchetta di ogni giorno nei consigli del giorno). Fino al 12/11 servono al massimo ~¥50.000, dal 13 al 18 al massimo ~¥33.000. Solo contanti in molti posti: Hoto Fudo, SANSHIKI, Monkey Park, Kotetsu, Daruma, Tsukiji, Golden Gai, banchi di street food, gachapon. Prima della partenza: verificare che la carta funzioni all'estero e il limite di prelievo.
 
 ### istruzioni-airbnb
 tappa: 2026-11-06 13:30

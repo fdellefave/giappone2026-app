@@ -14,7 +14,7 @@
     viaggio: ["Treno, bus o volo", "train"], hotel: ["Hotel", "bed"], bagagli: ["Valigie", "luggage"] };
   var DETAIL = [["testo", "Testo libero"], ["breve", "Breve (sempre visibile)"], ["come", "Come arrivare"], ["costo", "Costo"], ["orari", "Orari"],
     ["binario", "Binario"], ["bagagli", "Valigie"], ["prenotazione", "Prenotazione"], ["attenzione", "Attenzione"], ["alternativa", "In alternativa"], ["veloce", "Veloce ed economico"]];
-  var GUIDE = [["senso", "Il senso della giornata"], ["mangiare", "Dove mangiare"], ["prenotare", "Da avere con sé"], ["attenzione", "Attenzione"],
+  var GUIDE = [["senso", "Il senso della giornata"], ["mangiare", "Dove mangiare"], ["prenotare", "Da avere con sé"], ["contanti", "Contanti a testa"], ["attenzione", "Attenzione"],
     ["anticipo", "Se avanza tempo"], ["stanchi", "Se siete stanchi"], ["camminata", "A piedi e pause"]];
   var ATTR = [["posto", "posto: ", "place"], ["alloggio", "alloggio: ", "hotel"], ["treno", "treno: ", "train"], ["città", "città: ", "city"],
     ["zona", "zona: ", "zone"], ["dove", "dove: ", "text"], ["foto", "foto: ", "text"], ["fuso", "fuso: ", "tz"], ["via mezzi", "via mezzi: ", "via"],

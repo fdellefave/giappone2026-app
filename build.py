@@ -27,7 +27,7 @@ DETAIL = {"come": "Come arrivare", "costo": "Costo", "orari": "Orari", "binario"
           "prenotazione": "Prenotazione", "attenzione": "Attenzione", "alternativa": "In alternativa",
           "veloce": "Veloce ed economico"}
 MODE = {"mezzi": "transit", "piedi": "walking", "taxi": "driving"}
-GUIDE_KEYS = ["senso", "mangiare", "prenotare", "attenzione", "anticipo", "stanchi", "camminata"]
+GUIDE_KEYS = ["senso", "mangiare", "prenotare", "contanti", "attenzione", "anticipo", "stanchi", "camminata"]
 WD = ["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"]
 TZ = {"tokyo": "+09:00", "roma": "+01:00"}  # novembre 2026: Italia con l'ora solare
 

@@ -12,7 +12,7 @@
     bagagli: { n: "Valigie", i: "luggage" }, sveglia: { n: "Sveglia", i: "sun" }
   };
   var MODE = { transit: "train", walking: "walk", driving: "taxi" };
-  var GUIDE = [["mangiare", "Dove mangiare"], ["prenotare", "Da avere con sé"], ["attenzione", "Attenzione"],
+  var GUIDE = [["mangiare", "Dove mangiare"], ["prenotare", "Da avere con sé"], ["contanti", "Contanti a testa"], ["attenzione", "Attenzione"],
     ["anticipo", "Se avanza tempo"], ["stanchi", "Se siete stanchi"], ["camminata", "A piedi e pause"]];
   var MONTHS = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"];
   var WDAYS = ["domenica", "lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato"];
@@ -236,9 +236,9 @@
   function bulletsHtml(t) {
     var lines = String(t).split("\n").map(function (l) { return l.trim(); }).filter(Boolean);
     if (lines.every(function (l) { return l.indexOf("•") === 0; })) {
-      return "<ul>" + lines.map(function (l) { return "<li>" + esc(l.replace(/^•\s*/, "")) + "</li>"; }).join("") + "</ul>";
+      return "<ul>" + lines.map(function (l) { return "<li>" + withEur(esc(l.replace(/^•\s*/, ""))) + "</li>"; }).join("") + "</ul>";
     }
-    return lines.map(function (l) { return "<p>" + esc(l.replace(/^•\s*/, "")) + "</p>"; }).join("");
+    return lines.map(function (l) { return "<p>" + withEur(esc(l.replace(/^•\s*/, ""))) + "</p>"; }).join("");
   }
   function moveIcon(it) { var m = it.routes && it.routes[0] ? it.routes[0].mode : "walking"; return MODE[m]; }
   function itemIcon(it) {
@@ -510,11 +510,13 @@
         (tm ? ' <small class="ct">(' + tm + ")</small>" : "") + "</span>";
     }).join("") + "</h1>";
     var walk = (d.guide.camminata || "").split(" · ")[0];
+    var cash = ((d.guide.contanti || "").split("\n")[0].match(/¥[\d.]+(?:\s?[–-]\s?[\d.]+)?/) || [""])[0];
     var sh = HOTELS[d.sleep];
     h += '<div class="facts">' + (sh ? '<button type="button" class="sleepbtn" data-sleep="1" aria-expanded="' + !!S.sleep + '">' + icon("bed") + "<span>Dormite: <b>" + esc(d.sleepName) + "</b></span>" + icon("down", "chev") + "</button>"
         : "<span>" + icon("plane") + esc(d.sleepName) + "</span>") +
       '<span class="gfact' + (d.group ? " on" : "") + '">' + icon("users") + esc(groupText(d)) + "</span>" +
-      (walk ? "<span>" + icon("walk") + esc((walk.match(/^[~\d.,\s–-]+km/) || [walk])[0]) + " a piedi</span>" : "") + "</div>" + wxHtml(i);
+      (walk ? "<span>" + icon("walk") + esc((walk.match(/^[~\d.,\s–-]+km/) || [walk])[0]) + " a piedi</span>" : "") +
+      (cash ? "<span>" + icon("yen") + withEur(esc(cash)) + " in contanti</span>" : "") + "</div>" + wxHtml(i);
     if (sh) h += '<div class="sleepbox" id="sleepbox"' + (S.sleep ? "" : " hidden") + ">" + hotelBox(sh) + '<div class="btns">' + hotelActions(sh) + "</div></div>";
     if (d.guide.senso) h += '<p class="summary">' + esc(d.guide.senso) + "</p>";
     if (ph === "live" && i !== cd) h += '<p style="margin:12px 0 0"><button type="button" class="chip-now" data-now="1">' + icon("locate") + "Vai a oggi, a dove siete adesso</button></p>";
