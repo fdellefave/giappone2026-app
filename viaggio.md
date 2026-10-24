@@ -95,6 +95,8 @@ Già verificato (non riproporre):
   Klook: pagati il 7/9, i biglietti vengono confermati quando apre la vendita ufficiale (un mese prima).
   10/10: tutti gli alloggi sono pagati (Nagomi compresa), €686 a testa in tutto. Assicurazione Heymondo €44 a testa e Visit Japan Web fatti.
 
+Messaggio del gruppo (24/10): riepilogo, quasi tutto già nel file (ritiro Fuji Excursion, navetta/bici/transfer del Cottage Pastorale solo per i loro ospiti, PDF e guide sul drive). App consigliate → voce «app» in «Da fare». Treni Kyoto–Osaka/Nara, Kyoto–Kanazawa, transfer Kanazawa–Shirakawa-go del 4/11, allergie: non vi riguardano.
+
 Messaggio del gruppo (13/10): 7 del gruppo dormono al Cottage Pastorale (navetta dalla stazione il 7/11, bici l'8/11, transfer alla stazione Fujisan il 9/11: solo per i loro ospiti). PDF dei biglietti e guide per il ritiro dei Fuji Excursion sul drive condiviso del gruppo. Il resto (Kanazawa, Shirakawa-go del 4/11, Nara, Osaka, ristoranti col gruppo) riguarda giorni senza di voi.
 
 Pasti veloci (15/10 sera): ogni pasto al ristorante ha la riga `veloce:` con due alternative economiche vicine (konbini, fast food, street food), voti Google letti il 15/10, aperte in quel giorno e a quell'ora. Nei giorni col gruppo sono solo indicazioni.
@@ -1641,12 +1643,21 @@ priorità: alta
 nota: Macchinette JR della stazione di Shinjuku (o di un'altra stazione JR di Tokyo): si scansiona il QR del biglietto. Senza biglietto di carta non si sale. Quelli del 9/11 vanno ritirati subito, perché le stazioni della zona del Fuji (Kawaguchiko, Fujisan) non sono JR. Guida passo passo sul drive condiviso del gruppo.
 
 ### documenti
-cosa: e-SIM, Suica e app utili (per tutti e due)
+cosa: e-SIM e Suica (per tutti e due)
 tipo: gestire
 entro: 2026-11-04
 quando: prima della partenza
 priorità: media
-nota: Visit Japan Web (il modulo online per l'ingresso in Giappone) e assicurazione Heymondo già fatti: tenete i QR di Visit Japan Web salvati sul telefono. App consigliate dal gruppo: Suica (tessera per metro e treni, già nel Wallet), Tabelog (recensioni dei ristoranti), Kuli Kuli (traduce menù e cartelli), Flush (bagni pubblici vicini), Payke (legge gli ingredienti di cibi e cosmetici), Bounce (depositi bagagli), Japan Travel di Navitime (percorsi coi mezzi, di riserva).
+nota: Visit Japan Web (il modulo online per l'ingresso in Giappone) e assicurazione Heymondo già fatti: tenete i QR di Visit Japan Web salvati sul telefono. La Suica (tessera ricaricabile per metro e treni) si aggiunge al Wallet; l'e-SIM (SIM virtuale con i dati) si attiva all'arrivo. Le app da scaricare sono nella voce a parte.
+
+### app
+cosa: Scaricare le app consigliate dal gruppo (tutti e due)
+tipo: gestire
+entro: 2026-11-04
+quando: prima della partenza, col Wi-Fi di casa
+link: Tabelog = https://apps.apple.com/app/id6752922875 ; Kuli Kuli = https://apps.apple.com/app/id6458146511 ; Flush = https://apps.apple.com/app/id955254528 ; Payke = https://apps.apple.com/app/id1040452788 ; Bounce = https://apps.apple.com/app/id1444570755 ; Japan Travel (Navitime) = https://apps.apple.com/app/id686373726
+priorità: media
+nota: Tabelog (il Tripadvisor dei ristoranti giapponesi, in inglese: serve l'account per prenotare Onikai, Kotetsu e Irori) · Kuli Kuli (traduce menù e cartelli dalla foto) · Flush (bagni pubblici vicini) · Payke (si inquadra il codice a barre e legge ingredienti di cibi e creme) · Bounce (depositi bagagli in negozi e hotel, se gli armadietti sono pieni) · Japan Travel di Navitime (percorsi coi mezzi, di riserva a Google Maps). Suica è già nel Wallet. Link all'App Store.
 
 ### checkin-andata
 tappa: 2026-11-05 15:05
