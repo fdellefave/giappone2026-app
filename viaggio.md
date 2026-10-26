@@ -778,7 +778,7 @@ con: voi due
   breve: a piedi 3′
 - 12:20 bagagli Valigie allo Spa Hotel Alpina | alloggio: alpina | deposito
   breve: check-in dalle 15
-  prenotazione: chiesto all'hotel di lasciarle tra le 12 e le 13 e di fare il check-in tra le 17 e le 18:30 (messaggio inviato il 14/10, attesa risposta)
+  prenotazione: confermato dall'hotel (26/10): tengono le valigie se arrivate verso le 12, ditelo allo staff. Se volete potete fare subito anche il check-in (le formalità), altrimenti check-in tra le 17 e le 18:30.
   Hotel moderno con onsen (le terme) sul tetto.
   alternativa: armadietti grandi nella stazione di Takayama (~¥700–900 al giorno) o nel terminal dei bus Nōhi accanto (armadietti in 3 punti), entrambi a 3′ dall'hotel.
 - 12:30 sposta Kotte Ushi | via piedi: @alpina > #kotte-ushi (Hotel → Kotte Ushi)
@@ -805,7 +805,7 @@ con: voi due
 - 17:00 sposta Hotel | via piedi: #nakabashi > @alpina (Nakabashi → hotel)
   breve: a piedi 12′
 - 17:15 hotel Check-in allo Spa Hotel Alpina | alloggio: alpina | ritiro
-  breve: riprendete le valigie dal deposito
+  breve: riprendete le valigie · check-in 17–18:30 (se non fatto alle 12)
 - 17:45 sposta Kitchen Hida | via piedi: @alpina > #kitchen-hida (Hotel → Kitchen Hida)
   breve: a piedi 12′
 - 18:00 cibo Steak House Kitchen Hida | posto: kitchen-hida | prenotare
@@ -1318,8 +1318,8 @@ camera: Matrimoniale standard, 1 letto alla francese (131–150 cm), non fumator
 orari: Check-in 15:00–23:00 · check-out 5:00–10:00 · onsen sul tetto fino all'1:00
 colazione: inclusa
 colazione orari: 7:00–9:00
-colazione nota: buffet; orario da siti di viaggio, chiesto conferma all'hotel il 14/10
-nota: Con tatuaggi visibili l'onsen può essere vietato. Messaggio del 14/10: valigie tra le 12 e le 13 del 13/11, check-in tra le 17 e le 18:30, check-out tra le 7:15 e le 7:45 del 15/11, chiesto l'orario della colazione: attesa risposta.
+colazione nota: buffet; dalle 7:00 confermato dall'hotel (26/10)
+nota: Con tatuaggi visibili l'onsen può essere vietato. Risposta del 26/10: valigie in deposito se arrivate verso le 12 (ditelo allo staff), check-in possibile già alle 12 oppure tra le 17 e le 18:30.
 app: https://secure.booking.com/mytrips.html
 maps: Spa Hotel Alpina Hida Takayama
 
@@ -1721,7 +1721,8 @@ entro: 2026-10-21
 quando: entro il 21/10 (messaggio inviato il 14/10)
 link: App Booking = https://secure.booking.com/mytrips.html
 priorità: media
-nota: Chiesto il 14/10: valigie tra le 12 e le 13 del 13/11, check-in tra le 17 e le 18:30, check-out tra le 7:15 e le 7:45 del 15/11 (treno delle 8:00) e da che ora c'è la colazione. Se non tengono le valigie: armadietti della stazione di Takayama.
+nota: Risposta del 26/10: valigie in deposito verso le 12 (ditelo allo staff), check-in già alle 12 oppure tra le 17 e le 18:30, colazione dalle 7:00.
+fatto: 2026-10-26
 
 ### risposta-hillarys
 tappa: 2026-11-15 12:20
