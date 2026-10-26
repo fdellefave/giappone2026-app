@@ -1648,7 +1648,7 @@ tipo: gestire
 entro: 2026-11-04
 quando: prima della partenza
 priorità: media
-nota: Visit Japan Web (il modulo online per l'ingresso in Giappone) e assicurazione Heymondo già fatti: tenete i QR di Visit Japan Web salvati sul telefono. La Suica (tessera ricaricabile per metro e treni) si aggiunge al Wallet; l'e-SIM (SIM virtuale con i dati) si attiva all'arrivo. Le app da scaricare sono nella voce a parte.
+nota: Visit Japan Web (il modulo online per l'ingresso in Giappone) e assicurazione Heymondo già fatti: tenete i QR di Visit Japan Web salvati sul telefono. La Suica (tessera ricaricabile per metro e treni) si aggiunge al Wallet dell'iPhone, ognuno sul suo: Wallet → + → Carta di trasporto → Suica → carica ¥3.000–5.000 (minimo ¥1.000) con la carta di Apple Pay; è subito in Modalità Express (si paga senza sbloccare il telefono). Si appoggia il telefono ai tornelli in entrata e in uscita; vale anche su bus, treni locali, konbini (minimarket) e distributori, non sullo Shinkansen (treno superveloce: biglietti già presi). Ricarica dal Wallet o in contanti alle macchinette in stazione e alle casse dei konbini; se una carta viene rifiutata provatene un'altra. Il credito avanzato non si rimborsa facilmente: gli ultimi giorni spendetelo nei konbini. L'e-SIM (SIM virtuale con i dati) si attiva all'arrivo. Le app da scaricare sono nella voce a parte.
 
 ### app
 cosa: Scaricare le app consigliate dal gruppo (tutti e due)
