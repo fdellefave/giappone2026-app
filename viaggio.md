@@ -82,7 +82,7 @@ Già verificato (non riproporre):
 - Bagagli (15/10): a testa uno zaino formato Ryanair e un trolley piccolo, sotto i 160 cm (somma dei lati): sugli Shinkansen non serve il posto con spazio bagagli.
 - Shibuya Sky: biglietti 2 settimane prima alle 00:00 giapponesi.
 - Attività extra (15/10). Regola di Federico: al massimo 2 attività al giorno sotto i €20 o fino a €45 a testa (le cose da €5–10 veloci non contano), solo se hanno senso, con voto oltre 4/5 e tante recensioni.
-  Gion Corner tolto (recensioni basse): al suo posto il tour di Gion «Storie di geisha» delle 17 (~$30, Tripadvisor 4,9 su 1.354).
+  Gion Corner tolto (recensioni basse), poi anche il tour di Gion con guida (26/10, non piaceva a Federico): al suo posto Kōdai-ji illuminato alle 16:50 e giro di Gion da soli. Kiyomizu-dera illuminato solo dal 21/11.
   Samurai & Ninja Museum promosso a tappa il 12/11 alle 17:35 (~¥3.300, Tripadvisor 4,7 su 2.186): Nishiki a quell'ora chiude.
   Scartati: Art Aquarium di Ginza (Tripadvisor 3,4), crociera Tombori a Dōtonbori (3,8), sumo show di Osaka (Sumo Studio, Hanazonochō: 4,9–5 ma ~¥9.600–12.000, sopra il tetto; Hirakuza ¥12.500), Kyoto Sumo Club (~€92), tour del sakè a Takayama (poche recensioni; ci sono già le distillerie di Sanmachi).
 - Shirakawa-go (15/10): corse Nōhi con prenotazione esaurite; 12go vendeva solo le corse senza prenotazione (8:50, 15:15), Headout e Civitatis nulla sotto €50. Presa la gita Nōhi Ainokura + Shirakawa-go dell'8:30 (rientro 15:50), pagata da Federico, ¥18.000 per 2.
@@ -597,20 +597,25 @@ con: voi due
   breve: a piedi 10′
 - 16:00 vedere Pagoda di Yasaka | posto: pagoda-yasaka
   breve: luce del tardo pomeriggio
-  La foto classica di Kyoto, dalla salita di Yasaka-dōri. Il tramonto (16:55) lo vedete durante il tour.
-- 16:25 sposta Ritrovo del tour (Shijō) | via piedi: #pagoda-yasaka > #tour-geisha (Pagoda → ritrovo del tour)
-  breve: a piedi 25′ · 2 km
-  come: giù per Yasaka-dōri fino al santuario Yasaka, poi dritti lungo Shijō-dōri (la via principale) oltre il ponte sul fiume Kamo
-- 17:00 fare Tour di Gion (quartiere delle geisha) con guida | posto: tour-geisha | prenotare
-  breve: 2 h a piedi al tramonto · finisce al santuario Yasaka
-  Al posto di Gion Corner (recensioni basse): una guida vi porta per Gion mentre si accendono le lanterne e vi spiega la vita di geisha e maiko (apprendiste geisha), le case da tè e come riconoscerle. Tappe: statua di Izumo no Okuni (la fondatrice del teatro kabuki), teatro Minamiza, ponte Tatsumi sul canale Shirakawa, [[hanami-koji]] e santuario Yasaka.
-  Tripadvisor 4,9 su 1.354 recensioni, Viator 4,9 su 2.177. In inglese.
-  costo: ~$30 a testa (~€26)
-  prenotazione: turno delle 17:00 per 2 · cancellazione gratuita fino a 24 h prima
-  attenzione: la guida aspetta col cartello davanti a Ben's Cookies e non aspetta i ritardatari · niente foto alle geisha da vicino e niente vicoli privati (multe)
-  alternativa: free tour di Gion di Civitatis (9,2 su 2.084 opinioni, gratis + mancia), ritrovo al teatro Minamiza
-- 19:00 sposta Onikai | via piedi: Yasaka Shrine, Kyoto > #onikai (Santuario Yasaka → Onikai)
-  breve: a piedi 15′ · 1,1 km lungo Shijō-dōri
+  La foto classica di Kyoto, dalla salita di Yasaka-dōri. Il tramonto (16:55) lo vedete al Kōdai-ji.
+- 16:40 sposta Kōdai-ji | via piedi: #pagoda-yasaka > #kodai-ji (Pagoda → Kōdai-ji)
+  breve: a piedi 5′ per Nene-no-michi
+  come: su per Nene-no-michi (la stradina lastricata dietro la pagoda), 400 m
+- 16:50 vedere Kōdai-ji illuminato (tempio zen) | posto: kodai-ji
+  breve: giardino, bambù e proiezioni al tramonto · ¥800
+  Tempio zen fondato dalla vedova di Toyotomi Hideyoshi (il condottiero che unificò il Giappone). In autunno di sera si illuminano il giardino di sabbia, lo stagno con la sala di legno riflessa nell'acqua e il boschetto di bambù; sul giardino di sabbia proiettano giochi di luce. Il tramonto (16:55) lo vedete dentro.
+  orari: illuminazione 23/10–13/12, dalle 17 (si entra già da prima), ultimo ingresso 21:30, chiude alle 22
+  costo: ¥800 a testa
+  attenzione: una volta usciti non si rientra · nelle sere del weekend c'è coda, il mercoledì meno
+- 18:00 sposta Gion | via piedi: #kodai-ji > #hanami-koji (Kōdai-ji → Gion)
+  breve: a piedi 10′ passando dal santuario Yasaka
+  come: giù per la scalinata verso il parco Maruyama e il santuario Yasaka (illuminato, con le lanterne), poi a destra in Hanami-kōji
+- 18:10 vedere Gion (quartiere delle geisha) | posto: hanami-koji
+  breve: giro a piedi tra le lanterne · ~45′
+  Il quartiere delle geisha e delle maiko (apprendiste geisha) all'ora in cui vanno agli appuntamenti nelle case da tè. Giro: Hanami-kōji (la via principale delle case da tè), poi a nord attraverso Shijō-dōri fino al canale Shirakawa, col ponte Tatsumi e le case di legno sull'acqua (la Gion più bella). Da lì a Onikai sono 10′.
+  attenzione: niente foto alle geisha da vicino e niente vicoli privati (cartelli con multa fino a ¥10.000)
+- 19:00 sposta Onikai | via piedi: Shirakawa Tatsumi Bridge, Kyoto > #onikai (Shirakawa → Onikai)
+  breve: a piedi 10′ · 700 m
 - 19:30 cibo Onikai (izakaya) | posto: onikai | prenotare
   breve: cena: cucina di Kyoto in osteria · prenotare alle 19:30
   Izakaya: osteria giapponese, piattini da condividere e birra. Onikai fa cucina di Kyoto con tante verdure locali. Tabelog 3,60 su 677 recensioni.
@@ -624,32 +629,30 @@ con: voi due
 - 21:20 fare Bar lungo il canale (Kiyamachi-dōri) | posto: kiyamachi
   breve: bar e osterie lungo il canale
   Bar in piedi e birra artigianale, fino a mezzanotte.
-  alternativa: [[kodai-ji]] illuminato (17–22, ¥800)
 - 23:00 sposta Hotel | via mezzi: #kiyamachi > @apa-kyoto (Kiyamachi → hotel)
   breve: taxi 12′ o metro
   come: taxi 12′ (~¥1.500), oppure 12′ a piedi fino a Shijō, metro Karasuma fino a Kyoto (4′), 7′ a piedi
 
 #### Guida
-senso: Kyoto classica: santuario dei portali rossi all'alba, tempio su palafitte, vicoli antichi, quartiere delle geisha al tramonto con una guida che ne racconta i segreti e serata nei bar lungo il canale.
+senso: Kyoto classica: santuario dei portali rossi all'alba, tempio su palafitte, vicoli antichi, tempio zen illuminato al tramonto, quartiere delle geisha tra le lanterne e serata nei bar lungo il canale.
 mangiare:
   • Colazione: Vermillion, caffè vicino all'ingresso di Fushimi Inari (dalle 9)
   • Pranzo: SANSHIKI, udon fatti a mano e tempura (Tabelog 3,53), a 4′ dalla stazione Kiyomizu-Gojō; solo contanti
   • Cena: Onikai, izakaya (osteria, piattini da condividere) di cucina di Kyoto a 3′ da Pontochō (Tabelog 3,60), alle 19:30
 prenotare:
-  • Tour di Gion con guida, turno delle 17:00 per 2 (cancellazione gratuita fino a 24 h prima)
   • Onikai ore 19:30 per 2 (online su Tabelog)
   • Contanti per SANSHIKI e i locali piccoli
 attenzione:
   • Fushimi Inari dopo le 9 si riempie: partite presto
   • Foliage in ritardo nel 2026: aceri ancora verdi a metà novembre
   • A Gion non si fotografano le geisha da vicino e non si entra nei vicoli privati (multe)
-anticipo: • Kōdai-ji illuminato (tempio con giardino e bambù illuminati, 17–22, ¥800) dopo cena
+anticipo: • Shōren-in illuminato (tempio con giardino e bambù illuminati di blu, dal 7/11, 18–22, ¥1.000) dopo cena, a 20′ da Pontochō
 stanchi: • Saltate Pontochō e Kiyamachi: cena e a letto. Non tagliate Kiyomizu
 contanti: ¥3.000–7.000 a testa
   • SANSHIKI (udon e tempura, ~¥1.000–2.000): solo contanti
-  • Kiyomizu-dera (tempio) ¥500
+  • Kiyomizu-dera (tempio) ¥500 e Kōdai-ji illuminato ¥800
   • Snack nei vicoli di Sannenzaka e un drink nei bar di Kiyamachi
-camminata: ~14 km (salita a Fushimi, tour a passo lento) · mezzi 30′ · pause: colazione 1 h 15, pranzo 1 h, tè 30′, cena 1 h 15
+camminata: ~14 km (salita a Fushimi, giro di Gion a passo lento) · mezzi 30′ · pause: colazione 1 h 15, pranzo 1 h, tè 30′, cena 1 h 15
 
 ### 2026-11-12
 percorso: kyoto
@@ -1590,17 +1593,6 @@ link: Chiama il ristorante = tel:+81577347660 ; Scheda su Tabelog = https://tabe
 priorità: media
 nota: Telefono 0577-34-7660: non ha un sito, si prenota per telefono o chiedendo alla reception dell'Alpina. Aperto 17:00–20:00, chiuso il martedì.
 
-### tour-geisha
-tappa: 2026-11-11 17:00
-cosa: Tour di Gion con guida «Storie di geisha» 11/11 ore 17:00, per 2
-tipo: prenotare
-giorno: 2026-11-11
-quando: quando volete: cancellazione gratuita fino a 24 h prima
-costo: ~$30 a testa (~€26)
-link: Prenota su GetYourGuide = https://www.getyourguide.com/kyoto-l96826/kyoto-night-walking-tour-gion-stories-of-geisha-t563565/ ; Lo stesso tour su Viator = https://www.viator.com/en-AU/tours/Kyoto/Kyoto-Gion-Night-Walking-Tour-Stories-of-Geisha/d332-175777P12 ; Recensioni (Tripadvisor) = https://www.tripadvisor.com/AttractionProductReview-g298564-d26638683-Kyoto_Gion_Geisha_District_Walking_Tour_The_Stories_of_Geisha-Kyoto_Kyoto_Prefectu.html ; Alternativa gratis + mancia (Civitatis) = https://www.civitatis.com/it/kyoto/free-tour-quartiere-gion/
-priorità: media
-nota: Sostituisce Gion Corner. Tour di 2 h in inglese, ritrovo da Ben's Cookies Kyoto Shijo (la guida ha un cartello), fine al santuario Yasaka. Scegliete il turno delle 17:00: se non c'è, va bene anche uno più tardi spostando la cena. Tripadvisor 4,9 su 1.354, Viator 4,9 su 2.177. In alternativa il free tour di Gion di Civitatis (9,2 su 2.084 opinioni, ritrovo al teatro Minamiza): gratis con mancia, orario da vedere sul sito.
-
 ### samurai-museum
 tappa: 2026-11-12 17:35
 cosa: Samurai & Ninja Museum 12/11, ingresso 17:30–17:45, per 2
@@ -1767,7 +1759,7 @@ quando: subito: prenotazioni online già aperte
 costo: ~¥4.000–6.000 a testa
 link: Prenota su Tabelog = https://tabelog.com/en/kyoto/A2601/A260201/26002004/
 priorità: media
-nota: Solo online (il telefono non risponde), serve un account Tabelog gratuito. Aperto tutti i giorni 17–23. Il tour di Gion finisce alle 19 al santuario Yasaka, a 15′ a piedi.
+nota: Solo online (il telefono non risponde), serve un account Tabelog gratuito. Aperto tutti i giorni 17–23. Il giro di Gion finisce alle 19 al canale Shirakawa, a 10′ a piedi.
 
 ### kotetsu
 tappa: 2026-11-12 19:00
@@ -1818,7 +1810,7 @@ Stima a persona in euro.
 - Treni e bus lunghi: 375 | metà dei biglietti Klook (€678) + Fuji Excursion del 9/11 (€51,68, pagato) + Kamakura
 - Trasporti in città: 171 | metro e bus con la Suica ~€6 al giorno + gita Shirakawa-go ~€49
 - Cibo (~13 giorni): 580 | ~€40 al giorno, comprese le cene da Kitchen Hida e Kyōya, più manzo di Kobe (~€75) e sushi omakase (~€54)
-- Attività e spettacoli: 236 | Skytree ~€12 · Samurai Restaurant ~€43 · tour di Gion ~€26 · Samurai & Ninja Museum ~€18 · Shibuya Sky ~€14 · teamLab · sale giochi
+- Attività e spettacoli: 214 | Skytree ~€12 · Samurai Restaurant ~€43 · Kōdai-ji ~€4 · Samurai & Ninja Museum ~€18 · Shibuya Sky ~€14 · teamLab · sale giochi
 - USJ + Express: 180 | prezzo variabile, ~€130–195 a testa
 - Onsen e sentō: 15 | l'onsen dell'Alpina è incluso
 - Assicurazione + e-SIM: 75 | assicurazione Heymondo €44 (pagata) + e-SIM
@@ -1958,7 +1950,7 @@ posti: kiyomizu-dera, sannenzaka, pagoda-yasaka, sanshiki
 ### gion
 nome: Gion e Pontochō
 cosa: il quartiere delle geisha e il vicolo delle osterie sul fiume
-posti: tour-geisha, hanami-koji, onikai, pontocho, kiyamachi
+posti: kodai-ji, hanami-koji, onikai, pontocho, kiyamachi
 
 ### arashiyama
 nome: Arashiyama
@@ -2426,21 +2418,10 @@ nome: Hanami-kōji (Gion)
 tipo: 🏮 Quartiere
 città: kyoto
 giorno: 11/11
-nota: Col tour delle 17, quando si accendono le lanterne
+nota: 18:10, quando si accendono le lanterne · poi canale Shirakawa e ponte Tatsumi
 maps: Hanamikoji Street Gion Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1956593-Reviews-Hanamikoji_Street-Kyoto_Kyoto_Prefecture_Kinki.html
 foto: Gion
-
-### tour-geisha
-nome: Tour di Gion «Storie di geisha»
-tipo: 🏮 Tour a piedi
-città: kyoto
-giorno: 11/11
-nota: 17:00, 2 h con guida · ritrovo da Ben's Cookies (Shijō), fine al santuario Yasaka · DA PRENOTARE per 2
-maps: Ben's Cookies Kyoto Shijo
-tripadvisor: https://www.tripadvisor.com/AttractionProductReview-g298564-d26638683-Kyoto_Gion_Geisha_District_Walking_Tour_The_Stories_of_Geisha-Kyoto_Kyoto_Prefectu.html
-sito: https://www.getyourguide.com/kyoto-l96826/kyoto-night-walking-tour-gion-stories-of-geisha-t563565/
-foto: Maiko
 
 ### pontocho
 nome: Pontochō
@@ -2464,15 +2445,14 @@ tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d3837245-Revi
 foto: Takase River
 
 ### kodai-ji
-nome: Kōdai-ji illuminato (facoltativo)
+nome: Kōdai-ji illuminato
 tipo: 🍁 Tempio
 città: kyoto
 giorno: 11/11
-nota: 17–22, ¥800
+nota: 16:50 · illuminazione dalle 17, ultimo ingresso 21:30 · ¥800
 maps: Kodaiji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321402-Reviews-Kodai_ji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.kodaiji.com/e_index.html
-mappa: no
 foto: Kōdai-ji
 
 ### bambu-arashiyama
