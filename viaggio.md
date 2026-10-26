@@ -103,7 +103,7 @@ Pasti veloci (15/10 sera): ogni pasto al ristorante ha la riga `veloce:` con due
 Colori dei tipi (15/10 sera, richiesta di Federico): mangiare arancione acceso, valigie grigio-marrone; striscia colorata a sinistra di ogni scheda, bollino del tipo più grande sulle foto, etichetta «Mangiare» sui pasti.
 Dettagli delle tappe (15/10 notte, richiesta di Federico): una tappa aperta alla volta; dentro, prima il riquadro pratico (orari, costo, prenotazione con icone), poi la descrizione, gli avvisi e le alternative; ogni prezzo in yen ha accanto l'euro (lo aggiunge l'app, non serve scriverlo); le alternative `veloce:` si vedono anche sulla scheda chiusa, sotto il ristorante; le cose «da fare» già fatte non si mostrano più nelle tappe (restano in «Da fare»).
 Check-in dei voli (16/10): ITA apre il check-in online 48 h prima e lo chiude 1 h prima dei voli internazionali (verificato sul sito ITA). Voci «checkin-andata» e «checkin-ritorno» in «Da fare», più promemoria sul telefono di Federico.
-Contanti (16/10, richiesta di Federico): campo `contanti` nella Guida di ogni giorno con la forchetta a testa in yen (min–max) e per cosa servono; l'app aggiunge l'euro e la mostra in testata. Piano: ¥50.000 a testa a Haneda, secondo prelievo la sera del 12/11 a Kyoto. Se cambiano le tappe a pagamento in contanti, aggiornare la forchetta del giorno.
+Contanti (16/10, richiesta di Federico): campo `contanti` nella Guida di ogni giorno con la forchetta a testa in yen (min–max) e per cosa servono; l'app aggiunge l'euro e la mostra in testata. Piano: ¥50.000 a testa a Haneda, secondo prelievo la sera del 12/11 a Kyoto. Il piano completo va detto in anticipo (5/11 e all'arrivo), non solo il giorno del prelievo (richiesta di Federico, 26/10). Se cambiano le tappe a pagamento in contanti, aggiornare la forchetta del giorno.
 Colazioni (15/10 notte): campi `colazione` negli Alloggi (orari Saibo da Expedia, Alpina da Travelocity in attesa di risposta, Super Hotel da newt.net). Ogni mattina l'app mette la «Sveglia» calcolata da sola (vedi Sintassi): se cambia l'ora d'uscita o la colazione, si aggiorna senza toccare niente.
 
 Back office (14/10): admin.html, dal PC, modifica questo file e pubblica da solo (viaggio.md + data.json generato
@@ -143,9 +143,11 @@ prenotare:
   • Passaporto
   • Visit Japan Web (il modulo online d'ingresso in Giappone): QR salvati sul telefono
   • e-SIM attiva
-  • Carta per prelevare gli yen all'arrivo (niente cambio in Italia)
+  • Carta per prelevare gli yen in Giappone (niente cambio in Italia): due prelievi a testa: ¥50.000 a Haneda all'arrivo (bastano fino al 12/11) e la sera del 12/11 a Kyoto quanto serve per avere ~¥35.000 (dal 13 al 18, Takayama e Shirakawa-go sono in campagna)
 attenzione: • Dormite nella seconda metà del volo: si atterra a mezzogiorno e domani è lunga
 contanti: nessuno: gli yen si prelevano domani all'arrivo a Haneda (aeroporto di Tokyo)
+  • Piano: due prelievi a testa: ¥50.000 a Haneda all'arrivo (bastano fino al 12/11) e la sera del 12/11 a Kyoto quanto serve per avere ~¥35.000 (dal 13 al 18, Takayama e Shirakawa-go sono in campagna)
+  • In media ~¥5.000 a testa al giorno (~€27), da ¥1.000 il 18/11 a ¥12.000 il 12/11: la cifra di ogni giorno è in testata
 camminata: ~2 km · volo ~12 h
 
 ### 2026-11-06
@@ -156,7 +158,7 @@ con: voi due
   breve: passaporti e dogana ~1 h
   Tenete pronti i QR di Visit Japan Web (il modulo online d'ingresso) per passaporti e dogana.
   Attivate l'e-SIM e la Suica sul telefono (la tessera ricaricabile per metro e treni).
-  Contanti: prelevate ¥50.000 a testa all'ATM Seven Bank (gli sportelli dei 7-Eleven) negli arrivi. Scegliete sempre «yen» / senza conversione e guardate la commissione sullo schermo prima di confermare.
+  Contanti: prelevate ¥50.000 a testa all'ATM Seven Bank (gli sportelli dei 7-Eleven) negli arrivi: bastano fino al 12/11, quando ne prelevate altri ~¥35.000 a Kyoto. Scegliete sempre «yen» / senza conversione e guardate la commissione sullo schermo prima di confermare.
 - 12:30 sposta Airbnb Shinjuku | via mezzi: Haneda Airport Terminal 3 > @airbnb-shinjuku (Aeroporto → Airbnb)
   breve: treno + metro ~55′
   come: treno Keikyu (la linea privata dell'aeroporto) fino a Daimon, metro linea Ōedo fino a Higashi-Shinjuku, 5′ a piedi
@@ -245,7 +247,7 @@ anticipo:
   • Distributori di gadget a capsule (gachapon) ovunque ad Akihabara
 stanchi: • Sulla Skytree (biglietto già preso) restate poco e andate dritti ad Akihabara · dopo cena saltate le sale giochi e la testa di Godzilla: treno JR per Shinjuku (18′) e a letto
 contanti: ¥3.000–7.000 a testa
-  • Appena atterrati: prelevate ¥50.000 a testa all'ATM Seven Bank (gli sportelli dei 7-Eleven) negli arrivi
+  • Appena atterrati: prelevate ¥50.000 a testa all'ATM Seven Bank (gli sportelli dei 7-Eleven) negli arrivi: bastano fino al 12/11 (secondo prelievo la sera del 12/11 a Kyoto, ~¥35.000)
   • Fūunji (ramen): si paga alla macchinetta dei biglietti, in contanti
   • Bancarelle di Nakamise e omikuji (bigliettini della fortuna, ¥100–200) al Senso-ji
   • Sale giochi e gachapon (capsule coi giocattolini) vanno a monete da ¥100: dentro ci sono le macchinette per cambiare le banconote
@@ -1682,7 +1684,7 @@ tipo: gestire
 giorno: 2026-11-06
 quando: all'arrivo e la sera del 12/11
 priorità: media
-nota: Stima dei contanti a testa per tutto il viaggio: ¥40.000–83.000 (forchetta di ogni giorno nei consigli del giorno). Fino al 12/11 servono al massimo ~¥50.000, dal 13 al 18 al massimo ~¥33.000. Solo contanti in molti posti: Hoto Fudo, SANSHIKI, Monkey Park, Kotetsu, Daruma, Tsukiji, Golden Gai, banchi di street food, gachapon. Prima della partenza: verificare che la carta funzioni all'estero e il limite di prelievo.
+nota: Stima dei contanti a testa per tutto il viaggio: ¥40.000–83.000 (forchetta di ogni giorno nei consigli del giorno). Fino al 12/11 servono al massimo ~¥50.000, dal 13 al 18 al massimo ~¥33.000. Massimo a testa giorno per giorno: 6/11 ¥7.000 · 7/11 ¥5.000 · 8/11 ¥7.000 · 9/11 ¥5.000 · 10/11 ¥7.000 · 11/11 ¥7.000 · 12/11 ¥12.000 · 13/11 ¥5.000 · 14/11 ¥6.000 · 15/11 ¥8.000 · 16/11 ¥3.000 · 17/11 ¥10.000 · 18/11 ¥1.000. Solo contanti in molti posti: Hoto Fudo, SANSHIKI, Monkey Park, Kotetsu, Daruma, Tsukiji, Golden Gai, banchi di street food, gachapon. Prima della partenza: verificare che la carta funzioni all'estero e il limite di prelievo.
 
 ### istruzioni-airbnb
 tappa: 2026-11-06 13:30
