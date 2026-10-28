@@ -104,6 +104,7 @@ Colori dei tipi (15/10 sera, richiesta di Federico): mangiare arancione acceso, 
 Dettagli delle tappe (15/10 notte, richiesta di Federico): una tappa aperta alla volta; dentro, prima il riquadro pratico (orari, costo, prenotazione con icone), poi la descrizione, gli avvisi e le alternative; ogni prezzo in yen ha accanto l'euro (lo aggiunge l'app, non serve scriverlo); le alternative `veloce:` si vedono anche sulla scheda chiusa, sotto il ristorante; le cose «da fare» già fatte non si mostrano più nelle tappe (restano in «Da fare»).
 Check-in dei voli (16/10): ITA apre il check-in online 48 h prima e lo chiude 1 h prima dei voli internazionali (verificato sul sito ITA). Voci «checkin-andata» e «checkin-ritorno» in «Da fare», più promemoria sul telefono di Federico.
 Contanti (16/10, richiesta di Federico): campo `contanti` nella Guida di ogni giorno con la forchetta a testa in yen (min–max) e per cosa servono; l'app aggiunge l'euro e la mostra in testata. Piano: ¥70.000 a testa a Haneda, secondo prelievo la sera del 12/11 a Kyoto. Il piano completo va detto in anticipo (5/11 e all'arrivo), non solo il giorno del prelievo (richiesta di Federico, 26/10). Se cambiano le tappe a pagamento in contanti, aggiornare la forchetta del giorno. 28/10: forchette alzate del 30% (arrotondate ai ¥500 per eccesso), prelievi portati a ¥70.000 + ~¥45.000; tolta la voce «Prelevare yen» da «Da fare» (richiesta di Federico: basta la cifra in testata).
+Bucato (28/10, richiesta di Federico: 7 cambi a testa per 13 giorni, serve lavatrice + asciugatrice): un solo bucato la sera del 12/11 all'APA di Kyoto (lavanderia all'11° piano con asciugatrici). Lavatrice con asciugatrice anche a Nagomi (col gruppo) e al Super Hotel (2° piano, 3 + 3); l'Alpina non ha lavanderia (recensione di luglio 2026); Hillarys ce l'ha ma l'asciugatrice non è confermata.
 Colazioni (15/10 notte): campi `colazione` negli Alloggi (orari Saibo da Expedia, Alpina da Travelocity in attesa di risposta, Super Hotel da newt.net). Ogni mattina l'app mette la «Sveglia» calcolata da sola (vedi Sintassi): se cambia l'ora d'uscita o la colazione, si aggiorna senza toccare niente.
 
 Back office (14/10): admin.html, dal PC, modifica questo file e pubblica da solo (viaggio.md + data.json generato
@@ -732,8 +733,11 @@ con: voi due
 - 20:15 sposta Hotel | via mezzi: #kotetsu > @apa-kyoto (Kotetsu → hotel)
   breve: taxi 10′ (~¥1.300) o metro ~25′
   come: 10′ a piedi a Shijō, metro Karasuma fino a Kyoto (4′), 7′ a piedi
-- 20:30 hotel Relax, a letto presto | alloggio: apa-kyoto
-  breve: domani treno alle 8:31
+- 20:30 hotel Lavatrice e asciugatrice, poi a letto | alloggio: apa-kyoto
+  breve: lavanderia all'11° piano · domani treno alle 8:31
+  costo: lavatrice da ¥500 a carico, asciugatrice ¥100 ogni 30′ (ne servono 60–90′): ~¥800 a carico, a monete da ¥100
+  come: caricate la lavatrice (~40′), intanto bagno pubblico interno, poi tutto in asciugatrice: pronti verso le 22:30. Se la lavatrice non mette il detersivo da sola, una bustina al konbini (minimarket) sotto l'hotel.
+  Unico bucato del viaggio: con 7 cambi a testa, da qui arrivate puliti fino al 18/11.
   L'APA ha un bagno pubblico interno (15:00–01:00), un sentō (bagno pubblico giapponese) in piccolo.
 
 #### Guida
@@ -763,6 +767,7 @@ contanti: ¥10.000–16.000 a testa
   • Metà taxi da Kinkaku-ji (~¥1.500 a testa)
   • Daigin Shokudō (~¥1.000), assaggi al mercato di Nishiki
   • Kotetsu (spiedini fritti, ~¥3.000–4.000): solo contanti
+  • Lavanderia dell'hotel ~¥800 a carico, solo monete da ¥100
   • Sera: secondo prelievo a un 7-Eleven vicino all'hotel, quanto serve per avere ~¥45.000 a testa fino alla fine (Takayama e Shirakawa-go sono in campagna)
 camminata: ~15 km (salita al parco delle scimmie), il massimo del viaggio · mezzi ~1 h 30 · pause: pranzo 1 h, museo 1 h, cena 1 h
 
@@ -1299,7 +1304,7 @@ colazione: a pagamento
 colazione prezzo: ¥1.800 a testa
 colazione orari: 6:30–10:00
 colazione nota: buffet, ultimo ordine alle 9:30. Il konbini costa molto meno (circa ¥500 a testa)
-nota: Bagno pubblico interno 6–10 e 15–1 (con tatuaggi visibili può essere vietato). Messaggio del 14/10 (arrivo tra le 22:15 e le 23 del 10/11, check-out tra le 7:30 e le 8:15 del 13/11): l'hotel ha confermato che tiene la prenotazione.
+nota: Lavanderia a gettoni all'11° piano: lavatrice da ¥500, asciugatrice ¥100 ogni 30′ (opuscolo ufficiale). Bagno pubblico interno 6–10 e 15–1 (con tatuaggi visibili può essere vietato). Messaggio del 14/10 (arrivo tra le 22:15 e le 23 del 10/11, check-out tra le 7:30 e le 8:15 del 13/11): l'hotel ha confermato che tiene la prenotazione.
 app: https://secure.booking.com/mytrips.html
 maps: APA Hotel Kyoto Eki Horikawadori
 
@@ -1324,7 +1329,7 @@ orari: Check-in 15:00–23:00 · check-out 5:00–10:00 · onsen sul tetto fino 
 colazione: inclusa
 colazione orari: 7:00–9:00
 colazione nota: buffet; dalle 7:00 confermato dall'hotel (26/10)
-nota: Con tatuaggi visibili l'onsen può essere vietato. Risposta del 26/10: valigie in deposito se arrivate verso le 12 (ditelo allo staff), check-in possibile già alle 12 oppure tra le 17 e le 18:30.
+nota: Lavanderia: niente in hotel secondo una recensione di luglio 2026 (la reception indica una lavanderia a gettoni vicina, aperta fino a mezzanotte). Con tatuaggi visibili l'onsen può essere vietato. Risposta del 26/10: valigie in deposito se arrivate verso le 12 (ditelo allo staff), check-in possibile già alle 12 oppure tra le 17 e le 18:30.
 app: https://secure.booking.com/mytrips.html
 maps: Spa Hotel Alpina Hida Takayama
 
@@ -1349,7 +1354,7 @@ orari: Check-in dalle 15:00 · check-out entro le 10:00 · deposito bagagli
 colazione: inclusa
 colazione orari: 6:45–
 colazione nota: si può anche portare via (chiederlo al personale della colazione)
-nota: Tassa di soggiorno da pagare in hotel. Wi-Fi solo nelle aree comuni. Risposte del 14/10: deposito valigie gratis prima del check-in; check-in anticipato possibile dalle 12:00 a ¥1.000, chiesto: faranno il possibile, non garantito.
+nota: Tassa di soggiorno da pagare in hotel. Wi-Fi solo nelle aree comuni. Lavanderia all'8° e al 13° piano (asciugatrice non confermata). Risposte del 14/10: deposito valigie gratis prima del check-in; check-in anticipato possibile dalle 12:00 a ¥1.000, chiesto: faranno il possibile, non garantito.
 app: https://secure.booking.com/mytrips.html
 maps: Hotel Hillarys Shinsaibashi, Osaka
 
@@ -1374,7 +1379,7 @@ orari: Check-in 15:00–24:00 (reception 7:00–24:00); dopo mezzanotte si entra
 colazione: inclusa
 colazione orari: 7:00–9:30
 colazione nota: buffet
-nota: Sulla fattura dell'hotel comparirà ¥51.062 (lo sconto Booking non viene mostrato). Tassa di soggiorno a parte. Cancellazione a pagamento dal giorno prima. Risposta dell'hotel (16/10) al messaggio del 14/10: arrivo dopo mezzanotte possibile (prenotazione prepagata) premendo un tasto del telefono notturno all'ingresso; lo staff verifica nome e telefono e dà un codice per ingresso e camera; il check-in si completa la mattina dopo, dalle 7:00. L'email automatica che parlava di cancellazione dopo le 24 non vale per le prenotazioni prepagate.
+nota: Lavanderia al 2° piano: 3 lavatrici (¥200) e 3 asciugatrici (¥100) (risposta dell'hotel su Jalan, dato del 2020). Sulla fattura dell'hotel comparirà ¥51.062 (lo sconto Booking non viene mostrato). Tassa di soggiorno a parte. Cancellazione a pagamento dal giorno prima. Risposta dell'hotel (16/10) al messaggio del 14/10: arrivo dopo mezzanotte possibile (prenotazione prepagata) premendo un tasto del telefono notturno all'ingresso; lo staff verifica nome e telefono e dà un codice per ingresso e camera; il check-in si completa la mattina dopo, dalle 7:00. L'email automatica che parlava di cancellazione dopo le 24 non vale per le prenotazioni prepagate.
 app: https://secure.booking.com/mytrips.html
 maps: Super Hotel Tokyo Hamamatsucho
 
