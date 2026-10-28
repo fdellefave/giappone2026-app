@@ -70,7 +70,7 @@ Regole di Federico:
   iOS 26 sfoca da solo una fascia sotto la barra di stato nell'app installata: la barra parte 14 px più in basso (40 px lasciavano troppo vuoto).
 
 Già verificato (non riproporre):
-- Escluse Kanazawa (doppione di Kyoto) e Nara/Himeji (al loro posto la giornata nerd a Osaka il 15/11).
+- Escluse Kanazawa (doppione di Kyoto) e Nara/Himeji (al loro posto la giornata intera a Osaka il 15/11).
 - Statua del Gundam di Odaiba rimossa ad agosto 2026; Nintendo Museum (Uji) solo a lotteria; illuminazione di
   Eikan-dō dal 20/11 (dopo Kyoto); Tofuku-ji, Kuromon, Hama-rikyu, Ōkochi-Sansō e Hida-no-Sato tolti apposta.
 - Go-kart per le strade di Tokyo escluso su richiesta (niente patente internazionale).
@@ -95,6 +95,11 @@ Già verificato (non riproporre):
   Fuji Excursion 9/11 (10/10): preso da Federico per 2, Fujisan 14:16 → Shinjuku 16:08, €51,68.
   Klook: pagati il 7/9, i biglietti vengono confermati quando apre la vendita ufficiale (un mese prima).
   10/10: tutti gli alloggi sono pagati (Nagomi compresa), €686 a testa in tutto. Assicurazione Heymondo €44 a testa e Visit Japan Web fatti.
+- Revisione dell'itinerario (28/10, decisa da Federico): 11/11 colazione al konbini, Vermillion solo pausa caffè, Sanjūsangen-dō (¥600, 8:30–17 fino al 15/11) tra Fushimi Inari e SANSHIKI, pranzo prima della salita al Kiyomizu-dera e discesa per Sannenzaka.
+  12/11 tolti Monkey Park (salita) e la sosta al mercato di Nishiki (alle 18:35 è chiuso): al loro posto Tenryū-ji alle 8:30 (giardino ¥500, porta nord sul bosco di bambù); Eikan-dō resta alternativa.
+  13/11 aggiunto lo Yatai Kaikan (carri della festa, ¥1.000, 9–17, Tripadvisor 4,1 su 637) tra Sanmachi e il ponte Nakabashi.
+  15/11 castello di Osaka (torrione ¥1.200, 9–18, ultimo ingresso 17:30) al posto di Den Den Town, doppione di Akihabara e Shibuya PARCO: Den Den Town resta come alternativa.
+  17/11 tolti Ginza, depachika e Kabuki-za: mattina Meiji Jingū (a novembre 6:10–16:10, la sera è chiuso) e Takeshita-dōri, pranzo = pasto compreso nello show, Shibuya Sky alle 16:20, incrocio di Shibuya dopo il tramonto.
 
 Messaggio del gruppo (24/10): riepilogo, quasi tutto già nel file (ritiro Fuji Excursion, navetta/bici/transfer del Cottage Pastorale solo per i loro ospiti, PDF e guide sul drive). App consigliate → voce «app» in «Da fare». Treni Kyoto–Osaka/Nara, Kyoto–Kanazawa, transfer Kanazawa–Shirakawa-go del 4/11, allergie: non vi riguardano.
 
@@ -572,34 +577,39 @@ con: voi due
   breve: a piedi 7′ + treno 5′
   come: a piedi alla stazione di Kyoto (7′), treno JR Nara line fino a Inari (5′)
 - 07:15 vedere Fushimi Inari (santuario dei portali rossi) | posto: fushimi-inari
-  breve: i 10.000 portali rossi · fino alle 9:30
+  breve: i 10.000 portali rossi · fino alle 9:15
   Santuario coi portali rossi in fila sulla collina: all'alba è vuoto. Salite fino al bivio di Yotsutsuji (~45′, vista sulla città) e tornate giù (~4 km in tutto).
   La cima aggiunge un'ora di gradini senza un panorama migliore.
   attenzione: dopo le 9 si riempie
-- 09:45 cibo Vermillion (caffè) | posto: vermillion
-  breve: colazione seduti, con calma · dalle 9
-  Caffè a due passi dall'ingresso del santuario: espresso, matcha, dolci e piatti leggeri. Ieri siete arrivati alle 22:21: pausa lunga.
-  alternativa: konbini (minimarket) davanti alla stazione JR Inari
-- 11:00 sposta Kiyomizu-dera | via mezzi: #vermillion > #kiyomizu-dera (Fushimi Inari → Kiyomizu-dera)
-  breve: treno 10′ + a piedi 25′ in salita
-  come: treno Keihan (linea locale) da Fushimi-Inari a Kiyomizu-Gojō (10′), poi a piedi su per Gojō-zaka (25′, 1,6 km)
-  alternativa: taxi dal santuario ~15′ (~¥2.000)
-- 11:35 vedere Kiyomizu-dera (tempio) | posto: kiyomizu-dera
-  breve: tempio di legno su palafitte · ~1 h
-  La terrazza di legno guarda tutta la città.
-- 12:40 sposta SANSHIKI | via piedi: #kiyomizu-dera > #sanshiki (Kiyomizu-dera → SANSHIKI)
-  breve: a piedi 20′ in discesa per Gojō-zaka · 1,6 km
-- 13:00 cibo SANSHIKI (udon e tempura) | posto: sanshiki
-  breve: pranzo · udon fatti a mano
-  Udon (spaghettoni di grano spessi) in stile Sanuki, con tempura (fritto leggero); la bukkake fredda (udon con poco brodo versato sopra) costa ~¥700. Tabelog 3,53 su 297 recensioni. Locale piccolo: all'una può esserci qualche minuto di coda (chiude alle 15).
+- 09:20 cibo Vermillion (caffè) | posto: vermillion
+  breve: pausa caffè dopo la salita · 30′
+  Caffè a due passi dall'ingresso del santuario: espresso, matcha e dolci. La colazione l'avete fatta al konbini (minimarket) prima di uscire: qui solo un caffè seduti, così a pranzo avete fame.
+  alternativa: konbini davanti alla stazione JR Inari
+- 09:55 sposta Sanjūsangen-dō | via mezzi: #vermillion > #sanjusangendo (Fushimi Inari → Sanjūsangen-dō)
+  breve: treno 6′ + a piedi 8′
+  come: 3′ a piedi alla stazione Keihan Fushimi-Inari, treno Keihan (linea locale) fino a Shichijō (6′, 3 fermate), 8′ a piedi verso est
+- 10:15 vedere Sanjūsangen-dō (tempio delle 1.001 statue) | posto: sanjusangendo
+  breve: 1.001 statue dorate in una sala di legno di 120 m · ~45′
+  La sala di legno più lunga del Giappone (120 m) con 1.001 statue dorate di Kannon (la dea buddista della misericordia) in file da dieci, e davanti 28 divinità guardiane a grandezza naturale. Uno dei «wow» di Kyoto, ed è proprio sulla linea tra Fushimi Inari e il pranzo.
+  costo: ¥600
+  orari: 8:30–17:00 (fino al 15/11)
+  attenzione: dentro niente foto e si entra senza scarpe
+- 11:00 sposta SANSHIKI | via piedi: #sanjusangendo > #sanshiki (Sanjūsangen-dō → SANSHIKI)
+  breve: a piedi 13′ · 1 km
+- 11:15 cibo SANSHIKI (udon e tempura) | posto: sanshiki
+  breve: pranzo appena apre · udon fatti a mano
+  Udon (spaghettoni di grano spessi) in stile Sanuki, con tempura (fritto leggero); la bukkake fredda (udon con poco brodo versato sopra) costa ~¥700. Tabelog 3,53 su 297 recensioni. Locale piccolo: appena apre non c'è coda.
   costo: ~¥1.000–2.000 a testa · solo contanti
   orari: 11–15 · chiuso il martedì
   veloce: [[nakau-gojo]] (donburi e udon, 5′ a piedi) o il konbini [[lawson100-gojo]] all'uscita della stazione
-- 13:55 sposta Sannenzaka | via piedi: #sanshiki > #sannenzaka (SANSHIKI → Sannenzaka)
-  breve: a piedi 15′ in salita · 1 km
-- 14:15 vedere Sannenzaka e Ninenzaka (vicoli antichi) | posto: sannenzaka
-  breve: vicoli antichi · pausa tè alle 15:00
-  Vicoli in salita con case di legno e negozietti.
+- 12:05 sposta Kiyomizu-dera | via piedi: #sanshiki > #kiyomizu-dera (SANSHIKI → Kiyomizu-dera)
+  breve: a piedi 25′ in salita per Gojō-zaka · 1,6 km
+- 12:30 vedere Kiyomizu-dera (tempio) | posto: kiyomizu-dera
+  breve: tempio di legno su palafitte · ~1 h 15
+  La terrazza di legno guarda tutta la città. Da qui si scende a piedi per i vicoli antichi, senza tornare indietro.
+- 13:45 vedere Sannenzaka e Ninenzaka (vicoli antichi) | posto: sannenzaka
+  breve: vicoli antichi in discesa · pausa tè alle 15:00
+  Vicoli in salita con case di legno e negozietti: si fanno in discesa, uscendo dal Kiyomizu-dera.
 - 15:50 sposta Pagoda di Yasaka | via piedi: Ninenzaka, Kyoto > #pagoda-yasaka (Ninenzaka → pagoda di Yasaka)
   breve: a piedi 10′
 - 16:00 vedere Pagoda di Yasaka | posto: pagoda-yasaka
@@ -641,26 +651,28 @@ con: voi due
   come: taxi 12′ (~¥1.500), oppure 12′ a piedi fino a Shijō, metro Karasuma fino a Kyoto (4′), 7′ a piedi
 
 #### Guida
-senso: Kyoto classica: santuario dei portali rossi all'alba, tempio su palafitte, vicoli antichi, tempio zen illuminato al tramonto, quartiere delle geisha tra le lanterne e serata nei bar lungo il canale.
+senso: Kyoto classica: santuario dei portali rossi all'alba, la sala delle 1.001 statue dorate, tempio su palafitte, vicoli antichi in discesa, tempio zen illuminato al tramonto, quartiere delle geisha tra le lanterne e serata nei bar lungo il canale.
 mangiare:
-  • Colazione: Vermillion, caffè vicino all'ingresso di Fushimi Inari (dalle 9)
-  • Pranzo: SANSHIKI, udon fatti a mano e tempura (Tabelog 3,53), a 4′ dalla stazione Kiyomizu-Gojō; solo contanti
+  • Colazione: konbini (minimarket) prima di uscire, poi solo un caffè da Vermillion dopo la salita a Fushimi Inari (dalle 9)
+  • Pranzo: SANSHIKI, udon fatti a mano e tempura (Tabelog 3,53), alle 11:15 appena apre, prima della salita al Kiyomizu-dera; solo contanti
   • Cena: Onikai, izakaya (osteria, piattini da condividere) di cucina di Kyoto a 3′ da Pontochō (Tabelog 3,60), alle 19:30
 prenotare:
   • Onikai ore 19:30 per 2 (online su Tabelog)
   • Contanti per SANSHIKI e i locali piccoli
 attenzione:
   • Fushimi Inari dopo le 9 si riempie: partite presto
+  • Al Sanjūsangen-dō niente foto dentro e si entra senza scarpe
   • Foliage in ritardo nel 2026: aceri ancora verdi a metà novembre
   • A Gion non si fotografano le geisha da vicino e non si entra nei vicoli privati (multe)
 anticipo: • Shōren-in illuminato (tempio con giardino e bambù illuminati di blu, dal 7/11, 18–22, ¥1.000) dopo cena, a 20′ da Pontochō
-stanchi: • Saltate Pontochō e Kiyamachi: cena e a letto. Non tagliate Kiyomizu
-contanti: ¥4.000–9.500 a testa
+stanchi:
+  • Saltate il Sanjūsangen-dō: dal caffè treno Keihan dritti fino a Kiyomizu-Gojō, la stazione di SANSHIKI
+  • Saltate Pontochō e Kiyamachi: cena e a letto. Non tagliate Kiyomizu
+contanti: ¥4.500–10.000 a testa
   • SANSHIKI (udon e tempura, ~¥1.000–2.000): solo contanti
-  • Kiyomizu-dera (tempio) ¥500 e Kōdai-ji illuminato ¥800
+  • Templi: Sanjūsangen-dō ¥600, Kiyomizu-dera ¥500 e Kōdai-ji illuminato ¥800
   • Snack nei vicoli di Sannenzaka e un drink nei bar di Kiyamachi
-camminata: ~15 km (salita a Fushimi, giro di Gion a passo lento) · mezzi 30′ · pause: colazione 1 h 15, pranzo 55′, tè 30′, cena 1 h 15
-
+camminata: ~15 km (salita a Fushimi, giro di Gion a passo lento) · mezzi 30′ · pause: caffè 30′, pranzo 50′, tè 30′, cena 1 h 15
 ### 2026-11-12
 percorso: kyoto
 dorme: apa-kyoto
@@ -671,43 +683,44 @@ con: voi due
 - 07:50 vedere Bosco di bambù di Arashiyama | posto: bambu-arashiyama
   breve: vuoto solo a quest'ora
   Arashiyama è il quartiere verde a ovest di Kyoto.
-  alternativa: [[tenryu-ji]] (giardino zen con laghetto), apre alle 8:30
-- 08:30 sposta Monkey Park | via piedi: #bambu-arashiyama > #monkey-park (Bambù → Monkey Park)
-  breve: a piedi 15′, dal ponte Togetsukyō
-- 09:00 vedere Monkey Park (parco delle scimmie) | posto: monkey-park
-  breve: scimmie libere e vista su Kyoto
-  20–30′ di salita.
-  costo: ¥800, solo contanti
-- 10:00 sposta Ryōan-ji | via mezzi: Arashiyama Station Randen, Kyoto > #ryoan-ji (Monkey Park → Ryōan-ji)
+- 08:25 sposta Tenryū-ji | via piedi: #bambu-arashiyama > #tenryu-ji (Bambù → Tenryū-ji)
+  breve: a piedi 3′ · porta nord, in cima al bosco
+- 08:30 vedere Tenryū-ji (giardino zen) | posto: tenryu-ji
+  breve: giardino col laghetto e le colline dietro · ~50′
+  Tempio zen patrimonio UNESCO: il giardino Sōgen-chi, un laghetto del Trecento con le colline di Arashiyama come sfondo, è tra i più belli di Kyoto. Si entra dalla porta nord, in cima al bosco di bambù, e si esce dal portone principale sulla via di Arashiyama.
+  Uscendo, il ponte Togetsukyō (il ponte sul fiume con la montagna dietro, la foto classica di Arashiyama) è a 5′: deviazione di 10′ prima del tram.
+  costo: giardino ¥500 (le sale interne sono +¥300, non servono)
+  orari: 8:30–17:00
+- 09:20 sposta Ryōan-ji | via mezzi: Arashiyama Station Randen, Kyoto > #ryoan-ji (Tenryū-ji → Ryōan-ji)
   breve: tram storico ~30′
-  come: 10′ a piedi alla stazione del Randen (il tram storico di Kyoto) di Arashiyama, cambio a Katabiranotsuji, fino a Ryōanji (~30′), 7′ a piedi
-- 10:50 vedere Ryōan-ji (tempio del giardino zen) | posto: ryoan-ji
+  come: la stazione del Randen (il tram storico di Kyoto) di Arashiyama è davanti al portone del tempio: cambio a Katabiranotsuji, fino a Ryōanji (~20′), 7′ a piedi
+- 10:05 vedere Ryōan-ji (tempio del giardino zen) | posto: ryoan-ji
   breve: il giardino zen delle 15 rocce · 30–40′
   costo: ¥600
-- 11:30 sposta Kinkaku-ji | via piedi: #ryoan-ji > #kinkaku-ji (Ryōan-ji → Kinkaku-ji)
+- 10:45 sposta Kinkaku-ji | via piedi: #ryoan-ji > #kinkaku-ji (Ryōan-ji → Kinkaku-ji)
   breve: a piedi 20′ · 1,5 km
-- 12:00 vedere Kinkaku-ji (Padiglione d'Oro) | posto: kinkaku-ji
-  breve: tempio d'oro sul laghetto · 40′
+- 11:05 vedere Kinkaku-ji (Padiglione d'Oro) | posto: kinkaku-ji
+  breve: tempio d'oro sul laghetto · 45′
   Tempio ricoperto di foglia d'oro su un laghetto.
   costo: ¥500
-- 12:45 sposta Daigin Shokudō | via taxi: #kinkaku-ji > #daigin (Kinkaku-ji → Daigin Shokudō)
+- 11:55 sposta Daigin Shokudō | via taxi: #kinkaku-ji > #daigin (Kinkaku-ji → Daigin Shokudō)
   breve: taxi 25′ o bus 40′
   costo: taxi ~¥3.000 (7 km) · bus 204 con la Suica
-- 13:15 cibo Daigin Shokudō (trattoria) | posto: daigin
+- 12:20 cibo Daigin Shokudō (trattoria) | posto: daigin
   breve: pranzo veloce ed economico · ~¥1.000
   Shokudō: la trattoria giapponese di quartiere, con piatti unici (teishoku: riso, zuppa, sottaceti e un piatto di carne o pesce), udon e donburi (ciotole di riso condito). Menù in inglese e piatti finti in vetrina; insegna arancione e nera senza scritte in inglese. Omen (udon famosi) oggi è chiuso: è giovedì.
   orari: 11–20:40 · chiuso il mercoledì
   veloce: [[fresco-ginkakuji]] (supermercato aperto 24 h: sushi e bento) o il konbini [[famima-ginkakuji]]
-- 14:15 vedere Ginkaku-ji (Padiglione d'Argento) | posto: ginkaku-ji
+- 13:25 vedere Ginkaku-ji (Padiglione d'Argento) | posto: ginkaku-ji
   breve: tempio con giardino di sabbia e muschio · 45′
   Giardino di sabbia e muschio.
   costo: ¥500
-- 15:00 vedere Sentiero del Filosofo | posto: sentiero-filosofo | via piedi: #ginkaku-ji > #nanzen-ji (Ginkaku-ji → Nanzen-ji)
-  breve: 2 km lungo un canale alberato · ~35′
+- 14:15 vedere Sentiero del Filosofo | posto: sentiero-filosofo | via piedi: #ginkaku-ji > #nanzen-ji (Ginkaku-ji → Nanzen-ji)
+  breve: 2 km lungo un canale alberato · ~45′ con le soste
   Si passa da [[honen-in]] (tempietto nel bosco, gratis).
-  alternativa: [[eikan-do]] (il tempio degli aceri), ultimo ingresso alle 16
-- 15:50 vedere Nanzen-ji (tempio zen) | posto: nanzen-ji
-  breve: grande tempio zen con acquedotto dell'800
+  alternativa: [[eikan-do]] (il tempio degli aceri, 5′ prima di Nanzen-ji), ultimo ingresso alle 16: c'è tempo, ma vale solo se gli aceri sono già rossi
+- 15:05 vedere Nanzen-ji (tempio zen) | posto: nanzen-ji
+  breve: grande tempio zen con acquedotto dell'800 · con calma
   orari: ultimo ingresso 16:40
 - 16:35 sposta Keage Incline | via piedi: #nanzen-ji > #keage-incline (Nanzen-ji → Keage Incline)
   breve: a piedi 8′
@@ -723,11 +736,8 @@ con: voi due
   costo: biglietto base ~¥3.300 a testa (~€18), un po' meno online
   orari: visite guidate ogni 15′; chiusura tra le 18:30 e le 19:30 a seconda delle fonti: prenotate l'ingresso delle 17:30–17:45 e controllate l'orario sul sito
   prenotazione: biglietto base per 2, sul sito ufficiale o su GetYourGuide
-- 18:35 cibo Mercato di Nishiki | posto: nishiki | via piedi: #samurai-ninja-museum > #nishiki (Museo → Nishiki)
-  breve: di passaggio verso la cena · a 4′ dal museo
-  Via coperta di banchi di cibo: chiude verso le 17–18, a quest'ora resta aperto solo qualche banco. Assaggio veloce se trovate qualcosa, poi dritti al ramen.
-- 19:00 cibo Kotetsu (spiedini fritti) | posto: kotetsu | prenotare | via piedi: #nishiki > #kotetsu (Nishiki → Kotetsu)
-  breve: cena: kushiage · a piedi 12′ · prenotare alle 19:00
+- 19:00 cibo Kotetsu (spiedini fritti) | posto: kotetsu | prenotare | via piedi: #samurai-ninja-museum > #kotetsu (Museo → Kotetsu)
+  breve: cena: kushiage · a piedi 15′ dal museo · prenotare alle 19:00
   Kushiage: spiedini di carne, pesce e verdure impanati e fritti al momento, uno alla volta. Tabelog 3,58; le recensioni lo chiamano il locale di kushiage più amato di Kyoto.
   costo: ~¥3.000–4.000 a testa · solo contanti
   orari: 18–24 · chiuso il mercoledì
@@ -745,36 +755,34 @@ con: voi due
   L'APA ha un bagno pubblico interno (15:00–01:00), un sentō (bagno pubblico giapponese) in piccolo.
 
 #### Guida
-senso: Kyoto natura e zen: bambù e scimmie ad Arashiyama, giardino di rocce, Padiglione d'Oro e d'Argento, Sentiero del Filosofo, tramonto sui vecchi binari tra gli alberi, poi armature e katane al museo dei samurai. È il giorno più pesante.
+senso: Kyoto natura e zen: bosco di bambù e giardino di Tenryū-ji ad Arashiyama, giardino di rocce, Padiglione d'Oro e d'Argento, Sentiero del Filosofo, tramonto sui vecchi binari tra gli alberi, poi armature e katane al museo dei samurai. Giornata lunga ma senza salite.
 mangiare:
   • Pranzo: Daigin Shokudō, trattoria economica sotto il Padiglione d'Argento (~¥1.000). Omen (udon famosi) oggi è chiuso: è giovedì
   • Cena: Kotetsu, kushiage (spiedini impanati e fritti al momento), Tabelog 3,58, alle 19:00; solo contanti
 prenotare:
   • Samurai & Ninja Museum, ingresso delle 17:30–17:45 per 2 (~¥3.300 a testa)
   • Kotetsu ore 19:00 per 2 (online su Tabelog)
-  • Contanti: il parco delle scimmie (¥800) accetta solo contanti
-  • Scarpe comode: ~15 km
+  • Scarpe comode: ~14 km
 attenzione:
   • Il bosco di bambù è vuoto solo prima delle 8:30
+  • Tenryū-ji apre alle 8:30: si entra dalla porta nord, in cima al bosco
   • Nanzen-ji: ultimo ingresso 16:40
 anticipo:
-  • Tenryū-ji (giardino zen con laghetto) alle 8:30
-  • Eikan-dō (il tempio degli aceri) fino alle 16
+  • Ponte Togetsukyō (la foto classica di Arashiyama), 5′ dal portone di Tenryū-ji
+  • Eikan-dō (il tempio degli aceri) fino alle 16, se gli aceri sono già rossi
 stanchi:
   • Taxi da Ginkaku-ji a Nanzen-ji, saltando il Sentiero (−2,5 km)
   • Il museo dei samurai si fa quasi da fermi: non è quello da tagliare
   • Se piove: Toei Kyoto Studio Park (set dei film di samurai con spettacoli di ninja)
-contanti: ¥10.000–16.000 a testa
+contanti: ¥9.500–15.000 a testa
   • Giornata più cara in contanti
-  • Monkey Park (parco delle scimmie) ¥800, solo contanti
-  • Templi: Ryōan-ji ¥600, Kinkaku-ji ¥500, Ginkaku-ji ¥500
+  • Templi: Tenryū-ji ¥500, Ryōan-ji ¥600, Kinkaku-ji ¥500, Ginkaku-ji ¥500
   • Metà taxi da Kinkaku-ji (~¥1.500 a testa)
-  • Daigin Shokudō (~¥1.000), assaggi al mercato di Nishiki
+  • Daigin Shokudō (~¥1.000)
   • Kotetsu (spiedini fritti, ~¥3.000–4.000): solo contanti
   • Lavanderia dell'hotel ~¥800 a carico, solo monete da ¥100
   • Sera: secondo prelievo a un 7-Eleven vicino all'hotel, quanto serve per avere ~¥45.000 a testa fino alla fine (Takayama e Shirakawa-go sono in campagna)
-camminata: ~15 km (salita al parco delle scimmie), il massimo del viaggio · mezzi ~1 h 30 · pause: pranzo 1 h, museo 1 h, cena 1 h
-
+camminata: ~14 km senza salite · mezzi ~1 h 30 · pause: pranzo 1 h, museo 1 h, cena 1 h
 ### 2026-11-13
 percorso: kyoto > takayama
 dorme: alpina
@@ -809,11 +817,20 @@ con: voi due
 - 14:25 sposta Sanmachi-suji | via piedi: #jinya > #sanmachi (Jinya → Sanmachi)
   breve: a piedi 5′
 - 14:30 vedere Sanmachi (vie antiche) e distillerie di sakè | posto: sanmachi
-  breve: case di legno + assaggi di sakè (vino di riso)
+  breve: case di legno + assaggi di sakè (vino di riso) · 1 h
   Le 3 vie di case di legno di epoca Edo (1603–1868).
-  Distillerie: [[sake-harada]] (~¥450 con bicchierino ricordo), [[sake-hirase]] (~¥1.000 per oltre 20 sakè), [[sake-funasaka]] (assaggi self-service).
+  Distillerie: [[sake-harada]] (~¥450 con bicchierino ricordo), [[sake-hirase]] (~¥1.000 per oltre 20 sakè), [[sake-funasaka]] (assaggi self-service). In un'ora ne fate due con calma.
   attenzione: niente profumo forte prima delle distillerie (rovina il sakè)
   alternativa: [[showa-kan]] (museo della vita anni '50)
+- 15:30 sposta Yatai Kaikan | via piedi: #sanmachi > #yatai-kaikan (Sanmachi → Yatai Kaikan)
+  breve: a piedi 10′ verso nord · 800 m
+- 15:40 vedere Yatai Kaikan (i carri della festa) | posto: yatai-kaikan
+  breve: carri della festa alti come case · 45′
+  La sala accanto al santuario Sakurayama Hachiman con 4 degli 11 yatai (i carri della festa d'autunno di Takayama, di legno laccato e intagliato, vecchi di secoli), esposti a rotazione. Il biglietto comprende la sala accanto, coi modellini dei templi di Nikkō. Il santuario fuori è gratis.
+  costo: ¥1.000
+  orari: 9–17
+- 16:25 sposta Ponte Nakabashi | via piedi: #yatai-kaikan > #nakabashi (Yatai Kaikan → Nakabashi)
+  breve: a piedi 15′ lungo il fiume Miyagawa · 1,2 km
 - 16:40 vedere Ponte Nakabashi | posto: nakabashi
   breve: ponte rosso · tramonto 16:50
 - 17:00 sposta Hotel | via piedi: #nakabashi > @alpina (Nakabashi → hotel)
@@ -835,7 +852,7 @@ con: voi due
   attenzione: con tatuaggi visibili l'ingresso può essere negato
 
 #### Guida
-senso: Treno panoramico tra le montagne fino a Takayama: città antica di legno, assaggi di sakè, manzo di Hida e terme sul tetto dell'hotel.
+senso: Treno panoramico tra le montagne fino a Takayama: città antica di legno, assaggi di sakè, i carri giganti della festa di Takayama, manzo di Hida e terme sul tetto dell'hotel.
 mangiare:
   • Pranzo: sushi di Hida beef (manzo locale scottato su riso) da Kotte Ushi (Tabelog 3,43)
   • Cena: Steak House Kitchen Hida (Tabelog 3,78), la bistecca di Hida beef più votata della città, ~€55 a testa
@@ -844,17 +861,16 @@ prenotare:
   • Treno Hida 25 già pagato
 attenzione:
   • Sul treno chiedete da che lato si vede il fiume
-  • Il palazzo Jinya chiude alle 16:30
+  • Il palazzo Jinya chiude alle 16:30, lo Yatai Kaikan (sala dei carri) alle 17
   • Prima delle distillerie niente profumo forte (rovina il sakè)
   • Takayama la sera si spegne presto
 anticipo: • Showa-kan (museo della vita anni '50: giocattoli e negozi d'epoca)
-stanchi: • Saltate il Jinya, solo Sanmachi (le vie antiche); la sera resta uguale
-contanti: ¥3.500–6.500 a testa
+stanchi: • Saltate il Jinya: Sanmachi (le vie antiche) e i carri bastano; la sera resta uguale
+contanti: ¥4.500–7.500 a testa
   • Kotte Ushi (sushi di manzo)
-  • Takayama Jinya (palazzo del governatore) ¥440
+  • Takayama Jinya (palazzo del governatore) ¥440 e Yatai Kaikan (sala dei carri) ¥1.000
   • Assaggi di sakè e snack nelle vie di Sanmachi
-camminata: ~8 km · treno 3 h 45 seduti · pause: pranzo 45′, cena 1 h 30, terme 1 h
-
+camminata: ~10 km · treno 3 h 45 seduti · pause: pranzo 45′, cena 1 h 30, terme 1 h
 ### 2026-11-14
 percorso: takayama > shirakawago > takayama
 dorme: alpina
@@ -954,14 +970,21 @@ con: voi due
   breve: pranzo: la frittata-pizza di Osaka · niente prenotazioni, c'è coda
   Okonomiyaki: la frittata-pizza di Osaka cotta sulla piastra; negiyaki: la versione al cipollotto. Tabelog 3,72, il più votato di Namba. La domenica apre alle 12: a pranzo la coda è più corta che la sera.
   veloce: [[wanaka-dotonbori]] (takoyaki, polpette di polpo, con posti a sedere) o il konbini [[famima-dotonbori]]
-- 13:45 sposta Den Den Town | via piedi: #fukutaro > #den-den-town (Fukutaro → Den Den Town)
-  breve: a piedi 12′
-- 14:00 fare Den Den Town (quartiere nerd) | posto: den-den-town
-  breve: videogiochi retro, manga e figure
-  L'Akihabara di Osaka: [[super-potato]] (videogiochi retro, weekend 10–20), [[mandarake]] (manga, figure e giochi usati, 12–20), Animate (negozio di anime), sale giochi.
-- 15:15 sposta Shinsekai | via piedi: #den-den-town > #shinsekai (Den Den Town → Shinsekai)
-  breve: a piedi 12′
-- 15:30 vedere Shinsekai (quartiere retrò) | posto: shinsekai
+- 13:45 sposta Castello di Osaka | via mezzi: #fukutaro > #castello-osaka (Fukutaro → castello)
+  breve: metro ~15′ + a piedi 15′
+  come: 5′ a piedi alla stazione Nippombashi, metro Sakaisuji fino a Sakaisuji-Honmachi (2 fermate), metro Chūō fino a Tanimachi 4-chōme (1 fermata), 15′ a piedi nel parco fino al torrione
+  alternativa: taxi ~15′
+- 14:20 vedere Castello di Osaka (torrione) | posto: castello-osaka
+  breve: il castello dei samurai · museo e vista dall'8° piano · ~1 h 15
+  Costruito da Toyotomi Hideyoshi (il condottiero che unificò il Giappone, lo stesso del Kōdai-ji di Kyoto) e conquistato dai Tokugawa nell'assedio del 1615. Il torrione di oggi è una ricostruzione del 1931: dentro c'è il museo della sua storia (armature, armi, paraventi dipinti con la battaglia) e dall'8° piano si vede tutta Osaka. Fuori, le mura coi blocchi di pietra giganti e i fossati.
+  costo: ¥1.200
+  orari: 9–18, ultimo ingresso 17:30
+  alternativa: se oggi preferite i videogiochi al castello, [[den-den-town]] (l'Akihabara di Osaka, 12′ a piedi dal pranzo e 12′ da Shinsekai): [[super-potato]] (videogiochi retro, weekend 10–20), [[mandarake]] (manga, figure e giochi usati, 12–20), sale giochi
+- 15:35 sposta Shinsekai | via mezzi: #castello-osaka > #shinsekai (Castello → Shinsekai)
+  breve: a piedi 15′ + metro 8′ + a piedi 10′
+  come: 15′ a piedi nel parco fino a Tanimachi 4-chōme, metro Tanimachi fino a Tennōji (8′), 10′ a piedi
+  alternativa: taxi ~15′
+- 16:10 vedere Shinsekai (quartiere retrò) | posto: shinsekai
   breve: quartiere retrò anni '50 · torre al tramonto (16:55)
   [[tsutenkaku]] al tramonto (¥1.000) e sale giochi d'epoca.
   Assaggio di kushikatsu (spiedini fritti) da [[daruma]], solo contanti.
@@ -994,7 +1017,7 @@ con: voi due
   breve: a piedi 15′
 
 #### Guida
-senso: Giornata nerd a Osaka: okonomiyaki, quartiere dei videogiochi retro, quartiere anni '50 con la torre, cena di manzo di Kobe, poi neon di Dōtonbori e sale giochi la sera.
+senso: Osaka in un giorno: okonomiyaki, il castello dei samurai, quartiere anni '50 con la torre al tramonto, cena di manzo di Kobe, poi neon di Dōtonbori e sale giochi la sera.
 mangiare:
   • Pranzo: Fukutaro, okonomiyaki (frittata-pizza cotta sulla piastra), Tabelog 3,72; la domenica apre alle 12, c'è coda
   • Spuntino: kushikatsu (spiedini fritti) da Daruma a Shinsekai (Tabelog 3,46, contanti)
@@ -1008,15 +1031,14 @@ attenzione:
   • Da Daruma è vietato intingere due volte nella salsa comune
   • Domani USJ: non fate troppo tardi
 anticipo:
-  • Castello di Osaka (bello da fuori; dentro museo dei samurai, 1 h)
+  • Den Den Town (l'Akihabara di Osaka: videogiochi retro, manga e figure) al posto del castello, se preferite
   • Namba Grand Kagetsu (teatro della comicità di Osaka: in giapponese ma molto fisico)
-stanchi: • Saltate Shinsekai: Den Den Town, cena e Dōtonbori sono vicini all'hotel
-contanti: ¥4.000–10.500 a testa
-  • Den Den Town (quartiere nerd): gachapon e negozietti di usato
+stanchi: • Al posto del castello Den Den Town: 12′ a piedi dal pranzo e 12′ fino a Shinsekai, niente metro
+contanti: ¥5.000–11.000 a testa
+  • Castello di Osaka (torrione) ¥1.200
   • Daruma (spiedini fritti) a Shinsekai: solo contanti
   • Takoyaki (polpette di polpo) a Dōtonbori e giochi a Round1
-camminata: ~11 km · treni ~4 h al mattino + metro 45′ · pause: pranzo 1 h, check-in 30′, cena 1 h 30
-
+camminata: ~13 km (il parco del castello è grande) · treni ~4 h al mattino + metro 1 h · pause: pranzo 1 h, check-in 30′, cena 1 h 30
 ### 2026-11-16
 percorso: osaka > tokyo
 dorme: super-hotel
@@ -1089,43 +1111,45 @@ con: voi due
   breve: colazione: tonno, frittata dolce, ciotole di pesce crudo · contanti
   L'ex mercato del pesce. Tamagoyaki: frittata dolce arrotolata.
   Dove: Maguroya Kurogin (tonno, dalle 7:30), Yamachō (tamagoyaki su stecco ~¥200), Marukita (kaisendon, ciotola di riso col pesce crudo, ~¥2.500). I banchi di sushi seduti aprono verso le 10:30: la cena di sushi è stasera.
-- 10:15 sposta Ginza | via piedi: #tsukiji > Ginza, Tokyo (Tsukiji → Ginza)
+- 10:15 sposta Meiji Jingū | via mezzi: #tsukiji > #meiji-jingu (Tsukiji → Meiji Jingū)
+  breve: metro ~30′
+  come: metro Hibiya line dalla stazione Tsukiji a Kasumigaseki (4 fermate), metro Chiyoda line fino a Meiji-jingūmae (5 fermate), 5′ a piedi fino al grande torii (il portale) di Harajuku
+- 10:45 vedere Meiji Jingū (santuario) | posto: meiji-jingu
+  breve: il santuario più importante di Tokyo, nel bosco · ~1 h
+  Santuario shintoista dell'imperatore Meiji (quello che nell'Ottocento aprì e modernizzò il Giappone), in un bosco in mezzo alla città. Dal grande torii di legno vicino alla stazione di Harajuku sono ~10′ di viale tra gli alberi, coi barili di sakè offerti al santuario; nel cortile si scrivono i desideri sulle tavolette di legno (ema).
+  A metà novembre è la stagione dello Shichi-Go-San (la festa dei bambini di 3, 5 e 7 anni): famiglie coi bambini in kimono.
+  orari: a novembre 6:10–16:10 · gratis
+- 11:50 sposta Takeshita-dōri | via piedi: #meiji-jingu > #takeshita-dori (Meiji Jingū → Takeshita-dōri)
   breve: a piedi 12′
-- 10:30 vedere Ginza | foto: Ginza | dove: Ginza, Tokyo | zona: ginza
-  breve: vetrine e grandi magazzini
-  Il quartiere elegante dei grandi magazzini.
-  alternativa: [[kabuki-za]], un solo atto di teatro kabuki (~1 h, sottotitoli in inglese)
-- 11:45 cibo Depachika (food hall) di Ginza Mitsukoshi | posto: depachika-ginza
-  breve: pranzo nella food hall · senza perdere tempo
-  Depachika: i piani interrati dei grandi magazzini, enormi food hall di piatti pronti.
-- 12:55 sposta Samurai Restaurant | via mezzi: #depachika-ginza > #samurai-restaurant (Ginza → Samurai Restaurant)
-  breve: metro 17′ + a piedi 8′
-  come: metro linea Marunouchi da Ginza a Shinjuku-sanchōme, poi a piedi verso Kabukichō
+- 12:05 vedere Harajuku (quartiere della moda giovane) | posto: takeshita-dori
+  breve: via Takeshita · crêpe · ~50′
+  Takeshita-dōri: moda kawaii, dolci colorati, crêpe e purikura (cabine per foto-adesivi). Qui solo uno spuntino: il pranzo è il pasto compreso nello show.
+- 13:00 sposta Samurai Restaurant | via mezzi: Harajuku Station, Tokyo > #samurai-restaurant (Harajuku → Samurai Restaurant)
+  breve: treno 4′ + a piedi 12′
+  come: treno JR Yamanote (la linea circolare di Tokyo) da Harajuku a Shinjuku (2 fermate), uscita est, poi a piedi verso Kabukichō
 - 13:30 fare Samurai Restaurant Time | posto: samurai-restaurant | prenotare
-  breve: show di samurai e ninja · ingresso 13:30, show 14:00–15:40
-  Show kitsch con tamburi taiko, samurai, ninja e carri al neon a Kabukichō (il quartiere dei locali notturni), nei locali dell'ex Robot Restaurant. Compresi un pasto o 2 drink.
+  breve: show di samurai e ninja · ingresso 13:30, show 14:00–15:40 · è anche il pranzo
+  Show kitsch con tamburi taiko, samurai, ninja e carri al neon a Kabukichō (il quartiere dei locali notturni), nei locali dell'ex Robot Restaurant. Compresi un pasto o 2 drink: scegliete il pasto, è il vostro pranzo.
   costo: ~¥10.000 a testa (prezzo pieno sul sito ufficiale; online ci sono sconti)
   prenotazione: spettacolo delle 14:00 per 2, ingresso dalle 13:30 · portate un documento
   attenzione: lo spettacolo serale delle 19 non c'è più: gli spettacoli sono alle 10:50, 14:00 e 16:30
 - 15:40 sposta Shibuya Sky | via mezzi: #samurai-restaurant > #shibuya-sky (Kabukichō → Shibuya Sky)
   breve: treno 7′ + a piedi ~15′
-  come: a piedi alla stazione JR di Shinjuku (8′), treno JR Yamanote (la linea circolare di Tokyo) fino a Shibuya (7′), Shibuya Scramble Square è sopra la stazione
-- 16:00 vedere Shibuya Sky (terrazza panoramica) | posto: shibuya-sky | prenotare
+  come: a piedi alla stazione JR di Shinjuku (8′), treno JR Yamanote fino a Shibuya (7′), Shibuya Scramble Square è sopra la stazione
+- 16:20 vedere Shibuya Sky (terrazza panoramica) | posto: shibuya-sky | prenotare
   breve: sul tetto di un grattacielo · tramonto alle 16:31
-  Si arriva con la luce del giorno, si vede il tramonto e Tokyo che si accende.
-  prenotazione: biglietti dal 2/11 alle 16:00 italiane, ingresso 16:00, per 2
-- 17:20 fare Shibuya PARCO | posto: shibuya-parco
+  Si arriva con la luce del giorno, si vede il tramonto e Tokyo che si accende. Dall'alto si vede anche l'incrocio di Shibuya.
+  Arrivando verso le 16:05 avete un quarto d'ora per la statua di Hachikō (il cane fedele), davanti all'uscita omonima della stazione.
+  prenotazione: biglietti dal 2/11 alle 16:00 italiane, ingresso 16:20 per 2 (se è finito, 16:00: uscite subito dallo show)
+- 17:30 vedere Incrocio di Shibuya | posto: shibuya-crossing | via piedi: #shibuya-sky > #shibuya-crossing (Shibuya Sky → incrocio)
+  breve: l'incrocio più famoso del mondo, coi neon accesi · 15′
+  A ogni verde migliaia di persone attraversano insieme da tutte le direzioni. Attraversatelo in diagonale, poi guardate la folla dall'alto dal corridoio vetrato tra la stazione JR e Shibuya Mark City.
+- 17:45 fare Shibuya PARCO | posto: shibuya-parco
   breve: 6° piano: Nintendo, Pokémon, Capcom, Jump
-  A 5′ a piedi da Shibuya Sky.
-- 17:50 sposta Harajuku | via piedi: #shibuya-parco > #takeshita-dori (Shibuya → Harajuku a piedi)
-  breve: a piedi 20′ lungo Cat Street
-  [[cat-street]]: via pedonale di negozi streetwear tra Shibuya e Harajuku.
-- 18:10 vedere Harajuku (quartiere della moda giovane) | posto: takeshita-dori
-  breve: via Takeshita illuminata · 30′
-  Takeshita-dōri: moda kawaii, crêpe e purikura (cabine per foto-adesivi). Il santuario Meiji chiude al tramonto: a quest'ora non si visita.
-- 18:40 sposta Sushi Tokyo Ten, Shibuya | via mezzi: Harajuku Station, Tokyo > #sushi-ten (Harajuku → Shibuya Stream)
-  breve: treno 3′ + a piedi 8′
-  come: treno JR Yamanote da Harajuku a Shibuya (1 fermata), uscita sud verso Shibuya Stream (il grattacielo sul fiume), 3° piano
+  A 5′ a piedi dall'incrocio.
+- 18:40 sposta Sushi Tokyo Ten, Shibuya | via piedi: #shibuya-parco > #sushi-ten (PARCO → Shibuya Stream)
+  breve: a piedi 15′ · 1,2 km
+  come: giù verso la stazione e dall'altra parte, lato sud, fino a Shibuya Stream (il grattacielo sul fiume), 3° piano
 - 19:00 cibo Sushi Tokyo Ten (sushi omakase) | posto: sushi-ten | prenotare
   breve: cena speciale: sushi scelto dal cuoco · prenotare alle 19:00
   Omakase: «lascio fare a te», il cuoco serve al bancone un pezzo alla volta, ~90′. Tabelog 3,56.
@@ -1149,31 +1173,29 @@ con: voi due
   come: treno JR Yamanote da Shinjuku a Hamamatsuchō
 
 #### Guida
-senso: Ultimo giorno pieno a Tokyo: mercato del pesce, Ginza, show dei samurai nel primo pomeriggio, terrazza panoramica di Shibuya al tramonto, Harajuku illuminata, cena di sushi e bar minuscoli a Shinjuku.
+senso: Ultimo giorno pieno a Tokyo: colazione al mercato del pesce, santuario Meiji nel bosco e Harajuku, show dei samurai nel primo pomeriggio, Shibuya dall'alto al tramonto e il suo incrocio coi neon, cena di sushi e bar minuscoli a Shinjuku.
 mangiare:
   • Colazione: mercato di Tsukiji (tonno, frittata dolce, ciotole di pesce crudo; contanti)
-  • Pranzo: depachika di Ginza (food hall nei sotterranei dei grandi magazzini)
-  • Nello show sono compresi un pasto o 2 drink
+  • Spuntino: crêpe a Takeshita-dōri
+  • Pranzo: il pasto compreso nello show dei samurai (sceglietelo al posto dei 2 drink)
   • Cena speciale: sushi omakase (scelto dal cuoco) da Sushi Tokyo Ten a Shibuya, ¥9.900 (~€54), alle 19:00; dopo, una birra a Omoide Yokochō (vicolo degli spiedini)
 prenotare:
-  • Shibuya Sky: biglietti il 2/11 alle 16:00 italiane, ingresso 16:00, per 2
+  • Shibuya Sky: biglietti il 2/11 alle 16:00 italiane, ingresso 16:20 (o 16:00), per 2
   • Samurai Restaurant Time, spettacolo delle 14:00 per 2 (biglietti da 4 settimane prima)
   • Sushi Tokyo Ten ore 19:00 per 2 (TableCheck, con carta)
 attenzione:
   • Tsukiji chiude mercoledì e domenica (martedì è aperto)
+  • Il santuario Meiji a novembre chiude alle 16:10: si fa la mattina
   • Golden Gai: molti bar chiedono un coperto (¥500–1.000)
   • Ultimo treno verso l'hotel ~0:30
-anticipo:
-  • Kabuki-za: un solo atto di teatro kabuki (~1 h, sottotitoli in inglese)
-  • Karaoke dopo Golden Gai (Big Echo, Karaoke-kan)
-stanchi: • Saltate Harajuku: da PARCO restate a Shibuya fino alla cena
+anticipo: • Karaoke dopo Golden Gai (Big Echo, Karaoke-kan)
+stanchi: • Saltate PARCO: dopo l'incrocio una pausa seduti e poi la cena · dopo cena solo Omoide Yokochō
 contanti: ¥6.500–13.000 a testa
   • Mercato di Tsukiji: colazione ai banchi, in contanti
   • Crêpe a Harajuku e spiedini a Omoide Yokochō (vicolo degli spiedini)
   • Golden Gai (micro-bar): coperto ¥500–1.000 + drink, quasi tutti in contanti
   • Sushi Tokyo Ten: solo carta
-camminata: ~13 km con la metro per Tsukiji (~15 km tutto a piedi) · mezzi ~1 h · pause: pranzo 50′, show 2 h seduti, cena 1 h 30, bar 1 h
-
+camminata: ~13 km con la metro per Tsukiji (~15 km tutto a piedi) · mezzi ~1 h · pause: colazione 1 h 15, show 2 h seduti, cena 1 h 30, bar 1 h
 ### 2026-11-18
 percorso: tokyo > roma
 dorme: volo
@@ -1572,8 +1594,8 @@ nota: Corse con prenotazione esaurite il 15/10: presa al loro posto la gita Nōh
 fatto: 2026-10-15
 
 ### shibuya-sky
-tappa: 2026-11-17 16:00
-cosa: Shibuya Sky 17/11, ingresso 16:00, per 2
+tappa: 2026-11-17 16:20
+cosa: Shibuya Sky 17/11, ingresso 16:20, per 2
 tipo: prenotare
 giorno: 2026-11-17
 apre: 2026-11-02
@@ -1581,7 +1603,7 @@ quando: 2/11 alle 16:00 italiane
 costo: ~¥2.500 a testa
 link: Biglietti (sito ufficiale Shibuya Sky) = https://www.shibuya-scramble-square.com/sky/ticket/
 priorità: alta
-nota: In vendita 2 settimane prima alle 00:00 giapponesi: gli slot del tramonto finiscono subito.
+nota: In vendita 2 settimane prima alle 00:00 giapponesi: gli slot del tramonto finiscono subito. Prendete l'ingresso delle 16:20: lo show dei samurai finisce alle 15:40 a Shinjuku e servono ~25′ (gli ingressi sono ogni 20′, il tramonto è alle 16:31). Se è finito, quello delle 16:00, uscendo subito dallo show.
 
 ### kitchen-hida
 tappa: 2026-11-13 18:00
@@ -1626,7 +1648,7 @@ quando: dal 20/10 (4 settimane prima), entro inizio novembre
 costo: ~¥10.000 a testa con pasto o 2 drink
 link: Sito ufficiale = https://samurai-restaurant.tokyo/ ; Con cancellazione gratuita (GetYourGuide) = https://www.getyourguide.com/samurai-restaurant-tokyo-l221944/
 priorità: media
-nota: Spettacolo 14:00–15:40, si entra dalle 13:30. Spettacoli solo alle 10:50, 14:00 e 16:30 (quello delle 19 non c'è più). In vendita fino a 4 settimane prima; sul sito ufficiale niente rimborsi, sulle piattaforme (es. GetYourGuide) spesso cancellazione gratuita fino a 24 h prima.
+nota: Spettacolo 14:00–15:40, si entra dalle 13:30. Spettacoli solo alle 10:50, 14:00 e 16:30 (quello delle 19 non c'è più). In vendita fino a 4 settimane prima; sul sito ufficiale niente rimborsi, sulle piattaforme (es. GetYourGuide) spesso cancellazione gratuita fino a 24 h prima. Dei due compresi (pasto o 2 drink) scegliete il pasto: è il pranzo del 17/11.
 
 ### controlli
 cosa: Controlli di inizio novembre
@@ -1874,10 +1896,6 @@ nome: Tsukiji
 cosa: l'ex mercato del pesce
 posti: tsukiji
 
-### ginza
-nome: Ginza
-cosa: il quartiere elegante dei grandi magazzini
-posti: depachika-ginza
 
 ### harajuku
 nome: Harajuku
@@ -1887,7 +1905,7 @@ posti: takeshita-dori, meiji-jingu
 ### shibuya
 nome: Shibuya
 cosa: il grande incrocio e i grattacieli
-posti: shibuya-sky, shibuya-parco, sushi-ten
+posti: shibuya-sky, shibuya-crossing, shibuya-parco, sushi-ten
 
 ### hamamatsucho
 nome: Hamamatsuchō e Shiba
@@ -1947,7 +1965,7 @@ posti: fushimi-inari, vermillion
 ### higashiyama
 nome: Higashiyama
 cosa: il quartiere storico in collina, coi templi e i vicoli antichi
-posti: kiyomizu-dera, sannenzaka, pagoda-yasaka, sanshiki
+posti: kiyomizu-dera, sannenzaka, pagoda-yasaka, sanshiki, sanjusangendo
 
 ### gion
 nome: Gion e Pontochō
@@ -1957,7 +1975,7 @@ posti: kodai-ji, hanami-koji, onikai, pontocho, kiyamachi
 ### arashiyama
 nome: Arashiyama
 cosa: bambù, fiume e montagne a ovest di Kyoto
-posti: bambu-arashiyama, monkey-park
+posti: bambu-arashiyama, tenryu-ji
 
 ### kinkakuji
 nome: Kinkaku-ji e Ryōan-ji
@@ -1972,7 +1990,7 @@ posti: daigin, ginkaku-ji, sentiero-filosofo, nanzen-ji, keage-incline
 ### kawaramachi
 nome: Centro di Kyoto (Kawaramachi)
 cosa: vie dei negozi e mercato coperto
-posti: samurai-ninja-museum, nishiki, sen-no-kaze, kotetsu
+posti: samurai-ninja-museum, sen-no-kaze, kotetsu
 
 ### takayama-stazione
 nome: Stazione di Takayama
@@ -1982,7 +2000,7 @@ posti: @alpina
 ### takayama-centro
 nome: Centro storico di Takayama
 cosa: vie di case in legno, distillerie e mercati
-posti: kotte-ushi, jinya, sanmachi, nakabashi, kitchen-hida, mercato-miyagawa, kyoya
+posti: kotte-ushi, jinya, sanmachi, yatai-kaikan, nakabashi, kitchen-hida, mercato-miyagawa, kyoya
 
 ### shirakawa
 nome: Shirakawa-go
@@ -2008,6 +2026,11 @@ posti: dotonbori, hozenji-yokocho, fukutaro, round1
 nome: Nipponbashi
 cosa: Den Den Town, il quartiere nerd di Osaka
 posti: den-den-town
+
+### castello-osaka
+nome: Castello di Osaka
+cosa: il parco del castello, coi fossati e le mura di pietre giganti
+posti: castello-osaka
 
 ### shinsekai
 nome: Shinsekai
@@ -2382,12 +2405,22 @@ tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321456-Revie
 sito: https://inari.jp/en/
 foto: Fushimi Inari-taisha
 
+### sanjusangendo
+nome: Sanjūsangen-dō
+tipo: ⛩ Tempio
+città: kyoto
+giorno: 11/11
+nota: 10:15 · 1.001 statue dorate · 8:30–17, ¥600
+maps: Sanjusangendo Kyoto
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321411-Reviews-Sanjusangendo_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
+foto: Sanjūsangen-dō
+
 ### kiyomizu-dera
 nome: Kiyomizu-dera
 tipo: ⛩ Tempio
 città: kyoto
 giorno: 11/11
-nota: 13:00
+nota: 12:30
 maps: Kiyomizu-dera Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321401-Reviews-Kiyomizu_dera_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.kiyomizudera.or.jp/en/
@@ -2398,7 +2431,7 @@ nome: Sannenzaka e Ninenzaka
 tipo: 🏮 Vicoli
 città: kyoto
 giorno: 11/11
-nota: Tè verso le 15:30
+nota: Tè verso le 15:00
 maps: Sannenzaka Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1386121-Reviews-Sannenzaka_Ninenzaka-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://ja.kyoto.travel/komafuda/show.php?id=2239&lang=en
@@ -2468,34 +2501,22 @@ tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1497822-Revi
 foto: Arashiyama
 
 ### tenryu-ji
-nome: Tenryū-ji (giardino zen, facoltativo)
+nome: Tenryū-ji
 tipo: ⛩ Tempio
 città: kyoto
 giorno: 12/11
-nota: Apre alle 8:30
+nota: 8:30 · giardino ¥500 · si entra dalla porta nord, sul bosco di bambù
 maps: Tenryuji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1386106-Reviews-Tenryu_ji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.tenryuji.com/en/
-mappa: no
 foto: Tenryū-ji
-
-### monkey-park
-nome: Monkey Park Iwatayama
-tipo: 🐒 Natura
-città: kyoto
-giorno: 12/11
-nota: 9:00 · ¥800 contanti, 20–30′ di salita
-maps: Monkey Park Iwatayama Kyoto
-tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d665440-Reviews-Monkey_Park_Iwatayama-Kyoto_Kyoto_Prefecture_Kinki.html
-sito: http://www.monkeypark.jp/eng-index.html
-foto: Japanese macaque
 
 ### ryoan-ji
 nome: Ryōan-ji (giardino zen delle 15 rocce)
 tipo: 🪨 Tempio
 città: kyoto
 giorno: 12/11
-nota: 10:50 · ¥600
+nota: 10:05 · ¥600
 maps: Ryoanji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1386112-Reviews-Ryoan_ji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: http://www.ryoanji.jp/smph/eng/
@@ -2506,7 +2527,7 @@ nome: Kinkaku-ji (Padiglione d'Oro)
 tipo: ⛩ Tempio
 città: kyoto
 giorno: 12/11
-nota: 12:00 · ¥500
+nota: 11:05 · ¥500
 maps: Kinkakuji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321400-Reviews-Kinkakuji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.shokoku-ji.jp/en/kinkakuji/
@@ -2517,7 +2538,7 @@ nome: Ginkaku-ji (Padiglione d'Argento)
 tipo: ⛩ Tempio
 città: kyoto
 giorno: 12/11
-nota: 14:15 · ¥500
+nota: 13:25 · ¥500
 maps: Ginkakuji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321398-Reviews-Ginkakuji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.shokoku-ji.jp/en/ginkakuji/
@@ -2578,17 +2599,6 @@ maps: Keage Incline Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1975187-Reviews-Keage_Incline-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://biwakososui.city.kyoto.lg.jp/en/place/detail/23
 foto: Lake Biwa Canal
-
-### nishiki
-nome: Mercato di Nishiki
-tipo: 🍢 Street food
-città: kyoto
-giorno: 12/11
-nota: Banchi fino alle 17–18
-maps: Nishiki Market Kyoto
-tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d554672-Reviews-Nishiki_Market_Shopping_District-Kyoto_Kyoto_Prefecture_Kinki.html
-sito: https://www.kyoto-nishiki.or.jp/en/about/
-foto: Nishiki Market
 
 ### samurai-ninja-museum
 nome: Samurai & Ninja Museum
@@ -2660,6 +2670,16 @@ tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298113-d320175-Revie
 sito: https://www.hida.jp/english/touristattractions/takayamacity/historyandculture/4000153.html
 foto: Takayama, Gifu
 
+### yatai-kaikan
+nome: Takayama Matsuri Yatai Kaikan
+tipo: 🏮 Carri della festa
+città: takayama
+giorno: 13/11
+nota: 15:40 · 9–17, ¥1.000
+maps: Takayama Matsuri Yatai Kaikan
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298113-d320162-Reviews-Takayama_Festival_Floats_Exhibition_Hall-Takayama_Gifu_Prefecture_Tokai_Chubu.html
+foto: Takayama Festival
+
 ### sake-harada
 nome: Distilleria Harada
 tipo: 🍶 Sakè
@@ -2717,7 +2737,7 @@ nome: Steak House Kitchen Hida
 tipo: 🥩 Ristorante
 città: takayama
 giorno: 13/11
-nota: Cena 18:15 · chiuso mer. · DA PRENOTARE per 2
+nota: Cena 18:00 · chiuso mer. · DA PRENOTARE per 2
 maps: キッチン飛騨 高山市本町1-66
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298113-d1479770-Reviews-Kitchen_Hida-Takayama_Gifu_Prefecture_Tokai_Chubu.html
 tabelog: https://tabelog.com/en/gifu/A2104/A210401/21000080/
@@ -2808,9 +2828,10 @@ nome: Den Den Town (Nipponbashi)
 tipo: 🎮 Otaku
 città: osaka
 giorno: 15/11
-nota: 13:30
+nota: Alternativa al castello · 12′ a piedi da Fukutaro
 maps: Den Den Town Nipponbashi Osaka
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14134994-d321314-Reviews-Nipponbashi_Denden_Town-Nippombashi_Chuo_Osaka_Osaka_Prefecture_Kinki.html
+mappa: no
 sito: https://www.nippombashi.jp/
 foto: Den Den Town
 
@@ -2822,6 +2843,7 @@ giorno: 15/11
 nota: Weekend 10–20 · Nipponbashi 3-8-18
 maps: スーパーポテト オタロード店 大阪市浪速区日本橋3-8-18
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298566-d28449079-Reviews-Super_Potato_Ota_Road-Osaka_Osaka_Prefecture_Kinki.html
+mappa: no
 sito: https://www.superpotato.com/shop/otaroad/
 foto: Den Den Town
 
@@ -2833,15 +2855,27 @@ giorno: 15/11
 nota: 12–20
 maps: Mandarake Grand Chaos Osaka
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298566-d9727254-Reviews-Mandarake_Grandchaos-Osaka_Osaka_Prefecture_Kinki.html
+mappa: no
 sito: https://www.mandarake.co.jp/dir/gcs/
 foto: Mandarake
+
+### castello-osaka
+nome: Castello di Osaka (torrione)
+tipo: 🏯 Castello
+città: osaka
+giorno: 15/11
+nota: 14:20 · 9–18, ultimo ingresso 17:30 · ¥1.200
+maps: Osaka Castle Main Tower
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14127623-d320970-Reviews-Osaka_Castle-Chuo_Osaka_Osaka_Prefecture_Kinki.html
+sito: https://osaka-info.jp/en/spot/osaka-castle-main-keep/
+foto: Osaka Castle
 
 ### shinsekai
 nome: Shinsekai
 tipo: 🏮 Quartiere retrò
 città: osaka
 giorno: 15/11
-nota: 15:30
+nota: 16:10
 maps: Shinsekai Osaka
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298566-d1407290-Reviews-Shinsekai-Osaka_Osaka_Prefecture_Kinki.html
 sito: https://shinsekai.net/
@@ -2948,34 +2982,12 @@ tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14129610-d1373675-Re
 sito: https://www.tsukiji.or.jp/english/
 foto: Tsukiji fish market
 
-### kabuki-za
-nome: Kabuki-za (alternativa: un atto singolo)
-tipo: 🎭 Teatro
-città: tokyo
-giorno: 17/11
-nota: A novembre il Kaomise, il programma più importante dell'anno; un solo atto ~1 h
-maps: Kabukiza Theater Ginza
-tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14129573-d1373683-Reviews-Kabukiza_Theater-Ginza_Chuo_Tokyo_Tokyo_Prefecture_Kanto.html
-sito: https://www.kabuki-bito.jp/eng/theatres/kabukiza/
-mappa: no
-foto: Kabuki-za
-
-### depachika-ginza
-nome: Depachika di Ginza Mitsukoshi
-tipo: 🍱 Pranzo
-città: tokyo
-giorno: 17/11
-nota: Food hall nel seminterrato
-maps: Ginza Mitsukoshi depachika
-tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14129573-d605050-Reviews-Ginza_Mitsukoshi-Ginza_Chuo_Tokyo_Tokyo_Prefecture_Kanto.html
-foto: Department stores in Japan
-
 ### takeshita-dori
 nome: Takeshita-dōri
 tipo: 🛍 Harajuku
 città: tokyo
 giorno: 17/11
-nota: Moda, crêpe, purikura (cabine per foto-adesivi)
+nota: 12:05 · moda, crêpe, purikura (cabine per foto-adesivi)
 maps: Takeshita Street Harajuku
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066456-d1373790-Reviews-Takeshita_Street-Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.takeshita-street.com/
@@ -2986,32 +2998,32 @@ nome: Meiji Jingū
 tipo: ⛩ Santuario
 città: tokyo
 giorno: 17/11
-nota: 40′ nel bosco
+nota: 10:45 · ~1 h nel bosco · a novembre 6:10–16:10, gratis
 maps: Meiji Jingu Tokyo
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066456-d1373780-Reviews-Meiji_Jingu_Shrine-Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.meijijingu.or.jp/en/
 foto: Meiji Shrine
-
-### cat-street
-nome: Cat Street
-tipo: 🚶 Passeggiata
-città: tokyo
-giorno: 17/11
-nota: Harajuku → Shibuya a piedi, 20′
-maps: Cat Street Shibuya Tokyo
-tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066456-d610349-Reviews-Shibuya_Cat_Street-Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
-foto: Harajuku
 
 ### shibuya-sky
 nome: Shibuya Sky
 tipo: 🌅 Panorama
 città: tokyo
 giorno: 17/11
-nota: 16:00, tramonto 16:31 · biglietti dal 2/11 alle 16:00 italiane
+nota: 16:20, tramonto 16:31 · biglietti dal 2/11 alle 16:00 italiane
 maps: Shibuya Sky
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066456-d19274143-Reviews-Shibuya_Sky-Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.shibuya-scramble-square.com/en/
 foto: Shibuya Scramble Square
+
+### shibuya-crossing
+nome: Incrocio di Shibuya
+tipo: 🚦 Incrocio
+città: tokyo
+giorno: 17/11
+nota: 17:30, coi neon accesi
+maps: Shibuya Scramble Crossing
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066456-d4403399-Reviews-Shibuya_Crossing-Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
+foto: Shibuya Crossing
 
 ### shibuya-parco
 nome: Shibuya PARCO (6° piano)
@@ -3073,7 +3085,7 @@ nome: Vermillion Espresso Bar
 tipo: ☕ Caffè
 città: kyoto
 giorno: 11/11
-nota: Colazione 9:45 · 9–17 · a due passi dall'ingresso di Fushimi Inari
+nota: Pausa caffè 9:20 · 9–17 · a due passi dall'ingresso di Fushimi Inari
 maps: Vermillion Espresso Bar Fushimi Inari Kyoto
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298564-d5964170-Reviews-Vermillion_espresso_bar_info-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://insidekyoto.com/vermillion-cafe
@@ -3084,7 +3096,7 @@ nome: SANSHIKI (udon)
 tipo: 🍜 Ristorante
 città: kyoto
 giorno: 11/11
-nota: Pranzo 11:20 · 11–15, chiuso mar. · solo contanti
+nota: Pranzo 11:15 · 11–15, chiuso mar. · solo contanti
 maps: 讃式 京都市東山区五条橋東2-9-4
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298564-d9652076-Reviews-Sanshiki-Kyoto_Kyoto_Prefecture_Kinki.html
 tabelog: https://tabelog.com/en/kyoto/A2601/A260301/26023919/
@@ -3108,7 +3120,7 @@ nome: Daigin Shokudō (trattoria)
 tipo: 🍱 Ristorante
 città: kyoto
 giorno: 12/11
-nota: Pranzo 13:15 · 11–20:40, chiuso mer. · ~¥1.000
+nota: Pranzo 12:20 · 11–20:40, chiuso mer. · ~¥1.000
 maps: 大銀食堂 京都市左京区浄土寺東田町60
 tabelog: https://tabelog.com/en/kyoto/A2601/A260302/26007440/
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298564-d7437466-Reviews-Daigin_Shokudo-Kyoto_Kyoto_Prefecture_Kinki.html
