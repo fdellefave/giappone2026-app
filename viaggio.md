@@ -87,6 +87,7 @@ Già verificato (non riproporre):
   Scartati: Art Aquarium di Ginza (Tripadvisor 3,4), crociera Tombori a Dōtonbori (3,8), sumo show di Osaka (Sumo Studio, Hanazonochō: 4,9–5 ma ~¥9.600–12.000, sopra il tetto; Hirakuza ¥12.500), Kyoto Sumo Club (~€92), tour del sakè a Takayama (poche recensioni; ci sono già le distillerie di Sanmachi).
 - Shirakawa-go (15/10): corse Nōhi con prenotazione esaurite; 12go vendeva solo le corse senza prenotazione (8:50, 15:15), Headout e Civitatis nulla sotto €50. Presa la gita Nōhi Ainokura + Shirakawa-go dell'8:30 (rientro 15:50), pagata da Federico, ¥18.000 per 2.
 - Le coordinate dei posti non sono disponibili: la mappa del sito usa ricerche Google Maps.
+- «Tutto il giro di oggi» (28/10): verificato giorno per giorno su Google Maps. Se anche una sola tappa non viene trovata, Google non traccia il giro: indirizzi di Airbnb e Nagomi in giapponese (in inglese non venivano trovati), Godzilla = «Godzilla Head Shinjuku». Il giro ora si chiude sempre all'hotel della sera e un link tiene fino a 11 tappe (9 intermedie, il massimo di Google).
 - Revisione completa (15/10 pomeriggio). Il documento «Dove mangiare» (Claude Docs) era stato fatto su un itinerario vecchio: i pasti ora sono decisi qui e il documento è stato allineato. Pasti fissati: Vermillion e SANSHIKI (11/11), Onikai 19:30 (11/11), Daigin Shokudō e Kotetsu 19:00 (12/11, al posto di Sen no Kaze, ora alternativa), Irori 12:30 a Shirakawa-go, Fukutaro a pranzo e manzo di Kobe da Ishida a Umeda 18:30 (15/11), sushi omakase da Sushi Tokyo Ten 19:00 (17/11, Omoide Yokochō dopo cena), monjayaki a Tsukishima dopo teamLab (9/11, solo suggerimento: giorno del gruppo). Kotte Ushi di Kami-sannomachi 82 è quello giusto (chiuso solo il martedì).
 - Conferme Booking lette il 5/10: tutte le 5 camere hanno 1 letto alla francese (131–150 cm) per 2 adulti; cancellazioni e telefoni aggiornati negli Alloggi.
 - Pagamenti (dalle email di conferma, 3/10): hotel, Airbnb e treni Klook li ha prenotati Federico per 2 persone.
@@ -1233,7 +1234,7 @@ colazione: no
 colazione nota: niente colazione nell'appartamento: konbini (minimarket) sotto casa, ce ne sono diversi a 2–3′
 nota: La conferma Airbnb dice «deposito bagagli disponibile»: confermato dall'host il 14/10: deposito self-service, valigie a qualsiasi ora. Le istruzioni arrivano se gli scrivete un promemoria qualche giorno prima del check-in. Il telefono dell'host e il codice di conferma sono nell'app (solo sul telefono).
 app: https://www.airbnb.it/trips
-maps: 2-13-5 Okubo, Shinjuku City, Tokyo
+maps: 東京都新宿区大久保2-13-5
 
 ### nagomi
 nome: Nagomi (casa giapponese ristrutturata, col gruppo)
@@ -1254,7 +1255,7 @@ camera: Casa intera per il gruppo: 4 camere, 2 bagni, cucina, vista sul Fuji dal
 colazione: no
 colazione nota: casa con cucina: si compra la sera prima al konbini (minimarket) o al supermercato
 nota: 5 bici gratis, stufa a pellet (da novembre), proiettore con Netflix, lavatrice con asciugatrice. Barbecue vietato in giardino (c'è una griglia interna). Strada d'accesso stretta. Eventuali danni fino a ¥15.000.
-maps: Kawaguchi 1575-4, Fujikawaguchiko, Yamanashi
+maps: 山梨県南都留郡富士河口湖町河口1575-4
 
 ### saibo
 nome: Hotel Nihonbashi Saibo
@@ -2168,7 +2169,7 @@ tipo: 📸 Foto
 città: tokyo
 giorno: 6/11
 nota: Kabukichō, 7′ dalla stazione di Shinjuku
-maps: Godzilla Head Hotel Gracery Shinjuku
+maps: Godzilla Head Shinjuku
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14133667-d8048204-Reviews-Godzilla_Road_Head-Kabukicho_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://gracery.com/shinjuku/page/godzilla/en/
 foto: Shinjuku Toho Building

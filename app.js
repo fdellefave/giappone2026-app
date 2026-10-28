@@ -878,13 +878,14 @@
       add(it.dest);
     });
     var last = d.sleep && HOTELS[d.sleep];
-    if (last) add(last.q);
+    // si chiude sempre all'hotel della sera, anche se è lo stesso del mattino
+    if (last && last.q && stops[stops.length - 1] !== last.q) stops.push(last.q);
     return stops;
   }
   function routeChunks(stops) {
     var out = [], start = 0;
     while (start < stops.length - 1) {
-      var end = Math.min(start + 9, stops.length - 1), part = stops.slice(start, end + 1);
+      var end = Math.min(start + 10, stops.length - 1), part = stops.slice(start, end + 1);
       var u = "https://www.google.com/maps/dir/?api=1&origin=" + encodeURIComponent(part[0]) + "&destination=" + encodeURIComponent(part[part.length - 1]);
       if (part.length > 2) u += "&waypoints=" + encodeURIComponent(part.slice(1, -1).join("|"));
       out.push({ from: start + 1, to: end + 1, url: u });
