@@ -736,7 +736,7 @@ con: voi due
 - 20:30 hotel Lavatrice e asciugatrice, poi a letto | alloggio: apa-kyoto
   breve: lavanderia all'11° piano · domani treno alle 8:31
   costo: lavatrice da ¥500 a carico, asciugatrice ¥100 ogni 30′ (ne servono 60–90′): ~¥800 a carico, a monete da ¥100
-  come: caricate la lavatrice (~40′), intanto bagno pubblico interno, poi tutto in asciugatrice: pronti verso le 22:30. Se la lavatrice non mette il detersivo da sola, una bustina al konbini (minimarket) sotto l'hotel.
+  Caricate la lavatrice (~40′), intanto bagno pubblico interno, poi tutto in asciugatrice: pronti verso le 22:30. Se la lavatrice non mette il detersivo da sola, una bustina al konbini (minimarket) sotto l'hotel.
   Unico bucato del viaggio: con 7 cambi a testa, da qui arrivate puliti fino al 18/11.
   L'APA ha un bagno pubblico interno (15:00–01:00), un sentō (bagno pubblico giapponese) in piccolo.
 
