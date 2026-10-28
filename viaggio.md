@@ -428,7 +428,7 @@ gruppo: tutto
 - 16:45 hotel Check-in all'Hotel Saibo | alloggio: saibo
   breve: valigie in camera
   Ningyōchō è un quartiere tranquillo vicino a Tokyo Station.
-- 18:00 cibo Spuntino a Ningyōchō (quartiere antico) | foto: Ningyōchō | dove: Ningyocho, Tokyo | zona: ningyocho
+- 18:00 cibo Spuntino a Ningyōchō (quartiere antico) | foto: Ningyōchō Station | dove: Ningyocho, Tokyo | zona: ningyocho
   breve: quartiere di botteghe di dolci
 - 18:20 sposta teamLab Planets | via mezzi: @saibo > #teamlab (Hotel Saibo → teamLab)
   breve: metro ~35′ o taxi 20′
@@ -2085,7 +2085,7 @@ giorno: 6/11
 nota: 16:30, tramonto 16:42
 maps: Azumabashi Bridge Tokyo
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1023181-d3676886-Reviews-Azuma_Bridge-Tokyo_Prefecture_Kanto.html
-foto: Azuma Bridge
+foto: Sumida River
 
 ### kappabashi
 nome: Kappabashi (se in anticipo)
@@ -2291,7 +2291,7 @@ nota: 19:00, prenotato dal gruppo
 maps: teamLab Planets TOKYO Toyosu
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14134359-d14951238-Reviews-TeamLab_Planets_TOKYO-Toyosu_Koto_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.teamlab.art/e/planets/
-foto: TeamLab
+foto: Toyosu
 
 ### kokomae
 nome: Kamakura-kōkō-mae (passaggio a livello)
@@ -2313,7 +2313,7 @@ nota: ¥400, tè matcha nel bambù · può chiudere col maltempo
 maps: Hokokuji Temple Kamakura
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g303156-d1311119-Reviews-Hokoku_ji_Temple-Kamakura_Kanagawa_Prefecture_Kanto.html
 sito: https://houkokuji.or.jp/?p=29
-foto: Hōkoku-ji (Kamakura)
+foto: Hōkoku-ji
 
 ### komachi-dori
 nome: Komachi-dōri
@@ -2413,7 +2413,7 @@ nota: 16:30, tramonto 16:55
 maps: Yasaka Pagoda Hokanji Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1386172-Reviews-Yasaka_Pagoda-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://kyoto.travel/en/destinations/hokanji-templeyasaka-pagoda/
-foto: Hōkan-ji
+foto: Yasaka Pagoda
 
 ### hanami-koji
 nome: Hanami-kōji (Gion)
@@ -2577,7 +2577,7 @@ nota: Al tramonto, 16:45
 maps: Keage Incline Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1975187-Reviews-Keage_Incline-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://biwakososui.city.kyoto.lg.jp/en/place/detail/23
-foto: Keage Incline
+foto: Lake Biwa Canal
 
 ### nishiki
 nome: Mercato di Nishiki
@@ -2636,7 +2636,7 @@ tripadvisor: https://www.tripadvisor.ca/Restaurant_Review-g298113-d7729529-Revie
 tabelog: https://tabelog.com/en/gifu/A2104/A210401/21023203/
 voto: 3,43
 sito: https://takayama-kotteushi.jp/
-foto: Hida beef
+foto: Wagyu
 
 ### jinya
 nome: Takayama Jinya
@@ -2723,7 +2723,7 @@ tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298113-d1479770-Revi
 tabelog: https://tabelog.com/en/gifu/A2104/A210401/21000080/
 voto: 3,78
 sito: http://kitchenhida.com/
-foto: Hida beef
+foto: Wagyu
 
 ### mercato-miyagawa
 nome: Mercato mattutino Miyagawa
@@ -2790,7 +2790,7 @@ maps: 飛騨高山 京や 高山市大新町1-77
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298113-d3616009-Reviews-Hidatakayama_Kyoya-Takayama_Gifu_Prefecture_Tokai_Chubu.html
 tabelog: https://tabelog.com/gifu/A2104/A210401/21000305/
 voto: 3,33
-foto: Hida beef
+foto: Wagyu
 
 ### dotonbori
 nome: Dōtonbori
@@ -2968,7 +2968,7 @@ giorno: 17/11
 nota: Food hall nel seminterrato
 maps: Ginza Mitsukoshi depachika
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14129573-d605050-Reviews-Ginza_Mitsukoshi-Ginza_Chuo_Tokyo_Tokyo_Prefecture_Kanto.html
-foto: Depachika
+foto: Department stores in Japan
 
 ### takeshita-dori
 nome: Takeshita-dōri
@@ -3033,7 +3033,7 @@ nota: Spiedini alla brace e birra, 20:50
 maps: Omoide Yokocho Shinjuku
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14133673-d1173749-Reviews-Omoide_Yokocho-Nishishinjuku_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://shinjuku-omoide.com/
-foto: Omoide Yokochō
+foto: Yakitori
 
 ### samurai-restaurant
 nome: Samurai Restaurant Time
