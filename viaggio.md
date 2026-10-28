@@ -580,20 +580,23 @@ con: voi due
   breve: colazione seduti, con calma · dalle 9
   Caffè a due passi dall'ingresso del santuario: espresso, matcha, dolci e piatti leggeri. Ieri siete arrivati alle 22:21: pausa lunga.
   alternativa: konbini (minimarket) davanti alla stazione JR Inari
-- 11:00 sposta SANSHIKI | via mezzi: #vermillion > #sanshiki (Fushimi Inari → SANSHIKI)
-  breve: treno 10′ + a piedi 4′
-  come: treno Keihan (linea locale) da Fushimi-Inari a Kiyomizu-Gojō (10′), poi 4′ a piedi
-- 11:20 cibo SANSHIKI (udon e tempura) | posto: sanshiki
-  breve: pranzo appena apre · udon fatti a mano
-  Udon (spaghettoni di grano spessi) in stile Sanuki, con tempura (fritto leggero); la bukkake fredda (udon con poco brodo versato sopra) costa ~¥700. Tabelog 3,53 su 297 recensioni. Locale piccolo: meglio presto.
+- 11:00 sposta Kiyomizu-dera | via mezzi: #vermillion > #kiyomizu-dera (Fushimi Inari → Kiyomizu-dera)
+  breve: treno 10′ + a piedi 25′ in salita
+  come: treno Keihan (linea locale) da Fushimi-Inari a Kiyomizu-Gojō (10′), poi a piedi su per Gojō-zaka (25′, 1,6 km)
+  alternativa: taxi dal santuario ~15′ (~¥2.000)
+- 11:35 vedere Kiyomizu-dera (tempio) | posto: kiyomizu-dera
+  breve: tempio di legno su palafitte · ~1 h
+  La terrazza di legno guarda tutta la città.
+- 12:40 sposta SANSHIKI | via piedi: #kiyomizu-dera > #sanshiki (Kiyomizu-dera → SANSHIKI)
+  breve: a piedi 20′ in discesa per Gojō-zaka · 1,6 km
+- 13:00 cibo SANSHIKI (udon e tempura) | posto: sanshiki
+  breve: pranzo · udon fatti a mano
+  Udon (spaghettoni di grano spessi) in stile Sanuki, con tempura (fritto leggero); la bukkake fredda (udon con poco brodo versato sopra) costa ~¥700. Tabelog 3,53 su 297 recensioni. Locale piccolo: all'una può esserci qualche minuto di coda (chiude alle 15).
   costo: ~¥1.000–2.000 a testa · solo contanti
   orari: 11–15 · chiuso il martedì
   veloce: [[nakau-gojo]] (donburi e udon, 5′ a piedi) o il konbini [[lawson100-gojo]] all'uscita della stazione
-- 12:30 sposta Kiyomizu-dera | via piedi: #sanshiki > #kiyomizu-dera (SANSHIKI → Kiyomizu-dera)
-  breve: a piedi 25′ in salita per Gojō-zaka · 1,6 km
-- 13:00 vedere Kiyomizu-dera (tempio) | posto: kiyomizu-dera
-  breve: tempio di legno su palafitte
-  La terrazza di legno guarda tutta la città.
+- 13:55 sposta Sannenzaka | via piedi: #sanshiki > #sannenzaka (SANSHIKI → Sannenzaka)
+  breve: a piedi 15′ in salita · 1 km
 - 14:15 vedere Sannenzaka e Ninenzaka (vicoli antichi) | posto: sannenzaka
   breve: vicoli antichi · pausa tè alle 15:00
   Vicoli in salita con case di legno e negozietti.
@@ -656,7 +659,7 @@ contanti: ¥4.000–9.500 a testa
   • SANSHIKI (udon e tempura, ~¥1.000–2.000): solo contanti
   • Kiyomizu-dera (tempio) ¥500 e Kōdai-ji illuminato ¥800
   • Snack nei vicoli di Sannenzaka e un drink nei bar di Kiyamachi
-camminata: ~14 km (salita a Fushimi, giro di Gion a passo lento) · mezzi 30′ · pause: colazione 1 h 15, pranzo 1 h, tè 30′, cena 1 h 15
+camminata: ~15 km (salita a Fushimi, giro di Gion a passo lento) · mezzi 30′ · pause: colazione 1 h 15, pranzo 55′, tè 30′, cena 1 h 15
 
 ### 2026-11-12
 percorso: kyoto
