@@ -44,6 +44,8 @@
   }
   function mapsQ(q) { return PREF.maps === "apple" ? "https://maps.apple.com/?q=" + encodeURIComponent(q) : "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q); }
   // Indicazioni da dove siete fino a q: il mezzo (a piedi, mezzi, taxi) lo scegliete in Google Maps.
+  // scheda Google del posto (foto, mappa, recensioni, orari), per decidere
+  function gcard(q) { return "https://www.google.com/search?q=" + encodeURIComponent(q); }
   function goto(q) { return PREF.maps === "apple" ? "https://maps.apple.com/?daddr=" + encodeURIComponent(q) : "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(q); }
   function yen(n) { return "¥" + Math.round(n).toLocaleString("it-IT"); }
   function cityVar(c) { return "var(--" + (CITY[c] ? c : "roma") + ")"; }
@@ -720,6 +722,8 @@
     var b = "";
     if (it.dest) b += link(goto(it.dest), it.k === "viaggio" && it.train ? "Indicazioni per la stazione" : "Indicazioni", "go wide", "nav");
     var p = it.place && D.places[it.place];
+    var gq = (p && p.q) || (showHo && ho.q) || (it.k !== "viaggio" && it.dest);
+    if (gq) b += link(gcard(gq), "Scheda Google", "", "search");
     if (p) {
       if (p.ta) b += link(p.ta, "Tripadvisor", "", "star");
       if (p.tabelog) b += link(p.tabelog, "Tabelog" + (p.score ? " " + esc(p.score) : ""), "", "star");
@@ -766,7 +770,7 @@
   }
   function hotelNights(h) { return "dal " + dm(h.in) + " al " + dm(h.out) + " · " + h.nights + (h.nights === 1 ? " notte" : " notti"); }
   function hotelActions(h) {
-    var b = link(goto(h.q), "Indicazioni", "go", "nav");
+    var b = link(goto(h.q), "Indicazioni", "go", "nav") + link(gcard(h.q), "Scheda Google", "", "search");
     if (h.address) b += '<button type="button" class="btn" data-copy="' + esc(h.address) + '">' + icon("copy") + "<span>Copia indirizzo</span></button>";
     if (h.app) b += link(h.app, /airbnb/.test(h.app) ? "App Airbnb" : "App Booking", "", "ext");
     return b;
@@ -1297,7 +1301,7 @@
         "</b><small>" + esc(d.sub) + '</small></span><span class="s-k' + (nd ? " red" : "") + '">' + (nd ? (nd === "book" ? "Da prenotare" : "Da sistemare") : KIND[d.kind]) + "</span></button>";
       if (d.kind === "place") {
         var p = D.places[d.id];
-        h += '<div class="s-extra" hidden data-for="' + n + '"><div class="btns">' + link(goto(p.q), "Indicazioni", "small go", "nav") +
+        h += '<div class="s-extra" hidden data-for="' + n + '"><div class="btns">' + link(goto(p.q), "Indicazioni", "small go", "nav") + link(gcard(p.q), "Scheda Google", "small", "search") +
           (p.ta ? link(p.ta, "Tripadvisor", "small", "star") : "") + (p.tabelog ? link(p.tabelog, "Tabelog", "small", "star") : "") + (p.web ? link(p.web, "Sito", "small", "ext") : "") + "</div></div>";
       }
       return h;
