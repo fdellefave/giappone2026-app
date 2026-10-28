@@ -100,6 +100,7 @@ Già verificato (non riproporre):
   13/11 aggiunto lo Yatai Kaikan (carri della festa, ¥1.000, 9–17, Tripadvisor 4,1 su 637) tra Sanmachi e il ponte Nakabashi.
   15/11 castello di Osaka (torrione ¥1.200, 9–18, ultimo ingresso 17:30) al posto di Den Den Town, doppione di Akihabara e Shibuya PARCO: Den Den Town resta come alternativa.
   17/11 tolti Ginza, depachika e Kabuki-za: mattina Meiji Jingū (a novembre 6:10–16:10, la sera è chiuso) e Takeshita-dōri, pranzo = pasto compreso nello show, Shibuya Sky alle 16:20, incrocio di Shibuya dopo il tramonto.
+- Più tech e nerd (28/10 sera, richiesta di Federico: verso il 60/40 senza togliere must-see, solo cose di passaggio entro 1–2 km a piedi, spostamenti lunghi invariati): gatto 3D di Shinjuku il 6/11 (schermo Cross Shinjuku, spettacolo ogni 15′, 7–1), Nintendo KYOTO l'11/11 tra Gion e Onikai (Takashimaya T8, fino alle 20), stazione di Kyoto con la scalinata di LED il 12/11 tornando da Kotetsu (15–22), Den Den Town a piedi da Nippombashi a Shinsekai e Umeda Sky Building dopo cena il 15/11 (¥2.000, ultimo ingresso 22:00). Scartati: museo ferroviario di Kyoto (costava Ginkaku-ji e il Sentiero del Filosofo, più un taxi), Den Den Town al posto del castello.
 
 Messaggio del gruppo (24/10): riepilogo, quasi tutto già nel file (ritiro Fuji Excursion, navetta/bici/transfer del Cottage Pastorale solo per i loro ospiti, PDF e guide sul drive). App consigliate → voce «app» in «Da fare». Treni Kyoto–Osaka/Nara, Kyoto–Kanazawa, transfer Kanazawa–Shirakawa-go del 4/11, allergie: non vi riguardano.
 
@@ -227,18 +228,22 @@ con: voi due
 - 21:00 fare Sale giochi di Akihabara | posto: hey-akihabara
   breve: HEY, GiGO e Taito Station, aperte fino a tardi
   [[hey-akihabara]] (giochi retro e sparatutto, fino alle 23:45), [[gigo-akihabara]] (pupazzi da pescare con la gru, giochi musicali), [[taito-station]].
-- 22:00 sposta Testa di Godzilla, Shinjuku | via mezzi: Akihabara Station, Tokyo > #godzilla (Akihabara → Godzilla)
-  breve: treno JR 18′
-  come: treno JR linea Sōbu da Akihabara a Shinjuku, poi 7′ a piedi
-- 22:25 vedere Testa di Godzilla (statua gigante) | posto: godzilla
-  breve: sull'Hotel Gracery, a Kabukichō
+- 22:00 sposta Gatto 3D, Shinjuku | via mezzi: Akihabara Station, Tokyo > クロス新宿ビル 新宿区新宿3-23-18 (Akihabara → gatto 3D)
+  breve: treno JR 18′ + a piedi 2′
+  come: treno JR linea Sōbu da Akihabara a Shinjuku, uscita est: lo schermo è sul palazzo di fronte
+- 22:20 vedere Gatto 3D gigante (maxischermo) | dove: クロス新宿ビル 新宿区新宿3-23-18 | zona: shinjuku-notte | foto: Shinjuku Station
+  breve: il gatto che sporge dallo schermo · spettacolo alle 22:30
+  Sullo schermo curvo del palazzo Cross Shinjuku, davanti all'uscita est della stazione, un gatto tricolore gigante in 3D sembra sporgersi sulla piazza. Compare tra una pubblicità e l'altra; lo spettacolo principale è ogni quarto d'ora (qui quello delle 22:30). Guardatelo dalla piazza di fronte, dove l'effetto 3D è più forte.
+  orari: 7–1 (dopo mezzanotte senza audio) · gratis
+- 22:35 vedere Testa di Godzilla (statua gigante) | posto: godzilla | via piedi: クロス新宿ビル 新宿区新宿3-23-18 > #godzilla (Gatto 3D → Godzilla)
+  breve: sull'Hotel Gracery, a Kabukichō · a piedi 5′
   Kabukichō è il quartiere dei locali notturni di Shinjuku.
-- 22:40 sposta Airbnb | via piedi: #godzilla > @airbnb-shinjuku (Godzilla → Airbnb)
+- 22:45 sposta Airbnb | via piedi: #godzilla > @airbnb-shinjuku (Godzilla → Airbnb)
   breve: a piedi 12′ · 1 km
   Se le valigie sono al deposito di Radical Storage, passate a riprenderle: è sulla strada.
 
 #### Guida
-senso: Arrivo e prima immersione: Asakusa (la Tokyo antica, col tempio Senso-ji), tramonto sul fiume e Tokyo di notte dalla Skytree (la torre della tv), poi serata nerd ad Akihabara (il quartiere dei videogiochi): giochi retro, figure, ramen e sale giochi. Chiusura con la testa di Godzilla. Giornata lunga per il jet lag: con calma.
+senso: Arrivo e prima immersione: Asakusa (la Tokyo antica, col tempio Senso-ji), tramonto sul fiume e Tokyo di notte dalla Skytree (la torre della tv), poi serata nerd ad Akihabara (il quartiere dei videogiochi): giochi retro, figure, ramen e sale giochi. Chiusura a Shinjuku col gatto 3D gigante sul maxischermo e la testa di Godzilla. Giornata lunga per il jet lag: con calma.
 mangiare:
   • Pranzo: Fūunji, tsukemen (ramen da intingere), tra i migliori di Tokyo (Tabelog 3,77). Chiude alle 15: se siete in ritardo, Kura Sushi ad Asakusa (sushi su nastro, si ordina dal tablet)
   • Cena: Kyushu Jangara ad Akihabara, ramen col brodo di maiale (11–22)
@@ -252,7 +257,7 @@ attenzione:
 anticipo:
   • Kappabashi (la via dei negozi da cucina e del cibo finto in plastica), fino alle 17
   • Distributori di gadget a capsule (gachapon) ovunque ad Akihabara
-stanchi: • Sulla Skytree (biglietto già preso) restate poco e andate dritti ad Akihabara · dopo cena saltate le sale giochi e la testa di Godzilla: treno JR per Shinjuku (18′) e a letto
+stanchi: • Sulla Skytree (biglietto già preso) restate poco e andate dritti ad Akihabara · dopo cena saltate le sale giochi, il gatto 3D e la testa di Godzilla: treno JR per Shinjuku (18′) e a letto
 contanti: ¥4.000–9.500 a testa
   • Appena atterrati: prelevate ¥70.000 a testa all'ATM Seven Bank (gli sportelli dei 7-Eleven) negli arrivi: bastano fino al 12/11 (secondo prelievo la sera del 12/11 a Kyoto, ~¥45.000)
   • Fūunji (ramen): si paga alla macchinetta dei biglietti, in contanti
@@ -624,16 +629,20 @@ con: voi due
   orari: illuminazione 23/10–13/12, dalle 17 (si entra già da prima), ultimo ingresso 21:30, chiude alle 22
   costo: ¥800 a testa
   attenzione: una volta usciti non si rientra · nelle sere del weekend c'è coda, il mercoledì meno
-- 18:00 sposta Gion | via piedi: #kodai-ji > #hanami-koji (Kōdai-ji → Gion)
+- 17:50 sposta Gion | via piedi: #kodai-ji > #hanami-koji (Kōdai-ji → Gion)
   breve: a piedi 10′ passando dal santuario Yasaka
   come: giù per la scalinata verso il parco Maruyama e il santuario Yasaka (illuminato, con le lanterne), poi a destra in Hanami-kōji
-- 18:10 vedere Gion (quartiere delle geisha) | posto: hanami-koji
+- 18:00 vedere Gion (quartiere delle geisha) | posto: hanami-koji
   breve: giro a piedi tra le lanterne · ~45′
-  Il quartiere delle geisha e delle maiko (apprendiste geisha) all'ora in cui vanno agli appuntamenti nelle case da tè. Giro: Hanami-kōji (la via principale delle case da tè), poi a nord attraverso Shijō-dōri fino al canale Shirakawa, col ponte Tatsumi e le case di legno sull'acqua (la Gion più bella). Da lì a Onikai sono 10′.
+  Il quartiere delle geisha e delle maiko (apprendiste geisha) all'ora in cui vanno agli appuntamenti nelle case da tè. Giro: Hanami-kōji (la via principale delle case da tè), poi a nord attraverso Shijō-dōri fino al canale Shirakawa, col ponte Tatsumi e le case di legno sull'acqua (la Gion più bella). Da lì a Nintendo KYOTO sono 13′, sul ponte Shijō.
   attenzione: niente foto alle geisha da vicino e niente vicoli privati (cartelli con multa fino a ¥10.000)
-- 19:00 sposta Onikai | via piedi: Shirakawa Tatsumi Bridge, Kyoto > #onikai (Shirakawa → Onikai)
-  breve: a piedi 10′ · 700 m
-- 19:30 cibo Onikai (izakaya) | posto: onikai | prenotare
+- 18:45 sposta Nintendo KYOTO | via piedi: Shirakawa Tatsumi Bridge, Kyoto > #nintendo-kyoto (Shirakawa → Nintendo KYOTO)
+  breve: a piedi 13′ · 1 km, sul ponte Shijō
+- 19:00 fare Nintendo KYOTO (negozio ufficiale Nintendo) | posto: nintendo-kyoto
+  breve: Mario gigante e oggetti che ci sono solo qui · 20′ · chiude alle 20
+  Il negozio ufficiale di Nintendo nella città dove l'azienda è nata nel 1889, come fabbrica di hanafuda (carte da gioco coi fiori). È al 7° piano dell'ala T8 dei grandi magazzini Takashimaya, all'incrocio Shijō-Kawaramachi: oggetti in vendita solo qui, un Mario gigante al piano terra e un altro sul tetto. Onikai è a 3′.
+  orari: fino alle 20:00 · nei giorni affollati si entra col numero
+- 19:30 cibo Onikai (izakaya) | posto: onikai | prenotare | via piedi: #nintendo-kyoto > #onikai (Nintendo KYOTO → Onikai)
   breve: cena: cucina di Kyoto in osteria · prenotare alle 19:30
   Izakaya: osteria giapponese, piattini da condividere e birra. Onikai fa cucina di Kyoto con tante verdure locali. Tabelog 3,60 su 677 recensioni.
   costo: ~¥4.000–6.000 a testa · carte accettate
@@ -651,7 +660,7 @@ con: voi due
   come: taxi 12′ (~¥1.500), oppure 12′ a piedi fino a Shijō, metro Karasuma fino a Kyoto (4′), 7′ a piedi
 
 #### Guida
-senso: Kyoto classica: santuario dei portali rossi all'alba, la sala delle 1.001 statue dorate, tempio su palafitte, vicoli antichi in discesa, tempio zen illuminato al tramonto, quartiere delle geisha tra le lanterne e serata nei bar lungo il canale.
+senso: Kyoto classica: santuario dei portali rossi all'alba, la sala delle 1.001 statue dorate, tempio su palafitte, vicoli antichi in discesa, tempio zen illuminato al tramonto, quartiere delle geisha tra le lanterne, il negozio Nintendo di Kyoto e serata nei bar lungo il canale.
 mangiare:
   • Colazione: konbini (minimarket) prima di uscire, poi solo un caffè da Vermillion dopo la salita a Fushimi Inari (dalle 9)
   • Pranzo: SANSHIKI, udon fatti a mano e tempura (Tabelog 3,53), alle 11:15 appena apre, prima della salita al Kiyomizu-dera; solo contanti
@@ -744,18 +753,25 @@ con: voi due
   prenotazione: ore 19:00 per 2, solo online su Tabelog (il telefono non risponde)
   alternativa: [[sen-no-kaze]] (ramen in via Shinkyōgoku, 12–21)
   veloce: [[yoichiba]] (takoyaki e spiedini, dalle 17) o [[sukiya-kiyamachi]] (gyudon, 3′ a piedi)
-- 20:15 sposta Hotel | via mezzi: #kotetsu > @apa-kyoto (Kotetsu → hotel)
-  breve: taxi 10′ (~¥1.300) o metro ~25′
-  come: 10′ a piedi a Shijō, metro Karasuma fino a Kyoto (4′), 7′ a piedi
-- 20:30 hotel Lavatrice e asciugatrice, poi a letto | alloggio: apa-kyoto
+- 20:15 sposta Stazione di Kyoto | via mezzi: #kotetsu > #kyoto-station-building (Kotetsu → stazione di Kyoto)
+  breve: metro ~20′
+  come: 10′ a piedi a Shijō, metro Karasuma fino a Kyoto (4′), poi dentro la stazione verso ovest
+  alternativa: taxi 10′ (~¥1.300)
+- 20:35 vedere Stazione di Kyoto (scalinata coi LED) | posto: kyoto-station-building
+  breve: stazione futuristica: 171 gradini di luci · 15′ · gratis
+  L'edificio della stazione (1997) è un'enorme struttura di vetro e acciaio. Sul lato ovest la Grande Scalinata (171 gradini, con le scale mobili a fianco) è coperta da 15.000 LED che formano disegni che cambiano; in cima, al 10° piano, la passerella sospesa a 45 m. È sulla strada per l'hotel.
+  orari: scalinata illuminata 15–22, passerella illuminata 17–22 (cambiano col periodo)
+- 20:50 sposta Hotel | via piedi: #kyoto-station-building > @apa-kyoto (Stazione → hotel)
+  breve: a piedi 7′
+- 21:00 hotel Lavatrice e asciugatrice, poi a letto | alloggio: apa-kyoto
   breve: lavanderia all'11° piano · domani treno alle 8:31
   costo: lavatrice da ¥500 a carico, asciugatrice ¥100 ogni 30′ (ne servono 60–90′): ~¥800 a carico, a monete da ¥100
-  Caricate la lavatrice (~40′), intanto bagno pubblico interno, poi tutto in asciugatrice: pronti verso le 22:30. Se la lavatrice non mette il detersivo da sola, una bustina al konbini (minimarket) sotto l'hotel.
+  Caricate la lavatrice (~40′), intanto bagno pubblico interno, poi tutto in asciugatrice: pronti verso le 23. Se la lavatrice non mette il detersivo da sola, una bustina al konbini (minimarket) sotto l'hotel.
   Unico bucato del viaggio: con 7 cambi a testa, da qui arrivate puliti fino al 18/11.
   L'APA ha un bagno pubblico interno (15:00–01:00), un sentō (bagno pubblico giapponese) in piccolo.
 
 #### Guida
-senso: Kyoto natura e zen: bosco di bambù e giardino di Tenryū-ji ad Arashiyama, giardino di rocce, Padiglione d'Oro e d'Argento, Sentiero del Filosofo, tramonto sui vecchi binari tra gli alberi, poi armature e katane al museo dei samurai. Giornata lunga ma senza salite.
+senso: Kyoto natura e zen: bosco di bambù e giardino di Tenryū-ji ad Arashiyama, giardino di rocce, Padiglione d'Oro e d'Argento, Sentiero del Filosofo, tramonto sui vecchi binari tra gli alberi, poi armature e katane al museo dei samurai e le luci della stazione futuristica. Giornata lunga ma senza salite.
 mangiare:
   • Pranzo: Daigin Shokudō, trattoria economica sotto il Padiglione d'Argento (~¥1.000). Omen (udon famosi) oggi è chiuso: è giovedì
   • Cena: Kotetsu, kushiage (spiedini impanati e fritti al momento), Tabelog 3,58, alle 19:00; solo contanti
@@ -975,24 +991,25 @@ con: voi due
   come: 5′ a piedi alla stazione Nippombashi, metro Sakaisuji fino a Sakaisuji-Honmachi (2 fermate), metro Chūō fino a Tanimachi 4-chōme (1 fermata), 15′ a piedi nel parco fino al torrione
   alternativa: taxi ~15′
 - 14:20 vedere Castello di Osaka (torrione) | posto: castello-osaka
-  breve: il castello dei samurai · museo e vista dall'8° piano · ~1 h 15
+  breve: il castello dei samurai · museo e vista dall'8° piano · ~1 h
   Costruito da Toyotomi Hideyoshi (il condottiero che unificò il Giappone, lo stesso del Kōdai-ji di Kyoto) e conquistato dai Tokugawa nell'assedio del 1615. Il torrione di oggi è una ricostruzione del 1931: dentro c'è il museo della sua storia (armature, armi, paraventi dipinti con la battaglia) e dall'8° piano si vede tutta Osaka. Fuori, le mura coi blocchi di pietra giganti e i fossati.
   costo: ¥1.200
   orari: 9–18, ultimo ingresso 17:30
-  alternativa: se oggi preferite i videogiochi al castello, [[den-den-town]] (l'Akihabara di Osaka, 12′ a piedi dal pranzo e 12′ da Shinsekai): [[super-potato]] (videogiochi retro, weekend 10–20), [[mandarake]] (manga, figure e giochi usati, 12–20), sale giochi
-- 15:35 sposta Shinsekai | via mezzi: #castello-osaka > #shinsekai (Castello → Shinsekai)
-  breve: a piedi 15′ + metro 8′ + a piedi 10′
-  come: 15′ a piedi nel parco fino a Tanimachi 4-chōme, metro Tanimachi fino a Tennōji (8′), 10′ a piedi
-  alternativa: taxi ~15′
-- 16:10 vedere Shinsekai (quartiere retrò) | posto: shinsekai
+- 15:20 sposta Den Den Town | via mezzi: #castello-osaka > #den-den-town (Castello → Den Den Town)
+  breve: a piedi 15′ + metro ~12′
+  come: 15′ a piedi nel parco fino a Tanimachi 4-chōme, metro Chūō fino a Sakaisuji-Honmachi (1 fermata), metro Sakaisuji fino a Nippombashi (2 fermate)
+- 15:50 fare Den Den Town (quartiere nerd) a piedi fino a Shinsekai | posto: den-den-town
+  breve: videogiochi retro, figure e gachapon · 1,7 km a piedi · ~45′
+  L'Akihabara di Osaka. Invece del metro fino a Shinsekai si scende a piedi da Nippombashi lungo Sakaisuji-dōri e la parallela Otaroad (la via otaku): negozi di videogiochi, figure, gachapon (distributori di capsule) e sale giochi. Sosta da [[super-potato]] (videogiochi retro, nel weekend 10–20). In fondo alla via si arriva dritti a Shinsekai.
+- 16:35 vedere Shinsekai (quartiere retrò) | posto: shinsekai
   breve: quartiere retrò anni '50 · torre al tramonto (16:55)
   [[tsutenkaku]] al tramonto (¥1.000) e sale giochi d'epoca.
   Assaggio di kushikatsu (spiedini fritti) da [[daruma]], solo contanti.
   attenzione: da Daruma è vietato intingere due volte nella salsa comune
-- 17:10 sposta Hotel Hillarys | via mezzi: #tsutenkaku > @hillarys (Shinsekai → Hotel Hillarys)
+- 17:25 sposta Hotel Hillarys | via mezzi: #tsutenkaku > @hillarys (Shinsekai → Hotel Hillarys)
   breve: metro 8′ + a piedi 4′
   come: metro Midōsuji da Dōbutsuen-mae a Shinsaibashi
-- 17:30 hotel Check-in all'Hotel Hillarys | alloggio: hillarys | ritiro
+- 17:40 hotel Check-in all'Hotel Hillarys | alloggio: hillarys | ritiro
   breve: riprendete le valigie dal deposito
 - 18:00 sposta Kobe Steak Ishida, Umeda | via mezzi: @hillarys > #kobe-ishida (Hotel → Umeda)
   breve: metro 6′ + a piedi 5′
@@ -1004,20 +1021,27 @@ con: voi due
   orari: cena 16:30–23, ultimo ordine 21:30, aperto tutti i giorni
   prenotazione: ore 18:30 per 2, online su My Concierge Japan (pagamento anticipato) o per telefono
   veloce: [[harves-umeda]] (supermercato nello stesso edificio: sushi e bento, sconti dopo le 19) o [[warau-umeda]] (udon e oyakodon, ~¥650)
-- 20:00 sposta Dōtonbori | via mezzi: #kobe-ishida > #hozenji-yokocho (Umeda → Dōtonbori)
-  breve: metro 8′ + a piedi 5′
-  come: metro Midōsuji da Umeda a Namba (8′)
-- 20:15 vedere Dōtonbori di notte | posto: hozenji-yokocho
+- 20:00 sposta Umeda Sky Building | via piedi: #kobe-ishida > #umeda-sky (Ishida → Umeda Sky)
+  breve: a piedi 12′ · 1 km
+- 20:15 vedere Umeda Sky Building (osservatorio sospeso) | posto: umeda-sky
+  breve: terrazza all'aperto a 173 m tra due grattacieli · ~45′ · ¥2.000
+  Due torri di 40 piani unite in cima da un anello: ci si arriva con le scale mobili dentro un tubo di vetro sospeso nel vuoto tra le torri. Sul tetto si gira all'aperto a 360° su Osaka illuminata.
+  costo: ¥2.000
+  orari: 9:30–22:30, ultimo ingresso 22:00
+- 21:00 sposta Dōtonbori | via mezzi: #umeda-sky > #hozenji-yokocho (Umeda Sky → Dōtonbori)
+  breve: a piedi 12′ + metro 8′ + a piedi 5′
+  come: a piedi fino alla stazione Umeda (12′), metro Midōsuji fino a Namba (8′)
+- 21:30 vedere Dōtonbori di notte | posto: hozenji-yokocho
   breve: neon, insegna Glico e il vicolo delle lanterne
   Hōzenji Yokochō: vicolo lastricato di lanterne con una statua coperta di muschio, a 3′ dal canale. Se c'è ancora posto: takoyaki (polpette di polpo) da un banco lungo il canale.
-- 21:15 fare Round1 (centro giochi) o bar di Ura-Namba | posto: round1 | via piedi: #hozenji-yokocho > #round1 (Hōzenji → Round1)
+- 22:20 fare Round1 (centro giochi) o bar di Ura-Namba | posto: round1 | via piedi: #hozenji-yokocho > #round1 (Hōzenji → Round1)
   breve: centro giochi enorme o vicoli di bar
   Round1 Sennichimae: sale giochi fino alle 0:50, bowling, karaoke. In alternativa [[ura-namba]]: vicoli di bar e osterie economiche.
 - 23:30 sposta Hotel | via piedi: #round1 > @hillarys (Round1 → hotel)
   breve: a piedi 15′
 
 #### Guida
-senso: Osaka in un giorno: okonomiyaki, il castello dei samurai, quartiere anni '50 con la torre al tramonto, cena di manzo di Kobe, poi neon di Dōtonbori e sale giochi la sera.
+senso: Osaka in un giorno: okonomiyaki, il castello dei samurai, la via nerd dei videogiochi a piedi fino al quartiere anni '50 con la torre al tramonto, cena di manzo di Kobe, Osaka dall'alto sull'osservatorio sospeso, poi neon di Dōtonbori e sale giochi la sera.
 mangiare:
   • Pranzo: Fukutaro, okonomiyaki (frittata-pizza cotta sulla piastra), Tabelog 3,72; la domenica apre alle 12, c'è coda
   • Spuntino: kushikatsu (spiedini fritti) da Daruma a Shinsekai (Tabelog 3,46, contanti)
@@ -1031,14 +1055,16 @@ attenzione:
   • Da Daruma è vietato intingere due volte nella salsa comune
   • Domani USJ: non fate troppo tardi
 anticipo:
-  • Den Den Town (l'Akihabara di Osaka: videogiochi retro, manga e figure) al posto del castello, se preferite
   • Namba Grand Kagetsu (teatro della comicità di Osaka: in giapponese ma molto fisico)
-stanchi: • Al posto del castello Den Den Town: 12′ a piedi dal pranzo e 12′ fino a Shinsekai, niente metro
-contanti: ¥5.000–11.000 a testa
-  • Castello di Osaka (torrione) ¥1.200
+stanchi:
+  • Dal castello metro fino a Ebisuchō, a 3′ da Shinsekai, saltando Den Den Town (−1,5 km)
+  • Dopo cena saltate l'Umeda Sky Building: metro dritti a Namba (−1,5 km)
+contanti: ¥7.000–13.000 a testa
+  • Castello di Osaka (torrione) ¥1.200 e Umeda Sky Building ¥2.000
+  • Den Den Town: gachapon e negozietti di usato
   • Daruma (spiedini fritti) a Shinsekai: solo contanti
   • Takoyaki (polpette di polpo) a Dōtonbori e giochi a Round1
-camminata: ~13 km (il parco del castello è grande) · treni ~4 h al mattino + metro 1 h · pause: pranzo 1 h, check-in 30′, cena 1 h 30
+camminata: ~15 km (parco del castello e Den Den Town a piedi) · treni ~4 h al mattino + metro 1 h · pause: pranzo 1 h, check-in 30′, cena 1 h 30
 ### 2026-11-16
 percorso: osaka > tokyo
 dorme: super-hotel
@@ -1126,7 +1152,7 @@ con: voi due
   Takeshita-dōri: moda kawaii, dolci colorati, crêpe e purikura (cabine per foto-adesivi). Qui solo uno spuntino: il pranzo è il pasto compreso nello show.
 - 13:00 sposta Samurai Restaurant | via mezzi: Harajuku Station, Tokyo > #samurai-restaurant (Harajuku → Samurai Restaurant)
   breve: treno 4′ + a piedi 12′
-  come: treno JR Yamanote (la linea circolare di Tokyo) da Harajuku a Shinjuku (2 fermate), uscita est, poi a piedi verso Kabukichō
+  come: treno JR Yamanote (la linea circolare di Tokyo) da Harajuku a Shinjuku (2 fermate), uscita est, poi a piedi verso Kabukichō. Sul maxischermo davanti all'uscita alle 13:15 c'è lo spettacolo del gatto 3D, se il 6/11 l'avete perso
 - 13:30 fare Samurai Restaurant Time | posto: samurai-restaurant | prenotare
   breve: show di samurai e ninja · ingresso 13:30, show 14:00–15:40 · è anche il pranzo
   Show kitsch con tamburi taiko, samurai, ninja e carri al neon a Kabukichō (il quartiere dei locali notturni), nei locali dell'ex Robot Restaurant. Compresi un pasto o 2 drink: scegliete il pasto, è il vostro pranzo.
@@ -1783,7 +1809,7 @@ quando: subito: prenotazioni online già aperte
 costo: ~¥4.000–6.000 a testa
 link: Prenota su Tabelog = https://tabelog.com/en/kyoto/A2601/A260201/26002004/
 priorità: media
-nota: Solo online (il telefono non risponde), serve un account Tabelog gratuito. Aperto tutti i giorni 17–23. Il giro di Gion finisce alle 19 al canale Shirakawa, a 10′ a piedi.
+nota: Solo online (il telefono non risponde), serve un account Tabelog gratuito. Aperto tutti i giorni 17–23. Il giro di Gion finisce verso le 18:45 al canale Shirakawa: passando da Nintendo KYOTO (fino alle 20) si arriva alle 19:30.
 
 ### kotetsu
 tappa: 2026-11-12 19:00
@@ -1955,7 +1981,7 @@ posti: grande-buddha, hase-dera
 ### kyoto-stazione
 nome: Stazione di Kyoto
 cosa: zona dell'hotel
-posti: @apa-kyoto, daiichi-asahi
+posti: @apa-kyoto, daiichi-asahi, kyoto-station-building
 
 ### fushimi
 nome: Fushimi
@@ -1970,7 +1996,7 @@ posti: kiyomizu-dera, sannenzaka, pagoda-yasaka, sanshiki, sanjusangendo
 ### gion
 nome: Gion e Pontochō
 cosa: il quartiere delle geisha e il vicolo delle osterie sul fiume
-posti: kodai-ji, hanami-koji, onikai, pontocho, kiyamachi
+posti: kodai-ji, hanami-koji, nintendo-kyoto, onikai, pontocho, kiyamachi
 
 ### arashiyama
 nome: Arashiyama
@@ -2025,7 +2051,7 @@ posti: dotonbori, hozenji-yokocho, fukutaro, round1
 ### nipponbashi
 nome: Nipponbashi
 cosa: Den Den Town, il quartiere nerd di Osaka
-posti: den-den-town
+posti: den-den-town, super-potato
 
 ### castello-osaka
 nome: Castello di Osaka
@@ -2045,7 +2071,7 @@ posti: usj
 ### umeda
 nome: Umeda
 cosa: il quartiere dei grattacieli intorno alla stazione centrale di Osaka
-posti: kobe-ishida
+posti: kobe-ishida, umeda-sky
 
 ### tsukishima
 nome: Tsukishima
@@ -2453,7 +2479,7 @@ nome: Hanami-kōji (Gion)
 tipo: 🏮 Quartiere
 città: kyoto
 giorno: 11/11
-nota: 18:10, quando si accendono le lanterne · poi canale Shirakawa e ponte Tatsumi
+nota: 18:00, quando si accendono le lanterne · poi canale Shirakawa e ponte Tatsumi
 maps: Hanamikoji Street Gion Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1956593-Reviews-Hanamikoji_Street-Kyoto_Kyoto_Prefecture_Kinki.html
 foto: Gion
@@ -2610,6 +2636,16 @@ maps: Samurai Ninja Museum Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d13551788-Reviews-Samurai_Ninja_Museum_With_Experience-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://mai-ko.com/samurai/
 foto: Samurai
+
+### kyoto-station-building
+nome: Stazione di Kyoto (edificio)
+tipo: 🏙 Architettura
+città: kyoto
+giorno: 12/11
+nota: 20:35 · scalinata coi LED 15–22 · gratis
+maps: 京都駅ビル 大階段
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d5220110-Reviews-Kyoto_Station_Building-Kyoto_Kyoto_Prefecture_Kinki.html
+foto: Kyoto Station
 
 ### sen-no-kaze
 nome: Ramen Sen no Kaze
@@ -2828,10 +2864,9 @@ nome: Den Den Town (Nipponbashi)
 tipo: 🎮 Otaku
 città: osaka
 giorno: 15/11
-nota: Alternativa al castello · 12′ a piedi da Fukutaro
+nota: 15:50 · a piedi da Nippombashi fino a Shinsekai
 maps: Den Den Town Nipponbashi Osaka
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14134994-d321314-Reviews-Nipponbashi_Denden_Town-Nippombashi_Chuo_Osaka_Osaka_Prefecture_Kinki.html
-mappa: no
 sito: https://www.nippombashi.jp/
 foto: Den Den Town
 
@@ -2843,7 +2878,6 @@ giorno: 15/11
 nota: Weekend 10–20 · Nipponbashi 3-8-18
 maps: スーパーポテト オタロード店 大阪市浪速区日本橋3-8-18
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298566-d28449079-Reviews-Super_Potato_Ota_Road-Osaka_Osaka_Prefecture_Kinki.html
-mappa: no
 sito: https://www.superpotato.com/shop/otaroad/
 foto: Den Den Town
 
@@ -2875,7 +2909,7 @@ nome: Shinsekai
 tipo: 🏮 Quartiere retrò
 città: osaka
 giorno: 15/11
-nota: 16:10
+nota: 16:35
 maps: Shinsekai Osaka
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298566-d1407290-Reviews-Shinsekai-Osaka_Osaka_Prefecture_Kinki.html
 sito: https://shinsekai.net/
@@ -3115,6 +3149,16 @@ tabelog: https://tabelog.com/en/kyoto/A2601/A260201/26002004/
 voto: 3,60
 foto: Izakaya
 
+### nintendo-kyoto
+nome: Nintendo KYOTO
+tipo: 🎮 Negozio Nintendo
+città: kyoto
+giorno: 11/11
+nota: 19:00 · 7° piano di Takashimaya T8 · fino alle 20
+maps: Nintendo KYOTO, Kyoto
+sito: https://jw-webmagazine.com/tips/nintendo-kyoto
+foto: Hanafuda
+
 ### daigin
 nome: Daigin Shokudō (trattoria)
 tipo: 🍱 Ristorante
@@ -3162,6 +3206,16 @@ tabelog: https://tabelog.com/en/osaka/A2701/A270101/27114781/
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298566-d19617987-Reviews-Ishida_Links_Umeda-Osaka_Osaka_Prefecture_Kinki.html
 sito: https://myconciergejapan.com/restaurants/kobe-steak-ishida-links-umeda
 foto: Kobe beef
+
+### umeda-sky
+nome: Umeda Sky Building (osservatorio)
+tipo: 🌃 Panorama
+città: osaka
+giorno: 15/11
+nota: 20:15 · 9:30–22:30, ultimo ingresso 22:00 · ¥2.000
+maps: 梅田スカイビル 空中庭園展望台
+tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298566-d10240005-Reviews-Umeda_Sky_Building-Osaka_Osaka_Prefecture_Kinki.html
+foto: Umeda Sky Building
 
 ### sushi-ten
 nome: Sushi Tokyo Ten Shibuya
