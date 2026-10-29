@@ -2,7 +2,7 @@
    data.json: prima la rete, ma se non risponde entro 3 secondi si usa la copia salvata (reti lente in metro).
    Foto di Wikipedia: cache separata che sopravvive agli aggiornamenti. Il resto: prima la copia salvata. Cambiare VERSION quando si modificano index.html, app.js o app.css.
    Il back office (admin.html, admin.js, admin.css, admin-worker.js) non passa dalla cache: serve la rete per pubblicare. */
-const VERSION = "g26-v33";
+const VERSION = "g26-v34";
 const PHOTOS = "g26-foto";  // non si svuota agli aggiornamenti
 const SHELL = ["./", "index.html", "app.css", "app.js", "data.json", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];

@@ -750,14 +750,19 @@ body.noscroll .fabs { display: none; }
 /* soldi */
 .cost { background: var(--card); border-radius: 14px; padding: 14px 14px 4px; }
 .cost h3 { font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin: 0 0 4px; }
-.c-row { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: start; padding: 10px 0; border-top: 1px solid var(--line); }
+.c-row { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 10px; align-items: start; padding: 10px 0; border-top: 1px solid var(--line); }
 .cost h3 + .c-row { border-top: 0; }
+.c-head { padding: 2px 0 4px; border-top: 0; }
+.c-head .c-v { font-size: 12px; color: var(--muted); font-weight: 700; }
+.c-head + .c-row { border-top: 1px solid var(--line); }
+.c-v { min-width: 62px; }
+.c-span { grid-column: span 2; }
 .c-l b { display: block; font-size: 15px; line-height: 1.3; }
 .c-l small { display: block; color: var(--muted); font-size: 13px; line-height: 1.4; margin-top: 2px; }
 .c-l .pills { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
 .c-v { text-align: right; font-weight: 700; font-size: 15px; white-space: nowrap; }
 .c-v small { display: block; color: var(--muted); font-weight: 500; font-size: 12.5px; }
-.c-v .c-txt { display: block; max-width: 40vw; white-space: normal; font-weight: 600; font-size: 13.5px; color: var(--muted); }
+.c-v .c-txt { display: block; max-width: 44vw; white-space: normal; font-weight: 600; font-size: 13.5px; color: var(--muted); }
 .c-foot { margin: 0; padding: 10px 0; border-top: 1px solid var(--line); text-align: right; font-size: 15px; }
 .m-big small { font-size: 14px; font-weight: 600; opacity: .75; }
 .c-sum { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }

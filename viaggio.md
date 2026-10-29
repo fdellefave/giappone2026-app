@@ -1577,6 +1577,8 @@ tratta: Roma Fiumicino → Tokyo Haneda
 mezzo: ITA Airways AZ792, diretto
 orario: 15:05 → 11:20 del 6/11 (ora di Tokyo)
 stato: prenotato
+prezzo: €1.300 a testa, andata e ritorno
+euro: 2600
 nota: Ricevuta nella cartella del viaggio sul PC.
 
 ### az793
@@ -1585,6 +1587,7 @@ tratta: Tokyo Haneda → Roma Fiumicino
 mezzo: ITA Airways AZ793, diretto
 orario: 13:20 → 20:25 (ora italiana)
 stato: prenotato
+prezzo: compreso nel prezzo dell'andata
 nota: Check-in in aeroporto entro le 12:20.
 
 ## Da fare
