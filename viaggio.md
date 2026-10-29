@@ -1604,7 +1604,7 @@ quando: subito: gli Express Pass finiscono
 costo: ~€130–195 a testa
 link: Biglietti (negozio ufficiale USJ) = https://store.usj.co.jp/en/us/c/ticket ; Express Pass (negozio ufficiale) = https://store.usj.co.jp/en/us/c/expresspass ; Cos'è l'Express Pass = https://www.usj.co.jp/web/en/us/tickets/express-pass
 priorità: alta
-nota: Dal 2025 il biglietto d'ingresso (Studio Pass) si compra solo online, non più alla cassa. Serve l'Area Timed Entry o un Express Pass che include Super Nintendo World, altrimenti nell'area Nintendo non si entra. Orari del 16/11 sul sito ufficiale.
+nota: Quale Express Pass: serve uno con Mine-Cart Madness E Mario Kart. Quello sicuro è l'«Express Pass 7 – Mine Cart & Selection» (Mine-Cart, Mario Kart, Yoshi, 2 di Harry Potter e 2 a scelta), da ~¥21.800 a testa a seconda del giorno (fonte di giugno 2026); alcune date hanno anche un Express Pass 4 con tutti e due, più economico: controllate sul negozio ufficiale per il 16/11. L'Express Pass non fa entrare nel parco: serve anche lo Studio Pass (~¥8.600–10.900). L'Express Pass con un'attrazione Nintendo garantisce l'ingresso all'area Super Nintendo World (verificatelo nella schermata d'acquisto). Dal 2025 il biglietto d'ingresso (Studio Pass) si compra solo online, non più alla cassa. Serve l'Area Timed Entry o un Express Pass che include Super Nintendo World, altrimenti nell'area Nintendo non si entra. Orari del 16/11 sul sito ufficiale.
 
 ### bus-nohi
 tappa: 2026-11-14 08:30, 2026-11-14 15:00
