@@ -1626,10 +1626,10 @@ tipo: prenotare
 giorno: 2026-11-17
 apre: 2026-11-02
 quando: 2/11 alle 16:00 italiane
-costo: ~¥2.500 a testa
-link: Biglietti (sito ufficiale Shibuya Sky) = https://www.shibuya-scramble-square.com/sky/ticket/
+costo: da €15,85 a testa su Klook (~¥2.500 sul sito ufficiale)
+link: Biglietti su Klook (più economici) = https://www.klook.com/it/activity/70672-shibuya-sky-tokyo/ ; Biglietti (sito ufficiale Shibuya Sky) = https://www.shibuya-scramble-square.com/sky/ticket/
 priorità: alta
-nota: In vendita 2 settimane prima alle 00:00 giapponesi: gli slot del tramonto finiscono subito. Prendete l'ingresso delle 16:20: lo show dei samurai finisce alle 15:40 a Shinjuku e servono ~25′ (gli ingressi sono ogni 20′, il tramonto è alle 16:31). Se è finito, quello delle 16:00, uscendo subito dallo show.
+nota: In vendita 2 settimane prima alle 00:00 giapponesi (anche su Klook): gli slot del tramonto finiscono subito. Su Klook da €15,85 a testa (verificato il 29/10), con cancellazione gratuita fino alle 23:59 del giorno prima: il nome deve essere uguale a quello del passaporto, che va mostrato col QR all'ingresso del 14° piano entro 20′ dall'orario. Se avete un codice sconto Klook, inseritelo al pagamento. Prendete l'ingresso delle 16:20: lo show dei samurai finisce alle 15:40 a Shinjuku e servono ~25′ (gli ingressi sono ogni 20′, il tramonto è alle 16:31). Se è finito, quello delle 16:00, uscendo subito dallo show.
 
 ### kitchen-hida
 tappa: 2026-11-13 18:00
