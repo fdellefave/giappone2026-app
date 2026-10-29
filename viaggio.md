@@ -1869,7 +1869,7 @@ nota: In vendita dal 2/11 alle 16:00 italiane.
 
 Stima a persona in euro.
 
-- Volo andata e ritorno: 1226 | da bozza
+- Volo andata e ritorno: 1300 | ITA Airways AZ792 + AZ793, prezzo vero (29/10)
 - Alloggi 12 notti: 686 | tutti pagati: totale vero addebitato, Nagomi compresa
 - Treni e bus lunghi: 375 | metà dei biglietti Klook (€678) + Fuji Excursion del 9/11 (€51,68, pagato) + Kamakura
 - Trasporti in città: 171 | metro e bus con la Suica ~€6 al giorno + gita Shirakawa-go ~€49
