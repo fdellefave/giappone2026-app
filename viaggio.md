@@ -1851,6 +1851,20 @@ euro: 88
 stato: pagato
 nota: Polizza nell'email e nell'app Heymondo (non sul sito: contiene i dati personali).
 
+### holafly
+cosa: e-SIM Holafly (dati internet in Giappone)
+prezzo: €40 a testa
+euro: 80
+stato: pagato
+nota: La e-SIM si attiva all'arrivo; il QR d'installazione è nell'email (non sul sito).
+
+### shibuya-sky
+cosa: Shibuya Sky 17/11, ingresso 16:20 (Klook)
+prezzo: ~€20 a testa
+euro: 40
+stato: da pagare
+nota: In vendita dal 2/11 alle 16:00 italiane.
+
 ## Budget
 
 Stima a persona in euro.
@@ -1860,10 +1874,10 @@ Stima a persona in euro.
 - Treni e bus lunghi: 375 | metà dei biglietti Klook (€678) + Fuji Excursion del 9/11 (€51,68, pagato) + Kamakura
 - Trasporti in città: 171 | metro e bus con la Suica ~€6 al giorno + gita Shirakawa-go ~€49
 - Cibo (~13 giorni): 580 | ~€40 al giorno, comprese le cene da Kitchen Hida e Kyōya, più manzo di Kobe (~€75) e sushi omakase (~€54)
-- Attività e spettacoli: 214 | Skytree ~€12 · Samurai Restaurant ~€43 · Kōdai-ji ~€4 · Samurai & Ninja Museum ~€18 · Shibuya Sky ~€14 · teamLab · sale giochi
+- Attività e spettacoli: 220 | Skytree ~€12 · Samurai Restaurant ~€43 · Kōdai-ji ~€4 · Samurai & Ninja Museum ~€18 · Shibuya Sky ~€20 · teamLab · sale giochi
 - USJ + Express: 180 | prezzo variabile, ~€130–195 a testa
 - Onsen e sentō: 15 | l'onsen dell'Alpina è incluso
-- Assicurazione + e-SIM: 75 | assicurazione Heymondo €44 (pagata) + e-SIM
+- Assicurazione + e-SIM: 84 | assicurazione Heymondo €44 (pagata) + e-SIM Holafly €40
 - Extra (shopping, imprevisti): 500
 
 ## Zone
