@@ -2060,7 +2060,7 @@ cosa: i templi del nord-ovest
 posti: ryoan-ji, kinkaku-ji
 
 ### kyoto-est
-nome: Collina est (Ginkaku-ji → Nanzen-ji)
+nome: Collina est (Nanzen-ji → Ginkaku-ji)
 cosa: lungo il Sentiero del Filosofo, da Okazaki e Nanzen-ji al Padiglione d'Argento
 posti: okakita, tairiki-tei, ginkaku-ji, sentiero-filosofo, nanzen-ji, keage-incline
 
