@@ -102,6 +102,8 @@ Già verificato (non riproporre):
   17/11 tolti Ginza, depachika e Kabuki-za: mattina Meiji Jingū (a novembre 6:10–16:10, la sera è chiuso) e Takeshita-dōri, pranzo = pasto compreso nello show, Shibuya Sky alle 16:20, incrocio di Shibuya dopo il tramonto.
 - Più tech e nerd (28/10 sera, richiesta di Federico: verso il 60/40 senza togliere must-see, solo cose di passaggio entro 1–2 km a piedi, spostamenti lunghi invariati): gatto 3D di Shinjuku il 6/11 (schermo Cross Shinjuku, spettacolo ogni 15′, 7–1), Nintendo KYOTO l'11/11 tra Gion e Onikai (Takashimaya T8, fino alle 20), stazione di Kyoto con la scalinata di LED il 12/11 tornando da Kotetsu (15–22), Den Den Town a piedi da Nippombashi a Shinsekai e Umeda Sky Building dopo cena il 15/11 (¥2.000, ultimo ingresso 22:00). Scartati: museo ferroviario di Kyoto (costava Ginkaku-ji e il Sentiero del Filosofo, più un taxi), Den Den Town al posto del castello.
 
+Pasti senza doppioni (30/10, richiesta di Federico): mai due pasti dello stesso tipo nello stesso giorno. 6/11 cena: sushi in piedi da Uogashi Nihonichi (stazione di Akihabara) al posto del ramen Kyushu Jangara. 13/11 pranzo: ramen di Takayama da Masago Soba al posto di Kotte Ushi (manzo + bistecca la sera); Kotte Ushi resta alternativa. 17/11: a Tsukiji solo assaggi cotti, il crudo è la cena da Sushi Tokyo Ten.
+
 Messaggio del gruppo (24/10): riepilogo, quasi tutto già nel file (ritiro Fuji Excursion, navetta/bici/transfer del Cottage Pastorale solo per i loro ospiti, PDF e guide sul drive). App consigliate → voce «app» in «Da fare». Treni Kyoto–Osaka/Nara, Kyoto–Kanazawa, transfer Kanazawa–Shirakawa-go del 4/11, allergie: non vi riguardano.
 
 Messaggio del gruppo (13/10): 7 del gruppo dormono al Cottage Pastorale (navetta dalla stazione il 7/11, bici l'8/11, transfer alla stazione Fujisan il 9/11: solo per i loro ospiti). PDF dei biglietti e guide per il ritiro dei Fuji Excursion sul drive condiviso del gruppo. Il resto (Kanazawa, Shirakawa-go del 4/11, Nara, Osaka, ristoranti col gruppo) riguarda giorni senza di voi.
@@ -216,14 +218,15 @@ con: voi due
 - 19:25 fare Radio Kaikan (figure e manga) | posto: radio-kaikan
   breve: 10 piani di negozi di figure, modellini e carte da collezione
   Al piano terra e in tutto il quartiere ci sono i gachapon (distributori di gadget a capsule, ¥100–500).
-- 20:00 sposta Kyushu Jangara | via piedi: #radio-kaikan > #kyushu-jangara (Radio Kaikan → ramen)
-  breve: a piedi 8′
-- 20:10 cibo Kyushu Jangara (ramen) | posto: kyushu-jangara
-  breve: cena: ramen col brodo di maiale denso
-  Ramen tonkotsu (brodo di ossa di maiale, cremoso) in stile Kyushu; c'è anche la versione vegana. Niente prenotazioni.
-  orari: 11–22, ultimo ordine 21:45
+- 20:00 sposta Uogashi Nihonichi | via piedi: #radio-kaikan > #uogashi-akiba (Radio Kaikan → sushi)
+  breve: a piedi 3′ · dentro la stazione JR (Atre 1, uscita Denki-gai)
+- 20:10 cibo Uogashi Nihonichi (sushi in piedi) | posto: uogashi-akiba
+  breve: cena: sushi al banco, fatto al momento
+  Tachigui-zushi (sushi mangiato in piedi al banco): si ordina pezzo per pezzo al cuoco, ~¥200–500 a pezzo, 30–40′ bastano. Niente prenotazioni.
+  orari: lun–ven 11–23 (sab e dom fino alle 21:30)
+  costo: ~¥2.000–3.000 a testa
   veloce: [[matsuya-akiba]] (gyudon, aperto 24 h) o il konbini [[seven-sotokanda]]
-- 20:55 sposta Sale giochi di Akihabara | via piedi: #kyushu-jangara > #hey-akihabara (Ramen → sale giochi)
+- 20:55 sposta Sale giochi di Akihabara | via piedi: #uogashi-akiba > #hey-akihabara (Sushi → sale giochi)
   breve: a piedi 5′
 - 21:00 fare Sale giochi di Akihabara | posto: hey-akihabara
   breve: HEY, GiGO e Taito Station, aperte fino a tardi
@@ -243,10 +246,10 @@ con: voi due
   Se le valigie sono al deposito di Radical Storage, passate a riprenderle: è sulla strada.
 
 #### Guida
-senso: Arrivo e prima immersione: Asakusa (la Tokyo antica, col tempio Senso-ji), tramonto sul fiume e Tokyo di notte dalla Skytree (la torre della tv), poi serata nerd ad Akihabara (il quartiere dei videogiochi): giochi retro, figure, ramen e sale giochi. Chiusura a Shinjuku col gatto 3D gigante sul maxischermo e la testa di Godzilla. Giornata lunga per il jet lag: con calma.
+senso: Arrivo e prima immersione: Asakusa (la Tokyo antica, col tempio Senso-ji), tramonto sul fiume e Tokyo di notte dalla Skytree (la torre della tv), poi serata nerd ad Akihabara (il quartiere dei videogiochi): giochi retro, figure, sushi e sale giochi. Chiusura a Shinjuku col gatto 3D gigante sul maxischermo e la testa di Godzilla. Giornata lunga per il jet lag: con calma.
 mangiare:
   • Pranzo: Fūunji, tsukemen (ramen da intingere), tra i migliori di Tokyo (Tabelog 3,77). Chiude alle 15: se siete in ritardo, Kura Sushi ad Asakusa (sushi su nastro, si ordina dal tablet)
-  • Cena: Kyushu Jangara ad Akihabara, ramen col brodo di maiale (11–22)
+  • Cena: sushi in piedi al banco da Uogashi Nihonichi, dentro la stazione di Akihabara (fino alle 23)
 prenotare:
   • Istruzioni del deposito valigie self-service dall'host dell'Airbnb (scrivergli qualche giorno prima)
   • Carta Suica (tessera per metro e treni) già sul telefono
@@ -819,13 +822,15 @@ con: voi due
   prenotazione: confermato dall'hotel (26/10): tengono le valigie se arrivate verso le 12, ditelo allo staff. Se volete potete fare subito anche il check-in (le formalità), altrimenti check-in tra le 17 e le 18:30.
   Hotel moderno con onsen (le terme) sul tetto.
   alternativa: armadietti grandi nella stazione di Takayama (~¥700–900 al giorno) o nel terminal dei bus Nōhi accanto (armadietti in 3 punti), entrambi a 3′ dall'hotel.
-- 12:30 sposta Kotte Ushi | via piedi: @alpina > #kotte-ushi (Hotel → Kotte Ushi)
-  breve: a piedi 12′
-- 12:45 cibo Kotte Ushi (sushi di manzo) | posto: kotte-ushi
-  breve: sushi di Hida beef, pranzo veloce
-  Hida beef: il manzo pregiato locale, scottato e servito su riso. Chiuso il martedì.
-- 13:25 sposta Takayama Jinya | via piedi: #kotte-ushi > #jinya (Kotte Ushi → Jinya)
-  breve: a piedi 5′
+- 12:30 sposta Masago Soba | via piedi: @alpina > #masago-soba (Hotel → Masago Soba)
+  breve: a piedi ~12′
+- 12:45 cibo Masago Soba (ramen di Takayama) | posto: masago-soba
+  breve: il ramen tipico di qui, brodo di soia leggero
+  Takayama ramen (chūka soba, cioè «spaghetti cinesi»): brodo di soia con sardine e ossa di maiale, spaghettini sottili e ricci fatti a mano. Bottega di tre generazioni, un solo piatto (normale o grande).
+  orari: 11–15:30 circa, chiuso il mercoledì
+  alternativa: [[kotte-ushi]] (sushi di manzo di Hida), ma stasera la bistecca è già manzo
+- 13:25 sposta Takayama Jinya | via piedi: #masago-soba > #jinya (Masago Soba → Jinya)
+  breve: a piedi ~10′
 - 13:30 vedere Takayama Jinya (palazzo del governatore) | posto: jinya
   breve: l'antico palazzo del governatore · 45′
   orari: 8:45–16:30
@@ -870,7 +875,7 @@ con: voi due
 #### Guida
 senso: Treno panoramico tra le montagne fino a Takayama: città antica di legno, assaggi di sakè, i carri giganti della festa di Takayama, manzo di Hida e terme sul tetto dell'hotel.
 mangiare:
-  • Pranzo: sushi di Hida beef (manzo locale scottato su riso) da Kotte Ushi (Tabelog 3,43)
+  • Pranzo: ramen di Takayama (brodo di soia leggero) da Masago Soba (Google 4,1 su 894): il manzo lo tenete per la cena
   • Cena: Steak House Kitchen Hida (Tabelog 3,78), la bistecca di Hida beef più votata della città, ~€55 a testa
 prenotare:
   • Kitchen Hida ore 18:00 per 2 (online)
@@ -883,7 +888,7 @@ attenzione:
 anticipo: • Showa-kan (museo della vita anni '50: giocattoli e negozi d'epoca)
 stanchi: • Saltate il Jinya: Sanmachi (le vie antiche) e i carri bastano; la sera resta uguale
 contanti: ¥4.500–7.500 a testa
-  • Kotte Ushi (sushi di manzo)
+  • Masago Soba (ramen), ~¥800–1.000
   • Takayama Jinya (palazzo del governatore) ¥440 e Yatai Kaikan (sala dei carri) ¥1.000
   • Assaggi di sakè e snack nelle vie di Sanmachi
 camminata: ~10 km · treno 3 h 45 seduti · pause: pranzo 45′, cena 1 h 30, terme 1 h
@@ -1134,9 +1139,9 @@ con: voi due
   breve: a piedi 30′ o metro 5′
   come: a piedi 2,5 km, oppure metro Ōedo da Daimon a Tsukijishijō
 - 09:00 cibo Mercato esterno di Tsukiji | posto: tsukiji
-  breve: colazione: tonno, frittata dolce, ciotole di pesce crudo · contanti
+  breve: colazione di assaggi cotti: frittata dolce, frutti di mare alla griglia · contanti
   L'ex mercato del pesce. Tamagoyaki: frittata dolce arrotolata.
-  Dove: Maguroya Kurogin (tonno, dalle 7:30), Yamachō (tamagoyaki su stecco ~¥200), Marukita (kaisendon, ciotola di riso col pesce crudo, ~¥2.500). I banchi di sushi seduti aprono verso le 10:30: la cena di sushi è stasera.
+  Dove: Yamachō (tamagoyaki su stecco ~¥200), banchi di capesante e frutti di mare alla griglia, onigiri (polpette di riso) e ichigo daifuku (fragola avvolta nella pasta di riso). Niente sushi né pesce crudo: la cena di sushi è stasera.
 - 10:15 sposta Meiji Jingū | via mezzi: #tsukiji > #meiji-jingu (Tsukiji → Meiji Jingū)
   breve: metro ~30′
   come: metro Hibiya line dalla stazione Tsukiji a Kasumigaseki (4 fermate), metro Chiyoda line fino a Meiji-jingūmae (5 fermate), 5′ a piedi fino al grande torii (il portale) di Harajuku
@@ -1201,7 +1206,7 @@ con: voi due
 #### Guida
 senso: Ultimo giorno pieno a Tokyo: colazione al mercato del pesce, santuario Meiji nel bosco e Harajuku, show dei samurai nel primo pomeriggio, Shibuya dall'alto al tramonto e il suo incrocio coi neon, cena di sushi e bar minuscoli a Shinjuku.
 mangiare:
-  • Colazione: mercato di Tsukiji (tonno, frittata dolce, ciotole di pesce crudo; contanti)
+  • Colazione: mercato di Tsukiji, solo assaggi cotti (frittata dolce, frutti di mare alla griglia; contanti): il crudo lo tenete per la cena
   • Spuntino: crêpe a Takeshita-dōri
   • Pranzo: il pasto compreso nello show dei samurai (sceglietelo al posto dei 2 drink)
   • Cena speciale: sushi omakase (scelto dal cuoco) da Sushi Tokyo Ten a Shibuya, ¥9.900 (~€54), alle 19:00; dopo, una birra a Omoide Yokochō (vicolo degli spiedini)
@@ -1912,7 +1917,7 @@ posti: skytree
 ### akihabara
 nome: Akihabara
 cosa: il quartiere di videogiochi, manga ed elettronica
-posti: super-potato-akiba, radio-kaikan, kyushu-jangara, hey-akihabara
+posti: super-potato-akiba, radio-kaikan, uogashi-akiba, hey-akihabara
 
 ### shinjuku-notte
 nome: Shinjuku est (Kabukichō)
@@ -2043,7 +2048,7 @@ posti: @alpina
 ### takayama-centro
 nome: Centro storico di Takayama
 cosa: vie di case in legno, distillerie e mercati
-posti: kotte-ushi, jinya, sanmachi, yatai-kaikan, nakabashi, kitchen-hida, mercato-miyagawa, kyoya
+posti: masago-soba, kotte-ushi, jinya, sanmachi, yatai-kaikan, nakabashi, kitchen-hida, mercato-miyagawa, kyoya
 
 ### shirakawa
 nome: Shirakawa-go
@@ -2187,16 +2192,24 @@ tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066443-d25190470-Re
 sito: https://en.jal.japantravel.com/tokyo/akiba-radio-kaikan/25669
 foto: Akihabara
 
-### kyushu-jangara
-nome: Kyushu Jangara Akihabara (ramen)
-tipo: 🍜 Ristorante
+### uogashi-akiba
+nome: Uogashi Nihonichi Atre Akihabara (sushi in piedi)
+tipo: 🍣 Ristorante
 città: tokyo
 giorno: 6/11
-nota: Ramen tonkotsu (brodo di maiale) · 11–22, ultimo ordine 21:45
-maps: 九州じゃんがら 秋葉原本店 Sotokanda 3-11-6
-tabelog: https://tabelog.com/tokyo/A1310/A131001/13000344/
-tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g1066443-d1688751-Reviews-Kyushu_Jangara_Ramen_Akihabara_Honten-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html
-sito: https://visit-chiyoda.tokyo/app/en/spot/detail/927
+nota: Sushi al banco in piedi, dentro la stazione JR (Atre 1, 1° piano) · lun–ven 11–23, sab e dom 11–21:30 · niente prenotazioni
+maps: 魚がし日本一 アトレ秋葉原店
+tabelog: https://tabelog.com/en/tokyo/A1310/A131001/13117998/
+foto: Sushi
+
+### masago-soba
+nome: Masago Soba (ramen di Takayama)
+tipo: 🍜 Ristorante
+città: takayama
+giorno: 13/11
+nota: Takayama ramen (brodo di soia, spaghettini ricci) · Uramachi 31-3 · ~11–15:30, chiuso il mercoledì · Google 4,1 su 894, Tripadvisor 4,0 su 36
+maps: Masago Soba Takayama 31-3 Uramachi
+tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298113-d5988480-Reviews-Masago_Soba-Takayama_Gifu_Prefecture_Tokai_Chubu.html
 foto: Ramen
 
 ### hey-akihabara
@@ -2693,7 +2706,7 @@ nome: Hida Kotte Ushi (sushi di Hida beef)
 tipo: 🍣 Street food
 città: takayama
 giorno: 13/11
-nota: Pranzo 12:45 · si è spostato a Kami-sannomachi 82 · chiuso mar.
+nota: Alternativa al pranzo del 13/11 · si è spostato a Kami-sannomachi 82 · chiuso mar.
 maps: こって牛 高山市上三之町82
 tripadvisor: https://www.tripadvisor.ca/Restaurant_Review-g298113-d7729529-Reviews-Hida_Kotte_Ushi-Takayama_Gifu_Prefecture_Tokai_Chubu.html
 tabelog: https://tabelog.com/en/gifu/A2104/A210401/21023203/
