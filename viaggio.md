@@ -270,7 +270,7 @@ contanti: ¥4.000–9.500 a testa
   • Fūunji (ramen): si paga alla macchinetta dei biglietti, in contanti
   • Bancarelle di Nakamise e omikuji (bigliettini della fortuna, ¥100–200) al Senso-ji
   • Sale giochi e gachapon (capsule coi giocattolini) vanno a monete da ¥100: dentro ci sono le macchinette per cambiare le banconote
-camminata: ~10 km · mezzi ~1 h 30 in tutto · pause: pranzo 45′, cena 45′
+camminata: ~10 km · mezzi ~1 h 30 in tutto · pause: pranzo 45′, cena 1 h
 
 ### 2026-11-07
 percorso: tokyo > kawaguchiko
@@ -748,9 +748,9 @@ con: voi due
   alternativa: [[eikan-do]] (il tempio degli aceri, 5′ dopo Nanzen-ji), ultimo ingresso alle 16: vale solo se gli aceri sono già rossi
 - 15:50 vedere Ginkaku-ji (Padiglione d'Argento) | posto: ginkaku-ji
   breve: tempio con giardino di sabbia e muschio · 45′
-  Giardino di sabbia e muschio, col sentiero sulla collina che guarda la città al tramonto (16:55).
+  Giardino di sabbia e muschio, col sentiero sulla collina che guarda la città nella luce del tardo pomeriggio.
   costo: ¥500
-  orari: fino alle 17:00
+  orari: 8:30–17:00, ultimo ingresso 16:45
 - 16:40 sposta Samurai & Ninja Museum | via taxi: #ginkaku-ji > #samurai-ninja-museum (Ginkaku-ji → museo dei samurai)
   breve: taxi ~20′ (~¥2.000) o bus 32 ~35′
   come: taxi dalla fermata Ginkakuji-michi, oppure bus 32 fino a Shijō-Kawaramachi e 5′ a piedi
@@ -798,7 +798,7 @@ prenotare:
 attenzione:
   • Il bosco di bambù è vuoto solo prima delle 8:30
   • Tenryū-ji apre alle 8:30: si entra dalla porta nord, in cima al bosco
-  • Nanzen-ji: ultimo ingresso 16:40
+  • Nanzen-ji: ultimo ingresso 16:40 · Ginkaku-ji: ultimo ingresso 16:45
 anticipo:
   • Ponte Togetsukyō (la foto classica di Arashiyama), 5′ dal portone di Tenryū-ji
   • Eikan-dō (il tempio degli aceri) fino alle 16, se gli aceri sono già rossi
@@ -809,7 +809,7 @@ stanchi:
 contanti: ¥9.500–15.000 a testa
   • Giornata più cara in contanti
   • Templi: Tenryū-ji ¥500, Ryōan-ji ¥600, Kinkaku-ji ¥500, Ginkaku-ji ¥500
-  • Metà taxi da Kinkaku-ji (~¥1.500 a testa)
+  • Metà taxi da Kinkaku-ji a Okakita (~¥1.750 a testa)
   • Okakita (~¥1.000–2.000) e metà taxi dal Ginkaku-ji
   • Kotetsu (spiedini fritti, ~¥3.000–4.000): solo contanti
   • Lavanderia dell'hotel ~¥800 a carico, solo monete da ¥100
@@ -911,7 +911,7 @@ camminata: ~10 km · treno 3 h 45 seduti · pause: pranzo 1 h, terme 1 h, cena 1
 percorso: takayama > shirakawago > takayama
 dorme: alpina
 con: voi due
-- 06:50 sposta Mercato Miyagawa | via piedi: @alpina > #mercato-miyagawa (Hotel → mercato Miyagawa)
+- 06:48 sposta Mercato Miyagawa | via piedi: @alpina > #mercato-miyagawa (Hotel → mercato Miyagawa)
   breve: a piedi 12′
 - 07:00 cibo Mercato mattutino Miyagawa | posto: mercato-miyagawa
   breve: bancarelle sul fiume · 40′ bastano
