@@ -787,7 +787,7 @@ con: voi due
   L'APA ha un bagno pubblico interno (15:00–01:00), un sentō (bagno pubblico giapponese) in piccolo.
 
 #### Guida
-senso: Kyoto natura e zen: bosco di bambù e giardino di Tenryū-ji ad Arashiyama, giardino di rocce, Padiglione d'Oro, vecchi binari tra gli alberi, Nanzen-ji, Sentiero del Filosofo e tramonto al Padiglione d'Argento, poi armature e katane al museo dei samurai e le luci della stazione futuristica. Giornata lunga ma senza salite.
+senso: Kyoto natura e zen: bosco di bambù e giardino di Tenryū-ji ad Arashiyama, giardino di rocce, Padiglione d'Oro, vecchi binari tra gli alberi, Nanzen-ji, Sentiero del Filosofo e Padiglione d'Argento nel tardo pomeriggio, poi armature e katane al museo dei samurai e le luci della stazione futuristica. Giornata lunga ma senza salite.
 mangiare:
   • Pranzo: Okakita, udon e soba di Kyoto (Tabelog 3,69), alle 12:25: c'è spesso coda, ma scorre
   • Cena: Kotetsu, kushiage (spiedini impanati e fritti al momento), Tabelog 3,58, alle 19:00; solo contanti
@@ -2061,7 +2061,7 @@ posti: ryoan-ji, kinkaku-ji
 
 ### kyoto-est
 nome: Collina est (Ginkaku-ji → Nanzen-ji)
-cosa: lungo il Sentiero del Filosofo, in discesa
+cosa: lungo il Sentiero del Filosofo, da Okazaki e Nanzen-ji al Padiglione d'Argento
 posti: okakita, tairiki-tei, ginkaku-ji, sentiero-filosofo, nanzen-ji, keage-incline
 
 ### kawaramachi
