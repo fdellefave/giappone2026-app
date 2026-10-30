@@ -114,6 +114,7 @@ Colori dei tipi (15/10 sera, richiesta di Federico): mangiare arancione acceso, 
 Dettagli delle tappe (15/10 notte, richiesta di Federico): una tappa aperta alla volta; dentro, prima il riquadro pratico (orari, costo, prenotazione con icone), poi la descrizione, gli avvisi e le alternative; ogni prezzo in yen ha accanto l'euro (lo aggiunge l'app, non serve scriverlo); le alternative `veloce:` si vedono anche sulla scheda chiusa, sotto il ristorante; le cose «da fare» già fatte non si mostrano più nelle tappe (restano in «Da fare»).
 Check-in dei voli (16/10): ITA apre il check-in online 48 h prima e lo chiude 1 h prima dei voli internazionali (verificato sul sito ITA). Voci «checkin-andata» e «checkin-ritorno» in «Da fare», più promemoria sul telefono di Federico.
 Contanti (16/10, richiesta di Federico): campo `contanti` nella Guida di ogni giorno con la forchetta a testa in yen (min–max) e per cosa servono; l'app aggiunge l'euro e la mostra in testata. Piano: ¥70.000 a testa a Haneda, secondo prelievo la sera del 12/11 a Kyoto. Il piano completo va detto in anticipo (5/11 e all'arrivo), non solo il giorno del prelievo (richiesta di Federico, 26/10). Se cambiano le tappe a pagamento in contanti, aggiornare la forchetta del giorno. 28/10: forchette alzate del 30% (arrotondate ai ¥500 per eccesso), prelievi portati a ¥70.000 + ~¥45.000; tolta la voce «Prelevare yen» da «Da fare» (richiesta di Federico: basta la cifra in testata).
+Orari verificati (30/10): tutte le tappe controllate su fonti ufficiali o Tabelog. Corretti: USJ il 16/11 apre alle 9 (non alle 8), Skytree 10–22, Hase-dera ultimo ingresso 16:30 (chiude alle 17), Tsutenkaku ¥1.500 con ingresso a orario, Radio Kaikan fino alle 20. Confermati tra gli altri: Kōdai-ji illuminato 23/10–13/12 (17–22), festival di Momiji a Kawaguchiko 7–29/11 (luci fino alle 21), Ginkaku-ji 8:30–17, Yatai Kaikan 9–17, mercato Miyagawa dalle 7 (dalle 8 solo dicembre–marzo), Samurai Restaurant chiuso gio e dom.
 Bucato (28/10, richiesta di Federico: 7 cambi a testa per 13 giorni, serve lavatrice + asciugatrice): un solo bucato la sera del 12/11 all'APA di Kyoto (lavanderia all'11° piano con asciugatrici). Lavatrice con asciugatrice anche a Nagomi (col gruppo) e al Super Hotel (2° piano, 3 + 3); l'Alpina non ha lavanderia (recensione di luglio 2026); Hillarys ce l'ha ma l'asciugatrice non è confermata.
 Colazioni (15/10 notte): campi `colazione` negli Alloggi (orari Saibo da Expedia, Alpina da Travelocity in attesa di risposta, Super Hotel da newt.net). Ogni mattina l'app mette la «Sveglia» calcolata da sola (vedi Sintassi): se cambia l'ora d'uscita o la colazione, si aggiorna senza toccare niente.
 
@@ -203,7 +204,7 @@ con: voi due
   breve: Tokyo di notte da 350 m · ~1 h
   Si sale al Tembo Deck (la terrazza a 350 m) appena dopo il tramonto: tutta Tokyo illuminata. La Tembo Galleria (il corridoio a spirale a 450 m) è un supplemento, non serve.
   costo: Tembo Deck ¥2.100 a testa (giorno feriale) · con la Galleria a 450 m ¥3.100
-  orari: 10–21, ultimo ingresso alle 20
+  orari: 10–22, ultimo ingresso alle 21 (sito ufficiale, ottobre 2026)
   prenotazione: biglietti presi per 2, con data e ora. Il biglietto elettronico (eTicket) si apre dal link nell'email, da mostrare all'ingresso
 - 18:15 sposta Super Potato, Akihabara | via mezzi: #skytree > #super-potato-akiba (Skytree → Akihabara)
   breve: metro + treno ~25′
@@ -218,6 +219,7 @@ con: voi due
   breve: a piedi 5′
 - 19:25 fare Radio Kaikan (figure e manga) | posto: radio-kaikan
   breve: 10 piani di negozi di figure, modellini e carte da collezione
+  orari: 10–20 (il piano interrato fino alle 22)
   Al piano terra e in tutto il quartiere ci sono i gachapon (distributori di gadget a capsule, ¥100–500).
 - 19:55 sposta Kizuna Sushi | via piedi: #radio-kaikan > #kizuna-akiba (Radio Kaikan → sushi)
   breve: a piedi 5′
@@ -529,7 +531,7 @@ gruppo: 06:35-18:20
 - 14:20 sposta Hase-dera | via piedi: #grande-buddha > #hase-dera (Grande Buddha → Hase-dera)
   breve: a piedi 8′ · 600 m
 - 14:30 vedere Hase-dera (tempio sul mare) | posto: hase-dera
-  breve: tempio con terrazza sul mare · chiude alle 16:30
+  breve: tempio con terrazza sul mare · ultimo ingresso 16:30
 - 16:15 sposta Spiaggia di Koshigoe | via mezzi: #hase-dera > Koshigoe Beach, Kamakura (Hase-dera → Koshigoe)
   breve: trenino 10′
 - 16:40 vedere Tramonto sul mare a Koshigoe | foto: Enoshima | dove: Koshigoe Beach, Kamakura | zona: enoden-costa
@@ -570,7 +572,7 @@ prenotare:
   • Deposito valigie all'Hotel Saibo: confermato (reception aperta 24 ore su 24)
 attenzione:
   • Il tempio del bambù (Hōkoku-ji) può chiudere con la pioggia
-  • Hase-dera chiude alle 16:30
+  • Hase-dera: ultimo ingresso 16:30 (chiude alle 17)
   • Partire da Fujisawa entro le 17:45 per non perdere lo Shinkansen
   • Al passaggio a livello ci sono gli steward: foto dal marciapiede
 anticipo: • Più tempo a Hase-dera (grotta e terrazza) o una puntata a Enoshima (isoletta collegata da un ponte)
@@ -622,7 +624,7 @@ con: voi due
   veloce: [[nakau-gojo]] (donburi e udon, 5′ a piedi) o il konbini [[lawson100-gojo]] all'uscita della stazione
 - 13:45 sposta Sannenzaka | via piedi: #sanshiki > #sannenzaka (SANSHIKI → Sannenzaka)
   breve: a piedi 15′ in salita · 1 km
-- 14:00 vedere Sannenzaka e Ninenzaka- 13:45 vedere Sannenzaka e Ninenzaka (vicoli antichi) | posto: sannenzaka
+- 14:00 vedere Sannenzaka e Ninenzaka (vicoli antichi) | posto: sannenzaka
   breve: vicoli antichi in discesa · pausa tè alle 15:00
   Vicoli con case di legno e negozietti: si entrano dall'alto, sotto il Kiyomizu-dera, e si fanno in discesa.
 - 15:50 sposta Pagoda di Yasaka | via piedi: Ninenzaka, Kyoto > #pagoda-yasaka (Ninenzaka → pagoda di Yasaka)
@@ -1024,7 +1026,7 @@ con: voi due
   L'Akihabara di Osaka. Invece del metro fino a Shinsekai si scende a piedi da Nippombashi lungo Sakaisuji-dōri e la parallela Otaroad (la via otaku): negozi di videogiochi, figure, gachapon (distributori di capsule) e sale giochi. Sosta da [[super-potato]] (videogiochi retro, nel weekend 10–20). In fondo alla via si arriva dritti a Shinsekai.
 - 16:35 vedere Shinsekai (quartiere retrò) | posto: shinsekai
   breve: quartiere retrò anni '50 · torre al tramonto (16:55)
-  [[tsutenkaku]] al tramonto (¥1.000) e sale giochi d'epoca.
+  [[tsutenkaku]] al tramonto (¥1.500, ingresso a orario: si sceglie l'ora all'acquisto) e sale giochi d'epoca.
   Assaggio di kushikatsu (spiedini fritti) da [[daruma]], solo contanti.
   attenzione: da Daruma è vietato intingere due volte nella salsa comune
 - 17:25 sposta Hotel Hillarys | via mezzi: #tsutenkaku > @hillarys (Shinsekai → Hotel Hillarys)
@@ -1090,21 +1092,22 @@ camminata: ~15 km (parco del castello e Den Den Town a piedi) · treni ~4 h al m
 percorso: osaka > tokyo
 dorme: super-hotel
 con: voi due
-- 07:15 hotel Check-out dall'Hotel Hillarys | alloggio: hillarys
-  breve: colazione dalle 6:45 · anche da asporto
-  La colazione (inclusa) inizia alle 6:45: scendete presto, oppure chiedete al personale della colazione di prepararla da portare via e mangiatela in treno o in coda a Universal Studios.
-- 07:20 sposta Armadietti di Universal Studios | via mezzi: @hillarys > Universal Studios Japan lockers (Hotel → Universal Studios)
+- 07:45 hotel Check-out dall'Hotel Hillarys | alloggio: hillarys
+  breve: colazione con calma dalle 6:45 · il parco apre alle 9
+  La colazione (inclusa) inizia alle 6:45: c'è tempo per farla seduti. Nel parco non si entra con cibo da fuori.
+- 07:50 sposta Armadietti di Universal Studios | via mezzi: @hillarys > Universal Studios Japan lockers (Hotel → Universal Studios)
   breve: metro + treno ~35′
   come: 4′ a piedi, metro Midōsuji da Shinsaibashi a Umeda (6′, la stazione centrale di Osaka), treno JR da Osaka a Universal City (~15′, diretto o cambio a Nishikujō)
-- 07:55 bagagli Valigie negli armadietti grandi | deposito | dove: Universal Studios Japan lockers | zona: usj
-  breve: fuori dai cancelli · sono pochi: arrivate presto
+- 08:25 bagagli Valigie negli armadietti grandi | deposito | dove: Universal Studios Japan lockers | zona: usj
+  breve: fuori dai cancelli · sono pochi: poi in fila ai cancelli
+  Il 16/11 il parco apre alle 9:00 (sito ufficiale, verificato il 30/10): mettetevi in fila verso le 8:30, a volte aprono i cancelli un po' prima.
   alternativa: se gli armadietti XL (¥1.500, davanti ai controlli di sicurezza) sono finiti, nella CityWalk (la via dei negozi davanti al parco) ci sono due depositi con persona: Keepen Azukaru Tokorona (8:00–22:30, ¥1.500 a valigia grande) e The Backstage Dressing Room (9:00–22:00, ¥1.000). Gli armadietti del parco si svuotano entro 2 h dalla chiusura.
-- 08:00 fare Super Nintendo World | posto: usj | prenotare
+- 09:00 fare Super Nintendo World | posto: usj | prenotare
   breve: il mondo di Mario dentro Universal Studios
   Mario Kart, Yoshi, Donkey Kong Country (montagne russe nella miniera).
   attenzione: serve l'Area Timed Entry (il biglietto a orario per l'area Nintendo) o l'Express Pass che la include
   prenotazione: biglietti USJ + Express Pass per 2
-- 11:00 fare Altre attrazioni di Universal Studios | posto: usj
+- 11:30 fare Altre attrazioni di Universal Studios | posto: usj
 - 13:30 cibo Pranzo nel parco | posto: usj
   breve: dopo le 13:30, quando calano le code · ~1 h
   Kinopio's Cafe (il locale di Toad dentro Super Nintendo World) si prenota dall'app di USJ il giorno stesso, se ci sono posti; altrimenti Mel's Drive-In (hamburger).
@@ -1141,7 +1144,7 @@ attenzione:
   • Senza Area Timed Entry nell'area Nintendo non si entra
   • Armadietti grandi limitati: arrivate all'apertura
   • Uscita entro le 18:10
-  • Orari del parco del 16/11 sul sito USJ
+  • Il 16/11 il parco apre alle 9:00 (chiude alle 22): in fila ai cancelli verso le 8:30
 stanchi: • Solo Super Nintendo World + 2 attrazioni con l'Express Pass
 contanti: ¥2.000–4.000 a testa
   • Armadietti di Universal Studios o deposito della CityWalk (¥1.000–1.500 a valigia)
@@ -1621,7 +1624,7 @@ Senza `tappa` la cosa finisce sulla prima tappa del primo giorno (la partenza). 
 li genera build.py dai treni con `conferma`.
 
 ### usj
-tappa: 2026-11-16 08:00
+tappa: 2026-11-16 09:00
 cosa: Universal Studios Japan + Express Pass, per 2
 tipo: prenotare
 giorno: 2026-11-16
@@ -1629,7 +1632,7 @@ quando: subito: gli Express Pass finiscono
 costo: ~€130–195 a testa
 link: Biglietti (negozio ufficiale USJ) = https://store.usj.co.jp/en/us/c/ticket ; Express Pass (negozio ufficiale) = https://store.usj.co.jp/en/us/c/expresspass ; Cos'è l'Express Pass = https://www.usj.co.jp/web/en/us/tickets/express-pass
 priorità: alta
-nota: Quale Express Pass: serve uno con Mine-Cart Madness E Mario Kart. Quello sicuro è l'«Express Pass 7 – Mine Cart & Selection» (Mine-Cart, Mario Kart, Yoshi, 2 di Harry Potter e 2 a scelta), da ~¥21.800 a testa a seconda del giorno (fonte di giugno 2026); alcune date hanno anche un Express Pass 4 con tutti e due, più economico: controllate sul negozio ufficiale per il 16/11. L'Express Pass non fa entrare nel parco: serve anche lo Studio Pass (~¥8.600–10.900). L'Express Pass con un'attrazione Nintendo garantisce l'ingresso all'area Super Nintendo World (verificatelo nella schermata d'acquisto). Dal 2025 il biglietto d'ingresso (Studio Pass) si compra solo online, non più alla cassa. Serve l'Area Timed Entry o un Express Pass che include Super Nintendo World, altrimenti nell'area Nintendo non si entra. Orari del 16/11 sul sito ufficiale.
+nota: Quale Express Pass: serve uno con Mine-Cart Madness E Mario Kart. Quello sicuro è l'«Express Pass 7 – Mine Cart & Selection» (Mine-Cart, Mario Kart, Yoshi, 2 di Harry Potter e 2 a scelta), da ~¥21.800 a testa a seconda del giorno (fonte di giugno 2026); alcune date hanno anche un Express Pass 4 con tutti e due, più economico: controllate sul negozio ufficiale per il 16/11. L'Express Pass non fa entrare nel parco: serve anche lo Studio Pass (~¥8.600–10.900). L'Express Pass con un'attrazione Nintendo garantisce l'ingresso all'area Super Nintendo World (verificatelo nella schermata d'acquisto). Dal 2025 il biglietto d'ingresso (Studio Pass) si compra solo online, non più alla cassa. Serve l'Area Timed Entry o un Express Pass che include Super Nintendo World, altrimenti nell'area Nintendo non si entra. Il 16/11 il parco è aperto 9:00–22:00 (sito ufficiale, verificato il 30/10).
 
 ### bus-nohi
 tappa: 2026-11-14 08:30, 2026-11-14 15:00
@@ -2461,7 +2464,7 @@ nome: Hase-dera
 tipo: ⛩ Tempio
 città: kamakura
 giorno: 10/11
-nota: Terrazza sul mare · chiude alle 16:30
+nota: Terrazza sul mare · 8–17, ultimo ingresso 16:30 · ¥400
 maps: Hasedera Temple Kamakura
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g303156-d319981-Reviews-Hasedera_Temple-Kamakura_Kanagawa_Prefecture_Kanto.html
 sito: https://www.hasedera.jp/en/
@@ -2516,7 +2519,7 @@ nome: Kiyomizu-dera
 tipo: ⛩ Tempio
 città: kyoto
 giorno: 11/11
-nota: 12:30
+nota: 11:30 · ~1 h · ¥500
 maps: Kiyomizu-dera Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321401-Reviews-Kiyomizu_dera_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.kiyomizudera.or.jp/en/
@@ -2538,7 +2541,7 @@ nome: Pagoda di Yasaka (Hōkan-ji)
 tipo: 📸 Foto
 città: kyoto
 giorno: 11/11
-nota: 16:30, tramonto 16:55
+nota: 16:00, luce del tardo pomeriggio · tramonto 16:55 al Kōdai-ji
 maps: Yasaka Pagoda Hokanji Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1386172-Reviews-Yasaka_Pagoda-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://kyoto.travel/en/destinations/hokanji-templeyasaka-pagoda/
@@ -2634,7 +2637,7 @@ nome: Ginkaku-ji (Padiglione d'Argento)
 tipo: ⛩ Tempio
 città: kyoto
 giorno: 12/11
-nota: 13:25 · ¥500
+nota: 15:50 · 8:30–17, ultimo ingresso 16:45 · ¥500
 maps: Ginkakuji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321398-Reviews-Ginkakuji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.shokoku-ji.jp/en/ginkakuji/
@@ -2645,7 +2648,7 @@ nome: Sentiero del Filosofo
 tipo: 🚶 Passeggiata
 città: kyoto
 giorno: 12/11
-nota: 2 km verso sud
+nota: 2 km verso nord, da Nanzen-ji al Ginkaku-ji
 maps: Philosopher's Path Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d545965-Reviews-Philosopher_s_Walk-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://kyoto.travel/en/destinations/philosophers-path-tetsugakunomichi/
@@ -2690,7 +2693,7 @@ nome: Keage Incline
 tipo: 🌅 Passeggiata
 città: kyoto
 giorno: 12/11
-nota: Al tramonto, 16:45
+nota: 13:40, dopo il pranzo da Okakita
 maps: Keage Incline Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1975187-Reviews-Keage_Incline-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://biwakososui.city.kyoto.lg.jp/en/place/detail/23
@@ -2759,7 +2762,7 @@ nome: Takayama Jinya
 tipo: 🏯 Storia
 città: takayama
 giorno: 13/11
-nota: 13:30 · 8:45–16:30, ¥440
+nota: 13:55 · 8:45–16:30, ¥440
 maps: Takayama Jinya
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298113-d320174-Reviews-Takayama_Jinya-Takayama_Gifu_Prefecture_Tokai_Chubu.html
 sito: https://jinya.gifu.jp/en/
@@ -3000,7 +3003,7 @@ nome: Torre Tsūtenkaku
 tipo: 🌅 Panorama
 città: osaka
 giorno: 15/11
-nota: Al tramonto · 10–20, ¥1.000
+nota: Al tramonto · 9–21:45, ultimo ingresso 21:15 · ¥1.500 · ingresso a orario
 maps: Tsutenkaku Osaka
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298566-d1195795-Reviews-Tsutenkaku-Osaka_Osaka_Prefecture_Kinki.html
 sito: https://www.tsutenkaku.co.jp/
@@ -3210,7 +3213,7 @@ nome: SANSHIKI (udon)
 tipo: 🍜 Ristorante
 città: kyoto
 giorno: 11/11
-nota: Pranzo 11:15 · 11–15, chiuso mar. · solo contanti
+nota: Pranzo 12:45 · 11–15, chiuso mar. · solo contanti
 maps: 讃式 京都市東山区五条橋東2-9-4
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298564-d9652076-Reviews-Sanshiki-Kyoto_Kyoto_Prefecture_Kinki.html
 tabelog: https://tabelog.com/en/kyoto/A2601/A260301/26023919/
