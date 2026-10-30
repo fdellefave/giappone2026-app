@@ -102,7 +102,8 @@ Già verificato (non riproporre):
   17/11 tolti Ginza, depachika e Kabuki-za: mattina Meiji Jingū (a novembre 6:10–16:10, la sera è chiuso) e Takeshita-dōri, pranzo = pasto compreso nello show, Shibuya Sky alle 16:20, incrocio di Shibuya dopo il tramonto.
 - Più tech e nerd (28/10 sera, richiesta di Federico: verso il 60/40 senza togliere must-see, solo cose di passaggio entro 1–2 km a piedi, spostamenti lunghi invariati): gatto 3D di Shinjuku il 6/11 (schermo Cross Shinjuku, spettacolo ogni 15′, 7–1), Nintendo KYOTO l'11/11 tra Gion e Onikai (Takashimaya T8, fino alle 20), stazione di Kyoto con la scalinata di LED il 12/11 tornando da Kotetsu (15–22), Den Den Town a piedi da Nippombashi a Shinsekai e Umeda Sky Building dopo cena il 15/11 (¥2.000, ultimo ingresso 22:00). Scartati: museo ferroviario di Kyoto (costava Ginkaku-ji e il Sentiero del Filosofo, più un taxi), Den Den Town al posto del castello.
 
-Pasti senza doppioni (30/10, richiesta di Federico): mai due pasti dello stesso tipo nello stesso giorno. 6/11 cena: sushi in piedi da Uogashi Nihonichi (stazione di Akihabara) al posto del ramen Kyushu Jangara. 13/11 pranzo: ramen di Takayama da Masago Soba al posto di Kotte Ushi (manzo + bistecca la sera); Kotte Ushi resta alternativa. 17/11: a Tsukiji solo assaggi cotti, il crudo è la cena da Sushi Tokyo Ten.
+Pasti senza doppioni (30/10, richiesta di Federico): mai due pasti dello stesso tipo nello stesso giorno. 6/11 cena: sushi in piedi da Uogashi Nihonichi (stazione di Akihabara) al posto del ramen Kyushu Jangara. 13/11 pranzo: ramen di Takayama da Masago Soba al posto di Kotte Ushi (manzo + bistecca la sera); Kotte Ushi resta alternativa.
+Ristoranti e orari dei pasti (30/10, richiesta di Federico): tutti verificati su Tabelog (3,45+), prezzi fattibili tranne sushi omakase ≤€60 e Kobe ≤€70; pranzo verso le 13 e cena 19–20, ~1 h ciascuno, senza forzare il percorso. 6/11 Kizuna Sushi (3,48) al posto di Uogashi (3,25); 11/11 Kiyomizu-dera prima e SANSHIKI alle 12:45 scendendo; 12/11 Okakita (3,69) al posto di Daigin (3,34) con giro al contrario Keage → Nanzen-ji → Sentiero → Ginkaku-ji; 13/11 Taruhei (3,62) al posto di Kitchen Hida (troppo cara), onsen prima di cena; 14/11 Neighbird (3,60) al posto di Kyōya (3,33); 15/11 Kobe alle 19 col corso da ~¥11.000; 16/11 pranzo alle 13:30 e cena sullo Shinkansen. Hisago (oyakodon a Gion) risulta chiuso su Tabelog. Il 6/11 il pranzo resta alle 14:10 per l'atterraggio. 17/11: a Tsukiji solo assaggi cotti, il crudo è la cena da Sushi Tokyo Ten.
 
 Messaggio del gruppo (24/10): riepilogo, quasi tutto già nel file (ritiro Fuji Excursion, navetta/bici/transfer del Cottage Pastorale solo per i loro ospiti, PDF e guide sul drive). App consigliate → voce «app» in «Da fare». Treni Kyoto–Osaka/Nara, Kyoto–Kanazawa, transfer Kanazawa–Shirakawa-go del 4/11, allergie: non vi riguardano.
 
@@ -218,17 +219,19 @@ con: voi due
 - 19:25 fare Radio Kaikan (figure e manga) | posto: radio-kaikan
   breve: 10 piani di negozi di figure, modellini e carte da collezione
   Al piano terra e in tutto il quartiere ci sono i gachapon (distributori di gadget a capsule, ¥100–500).
-- 20:00 sposta Uogashi Nihonichi | via piedi: #radio-kaikan > #uogashi-akiba (Radio Kaikan → sushi)
-  breve: a piedi 3′ · dentro la stazione JR (Atre 1, uscita Denki-gai)
-- 20:10 cibo Uogashi Nihonichi (sushi in piedi) | posto: uogashi-akiba
-  breve: cena: sushi al banco, fatto al momento
-  Tachigui-zushi (sushi mangiato in piedi al banco): si ordina pezzo per pezzo al cuoco, ~¥200–500 a pezzo, 30–40′ bastano. Niente prenotazioni.
-  orari: lun–ven 11–23 (sab e dom fino alle 21:30)
-  costo: ~¥2.000–3.000 a testa
-  veloce: [[matsuya-akiba]] (gyudon, aperto 24 h) o il konbini [[seven-sotokanda]]
-- 20:55 sposta Sale giochi di Akihabara | via piedi: #uogashi-akiba > #hey-akihabara (Sushi → sale giochi)
+- 19:55 sposta Kizuna Sushi | via piedi: #radio-kaikan > #kizuna-akiba (Radio Kaikan → sushi)
   breve: a piedi 5′
-- 21:00 fare Sale giochi di Akihabara | posto: hey-akihabara
+- 20:00 cibo Kizuna Sushi (sushi al banco) | posto: kizuna-akiba | prenotare
+  breve: cena: sushi buono a prezzo giusto · ~1 h
+  Sushi fatto al momento dai cuochi al banco, alla carta o a set; ottimo rapporto qualità-prezzo. Tabelog 3,48 su 912 recensioni, il più votato di Akihabara.
+  costo: ~¥4.000–5.000 a testa · carte accettate
+  orari: tutti i giorni, ultimo ordine 23:00
+  prenotazione: ore 20:00 per 2, online su Tabelog
+  alternativa: senza prenotazione [[uogashi-akiba]] (sushi in piedi nella stazione, Tabelog 3,25, ~¥2.000)
+  veloce: [[matsuya-akiba]] (gyudon, aperto 24 h) o il konbini [[seven-sotokanda]]
+- 21:00 sposta Sale giochi di Akihabara | via piedi: #kizuna-akiba > #hey-akihabara (Sushi → sale giochi)
+  breve: a piedi 5′
+- 21:05 fare Sale giochi di Akihabara | posto: hey-akihabara
   breve: HEY, GiGO e Taito Station, aperte fino a tardi
   [[hey-akihabara]] (giochi retro e sparatutto, fino alle 23:45), [[gigo-akihabara]] (pupazzi da pescare con la gru, giochi musicali), [[taito-station]].
 - 22:00 sposta Gatto 3D, Shinjuku | via mezzi: Akihabara Station, Tokyo > クロス新宿ビル 新宿区新宿3-23-18 (Akihabara → gatto 3D)
@@ -249,7 +252,8 @@ con: voi due
 senso: Arrivo e prima immersione: Asakusa (la Tokyo antica, col tempio Senso-ji), tramonto sul fiume e Tokyo di notte dalla Skytree (la torre della tv), poi serata nerd ad Akihabara (il quartiere dei videogiochi): giochi retro, figure, sushi e sale giochi. Chiusura a Shinjuku col gatto 3D gigante sul maxischermo e la testa di Godzilla. Giornata lunga per il jet lag: con calma.
 mangiare:
   • Pranzo: Fūunji, tsukemen (ramen da intingere), tra i migliori di Tokyo (Tabelog 3,77). Chiude alle 15: se siete in ritardo, Kura Sushi ad Asakusa (sushi su nastro, si ordina dal tablet)
-  • Cena: sushi in piedi al banco da Uogashi Nihonichi, dentro la stazione di Akihabara (fino alle 23)
+  • Cena: Kizuna Sushi ad Akihabara (Tabelog 3,48, ~¥4.000–5.000), alle 20:00, prenotato online
+  • Pranzo alle 14:10 per l'atterraggio delle 11:20: in aereo fate colazione abbondante
 prenotare:
   • Istruzioni del deposito valigie self-service dall'host dell'Airbnb (scrivergli qualche giorno prima)
   • Carta Suica (tessera per metro e treni) già sul telefono
@@ -602,22 +606,25 @@ con: voi due
   costo: ¥600
   orari: 8:30–17:00 (fino al 15/11)
   attenzione: dentro niente foto e si entra senza scarpe
-- 11:00 sposta SANSHIKI | via piedi: #sanjusangendo > #sanshiki (Sanjūsangen-dō → SANSHIKI)
-  breve: a piedi 13′ · 1 km
-- 11:15 cibo SANSHIKI (udon e tempura) | posto: sanshiki
-  breve: pranzo appena apre · udon fatti a mano
-  Udon (spaghettoni di grano spessi) in stile Sanuki, con tempura (fritto leggero); la bukkake fredda (udon con poco brodo versato sopra) costa ~¥700. Tabelog 3,53 su 297 recensioni. Locale piccolo: appena apre non c'è coda.
+- 11:00 sposta Kiyomizu-dera | via piedi: #sanjusangendo > #kiyomizu-dera (Sanjūsangen-dō → Kiyomizu-dera)
+  breve: a piedi ~30′ in salita per Gojō-zaka · 2 km
+  come: verso est fino a Higashiōji, poi su per Gojō-zaka e Chawan-zaka (la «salita delle ceramiche»)
+- 11:30 vedere Kiyomizu-dera (tempio) | posto: kiyomizu-dera
+  breve: tempio di legno su palafitte · ~1 h
+  La terrazza di legno guarda tutta la città.
+- 12:30 sposta SANSHIKI | via piedi: #kiyomizu-dera > #sanshiki (Kiyomizu-dera → SANSHIKI)
+  breve: a piedi 15′ in discesa per Gojō-zaka · 1 km
+- 12:45 cibo SANSHIKI (udon e tempura) | posto: sanshiki
+  breve: pranzo · udon fatti a mano · ~1 h
+  Udon (spaghettoni di grano spessi) in stile Sanuki, con tempura (fritto leggero); la bukkake fredda (udon con poco brodo versato sopra) costa ~¥700. Tabelog 3,53 su 297 recensioni. Locale piccolo: all'ora di pranzo può esserci un po' di coda.
   costo: ~¥1.000–2.000 a testa · solo contanti
   orari: 11–15 · chiuso il martedì
   veloce: [[nakau-gojo]] (donburi e udon, 5′ a piedi) o il konbini [[lawson100-gojo]] all'uscita della stazione
-- 12:05 sposta Kiyomizu-dera | via piedi: #sanshiki > #kiyomizu-dera (SANSHIKI → Kiyomizu-dera)
-  breve: a piedi 25′ in salita per Gojō-zaka · 1,6 km
-- 12:30 vedere Kiyomizu-dera (tempio) | posto: kiyomizu-dera
-  breve: tempio di legno su palafitte · ~1 h 15
-  La terrazza di legno guarda tutta la città. Da qui si scende a piedi per i vicoli antichi, senza tornare indietro.
-- 13:45 vedere Sannenzaka e Ninenzaka (vicoli antichi) | posto: sannenzaka
+- 13:45 sposta Sannenzaka | via piedi: #sanshiki > #sannenzaka (SANSHIKI → Sannenzaka)
+  breve: a piedi 15′ in salita · 1 km
+- 14:00 vedere Sannenzaka e Ninenzaka- 13:45 vedere Sannenzaka e Ninenzaka (vicoli antichi) | posto: sannenzaka
   breve: vicoli antichi in discesa · pausa tè alle 15:00
-  Vicoli in salita con case di legno e negozietti: si fanno in discesa, uscendo dal Kiyomizu-dera.
+  Vicoli con case di legno e negozietti: si entrano dall'alto, sotto il Kiyomizu-dera, e si fanno in discesa.
 - 15:50 sposta Pagoda di Yasaka | via piedi: Ninenzaka, Kyoto > #pagoda-yasaka (Ninenzaka → pagoda di Yasaka)
   breve: a piedi 10′
 - 16:00 vedere Pagoda di Yasaka | posto: pagoda-yasaka
@@ -666,7 +673,7 @@ con: voi due
 senso: Kyoto classica: santuario dei portali rossi all'alba, la sala delle 1.001 statue dorate, tempio su palafitte, vicoli antichi in discesa, tempio zen illuminato al tramonto, quartiere delle geisha tra le lanterne, il negozio Nintendo di Kyoto e serata nei bar lungo il canale.
 mangiare:
   • Colazione: konbini (minimarket) prima di uscire, poi solo un caffè da Vermillion dopo la salita a Fushimi Inari (dalle 9)
-  • Pranzo: SANSHIKI, udon fatti a mano e tempura (Tabelog 3,53), alle 11:15 appena apre, prima della salita al Kiyomizu-dera; solo contanti
+  • Pranzo: SANSHIKI, udon fatti a mano e tempura (Tabelog 3,53), alle 12:45 scendendo dal Kiyomizu-dera; solo contanti
   • Cena: Onikai, izakaya (osteria, piattini da condividere) di cucina di Kyoto a 3′ da Pontochō (Tabelog 3,60), alle 19:30
 prenotare:
   • Onikai ore 19:30 per 2 (online su Tabelog)
@@ -678,13 +685,13 @@ attenzione:
   • A Gion non si fotografano le geisha da vicino e non si entra nei vicoli privati (multe)
 anticipo: • Shōren-in illuminato (tempio con giardino e bambù illuminati di blu, dal 7/11, 18–22, ¥1.000) dopo cena, a 20′ da Pontochō
 stanchi:
-  • Saltate il Sanjūsangen-dō: dal caffè treno Keihan dritti fino a Kiyomizu-Gojō, la stazione di SANSHIKI
+  • Saltate il Sanjūsangen-dō: dal caffè treno Keihan dritti fino a Kiyomizu-Gojō e su al Kiyomizu-dera
   • Saltate Pontochō e Kiyamachi: cena e a letto. Non tagliate Kiyomizu
 contanti: ¥4.500–10.000 a testa
   • SANSHIKI (udon e tempura, ~¥1.000–2.000): solo contanti
   • Templi: Sanjūsangen-dō ¥600, Kiyomizu-dera ¥500 e Kōdai-ji illuminato ¥800
   • Snack nei vicoli di Sannenzaka e un drink nei bar di Kiyamachi
-camminata: ~15 km (salita a Fushimi, giro di Gion a passo lento) · mezzi 30′ · pause: caffè 30′, pranzo 50′, tè 30′, cena 1 h 15
+camminata: ~16 km (salita a Fushimi, giro di Gion a passo lento) · mezzi 30′ · pause: caffè 30′, pranzo 1 h, tè 30′, cena 1 h 15
 ### 2026-11-12
 percorso: kyoto
 dorme: apa-kyoto
@@ -715,32 +722,38 @@ con: voi due
   breve: tempio d'oro sul laghetto · 45′
   Tempio ricoperto di foglia d'oro su un laghetto.
   costo: ¥500
-- 11:55 sposta Daigin Shokudō | via taxi: #kinkaku-ji > #daigin (Kinkaku-ji → Daigin Shokudō)
-  breve: taxi 25′ o bus 40′
-  costo: taxi ~¥3.000 (7 km) · bus 204 con la Suica
-- 12:20 cibo Daigin Shokudō (trattoria) | posto: daigin
-  breve: pranzo veloce ed economico · ~¥1.000
-  Shokudō: la trattoria giapponese di quartiere, con piatti unici (teishoku: riso, zuppa, sottaceti e un piatto di carne o pesce), udon e donburi (ciotole di riso condito). Menù in inglese e piatti finti in vetrina; insegna arancione e nera senza scritte in inglese. Omen (udon famosi) oggi è chiuso: è giovedì.
-  orari: 11–20:40 · chiuso il mercoledì
-  veloce: [[fresco-ginkakuji]] (supermercato aperto 24 h: sushi e bento) o il konbini [[famima-ginkakuji]]
-- 13:25 vedere Ginkaku-ji (Padiglione d'Argento) | posto: ginkaku-ji
-  breve: tempio con giardino di sabbia e muschio · 45′
-  Giardino di sabbia e muschio.
-  costo: ¥500
-- 14:15 vedere Sentiero del Filosofo | posto: sentiero-filosofo | via piedi: #ginkaku-ji > #nanzen-ji (Ginkaku-ji → Nanzen-ji)
-  breve: 2 km lungo un canale alberato · ~45′ con le soste
-  Si passa da [[honen-in]] (tempietto nel bosco, gratis).
-  alternativa: [[eikan-do]] (il tempio degli aceri, 5′ prima di Nanzen-ji), ultimo ingresso alle 16: c'è tempo, ma vale solo se gli aceri sono già rossi
-- 15:05 vedere Nanzen-ji (tempio zen) | posto: nanzen-ji
-  breve: grande tempio zen con acquedotto dell'800 · con calma
+- 11:55 sposta Okakita | via taxi: #kinkaku-ji > #okakita (Kinkaku-ji → Okakita)
+  breve: taxi ~25′ (~¥3.500) o bus ~45′
+  costo: taxi ~¥3.500 (8 km) · bus 204 + a piedi, con la Suica
+- 12:25 cibo Okakita (udon e soba) | posto: okakita
+  breve: pranzo · udon di Kyoto, tra i più amati della città · ~1 h
+  Udon e soba (spaghetti di grano saraceno) in brodo dashi delicato, alla maniera di Kyoto; famosi anche il kashiwa-nanban (udon col pollo) e l'oyakodon (riso con pollo e uovo). Tabelog 3,69 su 1.674 recensioni. Vicino al santuario Heian.
+  costo: ~¥1.000–2.000 a testa
+  orari: 11–19 · chiuso martedì e mercoledì
+  attenzione: c'è spesso coda (la fila scorre veloce): per questo il taxi, per arrivare prima delle 12:30
+  alternativa: [[tairiki-tei]] (udon a 5′ da Nanzen-ji, Tabelog 3,44, si prenota)
+  veloce: konbini lungo Jingū-michi, la via del grande torii del santuario Heian
+- 13:25 sposta Keage Incline | via piedi: #okakita > #keage-incline (Okakita → Keage Incline)
+  breve: a piedi 12′ · 900 m
+- 13:40 vedere Keage Incline (vecchi binari tra gli alberi) | posto: keage-incline
+  breve: vecchi binari tra gli alberi · 20′
+- 14:00 sposta Nanzen-ji | via piedi: #keage-incline > #nanzen-ji (Keage Incline → Nanzen-ji)
+  breve: a piedi 8′, passando sotto il tunnel di mattoni
+- 14:10 vedere Nanzen-ji (tempio zen) | posto: nanzen-ji
+  breve: grande tempio zen con acquedotto dell'800 · ~50′
   orari: ultimo ingresso 16:40
-- 16:35 sposta Keage Incline | via piedi: #nanzen-ji > #keage-incline (Nanzen-ji → Keage Incline)
-  breve: a piedi 8′
-- 16:45 vedere Keage Incline (vecchi binari tra gli alberi) | posto: keage-incline
-  breve: al tramonto, 16:55
-- 17:10 sposta Samurai & Ninja Museum | via mezzi: Keage Station, Kyoto > #samurai-ninja-museum (Keage → museo dei samurai)
-  breve: metro 8′ + a piedi 14′
-  come: metro Tōzai line da Keage a Kyoto Shiyakusho-mae (il municipio), poi 14′ a piedi verso sud (1,1 km)
+- 15:00 vedere Sentiero del Filosofo | posto: sentiero-filosofo | via piedi: #nanzen-ji > #ginkaku-ji (Nanzen-ji → Ginkaku-ji)
+  breve: 2 km lungo un canale alberato, verso nord · ~45′ con le soste
+  Si passa da [[honen-in]] (tempietto nel bosco, gratis).
+  alternativa: [[eikan-do]] (il tempio degli aceri, 5′ dopo Nanzen-ji), ultimo ingresso alle 16: vale solo se gli aceri sono già rossi
+- 15:50 vedere Ginkaku-ji (Padiglione d'Argento) | posto: ginkaku-ji
+  breve: tempio con giardino di sabbia e muschio · 45′
+  Giardino di sabbia e muschio, col sentiero sulla collina che guarda la città al tramonto (16:55).
+  costo: ¥500
+  orari: fino alle 17:00
+- 16:40 sposta Samurai & Ninja Museum | via taxi: #ginkaku-ji > #samurai-ninja-museum (Ginkaku-ji → museo dei samurai)
+  breve: taxi ~20′ (~¥2.000) o bus 32 ~35′
+  come: taxi dalla fermata Ginkakuji-michi, oppure bus 32 fino a Shijō-Kawaramachi e 5′ a piedi
 - 17:35 fare Samurai & Ninja Museum (armature e katane) | posto: samurai-ninja-museum | prenotare
   breve: visita guidata 30′ + armatura, katana e shuriken · ~1 h
   Piccolo museo di armature, elmi e katane originali con una guida in inglese (30′), poi si prova: armatura da samurai, posa con la katana, lancio degli shuriken (le stelle dei ninja) al bersaglio. Mezz'ora quasi tutta in piedi ma senza camminare: giusto per la fine della giornata più lunga.
@@ -774,9 +787,9 @@ con: voi due
   L'APA ha un bagno pubblico interno (15:00–01:00), un sentō (bagno pubblico giapponese) in piccolo.
 
 #### Guida
-senso: Kyoto natura e zen: bosco di bambù e giardino di Tenryū-ji ad Arashiyama, giardino di rocce, Padiglione d'Oro e d'Argento, Sentiero del Filosofo, tramonto sui vecchi binari tra gli alberi, poi armature e katane al museo dei samurai e le luci della stazione futuristica. Giornata lunga ma senza salite.
+senso: Kyoto natura e zen: bosco di bambù e giardino di Tenryū-ji ad Arashiyama, giardino di rocce, Padiglione d'Oro, vecchi binari tra gli alberi, Nanzen-ji, Sentiero del Filosofo e tramonto al Padiglione d'Argento, poi armature e katane al museo dei samurai e le luci della stazione futuristica. Giornata lunga ma senza salite.
 mangiare:
-  • Pranzo: Daigin Shokudō, trattoria economica sotto il Padiglione d'Argento (~¥1.000). Omen (udon famosi) oggi è chiuso: è giovedì
+  • Pranzo: Okakita, udon e soba di Kyoto (Tabelog 3,69), alle 12:25: c'è spesso coda, ma scorre
   • Cena: Kotetsu, kushiage (spiedini impanati e fritti al momento), Tabelog 3,58, alle 19:00; solo contanti
 prenotare:
   • Samurai & Ninja Museum, ingresso delle 17:30–17:45 per 2 (~¥3.300 a testa)
@@ -790,14 +803,14 @@ anticipo:
   • Ponte Togetsukyō (la foto classica di Arashiyama), 5′ dal portone di Tenryū-ji
   • Eikan-dō (il tempio degli aceri) fino alle 16, se gli aceri sono già rossi
 stanchi:
-  • Taxi da Ginkaku-ji a Nanzen-ji, saltando il Sentiero (−2,5 km)
+  • Taxi da Nanzen-ji a Ginkaku-ji, saltando il Sentiero (−2,5 km)
   • Il museo dei samurai si fa quasi da fermi: non è quello da tagliare
   • Se piove: Toei Kyoto Studio Park (set dei film di samurai con spettacoli di ninja)
 contanti: ¥9.500–15.000 a testa
   • Giornata più cara in contanti
   • Templi: Tenryū-ji ¥500, Ryōan-ji ¥600, Kinkaku-ji ¥500, Ginkaku-ji ¥500
   • Metà taxi da Kinkaku-ji (~¥1.500 a testa)
-  • Daigin Shokudō (~¥1.000)
+  • Okakita (~¥1.000–2.000) e metà taxi dal Ginkaku-ji
   • Kotetsu (spiedini fritti, ~¥3.000–4.000): solo contanti
   • Lavanderia dell'hotel ~¥800 a carico, solo monete da ¥100
   • Sera: secondo prelievo a un 7-Eleven vicino all'hotel, quanto serve per avere ~¥45.000 a testa fino alla fine (Takayama e Shirakawa-go sono in campagna)
@@ -825,22 +838,22 @@ con: voi due
 - 12:30 sposta Masago Soba | via piedi: @alpina > #masago-soba (Hotel → Masago Soba)
   breve: a piedi ~12′
 - 12:45 cibo Masago Soba (ramen di Takayama) | posto: masago-soba
-  breve: il ramen tipico di qui, brodo di soia leggero
+  breve: il ramen tipico di qui, brodo di soia leggero · Tabelog 3,62 · ~1 h
   Takayama ramen (chūka soba, cioè «spaghetti cinesi»): brodo di soia con sardine e ossa di maiale, spaghettini sottili e ricci fatti a mano. Bottega di tre generazioni, un solo piatto (normale o grande).
   orari: 11–15:30 circa, chiuso il mercoledì
-  alternativa: [[kotte-ushi]] (sushi di manzo di Hida), ma stasera la bistecca è già manzo
-- 13:25 sposta Takayama Jinya | via piedi: #masago-soba > #jinya (Masago Soba → Jinya)
+  alternativa: [[kotte-ushi]] (sushi di manzo di Hida, assaggio veloce in Sanmachi)
+- 13:45 sposta Takayama Jinya | via piedi: #masago-soba > #jinya (Masago Soba → Jinya)
   breve: a piedi ~10′
-- 13:30 vedere Takayama Jinya (palazzo del governatore) | posto: jinya
+- 13:55 vedere Takayama Jinya (palazzo del governatore) | posto: jinya
   breve: l'antico palazzo del governatore · 45′
   orari: 8:45–16:30
   costo: ¥440
-- 14:25 sposta Sanmachi-suji | via piedi: #jinya > #sanmachi (Jinya → Sanmachi)
+- 14:40 sposta Sanmachi-suji | via piedi: #jinya > #sanmachi (Jinya → Sanmachi)
   breve: a piedi 5′
-- 14:30 vedere Sanmachi (vie antiche) e distillerie di sakè | posto: sanmachi
-  breve: case di legno + assaggi di sakè (vino di riso) · 1 h
+- 14:45 vedere Sanmachi (vie antiche) e distillerie di sakè | posto: sanmachi
+  breve: case di legno + assaggi di sakè (vino di riso) · 45′
   Le 3 vie di case di legno di epoca Edo (1603–1868).
-  Distillerie: [[sake-harada]] (~¥450 con bicchierino ricordo), [[sake-hirase]] (~¥1.000 per oltre 20 sakè), [[sake-funasaka]] (assaggi self-service). In un'ora ne fate due con calma.
+  Distillerie: [[sake-harada]] (~¥450 con bicchierino ricordo), [[sake-hirase]] (~¥1.000 per oltre 20 sakè), [[sake-funasaka]] (assaggi self-service). In 45′ ne fate due.
   attenzione: niente profumo forte prima delle distillerie (rovina il sakè)
   alternativa: [[showa-kan]] (museo della vita anni '50)
 - 15:30 sposta Yatai Kaikan | via piedi: #sanmachi > #yatai-kaikan (Sanmachi → Yatai Kaikan)
@@ -858,27 +871,29 @@ con: voi due
   breve: a piedi 12′
 - 17:15 hotel Check-in allo Spa Hotel Alpina | alloggio: alpina | ritiro
   breve: riprendete le valigie · check-in 17–18:30 (se non fatto alle 12)
-- 17:45 sposta Kitchen Hida | via piedi: @alpina > #kitchen-hida (Hotel → Kitchen Hida)
-  breve: a piedi 12′
-- 18:00 cibo Steak House Kitchen Hida | posto: kitchen-hida | prenotare
-  breve: bistecca di manzo di Hida · ~¥10.000 a testa
-  Tabelog 3,78: la bistecca di Hida beef più votata della città.
-  orari: ultimo ordine 19:45, chiuso il mercoledì
-  prenotazione: ore 18:00 per 2, online
-  veloce: [[dekonaru]] (vicolo di banchetti: spiedini, ramen, gyoza, dalle 17) o il konbini [[famima-kamininomachi]]
-- 20:00 sposta Hotel | via piedi: #kitchen-hida > @alpina (Kitchen Hida → hotel)
-  breve: a piedi 12′
-- 20:15 fare Onsen sul tetto (bagno termale) | foto: Onsen | alloggio: alpina
-  breve: terme panoramiche dell'hotel, fino all'1:00
+- 17:30 fare Onsen sul tetto (bagno termale) | foto: Onsen | alloggio: alpina
+  breve: terme panoramiche dell'hotel prima di cena · ~1 h
   attenzione: con tatuaggi visibili l'ingresso può essere negato
+- 18:45 sposta Taruhei | via piedi: @alpina > #taruhei (Hotel → Taruhei)
+  breve: a piedi ~10′
+- 19:00 cibo Taruhei (izakaya di Takayama) | posto: taruhei | prenotare
+  breve: cena: osteria con cucina di Hida e sakè locale · ~1 h
+  Izakaya (osteria giapponese, piattini da condividere) con piatti di Hida: verdure di montagna, pesce di fiume, tofu, assaggi di Hida beef (il manzo locale) e sakè delle distillerie della città. Tabelog 3,62, tra le osterie più votate di Takayama.
+  costo: ~¥5.000–6.000 a testa · carte accettate
+  orari: 17–22 · chiuso la domenica
+  prenotazione: ore 19:00 per 2, per telefono (0577-32-5490) o chiedendo alla reception dell'Alpina
+  alternativa: [[kitchen-hida]] (bistecca di Hida beef, Tabelog 3,76, ~¥6.000–8.000: più cara)
+  veloce: [[dekonaru]] (vicolo di banchetti: spiedini, ramen, gyoza, dalle 17) o il konbini [[famima-kamininomachi]]
+- 20:00 sposta Hotel | via piedi: #taruhei > @alpina (Taruhei → hotel)
+  breve: a piedi ~10′
 
 #### Guida
-senso: Treno panoramico tra le montagne fino a Takayama: città antica di legno, assaggi di sakè, i carri giganti della festa di Takayama, manzo di Hida e terme sul tetto dell'hotel.
+senso: Treno panoramico tra le montagne fino a Takayama: ramen locale, città antica di legno, assaggi di sakè, i carri giganti della festa di Takayama, terme sul tetto dell'hotel e cena in osteria.
 mangiare:
-  • Pranzo: ramen di Takayama (brodo di soia leggero) da Masago Soba (Google 4,1 su 894): il manzo lo tenete per la cena
-  • Cena: Steak House Kitchen Hida (Tabelog 3,78), la bistecca di Hida beef più votata della città, ~€55 a testa
+  • Pranzo: ramen di Takayama (brodo di soia leggero) da Masago Soba (Tabelog 3,62), alle 12:45
+  • Cena: Taruhei, izakaya (osteria) con cucina di Hida (Tabelog 3,62, ~¥5.000–6.000), alle 19:00
 prenotare:
-  • Kitchen Hida ore 18:00 per 2 (online)
+  • Taruhei ore 19:00 per 2 (telefono o reception dell'Alpina)
   • Treno Hida 25 già pagato
 attenzione:
   • Sul treno chiedete da che lato si vede il fiume
@@ -891,7 +906,7 @@ contanti: ¥4.500–7.500 a testa
   • Masago Soba (ramen), ~¥800–1.000
   • Takayama Jinya (palazzo del governatore) ¥440 e Yatai Kaikan (sala dei carri) ¥1.000
   • Assaggi di sakè e snack nelle vie di Sanmachi
-camminata: ~10 km · treno 3 h 45 seduti · pause: pranzo 45′, cena 1 h 30, terme 1 h
+camminata: ~10 km · treno 3 h 45 seduti · pause: pranzo 1 h, terme 1 h, cena 1 h
 ### 2026-11-14
 percorso: takayama > shirakawago > takayama
 dorme: alpina
@@ -917,8 +932,8 @@ con: voi due
   Case gasshō, coi tetti di paglia a punta («mani giunte»). Entrate in [[casa-wada]], l'unica grande casa visitabile, e nel Minkaen (incluso).
   attenzione: restate sui sentieri: risaie e case private sono protette. Il sabato è il giorno più affollato
 - 12:30 cibo Irori (cucina di montagna) | posto: irori | prenotare
-  breve: pranzo attorno al focolare · prenotare alle 12:30
-  In una casa tradizionale col focolare (irori): set di Hida beef (il manzo locale) col miso o di tofu alla griglia. Tabelog 3,47 su 359 recensioni. A 1′ dal terminal dei bus di Ogimachi. Il pranzo non è incluso nella gita.
+  breve: pranzo attorno al focolare · ~1 h
+  In una casa tradizionale col focolare (irori): set di Hida beef (il manzo locale) col miso o di tofu alla griglia. Tabelog 3,49, il più votato di Shirakawa-go. A 1′ dal terminal dei bus di Ogimachi. Il pranzo non è incluso nella gita.
   costo: ~¥1.500–3.000 a testa · carte JCB e AMEX e PayPay, non Visa e Mastercard: portate contanti
   orari: pranzo 10–14
   prenotazione: ore 12:30 per 2, online su Tabelog
@@ -929,29 +944,30 @@ con: voi due
 - 15:00 viaggio Rientro a Takayama | treno: bus-14 | prenotato | città: takayama | via piedi: Takayama Nohi Bus Center > @alpina (Stazione dei bus → hotel) | foto: Takayama, Gifu
   breve: 15:00 → 15:50 · poi 3′ a piedi all'hotel
 - 16:00 hotel Riposo all'Alpina | alloggio: alpina
-  breve: onsen sul tetto verso le 16:30
-- 17:45 sposta Kyōya | via piedi: @alpina > #kyoya (Hotel → Kyōya)
-  breve: a piedi 15′
-- 18:00 cibo Kyōya (cucina di montagna) | posto: kyoya | prenotare
-  breve: in una casa antica · manzo e miso alla brace
-  Hoba miso (miso cotto su una foglia sul braciere) e Hida beef. Tabelog 3,33.
-  orari: 17–20, chiuso il martedì
-  prenotazione: ore 18:00 per 2, per telefono o tramite l'hotel
+  breve: onsen sul tetto verso le 16:30 · cena alle 19
+- 18:50 sposta Neighbird | via piedi: @alpina > #neighbird (Hotel → Neighbird)
+  breve: a piedi ~5′ · vicino alla stazione
+- 19:00 cibo Neighbird (yakitori) | posto: neighbird | prenotare
+  breve: cena: spiedini di pollo alla brace · ~1 h
+  Yakitori (spiedini di pollo alla griglia sul carbone) in un'osteria moderna, con birra e sakè locali. Tabelog 3,60.
+  costo: ~¥4.000–5.000 a testa · carte accettate
+  orari: 17:30–22:30, ultimo ordine 22:00 · chiuso il lunedì
+  prenotazione: ore 19:00 per 2, online su Tabelog
   veloce: [[takochu]] (takoyaki e ramen, dalle 18) o [[satoh]] (supermercato con tavoli e microonde al 1° piano, fino alle 20)
-- 19:45 sposta Hotel | via piedi: #kyoya > @alpina (Kyōya → hotel)
-  breve: a piedi 15′
-- 20:00 hotel Valigia pronta, a letto presto | alloggio: alpina
+- 20:00 sposta Hotel | via piedi: #neighbird > @alpina (Neighbird → hotel)
+  breve: a piedi ~5′
+- 20:10 hotel Valigia pronta, a letto presto | alloggio: alpina
   breve: domani check-out alle 7:40, treno alle 8:00
 
 #### Guida
-senso: Mercato sul fiume all'alba, poi gita in bus a Ainokura e Shirakawa-go, i villaggi delle case col tetto di paglia; rientro alle 15:50, terme e cena di montagna.
+senso: Mercato sul fiume all'alba, poi gita in bus a Ainokura e Shirakawa-go, i villaggi delle case col tetto di paglia; rientro alle 15:50, terme e cena di yakitori.
 mangiare:
   • Al mercato: mochi grigliati (dolcetti di riso) e sottaceti
   • Pranzo: Irori a Shirakawa-go, Hida beef col miso attorno al focolare (Tabelog 3,47), alle 12:30; non è incluso nella gita
-  • Cena: Kyōya, cucina di montagna in una casa antica (hoba miso, Hida beef; Tabelog 3,33)
+  • Cena: Neighbird, yakitori (spiedini di pollo alla brace), Tabelog 3,60, ~¥4.000–5.000, alle 19:00
 prenotare:
   • Irori ore 12:30 per 2 (online su Tabelog)
-  • Kyōya ore 18:00 per 2 (telefono o tramite hotel)
+  • Neighbird ore 19:00 per 2 (online su Tabelog)
 attenzione:
   • Il sabato è il giorno più affollato a Shirakawa-go
   • Portate il biglietto della gita stampato
@@ -962,7 +978,7 @@ contanti: ¥4.000–8.000 a testa
   • Mercato mattutino di Miyagawa: bancarelle in contanti
   • Irori (~¥1.500–3.000): niente Visa e Mastercard, pagate in contanti
   • Snack a Shirakawa-go
-camminata: ~7 km (belvedere con la navetta) · bus ~3 h in tutto · pause: pranzo 1 h, riposo 1 h, terme 1 h, cena 1 h 30
+camminata: ~7 km (belvedere con la navetta) · bus ~3 h in tutto · pause: pranzo 1 h, riposo e terme 2 h 30, cena 1 h
 
 ### 2026-11-15
 percorso: takayama > osaka
@@ -1015,16 +1031,16 @@ con: voi due
   breve: metro 8′ + a piedi 4′
   come: metro Midōsuji da Dōbutsuen-mae a Shinsaibashi
 - 17:40 hotel Check-in all'Hotel Hillarys | alloggio: hillarys | ritiro
-  breve: riprendete le valigie dal deposito
-- 18:00 sposta Kobe Steak Ishida, Umeda | via mezzi: @hillarys > #kobe-ishida (Hotel → Umeda)
+  breve: riprendete le valigie dal deposito · 50′ di riposo
+- 18:30 sposta Kobe Steak Ishida, Umeda | via mezzi: @hillarys > #kobe-ishida (Hotel → Umeda)
   breve: metro 6′ + a piedi 5′
   come: 4′ a piedi a Shinsaibashi, metro Midōsuji fino a Umeda (6′), poi al palazzo LINKS UMEDA accanto alla stazione JR di Osaka, 8° piano
-- 18:30 cibo Kobe Steak Ishida (manzo di Kobe) | posto: kobe-ishida | prenotare
-  breve: cena speciale: manzo di Kobe cotto davanti a voi · prenotare alle 18:30
+- 19:00 cibo Kobe Steak Ishida (manzo di Kobe) | posto: kobe-ishida | prenotare
+  breve: cena speciale: manzo di Kobe cotto davanti a voi · ~1 h
   Teppanyaki: il cuoco cuoce la carne sulla piastra davanti al bancone. Il manzo di Kobe è il wagyu (manzo giapponese) più famoso: marmorizzato e tenerissimo.
-  costo: cena da ~¥13.000 a testa (~€70) · +10% se prenotate online con My Concierge Japan
+  costo: «Kobe Beef Course» da ~¥11.000 a testa (~€60): restate su questo, il tetto è ~€70 · +10% se prenotate con My Concierge Japan · Tabelog 3,52
   orari: cena 16:30–23, ultimo ordine 21:30, aperto tutti i giorni
-  prenotazione: ore 18:30 per 2, online su My Concierge Japan (pagamento anticipato) o per telefono
+  prenotazione: ore 19:00 per 2, online su Tabelog o My Concierge Japan (pagamento anticipato), o per telefono
   veloce: [[harves-umeda]] (supermercato nello stesso edificio: sushi e bento, sconti dopo le 19) o [[warau-umeda]] (udon e oyakodon, ~¥650)
 - 20:00 sposta Umeda Sky Building | via piedi: #kobe-ishida > #umeda-sky (Ishida → Umeda Sky)
   breve: a piedi 12′ · 1 km
@@ -1049,12 +1065,12 @@ con: voi due
 senso: Osaka in un giorno: okonomiyaki, il castello dei samurai, la via nerd dei videogiochi a piedi fino al quartiere anni '50 con la torre al tramonto, cena di manzo di Kobe, Osaka dall'alto sull'osservatorio sospeso, poi neon di Dōtonbori e sale giochi la sera.
 mangiare:
   • Pranzo: Fukutaro, okonomiyaki (frittata-pizza cotta sulla piastra), Tabelog 3,72; la domenica apre alle 12, c'è coda
-  • Spuntino: kushikatsu (spiedini fritti) da Daruma a Shinsekai (Tabelog 3,46, contanti)
-  • Cena speciale: manzo di Kobe al teppanyaki (cotto sulla piastra davanti a voi) da Kobe Steak Ishida a Umeda, ~€70 a testa, alle 18:30
+  • Spuntino leggero: kushikatsu (spiedini fritti) da Daruma a Shinsekai (Tabelog 3,46, contanti): uno o due, la cena è alle 19
+  • Cena speciale: manzo di Kobe al teppanyaki (cotto sulla piastra davanti a voi) da Kobe Steak Ishida a Umeda, corso Kobe da ~€60 a testa, alle 19:00
   • Takoyaki (polpette di polpo) a Dōtonbori dopo cena, se c'è posto
 prenotare:
   • Treni del mattino già pagati
-  • Kobe Steak Ishida ore 18:30 per 2 (My Concierge Japan o telefono)
+  • Kobe Steak Ishida ore 19:00 per 2 (Tabelog, My Concierge Japan o telefono)
   • Contanti per Daruma e le sale giochi
 attenzione:
   • Da Daruma è vietato intingere due volte nella salsa comune
@@ -1069,7 +1085,7 @@ contanti: ¥7.000–13.000 a testa
   • Den Den Town: gachapon e negozietti di usato
   • Daruma (spiedini fritti) a Shinsekai: solo contanti
   • Takoyaki (polpette di polpo) a Dōtonbori e giochi a Round1
-camminata: ~15 km (parco del castello e Den Den Town a piedi) · treni ~4 h al mattino + metro 1 h · pause: pranzo 1 h, check-in 30′, cena 1 h 30
+camminata: ~15 km (parco del castello e Den Den Town a piedi) · treni ~4 h al mattino + metro 1 h · pause: pranzo 1 h, check-in e riposo 50′, cena 1 h
 ### 2026-11-16
 percorso: osaka > tokyo
 dorme: super-hotel
@@ -1089,11 +1105,11 @@ con: voi due
   attenzione: serve l'Area Timed Entry (il biglietto a orario per l'area Nintendo) o l'Express Pass che la include
   prenotazione: biglietti USJ + Express Pass per 2
 - 11:00 fare Altre attrazioni di Universal Studios | posto: usj
-- 12:00 cibo Pranzo nel parco | posto: usj
-  breve: prima delle 11:30 o dopo le 13:30
+- 13:30 cibo Pranzo nel parco | posto: usj
+  breve: dopo le 13:30, quando calano le code · ~1 h
   Kinopio's Cafe (il locale di Toad dentro Super Nintendo World) si prenota dall'app di USJ il giorno stesso, se ci sono posti; altrimenti Mel's Drive-In (hamburger).
   attenzione: nel parco non si entra con cibo da fuori: colazione abbondante prima
-- 14:00 fare Harry Potter, Jurassic Park, Minion | posto: usj
+- 14:30 fare Harry Potter, Jurassic Park, Minion | posto: usj
 - 16:00 fare Hollywood Dream, poi uscita | posto: usj
   breve: montagne russe · uscita entro le 18:10
 - 18:10 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Universal Studios Japan lockers | zona: usj
@@ -1103,7 +1119,8 @@ con: voi due
   come: treno JR da Universal City, cambi a Nishikujō e Osaka
   Per la cena: ekiben (cestino da treno) o butaman (panini al vapore col maiale) di 551 Hōrai, dentro i tornelli dello Shinkansen (fino alle 21).
 - 20:00 viaggio Shinkansen (treno superveloce) Osaka → Tokyo | foto: Tōkaidō Shinkansen | treno: shink-16 | prenotato | dove: Shin-Osaka Station
-  breve: 20:00 → 22:24 · Nozomi 280
+  breve: 20:00 → 22:24 · Nozomi 280 · cena a bordo
+  Cena in treno: ekiben (cestino da treno) o butaman di 551 Hōrai comprati a Shin-Osaka.
   alternativa: se perdete il treno delle 20:00, va bene anche uno dopo: l'hotel ha confermato (16/10) che, essendo prepagato, si entra anche dopo mezzanotte col citofono notturno.
 - 22:30 sposta Super Hotel Hamamatsuchō | città: tokyo | via mezzi: Tokyo Station > @super-hotel (Tokyo Station → Super Hotel)
   breve: treno 6′ + a piedi 4′
@@ -1115,8 +1132,8 @@ con: voi due
 #### Guida
 senso: Universal Studios Japan con Super Nintendo World (il mondo di Mario), poi Shinkansen per Tokyo la sera.
 mangiare:
-  • Pranzo nel parco prima delle 11:30 o dopo le 13:30: Kinopio's Cafe in Super Nintendo World (dall'app USJ) o Mel's Drive-In
-  • Cena: ekiben (cestino da treno) o butaman (panini al vapore col maiale) di 551 Hōrai, dentro i tornelli dello Shinkansen a Shin-Osaka (fino alle 21)
+  • Pranzo nel parco alle 13:30, quando calano le code: Kinopio's Cafe in Super Nintendo World (dall'app USJ) o Mel's Drive-In
+  • Cena alle 20 sullo Shinkansen: ekiben (cestino da treno) o butaman (panini al vapore col maiale) di 551 Hōrai, comprati dentro i tornelli a Shin-Osaka (fino alle 21)
 prenotare:
   • Biglietti USJ + Area Timed Entry (orario d'ingresso all'area Nintendo) o Express Pass, per 2
   • Shinkansen già pagato
@@ -1129,7 +1146,7 @@ stanchi: • Solo Super Nintendo World + 2 attrazioni con l'Express Pass
 contanti: ¥2.000–4.000 a testa
   • Armadietti di Universal Studios o deposito della CityWalk (¥1.000–1.500 a valigia)
   • Nel parco e per l'ekiben (cestino da treno) va bene la carta
-camminata: ~11 km nel parco + code in piedi · treni ~3 h · pausa: pranzo 45′
+camminata: ~11 km nel parco + code in piedi · treni ~3 h · pausa: pranzo 1 h
 
 ### 2026-11-17
 percorso: tokyo
@@ -1639,26 +1656,38 @@ link: Biglietti su Klook (più economici) = https://www.klook.com/it/activity/70
 priorità: alta
 nota: In vendita 2 settimane prima alle 00:00 giapponesi (anche su Klook): gli slot del tramonto finiscono subito. Su Klook da €15,85 a testa (verificato il 29/10), con cancellazione gratuita fino alle 23:59 del giorno prima: il nome deve essere uguale a quello del passaporto, che va mostrato col QR all'ingresso del 14° piano entro 20′ dall'orario. Se avete un codice sconto Klook, inseritelo al pagamento. Prendete l'ingresso delle 16:20: lo show dei samurai finisce alle 15:40 a Shinjuku e servono ~25′ (gli ingressi sono ogni 20′, il tramonto è alle 16:31). Se è finito, quello delle 16:00, uscendo subito dallo show.
 
-### kitchen-hida
-tappa: 2026-11-13 18:00
-cosa: Steak House Kitchen Hida 13/11 ore 18:00, per 2
+### taruhei
+tappa: 2026-11-13 19:00
+cosa: Taruhei (izakaya a Takayama) 13/11 ore 19:00, per 2
 tipo: prenotare
 giorno: 2026-11-13
 quando: subito
-costo: ~¥10.000 a testa
-link: Prenota online (Savor Japan) = https://savorjapan.com/0001035098 ; Chiama il ristorante = tel:+81577362911
+costo: ~¥5.000–6.000 a testa
+link: Chiama il ristorante = tel:+81577325490 ; Scheda su Tabelog = https://tabelog.com/en/gifu/A2104/A210401/21006202/
 priorità: media
-nota: Prenotazione online su Savor Japan (portale di prenotazione in inglese) o per telefono allo 0577-36-2911. Ultimo ordine 19:45, chiuso il mercoledì.
+nota: Si prenota per telefono (0577-32-5490) o chiedendo alla reception dell'Alpina per email. Aperto 17–22, chiuso la domenica.
 
-### kyoya
-tappa: 2026-11-14 18:00
-cosa: Kyōya 14/11 ore 18:00, per 2
+### neighbird
+tappa: 2026-11-14 19:00
+cosa: Neighbird (yakitori a Takayama) 14/11 ore 19:00, per 2
 tipo: prenotare
 giorno: 2026-11-14
-quando: subito, per telefono o tramite l'hotel
-link: Chiama il ristorante = tel:+81577347660 ; Scheda su Tabelog = https://tabelog.com/gifu/A2104/A210401/21000305/
+quando: subito
+costo: ~¥4.000–5.000 a testa
+link: Prenota su Tabelog = https://tabelog.com/en/gifu/A2104/A210401/21021127/
 priorità: media
-nota: Telefono 0577-34-7660: non ha un sito, si prenota per telefono o chiedendo alla reception dell'Alpina. Aperto 17:00–20:00, chiuso il martedì.
+nota: Prenotazione online su Tabelog (account gratuito). Aperto 17:30–22:30, chiuso il lunedì.
+
+### kizuna
+tappa: 2026-11-06 20:00
+cosa: Kizuna Sushi Akihabara 6/11 ore 20:00, per 2
+tipo: prenotare
+giorno: 2026-11-06
+quando: subito
+costo: ~¥4.000–5.000 a testa
+link: Prenota su Tabelog = https://tabelog.com/en/tokyo/A1310/A131001/13219829/
+priorità: media
+nota: Prenotazione online su Tabelog. Aperto tutti i giorni, ultimo ordine 23:00. Senza prenotazione: Uogashi Nihonichi nella stazione (sushi in piedi).
 
 ### samurai-museum
 tappa: 2026-11-12 17:35
@@ -1731,7 +1760,7 @@ priorità: alta
 nota: Sul sito o nell'app ITA. Per i voli da e per il Giappone servono i dati del passaporto. Scegliete i posti appena apre e salvate le carte d'imbarco sul telefono. Le valigie si lasciano al banco «bag drop» (consegna bagagli) a Fiumicino.
 
 ### checkin-ritorno
-tappa: 2026-11-16 14:00, 2026-11-18 13:20
+tappa: 2026-11-16 14:30, 2026-11-18 13:20
 cosa: Check-in online del volo AZ793 Tokyo → Roma, per 2
 tipo: gestire
 giorno: 2026-11-18
@@ -1798,13 +1827,13 @@ priorità: alta
 nota: Serve la carta di credito; il locale non accetta contanti. Disdetta il giorno stesso = si paga tutto. Corso omakase da ¥9.900 (quello con aragosta ¥13.200).
 
 ### kobe-ishida
-tappa: 2026-11-15 18:30
-cosa: Kobe Steak Ishida LINKS UMEDA 15/11 ore 18:30, per 2
+tappa: 2026-11-15 19:00
+cosa: Kobe Steak Ishida LINKS UMEDA 15/11 ore 19:00, per 2
 tipo: prenotare
 giorno: 2026-11-15
 quando: subito: è domenica sera
-costo: cena da ~¥13.000 a testa (~€70) + 10% se prenotate online
-link: Prenota online (My Concierge Japan) = https://mycon-jp.net/reservation/kobebeef-ishida-osaka/en ; Scheda del ristorante = https://myconciergejapan.com/restaurants/kobe-steak-ishida-links-umeda ; Chiama il ristorante = tel:+81661478325
+costo: «Kobe Beef Course» da ~¥11.000 a testa (~€60) + 10% se prenotate con My Concierge Japan
+link: Corsi e prenotazione su Tabelog = https://tabelog.com/en/osaka/A2701/A270101/27114781/party/ ; Prenota online (My Concierge Japan) = https://mycon-jp.net/reservation/kobebeef-ishida-osaka/en ; Scheda del ristorante = https://myconciergejapan.com/restaurants/kobe-steak-ishida-links-umeda ; Chiama il ristorante = tel:+81661478325
 priorità: alta
 nota: My Concierge Japan è il partner ufficiale per le prenotazioni in inglese: si paga in anticipo (PayPal o carta) col 10% di commissione; gli extra si pagano al ristorante. Per telefono niente commissione. Aperto tutti i giorni, cena 16:30–23, ultimo ordine 21:30.
 
@@ -1881,7 +1910,7 @@ Stima a persona in euro.
 - Alloggi 12 notti: 686 | tutti pagati: totale vero addebitato, Nagomi compresa
 - Treni e bus lunghi: 375 | metà dei biglietti Klook (€678) + Fuji Excursion del 9/11 (€51,68, pagato) + Kamakura
 - Trasporti in città: 171 | metro e bus con la Suica ~€6 al giorno + gita Shirakawa-go ~€49
-- Cibo (~13 giorni): 580 | ~€40 al giorno, comprese le cene da Kitchen Hida e Kyōya, più manzo di Kobe (~€75) e sushi omakase (~€54)
+- Cibo (~13 giorni): 580 | ~€35 al giorno, cene in osterie da Tabelog 3,5+ a ¥3.000–6.000, più manzo di Kobe (~€60) e sushi omakase (~€54)
 - Attività e spettacoli: 220 | Skytree ~€12 · Samurai Restaurant ~€43 · Kōdai-ji ~€4 · Samurai & Ninja Museum ~€18 · Shibuya Sky ~€20 · teamLab · sale giochi
 - USJ + Express: 180 | prezzo variabile, ~€130–195 a testa
 - Onsen e sentō: 15 | l'onsen dell'Alpina è incluso
@@ -1917,7 +1946,7 @@ posti: skytree
 ### akihabara
 nome: Akihabara
 cosa: il quartiere di videogiochi, manga ed elettronica
-posti: super-potato-akiba, radio-kaikan, uogashi-akiba, hey-akihabara
+posti: super-potato-akiba, radio-kaikan, kizuna-akiba, uogashi-akiba, hey-akihabara
 
 ### shinjuku-notte
 nome: Shinjuku est (Kabukichō)
@@ -2033,7 +2062,7 @@ posti: ryoan-ji, kinkaku-ji
 ### kyoto-est
 nome: Collina est (Ginkaku-ji → Nanzen-ji)
 cosa: lungo il Sentiero del Filosofo, in discesa
-posti: daigin, ginkaku-ji, sentiero-filosofo, nanzen-ji, keage-incline
+posti: okakita, tairiki-tei, ginkaku-ji, sentiero-filosofo, nanzen-ji, keage-incline
 
 ### kawaramachi
 nome: Centro di Kyoto (Kawaramachi)
@@ -2048,7 +2077,7 @@ posti: @alpina
 ### takayama-centro
 nome: Centro storico di Takayama
 cosa: vie di case in legno, distillerie e mercati
-posti: masago-soba, kotte-ushi, jinya, sanmachi, yatai-kaikan, nakabashi, kitchen-hida, mercato-miyagawa, kyoya
+posti: masago-soba, kotte-ushi, jinya, sanmachi, yatai-kaikan, nakabashi, taruhei, kitchen-hida, mercato-miyagawa, neighbird
 
 ### shirakawa
 nome: Shirakawa-go
@@ -2192,12 +2221,23 @@ tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066443-d25190470-Re
 sito: https://en.jal.japantravel.com/tokyo/akiba-radio-kaikan/25669
 foto: Akihabara
 
+### kizuna-akiba
+nome: Kizuna Sushi Akihabara (sushi)
+tipo: 🍣 Ristorante
+città: tokyo
+giorno: 6/11
+nota: Cena 20:00 · Sotokanda 1-15-18, 1° e 2° piano · aperto tutti i giorni, ultimo ordine 23:00 · ~¥4.000–5.000 · Tabelog 3,48 su 912 · DA PRENOTARE per 2 (online)
+maps: きづなすし 秋葉原店 外神田1-15-18
+tabelog: https://tabelog.com/en/tokyo/A1310/A131001/13219829/
+voto: 3,48
+foto: Sushi
+
 ### uogashi-akiba
 nome: Uogashi Nihonichi Atre Akihabara (sushi in piedi)
 tipo: 🍣 Ristorante
 città: tokyo
 giorno: 6/11
-nota: Sushi al banco in piedi, dentro la stazione JR (Atre 1, 1° piano) · lun–ven 11–23, sab e dom 11–21:30 · niente prenotazioni
+nota: Alternativa senza prenotazione alla cena del 6/11 · sushi al banco in piedi, dentro la stazione JR (Atre 1) · lun–ven 11–23 · Tabelog 3,25
 maps: 魚がし日本一 アトレ秋葉原店
 tabelog: https://tabelog.com/en/tokyo/A1310/A131001/13117998/
 foto: Sushi
@@ -2803,11 +2843,11 @@ nome: Steak House Kitchen Hida
 tipo: 🥩 Ristorante
 città: takayama
 giorno: 13/11
-nota: Cena 18:00 · chiuso mer. · DA PRENOTARE per 2
+nota: Alternativa alla cena del 13/11 · bistecca di Hida beef · ~¥6.000–8.000 · chiuso mer.
 maps: キッチン飛騨 高山市本町1-66
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298113-d1479770-Reviews-Kitchen_Hida-Takayama_Gifu_Prefecture_Tokai_Chubu.html
 tabelog: https://tabelog.com/en/gifu/A2104/A210401/21000080/
-voto: 3,78
+voto: 3,76
 sito: http://kitchenhida.com/
 foto: Wagyu
 
@@ -2866,17 +2906,27 @@ tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1119912-d324182-Revi
 sito: https://www.vill.shirakawa.lg.jp/1484.htm
 foto: Gasshō-zukuri
 
-### kyoya
-nome: Kyōya
-tipo: 🍲 Ristorante
+### taruhei
+nome: Taruhei (izakaya)
+tipo: 🍶 Ristorante
+città: takayama
+giorno: 13/11
+nota: Cena 19:00 · Sōwa-chō 1-50-6 · 17–22, chiuso dom. · ~¥5.000–6.000 · Tabelog 3,62 · DA PRENOTARE per 2 (tel. 0577-32-5490)
+maps: 樽平 高山市総和町1-50-6
+tabelog: https://tabelog.com/en/gifu/A2104/A210401/21006202/
+voto: 3,62
+foto: Izakaya
+
+### neighbird
+nome: Neighbird (yakitori)
+tipo: 🍢 Ristorante
 città: takayama
 giorno: 14/11
-nota: Cena 18:00 · hoba miso, Hida beef · chiuso mar. · DA PRENOTARE per 2
-maps: 飛騨高山 京や 高山市大新町1-77
-tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298113-d3616009-Reviews-Hidatakayama_Kyoya-Takayama_Gifu_Prefecture_Tokai_Chubu.html
-tabelog: https://tabelog.com/gifu/A2104/A210401/21000305/
-voto: 3,33
-foto: Wagyu
+nota: Cena 19:00 · Tenman-chō 5-7-6, vicino alla stazione · 17:30–22:30, chiuso lun. · ~¥4.000–5.000 · Tabelog 3,60 · DA PRENOTARE per 2 (online)
+maps: Neighbird 高山市天満町5-7-6
+tabelog: https://tabelog.com/en/gifu/A2104/A210401/21021127/
+voto: 3,60
+foto: Yakitori
 
 ### dotonbori
 nome: Dōtonbori
@@ -3189,17 +3239,27 @@ maps: Nintendo KYOTO, Kyoto
 sito: https://jw-webmagazine.com/tips/nintendo-kyoto
 foto: Hanafuda
 
-### daigin
-nome: Daigin Shokudō (trattoria)
-tipo: 🍱 Ristorante
+### okakita
+nome: Okakita (udon e soba)
+tipo: 🍜 Ristorante
 città: kyoto
 giorno: 12/11
-nota: Pranzo 12:20 · 11–20:40, chiuso mer. · ~¥1.000
-maps: 大銀食堂 京都市左京区浄土寺東田町60
-tabelog: https://tabelog.com/en/kyoto/A2601/A260302/26007440/
-tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298564-d7437466-Reviews-Daigin_Shokudo-Kyoto_Kyoto_Prefecture_Kinki.html
-sito: https://insidekyoto.com/daigin-shokudo-northern-higashiyama
-foto: Teishoku
+nota: Pranzo 12:25 · Okazaki Minami-goshochō 34, vicino al santuario Heian · 11–19, chiuso mar. e mer. · ~¥1.000–2.000 · Tabelog 3,69 su 1.674 · coda frequente
+maps: 岡北 京都市左京区岡崎南御所町34
+tabelog: https://tabelog.com/en/kyoto/A2601/A260302/26000919/
+voto: 3,69
+foto: Udon
+
+### tairiki-tei
+nome: Tairiki Tei (udon)
+tipo: 🍜 Ristorante
+città: kyoto
+giorno: 12/11
+nota: Alternativa al pranzo del 12/11 · Nanzen-ji Kusagawa-chō 81 · 11:30–20, aperto tutti i giorni · ~¥1.000–2.000 · Tabelog 3,44 · si prenota
+maps: 大力亭 京都市左京区南禅寺草川町81
+tabelog: https://tabelog.com/en/kyoto/A2601/A260301/26037316/
+voto: 3,44
+foto: Udon
 
 ### kotetsu
 nome: Kushiage Kotetsu
@@ -3230,7 +3290,7 @@ nome: Kobe Steak Ishida LINKS UMEDA
 tipo: 🥩 Ristorante
 città: osaka
 giorno: 15/11
-nota: Cena 18:30 · manzo di Kobe al teppanyaki · DA PRENOTARE per 2
+nota: Cena 19:00 · manzo di Kobe al teppanyaki · corso Kobe da ~¥11.000 · Tabelog 3,52 · DA PRENOTARE per 2
 maps: Kobe Beef Steak Ishida LINKS UMEDA, Osaka
 tabelog: https://tabelog.com/en/osaka/A2701/A270101/27114781/
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298566-d19617987-Reviews-Ishida_Links_Umeda-Osaka_Osaka_Prefecture_Kinki.html
@@ -3457,7 +3517,7 @@ nome: Supermercato Fresco Shirakawa
 tipo: 🛒 Supermercato
 città: kyoto
 giorno: 12/11
-nota: Sushi e bento, aperto 24 h, solo contanti, 6′ a piedi da Daigin · Google 3,7 (197)
+nota: Sushi e bento, aperto 24 h, solo contanti, vicino al Ginkaku-ji · Google 3,7 (197)
 maps: Fresco Shirakawa Jodoji Shimobanbacho 97-1 Kyoto
 mappa: no
 foto: Bento
