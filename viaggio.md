@@ -115,7 +115,7 @@ Dettagli delle tappe (15/10 notte, richiesta di Federico): una tappa aperta alla
 Check-in dei voli (16/10): ITA apre il check-in online 48 h prima e lo chiude 1 h prima dei voli internazionali (verificato sul sito ITA). Voci «checkin-andata» e «checkin-ritorno» in «Da fare», più promemoria sul telefono di Federico.
 Contanti (16/10, richiesta di Federico): campo `contanti` nella Guida di ogni giorno con la forchetta a testa in yen (min–max) e per cosa servono; l'app aggiunge l'euro e la mostra in testata. Piano: ¥70.000 a testa a Haneda, secondo prelievo la sera del 12/11 a Kyoto. Il piano completo va detto in anticipo (5/11 e all'arrivo), non solo il giorno del prelievo (richiesta di Federico, 26/10). Se cambiano le tappe a pagamento in contanti, aggiornare la forchetta del giorno. 28/10: forchette alzate del 30% (arrotondate ai ¥500 per eccesso), prelievi portati a ¥70.000 + ~¥45.000; tolta la voce «Prelevare yen» da «Da fare» (richiesta di Federico: basta la cifra in testata).
 Orari verificati (30/10): tutte le tappe controllate su fonti ufficiali o Tabelog. Corretti: USJ il 16/11 apre alle 9 (non alle 8), Skytree 10–22, Hase-dera ultimo ingresso 16:30 (chiude alle 17), Tsutenkaku ¥1.500 con ingresso a orario, Radio Kaikan fino alle 20. Confermati tra gli altri: Kōdai-ji illuminato 23/10–13/12 (17–22), festival di Momiji a Kawaguchiko 7–29/11 (luci fino alle 21), Ginkaku-ji 8:30–17, Yatai Kaikan 9–17, mercato Miyagawa dalle 7 (dalle 8 solo dicembre–marzo), Samurai Restaurant chiuso gio e dom.
-Bucato (28/10, richiesta di Federico: 7 cambi a testa per 13 giorni, serve lavatrice + asciugatrice): un solo bucato la sera del 12/11 all'APA di Kyoto (lavanderia all'11° piano con asciugatrici). Lavatrice con asciugatrice anche a Nagomi (col gruppo) e al Super Hotel (2° piano, 3 + 3); l'Alpina non ha lavanderia (recensione di luglio 2026); Hillarys ce l'ha ma l'asciugatrice non è confermata.
+Bucato (31/10, rivisto da Claude su richiesta di Federico; prima era 7 cambi e un solo bucato il 12/11, che lasciava il 12/11 senza un cambio pulito): 5 cambi a testa in valigia + quello addosso, due bucati: la sera dell'8/11 a Nagomi (lavatrice con asciugatrice della casa) e la sera del 12/11 all'APA di Kyoto (lavanderia all'11° piano). Conto: 5–8/11 si sporcano 4 cambi, 9–12/11 altri 4, 13–18/11 ne servono 6 e ci sono tutti. Valigia più leggera: lascia aperta anche la tariffa solo cabina e spazio per i souvenir. Riserva: se a Nagomi la lavatrice non si libera, non c'è un'altra occasione fino al 12/11 (il 9/11 si esce alle 6:45, il 10/11 si arriva all'APA dopo le 22): proposto a Federico di valutare 1 maglietta + 1 mutanda + 1 paio di calzini in più. Lavatrice con asciugatrice anche a Nagomi (col gruppo) e al Super Hotel (2° piano, 3 + 3); l'Alpina non ha lavanderia (recensione di luglio 2026); Hillarys ce l'ha ma l'asciugatrice non è confermata.
 Colazioni (15/10 notte): campi `colazione` negli Alloggi (orari Saibo da Expedia, Alpina da Travelocity in attesa di risposta, Super Hotel da newt.net). Ogni mattina l'app mette la «Sveglia» calcolata da sola (vedi Sintassi): se cambia l'ora d'uscita o la colazione, si aggiorna senza toccare niente.
 
 Back office (14/10): admin.html, dal PC, modifica questo file e pubblica da solo (viaggio.md + data.json generato
@@ -375,7 +375,10 @@ gruppo: tutto
   Onsen: le terme giapponesi (si entra lavati e nudi). La funivia porta a un belvedere sul lago e sul Fuji: solo se il Fuji è scoperto.
   costo: funivia andata e ritorno ¥1.000
   orari: funivia fino alle 17
-- 18:00 hotel Relax a Nagomi | alloggio: nagomi
+- 18:00 hotel Relax e lavatrice a Nagomi | alloggio: nagomi
+  breve: avviate subito il bucato · pronto prima di dormire
+  Primo dei due bucati del viaggio: lavatrice con asciugatrice della casa. Avviatela appena rientrati, prima della cena: lavaggio e asciugatura insieme durano 2–3 h, quindi è pronto prima di dormire. La casa è condivisa col gruppo: se la lavatrice serve anche agli altri, mettetevi d'accordo sui turni.
+  Detersivo: chiedete all'host o una bustina al konbini (minimarket).
 - 20:00 cibo Cena col gruppo | foto: Japanese cuisine
 
 #### Guida
@@ -785,7 +788,7 @@ con: voi due
   breve: lavanderia all'11° piano · domani treno alle 8:31
   costo: lavatrice da ¥500 a carico, asciugatrice ¥100 ogni 30′ (ne servono 60–90′): ~¥800 a carico, a monete da ¥100
   Caricate la lavatrice (~40′), intanto bagno pubblico interno, poi tutto in asciugatrice: pronti verso le 23. Se la lavatrice non mette il detersivo da sola, una bustina al konbini (minimarket) sotto l'hotel.
-  Unico bucato del viaggio: con 7 cambi a testa, da qui arrivate puliti fino al 18/11.
+  Secondo e ultimo bucato del viaggio (il primo è stato l'8/11 a Nagomi): con 5 cambi più quello addosso, da qui arrivate puliti fino al 18/11.
   L'APA ha un bagno pubblico interno (15:00–01:00), un sentō (bagno pubblico giapponese) in piccolo.
 
 #### Guida
