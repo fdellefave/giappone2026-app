@@ -1769,6 +1769,17 @@ link: Tabelog = https://apps.apple.com/app/id6752922875 ; Kuli Kuli = https://ap
 priorità: media
 nota: Tabelog (il Tripadvisor dei ristoranti giapponesi, in inglese: serve l'account per prenotare Onikai, Kotetsu e Irori) · Kuli Kuli (traduce menù e cartelli dalla foto) · Flush (bagni pubblici vicini) · Payke (si inquadra il codice a barre e legge ingredienti di cibi e creme) · Bounce (depositi bagagli in negozi e hotel, se gli armadietti sono pieni) · Japan Travel di Navitime (percorsi coi mezzi, di riserva a Google Maps). Suica è già nel Wallet. Link all'App Store.
 
+### mappe-offline
+tappa: 2026-11-05 11:00
+cosa: Scaricare le mappe offline sul telefono, per 2
+tipo: gestire
+giorno: 2026-11-05
+apre: 2026-11-04
+entro: 2026-11-05
+quando: 4/11 sera, a casa col Wi-Fi
+priorità: media
+nota: Zone: Tokyo, Kawaguchiko, Kamakura, Kyoto, Takayama e Shirakawa-go, Osaka.
+
 ### checkin-andata
 tappa: 2026-11-05 15:05
 cosa: Check-in online del volo AZ792 Roma → Tokyo, per 2
