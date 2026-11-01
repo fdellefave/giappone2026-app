@@ -79,6 +79,7 @@ Già verificato (non riproporre):
 - Cena da SUMO (ristorante a tema) del 9/11 tolta su richiesta (10/10). Il torneo di sumo di novembre è a Fukuoka (fuori rotta). Asakusa Sumo Club (~$100) tolto su richiesta: al suo posto la serata ad Akihabara.
 - Lake Bake: bar interno chiuso, solo asporto. Omen (udon a Ginkaku-ji) chiuso il giovedì: il 12/11 non si va.
 - Super Potato di Osaka = negozio Otaroad a Nipponbashi (Den Den Town).
+- USJ (1/11): presi Studio Pass + Express Pass 5 per il 16/11 su usjticketing.com, rivenditore autorizzato. Nintendo 11:00–12:00, Minion Blast 13:00–13:30; The Flying Dinosaur e Harry Potter senza orario. Giornata riordinata attorno a questi orari.
 - Bagagli (15/10): a testa uno zaino formato Ryanair e un trolley piccolo, sotto i 160 cm (somma dei lati): sugli Shinkansen non serve il posto con spazio bagagli.
 - Shibuya Sky: biglietti 2 settimane prima alle 00:00 giapponesi.
 - Attività extra (15/10). Regola di Federico: al massimo 2 attività al giorno sotto i €20 o fino a €45 a testa (le cose da €5–10 veloci non contano), solo se hanno senso, con voto oltre 4/5 e tante recensioni.
@@ -1105,19 +1106,33 @@ con: voi due
   breve: fuori dai cancelli · sono pochi: poi in fila ai cancelli
   Il 16/11 il parco apre alle 9:00 (sito ufficiale, verificato il 30/10): mettetevi in fila verso le 8:30, a volte aprono i cancelli un po' prima.
   alternativa: se gli armadietti XL (¥1.500, davanti ai controlli di sicurezza) sono finiti, nella CityWalk (la via dei negozi davanti al parco) ci sono due depositi con persona: Keepen Azukaru Tokorona (8:00–22:30, ¥1.500 a valigia grande) e The Backstage Dressing Room (9:00–22:00, ¥1.000). Gli armadietti del parco si svuotano entro 2 h dalla chiusura.
-- 09:00 fare Super Nintendo World | posto: usj | prenotare
-  breve: il mondo di Mario dentro Universal Studios
-  Mario Kart, Yoshi, Donkey Kong Country (montagne russe nella miniera).
-  attenzione: serve l'Area Timed Entry (il biglietto a orario per l'area Nintendo) o l'Express Pass che la include
-  prenotazione: biglietti USJ + Express Pass per 2
-- 11:30 fare Altre attrazioni di Universal Studios | posto: usj
+- 09:00 fare Hollywood Dream (montagne russe) | posto: usj
+  breve: subito all'apertura · non è nell'Express Pass
+  L'unica grande attrazione che fate senza Express Pass (il biglietto salta-coda): conviene farla appena entrati, quando la coda è più corta. Se è troppo lunga, passate alla tappa dopo.
+- 10:00 fare The Flying Dinosaur (montagne russe) | posto: usj | prenotato
+  breve: con l'Express Pass · sul biglietto non c'è orario
+  Le montagne russe volanti di Jurassic Park. Andate verso le 10:45 all'ingresso di Super Nintendo World, accanto a Water World.
+  prenotazione: Express Pass 5 per 2 · mostrate il QR all'ingresso dell'attrazione
+- 11:00 fare Super Nintendo World | posto: usj | prenotato
+  breve: Mario Kart 11:00–11:30 · Mine-Cart 11:30–12:00
+  Mario Kart: Koopa's Challenge dalle 11:00 alle 11:30, poi Mine-Cart Madness (le montagne russe nella miniera di Donkey Kong) dalle 11:30 alle 12:00. Dopo restate nell'area per Yoshi's Adventure, che non è nell'Express Pass (coda normale), e per le foto.
+  prenotazione: Express Pass 5 per 2, ingresso all'area dalle 11:00 alle 12:00 · mostrate QR e orario stampato
+  attenzione: l'ingresso è in quella fascia oraria: prima delle 11:00 non contateci
+  alternativa: se Kinopio's Cafe (il locale di Toad nell'area) ha posto nell'app di USJ, pranzate lì verso le 12:00 al posto di Mel's Drive-In
+- 13:00 fare Minion Blast (gioco a bersagli) | posto: usj | prenotato
+  breve: con l'Express Pass, 13:00–13:30
+  Villain-Con Minion Blast, nella zona dei Minion. Uscite da Super Nintendo World verso le 12:40.
+  prenotazione: Express Pass 5 per 2, fascia 13:00–13:30
 - 13:30 cibo Pranzo nel parco | posto: usj
-  breve: dopo le 13:30, quando calano le code · ~1 h
-  Kinopio's Cafe (il locale di Toad dentro Super Nintendo World) si prenota dall'app di USJ il giorno stesso, se ci sono posti; altrimenti Mel's Drive-In (hamburger).
+  breve: Mel's Drive-In (hamburger) · dopo le 13:30 calano le code · ~1 h
   attenzione: nel parco non si entra con cibo da fuori: colazione abbondante prima
-- 14:30 fare Harry Potter, Jurassic Park, Minion | posto: usj
-- 16:00 fare Hollywood Dream, poi uscita | posto: usj
-  breve: montagne russe · uscita entro le 18:10
+- 14:30 fare Harry Potter and the Forbidden Journey (attrazione) | posto: usj | prenotato
+  breve: con l'Express Pass · sul biglietto non c'è orario
+  L'attrazione nel castello di Hogwarts, poi un giro nel villaggio di Hogsmeade.
+  prenotazione: Express Pass 5 per 2
+- 16:00 fare Altre attrazioni, poi uscita | posto: usj
+  breve: a coda normale · uscita entro le 18:10
+  Quelle che vi mancano, senza Express Pass: per esempio Jurassic Park - The Ride o Minion Mayhem.
 - 18:10 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Universal Studios Japan lockers | zona: usj
   breve: poi treno per Shin-Osaka
 - 18:20 sposta Shin-Osaka | via mezzi: Universal City Station, Osaka > Shin-Osaka Station (Universal Studios → Shin-Osaka)
@@ -1138,17 +1153,17 @@ con: voi due
 #### Guida
 senso: Universal Studios Japan con Super Nintendo World (il mondo di Mario), poi Shinkansen per Tokyo la sera.
 mangiare:
-  • Pranzo nel parco alle 13:30, quando calano le code: Kinopio's Cafe in Super Nintendo World (dall'app USJ) o Mel's Drive-In
+  • Pranzo nel parco alle 13:30, quando calano le code: Mel's Drive-In (hamburger), o verso le 12:00 Kinopio's Cafe in Super Nintendo World se c'è posto nell'app USJ
   • Cena alle 20 sullo Shinkansen: ekiben (cestino da treno) o butaman (panini al vapore col maiale) di 551 Hōrai, comprati dentro i tornelli a Shin-Osaka (fino alle 21)
 prenotare:
-  • Biglietti USJ + Area Timed Entry (orario d'ingresso all'area Nintendo) o Express Pass, per 2
+  • Studio Pass (biglietto d'ingresso) + Express Pass 5 per 2 già presi: e-ticket nell'email, salvateli sul telefono
   • Shinkansen già pagato
 attenzione:
-  • Senza Area Timed Entry nell'area Nintendo non si entra
+  • Orari fissi dell'Express Pass: Super Nintendo World 11:00–12:00, Minion Blast 13:00–13:30
   • Armadietti grandi limitati: arrivate all'apertura
   • Uscita entro le 18:10
   • Il 16/11 il parco apre alle 9:00 (chiude alle 22): in fila ai cancelli verso le 8:30
-stanchi: • Solo Super Nintendo World + 2 attrazioni con l'Express Pass
+stanchi: • Solo le 5 attrazioni dell'Express Pass, saltando Hollywood Dream e le altre
 contanti: ¥2.000–4.000 a testa
   • Armadietti di Universal Studios o deposito della CityWalk (¥1.000–1.500 a valigia)
   • Nel parco e per l'ekiben (cestino da treno) va bene la carta
@@ -1627,7 +1642,7 @@ Senza `tappa` la cosa finisce sulla prima tappa del primo giorno (la partenza). 
 li genera build.py dai treni con `conferma`.
 
 ### usj
-tappa: 2026-11-16 09:00
+tappa: 2026-11-16 11:00
 cosa: Universal Studios Japan + Express Pass, per 2
 tipo: prenotare
 giorno: 2026-11-16
@@ -1635,7 +1650,8 @@ quando: subito: gli Express Pass finiscono
 costo: ~€130–195 a testa
 link: Biglietti (negozio ufficiale USJ) = https://store.usj.co.jp/en/us/c/ticket ; Express Pass (negozio ufficiale) = https://store.usj.co.jp/en/us/c/expresspass ; Cos'è l'Express Pass = https://www.usj.co.jp/web/en/us/tickets/express-pass
 priorità: alta
-nota: Quale Express Pass: serve uno con Mine-Cart Madness E Mario Kart. Quello sicuro è l'«Express Pass 7 – Mine Cart & Selection» (Mine-Cart, Mario Kart, Yoshi, 2 di Harry Potter e 2 a scelta), da ~¥21.800 a testa a seconda del giorno (fonte di giugno 2026); alcune date hanno anche un Express Pass 4 con tutti e due, più economico: controllate sul negozio ufficiale per il 16/11. L'Express Pass non fa entrare nel parco: serve anche lo Studio Pass (~¥8.600–10.900). L'Express Pass con un'attrazione Nintendo garantisce l'ingresso all'area Super Nintendo World (verificatelo nella schermata d'acquisto). Dal 2025 il biglietto d'ingresso (Studio Pass) si compra solo online, non più alla cassa. Serve l'Area Timed Entry o un Express Pass che include Super Nintendo World, altrimenti nell'area Nintendo non si entra. Il 16/11 il parco è aperto 9:00–22:00 (sito ufficiale, verificato il 30/10).
+nota: Presi Studio Pass + Express Pass 5 Race & Minecart Special per 2, validi il 16/11: controllati sui 4 e-ticket (link solo nell'email, mai qui). Super Nintendo World 11:00–12:00 (Mario Kart 11:00–11:30, Mine-Cart 11:30–12:00), Minion Blast 13:00–13:30, The Flying Dinosaur e Harry Potter senza orario.
+fatto: 2026-11-01
 
 ### bus-nohi
 tappa: 2026-11-14 08:30, 2026-11-14 15:00
@@ -3085,7 +3101,7 @@ nome: Universal Studios Japan + Super Nintendo World
 tipo: 🎢 Parco
 città: osaka
 giorno: 16/11
-nota: Area Timed Entry o Express per 2 · DA PRENOTARE
+nota: Express Pass 5 per 2 · area Nintendo 11:00–12:00
 maps: Universal Studios Japan
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298566-d320976-Reviews-Universal_Studios_Japan-Osaka_Osaka_Prefecture_Kinki.html
 sito: https://www.usj.co.jp/web/en/us
