@@ -22,9 +22,9 @@ Questo file vive solo qui: non tenerne copie nel progetto Claude «Giappone».
     apre almeno 30′ prima; 40′ se la colazione è una tappa `cibo` prima delle 10:30 o è scritta nel check-out; altrimenti 45′ (konbini).
   - Titolo corto: solo il posto o la cosa. Tutto il resto va nei dettagli.
   - attributi: `posto: id` (link della sezione Posti) · `treno: id` · `alloggio: id` · `prenotare` · `prenotato`
-    · `città: id` (da qui in poi si è in quella città) · `dove: testo` (ricerca Google Maps se non c'è un posto)
+    · `città: id` (da qui in poi si è in quella città) · `dove: testo` (ricerca su Mappe di Apple se non c'è un posto)
     · `zona: id` (sezione Zone, per le tappe senza posto) · `fuso: roma` (orario italiano) · `foto: titolo` (pagina di Wikipedia in inglese da cui prendere la foto)
-    · `via mezzi|piedi|taxi: DA > A (etichetta)` = indicazioni Google Maps
+    · `via mezzi|piedi|taxi: DA > A (etichetta)` = indicazioni Mappe di Apple
     (DA e A: `#posto`, `@alloggio` o testo libero).
   - righe di dettaglio: `breve:` (riga corta sotto il titolo, si vede sempre), poi `come:`, `costo:`, `orari:`,
     `binario:`, `bagagli:`, `prenotazione:`, `attenzione:`, `alternativa:`, `veloce:` (due opzioni economiche vicine: konbini, fast food, street food) oppure testo libero.
@@ -64,7 +64,7 @@ Regole di Federico:
   Ogni alloggio dice di chi è (vostro, prenotato da Federico / del gruppo); «Dormite: …» nella testata si apre con tutti i dettagli.
   Se la colazione dell'hotel della notte è inclusa, accanto a «Dormite» c'è la pillola verde «Colazione inclusa domani · ora d'inizio» (16/10).
   In basso a destra due pulsanti di vetro: la lente (ricerca) e i tre puntini (menu: adesso, da prenotare, hotel, treni e voli,
-  attività, codici, yen ↔ euro, numeri utili, impostazioni con Google Maps / Mappe di Apple, tema, testo). In fondo al giorno solo il giro e i consigli.
+  attività, codici, yen ↔ euro, numeri utili, impostazioni con tema e testo). In fondo al giorno solo il giro e i consigli.
   Sopra i giorni, la linea delle città (dalla città della notte prima a quella della sera) e sotto, a parte, le gite in giornata
   (città in mezzo al `percorso`, es. `takayama > shirakawago > takayama`, con `città:` sulle tappe di andata e ritorno; se si parte e si torna nella stessa città la fascia è larga quanto quella città).
   iOS 26 sfoca da solo una fascia sotto la barra di stato nell'app installata: la barra parte 14 px più in basso (40 px lasciavano troppo vuoto).
@@ -87,7 +87,8 @@ Già verificato (non riproporre):
   Samurai & Ninja Museum promosso a tappa il 12/11 alle 17:35 (~¥3.300, Tripadvisor 4,7 su 2.186): Nishiki a quell'ora chiude.
   Scartati: Art Aquarium di Ginza (Tripadvisor 3,4), crociera Tombori a Dōtonbori (3,8), sumo show di Osaka (Sumo Studio, Hanazonochō: 4,9–5 ma ~¥9.600–12.000, sopra il tetto; Hirakuza ¥12.500), Kyoto Sumo Club (~€92), tour del sakè a Takayama (poche recensioni; ci sono già le distillerie di Sanmachi).
 - Shirakawa-go (15/10): corse Nōhi con prenotazione esaurite; 12go vendeva solo le corse senza prenotazione (8:50, 15:15), Headout e Civitatis nulla sotto €50. Presa la gita Nōhi Ainokura + Shirakawa-go dell'8:30 (rientro 15:50), pagata da Federico, ¥18.000 per 2.
-- Le coordinate dei posti non sono disponibili: la mappa del sito usa ricerche Google Maps.
+- Le coordinate dei posti non sono disponibili: la mappa del sito usa ricerche su Mappe di Apple.
+- Mappe (6/11, richiesta di Federico): l'app apre sempre Mappe di Apple, anche «Tutto il giro» (a più tappe, serve iOS 18.4 o successivo). Tolta la scelta dalle impostazioni. Il «Tutto il giro» verificato il 28/10 era su Google Maps: su Apple è da ricontrollare. «Scheda Google» resta (è una ricerca Google, non una mappa).
 - «Tutto il giro di oggi» (28/10): verificato giorno per giorno su Google Maps. Se anche una sola tappa non viene trovata, Google non traccia il giro: indirizzi di Airbnb e Nagomi in giapponese (in inglese non venivano trovati), Godzilla = «Godzilla Head Shinjuku». Il giro ora si chiude sempre all'hotel della sera e un link tiene fino a 11 tappe (9 intermedie, il massimo di Google).
 - Revisione completa (15/10 pomeriggio). Il documento «Dove mangiare» (Claude Docs) era stato fatto su un itinerario vecchio: i pasti ora sono decisi qui e il documento è stato allineato. Pasti fissati: Vermillion e SANSHIKI (11/11), Onikai 19:30 (11/11), Daigin Shokudō e Kotetsu 19:00 (12/11, al posto di Sen no Kaze, ora alternativa), Irori 12:30 a Shirakawa-go, Fukutaro a pranzo e manzo di Kobe da Ishida a Umeda 18:30 (15/11), sushi omakase da Sushi Tokyo Ten 19:00 (17/11, Omoide Yokochō dopo cena), monjayaki a Tsukishima dopo teamLab (9/11, solo suggerimento: giorno del gruppo). Kotte Ushi di Kami-sannomachi 82 è quello giusto (chiuso solo il martedì).
 - Conferme Booking lette il 5/10: tutte le 5 camere hanno 1 letto alla francese (131–150 cm) per 2 adulti; cancellazioni e telefoni aggiornati negli Alloggi.

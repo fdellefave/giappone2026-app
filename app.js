@@ -21,7 +21,7 @@
   var D = null, RATE = 185, TL = [], TRAINS = {}, HOTELS = {}, TODO = {}, USED = {};
   var S = { day: 0, open: {}, fold: {}, q: "", searching: false, menu: null };
   var PREF = (function () { var p = {}; try { p = JSON.parse(localStorage.getItem("g26:prefs") || "{}") || {}; } catch (e) {}
-    return { maps: p.maps || "google", theme: p.theme || "auto", size: p.size || "m", openNow: p.openNow !== false }; })();
+    return { theme: p.theme || "auto", size: p.size || "m", openNow: p.openNow !== false }; })();
   var PHOTO = store("photos") || {}; // titolo Wikipedia → indirizzo della miniatura ("" = nessuna foto)
   var view = document.getElementById("view");
   var lastHidden = 0;
@@ -42,11 +42,11 @@
   function link(href, label, cls, ic) {
     return '<a class="btn ' + (cls || "") + '" href="' + esc(href) + '" target="_blank" rel="noopener">' + (ic ? icon(ic) : "") + "<span>" + label + "</span></a>";
   }
-  function mapsQ(q) { return PREF.maps === "apple" ? "https://maps.apple.com/?q=" + encodeURIComponent(q) : "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q); }
-  // Indicazioni da dove siete fino a q: il mezzo (a piedi, mezzi, taxi) lo scegliete in Google Maps.
+  function mapsQ(q) { return "https://maps.apple.com/?q=" + encodeURIComponent(q); }
+  // Indicazioni da dove siete fino a q: il mezzo (a piedi, mezzi, taxi) lo scegliete in Mappe di Apple.
   // scheda Google del posto (foto, mappa, recensioni, orari), per decidere
   function gcard(q) { return "https://www.google.com/search?q=" + encodeURIComponent(q); }
-  function goto(q) { return PREF.maps === "apple" ? "https://maps.apple.com/?daddr=" + encodeURIComponent(q) : "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(q); }
+  function goto(q) { return "https://maps.apple.com/?daddr=" + encodeURIComponent(q); }
   function grp(n, dec) { var x = Math.abs(n).toFixed(dec ? 2 : 0).split("."); return (n < 0 ? "-" : "") + x[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (x[1] ? "," + x[1] : ""); }
   function yen(n) { return "¥" + grp(Math.round(n)); }
   function cityVar(c) { return "var(--" + (CITY[c] ? c : "roma") + ")"; }
@@ -872,7 +872,7 @@
     else y.value = Math.round(v * RATE);
   }
 
-  // ---------- giro del giorno su Google Maps ----------
+  // ---------- giro del giorno su Mappe di Apple ----------
   function dayStops(i) {
     var d = D.days[i], stops = [], seen = {};
     function add(q) { if (q && !seen[q]) { seen[q] = 1; stops.push(q); } }
@@ -891,8 +891,8 @@
     var out = [], start = 0;
     while (start < stops.length - 1) {
       var end = Math.min(start + 10, stops.length - 1), part = stops.slice(start, end + 1);
-      var u = "https://www.google.com/maps/dir/?api=1&origin=" + encodeURIComponent(part[0]) + "&destination=" + encodeURIComponent(part[part.length - 1]);
-      if (part.length > 2) u += "&waypoints=" + encodeURIComponent(part.slice(1, -1).join("|"));
+      var u = "https://maps.apple.com/directions?source=" + encodeURIComponent(part[0]) + "&destination=" + encodeURIComponent(part[part.length - 1]);
+      part.slice(1, -1).forEach(function (w) { u += "&waypoint=" + encodeURIComponent(w); }); // più tappe: serve iOS 18.4 o successivo
       out.push({ from: start + 1, to: end + 1, url: u });
       start = end;
     }
@@ -904,7 +904,7 @@
     var ch = routeChunks(stops);
     return '<div class="tour"><div class="tour-t">' + icon("route") + "<span><b>Tutto il giro di oggi</b><small>" + stops.length +
       " tappe in ordine, dall'hotel del mattino a quello della sera</small></span></div>" + '<div class="btns">' + ch.map(function (x, n) {
-        return link(x.url, ch.length > 1 ? "Parte " + (n + 1) + " (tappe " + x.from + "–" + x.to + ")" : "Apri in Google Maps" + (PREF.maps === "apple" ? " (più tappe)" : ""), "go block", "map");
+        return link(x.url, ch.length > 1 ? "Parte " + (n + 1) + " (tappe " + x.from + "–" + x.to + ")" : "Apri in Mappe", "go block", "map");
       }).join("") + "</div></div>";
   }
 
@@ -1161,9 +1161,7 @@
     return '<div class="seg2">' + opts.map(function (o) { return '<button type="button" data-pref="' + key + '" data-val="' + o[0] + '" aria-pressed="' + (String(val) === String(o[0])) + '">' + esc(o[1]) + "</button>"; }).join("") + "</div>";
   }
   function pageSettings() {
-    return '<div class="set"><h3>Mappe per le indicazioni</h3><p class="note-s">Con quale app si aprono «Indicazioni» e i posti. «Tutto il giro» con più tappe resta su Google Maps (Mappe di Apple non lo permette da link).</p>' +
-      seg("maps", PREF.maps, [["google", "Google Maps"], ["apple", "Mappe di Apple"]]) + "</div>" +
-      '<div class="set"><h3>Aspetto</h3>' + seg("theme", PREF.theme, [["auto", "Automatico"], ["light", "Chiaro"], ["dark", "Scuro"]]) + "</div>" +
+    return '<div class="set"><h3>Aspetto</h3>' + seg("theme", PREF.theme, [["auto", "Automatico"], ["light", "Chiaro"], ["dark", "Scuro"]]) + "</div>" +
       '<div class="set"><h3>Dimensione del testo</h3>' + seg("size", PREF.size, [["s", "Più piccolo"], ["m", "Normale"], ["l", "Più grande"]]) + "</div>" +
       '<div class="set"><h3>All\'apertura durante il viaggio</h3>' + seg("openNow", PREF.openNow, [["true", "Vai a dove siete adesso"], ["false", "Resta sul giorno lasciato"]]) + "</div>" +
       '<div class="set"><h3>Suggerimenti</h3><p class="note-s">Il riquadro azzurro «Tocca una tappa…» in cima al giorno.</p><button type="button" class="btn small" data-hint-reset="1">Mostralo di nuovo</button></div>' +

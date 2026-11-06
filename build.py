@@ -97,12 +97,12 @@ def iso(s, where):
 
 
 def gmaps(q):
-    return "https://www.google.com/maps/search/?api=1&query=" + quote(q)
+    return "https://maps.apple.com/?q=" + quote(q)
 
 
 def goto(q):
-    """Indicazioni da dove sono adesso fino a q (Google Maps sceglie il punto di partenza)."""
-    return "https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=" + quote(q)
+    """Indicazioni da dove sono adesso fino a q (Mappe di Apple sceglie il punto di partenza)."""
+    return "https://maps.apple.com/directions?mode=transit&destination=" + quote(q)
 
 
 def parse_places(lines):
@@ -132,7 +132,7 @@ def best_link(p):
         return {"url": p["tabelog"], "label": "Tabelog"}
     if p.get("web"):
         return {"url": p["web"], "label": "Sito ufficiale"}
-    return {"url": p["maps"], "label": "Google Maps"}
+    return {"url": p["maps"], "label": "Mappe"}
 
 
 def parse_hotels(lines):
@@ -359,8 +359,8 @@ def parse_item(line, details, did, city, places, hotels, trains, tz_day):
                 continue
             mode_it, o, d, lab = v.groups()
             dq = resolve(d, places, hotels, where)
-            url = ("https://www.google.com/maps/dir/?api=1&origin=" + quote(resolve(o, places, hotels, where)) +
-                   "&destination=" + quote(dq) + "&travelmode=" + MODE[mode_it])
+            url = ("https://maps.apple.com/directions?source=" + quote(resolve(o, places, hotels, where)) +
+                   "&destination=" + quote(dq) + "&mode=" + MODE[mode_it])
             item.setdefault("routes", []).append({"label": lab or "Indicazioni", "mode": MODE[mode_it], "url": url, "to": dq})
         else:
             err(f"{where}: attributo sconosciuto «{a[:40]}»")
