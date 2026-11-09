@@ -105,6 +105,8 @@ Già verificato (non riproporre):
   Shibuya Sky (4/11): slot del tramonto finiti, ultimo disponibile 13:20. Federico ha preso l'ingresso delle 10:00 (biglietti comprati): giro Tsukiji → Shibuya Sky → Meiji Jingū → Harajuku (ora libera per mangiare, decide lui) → show 14:00 → tramonto gratis dal Tochō (municipio di Tokyo, il 17/11 è terzo martedì: torre sud chiusa, si sale dalla nord; regola da NAVITIME e Time Out, giorni di ispezione non verificati) → incrocio di Shibuya, resto invariato.
 - Più tech e nerd (28/10 sera, richiesta di Federico: verso il 60/40 senza togliere must-see, solo cose di passaggio entro 1–2 km a piedi, spostamenti lunghi invariati): gatto 3D di Shinjuku il 6/11 (schermo Cross Shinjuku, spettacolo ogni 15′, 7–1), Nintendo KYOTO l'11/11 tra Gion e Onikai (Takashimaya T8, fino alle 20), stazione di Kyoto con la scalinata di LED il 12/11 tornando da Kotetsu (15–22), Den Den Town a piedi da Nippombashi a Shinsekai e Umeda Sky Building dopo cena il 15/11 (¥2.000, ultimo ingresso 22:00). Scartati: museo ferroviario di Kyoto (costava Ginkaku-ji e il Sentiero del Filosofo, più un taxi), Den Den Town al posto del castello.
 
+Riorganizzazione per la pioggia (9/11, richiesta di Federico): rientro da Kawaguchiko col bus anticipato, arrivo a Shinjuku alle 11:30 (Fuji Excursion delle 14:16 non usato). Meiji Jingū, Harajuku e Tochō spostati dal 17/11 al pomeriggio del 9/11, poi col gruppo per teamLab. Il 10/11 Kamakura è tolta: giornata col gruppo, programma non noto (check-out entro le 10, valigie al Saibo fino alle 18:40, Shinkansen invariato). Il 17/11: Tsukiji, Shibuya Sky, PARCO, poi mezza giornata a Kamakura (Komachi-dōri, Grande Buddha, Hase-dera, passaggio a livello di Slam Dunk), partenza alle 17:15 per il sushi delle 19:00. Tolti su richiesta Samurai Restaurant Time (non si fa più, niente alternative) e l'incrocio di Shibuya la sera (si vede la mattina); Hōkoku-ji non ci sta nella mezza giornata. Tochō: il 9/11 è secondo lunedì, torre nord chiusa, si sale dalla sud.
+
 Pasti senza doppioni (30/10, richiesta di Federico): mai due pasti dello stesso tipo nello stesso giorno. 6/11 cena: sushi in piedi da Uogashi Nihonichi (stazione di Akihabara) al posto del ramen Kyushu Jangara. 13/11 pranzo: ramen di Takayama da Masago Soba al posto di Kotte Ushi (manzo + bistecca la sera); Kotte Ushi resta alternativa.
 Ristoranti e orari dei pasti (30/10, richiesta di Federico): tutti verificati su Tabelog (3,45+), prezzi fattibili tranne sushi omakase ≤€60 e Kobe ≤€70; pranzo verso le 13 e cena 19–20, ~1 h ciascuno, senza forzare il percorso. 6/11 Kizuna Sushi (3,48) al posto di Uogashi (3,25); 11/11 Kiyomizu-dera prima e SANSHIKI alle 12:45 scendendo; 12/11 Okakita (3,69) al posto di Daigin (3,34) con giro al contrario Keage → Nanzen-ji → Sentiero → Ginkaku-ji; 13/11 Taruhei (3,62) al posto di Kitchen Hida (troppo cara), onsen prima di cena; 14/11 Neighbird (3,60) al posto di Kyōya (3,33); 15/11 Kobe alle 19 col corso da ~¥11.000; 16/11 pranzo alle 13:30 e cena sullo Shinkansen. Hisago (oyakodon a Gion) risulta chiuso su Tabelog. Il 6/11 il pranzo resta alle 14:10 per l'atterraggio. 17/11: a Tsukiji solo assaggi cotti, il crudo è la cena da Sushi Tokyo Ten.
 
@@ -410,7 +412,7 @@ camminata: ~5 km a piedi + 15–20 km in bici · pause: pranzo 1 h, casa 1 h, ce
 percorso: kawaguchiko > tokyo
 dorme: saibo
 con: voi due + il gruppo
-gruppo: tutto
+gruppo: 17:50-
 - 06:45 hotel Check-out da Nagomi (proposta) | alloggio: nagomi
   breve: proposta al gruppo: uscire presto con le valigie
   Il check-out sarebbe entro le 10, ma dopo Honcho Street servono ~40′ per tornare alla casa.
@@ -431,34 +433,45 @@ gruppo: tutto
 - 09:00 vedere Honcho Street | posto: honcho-street
   breve: la via col Fuji enorme in fondo
   attenzione: il check-out di Nagomi è entro le 10 ma da qui servono ~40′. Proposta: check-out alle 6:45 e valigie in stazione
-- 09:45 sposta Lago Kawaguchi | via mezzi: Shimoyoshida Station, Fujiyoshida > Lake Kawaguchi (Shimoyoshida → lago)
-  breve: treno 15′ fino a Kawaguchiko
-- 10:15 vedere Tempo libero al lago | foto: Lake Kawaguchi | dove: Lake Kawaguchi | zona: lago-kawaguchi
-- 12:00 cibo Pranzo al lago | dove: Kawaguchiko Station | zona: kawaguchiko-stazione | foto: Bento
-  breve: poi alla stazione
-  veloce: [[takadaya]] (supermercato: bento e sashimi) o il konbini [[lawson-kawaguchiko]] davanti alla stazione
-- 13:30 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
-  breve: prima del treno locale
-- 13:40 sposta Stazione Fujisan (Monte Fuji) | via mezzi: Kawaguchiko Station > Mt. Fuji Station, Fujiyoshida (Kawaguchiko → stazione Fujisan)
-  breve: treno locale Fujikyu ~10′, 2 fermate (dopo Fujikyu Highland)
-  come: treno locale Fujikyu (la ferrovia del Fuji) da Kawaguchiko a Fujisan, si paga con la Suica (tessera per metro e treni). Controllate in stazione l'orario del treno locale: deve arrivare prima delle 14:16
-  alternativa: salire già a Kawaguchiko sullo stesso Fuji Excursion (parte da lì qualche minuto prima), ma il vostro biglietto vale da Fujisan: serve un biglietto in più per il tratto Kawaguchiko → Fujisan, da chiedere in biglietteria
-- 14:16 viaggio Treno Fuji Excursion per Shinjuku (Tokyo) | foto: Fuji Excursion | treno: fuji-9 | prenotato | dove: Mt. Fuji Station, Fujiyoshida
-  breve: 14:16 → 16:08 · dalla stazione Fujisan (Monte Fuji)
-  Biglietto per 2 già preso, posti prenotati. Il treno parte da Kawaguchiko e si sale a Fujisan, due fermate dopo (in mezzo c'è Fujikyu Highland, il parco divertimenti).
-- 16:10 sposta Hotel Saibo | città: tokyo | via mezzi: Shinjuku Station, Tokyo > @saibo (Shinjuku → Hotel Saibo)
+- 09:45 bagagli Ritiro valigie dagli armadietti | ritiro | dove: Kawaguchiko Station | zona: kawaguchiko-stazione
+  breve: prima del bus anticipato
+- 11:30 viaggio Arrivo a Shinjuku in bus | città: tokyo | foto: Shinjuku Station | dove: Shinjuku Station, Tokyo | zona: shinjuku-sud
+  breve: bus da Kawaguchiko, rientro anticipato
+- 11:35 sposta Valigie all'Hotel Saibo | via mezzi: Shinjuku Station, Tokyo > @saibo (Shinjuku → Hotel Saibo)
   breve: metro 22′ senza cambi
   come: 7′ a piedi ai binari della metro Toei, metro linea Toei Shinjuku fino a Hamachō (22′), 6′ a piedi
   costo: ~¥280
-- 16:45 hotel Check-in all'Hotel Saibo | alloggio: saibo
-  breve: valigie in camera
-  Ningyōchō è un quartiere tranquillo vicino a Tokyo Station.
-- 18:00 cibo Spuntino a Ningyōchō (quartiere antico) | foto: Ningyōchō Station | dove: Ningyocho, Tokyo | zona: ningyocho
-  breve: quartiere di botteghe di dolci
-- 18:20 sposta teamLab Planets | via mezzi: @saibo > #teamlab (Hotel Saibo → teamLab)
-  breve: metro ~35′ o taxi 20′
-  come: metro Hibiya line fino a Ginza, 5′ a piedi a Ginza-itchōme, metro Yūrakuchō line fino a Toyosu, 12′ a piedi
-  alternativa: taxi 20′ (~¥3.000)
+- 12:10 bagagli Valigie all'Hotel Saibo | alloggio: saibo | deposito
+  breve: check-in dalle 15 · chiedete se la camera è già pronta
+  Reception aperta 24 ore su 24: se la camera non è pronta, le valigie restano in deposito e fate il check-in stasera.
+- 12:20 sposta Meiji Jingū | via mezzi: @saibo > #meiji-jingu (Hotel Saibo → Meiji Jingū)
+  breve: metro ~35′ con un cambio
+  come: 2′ a piedi alla stazione Ningyōchō, metro Hibiya line fino a Hibiya, cambio sulla metro Chiyoda line fino a Meiji-jingūmae (stazione di Harajuku), poi a piedi al grande torii (il portale)
+- 13:00 vedere Meiji Jingū (santuario) | posto: meiji-jingu
+  breve: il santuario più importante di Tokyo, nel bosco · ~50′
+  Santuario shintoista dell'imperatore Meiji (quello che nell'Ottocento aprì e modernizzò il Giappone), in un bosco in mezzo alla città. Dal grande torii di legno vicino alla stazione di Harajuku sono ~10′ di viale tra gli alberi, coi barili di sakè offerti al santuario; nel cortile si scrivono i desideri sulle tavolette di legno (ema).
+  A metà novembre è la stagione dello Shichi-Go-San (la festa dei bambini di 3, 5 e 7 anni): famiglie coi bambini in kimono.
+  orari: a novembre 6:10–16:10 · gratis
+- 13:55 sposta Takeshita-dōri | via piedi: #meiji-jingu > #takeshita-dori (Meiji Jingū → Takeshita-dōri)
+  breve: a piedi 10′
+- 14:05 vedere Harajuku (quartiere della moda giovane) | posto: takeshita-dori
+  breve: pranzo e giro in via Takeshita · ~1 h 10
+  Takeshita-dōri: moda kawaii (carina, colorata), dolci colorati, crêpe e purikura (cabine per foto-adesivi).
+- 15:15 sposta Tochō | via mezzi: Harajuku Station, Tokyo > #tocho (Harajuku → Tochō)
+  breve: treno 4′ + a piedi 15′
+  come: treno JR Yamanote (la linea circolare di Tokyo) da Harajuku a Shinjuku (2 fermate), uscita ovest, poi a piedi verso i grattacieli
+- 15:45 vedere Tochō (municipio di Tokyo) | posto: tocho
+  breve: osservatorio gratis al 45° piano · tramonto verso le 16:40
+  I due grattacieli gemelli del municipio di Tokyo, con un osservatorio gratuito. Si arriva con la luce del giorno e si vede Tokyo che si accende.
+  orari: oggi è il secondo lunedì del mese: la torre nord è chiusa, si sale dalla sud (9:30–22) · gratis
+  attenzione: guardate gli avvisi del giorno: l'osservatorio può chiudere per ispezioni o maltempo · con cielo coperto o pioggia è la prima cosa da tagliare
+- 17:00 sposta Toyosu | via mezzi: #tocho > Toyosu Station, Tokyo (Tochō → Toyosu)
+  breve: metro ~45′ con un cambio
+  come: metro Ōedo da Tochōmae a Tsukishima, poi metro Yūrakuchō line fino a Toyosu (1 fermata)
+- 17:50 fare Ritrovo col gruppo a Toyosu | dove: Toyosu Station, Tokyo | zona: toyosu | foto: Toyosu
+  breve: vi riunite al gruppo prima di teamLab
+- 18:45 sposta teamLab Planets | via piedi: Toyosu Station, Tokyo > #teamlab (Toyosu → teamLab)
+  breve: a piedi 12′
 - 19:00 fare teamLab Planets (museo di luci digitali) | posto: teamlab | prenotato
   breve: col gruppo · ingresso 19:00–19:30
   Museo d'arte digitale: stanze di luci e specchi, si cammina nell'acqua.
@@ -476,78 +489,44 @@ gruppo: tutto
 - 22:15 sposta Hotel Saibo | via taxi: #monja-kondo > @saibo (Tsukishima → Hotel Saibo)
   breve: taxi ~12′ (~¥1.800)
   alternativa: metro ~30′: Yūrakuchō line fino a Ginza-itchōme, 5′ a piedi a Ginza, Hibiya line fino a Ningyōchō
+- 22:30 hotel Check-in all'Hotel Saibo | alloggio: saibo | ritiro
+  breve: se non l'avete già fatto a mezzogiorno · riprendete le valigie
 
 #### Guida
-senso: Mattina col gruppo alla pagoda Chureito (la foto simbolo del Fuji), pomeriggio in treno a Tokyo, sera a teamLab (museo di luci digitali dove si cammina nell'acqua).
+senso: Rientro anticipato a Tokyo in bus, valigie all'hotel, pomeriggio tra il santuario Meiji, Harajuku e il municipio di Tokyo, poi di nuovo col gruppo per teamLab (museo di luci digitali dove si cammina nell'acqua).
 mangiare:
-  • Pranzo al lago prima del treno
+  • Pranzo a Harajuku verso le 14
   • Cena dopo teamLab: monjayaki (la frittella di Tokyo cotta sulla piastra) a Tsukishima, una fermata da Toyosu, da Kondō (prenotabile online anche in giornata), se il gruppo non decide altro
 prenotare:
-  • Treno Fuji Excursion del pomeriggio già preso (si sale a Fujisan alle 14:16)
   • teamLab già prenotato dal gruppo
   • Pantaloni arrotolabili per teamLab
 attenzione:
-  • Il check-out di Nagomi è entro le 10 ma dal centro alla casa servono 40′: proposta al gruppo di uscire alle 6:45 con le valigie e lasciarle in stazione
+  • Check-in dalle 15: alle 12:10 è probabile che possiate solo lasciare le valigie
+  • Meiji Jingū (santuario) a novembre chiude alle 16:10
+  • Tochō (municipio di Tokyo): oggi è chiusa la torre nord, si sale dalla sud
   • A teamLab gli armadietti sono piccoli: la valigia resta in hotel
-anticipo: • Giro a Ningyōchō (quartiere tradizionale con botteghe di dolci) prima di teamLab
-stanchi: • Giornata già leggera, niente da tagliare
+stanchi: • Saltate il Tochō: da Harajuku andate direttamente a Toyosu
 contanti: ¥3.000–6.500 a testa
-  • Armadietti della stazione
-  • Assaggi a Ningyōchō (quartiere antico): botteghe piccole
+  • Crêpe e assaggi a Harajuku
   • Monjayaki (frittata di verdure cotta sulla piastra) a Tsukishima: portate contanti nel caso
-camminata: ~10 km (400 scalini della Chureito) · treni ~3 h · pause: lago 1 h 30, pranzo 1 h, cena 1 h
+camminata: ~10 km (400 scalini della Chureito) · bus e mezzi ~4 h · pause: pranzo 1 h, cena 1 h
 
 ### 2026-11-10
-percorso: tokyo > kamakura > tokyo > kyoto
+percorso: tokyo > kyoto
 dorme: apa-kyoto
 con: voi due + il gruppo, la sera solo voi due
-gruppo: 06:35-18:20
-- 06:30 hotel Check-out dall'Hotel Saibo | alloggio: saibo
-  breve: alle 6:30, prima del treno del gruppo
-- 06:32 bagagli Valigie in deposito all'Hotel Saibo | alloggio: saibo | deposito
+gruppo: 10:00-18:20
+- 09:30 hotel Check-out dall'Hotel Saibo | alloggio: saibo
+  breve: entro le 10
+- 09:35 bagagli Valigie in deposito all'Hotel Saibo | alloggio: saibo | deposito
   breve: le riprendete alle 18:40
   prenotazione: confermato dall'hotel (14/10): reception aperta 24 ore su 24 e le due valigie restano in deposito fino al ritiro della sera
-- 06:35 sposta Kamakura-kōkō-mae | via mezzi: @saibo > #kokomae (Hotel Saibo → Kamakura-kōkō-mae)
-  breve: metro + treno + trenino ~1 h 20
-  come: 2′ a piedi alla stazione Ningyōchō, metro Toei Asakusa fino a Shimbashi (10′), treno JR Tōkaidō fino a Fujisawa (~45′), Enoden fino a Kamakura-kōkō-mae (20′)
-  Salite sul treno del gruppo a Shimbashi, la fermata dopo Tokyo. L'Enoden è il trenino storico sul mare.
-  costo: JR ¥990 + biglietto giornaliero Enoden ¥800
-- 08:00 vedere Passaggio a livello di Slam Dunk | città: kamakura | posto: kokomae
-  breve: foto col trenino sul mare
-  Il passaggio a livello sul mare dell'anime Slam Dunk, alla stazione Kamakura-kōkō-mae.
-  attenzione: ci sono gli steward: foto dal marciapiede
-- 08:45 sposta Hōkoku-ji | via mezzi: #kokomae > #hokoku-ji (Kōkō-mae → Hōkoku-ji)
-  breve: trenino 20′ + bus 10′
-  come: Enoden fino a Kamakura (20′), bus dalla fermata 4 fino a Jōmyōji (10′)
-- 09:30 vedere Hōkoku-ji (tempio del bambù) | posto: hokoku-ji
-  breve: il tempio col boschetto di bambù
-  costo: ¥400, tè matcha nel bambù a parte
-  attenzione: può chiudere se piove
-- 10:30 sposta Komachi-dōri | via piedi: #hokoku-ji > #komachi-dori (Hōkoku-ji → Komachi-dōri)
-  breve: a piedi 25′ · 2 km
-- 11:00 cibo Komachi-dōri (via dello street food) | posto: komachi-dori
-  breve: street food e shopping · pranzo verso le 12:30
-  La via dello street food di Kamakura: si mangia fermi davanti al banco.
-- 13:30 sposta Grande Buddha | via mezzi: Kamakura Station > #grande-buddha (Komachi-dōri → Grande Buddha)
-  breve: trenino 5′ + a piedi 7′
-  come: Enoden da Kamakura a Hase, poi 7′ a piedi
-- 13:45 vedere Grande Buddha di Kōtoku-in (tempio) | posto: grande-buddha
-  breve: statua di bronzo di 13 m all'aperto
-  costo: ¥300
-- 14:20 sposta Hase-dera | via piedi: #grande-buddha > #hase-dera (Grande Buddha → Hase-dera)
-  breve: a piedi 8′ · 600 m
-- 14:30 vedere Hase-dera (tempio sul mare) | posto: hase-dera
-  breve: tempio con terrazza sul mare · ultimo ingresso 16:30
-- 16:15 sposta Spiaggia di Koshigoe | via mezzi: #hase-dera > Koshigoe Beach, Kamakura (Hase-dera → Koshigoe)
-  breve: trenino 10′
-- 16:40 vedere Tramonto sul mare a Koshigoe | foto: Enoshima | dove: Koshigoe Beach, Kamakura | zona: enoden-costa
-- 17:05 sposta Hotel Saibo | via mezzi: Koshigoe Station, Kamakura > @saibo (Koshigoe → Hotel Saibo)
-  breve: trenino + treno + metro ~1 h 20
-  come: Enoden fino a Fujisawa (15′), treno JR fino a Shimbashi (45′) col gruppo, metro Toei Asakusa fino a Ningyōchō (10′)
-  attenzione: partite da Fujisawa entro le 17:45 per non perdere lo Shinkansen
-- 18:40 bagagli Ritiro valigie all'Hotel Saibo | città: tokyo | alloggio: saibo | ritiro
+- 10:00 fare Giornata col gruppo | dove: Tokyo | zona: tokyo-gruppo | foto: Tokyo
+  breve: programma del gruppo · alle 18:40 valigie al Saibo
+  Kamakura è spostata al 17/11 per la pioggia prevista oggi.
+- 18:40 bagagli Ritiro valigie all'Hotel Saibo | alloggio: saibo | ritiro
   breve: poi taxi per Tokyo Station
-  Il gruppo lo salutate a Shimbashi, scendendo dal treno (loro volano il 12): da qui siete solo voi due.
+  Il gruppo lo salutate prima di tornare in hotel (loro volano il 12): da qui siete solo voi due.
 - 18:45 sposta Gransta, Tokyo Station | via taxi: @saibo > #gransta (Hotel Saibo → Tokyo Station)
   breve: taxi 10′ (a piedi 25′)
 - 19:00 cibo Ekiben (cestino da treno) da Gransta | posto: gransta
@@ -567,27 +546,23 @@ gruppo: 06:35-18:20
   veloce: [[sukiya-shichijo]] (gyudon, fino alle 3) o il konbini [[lawson-kyoto-st]], vicino all'hotel
 
 #### Guida
-senso: Gita a Kamakura (cittadina sul mare a un'ora da Tokyo, piena di templi) col gruppo, poi Shinkansen (treno superveloce) per Kyoto la sera.
+senso: Giornata di pioggia col gruppo, poi Shinkansen (treno superveloce) per Kyoto la sera.
 mangiare:
-  • Pranzo: street food a Komachi-dōri (la via dei chioschi): mangiate fermi davanti al banco
+  • Pranzo col gruppo
   • Cena: ekiben (il cestino da treno) comprato in stazione a Tokyo e mangiato sullo Shinkansen
   • Fame all'arrivo a Kyoto: ramen da Honke Daiichi Asahi (Tabelog 3,74, fino all'1:00)
 prenotare:
-  • Biglietto giornaliero del trenino Enoden ¥800
   • Shinkansen già pagato
   • Deposito valigie all'Hotel Saibo: confermato (reception aperta 24 ore su 24)
 attenzione:
-  • Il tempio del bambù (Hōkoku-ji) può chiudere con la pioggia
-  • Hase-dera: ultimo ingresso 16:30 (chiude alle 17)
-  • Partire da Fujisawa entro le 17:45 per non perdere lo Shinkansen
-  • Al passaggio a livello ci sono gli steward: foto dal marciapiede
-anticipo: • Più tempo a Hase-dera (grotta e terrazza) o una puntata a Enoshima (isoletta collegata da un ponte)
-stanchi: • Con la pioggia saltate Hōkoku-ji: tenete Buddha, Hase-dera e Komachi-dōri
-contanti: ¥5.500–9.500 a testa
-  • Ingressi: Hōkoku-ji ¥400 + matcha (tè verde) ¥600, Grande Buddha ¥300, Hase-dera ¥400
-  • Street food di Komachi-dōri: banchetti, quasi tutti in contanti
+  • Check-out entro le 10
+  • Ritiro valigie alle 18:40: lo Shinkansen parte alle 20:09
+anticipo: • Colazione all'Hotel Saibo (¥1.500, 7–10)
+stanchi: • Riprendete prima le valigie e aspettate lo Shinkansen a Tokyo Station
+contanti: ¥2.000–5.000 a testa
+  • Pranzo e assaggi col gruppo
   • Ramen Honke Daiichi Asahi la sera, se avete fame
-camminata: ~12 km · treni ~4 h (Shinkansen compreso) · pausa: pranzo 1 h
+camminata: dipende dal programma del gruppo · Shinkansen 2 h 10
 
 ### 2026-11-11
 percorso: kyoto
@@ -1172,7 +1147,7 @@ contanti: ¥2.000–4.000 a testa
 camminata: ~11 km nel parco + code in piedi · treni ~3 h · pausa: pranzo 1 h
 
 ### 2026-11-17
-percorso: tokyo
+percorso: tokyo > kamakura > tokyo
 dorme: super-hotel
 con: voi due
 - 08:00 sposta Tsukiji | via piedi: @super-hotel > #tsukiji (Hotel → Tsukiji a piedi) | via mezzi: @super-hotel > #tsukiji (Hotel → Tsukiji in metro)
@@ -1189,49 +1164,42 @@ con: voi due
   breve: sul tetto di un grattacielo · ingresso 10:00 · ~1 h
   Tokyo intera dall'alto col sole del mattino: si vede l'incrocio di Shibuya e, se è limpido, a volte anche il Fuji.
   prenotazione: ingresso 10:00 per 2, biglietto preso il 4/11 · si può entrare entro 20′ dall'orario, col QR e il passaporto, al 14° piano
-- 11:00 sposta Meiji Jingū | via piedi: #shibuya-sky > #meiji-jingu (Shibuya Sky → Meiji Jingū)
-  breve: a piedi 20′
-  come: verso nord fino al grande torii (il portale) di Harajuku
-- 11:20 vedere Meiji Jingū (santuario) | posto: meiji-jingu
-  breve: il santuario più importante di Tokyo, nel bosco · ~50′
-  Santuario shintoista dell'imperatore Meiji (quello che nell'Ottocento aprì e modernizzò il Giappone), in un bosco in mezzo alla città. Dal grande torii di legno vicino alla stazione di Harajuku sono ~10′ di viale tra gli alberi, coi barili di sakè offerti al santuario; nel cortile si scrivono i desideri sulle tavolette di legno (ema).
-  A metà novembre è la stagione dello Shichi-Go-San (la festa dei bambini di 3, 5 e 7 anni): famiglie coi bambini in kimono.
-  orari: a novembre 6:10–16:10 · gratis
-- 12:10 sposta Takeshita-dōri | via piedi: #meiji-jingu > #takeshita-dori (Meiji Jingū → Takeshita-dōri)
-  breve: a piedi 10′
-- 12:20 vedere Harajuku (quartiere della moda giovane) | posto: takeshita-dori
-  breve: ora libera per mangiare · via Takeshita · ~55′
-  Takeshita-dōri: moda kawaii, dolci colorati, crêpe e purikura (cabine per foto-adesivi). Se mangiate qui prendete i 2 drink allo show; se scegliete il pasto dello show, quest'ora resta tutta per girare.
-- 13:15 sposta Samurai Restaurant | via mezzi: Harajuku Station, Tokyo > #samurai-restaurant (Harajuku → Samurai Restaurant)
-  breve: treno 4′ + a piedi 12′
-  come: treno JR Yamanote (la linea circolare di Tokyo) da Harajuku a Shinjuku (2 fermate), uscita est, poi a piedi verso Kabukichō. Sul maxischermo davanti all'uscita c'è lo spettacolo del gatto 3D ogni 15′, se il 6/11 l'avete perso
-- 13:40 fare Samurai Restaurant Time | posto: samurai-restaurant | prenotare
-  breve: show di samurai e ninja · ingresso dalle 13:30, show 14:00–15:40
-  Show kitsch con tamburi taiko, samurai, ninja e carri al neon a Kabukichō (il quartiere dei locali notturni), nei locali dell'ex Robot Restaurant. Compresi un pasto o 2 drink a scelta.
-  costo: ~¥10.000 a testa (prezzo pieno sul sito ufficiale; online ci sono sconti)
-  prenotazione: spettacolo delle 14:00 per 2, ingresso dalle 13:30 · portate un documento
-  attenzione: lo spettacolo serale delle 19 non c'è più: gli spettacoli sono alle 10:50, 14:00 e 16:30
-- 15:40 sposta Tochō | via piedi: #samurai-restaurant > #tocho (Kabukichō → Tochō)
-  breve: a piedi 20′
-- 16:05 vedere Tochō (municipio di Tokyo) | posto: tocho
-  breve: tramonto gratis alle 16:31 dal 45° piano · ~45′
-  I due grattacieli gemelli del municipio di Tokyo, con un osservatorio gratuito. Si arriva con la luce del giorno, si vede il tramonto e Tokyo che si accende.
-  orari: il 17/11 è il terzo martedì del mese: la torre sud è chiusa, si sale dalla nord (9:30–22) · gratis
-  attenzione: guardate gli avvisi del giorno: l'osservatorio può chiudere per ispezioni o maltempo
-- 16:55 sposta Incrocio di Shibuya | via mezzi: #tocho > #shibuya-crossing (Tochō → incrocio di Shibuya)
-  breve: a piedi 10′ + treno 7′ + a piedi 5′
-  come: a piedi alla stazione JR di Shinjuku, treno JR Yamanote fino a Shibuya, uscita Hachikō
-- 17:20 vedere Incrocio di Shibuya | posto: shibuya-crossing
-  breve: l'incrocio più famoso del mondo, coi neon accesi · 15′
-  A ogni verde migliaia di persone attraversano insieme da tutte le direzioni. Attraversatelo in diagonale, poi guardate la folla dall'alto dal corridoio vetrato tra la stazione JR e Shibuya Mark City.
-  All'uscita Hachikō della stazione c'è la statua del cane fedele.
-- 17:45 fare Shibuya PARCO | posto: shibuya-parco
-  breve: 6° piano: Nintendo, Pokémon, Capcom, Jump
-  A 5′ a piedi dall'incrocio.
-- 18:40 sposta Sushi Tokyo Ten, Shibuya | via piedi: #shibuya-parco > #sushi-ten (PARCO → Shibuya Stream)
-  breve: a piedi 15′ · 1,2 km
-  come: giù verso la stazione e dall'altra parte, lato sud, fino a Shibuya Stream (il grattacielo sul fiume), 3° piano
-- 19:00 cibo Sushi Tokyo Ten (sushi omakase) | posto: sushi-ten | prenotare
+- 11:00 sposta Shibuya PARCO | via piedi: #shibuya-sky > #shibuya-parco (Shibuya Sky → PARCO)
+  breve: a piedi 10′, attraversando l'incrocio
+  come: passate dall'[[shibuya-crossing]] (l'incrocio più famoso del mondo) che avete appena visto dall'alto, poi su per la via verso PARCO
+- 11:10 fare Shibuya PARCO | posto: shibuya-parco
+  breve: 6° piano: Nintendo, Pokémon, Capcom, Jump · 1 h 30 al massimo
+  orari: 6° piano dalle 10, gli altri negozi dalle 11
+- 12:40 sposta Komachi-dōri | via mezzi: Shibuya Station, Tokyo > #komachi-dori (Shibuya → Komachi-dōri)
+  breve: treno JR diretto ~1 h + a piedi 3′
+  come: treno JR linea Shōnan-Shinjuku da Shibuya a Kamakura: solo quelli per Zushi sono diretti (~1 ogni 30′); quelli per Odawara o Kōzu richiedono un cambio. Uscita est.
+  costo: ~¥950
+- 13:50 cibo Komachi-dōri (via dello street food) | città: kamakura | posto: komachi-dori
+  breve: pranzo di street food · ~30′
+  La via dello street food di Kamakura: si mangia fermi davanti al banco.
+- 14:20 sposta Grande Buddha | via mezzi: Kamakura Station > #grande-buddha (Komachi-dōri → Grande Buddha)
+  breve: trenino 5′ + a piedi 7′
+  come: Enoden (il trenino storico sul mare) da Kamakura a Hase, poi 7′ a piedi
+- 14:35 vedere Grande Buddha di Kōtoku-in (tempio) | posto: grande-buddha
+  breve: statua di bronzo di 13 m all'aperto · ~30′
+  costo: ¥300
+- 15:05 sposta Hase-dera | via piedi: #grande-buddha > #hase-dera (Grande Buddha → Hase-dera)
+  breve: a piedi 8′ · 600 m
+- 15:15 vedere Hase-dera (tempio sul mare) | posto: hase-dera
+  breve: tempio con terrazza sul mare · ~45′ · ultimo ingresso 16:30
+- 16:00 sposta Passaggio a livello di Slam Dunk | via mezzi: #hase-dera > #kokomae (Hase-dera → Kōkō-mae)
+  breve: a piedi 5′ + trenino ~10′
+  come: a piedi alla stazione Hase, Enoden direzione Fujisawa fino a Kamakura-kōkō-mae
+- 16:15 vedere Passaggio a livello di Slam Dunk | posto: kokomae
+  breve: foto col trenino sul mare, al tramonto (~16:30)
+  Il passaggio a livello sul mare dell'anime Slam Dunk, alla stazione Kamakura-kōkō-mae. La spiaggia è subito sotto.
+  attenzione: ci sono gli steward: foto dal marciapiede
+- 17:15 sposta Sushi Tokyo Ten, Shibuya | via mezzi: #kokomae > #sushi-ten (Kōkō-mae → Sushi Tokyo Ten)
+  breve: trenino 20′ + treno JR ~1 h + a piedi 10′
+  come: Enoden fino a Fujisawa, treno JR fino a Shibuya (linea Shōnan-Shinjuku, controllate se serve un cambio), poi a piedi a Shibuya Stream (il grattacielo sul fiume), 3° piano
+  attenzione: partite entro le 17:15: il sushi è alle 19:00 e chi arriva in ritardo perde il posto
+  alternativa: per restare a Kamakura fino alle 18, prenotate il sushi alle 19:30
+- 19:00 cibo Sushi Tokyo Ten (sushi omakase) | città: tokyo | posto: sushi-ten | prenotare
   breve: cena speciale: sushi scelto dal cuoco · prenotare alle 19:00
   Omakase: «lascio fare a te», il cuoco serve al bancone un pezzo alla volta, ~90′. Tabelog 3,56.
   costo: omakase ¥9.900 a testa (~€54) · con aragosta ¥13.200 · solo carta, niente contanti
@@ -1254,29 +1222,30 @@ con: voi due
   come: treno JR Yamanote da Shinjuku a Hamamatsuchō
 
 #### Guida
-senso: Ultimo giorno pieno a Tokyo: colazione al mercato del pesce, Shibuya dall'alto al mattino, santuario Meiji nel bosco e Harajuku, show dei samurai nel primo pomeriggio, tramonto dal municipio di Tokyo, l'incrocio di Shibuya coi neon, cena di sushi e bar minuscoli a Shinjuku.
+senso: Ultimo giorno pieno: colazione al mercato del pesce, Shibuya dall'alto e PARCO al mattino, mezza giornata a Kamakura (cittadina sul mare a un'ora da Tokyo) tra Grande Buddha, tempio sul mare e passaggio a livello di Slam Dunk al tramonto, poi cena di sushi e bar minuscoli a Shinjuku.
 mangiare:
   • Colazione: mercato di Tsukiji, solo assaggi cotti (frittata dolce, frutti di mare alla griglia; contanti): il crudo lo tenete per la cena
-  • Pranzo: un'ora libera a Harajuku alle 12:20, oppure il pasto compreso nello show dei samurai al posto dei 2 drink
+  • Pranzo: street food a Komachi-dōri (la via dei chioschi) alle 13:50: mangiate fermi davanti al banco
   • Cena speciale: sushi omakase (scelto dal cuoco) da Sushi Tokyo Ten a Shibuya, ¥9.900 (~€54), alle 19:00; dopo, una birra a Omoide Yokochō (vicolo degli spiedini)
 prenotare:
-  • Samurai Restaurant Time, spettacolo delle 14:00 per 2 (biglietti da 4 settimane prima)
   • Sushi Tokyo Ten ore 19:00 per 2 (TableCheck, con carta)
 attenzione:
   • Tsukiji chiude mercoledì e domenica (martedì è aperto)
   • Shibuya Sky alle 10:00: ingresso entro 20′, si parte dall'hotel alle 8:00
-  • Il santuario Meiji a novembre chiude alle 16:10: si fa prima dello show
-  • Tochō: il 17/11 è chiusa la torre sud, si sale dalla nord
+  • Hase-dera: ultimo ingresso 16:30 (chiude alle 17)
+  • Partite da Kamakura-kōkō-mae entro le 17:15 per il sushi delle 19:00
   • Golden Gai: molti bar chiedono un coperto (¥500–1.000)
   • Ultimo treno verso l'hotel ~0:30
 anticipo: • Karaoke dopo Golden Gai (Big Echo, Karaoke-kan)
-stanchi: • Saltate il Tochō o PARCO: dopo l'incrocio una pausa seduti e poi la cena · dopo cena solo Omoide Yokochō
-contanti: ¥6.500–13.000 a testa
+stanchi: • Se piove: Buddha e Hase-dera si fanno con l'ombrello, saltate il passaggio a livello e tornate prima · dopo cena solo Omoide Yokochō
+contanti: ¥8.000–14.000 a testa
   • Mercato di Tsukiji: colazione ai banchi, in contanti
-  • Crêpe a Harajuku e spiedini a Omoide Yokochō (vicolo degli spiedini)
+  • Street food di Komachi-dōri: banchetti, quasi tutti in contanti
+  • Ingressi: Grande Buddha ¥300, Hase-dera ¥400
+  • Spiedini a Omoide Yokochō (vicolo degli spiedini)
   • Golden Gai (micro-bar): coperto ¥500–1.000 + drink, quasi tutti in contanti
   • Sushi Tokyo Ten: solo carta
-camminata: ~15 km · mezzi ~1 h · pause: colazione 1 h, ora libera a Harajuku, show 2 h seduti, cena 1 h 30, bar 1 h
+camminata: ~13 km · treni ~2 h 30 · pause: colazione 1 h, cena 1 h 30, bar 1 h
 ### 2026-11-18
 percorso: tokyo > roma
 dorme: volo
@@ -1384,8 +1353,8 @@ orari: Check-in 15:00–24:00 · check-out entro le 10:00 · reception aperta 24
 colazione: a pagamento
 colazione prezzo: ¥1.500 a testa
 colazione orari: 7:00–10:00
-colazione nota: il 10/11 uscite alle 6:30, prima che apra: colazione al konbini
-nota: Tassa di soggiorno da pagare in hotel. Risposta del 14/10: preso nota dell'arrivo del 9/11 (tra le 16:30 e le 17:30); reception aperta 24 ore su 24, quindi il check-out alle 6:30 del 10/11 va bene; tengono le due valigie fino al ritiro della sera.
+colazione nota: il 10/11 check-out entro le 10: potete farla in hotel
+nota: Tassa di soggiorno da pagare in hotel. Risposta del 14/10: preso nota dell'arrivo del 9/11 (tra le 16:30 e le 17:30); reception aperta 24 ore su 24, quindi il check-out alle 6:30 del 10/11 va bene; tengono le due valigie fino al ritiro della sera. 9/11: arrivo anticipato verso le 12:10 per lasciare le valigie.
 app: https://secure.booking.com/mytrips.html
 maps: Hotel Nihonbashi Saibo, Ningyocho, Tokyo
 
@@ -1523,16 +1492,16 @@ euro: 51.68
 stato: pagato
 pagato da: Federico
 emesso: 2026-10-15
-nota: Si sale alla stazione Fujisan, due fermate dopo Kawaguchiko (in mezzo Fujikyu Highland): da Kawaguchiko treno locale Fujikyu (~10′).
+nota: Si sale alla stazione Fujisan, due fermate dopo Kawaguchiko (in mezzo Fujikyu Highland): da Kawaguchiko treno locale Fujikyu (~10′). Non usato: il 9/11 rientro col bus anticipato.
 
 ### kamakura-10
-data: 2026-11-10
-tratta: Tokyo → Fujisawa → Kamakura
+data: 2026-11-17
+tratta: Shibuya → Kamakura → Fujisawa → Shibuya
 mezzo: Treno JR Tōkaidō + Enoden (trenino sul mare)
-orario: ~1 h 15
-prezzo: ¥990 + biglietto giornaliero Enoden ¥800 a testa
+orario: ~1 h all'andata, ~1 h 20 al ritorno
+prezzo: ~¥950 all'andata, ritorno e corse Enoden con la Suica
 stato: sul posto
-nota: Si paga con la Suica; il biglietto giornaliero Enoden si compra alla stazione di Fujisawa.
+nota: Si paga tutto con la Suica (tessera per metro e treni).
 
 ### shink-10
 data: 2026-11-10
@@ -1734,19 +1703,6 @@ costo: ~¥3.300 a testa (~€18)
 link: Sito ufficiale = https://mai-ko.com/samurai/ ; Su GetYourGuide = https://www.getyourguide.com/kyoto-l96826/kyoto-samurai-ninja-museum-guided-tour-t1079387/ ; Recensioni (Tripadvisor) = https://www.tripadvisor.com/Attraction_Review-g298564-d13551788-Reviews-Samurai_Ninja_Museum_With_Experience-Kyoto_Kyoto_Prefecture_Kinki.html
 priorità: bassa
 nota: Biglietto base: visita guidata di 30′ in inglese, prova dell'armatura, posa con la katana e lancio degli shuriken. L'orario di chiusura cambia tra le fonti (18:30–19:30): prima di prenotare controllate che l'ingresso delle 17:30 ci sia.
-
-### samurai
-tappa: 2026-11-17 13:40
-cosa: Samurai Restaurant Time 17/11, spettacolo delle 14 (ingresso dalle 13:30), per 2
-tipo: prenotare
-giorno: 2026-11-17
-apre: 2026-10-20
-entro: 2026-11-03
-quando: dal 20/10 (4 settimane prima), entro inizio novembre
-costo: ~¥10.000 a testa con pasto o 2 drink
-link: Sito ufficiale = https://samurai-restaurant.tokyo/ ; Con cancellazione gratuita (GetYourGuide) = https://www.getyourguide.com/samurai-restaurant-tokyo-l221944/
-priorità: media
-nota: Spettacolo 14:00–15:40, si entra dalle 13:30. Spettacoli solo alle 10:50, 14:00 e 16:30 (quello delle 19 non c'è più). In vendita fino a 4 settimane prima; sul sito ufficiale niente rimborsi, sulle piattaforme (es. GetYourGuide) spesso cancellazione gratuita fino a 24 h prima. Compresi un pasto o 2 drink a scelta: il 17/11 c'è comunque un'ora libera per mangiare a Harajuku.
 
 ### controlli
 cosa: Controlli di inizio novembre
@@ -1957,7 +1913,7 @@ Stima a persona in euro.
 - Treni e bus lunghi: 375 | metà dei biglietti Klook (€678) + Fuji Excursion del 9/11 (€51,68, pagato) + Kamakura
 - Trasporti in città: 171 | metro e bus con la Suica ~€6 al giorno + gita Shirakawa-go ~€49
 - Cibo (~13 giorni): 580 | ~€35 al giorno, cene in osterie da Tabelog 3,5+ a ¥3.000–6.000, più manzo di Kobe (~€60) e sushi omakase (~€54)
-- Attività e spettacoli: 220 | Skytree ~€12 · Samurai Restaurant ~€43 · Kōdai-ji ~€4 · Samurai & Ninja Museum ~€18 · Shibuya Sky ~€15 · teamLab · sale giochi
+- Attività e spettacoli: 177 | Skytree ~€12 · Kōdai-ji ~€4 · Samurai & Ninja Museum ~€18 · Shibuya Sky ~€15 · teamLab · sale giochi
 - USJ + Express: 180 | prezzo variabile, ~€130–195 a testa
 - Onsen e sentō: 15 | l'onsen dell'Alpina è incluso
 - Assicurazione + e-SIM: 84 | assicurazione Heymondo €44 (pagata) + e-SIM Holafly €40
@@ -2002,7 +1958,11 @@ posti: tocho
 ### shinjuku-notte
 nome: Shinjuku est (Kabukichō)
 cosa: il quartiere dei locali notturni, con Golden Gai e il vicolo degli spiedini
-posti: godzilla, omoide-yokocho, samurai-restaurant, golden-gai
+posti: godzilla, omoide-yokocho, golden-gai
+
+### tokyo-gruppo
+nome: Tokyo
+cosa: la giornata col gruppo
 
 ### ningyocho
 nome: Ningyōchō
@@ -2064,11 +2024,6 @@ posti: chureito, honcho-street, miura-udon
 nome: Costa dell'Enoden
 cosa: il trenino sul mare tra Kamakura ed Enoshima
 posti: kokomae
-
-### kamakura-est
-nome: Kamakura est
-cosa: templi tra le colline, a est della stazione
-posti: hokoku-ji
 
 ### kamakura-centro
 nome: Kamakura centro
@@ -2467,30 +2422,19 @@ foto: Toyosu
 nome: Kamakura-kōkō-mae (passaggio a livello)
 tipo: 📸 Foto
 città: kamakura
-giorno: 10/11
-nota: 8:00 col gruppo
+giorno: 17/11
+nota: 16:15, al tramonto
 maps: Kamakurakokomae Station
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g303156-d8400753-Reviews-Kamakura_Kokomae_Station-Kamakura_Kanagawa_Prefecture_Kanto.html
 sito: https://www.enoden.co.jp/en/train/station/kamakurakokomae/
 foto: Kamakurakōkōmae Station
 
-### hokoku-ji
-nome: Hōkoku-ji (tempio del bambù)
-tipo: 🎋 Tempio
-città: kamakura
-giorno: 10/11
-nota: ¥400, tè matcha nel bambù · può chiudere col maltempo
-maps: Hokokuji Temple Kamakura
-tripadvisor: https://www.tripadvisor.com/Attraction_Review-g303156-d1311119-Reviews-Hokoku_ji_Temple-Kamakura_Kanagawa_Prefecture_Kanto.html
-sito: https://houkokuji.or.jp/?p=29
-foto: Hōkoku-ji
-
 ### komachi-dori
 nome: Komachi-dōri
 tipo: 🍡 Street food
 città: kamakura
-giorno: 10/11
-nota: Pranzo 12:30 · mangiare fermi davanti al banco
+giorno: 17/11
+nota: Pranzo 13:50 · mangiare fermi davanti al banco
 maps: Komachi-dori Kamakura
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g303156-d1755776-Reviews-Kamakura_Komachidori-Kamakura_Kanagawa_Prefecture_Kanto.html
 sito: https://visit.trip-kamakura.com/things-to-do/komachi-street/
@@ -2500,7 +2444,7 @@ foto: Kamakura
 nome: Grande Buddha di Kōtoku-in
 tipo: 🗿 Tempio
 città: kamakura
-giorno: 10/11
+giorno: 17/11
 nota: 8–17, ¥300
 maps: Kotoku-in Great Buddha Kamakura
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g303156-d319975-Reviews-Kotoku_in_Great_Buddha_of_Kamakura-Kamakura_Kanagawa_Prefecture_Kanto.html
@@ -2511,7 +2455,7 @@ foto: Kōtoku-in
 nome: Hase-dera
 tipo: ⛩ Tempio
 città: kamakura
-giorno: 10/11
+giorno: 17/11
 nota: Terrazza sul mare · 8–17, ultimo ingresso 16:30 · ¥400
 maps: Hasedera Temple Kamakura
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g303156-d319981-Reviews-Hasedera_Temple-Kamakura_Kanagawa_Prefecture_Kanto.html
@@ -3151,8 +3095,8 @@ foto: Tsukiji fish market
 nome: Takeshita-dōri
 tipo: 🛍 Harajuku
 città: tokyo
-giorno: 17/11
-nota: 12:05 · moda, crêpe, purikura (cabine per foto-adesivi)
+giorno: 9/11
+nota: 14:05 · pranzo, moda, crêpe, purikura (cabine per foto-adesivi)
 maps: Takeshita Street Harajuku
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066456-d1373790-Reviews-Takeshita_Street-Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.takeshita-street.com/
@@ -3162,8 +3106,8 @@ foto: Takeshita Street
 nome: Meiji Jingū
 tipo: ⛩ Santuario
 città: tokyo
-giorno: 17/11
-nota: 10:45 · ~1 h nel bosco · a novembre 6:10–16:10, gratis
+giorno: 9/11
+nota: 13:00 · ~50′ nel bosco · a novembre 6:10–16:10, gratis
 maps: Meiji Jingu Tokyo
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066456-d1373780-Reviews-Meiji_Jingu_Shrine-Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://www.meijijingu.or.jp/en/
@@ -3184,9 +3128,9 @@ foto: Shibuya Scramble Square
 nome: Tochō (municipio di Tokyo)
 tipo: 🌅 Panorama
 città: tokyo
-giorno: 17/11
-nota: Osservatorio gratuito, tramonto 16:31 · il 17/11 torre nord
-maps: Tokyo Metropolitan Government Building North Observatory
+giorno: 9/11
+nota: Osservatorio gratuito, tramonto ~16:40 · il 9/11 torre sud
+maps: Tokyo Metropolitan Government Building
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14133673-d12879871-Reviews-Tokyo_Metropolitan_Government_Building_Observation_Decks-Nishishinjuku_Shinjuk.html
 foto: Tokyo Metropolitan Government Building
 
@@ -3195,7 +3139,7 @@ nome: Incrocio di Shibuya
 tipo: 🚦 Incrocio
 città: tokyo
 giorno: 17/11
-nota: 17:30, coi neon accesi
+nota: La mattina, tra Shibuya Sky e PARCO
 maps: Shibuya Scramble Crossing
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g1066456-d4403399-Reviews-Shibuya_Crossing-Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
 foto: Shibuya Crossing
@@ -3205,7 +3149,7 @@ nome: Shibuya PARCO (6° piano)
 tipo: 🎮 Shopping nerd
 città: tokyo
 giorno: 17/11
-nota: Nintendo, Pokémon, Capcom, Jump Shop
+nota: 11:10 · Nintendo, Pokémon, Capcom, Jump Shop
 maps: Shibuya PARCO
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g27462805-d2152004-Reviews-Shibuya_PARCO-Udagawacho_Shibuya_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://en.shibuya.parco.jp/
@@ -3221,17 +3165,6 @@ maps: Omoide Yokocho Shinjuku
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14133673-d1173749-Reviews-Omoide_Yokocho-Nishishinjuku_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html
 sito: https://shinjuku-omoide.com/
 foto: Yakitori
-
-### samurai-restaurant
-nome: Samurai Restaurant Time
-tipo: 🎭 Spettacolo
-città: tokyo
-giorno: 17/11
-nota: Spettacolo delle 14:00 (ingresso 13:30), ~1 h 40 · DA PRENOTARE per 2
-maps: Samurai Restaurant Kabukicho Shinjuku
-tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g14133667-d27827586-Reviews-SAMURAI_RESTAURANT-Kabukicho_Shinjuku_Tokyo_Tokyo_Prefecture_Kanto.html
-sito: https://samurai-restaurant.tokyo/
-foto: Taiko
 
 ### golden-gai
 nome: Golden Gai
