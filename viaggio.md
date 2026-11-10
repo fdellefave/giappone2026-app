@@ -109,7 +109,7 @@ Riorganizzazione per la pioggia (9/11, richiesta di Federico): rientro da Kawagu
 
 Mattina del 10/11 (10/11, richiesta di Federico): libera dalle 10:30 alle 13:30, poi col gruppo; valigie al Saibo alle 18:30. Scelta Ryōgoku (quartiere del sumo): museo delle katane, giardino Kyū-Yasuda, Edo Noren e pranzo chanko-nabe da Tomoegata. Scartati: Asakusa e Akihabara (già fatti il 6/11), Jimbocho (curry, non piace a Federico), Ueno/Ameyoko + Kappabashi (alternativa), Ikebukuro (fuori raggio). Chanko Kirishima di Edo Noren chiuso il martedì; pranzo feriale di Tomoegata da confermare (Time Out sì, Gurunavi solo weekend).
 
-Nara (11/11 mattina, richiesta di Federico, partiti un'ora dopo il previsto): 11/11 Fushimi Inari accorciato (arrivo 8:25, si gira alle 9:00 allo stagno Shin-ike, uscita 9:35), Nara 10:35–13:50 (Nakatanidō, parco dei cervi, Tōdai-ji, Nigatsu-dō, pranzo da Za Gin, ramen di pollo, Tabelog 3,47, link Tabelog non trovato), rientro Kintetsu + Keihan per Sanjūsangen-dō alle 14:50, taxi al Kiyomizu-dera per il tramonto, poi Sannenzaka, pagoda, Kōdai-ji illuminato, Gion e Onikai invariato. Tolti Vermillion e SANSHIKI; santuario Kasuga solo «anticipo». Nintendo KYOTO spostato al 12/11.
+Nara (11/11 mattina, richiesta di Federico, partiti un'ora dopo il previsto): 11/11 Fushimi Inari 8:25–9:55 fino a Yotsutsuji (più tempo su richiesta), Nara 10:50–13:50 (Nakatanidō, parco dei cervi, Tōdai-ji; Nigatsu-dō tolto e messo in «anticipo», pranzo da Za Gin, ramen di pollo, Tabelog 3,47, link Tabelog non trovato), rientro Kintetsu + Keihan per Sanjūsangen-dō alle 14:50, taxi al Kiyomizu-dera per il tramonto, poi Sannenzaka, pagoda, Kōdai-ji illuminato, Gion e Onikai invariato. Tolti Vermillion e SANSHIKI; santuario Kasuga solo «anticipo». Nintendo KYOTO spostato al 12/11.
 12/11: tolti Keage Incline (bello per i ciliegi, non a novembre) e Samurai & Ninja Museum (su richiesta, non era prenotato): dopo Ginkaku-ji taxi al mercato Nishiki (16:35), Nintendo KYOTO (17:25), gallerie Teramachi/Shinkyōgoku, Kotetsu alle 19 invariato.
 
 Pasti senza doppioni (30/10, richiesta di Federico): mai due pasti dello stesso tipo nello stesso giorno. 6/11 cena: sushi in piedi da Uogashi Nihonichi (stazione di Akihabara) al posto del ramen Kyushu Jangara. 13/11 pranzo: ramen di Takayama da Masago Soba al posto di Kotte Ushi (manzo + bistecca la sera); Kotte Ushi resta alternativa.
@@ -602,36 +602,33 @@ con: voi due
   breve: a piedi 7′ + treno 5′
   come: a piedi alla stazione di Kyoto (7′), treno JR Nara line fino a Inari (5′)
 - 08:25 vedere Fushimi Inari (santuario dei portali rossi) | posto: fushimi-inari
-  breve: i 10.000 portali rossi · alle 9:00 si torna giù
-  Santuario coi portali rossi in fila sulla collina. I portali più belli sono nella prima parte (Senbon Torii, i «mille portali»): salite fino allo stagno Shin-ike (Kumataka-sha, ~25′) e alle 9:00, ovunque siate, girate. Yotsutsuji oggi non ci sta.
-  attenzione: dopo le 9 si riempie · alle 9:35 dovete essere all'ingresso per il treno
-- 09:40 viaggio Treno per Nara | città: nara | dove: Fushimi-Inari Station Keihan
-  breve: Keihan + Kintetsu · ~50′ · arrivo verso le 10:35
+  breve: i 10.000 portali rossi · fino a Yotsutsuji · 1 h 30
+  Santuario coi portali rossi in fila sulla collina. Salite tra i Senbon Torii (i «mille portali») fino al bivio di Yotsutsuji (~40′ di salita, vista sulla città) e tornate giù (~4 km in tutto). La cima aggiunge un'ora di gradini senza un panorama migliore.
+  attenzione: alle 9:15, ovunque siate, girate · alle 9:55 dovete essere all'ingresso per il treno
+- 10:00 viaggio Treno per Nara | città: nara | dove: Fushimi-Inari Station Keihan
+  breve: Keihan + Kintetsu · ~50′ · arrivo verso le 10:50
   Nara è stata la prima capitale stabile del Giappone (VIII secolo): templi enormi in un parco pieno di cervi liberi.
   come: dall'ingresso del santuario 3′ a piedi alla stazione Keihan Fushimi-Inari, treno Keihan verso nord fino a Tambabashi (2 fermate, ~4′), cambio a piedi con la stazione Kintetsu Tambabashi (accanto), treno Kintetsu Kyoto line verso Nara (cambio a Yamato-Saidaiji se il treno non è diretto) fino a Kintetsu-Nara (~40′)
   costo: ~¥1.000 a testa con la Suica
-- 10:40 cibo Nakatanidō (mochi pestati a mano) | posto: nakatanido | via piedi: Kintetsu Nara Station > #nakatanido (Stazione → Nakatanidō)
+- 10:55 cibo Nakatanidō (mochi pestati a mano) | posto: nakatanido | via piedi: Kintetsu Nara Station > #nakatanido (Stazione → Nakatanidō)
   breve: dolci di riso pestati a velocità record · 5′ dalla stazione
   I mochi (dolcetti di riso glutinoso) li pestano con dei magli di legno a una velocità pazzesca, gridando: hanno vinto due volte il campionato nazionale. Il loro è il mochi di yomogi (un'erba che lo fa verde) ripieno di fagioli rossi dolci, ancora caldo. La dimostrazione è a orari variabili (lavagnetta davanti al negozio).
   costo: ~¥200 al pezzo · contanti
   orari: 10–18 · chiuso il martedì
-- 10:55 vedere Parco dei cervi (Nara Park) | posto: nara-park | via piedi: #nakatanido > #todai-ji (Nakatanidō → Tōdai-ji)
+- 11:10 vedere Parco dei cervi (Nara Park) | posto: nara-park | via piedi: #nakatanido > #todai-ji (Nakatanidō → Tōdai-ji)
   breve: 1.200 cervi liberi · verso il Tōdai-ji a piedi, 20′
   Nel parco i cervi girano liberi: sono considerati messaggeri degli dèi. Si inchinano se vi inchinate. I crackers apposta (shika senbei) si comprano ai chioschetti lungo la strada.
   costo: crackers ~¥200
   attenzione: i cervi mordicchiano vestiti e cartine: tenete in mano i crackers solo quando li date, e mostrate le mani vuote quando sono finiti
-- 11:15 vedere Tōdai-ji (tempio del Grande Buddha) | posto: todai-ji
+- 11:30 vedere Tōdai-ji (tempio del Grande Buddha) | posto: todai-ji
   breve: Buddha di bronzo alto 15 m in una sala di legno enorme · ~50′
   Si entra dal portone Nandaimon, con due guardiani di legno alti 8 m. Nella sala principale, tra le più grandi costruzioni di legno al mondo, c'è il Daibutsu (Grande Buddha) di bronzo dell'VIII secolo. Dietro la statua c'è una colonna con un buco grande come una narice del Buddha: chi ci passa attraverso avrà l'illuminazione.
   costo: ¥800 · solo contanti alla cassa
   orari: novembre 8:00–17:00
-- 12:10 vedere Nigatsu-dō (sala sulla collina) | posto: nigatsudo | via piedi: #todai-ji > #nigatsudo (Tōdai-ji → Nigatsu-dō)
-  breve: terrazza di legno con vista su Nara · gratis · 30′
-  Sala del Tōdai-ji su una collinetta, 8′ a piedi in salita dalla sala del Buddha: la terrazza coperta guarda i tetti del tempio e tutta la città. Aperta sempre, quasi vuota.
-- 12:40 sposta Stazione Kintetsu-Nara | via piedi: #nigatsudo > #zagin-nara (Nigatsu-dō → stazione)
-  breve: a piedi ~25′ attraverso il parco · 1,8 km
-- 13:05 cibo Za Gin (ramen di pollo) | posto: zagin-nara
-  breve: pranzo · ramen al brodo di pollo cremoso · vicino alla stazione · 40′
+- 12:25 sposta Stazione Kintetsu-Nara | via piedi: #todai-ji > #zagin-nara (Tōdai-ji → stazione)
+  breve: a piedi ~20′ attraverso il parco · 1,4 km
+- 12:50 cibo Za Gin (ramen di pollo) | posto: zagin-nara
+  breve: pranzo · ramen al brodo di pollo cremoso · vicino alla stazione · 50′
   Tori soba: ramen con un brodo di pollo denso e cremoso, quasi una vellutata, con fettine di pollo, maiale e anatra. Catena di Osaka tra le più amate (il negozio principale è nei 100 migliori ramen d'Osaka su Tabelog). Qui Tabelog 3,47 su 117 recensioni.
   costo: ~¥1.000–2.000 a testa · si paga al distributore di biglietti
   attenzione: all'ora di pranzo può esserci fila: se c'è troppa gente, il konbini (minimarket) in stazione e mangiate in treno
@@ -692,19 +689,21 @@ senso: Kyoto e Nara in un giorno: santuario dei portali rossi, i cervi liberi e 
 mangiare:
   • Colazione: konbini (minimarket) prima di uscire
   • Spuntino: mochi caldi da Nakatanidō a Nara (~¥200, contanti)
-  • Pranzo: Za Gin, ramen al brodo di pollo cremoso (Tabelog 3,47) vicino alla stazione di Nara, alle 13:05
+  • Pranzo: Za Gin, ramen al brodo di pollo cremoso (Tabelog 3,47) vicino alla stazione di Nara, alle 12:50
   • Cena: Onikai, izakaya (osteria, piattini da condividere) di cucina di Kyoto a 3′ da Pontochō (Tabelog 3,60), alle 19:30
 prenotare:
   • Onikai ore 19:30 per 2 (online su Tabelog)
   • Suica carica per i treni (~¥2.000 a testa per andata e ritorno da Nara)
 attenzione:
-  • Alle 9:35 dovete lasciare Fushimi Inari, alle 13:50 il treno da Nara: sono i due orari che tengono in piedi la giornata
+  • Alle 9:55 dovete lasciare Fushimi Inari, alle 13:50 il treno da Nara: sono i due orari che tengono in piedi la giornata
   • Al Tōdai-ji si paga solo in contanti
   • Al Sanjūsangen-dō niente foto dentro e si entra senza scarpe; ultimo ingresso 16:30
   • A Gion non si fotografano le geisha da vicino e non si entra nei vicoli privati (multe)
-anticipo: • Santuario Kasuga (lanterne di pietra nel bosco), 20′ a piedi dal Tōdai-ji: solo se a mezzogiorno siete in anticipo
+anticipo:
+  • Nigatsu-dō (sala sulla collina con vista su Nara, gratis), 8′ in salita dal Tōdai-ji: +30′
+  • Santuario Kasuga (lanterne di pietra nel bosco), 20′ a piedi dal Tōdai-ji
 stanchi:
-  • Saltate il Nigatsu-dō: dal Tōdai-ji dritti al pranzo
+  • A Fushimi Inari girate allo stagno Shin-ike invece che a Yotsutsuji
   • Saltate il Sanjūsangen-dō: da Nara treno Kintetsu fino a Kyoto e taxi al Kiyomizu-dera
   • Saltate Pontochō e Kiyamachi: cena e a letto. Non tagliate Kiyomizu
 contanti: ¥5.500–11.000 a testa
@@ -2181,7 +2180,7 @@ nome: Nakatanidō (mochi)
 tipo: 🍡 Dolci
 città: nara
 giorno: 11/11
-nota: 10:40 · mochi pestati a mano, ~¥200 · 10–18, chiuso mar. · contanti
+nota: 10:55 · mochi pestati a mano, ~¥200 · 10–18, chiuso mar. · contanti
 maps: Nakatanidou Nara
 sito: http://www.nakatanidou.jp/
 foto: Mochi
@@ -2191,7 +2190,7 @@ nome: Parco di Nara (cervi)
 tipo: 🦌 Parco
 città: nara
 giorno: 11/11
-nota: 10:55 · cervi liberi, crackers ~¥200
+nota: 11:10 · cervi liberi, crackers ~¥200
 maps: Nara Park
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298198-d319880-Reviews-Nara_Park-Nara_Nara_Prefecture_Kinki.html
 foto: Nara Park
@@ -2201,7 +2200,7 @@ nome: Tōdai-ji (Grande Buddha)
 tipo: ⛩ Tempio
 città: nara
 giorno: 11/11
-nota: 11:15 · ¥800, solo contanti · 8–17 a novembre
+nota: 11:30 · ¥800, solo contanti · 8–17 a novembre
 maps: Todaiji Daibutsuden Nara
 tripadvisor: https://www.tripadvisor.com/319876
 foto: Tōdai-ji
@@ -2211,7 +2210,7 @@ nome: Nigatsu-dō
 tipo: ⛩ Tempio
 città: nara
 giorno: 11/11
-nota: 12:10 · terrazza con vista · gratis, sempre aperto
+nota: facoltativo (anticipo) · terrazza con vista · gratis, sempre aperto
 maps: Nigatsudo Nara
 tripadvisor: https://www.tripadvisor.com/319883
 foto: Nigatsu-dō
@@ -2221,7 +2220,7 @@ nome: Tori Soba Za Gin Kintetsu Nara (ramen)
 tipo: 🍜 Ristorante
 città: nara
 giorno: 11/11
-nota: Pranzo 13:05 · ramen di pollo · Tabelog 3,47 (117) · ~¥1.000–2.000
+nota: Pranzo 12:50 · ramen di pollo · Tabelog 3,47 (117) · ~¥1.000–2.000
 maps: 鶏soba座銀 近鉄奈良店
 voto: 3,47
 foto: Ramen
@@ -2589,7 +2588,7 @@ nome: Fushimi Inari Taisha
 tipo: ⛩ Santuario
 città: kyoto
 giorno: 11/11
-nota: 8:25, giro accorciato fino allo stagno Shin-ike
+nota: 8:25–9:55, fino a Yotsutsuji
 maps: Fushimi Inari Taisha Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321456-Reviews-Fushimi_Inari_taisha_Shrine-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://inari.jp/en/
