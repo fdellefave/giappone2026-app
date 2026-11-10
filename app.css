@@ -39,6 +39,7 @@
   --takayama: #4C8A3B;
   --osaka: #C2348C;
   --shirakawago: #8A5A3C;
+  --nara: #4E8A3E;
   --roma: #6E7785;
 
   --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -52,7 +53,7 @@
     --ok: #55C285; --ok-soft: #16301F; --warn: #E7A94A; --warn-soft: #36290F; --bad: #F07A70; --bad-soft: #3A1D1B;
     --on: #111318; --grp: #F06595; --t-vedere: #8C96F2; --t-fare: #D985D3; --t-cibo: #FF922B; --t-sposta: #9AA1AD; --t-viaggio: #5DB3EA; --t-hotel: #5CC488; --t-bagagli: #B3A799; --t-sveglia: #F2C94C;
     --tokyo: #F06A5E; --kawaguchiko: #33BFA9; --kamakura: #A788D9; --kyoto: #D9A445; --takayama: #7CBB67;
-    --osaka: #E36AB4; --shirakawago: #C99472; --roma: #9AA3B0; color-scheme: dark;
+    --osaka: #E36AB4; --shirakawago: #C99472; --nara: #8CC27A; --roma: #9AA3B0; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
@@ -61,7 +62,7 @@
   --ok: #55C285; --ok-soft: #16301F; --warn: #E7A94A; --warn-soft: #36290F; --bad: #F07A70; --bad-soft: #3A1D1B;
   --on: #111318; --grp: #F06595; --t-vedere: #8C96F2; --t-fare: #D985D3; --t-cibo: #FF922B; --t-sposta: #9AA1AD; --t-viaggio: #5DB3EA; --t-hotel: #5CC488; --t-bagagli: #B3A799; --t-sveglia: #F2C94C;
   --tokyo: #F06A5E; --kawaguchiko: #33BFA9; --kamakura: #A788D9; --kyoto: #D9A445; --takayama: #7CBB67;
-  --osaka: #E36AB4; --shirakawago: #C99472; --roma: #9AA3B0; color-scheme: dark;
+  --osaka: #E36AB4; --shirakawago: #C99472; --nara: #8CC27A; --roma: #9AA3B0; color-scheme: dark;
 }
 
 * { box-sizing: border-box; }

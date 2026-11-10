@@ -9,7 +9,7 @@
   var API = "https://api.github.com/repos/" + GH.owner + "/" + GH.repo;
   var RAW = "https://raw.githubusercontent.com/" + GH.owner + "/" + GH.repo + "/";
 
-  var CITY = { roma: "Roma", tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", shirakawago: "Shirakawa-go" };
+  var CITY = { roma: "Roma", tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", shirakawago: "Shirakawa-go", nara: "Nara" };
   var TYPE = { vedere: ["Da vedere", "pin"], fare: ["Esperienza", "sparkles"], cibo: ["Mangiare", "food"], sposta: ["Spostamento in città", "walk"],
     viaggio: ["Treno, bus o volo", "train"], hotel: ["Hotel", "bed"], bagagli: ["Valigie", "luggage"] };
   var DETAIL = [["testo", "Testo libero"], ["breve", "Breve (sempre visibile)"], ["come", "Come arrivare"], ["costo", "Costo"], ["orari", "Orari"],

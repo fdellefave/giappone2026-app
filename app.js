@@ -5,7 +5,7 @@
   "use strict";
   var APP_V = "29"; // uguale al numero di VERSION in sw.js
 
-  var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", shirakawago: "Shirakawa-go", roma: "Roma" };
+  var CITY = { tokyo: "Tokyo", kawaguchiko: "Kawaguchiko", kamakura: "Kamakura", kyoto: "Kyoto", takayama: "Takayama", osaka: "Osaka", shirakawago: "Shirakawa-go", nara: "Nara", roma: "Roma" };
   var TYPE = {
     vedere: { n: "Da vedere", i: "pin" }, fare: { n: "Esperienza", i: "sparkles" }, cibo: { n: "Mangiare", i: "food" },
     sposta: { n: "Spostamento", i: "walk" }, viaggio: { n: "Treno, bus o volo", i: "train" }, hotel: { n: "Hotel", i: "bed" },
@@ -289,7 +289,7 @@
   // Si aggiorna all'apertura dell'app (al massimo una volta l'ora) e ogni 3 ore se resta aperta;
   // senza rete resta l'ultimo dato salvato, con l'ora in cui è stato preso.
   var WX_POS = { tokyo: [35.6812, 139.7671], kawaguchiko: [35.4983, 138.769], kamakura: [35.3192, 139.5467], kyoto: [34.9858, 135.7588],
-    takayama: [36.1461, 137.2522], shirakawago: [36.2578, 136.9064], osaka: [34.6687, 135.5013], roma: [41.9028, 12.4964] };
+    takayama: [36.1461, 137.2522], shirakawago: [36.2578, 136.9064], nara: [34.6851, 135.8430], osaka: [34.6687, 135.5013], roma: [41.9028, 12.4964] };
   var WX = null, wxBusy = false;
   function wxCode(c, day) {
     if (c === 0) return [day === 0 ? "w-moon" : "w-sun", "sereno"];
