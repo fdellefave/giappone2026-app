@@ -109,7 +109,7 @@ Riorganizzazione per la pioggia (9/11, richiesta di Federico): rientro da Kawagu
 
 Mattina del 10/11 (10/11, richiesta di Federico): libera dalle 10:30 alle 13:30, poi col gruppo; valigie al Saibo alle 18:30. Scelta Ryōgoku (quartiere del sumo): museo delle katane, giardino Kyū-Yasuda, Edo Noren e pranzo chanko-nabe da Tomoegata. Scartati: Asakusa e Akihabara (già fatti il 6/11), Jimbocho (curry, non piace a Federico), Ueno/Ameyoko + Kappabashi (alternativa), Ikebukuro (fuori raggio). Chanko Kirishima di Edo Noren chiuso il martedì; pranzo feriale di Tomoegata da confermare (Time Out sì, Gurunavi solo weekend).
 
-Nara (11/11 mattina, richiesta di Federico, partiti un'ora dopo il previsto): 11/11 Fushimi Inari accorciato (8:15–9:35), Nara 10:35–13:50 (Nakatanidō, parco dei cervi, Tōdai-ji, Nigatsu-dō, pranzo da Za Gin, ramen di pollo, Tabelog 3,47, link Tabelog non trovato), rientro Kintetsu + Keihan per Sanjūsangen-dō alle 14:50, taxi al Kiyomizu-dera per il tramonto, poi Sannenzaka, pagoda, Kōdai-ji illuminato, Gion e Onikai invariato. Tolti Vermillion e SANSHIKI; santuario Kasuga solo «anticipo». Nintendo KYOTO spostato al 12/11.
+Nara (11/11 mattina, richiesta di Federico, partiti un'ora dopo il previsto): 11/11 Fushimi Inari accorciato (arrivo 8:25, si gira alle 9:00 allo stagno Shin-ike, uscita 9:35), Nara 10:35–13:50 (Nakatanidō, parco dei cervi, Tōdai-ji, Nigatsu-dō, pranzo da Za Gin, ramen di pollo, Tabelog 3,47, link Tabelog non trovato), rientro Kintetsu + Keihan per Sanjūsangen-dō alle 14:50, taxi al Kiyomizu-dera per il tramonto, poi Sannenzaka, pagoda, Kōdai-ji illuminato, Gion e Onikai invariato. Tolti Vermillion e SANSHIKI; santuario Kasuga solo «anticipo». Nintendo KYOTO spostato al 12/11.
 12/11: tolti Keage Incline (bello per i ciliegi, non a novembre) e Samurai & Ninja Museum (su richiesta, non era prenotato): dopo Ginkaku-ji taxi al mercato Nishiki (16:35), Nintendo KYOTO (17:25), gallerie Teramachi/Shinkyōgoku, Kotetsu alle 19 invariato.
 
 Pasti senza doppioni (30/10, richiesta di Federico): mai due pasti dello stesso tipo nello stesso giorno. 6/11 cena: sushi in piedi da Uogashi Nihonichi (stazione di Akihabara) al posto del ramen Kyushu Jangara. 13/11 pranzo: ramen di Takayama da Masago Soba al posto di Kotte Ushi (manzo + bistecca la sera); Kotte Ushi resta alternativa.
@@ -598,12 +598,12 @@ camminata: ~4 km la mattina + il programma del gruppo · Shinkansen 2 h 10
 percorso: kyoto > nara > kyoto
 dorme: apa-kyoto
 con: voi due
-- 07:55 sposta Fushimi Inari | via mezzi: @apa-kyoto > #fushimi-inari (Hotel → Fushimi Inari)
+- 08:05 sposta Fushimi Inari | via mezzi: @apa-kyoto > #fushimi-inari (Hotel → Fushimi Inari)
   breve: a piedi 7′ + treno 5′
   come: a piedi alla stazione di Kyoto (7′), treno JR Nara line fino a Inari (5′)
-- 08:15 vedere Fushimi Inari (santuario dei portali rossi) | posto: fushimi-inari
-  breve: i 10.000 portali rossi · giù entro le 9:35
-  Santuario coi portali rossi in fila sulla collina. Salite fino al bivio di Yotsutsuji (~40′ in salita, vista sulla città) solo se alle 8:50 siete già a metà strada; altrimenti girate prima: i portali più belli sono nella prima parte (Senbon Torii, i «mille portali»).
+- 08:25 vedere Fushimi Inari (santuario dei portali rossi) | posto: fushimi-inari
+  breve: i 10.000 portali rossi · alle 9:00 si torna giù
+  Santuario coi portali rossi in fila sulla collina. I portali più belli sono nella prima parte (Senbon Torii, i «mille portali»): salite fino allo stagno Shin-ike (Kumataka-sha, ~25′) e alle 9:00, ovunque siate, girate. Yotsutsuji oggi non ci sta.
   attenzione: dopo le 9 si riempie · alle 9:35 dovete essere all'ingresso per il treno
 - 09:40 viaggio Treno per Nara | città: nara | dove: Fushimi-Inari Station Keihan
   breve: Keihan + Kintetsu · ~50′ · arrivo verso le 10:35
@@ -2589,7 +2589,7 @@ nome: Fushimi Inari Taisha
 tipo: ⛩ Santuario
 città: kyoto
 giorno: 11/11
-nota: 8:15, giro accorciato
+nota: 8:25, giro accorciato fino allo stagno Shin-ike
 maps: Fushimi Inari Taisha Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321456-Reviews-Fushimi_Inari_taisha_Shrine-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://inari.jp/en/
