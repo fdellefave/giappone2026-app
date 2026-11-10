@@ -109,7 +109,7 @@ Riorganizzazione per la pioggia (9/11, richiesta di Federico): rientro da Kawagu
 
 Mattina del 10/11 (10/11, richiesta di Federico): libera dalle 10:30 alle 13:30, poi col gruppo; valigie al Saibo alle 18:30. Scelta Ryōgoku (quartiere del sumo): museo delle katane, giardino Kyū-Yasuda, Edo Noren e pranzo chanko-nabe da Tomoegata. Scartati: Asakusa e Akihabara (già fatti il 6/11), Jimbocho (curry, non piace a Federico), Ueno/Ameyoko + Kappabashi (alternativa), Ikebukuro (fuori raggio). Chanko Kirishima di Edo Noren chiuso il martedì; pranzo feriale di Tomoegata da confermare (Time Out sì, Gurunavi solo weekend).
 
-Nara (11/11 mattina, richiesta di Federico, partiti un'ora dopo il previsto): 11/11 Fushimi Inari 8:25–9:55 fino a Yotsutsuji (più tempo su richiesta), Nara 10:50–13:50 (Nakatanidō, parco dei cervi, Tōdai-ji; Nigatsu-dō tolto e messo in «anticipo», pranzo da Za Gin, ramen di pollo, Tabelog 3,47, link Tabelog non trovato), rientro Kintetsu + Keihan per Sanjūsangen-dō alle 14:50, taxi al Kiyomizu-dera per il tramonto, poi Sannenzaka, pagoda, Kōdai-ji illuminato, Gion e Onikai invariato. Tolti Vermillion e SANSHIKI; santuario Kasuga solo «anticipo». Nintendo KYOTO spostato al 12/11.
+Nara (11/11 mattina, richiesta di Federico, partiti un'ora dopo il previsto): 11/11 Fushimi Inari 8:25–9:55 fino a Yotsutsuji (più tempo su richiesta), Nara 10:50–13:50 (Nakatanidō, parco dei cervi, Tōdai-ji, Nigatsu-dō, pranzo al volo verso la stazione: Za Gin tolto su richiesta), rientro Kintetsu + Keihan per Sanjūsangen-dō alle 14:50, taxi al Kiyomizu-dera per il tramonto, poi Sannenzaka, pagoda, Kōdai-ji illuminato, Gion e Onikai invariato. Tolti Vermillion e SANSHIKI; santuario Kasuga solo «anticipo». Nintendo KYOTO spostato al 12/11.
 12/11: tolti Keage Incline (bello per i ciliegi, non a novembre) e Samurai & Ninja Museum (su richiesta, non era prenotato): dopo Ginkaku-ji taxi al mercato Nishiki (16:35), Nintendo KYOTO (17:25), gallerie Teramachi/Shinkyōgoku, Kotetsu alle 19 invariato.
 
 Pasti senza doppioni (30/10, richiesta di Federico): mai due pasti dello stesso tipo nello stesso giorno. 6/11 cena: sushi in piedi da Uogashi Nihonichi (stazione di Akihabara) al posto del ramen Kyushu Jangara. 13/11 pranzo: ramen di Takayama da Masago Soba al posto di Kotte Ushi (manzo + bistecca la sera); Kotte Ushi resta alternativa.
@@ -625,13 +625,13 @@ con: voi due
   Si entra dal portone Nandaimon, con due guardiani di legno alti 8 m. Nella sala principale, tra le più grandi costruzioni di legno al mondo, c'è il Daibutsu (Grande Buddha) di bronzo dell'VIII secolo. Dietro la statua c'è una colonna con un buco grande come una narice del Buddha: chi ci passa attraverso avrà l'illuminazione.
   costo: ¥800 · solo contanti alla cassa
   orari: novembre 8:00–17:00
-- 12:25 sposta Stazione Kintetsu-Nara | via piedi: #todai-ji > #zagin-nara (Tōdai-ji → stazione)
-  breve: a piedi ~20′ attraverso il parco · 1,4 km
-- 12:50 cibo Za Gin (ramen di pollo) | posto: zagin-nara
-  breve: pranzo · ramen al brodo di pollo cremoso · vicino alla stazione · 50′
-  Tori soba: ramen con un brodo di pollo denso e cremoso, quasi una vellutata, con fettine di pollo, maiale e anatra. Catena di Osaka tra le più amate (il negozio principale è nei 100 migliori ramen d'Osaka su Tabelog). Qui Tabelog 3,47 su 117 recensioni.
-  costo: ~¥1.000–2.000 a testa · si paga al distributore di biglietti
-  attenzione: all'ora di pranzo può esserci fila: se c'è troppa gente, il konbini (minimarket) in stazione e mangiate in treno
+- 12:25 vedere Nigatsu-dō (sala sulla collina) | posto: nigatsudo | via piedi: #todai-ji > #nigatsudo (Tōdai-ji → Nigatsu-dō)
+  breve: terrazza di legno con vista su Nara · gratis · 25′
+  Sala del Tōdai-ji su una collinetta, 8′ a piedi in salita dalla sala del Buddha: la terrazza coperta guarda i tetti del tempio e tutta la città. Aperta sempre, quasi vuota.
+- 12:55 cibo Pranzo al volo verso la stazione | zona: nara-parco | via piedi: #nigatsudo > Kintetsu Nara Station (Nigatsu-dō → stazione)
+  breve: a piedi ~25′ · street food o konbini, si mangia in treno se serve
+  Lungo la strada verso la stazione ci sono chioschi di street food; davanti alla stazione Kintetsu-Nara comincia Higashimuki (galleria coperta con negozi e locali veloci) e in stazione c'è un konbini (minimarket).
+  attenzione: alle 13:45 in stazione: il treno delle 13:50 tiene in piedi il pomeriggio
 - 13:50 viaggio Treno per Kyoto | città: kyoto | dove: Kintetsu Nara Station
   breve: Kintetsu + Keihan · ~50′ · arrivo verso le 14:40
   come: treno Kintetsu fino a Tambabashi (cambio a Yamato-Saidaiji se non è diretto, ~40′), cambio sulla Keihan e treno verso nord fino a Shichijō (2 fermate, ~5′), poi 8′ a piedi verso est
@@ -689,7 +689,7 @@ senso: Kyoto e Nara in un giorno: santuario dei portali rossi, i cervi liberi e 
 mangiare:
   • Colazione: konbini (minimarket) prima di uscire
   • Spuntino: mochi caldi da Nakatanidō a Nara (~¥200, contanti)
-  • Pranzo: Za Gin, ramen al brodo di pollo cremoso (Tabelog 3,47) vicino alla stazione di Nara, alle 12:50
+  • Pranzo: al volo verso la stazione di Nara (street food, konbini o in treno)
   • Cena: Onikai, izakaya (osteria, piattini da condividere) di cucina di Kyoto a 3′ da Pontochō (Tabelog 3,60), alle 19:30
 prenotare:
   • Onikai ore 19:30 per 2 (online su Tabelog)
@@ -699,11 +699,10 @@ attenzione:
   • Al Tōdai-ji si paga solo in contanti
   • Al Sanjūsangen-dō niente foto dentro e si entra senza scarpe; ultimo ingresso 16:30
   • A Gion non si fotografano le geisha da vicino e non si entra nei vicoli privati (multe)
-anticipo:
-  • Nigatsu-dō (sala sulla collina con vista su Nara, gratis), 8′ in salita dal Tōdai-ji: +30′
-  • Santuario Kasuga (lanterne di pietra nel bosco), 20′ a piedi dal Tōdai-ji
+anticipo: • Santuario Kasuga (lanterne di pietra nel bosco), 20′ a piedi dal Tōdai-ji
 stanchi:
   • A Fushimi Inari girate allo stagno Shin-ike invece che a Yotsutsuji
+  • Saltate il Nigatsu-dō: dal Tōdai-ji dritti verso la stazione
   • Saltate il Sanjūsangen-dō: da Nara treno Kintetsu fino a Kyoto e taxi al Kiyomizu-dera
   • Saltate Pontochō e Kiyamachi: cena e a letto. Non tagliate Kiyomizu
 contanti: ¥5.500–11.000 a testa
@@ -711,7 +710,7 @@ contanti: ¥5.500–11.000 a testa
   • Templi: Sanjūsangen-dō ¥600, Kiyomizu-dera ¥500 e Kōdai-ji illuminato ¥800
   • Metà taxi fino al Kiyomizu-dera (~¥600 a testa)
   • Snack nei vicoli di Sannenzaka e un drink nei bar di Kiyamachi
-camminata: ~15 km (Fushimi accorciato, parco di Nara, Gion a passo lento) · treni ~2 h · pause: pranzo 40′, cena 1 h 15
+camminata: ~17 km (Fushimi fino a Yotsutsuji, parco di Nara, Gion a passo lento) · treni ~2 h · pause: pranzo al volo, cena 1 h 15
 ### 2026-11-12
 percorso: kyoto
 dorme: apa-kyoto
@@ -2071,7 +2070,7 @@ posti: grande-buddha, hase-dera
 ### nara-parco
 nome: Nara
 cosa: il parco dei cervi coi templi, a 5′ dalla stazione Kintetsu
-posti: nakatanido, nara-park, todai-ji, nigatsudo, zagin-nara
+posti: nakatanido, nara-park, todai-ji, nigatsudo
 
 ### kyoto-stazione
 nome: Stazione di Kyoto
@@ -2210,20 +2209,10 @@ nome: Nigatsu-dō
 tipo: ⛩ Tempio
 città: nara
 giorno: 11/11
-nota: facoltativo (anticipo) · terrazza con vista · gratis, sempre aperto
+nota: 12:25 · terrazza con vista · gratis, sempre aperto
 maps: Nigatsudo Nara
 tripadvisor: https://www.tripadvisor.com/319883
 foto: Nigatsu-dō
-
-### zagin-nara
-nome: Tori Soba Za Gin Kintetsu Nara (ramen)
-tipo: 🍜 Ristorante
-città: nara
-giorno: 11/11
-nota: Pranzo 12:50 · ramen di pollo · Tabelog 3,47 (117) · ~¥1.000–2.000
-maps: 鶏soba座銀 近鉄奈良店
-voto: 3,47
-foto: Ramen
 
 ### nishiki
 nome: Mercato Nishiki
