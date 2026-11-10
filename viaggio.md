@@ -107,6 +107,8 @@ Già verificato (non riproporre):
 
 Riorganizzazione per la pioggia (9/11, richiesta di Federico): rientro da Kawaguchiko col bus anticipato, arrivo a Shinjuku alle 11:30 (Fuji Excursion delle 14:16 non usato). Meiji Jingū, Harajuku e Tochō spostati dal 17/11 al pomeriggio del 9/11, poi col gruppo per teamLab. Il 10/11 Kamakura è tolta: giornata col gruppo, programma non noto (check-out entro le 10, valigie al Saibo fino alle 18:40, Shinkansen invariato). Il 17/11: Tsukiji, Shibuya Sky, PARCO, poi mezza giornata a Kamakura (Komachi-dōri, Grande Buddha, Hase-dera, passaggio a livello di Slam Dunk), partenza alle 17:15 per il sushi delle 19:00. Tolti su richiesta Samurai Restaurant Time (non si fa più, niente alternative) e l'incrocio di Shibuya la sera (si vede la mattina); Hōkoku-ji non ci sta nella mezza giornata. Tochō: il 9/11 è secondo lunedì, torre nord chiusa, si sale dalla sud.
 
+Mattina del 10/11 (10/11, richiesta di Federico): libera dalle 10:30 alle 13:30, poi col gruppo; valigie al Saibo alle 18:30. Scelta Ryōgoku (quartiere del sumo): museo delle katane, giardino Kyū-Yasuda, Edo Noren e pranzo chanko-nabe da Tomoegata. Scartati: Asakusa e Akihabara (già fatti il 6/11), Jimbocho (curry, non piace a Federico), Ueno/Ameyoko + Kappabashi (alternativa), Ikebukuro (fuori raggio). Chanko Kirishima di Edo Noren chiuso il martedì; pranzo feriale di Tomoegata da confermare (Time Out sì, Gurunavi solo weekend).
+
 Pasti senza doppioni (30/10, richiesta di Federico): mai due pasti dello stesso tipo nello stesso giorno. 6/11 cena: sushi in piedi da Uogashi Nihonichi (stazione di Akihabara) al posto del ramen Kyushu Jangara. 13/11 pranzo: ramen di Takayama da Masago Soba al posto di Kotte Ushi (manzo + bistecca la sera); Kotte Ushi resta alternativa.
 Ristoranti e orari dei pasti (30/10, richiesta di Federico): tutti verificati su Tabelog (3,45+), prezzi fattibili tranne sushi omakase ≤€60 e Kobe ≤€70; pranzo verso le 13 e cena 19–20, ~1 h ciascuno, senza forzare il percorso. 6/11 Kizuna Sushi (3,48) al posto di Uogashi (3,25); 11/11 Kiyomizu-dera prima e SANSHIKI alle 12:45 scendendo; 12/11 Okakita (3,69) al posto di Daigin (3,34) con giro al contrario Keage → Nanzen-ji → Sentiero → Ginkaku-ji; 13/11 Taruhei (3,62) al posto di Kitchen Hida (troppo cara), onsen prima di cena; 14/11 Neighbird (3,60) al posto di Kyōya (3,33); 15/11 Kobe alle 19 col corso da ~¥11.000; 16/11 pranzo alle 13:30 e cena sullo Shinkansen. Hisago (oyakodon a Gion) risulta chiuso su Tabelog. Il 6/11 il pranzo resta alle 14:10 per l'atterraggio. 17/11: a Tsukiji solo assaggi cotti, il crudo è la cena da Sushi Tokyo Ten.
 
@@ -514,20 +516,42 @@ camminata: ~10 km (400 scalini della Chureito) · bus e mezzi ~4 h · pause: pra
 ### 2026-11-10
 percorso: tokyo > kyoto
 dorme: apa-kyoto
-con: voi due + il gruppo, la sera solo voi due
-gruppo: 10:00-18:20
+con: voi due, dalle 13:30 col gruppo, la sera solo voi due
+gruppo: 13:30-18:20
 - 09:30 hotel Check-out dall'Hotel Saibo | alloggio: saibo
   breve: entro le 10
 - 09:35 bagagli Valigie in deposito all'Hotel Saibo | alloggio: saibo | deposito
-  breve: le riprendete alle 18:40
+  breve: le riprendete alle 18:30
   prenotazione: confermato dall'hotel (14/10): reception aperta 24 ore su 24 e le due valigie restano in deposito fino al ritiro della sera
-- 10:00 fare Giornata col gruppo | dove: Tokyo | zona: tokyo-gruppo | foto: Tokyo
-  breve: programma del gruppo · alle 18:40 valigie al Saibo
+- 10:30 sposta Japanese Sword Museum | via piedi: @saibo > #token-museum (Hotel Saibo → museo delle katane)
+  breve: a piedi 30′ · 2,5 km, sul ponte Shin-Ōhashi (sul fiume Sumida)
+  alternativa: se piove forte, metro Toei Shinjuku line da Hamachō a Morishita (1 fermata), cambio sulla metro Ōedo fino a Ryōgoku (1 fermata), 5′ a piedi · ~15′
+- 11:00 vedere Japanese Sword Museum (museo delle katane) | posto: token-museum
+  breve: katane vere dei grandi forgiatori · ~45′
+  Il museo dell'associazione che tutela le spade giapponesi: lame originali, alcune tesoro nazionale, con montature e guardie (tsuba). Fino al 20/12 c'è la mostra su Kotetsu e Sukehiro, due dei forgiatori più famosi del periodo Edo. Dalla terrazza sul tetto si vedono il giardino e il Kokugikan (lo stadio del sumo).
+  orari: 9:30–17 (ultimo ingresso 16:30), chiuso il lunedì e nei cambi di mostra · ¥1.000
+  attenzione: niente foto nella sala delle spade (3° piano); le didascalie sono quasi solo in giapponese, c'è il wifi gratis con le guide via QR
+- 11:45 vedere Kyū-Yasuda Teien (giardino) | posto: kyu-yasuda
+  breve: giardino giapponese col laghetto, accanto al museo · gratis · ~20′
+  Giardino del periodo Meiji (fine Ottocento) attorno a un laghetto, con ponticelli e lanterne di pietra: il momento zen della mattina.
+  orari: 9–18 (da ottobre a marzo) · gratis
+- 12:05 vedere Ryōgoku Edo Noren (il ring del sumo) | posto: edo-noren | via piedi: #kyu-yasuda > #edo-noren (giardino → Edo Noren)
+  breve: la vecchia stazione col ring del sumo dentro · a piedi 5′ · ~10′
+  Edificio accanto alla stazione di Ryōgoku (il quartiere del sumo) con piccoli ristoranti attorno a una copia a grandezza vera del dohyō (il ring del sumo). Sulla strada passate davanti al Kokugikan (lo stadio del sumo): a novembre il torneo è a Fukuoka, quindi lo vedete solo da fuori.
+- 12:15 cibo Tomoegata (chanko-nabe) | posto: tomoegata | via piedi: #edo-noren > #tomoegata (Edo Noren → Tomoegata)
+  breve: pranzo: lo stufato dei lottatori di sumo · a piedi 7′ · ~1 h
+  Chanko-nabe: il pentolone di brodo con carne, pesce e verdure che mangiano i lottatori di sumo per mettere su peso. Tomoegata lo cucina da oltre 45 anni ed è uno dei locali storici di Ryōgoku.
+  orari: pranzo 11:30–14, chiuso il lunedì · ~¥2.000–4.000 a testa
+  attenzione: le fonti non concordano sul pranzo nei giorni feriali: se non apre, i locali di [[edo-noren]] sono aperti dalle 11 (oggi è chiuso Chanko Kirishima, che non apre il martedì)
+  veloce: i locali di [[edo-noren]] (soba, sushi, tempura) o un konbini alla stazione di Ryōgoku
+- 13:30 fare Pomeriggio col gruppo | dove: Tokyo | zona: tokyo-gruppo | foto: Tokyo
+  breve: programma del gruppo · alle 18:30 valigie al Saibo
+  Da Tomoegata raggiungete il gruppo dalla stazione di Ryōgoku (treno JR Sōbu o metro Ōedo), uscendo verso le 13:15.
   Kamakura è spostata al 17/11 per la pioggia prevista oggi.
-- 18:40 bagagli Ritiro valigie all'Hotel Saibo | alloggio: saibo | ritiro
+- 18:30 bagagli Ritiro valigie all'Hotel Saibo | alloggio: saibo | ritiro
   breve: poi taxi per Tokyo Station
   Il gruppo lo salutate prima di tornare in hotel (loro volano il 12): da qui siete solo voi due.
-- 18:45 sposta Gransta, Tokyo Station | via taxi: @saibo > #gransta (Hotel Saibo → Tokyo Station)
+- 18:35 sposta Gransta, Tokyo Station | via taxi: @saibo > #gransta (Hotel Saibo → Tokyo Station)
   breve: taxi 10′ (a piedi 25′)
 - 19:00 cibo Ekiben (cestino da treno) da Gransta | posto: gransta
   breve: la cena da mangiare in treno
@@ -546,9 +570,9 @@ gruppo: 10:00-18:20
   veloce: [[sukiya-shichijo]] (gyudon, fino alle 3) o il konbini [[lawson-kyoto-st]], vicino all'hotel
 
 #### Guida
-senso: Giornata di pioggia col gruppo, poi Shinkansen (treno superveloce) per Kyoto la sera.
+senso: Mattina a Ryōgoku, il quartiere del sumo: museo delle katane, giardino giapponese e pranzo con lo stufato dei lottatori; pomeriggio col gruppo, poi Shinkansen (treno superveloce) per Kyoto la sera.
 mangiare:
-  • Pranzo col gruppo
+  • Pranzo: chanko-nabe (lo stufato dei lottatori di sumo) da Tomoegata a Ryōgoku, alle 12:15
   • Cena: ekiben (il cestino da treno) comprato in stazione a Tokyo e mangiato sullo Shinkansen
   • Fame all'arrivo a Kyoto: ramen da Honke Daiichi Asahi (Tabelog 3,74, fino all'1:00)
 prenotare:
@@ -556,13 +580,16 @@ prenotare:
   • Deposito valigie all'Hotel Saibo: confermato (reception aperta 24 ore su 24)
 attenzione:
   • Check-out entro le 10
-  • Ritiro valigie alle 18:40: lo Shinkansen parte alle 20:09
+  • Museo delle katane: niente foto nella sala delle spade
+  • Ritiro valigie alle 18:30: lo Shinkansen parte alle 20:09
 anticipo: • Colazione all'Hotel Saibo (¥1.500, 7–10)
-stanchi: • Riprendete prima le valigie e aspettate lo Shinkansen a Tokyo Station
-contanti: ¥2.000–5.000 a testa
-  • Pranzo e assaggi col gruppo
+stanchi: • Andate a Ryōgoku in metro invece che a piedi · riprendete prima le valigie e aspettate lo Shinkansen a Tokyo Station
+contanti: ¥4.500–9.000 a testa
+  • Museo delle katane ¥1.000
+  • Pranzo chanko-nabe (stufato dei lottatori di sumo) ~¥2.000–4.000
+  • Assaggi col gruppo nel pomeriggio
   • Ramen Honke Daiichi Asahi la sera, se avete fame
-camminata: dipende dal programma del gruppo · Shinkansen 2 h 10
+camminata: ~4 km la mattina + il programma del gruppo · Shinkansen 2 h 10
 
 ### 2026-11-11
 percorso: kyoto
@@ -1960,6 +1987,11 @@ nome: Shinjuku est (Kabukichō)
 cosa: il quartiere dei locali notturni, con Golden Gai e il vicolo degli spiedini
 posti: godzilla, omoide-yokocho, golden-gai
 
+### ryogoku
+nome: Ryōgoku
+cosa: il quartiere del sumo, sul fiume Sumida
+posti: token-museum, kyu-yasuda, edo-noren, tomoegata
+
 ### tokyo-gruppo
 nome: Tokyo
 cosa: la giornata col gruppo
@@ -3133,6 +3165,46 @@ nota: Osservatorio gratuito, tramonto ~16:40 · il 9/11 torre sud
 maps: Tokyo Metropolitan Government Building
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g14133673-d12879871-Reviews-Tokyo_Metropolitan_Government_Building_Observation_Decks-Nishishinjuku_Shinjuk.html
 foto: Tokyo Metropolitan Government Building
+
+### token-museum
+nome: Japanese Sword Museum (museo delle katane)
+tipo: ⚔ Museo
+città: tokyo
+giorno: 10/11
+nota: 9:30–17, ultimo ingresso 16:30 · chiuso il lunedì · ¥1.000 · mostra Kotetsu e Sukehiro fino al 20/12
+maps: Japanese Sword Museum Yokoami Sumida Tokyo
+sito: https://touken.or.jp/english
+foto: Japanese Sword Museum
+
+### kyu-yasuda
+nome: Kyū-Yasuda Teien (giardino giapponese)
+tipo: 🌳 Giardino
+città: tokyo
+giorno: 10/11
+nota: 9–18 da ottobre a marzo · gratis
+maps: Kyu-Yasuda Garden Ryogoku Tokyo
+sito: https://www.japan-guide.com/e/e3022.html
+foto: Kyū-Yasuda Garden
+
+### edo-noren
+nome: Ryōgoku Edo Noren (ring del sumo e ristoranti)
+tipo: 🍱 Ristoranti
+città: tokyo
+giorno: 10/11
+nota: Ristoranti 11–22 · copia del ring del sumo · gratis
+maps: Ryogoku Edo Noren Tokyo
+sito: https://www.timeout.com/tokyo/shopping/ryogoku-edo-noren
+foto: Ryōgoku Kokugikan
+
+### tomoegata
+nome: Tomoegata (chanko-nabe)
+tipo: 🍲 Ristorante
+città: tokyo
+giorno: 10/11
+nota: Pranzo 12:15 · Ryōgoku 2-17-6 · pranzo 11:30–14, chiuso il lunedì · ~¥2.000–4.000 · tel. +81 3 3632 5600
+maps: ちゃんこ巴潟 両国2-17-6
+tabelog: https://tabelog.com/en/tokyo/A1312/A131201/13002987/
+foto: Chankonabe
 
 ### shibuya-crossing
 nome: Incrocio di Shibuya
