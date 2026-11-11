@@ -110,6 +110,7 @@ Riorganizzazione per la pioggia (9/11, richiesta di Federico): rientro da Kawagu
 Mattina del 10/11 (10/11, richiesta di Federico): libera dalle 10:30 alle 13:30, poi col gruppo; valigie al Saibo alle 18:30. Scelta Ryōgoku (quartiere del sumo): museo delle katane, giardino Kyū-Yasuda, Edo Noren e pranzo chanko-nabe da Tomoegata. Scartati: Asakusa e Akihabara (già fatti il 6/11), Jimbocho (curry, non piace a Federico), Ueno/Ameyoko + Kappabashi (alternativa), Ikebukuro (fuori raggio). Chanko Kirishima di Edo Noren chiuso il martedì; pranzo feriale di Tomoegata da confermare (Time Out sì, Gurunavi solo weekend).
 
 Nara (11/11 mattina, richiesta di Federico, partiti un'ora dopo il previsto): 11/11 Fushimi Inari 8:25–9:55 fino a Yotsutsuji (più tempo su richiesta), Nara 10:55–13:50 (Nakatanidō, parco dei cervi, Tōdai-ji, Nigatsu-dō, pranzo al volo verso la stazione: Za Gin tolto su richiesta), rientro Kintetsu + Keihan per Sanjūsangen-dō alle 14:55. Verificato l'11/11: Tambabashi è a SUD di Fushimi-Inari (2 fermate del Keihan), passerella coperta tra Keihan e Kintetsu, Kintetsu express ~40′ senza supplemento, taxi al Kiyomizu-dera per il tramonto, poi Sannenzaka, pagoda, Kōdai-ji illuminato, Gion e Onikai invariato. Tolti Vermillion e SANSHIKI; santuario Kasuga solo «anticipo». Nintendo KYOTO spostato al 12/11.
+Pomeriggio 11/11 (15:30, ancora alla stazione di Kyoto dopo pranzo; richiesta di Federico: togliere il superfluo): tolti Sanjūsangen-dō (non entrava col tramonto) e i bar di Kiyamachi. Taxi dalla stazione al Kiyomizu-dera alle 15:35, resto invariato, Pontochō e hotel alle 21:20.
 12/11: tolti Keage Incline (bello per i ciliegi, non a novembre) e Samurai & Ninja Museum (su richiesta, non era prenotato): dopo Ginkaku-ji taxi al mercato Nishiki (16:35), Nintendo KYOTO (17:25), gallerie Teramachi/Shinkyōgoku, Kotetsu alle 19 invariato.
 
 Pasti senza doppioni (30/10, richiesta di Federico): mai due pasti dello stesso tipo nello stesso giorno. 6/11 cena: sushi in piedi da Uogashi Nihonichi (stazione di Akihabara) al posto del ramen Kyushu Jangara. 13/11 pranzo: ramen di Takayama da Masago Soba al posto di Kotte Ushi (manzo + bistecca la sera); Kotte Ushi resta alternativa.
@@ -636,27 +637,21 @@ con: voi due
   breve: Kintetsu + Keihan · ~55′ col cambio · a Shichijō verso le 14:45
   come: treno Kintetsu Kyūkō per Kyoto (se parte solo per Yamato-Saidaiji, cambio lì) fino a Kintetsu-Tambabashi (~40′), passerella coperta fino alla Keihan, treno verso NORD (direzione Demachiyanagi) fino a Shichijō (~8′), poi 8′ a piedi verso est. Niente Tokkyū Kintetsu (supplemento)
   costo: ~¥900 a testa con la Suica
-- 14:55 vedere Sanjūsangen-dō (tempio delle 1.001 statue) | posto: sanjusangendo
-  breve: 1.001 statue dorate in una sala di legno di 120 m · ~40′
-  La sala di legno più lunga del Giappone (120 m) con 1.001 statue dorate di Kannon (la dea buddista della misericordia) in file da dieci, e davanti 28 divinità guardiane a grandezza naturale. Uno dei «wow» di Kyoto.
-  costo: ¥600
-  orari: 8:30–17:00 (fino al 15/11), ultimo ingresso 16:30
-  attenzione: dentro niente foto e si entra senza scarpe
-- 15:40 sposta Kiyomizu-dera | via taxi: #sanjusangendo > #kiyomizu-dera (Sanjūsangen-dō → Kiyomizu-dera)
-  breve: taxi ~10′ (~¥1.200) fino al parcheggio sotto il tempio
-  come: taxi dalla strada davanti al tempio (Shichijō-dōri); a piedi sarebbero 30′ in salita
-- 15:55 vedere Kiyomizu-dera (tempio) | posto: kiyomizu-dera
-  breve: tempio di legno su palafitte · tramonto dalla terrazza alle 16:55
-  La terrazza di legno sospesa sulla collina guarda tutta la città: al tramonto è il momento migliore.
+- 15:35 sposta Kiyomizu-dera | via taxi: Kyoto Station Hachijo Exit > #kiyomizu-dera (Stazione di Kyoto → Kiyomizu-dera)
+  breve: taxi ~15′ (~¥1.500) fino al parcheggio sotto il tempio
+  come: taxi dalla fila davanti alla stazione (uscita Hachijō, lato sud, o piazza della Kyoto Tower, lato nord); poi 10′ a piedi in salita per Kiyomizu-zaka
+- 16:00 vedere Kiyomizu-dera (tempio) | posto: kiyomizu-dera
+  breve: tempio di legno su palafitte · tramonto dalla terrazza verso le 16:50 · senza fretta
+  La terrazza di legno sospesa sulla collina guarda tutta la città: al tramonto è il momento migliore. Dopo la sala principale, giù fino alla cascata Otowa (tre fili d'acqua) e al punto di vista sulla terrazza dalla pagoda di fronte.
   costo: ¥500
   orari: 6:00–18:00 (illuminazione serale solo dal 21/11)
-- 17:00 vedere Sannenzaka e Ninenzaka (vicoli antichi) | posto: sannenzaka
+- 17:05 vedere Sannenzaka e Ninenzaka (vicoli antichi) | posto: sannenzaka
   breve: vicoli antichi in discesa · lanterne accese
   Vicoli con case di legno e negozietti: si entrano dall'alto, sotto il Kiyomizu-dera, e si fanno in discesa. Alcuni negozi chiudono verso le 17–18.
-- 17:30 vedere Pagoda di Yasaka | posto: pagoda-yasaka | via piedi: Ninenzaka, Kyoto > #pagoda-yasaka (Ninenzaka → pagoda di Yasaka)
+- 17:35 vedere Pagoda di Yasaka | posto: pagoda-yasaka | via piedi: Ninenzaka, Kyoto > #pagoda-yasaka (Ninenzaka → pagoda di Yasaka)
   breve: la pagoda illuminata · 10′
   La foto classica di Kyoto, dalla salita di Yasaka-dōri.
-- 17:40 vedere Kōdai-ji illuminato (tempio zen) | posto: kodai-ji | via piedi: #pagoda-yasaka > #kodai-ji (Pagoda → Kōdai-ji)
+- 17:45 vedere Kōdai-ji illuminato (tempio zen) | posto: kodai-ji | via piedi: #pagoda-yasaka > #kodai-ji (Pagoda → Kōdai-ji)
   breve: giardino, bambù e proiezioni di luce · ¥800 · 45′
   Tempio zen fondato dalla vedova di Toyotomi Hideyoshi (il condottiero che unificò il Giappone). In autunno di sera si illuminano il giardino di sabbia, lo stagno con la sala di legno riflessa nell'acqua e il boschetto di bambù; sul giardino di sabbia proiettano giochi di luce.
   come: su per Nene-no-michi (la stradina lastricata dietro la pagoda), 400 m
@@ -675,21 +670,18 @@ con: voi due
   prenotazione: ore 19:30 per 2, solo online su Tabelog (il telefono non risponde)
   veloce: [[ichiran-kawaramachi]] (ramen, fino alle 22) o [[matsuya-kawaramachi]] (gyudon, 24 h), entrambi a 3′
 - 21:00 vedere Pontochō (vicolo sul fiume) | posto: pontocho | via piedi: #onikai > #pontocho (Onikai → Pontochō)
-  breve: il vicolo delle lanterne · a 3′
-  Il vicolo stretto dei ristoranti affacciati sul fiume Kamo, illuminato dalle lanterne.
-- 21:20 fare Bar lungo il canale (Kiyamachi-dōri) | posto: kiyamachi
-  breve: bar e osterie lungo il canale
-  Bar in piedi e birra artigianale, fino a mezzanotte.
-- 23:00 sposta Hotel | via mezzi: #kiyamachi > @apa-kyoto (Kiyamachi → hotel)
+  breve: il vicolo delle lanterne · a 3′ · 15′ a passo lento
+  Il vicolo stretto dei ristoranti affacciati sul fiume Kamo, illuminato dalle lanterne. Si percorre fino in fondo e si esce su Sanjō.
+- 21:20 sposta Hotel | via mezzi: #pontocho > @apa-kyoto (Pontochō → hotel)
   breve: taxi 12′ o metro
-  come: taxi 12′ (~¥1.500), oppure 12′ a piedi fino a Shijō, metro Karasuma fino a Kyoto (4′), 7′ a piedi
+  come: taxi 12′ (~¥1.500), oppure metro Tōzai da Sanjō-Keihan/Kyoto-Shiyakusho-mae a Karasuma-Oike, linea Karasuma fino a Kyoto, 7′ a piedi
 
 #### Guida
-senso: Kyoto e Nara in un giorno: santuario dei portali rossi, i cervi liberi e il Grande Buddha di Nara, la sala delle 1.001 statue dorate, il tempio su palafitte al tramonto, vicoli antichi e tempio zen illuminati, quartiere delle geisha tra le lanterne e serata nei bar lungo il canale.
+senso: Kyoto e Nara in un giorno: santuario dei portali rossi, i cervi liberi e il Grande Buddha di Nara, il tempio su palafitte al tramonto, vicoli antichi e tempio zen illuminati, quartiere delle geisha tra le lanterne e Pontochō dopo cena.
 mangiare:
   • Colazione: konbini (minimarket) prima di uscire
   • Spuntino: mochi caldi da Nakatanidō a Nara (~¥200, contanti)
-  • Pranzo: al volo verso la stazione di Nara (street food, konbini o in treno)
+  • Pranzo: fatto alla stazione di Kyoto
   • Cena: Onikai, izakaya (osteria, piattini da condividere) di cucina di Kyoto a 3′ da Pontochō (Tabelog 3,60), alle 19:30
 prenotare:
   • Onikai ore 19:30 per 2 (online su Tabelog)
@@ -698,20 +690,20 @@ prenotare:
 attenzione:
   • Alle 9:55 dovete lasciare Fushimi Inari, alle 13:50 il treno da Nara: sono i due orari che tengono in piedi la giornata
   • Al Tōdai-ji si paga solo in contanti
-  • Al Sanjūsangen-dō niente foto dentro e si entra senza scarpe; ultimo ingresso 16:30
+  • Kiyomizu-dera chiude alle 18: dopo il tramonto si scende con calma
   • A Gion non si fotografano le geisha da vicino e non si entra nei vicoli privati (multe)
 anticipo: • Santuario Kasuga (lanterne di pietra nel bosco), 20′ a piedi dal Tōdai-ji
 stanchi:
   • A Fushimi Inari girate allo stagno Shin-ike invece che a Yotsutsuji
   • Saltate il Nigatsu-dō: dal Tōdai-ji dritti verso la stazione
-  • Saltate il Sanjūsangen-dō: da Nara treno Kintetsu fino a Kyoto e taxi al Kiyomizu-dera
-  • Saltate Pontochō e Kiyamachi: cena e a letto. Non tagliate Kiyomizu
-contanti: ¥5.500–11.000 a testa
+  • Saltate il Kōdai-ji: dalla pagoda dritti a Gion
+  • Saltate Pontochō: da Onikai taxi all'hotel. Non tagliate Kiyomizu
+contanti: ¥5.000–9.500 a testa
   • Nara: Tōdai-ji ¥800 (solo contanti), mochi e crackers per i cervi
-  • Templi: Sanjūsangen-dō ¥600, Kiyomizu-dera ¥500 e Kōdai-ji illuminato ¥800
+  • Templi: Kiyomizu-dera ¥500 e Kōdai-ji illuminato ¥800
   • Metà taxi fino al Kiyomizu-dera (~¥600 a testa)
-  • Snack nei vicoli di Sannenzaka e un drink nei bar di Kiyamachi
-camminata: ~17 km (Fushimi fino a Yotsutsuji, parco di Nara, Gion a passo lento) · treni ~2 h · pause: pranzo al volo, cena 1 h 15
+  • Snack nei vicoli di Sannenzaka
+camminata: ~15 km (Fushimi fino a Yotsutsuji, parco di Nara, Gion a passo lento) · treni ~2 h · pause: pranzo al volo, cena 1 h 15
 ### 2026-11-12
 percorso: kyoto
 dorme: apa-kyoto
