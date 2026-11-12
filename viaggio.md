@@ -114,6 +114,7 @@ Pomeriggio 11/11 (15:30, ancora alla stazione di Kyoto dopo pranzo; richiesta di
 12/11: tolti Keage Incline (bello per i ciliegi, non a novembre) e Samurai & Ninja Museum (su richiesta, non era prenotato): dopo Ginkaku-ji taxi al mercato Nishiki (16:35), Nintendo KYOTO (17:25), gallerie Teramachi/Shinkyōgoku, Kotetsu alle 19 invariato.
 12/11, sveglia alle 7:00 (richiesta di Federico la sera dell'11/11: tutto mezz'ora dopo): uscita 7:45 invece di 7:10. Il ritardo non è stato trascinato fino a sera (Nishiki alle 17:10 sarebbe stato mezzo chiuso): recuperato con ~5′ in meno a tappa, dal taxi del Ginkaku-ji (16:10) in poi tutto invariato. Bambù 8:25, Tenryū-ji 9:00, tram 9:45, Ryōan-ji 10:25, Kinkaku-ji 11:20, taxi 12:05, Okakita 12:35, Nanzen-ji 13:50, Sentiero 14:35, Ginkaku-ji 15:25. Verificato l'11/11: porta nord del Tenryū-ji aperta dalle 8:30; Okakita 11–18 ultimo ordine (non 19), chiuso mar e mer, non prenotabile; Nishiki quasi tutto chiuso tra le 17 e le 18; Nintendo KYOTO 10–20, numeri d'ingresso solo nei giorni affollati (weekend e festivi). Eikan-dō tolto dall'«anticipo» (non c'è più margine). La prenotazione di Kotetsu non risulta ancora fatta.
 12/11 alle 9:00 scesi ad Arashiyama (35′ di ritardo): bambù 9:10 (20′, senza giro in fondo), Tenryū-ji 9:30 (35′), tram 10:10, Ryōan-ji 10:40, Kinkaku-ji 11:30, taxi 12:10; Okakita 12:35 e il resto invariati. Se si perde il tram delle 10:15: taxi diretto al Kinkaku-ji, Ryōan-ji saltato.
+Poi (9:01) Federico ha chiesto di spostare semplicemente tutto di 30′ rispetto al piano della notte: bambù 8:55 … Okakita 13:05, Ginkaku-ji 15:55, Nishiki 17:05 (in chiusura), Nintendo 17:55, Kotetsu 19:30, stazione 21:05, lavanderia 21:30.
 
 Pasti senza doppioni (30/10, richiesta di Federico): mai due pasti dello stesso tipo nello stesso giorno. 6/11 cena: sushi in piedi da Uogashi Nihonichi (stazione di Akihabara) al posto del ramen Kyushu Jangara. 13/11 pranzo: ramen di Takayama da Masago Soba al posto di Kotte Ushi (manzo + bistecca la sera); Kotte Ushi resta alternativa.
 Ristoranti e orari dei pasti (30/10, richiesta di Federico): tutti verificati su Tabelog (3,45+), prezzi fattibili tranne sushi omakase ≤€60 e Kobe ≤€70; pranzo verso le 13 e cena 19–20, ~1 h ciascuno, senza forzare il percorso. 6/11 Kizuna Sushi (3,48) al posto di Uogashi (3,25); 11/11 Kiyomizu-dera prima e SANSHIKI alle 12:45 scendendo; 12/11 Okakita (3,69) al posto di Daigin (3,34) con giro al contrario Keage → Nanzen-ji → Sentiero → Ginkaku-ji; 13/11 Taruhei (3,62) al posto di Kitchen Hida (troppo cara), onsen prima di cena; 14/11 Neighbird (3,60) al posto di Kyōya (3,33); 15/11 Kobe alle 19 col corso da ~¥11.000; 16/11 pranzo alle 13:30 e cena sullo Shinkansen. Hisago (oyakodon a Gion) risulta chiuso su Tabelog. Il 6/11 il pranzo resta alle 14:10 per l'atterraggio. 17/11: a Tsukiji solo assaggi cotti, il crudo è la cena da Sushi Tokyo Ten.
@@ -710,98 +711,97 @@ camminata: ~15 km (Fushimi fino a Yotsutsuji, parco di Nara, Gion a passo lento)
 percorso: kyoto
 dorme: apa-kyoto
 con: voi due
-- 07:45 sposta Bosco di bambù | via mezzi: @apa-kyoto > #bambu-arashiyama (Hotel → bosco di bambù)
-  breve: treno 15′ + a piedi 10′ · sveglia alle 7:00
+- 08:15 sposta Bosco di bambù | via mezzi: @apa-kyoto > #bambu-arashiyama (Hotel → bosco di bambù)
+  breve: treno 15′ + a piedi 10′
   come: a piedi alla stazione di Kyoto (7′), treno JR Sagano line (binari 31–33, in fondo alla stazione verso ovest; passa ogni 10′ circa) fino a Saga-Arashiyama (15′), 10′ a piedi
-- 09:10 vedere Bosco di bambù di Arashiyama | posto: bambu-arashiyama
-  breve: sentiero tra i bambù altissimi · 20′
+- 08:55 vedere Bosco di bambù di Arashiyama | posto: bambu-arashiyama
+  breve: sentiero tra i bambù altissimi · 30′
   Arashiyama è il quartiere verde a ovest di Kyoto. Il sentiero è lungo ~400 m, gratis e sempre aperto.
-  attenzione: oggi siete in ritardo: niente giro fino in fondo, dritti alla porta nord del Tenryū-ji
-- 09:28 sposta Tenryū-ji | via piedi: #bambu-arashiyama > #tenryu-ji (Bambù → Tenryū-ji)
+  attenzione: a quest'ora c'è già gente: più tranquillo in fondo, verso la villa Ōkōchi-Sansō
+- 09:25 sposta Tenryū-ji | via piedi: #bambu-arashiyama > #tenryu-ji (Bambù → Tenryū-ji)
   breve: a piedi 3′ · porta nord, in cima al bosco
 - 09:30 vedere Tenryū-ji (giardino zen) | posto: tenryu-ji
-  breve: giardino col laghetto e le colline dietro · ~35′
+  breve: giardino col laghetto e le colline dietro · ~45′
   Tempio zen patrimonio UNESCO: il giardino Sōgen-chi, un laghetto del Trecento con le colline di Arashiyama come sfondo, è tra i più belli di Kyoto. Si entra dalla porta nord, in cima al bosco di bambù, e si esce dal portone principale sulla via di Arashiyama.
-  Uscendo, il ponte Togetsukyō (il ponte sul fiume con la montagna dietro, la foto classica di Arashiyama) è a 5′: deviazione di 10′ prima del tram, oggi no: il tram va preso entro le 10:15.
+  Uscendo, il ponte Togetsukyō (il ponte sul fiume con la montagna dietro, la foto classica di Arashiyama) è a 5′: deviazione di 10′ prima del tram, solo se siete in anticipo (il tram va preso entro le 10:15).
   costo: giardino ¥500 (le sale interne sono +¥300, non servono)
   orari: 8:30–17:00 (anche la porta nord)
-- 10:10 sposta Ryōan-ji | via mezzi: Arashiyama Station Randen, Kyoto > #ryoan-ji (Tenryū-ji → Ryōan-ji)
+- 10:15 sposta Ryōan-ji | via mezzi: Arashiyama Station Randen, Kyoto > #ryoan-ji (Tenryū-ji → Ryōan-ji)
   breve: tram storico ~30′ · ¥250
   come: la stazione del Randen (il tram storico di Kyoto) di Arashiyama è davanti al portone del tempio: cambio a Katabiranotsuji, fino a Ryōanji (~20′), 7′ a piedi. Si sale dietro e si paga scendendo, davanti (Suica o contanti)
-  alternativa: se alle 10:15 non siete sul tram, saltate il Ryōan-ji: taxi da Arashiyama al Kinkaku-ji (~20′, ~¥3.000)
-- 10:40 vedere Ryōan-ji (tempio del giardino zen) | posto: ryoan-ji
-  breve: il giardino zen delle 15 rocce · ~30′
+- 10:55 vedere Ryōan-ji (tempio del giardino zen) | posto: ryoan-ji
+  breve: il giardino zen delle 15 rocce · ~35′
   costo: ¥600
   orari: 8:00–17:00
-- 11:10 sposta Kinkaku-ji | via piedi: #ryoan-ji > #kinkaku-ji (Ryōan-ji → Kinkaku-ji)
+- 11:30 sposta Kinkaku-ji | via piedi: #ryoan-ji > #kinkaku-ji (Ryōan-ji → Kinkaku-ji)
   breve: a piedi 20′ · 1,5 km
-- 11:30 vedere Kinkaku-ji (Padiglione d'Oro) | posto: kinkaku-ji
-  breve: tempio d'oro sul laghetto · 40′
+- 11:50 vedere Kinkaku-ji (Padiglione d'Oro) | posto: kinkaku-ji
+  breve: tempio d'oro sul laghetto · 45′
   Tempio ricoperto di foglia d'oro su un laghetto. Il percorso è a senso unico: non si torna indietro.
   costo: ¥500
   orari: 9:00–17:00
-- 12:10 sposta Okakita | via taxi: #kinkaku-ji > #okakita (Kinkaku-ji → Okakita)
+- 12:35 sposta Okakita | via taxi: #kinkaku-ji > #okakita (Kinkaku-ji → Okakita)
   breve: taxi ~25′ (~¥3.500)
   come: i taxi aspettano all'uscita del Kinkaku-ji. Oggi niente bus (~45′): farebbe saltare il pomeriggio
   costo: taxi ~¥3.500 (8 km)
-- 12:35 cibo Okakita (udon e soba) | posto: okakita
+- 13:05 cibo Okakita (udon e soba) | posto: okakita
   breve: pranzo · udon di Kyoto, tra i più amati della città · ~1 h
   Udon e soba (spaghetti di grano saraceno) in brodo dashi delicato, alla maniera di Kyoto; famosi anche il kashiwa-nanban (udon col pollo) e l'oyakodon (riso con pollo e uovo). Tabelog 3,69 su 1.674 recensioni. Vicino al santuario Heian.
   costo: ~¥1.000–2.000 a testa
   orari: 11–18 (ultimo ordine) · chiuso martedì e mercoledì · non si prenota
-  attenzione: arrivate in pieno orario di pranzo e c'è spesso coda (scorre veloce). Se davanti avete più di 20′ di fila, andate da Tairiki Tei: alle 13:35 si deve ripartire
+  attenzione: arrivate in pieno orario di pranzo e c'è spesso coda (scorre veloce). Se davanti avete più di 20′ di fila, andate da Tairiki Tei: alle 14:05 si deve ripartire
   alternativa: [[tairiki-tei]] (udon a ~10′ a piedi, sulla strada per Nanzen-ji, Tabelog 3,44)
   veloce: konbini lungo Jingū-michi, la via del grande torii del santuario Heian
-- 13:35 sposta Nanzen-ji | via piedi: #okakita > #nanzen-ji (Okakita → Nanzen-ji)
+- 14:05 sposta Nanzen-ji | via piedi: #okakita > #nanzen-ji (Okakita → Nanzen-ji)
   breve: a piedi 15′ · 1,2 km
-- 13:50 vedere Nanzen-ji (tempio zen) | posto: nanzen-ji
+- 14:20 vedere Nanzen-ji (tempio zen) | posto: nanzen-ji
   breve: grande tempio zen con acquedotto dell'800 · ~45′
   Il portone Sanmon (enorme, di legno) e l'acquedotto di mattoni si vedono gratis; si paga solo per salire sul Sanmon o entrare nelle sale (non servono).
   orari: ultimo ingresso 16:40
-- 14:35 vedere Sentiero del Filosofo | posto: sentiero-filosofo | via piedi: #nanzen-ji > #ginkaku-ji (Nanzen-ji → Ginkaku-ji)
+- 15:05 vedere Sentiero del Filosofo | posto: sentiero-filosofo | via piedi: #nanzen-ji > #ginkaku-ji (Nanzen-ji → Ginkaku-ji)
   breve: 2 km lungo un canale alberato, verso nord · ~50′ con le soste
   Si passa da [[honen-in]] (tempietto nel bosco, gratis).
   alternativa: [[eikan-do]] (il tempio degli aceri, 5′ dopo Nanzen-ji), ultimo ingresso alle 16: oggi ci sta solo al posto del mercato Nishiki
-- 15:25 vedere Ginkaku-ji (Padiglione d'Argento) | posto: ginkaku-ji
+- 15:55 vedere Ginkaku-ji (Padiglione d'Argento) | posto: ginkaku-ji
   breve: tempio con giardino di sabbia e muschio · 45′
   Giardino di sabbia e muschio, col sentiero sulla collina che guarda la città nella luce del tardo pomeriggio.
   costo: ¥500
   orari: 8:30–17:00, ultimo ingresso 16:45
-- 16:10 sposta Mercato Nishiki | via taxi: #ginkaku-ji > #nishiki (Ginkaku-ji → mercato Nishiki)
+- 16:40 sposta Mercato Nishiki | via taxi: #ginkaku-ji > #nishiki (Ginkaku-ji → mercato Nishiki)
   breve: taxi ~20′ (~¥2.000) o bus 32 ~35′
   come: taxi dalla fermata Ginkakuji-michi, oppure bus 32 fino a Shijō-Kawaramachi e 5′ a piedi
-  attenzione: se uscite dal Ginkaku-ji dopo le 16:30, saltate il mercato (chiude) e andate dritti a Nintendo KYOTO, stesso incrocio
-- 16:35 cibo Mercato Nishiki (la «cucina di Kyoto») | posto: nishiki
+  attenzione: alle 17 il mercato sta già chiudendo: se trovate quasi tutto chiuso, saltatelo e andate dritti a Nintendo KYOTO, stesso incrocio
+- 17:05 cibo Mercato Nishiki (la «cucina di Kyoto») | posto: nishiki
   breve: assaggi tra i banchi del mercato coperto · ~45′
   Via coperta di 400 m con più di 100 banchi: sottaceti di Kyoto, frittata dolce, polpo e spiedini, dolci al tè verde, coltelli. Uno spuntino leggero: la cena è alle 19. In fondo al mercato, verso est, il santuarietto di Nishiki Tenmangū.
   orari: in genere 10–18: dalle 17 molti banchi chiudono, fate prima gli assaggi e poi il giro
   attenzione: non si mangia camminando: si mangia davanti al banco dove si compra
-- 17:25 fare Nintendo KYOTO (negozio ufficiale Nintendo) | posto: nintendo-kyoto | via piedi: #nishiki > #nintendo-kyoto (Nishiki → Nintendo KYOTO)
+- 17:55 fare Nintendo KYOTO (negozio ufficiale Nintendo) | posto: nintendo-kyoto | via piedi: #nishiki > #nintendo-kyoto (Nishiki → Nintendo KYOTO)
   breve: Mario gigante e oggetti che ci sono solo qui · 5′ dal mercato · ~40′
   Il negozio ufficiale di Nintendo nella città dove l'azienda è nata nel 1889, come fabbrica di hanafuda (carte da gioco coi fiori). È al 7° piano dell'ala T8 dei grandi magazzini Takashimaya, all'incrocio Shijō-Kawaramachi: oggetti in vendita solo qui, un Mario gigante al piano terra e un altro sul tetto.
   orari: fino alle 20:00 · nei giorni affollati si entra col numero
-- 18:10 vedere Teramachi e Shinkyōgoku (gallerie dei negozi) | zona: kawaramachi | dove: Shinkyogoku Shopping Street, Kyoto
+- 18:40 vedere Teramachi e Shinkyōgoku (gallerie dei negozi) | zona: kawaramachi | dove: Shinkyogoku Shopping Street, Kyoto
   breve: gallerie coperte con negozi, sale giochi e gashapon · tempo libero fino a cena
   Le due vie coperte parallele del centro: negozi di souvenir, abbigliamento, sale giochi e macchinette dei gashapon (le capsule coi gadget). Da qui a Kotetsu sono ~15′ a piedi verso sud.
-- 19:00 cibo Kotetsu (spiedini fritti) | posto: kotetsu | prenotare | via piedi: Shinkyogoku Shopping Street, Kyoto > #kotetsu (Shinkyōgoku → Kotetsu)
-  breve: cena: kushiage · a piedi 15′ dalle gallerie · prenotare alle 19:00
+- 19:30 cibo Kotetsu (spiedini fritti) | posto: kotetsu | prenotare | via piedi: Shinkyogoku Shopping Street, Kyoto > #kotetsu (Shinkyōgoku → Kotetsu)
+  breve: cena: kushiage · a piedi 15′ dalle gallerie · prenotare alle 19:30
   Kushiage: spiedini di carne, pesce e verdure impanati e fritti al momento, uno alla volta. Tabelog 3,58; le recensioni lo chiamano il locale di kushiage più amato di Kyoto.
   costo: ~¥3.000–4.000 a testa · solo contanti
   orari: 18–24 · chiuso il mercoledì
-  prenotazione: ore 19:00 per 2, solo online su Tabelog (il telefono non risponde)
+  prenotazione: ore 19:30 per 2, solo online su Tabelog (il telefono non risponde)
   alternativa: [[sen-no-kaze]] (ramen in via Shinkyōgoku, 12–21)
   veloce: [[yoichiba]] (takoyaki e spiedini, dalle 17) o [[sukiya-kiyamachi]] (gyudon, 3′ a piedi)
-- 20:15 sposta Stazione di Kyoto | via mezzi: #kotetsu > #kyoto-station-building (Kotetsu → stazione di Kyoto)
+- 20:45 sposta Stazione di Kyoto | via mezzi: #kotetsu > #kyoto-station-building (Kotetsu → stazione di Kyoto)
   breve: metro ~20′
   come: 10′ a piedi a Shijō, metro Karasuma fino a Kyoto (4′), poi dentro la stazione verso ovest
   alternativa: taxi 10′ (~¥1.300)
-- 20:35 vedere Stazione di Kyoto (scalinata coi LED) | posto: kyoto-station-building
+- 21:05 vedere Stazione di Kyoto (scalinata coi LED) | posto: kyoto-station-building
   breve: stazione futuristica: 171 gradini di luci · 15′ · gratis
   L'edificio della stazione (1997) è un'enorme struttura di vetro e acciaio. Sul lato ovest la Grande Scalinata (171 gradini, con le scale mobili a fianco) è coperta da 15.000 LED che formano disegni che cambiano; in cima, al 10° piano, la passerella sospesa a 45 m. È sulla strada per l'hotel.
   orari: scalinata illuminata 15–22, passerella illuminata 17–22 (cambiano col periodo)
-- 20:50 sposta Hotel | via piedi: #kyoto-station-building > @apa-kyoto (Stazione → hotel)
+- 21:20 sposta Hotel | via piedi: #kyoto-station-building > @apa-kyoto (Stazione → hotel)
   breve: a piedi 7′
-- 21:00 hotel Lavatrice e asciugatrice, poi a letto | alloggio: apa-kyoto
+- 21:30 hotel Lavatrice e asciugatrice, poi a letto | alloggio: apa-kyoto
   breve: lavanderia all'11° piano · domani treno alle 8:31
   costo: lavatrice da ¥500 a carico, asciugatrice ¥100 ogni 30′ (ne servono 60–90′): ~¥800 a carico, a monete da ¥100
   Caricate la lavatrice (~40′), intanto bagno pubblico interno, poi tutto in asciugatrice: pronti verso le 23. Se la lavatrice non mette il detersivo da sola, una bustina al konbini (minimarket) sotto l'hotel.
@@ -811,20 +811,20 @@ con: voi due
 #### Guida
 senso: Kyoto natura e zen: bosco di bambù e giardino di Tenryū-ji ad Arashiyama, giardino di rocce, Padiglione d'Oro, Nanzen-ji, Sentiero del Filosofo e Padiglione d'Argento, poi assaggi al mercato Nishiki, il negozio Nintendo di Kyoto, le gallerie coperte del centro e le luci della stazione futuristica. Giornata lunga ma senza salite.
 mangiare:
-  • Colazione: konbini (minimarket) prima di uscire, alle 7:45
-  • Pranzo: Okakita, udon e soba di Kyoto (Tabelog 3,69), alle 12:35: c'è spesso coda, ma scorre; oltre 20′ di fila si va da Tairiki Tei
-  • Cena: Kotetsu, kushiage (spiedini impanati e fritti al momento), Tabelog 3,58, alle 19:00; solo contanti
+  • Colazione: konbini (minimarket) prima di uscire
+  • Pranzo: Okakita, udon e soba di Kyoto (Tabelog 3,69), alle 13:05: c'è spesso coda, ma scorre; oltre 20′ di fila si va da Tairiki Tei
+  • Cena: Kotetsu, kushiage (spiedini impanati e fritti al momento), Tabelog 3,58, alle 19:30; solo contanti
 prenotare:
-  • Kotetsu ore 19:00 per 2 (online su Tabelog)
+  • Kotetsu ore 19:30 per 2 (online su Tabelog)
   • Scarpe comode: ~14 km
 attenzione:
-  • Sveglia alle 7:00, fuori alle 7:45: mezz'ora dopo il piano iniziale, recuperata con 5′ in meno a tappa. Fino alle 16 non c'è margine: niente deviazioni
-  • Orari da tenere: tram da Arashiyama entro le 10:15 (altrimenti taxi al Kinkaku-ji saltando il Ryōan-ji), taxi dal Kinkaku-ji alle 12:10, via da Okakita alle 13:35, taxi dal Ginkaku-ji alle 16:10
+  • Giornata spostata di 30′ (arrivo ad Arashiyama alle 9:00)
+  • Orari da tenere: tram da Arashiyama entro le 10:15, taxi dal Kinkaku-ji alle 12:35, via da Okakita alle 14:05, taxi dal Ginkaku-ji alle 16:40
   • Tenryū-ji: si entra dalla porta nord, in cima al bosco
   • Nanzen-ji: ultimo ingresso 16:40 · Ginkaku-ji: ultimo ingresso 16:45
-  • Mercato Nishiki: dalle 17 molti banchi chiudono. Se siete in ritardo si salta, la cena alle 19:00 non si sposta
+  • Mercato Nishiki: arrivate alle 17:05, quando molti banchi chiudono. Se è quasi tutto chiuso si salta
 anticipo:
-  • Ponte Togetsukyō (la foto classica di Arashiyama), 5′ dal portone di Tenryū-ji: oggi non c'è tempo
+  • Ponte Togetsukyō (la foto classica di Arashiyama), 5′ dal portone di Tenryū-ji: solo se uscite dal giardino prima delle 10:05
 stanchi:
   • Taxi da Nanzen-ji a Ginkaku-ji, saltando il Sentiero (−2,5 km)
   • Saltate il Ryōan-ji: dal tram a piedi o in taxi dritti al Kinkaku-ji (−40′)
@@ -1882,8 +1882,8 @@ priorità: media
 nota: Solo online (il telefono non risponde), serve un account Tabelog gratuito. Aperto tutti i giorni 17–23. Il giro di Gion finisce verso le 18:45 al canale Shirakawa: passando da Nintendo KYOTO (fino alle 20) si arriva alle 19:30.
 
 ### kotetsu
-tappa: 2026-11-12 19:00
-cosa: Kushiage Kotetsu (Kyoto) 12/11 ore 19:00, per 2
+tappa: 2026-11-12 19:30
+cosa: Kushiage Kotetsu (Kyoto) 12/11 ore 19:30, per 2
 tipo: prenotare
 giorno: 2026-11-12
 quando: subito: prenotazioni online già aperte
@@ -2223,7 +2223,7 @@ nome: Mercato Nishiki
 tipo: 🍢 Mercato
 città: kyoto
 giorno: 12/11
-nota: 16:35 · assaggi · in genere 10–18
+nota: 17:05 · assaggi · in genere 10–18
 maps: Nishiki Market Kyoto
 sito: https://kyoto.travel/en/other_attractions/252.html
 foto: Nishiki Market
@@ -2677,7 +2677,7 @@ nome: Bosco di bambù di Arashiyama
 tipo: 🎋 Natura
 città: kyoto
 giorno: 12/11
-nota: 9:10 · 20′
+nota: 8:55
 maps: Arashiyama Bamboo Grove
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1497822-Reviews-Bamboo_Forest_Street-Kyoto_Kyoto_Prefecture_Kinki.html
 foto: Arashiyama
@@ -2687,7 +2687,7 @@ nome: Tenryū-ji
 tipo: ⛩ Tempio
 città: kyoto
 giorno: 12/11
-nota: 9:30 · giardino ¥500 · 8:30–17 · si entra dalla porta nord, sul bosco di bambù
+nota: 9:25 · giardino ¥500 · 8:30–17 · si entra dalla porta nord, sul bosco di bambù
 maps: Tenryuji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1386106-Reviews-Tenryu_ji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.tenryuji.com/en/
@@ -2698,7 +2698,7 @@ nome: Ryōan-ji (giardino zen delle 15 rocce)
 tipo: 🪨 Tempio
 città: kyoto
 giorno: 12/11
-nota: 10:40 · ¥600 · 8–17
+nota: 10:55 · ¥600 · 8–17
 maps: Ryoanji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1386112-Reviews-Ryoan_ji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: http://www.ryoanji.jp/smph/eng/
@@ -2709,7 +2709,7 @@ nome: Kinkaku-ji (Padiglione d'Oro)
 tipo: ⛩ Tempio
 città: kyoto
 giorno: 12/11
-nota: 11:30 · ¥500 · 9–17
+nota: 11:50 · ¥500 · 9–17
 maps: Kinkakuji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321400-Reviews-Kinkakuji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.shokoku-ji.jp/en/kinkakuji/
@@ -2720,7 +2720,7 @@ nome: Ginkaku-ji (Padiglione d'Argento)
 tipo: ⛩ Tempio
 città: kyoto
 giorno: 12/11
-nota: 15:25 · 8:30–17, ultimo ingresso 16:45 · ¥500
+nota: 15:55 · 8:30–17, ultimo ingresso 16:45 · ¥500
 maps: Ginkakuji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321398-Reviews-Ginkakuji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.shokoku-ji.jp/en/ginkakuji/
@@ -2776,7 +2776,7 @@ nome: Stazione di Kyoto (edificio)
 tipo: 🏙 Architettura
 città: kyoto
 giorno: 12/11
-nota: 20:35 · scalinata coi LED 15–22 · gratis
+nota: 21:05 · scalinata coi LED 15–22 · gratis
 maps: 京都駅ビル 大階段
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d5220110-Reviews-Kyoto_Station_Building-Kyoto_Kyoto_Prefecture_Kinki.html
 foto: Kyoto Station
@@ -3337,7 +3337,7 @@ nome: Nintendo KYOTO
 tipo: 🎮 Negozio Nintendo
 città: kyoto
 giorno: 12/11
-nota: 17:25 · 7° piano di Takashimaya T8 · fino alle 20
+nota: 17:55 · 7° piano di Takashimaya T8 · fino alle 20
 maps: Nintendo KYOTO, Kyoto
 sito: https://jw-webmagazine.com/tips/nintendo-kyoto
 foto: Hanafuda
@@ -3347,7 +3347,7 @@ nome: Okakita (udon e soba)
 tipo: 🍜 Ristorante
 città: kyoto
 giorno: 12/11
-nota: Pranzo 12:35 · Okazaki Minami-goshochō 34, vicino al santuario Heian · 11–18 (ultimo ordine), chiuso mar. e mer., non si prenota · ~¥1.000–2.000 · Tabelog 3,69 su 1.674 · coda frequente
+nota: Pranzo 13:05 · Okazaki Minami-goshochō 34, vicino al santuario Heian · 11–18 (ultimo ordine), chiuso mar. e mer., non si prenota · ~¥1.000–2.000 · Tabelog 3,69 su 1.674 · coda frequente
 maps: 岡北 京都市左京区岡崎南御所町34
 tabelog: https://tabelog.com/en/kyoto/A2601/A260302/26000919/
 voto: 3,69
@@ -3369,7 +3369,7 @@ nome: Kushiage Kotetsu
 tipo: 🍢 Ristorante
 città: kyoto
 giorno: 12/11
-nota: Cena 19:00 · 18–24, chiuso mer. · solo contanti · DA PRENOTARE per 2 (online)
+nota: Cena 19:30 · 18–24, chiuso mer. · solo contanti · DA PRENOTARE per 2 (online)
 maps: 串揚げ専門店 コテツ 京都市下京区船頭町232-2
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298564-d7460418-Reviews-Kotetsu-Kyoto_Kyoto_Prefecture_Kinki.html
 tabelog: https://tabelog.com/en/kyoto/A2601/A260201/26020610/
