@@ -113,6 +113,7 @@ Nara (11/11 mattina, richiesta di Federico, partiti un'ora dopo il previsto): 11
 Pomeriggio 11/11 (15:30, ancora alla stazione di Kyoto dopo pranzo; richiesta di Federico: togliere il superfluo): tolti Sanjūsangen-dō (non entrava col tramonto) e i bar di Kiyamachi. Taxi dalla stazione al Kiyomizu-dera alle 15:35, resto invariato, Pontochō e hotel alle 21:20.
 12/11: tolti Keage Incline (bello per i ciliegi, non a novembre) e Samurai & Ninja Museum (su richiesta, non era prenotato): dopo Ginkaku-ji taxi al mercato Nishiki (16:35), Nintendo KYOTO (17:25), gallerie Teramachi/Shinkyōgoku, Kotetsu alle 19 invariato.
 12/11, sveglia alle 7:00 (richiesta di Federico la sera dell'11/11: tutto mezz'ora dopo): uscita 7:45 invece di 7:10. Il ritardo non è stato trascinato fino a sera (Nishiki alle 17:10 sarebbe stato mezzo chiuso): recuperato con ~5′ in meno a tappa, dal taxi del Ginkaku-ji (16:10) in poi tutto invariato. Bambù 8:25, Tenryū-ji 9:00, tram 9:45, Ryōan-ji 10:25, Kinkaku-ji 11:20, taxi 12:05, Okakita 12:35, Nanzen-ji 13:50, Sentiero 14:35, Ginkaku-ji 15:25. Verificato l'11/11: porta nord del Tenryū-ji aperta dalle 8:30; Okakita 11–18 ultimo ordine (non 19), chiuso mar e mer, non prenotabile; Nishiki quasi tutto chiuso tra le 17 e le 18; Nintendo KYOTO 10–20, numeri d'ingresso solo nei giorni affollati (weekend e festivi). Eikan-dō tolto dall'«anticipo» (non c'è più margine). La prenotazione di Kotetsu non risulta ancora fatta.
+12/11 alle 9:00 scesi ad Arashiyama (35′ di ritardo): bambù 9:10 (20′, senza giro in fondo), Tenryū-ji 9:30 (35′), tram 10:10, Ryōan-ji 10:40, Kinkaku-ji 11:30, taxi 12:10; Okakita 12:35 e il resto invariati. Se si perde il tram delle 10:15: taxi diretto al Kinkaku-ji, Ryōan-ji saltato.
 
 Pasti senza doppioni (30/10, richiesta di Federico): mai due pasti dello stesso tipo nello stesso giorno. 6/11 cena: sushi in piedi da Uogashi Nihonichi (stazione di Akihabara) al posto del ramen Kyushu Jangara. 13/11 pranzo: ramen di Takayama da Masago Soba al posto di Kotte Ushi (manzo + bistecca la sera); Kotte Ushi resta alternativa.
 Ristoranti e orari dei pasti (30/10, richiesta di Federico): tutti verificati su Tabelog (3,45+), prezzi fattibili tranne sushi omakase ≤€60 e Kobe ≤€70; pranzo verso le 13 e cena 19–20, ~1 h ciascuno, senza forzare il percorso. 6/11 Kizuna Sushi (3,48) al posto di Uogashi (3,25); 11/11 Kiyomizu-dera prima e SANSHIKI alle 12:45 scendendo; 12/11 Okakita (3,69) al posto di Daigin (3,34) con giro al contrario Keage → Nanzen-ji → Sentiero → Ginkaku-ji; 13/11 Taruhei (3,62) al posto di Kitchen Hida (troppo cara), onsen prima di cena; 14/11 Neighbird (3,60) al posto di Kyōya (3,33); 15/11 Kobe alle 19 col corso da ~¥11.000; 16/11 pranzo alle 13:30 e cena sullo Shinkansen. Hisago (oyakodon a Gion) risulta chiuso su Tabelog. Il 6/11 il pranzo resta alle 14:10 per l'atterraggio. 17/11: a Tsukiji solo assaggi cotti, il crudo è la cena da Sushi Tokyo Ten.
@@ -712,33 +713,34 @@ con: voi due
 - 07:45 sposta Bosco di bambù | via mezzi: @apa-kyoto > #bambu-arashiyama (Hotel → bosco di bambù)
   breve: treno 15′ + a piedi 10′ · sveglia alle 7:00
   come: a piedi alla stazione di Kyoto (7′), treno JR Sagano line (binari 31–33, in fondo alla stazione verso ovest; passa ogni 10′ circa) fino a Saga-Arashiyama (15′), 10′ a piedi
-- 08:25 vedere Bosco di bambù di Arashiyama | posto: bambu-arashiyama
-  breve: sentiero tra i bambù altissimi · 30′
+- 09:10 vedere Bosco di bambù di Arashiyama | posto: bambu-arashiyama
+  breve: sentiero tra i bambù altissimi · 20′
   Arashiyama è il quartiere verde a ovest di Kyoto. Il sentiero è lungo ~400 m, gratis e sempre aperto.
-  attenzione: dalle 8:30 arriva gente: andate subito fino in fondo, verso la villa Ōkōchi-Sansō, dove ce n'è meno, e tornate indietro fino alla porta nord del Tenryū-ji
-- 08:55 sposta Tenryū-ji | via piedi: #bambu-arashiyama > #tenryu-ji (Bambù → Tenryū-ji)
+  attenzione: oggi siete in ritardo: niente giro fino in fondo, dritti alla porta nord del Tenryū-ji
+- 09:28 sposta Tenryū-ji | via piedi: #bambu-arashiyama > #tenryu-ji (Bambù → Tenryū-ji)
   breve: a piedi 3′ · porta nord, in cima al bosco
-- 09:00 vedere Tenryū-ji (giardino zen) | posto: tenryu-ji
-  breve: giardino col laghetto e le colline dietro · ~45′
+- 09:30 vedere Tenryū-ji (giardino zen) | posto: tenryu-ji
+  breve: giardino col laghetto e le colline dietro · ~35′
   Tempio zen patrimonio UNESCO: il giardino Sōgen-chi, un laghetto del Trecento con le colline di Arashiyama come sfondo, è tra i più belli di Kyoto. Si entra dalla porta nord, in cima al bosco di bambù, e si esce dal portone principale sulla via di Arashiyama.
-  Uscendo, il ponte Togetsukyō (il ponte sul fiume con la montagna dietro, la foto classica di Arashiyama) è a 5′: deviazione di 10′ prima del tram, solo se siete in anticipo (il tram va preso entro le 9:45).
+  Uscendo, il ponte Togetsukyō (il ponte sul fiume con la montagna dietro, la foto classica di Arashiyama) è a 5′: deviazione di 10′ prima del tram, oggi no: il tram va preso entro le 10:15.
   costo: giardino ¥500 (le sale interne sono +¥300, non servono)
   orari: 8:30–17:00 (anche la porta nord)
-- 09:45 sposta Ryōan-ji | via mezzi: Arashiyama Station Randen, Kyoto > #ryoan-ji (Tenryū-ji → Ryōan-ji)
+- 10:10 sposta Ryōan-ji | via mezzi: Arashiyama Station Randen, Kyoto > #ryoan-ji (Tenryū-ji → Ryōan-ji)
   breve: tram storico ~30′ · ¥250
   come: la stazione del Randen (il tram storico di Kyoto) di Arashiyama è davanti al portone del tempio: cambio a Katabiranotsuji, fino a Ryōanji (~20′), 7′ a piedi. Si sale dietro e si paga scendendo, davanti (Suica o contanti)
-- 10:25 vedere Ryōan-ji (tempio del giardino zen) | posto: ryoan-ji
-  breve: il giardino zen delle 15 rocce · ~35′
+  alternativa: se alle 10:15 non siete sul tram, saltate il Ryōan-ji: taxi da Arashiyama al Kinkaku-ji (~20′, ~¥3.000)
+- 10:40 vedere Ryōan-ji (tempio del giardino zen) | posto: ryoan-ji
+  breve: il giardino zen delle 15 rocce · ~30′
   costo: ¥600
   orari: 8:00–17:00
-- 11:00 sposta Kinkaku-ji | via piedi: #ryoan-ji > #kinkaku-ji (Ryōan-ji → Kinkaku-ji)
+- 11:10 sposta Kinkaku-ji | via piedi: #ryoan-ji > #kinkaku-ji (Ryōan-ji → Kinkaku-ji)
   breve: a piedi 20′ · 1,5 km
-- 11:20 vedere Kinkaku-ji (Padiglione d'Oro) | posto: kinkaku-ji
-  breve: tempio d'oro sul laghetto · 45′
+- 11:30 vedere Kinkaku-ji (Padiglione d'Oro) | posto: kinkaku-ji
+  breve: tempio d'oro sul laghetto · 40′
   Tempio ricoperto di foglia d'oro su un laghetto. Il percorso è a senso unico: non si torna indietro.
   costo: ¥500
   orari: 9:00–17:00
-- 12:05 sposta Okakita | via taxi: #kinkaku-ji > #okakita (Kinkaku-ji → Okakita)
+- 12:10 sposta Okakita | via taxi: #kinkaku-ji > #okakita (Kinkaku-ji → Okakita)
   breve: taxi ~25′ (~¥3.500)
   come: i taxi aspettano all'uscita del Kinkaku-ji. Oggi niente bus (~45′): farebbe saltare il pomeriggio
   costo: taxi ~¥3.500 (8 km)
@@ -817,13 +819,12 @@ prenotare:
   • Scarpe comode: ~14 km
 attenzione:
   • Sveglia alle 7:00, fuori alle 7:45: mezz'ora dopo il piano iniziale, recuperata con 5′ in meno a tappa. Fino alle 16 non c'è margine: niente deviazioni
-  • Orari da tenere: tram da Arashiyama entro le 9:45, taxi dal Kinkaku-ji alle 12:05, via da Okakita alle 13:35, taxi dal Ginkaku-ji alle 16:10
-  • Al bosco di bambù alle 8:25 c'è già gente: più tranquillo in fondo
+  • Orari da tenere: tram da Arashiyama entro le 10:15 (altrimenti taxi al Kinkaku-ji saltando il Ryōan-ji), taxi dal Kinkaku-ji alle 12:10, via da Okakita alle 13:35, taxi dal Ginkaku-ji alle 16:10
   • Tenryū-ji: si entra dalla porta nord, in cima al bosco
   • Nanzen-ji: ultimo ingresso 16:40 · Ginkaku-ji: ultimo ingresso 16:45
   • Mercato Nishiki: dalle 17 molti banchi chiudono. Se siete in ritardo si salta, la cena alle 19:00 non si sposta
 anticipo:
-  • Ponte Togetsukyō (la foto classica di Arashiyama), 5′ dal portone di Tenryū-ji: solo se uscite dal giardino prima delle 9:35
+  • Ponte Togetsukyō (la foto classica di Arashiyama), 5′ dal portone di Tenryū-ji: oggi non c'è tempo
 stanchi:
   • Taxi da Nanzen-ji a Ginkaku-ji, saltando il Sentiero (−2,5 km)
   • Saltate il Ryōan-ji: dal tram a piedi o in taxi dritti al Kinkaku-ji (−40′)
@@ -2676,7 +2677,7 @@ nome: Bosco di bambù di Arashiyama
 tipo: 🎋 Natura
 città: kyoto
 giorno: 12/11
-nota: 8:25 · meno gente in fondo, verso la villa Ōkōchi-Sansō
+nota: 9:10 · 20′
 maps: Arashiyama Bamboo Grove
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1497822-Reviews-Bamboo_Forest_Street-Kyoto_Kyoto_Prefecture_Kinki.html
 foto: Arashiyama
@@ -2686,7 +2687,7 @@ nome: Tenryū-ji
 tipo: ⛩ Tempio
 città: kyoto
 giorno: 12/11
-nota: 9:00 · giardino ¥500 · 8:30–17 · si entra dalla porta nord, sul bosco di bambù
+nota: 9:30 · giardino ¥500 · 8:30–17 · si entra dalla porta nord, sul bosco di bambù
 maps: Tenryuji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1386106-Reviews-Tenryu_ji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.tenryuji.com/en/
@@ -2697,7 +2698,7 @@ nome: Ryōan-ji (giardino zen delle 15 rocce)
 tipo: 🪨 Tempio
 città: kyoto
 giorno: 12/11
-nota: 10:25 · ¥600 · 8–17
+nota: 10:40 · ¥600 · 8–17
 maps: Ryoanji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d1386112-Reviews-Ryoan_ji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: http://www.ryoanji.jp/smph/eng/
@@ -2708,7 +2709,7 @@ nome: Kinkaku-ji (Padiglione d'Oro)
 tipo: ⛩ Tempio
 città: kyoto
 giorno: 12/11
-nota: 11:20 · ¥500 · 9–17
+nota: 11:30 · ¥500 · 9–17
 maps: Kinkakuji Temple Kyoto
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298564-d321400-Reviews-Kinkakuji_Temple-Kyoto_Kyoto_Prefecture_Kinki.html
 sito: https://www.shokoku-ji.jp/en/kinkakuji/
