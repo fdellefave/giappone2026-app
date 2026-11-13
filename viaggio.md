@@ -1246,19 +1246,19 @@ con: voi due
   breve: a piedi 10′, attraversando l'incrocio
   come: passate dall'[[shibuya-crossing]] (l'incrocio più famoso del mondo) che avete appena visto dall'alto, poi su per la via verso PARCO
 - 11:10 fare Shibuya PARCO | posto: shibuya-parco
-  breve: 6° piano: Nintendo, Pokémon, Capcom, Jump · 40′
+  breve: 6° piano: Nintendo, Pokémon, Capcom, Jump · 35′
   orari: 6° piano dalle 10, gli altri negozi dalle 11
-- 11:50 sposta S. Watanabe, Ginza | via mezzi: Shibuya Station, Tokyo > #watanabe-stampe (Shibuya → Watanabe)
-  breve: metro Ginza line diretta ~17′ + a piedi 4′
+- 11:45 sposta S. Watanabe, Ginza | via mezzi: Shibuya Station, Tokyo > #watanabe-stampe (Shibuya → Watanabe)
+  breve: a piedi 8′ alla metro + Ginza line diretta ~17′ + a piedi 4′
   come: metro Ginza line da Shibuya a Shimbashi (diretta, ~17′), uscita verso Ginza 8-chōme, 4′ a piedi
-- 12:15 fare S. Watanabe (stampe giapponesi) | posto: watanabe-stampe
-  breve: stampe su legno da incorniciare · da ~¥3.000 · 30′
+- 12:20 fare S. Watanabe (stampe giapponesi) | posto: watanabe-stampe
+  breve: stampe su legno da incorniciare · da ~¥3.000 · 25′
   Bottega e editore di stampe dal 1906 sulla via Namiki di Ginza: ukiyo-e (le stampe classiche, tipo Hiroshige e Hokusai) ristampate a mano con le tecniche tradizionali e shin-hanga («stampe nuove» del Novecento, paesaggi di Hasui Kawase). Per stare sui ¥6.500–7.500 (€35–40) chiedete le ristampe in formato verticale (hosoban o chūban, i formati stretti) o le stampe piccole; quelle grandi e gli originali costano molto di più. Ci sono anche cartoline e biglietti.
   orari: 11–18:30 · chiuso la domenica
   costo: ukiyo-e da ~¥3.000
   alternativa: [[yoseido]] (stampe moderne di giovani artisti, Ginza 5-chōme, 10′ a piedi: solo se avete tempo)
   attenzione: la stampa viaggia arrotolata o piatta in cartelletta: chiedetela piatta e tenetela nello zaino, non in valigia
-- 12:45 sposta Komachi-dōri | via mezzi: Shimbashi Station > #komachi-dori (Shimbashi → Komachi-dōri)
+- 12:50 sposta Komachi-dōri | via mezzi: Shimbashi Station > #komachi-dori (Shimbashi → Komachi-dōri)
   breve: treno JR diretto ~55′ + a piedi 3′
   come: treno JR linea Yokosuka (blu e crema) da Shimbashi a Kamakura, diretto, ogni 10–15′. Uscita est.
   costo: ~¥950
