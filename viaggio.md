@@ -1038,7 +1038,7 @@ con: voi due
   breve: colazione veloce · 3′ a piedi alla stazione
 - 08:00 viaggio Treno Hida (espresso) Takayama → Nagoya | foto: Hida (train) | treno: hida-15 | prenotato
   breve: 8:00 → 10:34 · Hida 4 · carrozza 2, posti 5A e 5B
-  biglietti: a testa 3 biglietti di carta (ritirati il 13/11 a Takayama): biglietto base Takayama → Osaka (¥6.380), supplemento espresso Hida (¥2.930), supplemento Shinkansen (¥3.470). Teneteli tutti e tre insieme fino all'uscita a Shin-Osaka.
+  A testa 3 biglietti di carta (ritirati il 13/11 a Takayama): biglietto base Takayama → Osaka (¥6.380), supplemento espresso Hida (¥2.930), supplemento Shinkansen (¥3.470). Teneteli tutti e tre insieme fino all'uscita a Shin-Osaka.
   come: al tornello di Takayama infilate insieme il biglietto base e quello dell'espresso Hida: ve li restituisce. Carrozza non fumatori.
 - 10:58 viaggio Shinkansen (treno superveloce) Nagoya → Osaka | foto: Tōkaidō Shinkansen | treno: shink-15 | prenotato
   breve: 10:58 → 11:48 · Nozomi 247 · carrozza 12, posti 3A e 3B · cambio di 24′
