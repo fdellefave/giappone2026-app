@@ -116,6 +116,8 @@ Pomeriggio 11/11 (15:30, ancora alla stazione di Kyoto dopo pranzo; richiesta di
 12/11 alle 9:00 scesi ad Arashiyama (35′ di ritardo): bambù 9:10 (20′, senza giro in fondo), Tenryū-ji 9:30 (35′), tram 10:10, Ryōan-ji 10:40, Kinkaku-ji 11:30, taxi 12:10; Okakita 12:35 e il resto invariati. Se si perde il tram delle 10:15: taxi diretto al Kinkaku-ji, Ryōan-ji saltato.
 Poi (9:01) Federico ha chiesto di spostare semplicemente tutto di 30′ rispetto al piano della notte: bambù 8:55 … Okakita 13:05, Ginkaku-ji 15:55, Nishiki 17:05 (in chiusura), Nintendo 17:55, Kotetsu 19:30, stazione 21:05, lavanderia 21:30.
 
+Sera del 13/11 (13/11 alle 12:56, richiesta di Federico: dopo le 17 era vuota): vie antiche di Sanmachi al buio dopo Nakabashi, check-in e riposo, Taruhei invariato, poi giro di bar (Bar Thumbs Up → Japanese Pub YU, Red Hill alternativa) e onsen alle 22:30 (aperto fino all'1). Scartate: casa Murahan e centro esperienze (opzioni proposte non scelte), sala giochi (una sola in città, recensioni pessime).
+
 Pasti senza doppioni (30/10, richiesta di Federico): mai due pasti dello stesso tipo nello stesso giorno. 6/11 cena: sushi in piedi da Uogashi Nihonichi (stazione di Akihabara) al posto del ramen Kyushu Jangara. 13/11 pranzo: ramen di Takayama da Masago Soba al posto di Kotte Ushi (manzo + bistecca la sera); Kotte Ushi resta alternativa.
 Ristoranti e orari dei pasti (30/10, richiesta di Federico): tutti verificati su Tabelog (3,45+), prezzi fattibili tranne sushi omakase ≤€60 e Kobe ≤€70; pranzo verso le 13 e cena 19–20, ~1 h ciascuno, senza forzare il percorso. 6/11 Kizuna Sushi (3,48) al posto di Uogashi (3,25); 11/11 Kiyomizu-dera prima e SANSHIKI alle 12:45 scendendo; 12/11 Okakita (3,69) al posto di Daigin (3,34) con giro al contrario Keage → Nanzen-ji → Sentiero → Ginkaku-ji; 13/11 Taruhei (3,62) al posto di Kitchen Hida (troppo cara), onsen prima di cena; 14/11 Neighbird (3,60) al posto di Kyōya (3,33); 15/11 Kobe alle 19 col corso da ~¥11.000; 16/11 pranzo alle 13:30 e cena sullo Shinkansen. Hisago (oyakodon a Gion) risulta chiuso su Tabelog. Il 6/11 il pranzo resta alle 14:10 per l'atterraggio. 17/11: a Tsukiji solo assaggi cotti, il crudo è la cena da Sushi Tokyo Ten.
 
@@ -892,13 +894,14 @@ con: voi due
   breve: a piedi 15′ lungo il fiume Miyagawa · 1,2 km
 - 16:40 vedere Ponte Nakabashi | posto: nakabashi
   breve: ponte rosso · tramonto 16:50
-- 17:00 sposta Hotel | via piedi: #nakabashi > @alpina (Nakabashi → hotel)
-  breve: a piedi 12′
-- 17:15 hotel Check-in allo Spa Hotel Alpina | alloggio: alpina | ritiro
-  breve: riprendete le valigie · check-in 17–18:30 (se non fatto alle 12)
-- 17:30 fare Onsen sul tetto (bagno termale) | foto: Onsen | alloggio: alpina
-  breve: terme panoramiche dell'hotel prima di cena · ~1 h
-  attenzione: con tatuaggi visibili l'ingresso può essere negato
+- 17:00 vedere Vie antiche al buio | zona: takayama-centro | dove: Sanmachi Suji Takayama
+  breve: Sanmachi deserta con le lanterne · 30′ · gratis
+  Dopo le 17 i negozi chiudono e le vie di legno si svuotano: è il momento migliore per le foto senza gente. Dal ponte Nakabashi si entra subito in Kami-sannomachi (la via principale).
+- 17:30 sposta Hotel | via piedi: Sanmachi Suji Takayama > @alpina (Sanmachi → hotel)
+  breve: a piedi ~15′
+- 17:45 hotel Check-in allo Spa Hotel Alpina | alloggio: alpina | ritiro
+  breve: riprendete le valigie · riposo fino alle 18:45
+  Check-in 17–18:30 (se non fatto alle 12). L'onsen (le terme) è spostato a fine serata: è aperto fino all'1:00.
 - 18:45 sposta Taruhei | via piedi: @alpina > #taruhei (Hotel → Taruhei)
   breve: a piedi ~10′
 - 19:00 cibo Taruhei (izakaya di Takayama) | posto: taruhei | prenotare
@@ -909,11 +912,29 @@ con: voi due
   prenotazione: ore 19:00 per 2, per telefono (0577-32-5490) o chiedendo alla reception dell'Alpina
   alternativa: [[kitchen-hida]] (bistecca di Hida beef, Tabelog 3,76, ~¥6.000–8.000: più cara)
   veloce: [[dekonaru]] (vicolo di banchetti: spiedini, ramen, gyoza, dalle 17) o il konbini [[famima-kamininomachi]]
-- 20:00 sposta Hotel | via piedi: #taruhei > @alpina (Taruhei → hotel)
+- 20:00 sposta Bar Thumbs Up | via piedi: #taruhei > #bar-thumbs-up (Taruhei → Bar Thumbs Up)
   breve: a piedi ~10′
+- 20:10 fare Bar Thumbs Up (birre artigianali) | posto: bar-thumbs-up
+  breve: primo bar: birre artigianali, gin e whisky giapponesi · ~50′
+  Bar piccolo sulla via Honmachi, il proprietario parla inglese. Birre artigianali giapponesi, assaggi di 3 whisky giapponesi, gin tonic col gin locale, umeshu (liquore di prugne) fatto in casa e snack (gyoza, uova di quaglia affumicate). Tripadvisor 5/5 (9 recensioni), n. 2 dei bar di Takayama.
+  costo: ~¥800–1.500 a bicchiere
+  orari: 15–23 · chiuso il mercoledì
+  alternativa: [[red-hill]] (pub minuscolo e pieno di carattere, si fuma dentro)
+- 21:00 sposta Japanese Pub YU | via piedi: #bar-thumbs-up > #pub-yu (Bar Thumbs Up → Pub YU)
+  breve: a piedi ~10′
+- 21:10 fare Japanese Pub YU (cocktail bar) | posto: pub-yu
+  breve: secondo bar: cocktail con ingredienti locali · ~1 h
+  Bar piccolo un po' fuori dal centro, arredato in modo originale: cocktail della casa con ingredienti di Hida (famoso il margarita allo yuzu, agrume giapponese), sakè servito nel masu (la scatolina di legno) e whisky giapponesi. Tripadvisor 4,9 su 181, tra i locali più votati della città.
+  attenzione: pochi posti: se è pieno si aspetta fuori o si va al [[red-hill]]
+  alternativa: [[red-hill]]
+- 22:10 sposta Hotel | via piedi: #pub-yu > @alpina (Pub YU → hotel)
+  breve: a piedi ~10–15′
+- 22:30 fare Onsen sul tetto (bagno termale) | foto: Onsen | alloggio: alpina
+  breve: terme panoramiche dell'hotel prima di dormire · ~45′ · aperto fino all'1:00
+  attenzione: con tatuaggi visibili l'ingresso può essere negato. Domani si esce alle 6:48 per il mercato: a letto entro mezzanotte.
 
 #### Guida
-senso: Treno panoramico tra le montagne fino a Takayama: ramen locale, città antica di legno, assaggi di sakè, i carri giganti della festa di Takayama, terme sul tetto dell'hotel e cena in osteria.
+senso: Treno panoramico tra le montagne fino a Takayama: ramen locale, città antica di legno, assaggi di sakè, i carri giganti della festa di Takayama, le vie antiche deserte al buio, cena in osteria, due bar piccoli e terme sul tetto a fine serata.
 mangiare:
   • Pranzo: ramen di Takayama (brodo di soia leggero) da Masago Soba (Tabelog 3,62), alle 12:45
   • Cena: Taruhei, izakaya (osteria) con cucina di Hida (Tabelog 3,62, ~¥5.000–6.000), alle 19:00
@@ -924,14 +945,16 @@ attenzione:
   • Sul treno chiedete da che lato si vede il fiume
   • Il palazzo Jinya chiude alle 16:30, lo Yatai Kaikan (sala dei carri) alle 17
   • Prima delle distillerie niente profumo forte (rovina il sakè)
-  • Takayama la sera si spegne presto
+  • Takayama la sera si spegne presto: dopo cena restano i bar piccoli tra la stazione e il fiume
+  • Bar Thumbs Up chiuso il mercoledì (oggi è venerdì)
 anticipo: • Showa-kan (museo della vita anni '50: giocattoli e negozi d'epoca)
 stanchi: • Saltate il Jinya: Sanmachi (le vie antiche) e i carri bastano; la sera resta uguale
-contanti: ¥4.500–7.500 a testa
+contanti: ¥7.000–11.500 a testa
   • Masago Soba (ramen), ~¥800–1.000
   • Takayama Jinya (palazzo del governatore) ¥440 e Yatai Kaikan (sala dei carri) ¥1.000
   • Assaggi di sakè e snack nelle vie di Sanmachi
-camminata: ~10 km · treno 3 h 45 seduti · pause: pranzo 1 h, terme 1 h, cena 1 h
+  • Due bar dopo cena, ~¥2.500–4.000 (nei bar piccoli meglio avere contanti)
+camminata: ~12 km · treno 3 h 45 seduti · pause: pranzo 1 h, riposo 1 h, cena 1 h, bar 2 h, terme 45′
 ### 2026-11-14
 percorso: takayama > shirakawago > takayama
 dorme: alpina
@@ -2124,7 +2147,7 @@ posti: @alpina
 ### takayama-centro
 nome: Centro storico di Takayama
 cosa: vie di case in legno, distillerie e mercati
-posti: masago-soba, kotte-ushi, jinya, sanmachi, yatai-kaikan, nakabashi, taruhei, kitchen-hida, mercato-miyagawa, neighbird
+posti: masago-soba, kotte-ushi, jinya, sanmachi, yatai-kaikan, nakabashi, taruhei, kitchen-hida, mercato-miyagawa, neighbird, bar-thumbs-up, pub-yu, red-hill
 
 ### shirakawa
 nome: Shirakawa-go
@@ -3664,6 +3687,36 @@ nota: Banchetti di spiedini, ramen, gyoza e takoyaki, 17–3, solo contanti · G
 maps: Dekonaru Yokocho Asahimachi Takayama
 mappa: no
 foto: Yakitori
+
+### bar-thumbs-up
+nome: Bar Thumbs Up (birre artigianali)
+tipo: 🍺 Bar
+città: takayama
+giorno: 13/11
+nota: Birre artigianali, gin e whisky giapponesi, snack · Honmachi 4-33-3 · 15–23, chiuso mer. · Tripadvisor 5/5 (9)
+maps: Bar Thumbs Up 高山市本町4-33-3
+tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298113-d27148176-Reviews-Bar_Thumbs_Up-Takayama_Gifu_Prefecture_Tokai_Chubu.html
+foto: Craft beer
+
+### pub-yu
+nome: Japanese Pub YU (cocktail bar)
+tipo: 🍸 Bar
+città: takayama
+giorno: 13/11
+nota: Cocktail con ingredienti di Hida, sakè e whisky · locale piccolo · Tripadvisor 4,9 (181)
+maps: Japanese Pub YU Takayama
+tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298113-d12390940-Reviews-Japanese_Pub_YU-Takayama_Gifu_Prefecture_Tokai_Chubu.html
+foto: Cocktail
+
+### red-hill
+nome: Red Hill (pub)
+tipo: 🍺 Bar
+città: takayama
+giorno: 13/11
+nota: Pub minuscolo in una viuzza (facciata gialla), musica e quaderni dei viaggiatori, si fuma dentro · Sōwa-chō 2-4-2 · Tripadvisor 4,7 (63)
+maps: レッドヒル 高山市総和町2-4-2
+tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298113-d4770421-Reviews-Red_Hill-Takayama_Gifu_Prefecture_Tokai_Chubu.html
+foto: Pub
 
 ### famima-kamininomachi
 nome: FamilyMart Kamininomachi (konbini)
