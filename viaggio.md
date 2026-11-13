@@ -116,7 +116,9 @@ Pomeriggio 11/11 (15:30, ancora alla stazione di Kyoto dopo pranzo; richiesta di
 12/11 alle 9:00 scesi ad Arashiyama (35′ di ritardo): bambù 9:10 (20′, senza giro in fondo), Tenryū-ji 9:30 (35′), tram 10:10, Ryōan-ji 10:40, Kinkaku-ji 11:30, taxi 12:10; Okakita 12:35 e il resto invariati. Se si perde il tram delle 10:15: taxi diretto al Kinkaku-ji, Ryōan-ji saltato.
 Poi (9:01) Federico ha chiesto di spostare semplicemente tutto di 30′ rispetto al piano della notte: bambù 8:55 … Okakita 13:05, Ginkaku-ji 15:55, Nishiki 17:05 (in chiusura), Nintendo 17:55, Kotetsu 19:30, stazione 21:05, lavanderia 21:30.
 
-Shopping (13/11, richiesta di Federico): drogherie di Shinsaibashi-suji alle 22:00 del 15/11 (Round1 spostato alle 22:45); S. Watanabe a Ginza (stampe, budget €35–40 per una verticale) il 17/11 tra PARCO (accorciato a 40′) e il treno per Kamakura, che ora parte da Shimbashi (linea Yokosuka). Tax-free col nuovo sistema a rimborso dal 1/11/2026: pagate pieno, rimborso ad Haneda.
+Rientri entro le 22 (13/11 alle 13:39, richiesta di Federico): 13/11 bar più corti, hotel 22:05; 15/11 drogherie spostate alle 17:50 vicino all'hotel, Round1 tolto (in «anticipo»), Dōtonbori 21:20, hotel ~22; 17/11 Omoide Yokochō 25′ + giro a piedi in Golden Gai, hotel ~22. 16/11 resta 22:50 (Shinkansen delle 20:00 già preso).
+
+Shopping (13/11, richiesta di Federico): drogherie di Shinsaibashi-suji il 15/11 (poi spostate alle 17:50); S. Watanabe a Ginza (stampe, budget €35–40 per una verticale) il 17/11 tra PARCO (accorciato a 40′) e il treno per Kamakura, che ora parte da Shimbashi (linea Yokosuka). Tax-free col nuovo sistema a rimborso dal 1/11/2026: pagate pieno, rimborso ad Haneda.
 
 Biglietti del 15/11 (13/11, foto di Federico): ritirati in stazione a Takayama, 3 a testa (base Takayama → Osaka città ¥6.380 valido 15–17/11, Hida 4 ¥2.930 carrozza 2 posto 5B, Nozomi 247 ¥3.470 carrozza 12 posto 3B); orari e posti coincidono col file.
 
@@ -919,21 +921,21 @@ con: voi due
 - 20:00 sposta Bar Thumbs Up | via piedi: #taruhei > #bar-thumbs-up (Taruhei → Bar Thumbs Up)
   breve: a piedi ~10′
 - 20:10 fare Bar Thumbs Up (birre artigianali) | posto: bar-thumbs-up
-  breve: primo bar: birre artigianali, gin e whisky giapponesi · ~50′
+  breve: primo bar: birre artigianali, gin e whisky giapponesi · ~45′
   Bar piccolo sulla via Honmachi, il proprietario parla inglese. Birre artigianali giapponesi, assaggi di 3 whisky giapponesi, gin tonic col gin locale, umeshu (liquore di prugne) fatto in casa e snack (gyoza, uova di quaglia affumicate). Tripadvisor 5/5 (9 recensioni), n. 2 dei bar di Takayama.
   costo: ~¥800–1.500 a bicchiere
   orari: 15–23 · chiuso il mercoledì
   alternativa: [[red-hill]] (pub minuscolo e pieno di carattere, si fuma dentro)
-- 21:00 sposta Japanese Pub YU | via piedi: #bar-thumbs-up > #pub-yu (Bar Thumbs Up → Pub YU)
+- 20:55 sposta Japanese Pub YU | via piedi: #bar-thumbs-up > #pub-yu (Bar Thumbs Up → Pub YU)
   breve: a piedi ~10′
-- 21:10 fare Japanese Pub YU (cocktail bar) | posto: pub-yu
-  breve: secondo bar: cocktail con ingredienti locali · ~1 h
+- 21:05 fare Japanese Pub YU (cocktail bar) | posto: pub-yu
+  breve: secondo bar: cocktail con ingredienti locali · ~45′
   Bar piccolo un po' fuori dal centro, arredato in modo originale: cocktail della casa con ingredienti di Hida (famoso il margarita allo yuzu, agrume giapponese), sakè servito nel masu (la scatolina di legno) e whisky giapponesi. Tripadvisor 4,9 su 181, tra i locali più votati della città.
   attenzione: pochi posti: se è pieno si aspetta fuori o si va al [[red-hill]]
   alternativa: [[red-hill]]
-- 22:10 sposta Hotel | via piedi: #pub-yu > @alpina (Pub YU → hotel)
-  breve: a piedi ~10–15′
-- 22:30 fare Onsen sul tetto (bagno termale) | foto: Onsen | alloggio: alpina
+- 21:50 sposta Hotel | via piedi: #pub-yu > @alpina (Pub YU → hotel)
+  breve: a piedi ~10–15′ · in hotel verso le 22
+- 22:05 fare Onsen sul tetto (bagno termale) | foto: Onsen | alloggio: alpina
   breve: terme panoramiche dell'hotel prima di dormire · ~45′ · aperto fino all'1:00
   attenzione: con tatuaggi visibili l'ingresso può essere negato. Domani si esce alle 6:48 per il mercato: a letto entro mezzanotte.
 
@@ -1086,7 +1088,14 @@ con: voi due
   breve: metro 8′ + a piedi 4′
   come: metro Midōsuji da Dōbutsuen-mae a Shinsaibashi
 - 17:40 hotel Check-in all'Hotel Hillarys | alloggio: hillarys | ritiro
-  breve: riprendete le valigie dal deposito · 50′ di riposo
+  breve: riprendete le valigie dal deposito · 10′
+- 17:50 fare Drogherie di Shinsaibashi-suji (skincare) | posto: daikoku-shinsaibashi | via piedi: @hillarys > #daikoku-shinsaibashi (Hotel → Shinsaibashi-suji)
+  breve: creme e cosmetici giapponesi a prezzi bassi · 30′ · acquisti in camera prima di cena
+  La via coperta Shinsaibashi-suji parte dal ponte Ebisu (quello dell'insegna Glico): nei primi 300 m ci sono Daikoku Drug (catena di Osaka, tra le più economiche), Matsumoto Kiyoshi, Sugi Drug, Tsuruha e Kokumin. Confrontate i prezzi dello stesso prodotto in due negozi. Da cercare: Hada Labo Gokujun (tonico all'acido ialuronico), le marche proprie di Matsukiyo, creme solari Biore.
+  orari: a quest'ora sono tutte aperte (Daikoku dalle 9–10, Matsukiyo 10–22, Sugi Drug fino alle 24)
+  attenzione: tax-free nuovo (dal 1/11/2026): pagate il prezzo pieno col passaporto in mano, almeno ¥5.000 nello stesso negozio; l'IVA ve la rimborsano ad Haneda il 18/11, prima di imbarcare le valigie. Tenete gli scontrini e gli acquisti con voi.
+- 18:20 hotel Acquisti in camera | alloggio: hillarys
+  breve: lasciate le borse · si riparte alle 18:30
 - 18:30 sposta Kobe Steak Ishida, Umeda | via mezzi: @hillarys > #kobe-ishida (Hotel → Umeda)
   breve: metro 6′ + a piedi 5′
   come: 4′ a piedi a Shinsaibashi, metro Midōsuji fino a Umeda (6′), poi al palazzo LINKS UMEDA accanto alla stazione JR di Osaka, 8° piano
@@ -1100,29 +1109,20 @@ con: voi due
 - 20:00 sposta Umeda Sky Building | via piedi: #kobe-ishida > #umeda-sky (Ishida → Umeda Sky)
   breve: a piedi 12′ · 1 km
 - 20:15 vedere Umeda Sky Building (osservatorio sospeso) | posto: umeda-sky
-  breve: terrazza all'aperto a 173 m tra due grattacieli · ~45′ · ¥2.000
+  breve: terrazza all'aperto a 173 m tra due grattacieli · ~35′ · ¥2.000
   Due torri di 40 piani unite in cima da un anello: ci si arriva con le scale mobili dentro un tubo di vetro sospeso nel vuoto tra le torri. Sul tetto si gira all'aperto a 360° su Osaka illuminata.
   costo: ¥2.000
   orari: 9:30–22:30, ultimo ingresso 22:00
-- 21:00 sposta Dōtonbori | via mezzi: #umeda-sky > #hozenji-yokocho (Umeda Sky → Dōtonbori)
+- 20:50 sposta Dōtonbori | via mezzi: #umeda-sky > #hozenji-yokocho (Umeda Sky → Dōtonbori)
   breve: a piedi 12′ + metro 8′ + a piedi 5′
   come: a piedi fino alla stazione Umeda (12′), metro Midōsuji fino a Namba (8′)
-- 21:30 vedere Dōtonbori di notte | posto: hozenji-yokocho
-  breve: neon, insegna Glico e il vicolo delle lanterne
+- 21:20 vedere Dōtonbori di notte | posto: hozenji-yokocho
+  breve: neon, insegna Glico e il vicolo delle lanterne · 25′
   Hōzenji Yokochō: vicolo lastricato di lanterne con una statua coperta di muschio, a 3′ dal canale. Se c'è ancora posto: takoyaki (polpette di polpo) da un banco lungo il canale.
-- 22:00 fare Drogherie di Shinsaibashi-suji (skincare) | posto: daikoku-shinsaibashi | via piedi: #hozenji-yokocho > #daikoku-shinsaibashi (Hōzenji → Shinsaibashi-suji)
-  breve: creme e cosmetici giapponesi a prezzi bassi · 40′
-  La via coperta Shinsaibashi-suji parte dal ponte Ebisu (quello dell'insegna Glico): nei primi 300 m ci sono Daikoku Drug (catena di Osaka, tra le più economiche), Matsumoto Kiyoshi, Sugi Drug, Tsuruha e Kokumin. Confrontate i prezzi dello stesso prodotto in due negozi. Da cercare: Hada Labo Gokujun (tonico all'acido ialuronico), le marche proprie di Matsukiyo, creme solari Biore.
-  orari: Daikoku fino alle 22 o alle 23:50 a seconda della fonte · Sugi Drug (Shinsaibashi-suji 1-3-22) fino alle 24 · Tsuruha fino alle 23 · Matsukiyo fino alle 22–22:30
-  attenzione: tax-free nuovo (dal 1/11/2026): pagate il prezzo pieno col passaporto in mano, almeno ¥5.000 nello stesso negozio; l'IVA ve la rimborsano ad Haneda il 18/11, prima di imbarcare le valigie. Tenete gli scontrini e gli acquisti con voi.
-- 22:45 fare Round1 (centro giochi) o bar di Ura-Namba | posto: round1 | via piedi: #daikoku-shinsaibashi > #round1 (Shinsaibashi-suji → Round1)
-  breve: centro giochi enorme o vicoli di bar
-  Round1 Sennichimae: sale giochi fino alle 0:50, bowling, karaoke. In alternativa [[ura-namba]]: vicoli di bar e osterie economiche.
-- 23:45 sposta Hotel | via piedi: #round1 > @hillarys (Round1 → hotel)
-  breve: a piedi 15′
-
+- 21:45 sposta Hotel | via piedi: #hozenji-yokocho > @hillarys (Dōtonbori → hotel)
+  breve: a piedi ~12′ · in hotel verso le 22
 #### Guida
-senso: Osaka in un giorno: okonomiyaki, il castello dei samurai, la via nerd dei videogiochi a piedi fino al quartiere anni '50 con la torre al tramonto, cena di manzo di Kobe, Osaka dall'alto sull'osservatorio sospeso, poi neon di Dōtonbori e sale giochi la sera.
+senso: Osaka in un giorno: okonomiyaki, il castello dei samurai, la via nerd dei videogiochi a piedi fino al quartiere anni '50 con la torre al tramonto, cena di manzo di Kobe, Osaka dall'alto sull'osservatorio sospeso, drogherie di Shinsaibashi prima di cena, poi neon di Dōtonbori e in hotel verso le 22.
 mangiare:
   • Pranzo: Fukutaro, okonomiyaki (frittata-pizza cotta sulla piastra), Tabelog 3,72; la domenica apre alle 12, c'è coda
   • Spuntino leggero: kushikatsu (spiedini fritti) da Daruma a Shinsekai (Tabelog 3,46, contanti): uno o due, la cena è alle 19
@@ -1131,11 +1131,12 @@ mangiare:
 prenotare:
   • Treni del mattino già pagati
   • Kobe Steak Ishida ore 19:00 per 2 (Tabelog, My Concierge Japan o telefono)
-  • Contanti per Daruma e le sale giochi
+  • Contanti per Daruma
 attenzione:
   • Da Daruma è vietato intingere due volte nella salsa comune
   • Domani USJ: non fate troppo tardi
 anticipo:
+  • Round1 (centro giochi a Namba, fino alle 0:50) o i bar di Ura-Namba, solo se avete energie: domani c'è USJ
   • Namba Grand Kagetsu (teatro della comicità di Osaka: in giapponese ma molto fisico)
 stanchi:
   • Dal castello metro fino a Ebisuchō, a 3′ da Shinsekai, saltando Den Den Town (−1,5 km)
@@ -1144,8 +1145,8 @@ contanti: ¥7.000–13.000 a testa
   • Castello di Osaka (torrione) ¥1.200 e Umeda Sky Building ¥2.000
   • Den Den Town: gachapon e negozietti di usato
   • Daruma (spiedini fritti) a Shinsekai: solo contanti
-  • Takoyaki (polpette di polpo) a Dōtonbori e giochi a Round1
-camminata: ~15 km (parco del castello e Den Den Town a piedi) · treni ~4 h al mattino + metro 1 h · pause: pranzo 1 h, check-in e riposo 50′, cena 1 h
+  • Takoyaki (polpette di polpo) a Dōtonbori
+camminata: ~15 km (parco del castello e Den Den Town a piedi) · treni ~4 h al mattino + metro 1 h · pause: pranzo 1 h, check-in e drogherie 50′, cena 1 h
 ### 2026-11-16
 percorso: osaka > tokyo
 dorme: super-hotel
@@ -1297,19 +1298,19 @@ con: voi due
   breve: treno 7′ + a piedi 5′
   come: treno JR Yamanote da Shibuya a Shinjuku, uscita ovest
 - 20:50 fare Omoide Yokochō (vicolo degli spiedini) | posto: omoide-yokocho
-  breve: un giro e una birra tra i chioschi
+  breve: un giro e una birra tra i chioschi · 25′
   Vicolo di chioschi fumosi con spiedini alla brace: dopo il sushi bastano una birra e uno spiedino.
-- 21:30 fare Golden Gai (vicoli di micro-bar) | posto: golden-gai | via piedi: #omoide-yokocho > #golden-gai (Omoide Yokochō → Golden Gai)
-  breve: micro-bar per l'ultimo giro
+- 21:15 vedere Golden Gai (vicoli di micro-bar) | posto: golden-gai | via piedi: #omoide-yokocho > #golden-gai (Omoide Yokochō → Golden Gai)
+  breve: giro a piedi nei vicoli · 15′
   6 vicoli con oltre 200 bar da 5–10 posti, a 10′ a piedi da Omoide Yokochō. Passate dalla [[godzilla]].
   costo: molti bar chiedono un coperto (¥500–1.000)
   alternativa: karaoke (Big Echo, Karaoke-kan)
-- 23:30 sposta Hotel | via mezzi: #golden-gai > @super-hotel (Golden Gai → hotel)
-  breve: treno 26′ + a piedi 4′ · ultimo treno ~0:30
+- 21:30 sposta Hotel | via mezzi: #golden-gai > @super-hotel (Golden Gai → hotel)
+  breve: treno 26′ + a piedi 4′ · in hotel verso le 22
   come: treno JR Yamanote da Shinjuku a Hamamatsuchō
 
 #### Guida
-senso: Ultimo giorno pieno: colazione al mercato del pesce, Shibuya dall'alto e PARCO al mattino, mezza giornata a Kamakura (cittadina sul mare a un'ora da Tokyo) tra Grande Buddha, tempio sul mare e passaggio a livello di Slam Dunk al tramonto, poi cena di sushi e bar minuscoli a Shinjuku.
+senso: Ultimo giorno pieno: colazione al mercato del pesce, Shibuya dall'alto e PARCO al mattino, mezza giornata a Kamakura (cittadina sul mare a un'ora da Tokyo) tra Grande Buddha, tempio sul mare e passaggio a livello di Slam Dunk al tramonto, poi cena di sushi, un giro nei vicoli di Shinjuku e in hotel verso le 22.
 mangiare:
   • Colazione: mercato di Tsukiji, solo assaggi cotti (frittata dolce, frutti di mare alla griglia; contanti): il crudo lo tenete per la cena
   • Pranzo: street food a Komachi-dōri (la via dei chioschi) alle 13:50: mangiate fermi davanti al banco
@@ -1323,8 +1324,8 @@ attenzione:
   • Hase-dera: ultimo ingresso 16:30 (chiude alle 17)
   • Partite da Kamakura-kōkō-mae entro le 17:15 per il sushi delle 19:00
   • Golden Gai: molti bar chiedono un coperto (¥500–1.000)
-  • Ultimo treno verso l'hotel ~0:30
-anticipo: • Karaoke dopo Golden Gai (Big Echo, Karaoke-kan)
+  • Domani sveglia presto: Zōjō-ji alle 7:20
+anticipo: • Un drink in un micro-bar di Golden Gai (coperto ¥500–1.000), rientro verso le 23
 stanchi: • Se piove: Buddha e Hase-dera si fanno con l'ombrello, saltate il passaggio a livello e tornate prima · dopo cena solo Omoide Yokochō
 contanti: ¥8.000–14.000 a testa
   • Mercato di Tsukiji: colazione ai banchi, in contanti
@@ -1333,7 +1334,7 @@ contanti: ¥8.000–14.000 a testa
   • Spiedini a Omoide Yokochō (vicolo degli spiedini)
   • Golden Gai (micro-bar): coperto ¥500–1.000 + drink, quasi tutti in contanti
   • Sushi Tokyo Ten: solo carta
-camminata: ~13 km · treni ~2 h 30 · pause: colazione 1 h, cena 1 h 30, bar 1 h
+camminata: ~13 km · treni ~2 h 30 · pause: colazione 1 h, cena 1 h 30, Shinjuku 40′
 ### 2026-11-18
 percorso: tokyo > roma
 dorme: volo
