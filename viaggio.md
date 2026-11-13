@@ -116,6 +116,8 @@ Pomeriggio 11/11 (15:30, ancora alla stazione di Kyoto dopo pranzo; richiesta di
 12/11 alle 9:00 scesi ad Arashiyama (35′ di ritardo): bambù 9:10 (20′, senza giro in fondo), Tenryū-ji 9:30 (35′), tram 10:10, Ryōan-ji 10:40, Kinkaku-ji 11:30, taxi 12:10; Okakita 12:35 e il resto invariati. Se si perde il tram delle 10:15: taxi diretto al Kinkaku-ji, Ryōan-ji saltato.
 Poi (9:01) Federico ha chiesto di spostare semplicemente tutto di 30′ rispetto al piano della notte: bambù 8:55 … Okakita 13:05, Ginkaku-ji 15:55, Nishiki 17:05 (in chiusura), Nintendo 17:55, Kotetsu 19:30, stazione 21:05, lavanderia 21:30.
 
+Shopping (13/11, richiesta di Federico): drogherie di Shinsaibashi-suji alle 22:00 del 15/11 (Round1 spostato alle 22:45); S. Watanabe a Ginza (stampe, budget €35–40 per una verticale) il 17/11 tra PARCO (accorciato a 40′) e il treno per Kamakura, che ora parte da Shimbashi (linea Yokosuka). Tax-free col nuovo sistema a rimborso dal 1/11/2026: pagate pieno, rimborso ad Haneda.
+
 Biglietti del 15/11 (13/11, foto di Federico): ritirati in stazione a Takayama, 3 a testa (base Takayama → Osaka città ¥6.380 valido 15–17/11, Hida 4 ¥2.930 carrozza 2 posto 5B, Nozomi 247 ¥3.470 carrozza 12 posto 3B); orari e posti coincidono col file.
 
 Sera del 13/11 (13/11 alle 12:56, richiesta di Federico: dopo le 17 era vuota): vie antiche di Sanmachi al buio dopo Nakabashi, check-in e riposo, Taruhei invariato, poi giro di bar (Bar Thumbs Up → Japanese Pub YU, Red Hill alternativa) e onsen alle 22:30 (aperto fino all'1). Scartate: casa Murahan e centro esperienze (opzioni proposte non scelte), sala giochi (una sola in città, recensioni pessime).
@@ -1108,10 +1110,15 @@ con: voi due
 - 21:30 vedere Dōtonbori di notte | posto: hozenji-yokocho
   breve: neon, insegna Glico e il vicolo delle lanterne
   Hōzenji Yokochō: vicolo lastricato di lanterne con una statua coperta di muschio, a 3′ dal canale. Se c'è ancora posto: takoyaki (polpette di polpo) da un banco lungo il canale.
-- 22:20 fare Round1 (centro giochi) o bar di Ura-Namba | posto: round1 | via piedi: #hozenji-yokocho > #round1 (Hōzenji → Round1)
+- 22:00 fare Drogherie di Shinsaibashi-suji (skincare) | posto: daikoku-shinsaibashi | via piedi: #hozenji-yokocho > #daikoku-shinsaibashi (Hōzenji → Shinsaibashi-suji)
+  breve: creme e cosmetici giapponesi a prezzi bassi · 40′
+  La via coperta Shinsaibashi-suji parte dal ponte Ebisu (quello dell'insegna Glico): nei primi 300 m ci sono Daikoku Drug (catena di Osaka, tra le più economiche), Matsumoto Kiyoshi, Sugi Drug, Tsuruha e Kokumin. Confrontate i prezzi dello stesso prodotto in due negozi. Da cercare: Hada Labo Gokujun (tonico all'acido ialuronico), le marche proprie di Matsukiyo, creme solari Biore.
+  orari: Daikoku fino alle 22 o alle 23:50 a seconda della fonte · Sugi Drug (Shinsaibashi-suji 1-3-22) fino alle 24 · Tsuruha fino alle 23 · Matsukiyo fino alle 22–22:30
+  attenzione: tax-free nuovo (dal 1/11/2026): pagate il prezzo pieno col passaporto in mano, almeno ¥5.000 nello stesso negozio; l'IVA ve la rimborsano ad Haneda il 18/11, prima di imbarcare le valigie. Tenete gli scontrini e gli acquisti con voi.
+- 22:45 fare Round1 (centro giochi) o bar di Ura-Namba | posto: round1 | via piedi: #daikoku-shinsaibashi > #round1 (Shinsaibashi-suji → Round1)
   breve: centro giochi enorme o vicoli di bar
   Round1 Sennichimae: sale giochi fino alle 0:50, bowling, karaoke. In alternativa [[ura-namba]]: vicoli di bar e osterie economiche.
-- 23:30 sposta Hotel | via piedi: #round1 > @hillarys (Round1 → hotel)
+- 23:45 sposta Hotel | via piedi: #round1 > @hillarys (Round1 → hotel)
   breve: a piedi 15′
 
 #### Guida
@@ -1238,11 +1245,21 @@ con: voi due
   breve: a piedi 10′, attraversando l'incrocio
   come: passate dall'[[shibuya-crossing]] (l'incrocio più famoso del mondo) che avete appena visto dall'alto, poi su per la via verso PARCO
 - 11:10 fare Shibuya PARCO | posto: shibuya-parco
-  breve: 6° piano: Nintendo, Pokémon, Capcom, Jump · 1 h 30 al massimo
+  breve: 6° piano: Nintendo, Pokémon, Capcom, Jump · 40′
   orari: 6° piano dalle 10, gli altri negozi dalle 11
-- 12:40 sposta Komachi-dōri | via mezzi: Shibuya Station, Tokyo > #komachi-dori (Shibuya → Komachi-dōri)
-  breve: treno JR diretto ~1 h + a piedi 3′
-  come: treno JR linea Shōnan-Shinjuku da Shibuya a Kamakura: solo quelli per Zushi sono diretti (~1 ogni 30′); quelli per Odawara o Kōzu richiedono un cambio. Uscita est.
+- 11:50 sposta S. Watanabe, Ginza | via mezzi: Shibuya Station, Tokyo > #watanabe-stampe (Shibuya → Watanabe)
+  breve: metro Ginza line diretta ~17′ + a piedi 4′
+  come: metro Ginza line da Shibuya a Shimbashi (diretta, ~17′), uscita verso Ginza 8-chōme, 4′ a piedi
+- 12:15 fare S. Watanabe (stampe giapponesi) | posto: watanabe-stampe
+  breve: stampe su legno da incorniciare · da ~¥3.000 · 30′
+  Bottega e editore di stampe dal 1906 sulla via Namiki di Ginza: ukiyo-e (le stampe classiche, tipo Hiroshige e Hokusai) ristampate a mano con le tecniche tradizionali e shin-hanga («stampe nuove» del Novecento, paesaggi di Hasui Kawase). Per stare sui ¥6.500–7.500 (€35–40) chiedete le ristampe in formato verticale (hosoban o chūban, i formati stretti) o le stampe piccole; quelle grandi e gli originali costano molto di più. Ci sono anche cartoline e biglietti.
+  orari: 11–18:30 · chiuso la domenica
+  costo: ukiyo-e da ~¥3.000
+  alternativa: [[yoseido]] (stampe moderne di giovani artisti, Ginza 5-chōme, 10′ a piedi: solo se avete tempo)
+  attenzione: la stampa viaggia arrotolata o piatta in cartelletta: chiedetela piatta e tenetela nello zaino, non in valigia
+- 12:45 sposta Komachi-dōri | via mezzi: Shimbashi Station > #komachi-dori (Shimbashi → Komachi-dōri)
+  breve: treno JR diretto ~55′ + a piedi 3′
+  come: treno JR linea Yokosuka (blu e crema) da Shimbashi a Kamakura, diretto, ogni 10–15′. Uscita est.
   costo: ~¥950
 - 13:50 cibo Komachi-dōri (via dello street food) | città: kamakura | posto: komachi-dori
   breve: pranzo di street food · ~30′
@@ -1300,6 +1317,7 @@ mangiare:
 prenotare:
   • Sushi Tokyo Ten ore 19:00 per 2 (TableCheck, con carta)
 attenzione:
+  • S. Watanabe (stampe) apre alle 11, chiuso la domenica: stampa verticale entro ¥6.500–7.500
   • Tsukiji chiude mercoledì e domenica (martedì è aperto)
   • Shibuya Sky alle 10:00: ingresso entro 20′, si parte dall'hotel alle 8:00
   • Hase-dera: ultimo ingresso 16:30 (chiude alle 17)
@@ -1333,7 +1351,7 @@ con: voi due
   come: Tokyo Monorail da Hamamatsuchō al Terminal 3
 - 10:15 viaggio Rimborso tax-free e check-in | dove: Haneda Airport Terminal 3 | foto: Haneda Airport
   breve: check-in ITA entro le 12:20
-  attenzione: il rimborso tax-free (l'IVA sugli acquisti) si fa al terminale apposito PRIMA di imbarcare le valigie
+  attenzione: il rimborso tax-free (l'IVA sugli acquisti) si fa al terminale apposito PRIMA di imbarcare le valigie. Dal 1/11/2026 vale per tutto ciò che avete comprato in Giappone in modalità tax-free: tenete gli acquisti a portata di mano, la dogana può chiedere di vederli
 - 13:20 viaggio Volo AZ793 Tokyo → Roma | foto: ITA Airways | prenotato
   breve: 13:20 → 20:25 (ora italiana)
 - 20:25 viaggio Arrivo a Fiumicino | fuso: roma | dove: Aeroporto di Roma Fiumicino | foto: Leonardo da Vinci–Fiumicino Airport
@@ -2060,6 +2078,11 @@ nome: Shibuya
 cosa: il grande incrocio e i grattacieli
 posti: shibuya-sky, shibuya-crossing, shibuya-parco, sushi-ten
 
+### ginza
+nome: Ginza
+cosa: il quartiere elegante dei negozi e delle gallerie
+posti: watanabe-stampe, yoseido
+
 ### hamamatsucho
 nome: Hamamatsuchō e Shiba
 cosa: zona dell'hotel finale, vicino alla Tokyo Tower
@@ -2173,7 +2196,7 @@ posti: @hillarys
 ### namba
 nome: Namba e Dōtonbori
 cosa: insegne luminose, street food e vita notturna
-posti: dotonbori, hozenji-yokocho, fukutaro, round1
+posti: dotonbori, hozenji-yokocho, fukutaro, round1, daikoku-shinsaibashi
 
 ### nipponbashi
 nome: Nipponbashi
@@ -3723,6 +3746,36 @@ nota: Pub minuscolo in una viuzza (facciata gialla), musica e quaderni dei viagg
 maps: レッドヒル 高山市総和町2-4-2
 tripadvisor: https://www.tripadvisor.com/Restaurant_Review-g298113-d4770421-Reviews-Red_Hill-Takayama_Gifu_Prefecture_Tokai_Chubu.html
 foto: Pub
+
+### watanabe-stampe
+nome: S. Watanabe (stampe giapponesi)
+tipo: 🖼 Negozio
+città: tokyo
+giorno: 17/11
+nota: Ukiyo-e e shin-hanga stampati a mano, da ~¥3.000 · Ginza 8-6-19, 4′ dalla stazione Shimbashi · 11–18:30, chiuso dom.
+maps: 渡邊木版美術画舗 東京都中央区銀座8-6-19
+sito: https://www.timeout.com/tokyo/shopping/s-watanabe-color-print-co
+foto: Ukiyo-e
+
+### yoseido
+nome: Yoseido Gallery (stampe moderne)
+tipo: 🖼 Negozio
+città: tokyo
+giorno: 17/11
+nota: Stampe moderne e contemporanee di giovani artisti, prezzi abbordabili · Ginza 5-5-15 · 11–19, chiuso dom. e festivi
+maps: 養清堂画廊 東京都中央区銀座5-5-15
+sito: https://www.tokyoartbeat.com/en/venues/-/F1682570
+foto: Ginza
+
+### daikoku-shinsaibashi
+nome: Daikoku Drug e drogherie di Shinsaibashi-suji
+tipo: 🧴 Skincare
+città: osaka
+giorno: 15/11
+nota: Catena di Osaka tra le più economiche, all'inizio della via coperta Shinsaibashi-suji dal ponte Ebisu · accanto Matsukiyo, Sugi Drug (fino alle 24), Tsuruha
+maps: ダイコクドラッグ ウルトラ心斎橋店
+sito: https://daikokudrug.com/store/ultrashinsaibashi/
+foto: Shinsaibashi
 
 ### famima-kamininomachi
 nome: FamilyMart Kamininomachi (konbini)
