@@ -124,6 +124,8 @@ Biglietti del 15/11 (13/11, foto di Federico): ritirati in stazione a Takayama, 
 
 Sera del 13/11 (13/11 alle 12:56, richiesta di Federico: dopo le 17 era vuota): vie antiche di Sanmachi al buio dopo Nakabashi, check-in e riposo, Taruhei invariato, poi giro di bar (Bar Thumbs Up → Japanese Pub YU, Red Hill alternativa) e onsen alle 22:30 (aperto fino all'1). Scartate: casa Murahan e centro esperienze (opzioni proposte non scelte), sala giochi (una sola in città, recensioni pessime).
 
+Pomeriggio del 14/11 (13/11 alle 17:33, richiesta di Federico: giornate scariche): Shōwa-kan alle 16:05 dritti dalla stazione dei bus (9–17, ¥1.200, aperto tutti i giorni, verificato su Walkerplus e Japan47go), onsen spostato dopo cena alle 20:10. Proposte non scelte: passeggiata Higashiyama, aperitivo a Dekonaru Yokochō (vicolo di localini, 17–24), karaoke o bar a Sōwamachi dopo cena.
+
 Pasti senza doppioni (30/10, richiesta di Federico): mai due pasti dello stesso tipo nello stesso giorno. 6/11 cena: sushi in piedi da Uogashi Nihonichi (stazione di Akihabara) al posto del ramen Kyushu Jangara. 13/11 pranzo: ramen di Takayama da Masago Soba al posto di Kotte Ushi (manzo + bistecca la sera); Kotte Ushi resta alternativa.
 Ristoranti e orari dei pasti (30/10, richiesta di Federico): tutti verificati su Tabelog (3,45+), prezzi fattibili tranne sushi omakase ≤€60 e Kobe ≤€70; pranzo verso le 13 e cena 19–20, ~1 h ciascuno, senza forzare il percorso. 6/11 Kizuna Sushi (3,48) al posto di Uogashi (3,25); 11/11 Kiyomizu-dera prima e SANSHIKI alle 12:45 scendendo; 12/11 Okakita (3,69) al posto di Daigin (3,34) con giro al contrario Keage → Nanzen-ji → Sentiero → Ginkaku-ji; 13/11 Taruhei (3,62) al posto di Kitchen Hida (troppo cara), onsen prima di cena; 14/11 Neighbird (3,60) al posto di Kyōya (3,33); 15/11 Kobe alle 19 col corso da ~¥11.000; 16/11 pranzo alle 13:30 e cena sullo Shinkansen. Hisago (oyakodon a Gion) risulta chiuso su Tabelog. Il 6/11 il pranzo resta alle 14:10 per l'atterraggio. 17/11: a Tsukiji solo assaggi cotti, il crudo è la cena da Sushi Tokyo Ten.
 
@@ -995,10 +997,18 @@ con: voi due
 - 13:45 vedere Belvedere Shiroyama | posto: belvedere-shiroyama
   breve: il villaggio visto dall'alto · navetta inclusa
   La navetta per il belvedere passa ogni 20′ circa: tenete d'occhio l'ora del bus.
-- 15:00 viaggio Rientro a Takayama | treno: bus-14 | prenotato | città: takayama | via piedi: Takayama Nohi Bus Center > @alpina (Stazione dei bus → hotel) | foto: Takayama, Gifu
-  breve: 15:00 → 15:50 · poi 3′ a piedi all'hotel
-- 16:00 hotel Riposo all'Alpina | alloggio: alpina
-  breve: onsen sul tetto verso le 16:30 · cena alle 19
+- 15:00 viaggio Rientro a Takayama | treno: bus-14 | prenotato | città: takayama | via piedi: Takayama Nohi Bus Center > #showa-kan (Stazione dei bus → Shōwa-kan) | foto: Takayama, Gifu
+  breve: 15:00 → 15:50 · poi a piedi ~15′ dritti al Shōwa-kan
+- 16:05 vedere Takayama Shōwa-kan (museo degli anni '50–'60) | posto: showa-kan
+  breve: il Giappone di 60 anni fa ricostruito al chiuso · ~50′
+  Due piani di vie, botteghe, case, barbiere, cinema e scuola dell'epoca Shōwa (1926–1989, qui soprattutto gli anni '50–'60), con insegne, giocattoli e oggetti veri. Si può toccare e giocare: ci sono anche console e videogiochi d'epoca. Nella città vecchia, a 3′ da Sanmachi.
+  costo: ¥1.200
+  orari: 9–17 · aperto tutti i giorni
+  attenzione: chiude alle 17: andate dritti dalla stazione dei bus, senza passare dall'hotel. Se il bus arriva dopo le 16:15 lasciate perdere e andate in hotel
+- 17:00 sposta Hotel | via piedi: #showa-kan > @alpina (Shōwa-kan → hotel)
+  breve: a piedi ~15′
+- 17:15 hotel Riposo all'Alpina | alloggio: alpina
+  breve: riposo · cena alle 19 · onsen dopo cena
 - 18:50 sposta Neighbird | via piedi: @alpina > #neighbird (Hotel → Neighbird)
   breve: a piedi ~5′ · vicino alla stazione
 - 19:00 cibo Neighbird (yakitori) | posto: neighbird | prenotare
@@ -1010,11 +1020,14 @@ con: voi due
   veloce: [[takochu]] (takoyaki e ramen, dalle 18) o [[satoh]] (supermercato con tavoli e microonde al 1° piano, fino alle 20)
 - 20:00 sposta Hotel | via piedi: #neighbird > @alpina (Neighbird → hotel)
   breve: a piedi ~5′
-- 20:10 hotel Valigia pronta, a letto presto | alloggio: alpina
+- 20:10 fare Onsen sul tetto (bagno termale) | foto: Onsen | alloggio: alpina
+  breve: terme panoramiche dell'hotel dopo cena · ~45′ · aperto fino all'1:00
+  attenzione: con tatuaggi visibili l'ingresso può essere negato
+- 21:00 hotel Valigia pronta, a letto presto | alloggio: alpina
   breve: domani check-out alle 7:40, treno alle 8:00
 
 #### Guida
-senso: Mercato sul fiume all'alba, poi gita in bus a Ainokura e Shirakawa-go, i villaggi delle case col tetto di paglia; rientro alle 15:50, terme e cena di yakitori.
+senso: Mercato sul fiume all'alba, poi gita in bus a Ainokura e Shirakawa-go, i villaggi delle case col tetto di paglia; rientro alle 15:50, museo degli anni '50 (Shōwa-kan), cena di yakitori e terme dopo cena.
 mangiare:
   • Al mercato: mochi grigliati (dolcetti di riso) e sottaceti
   • Pranzo: Irori a Shirakawa-go, Hida beef col miso attorno al focolare (Tabelog 3,47), alle 12:30; non è incluso nella gita
@@ -1028,11 +1041,12 @@ attenzione:
   • Le case abitate non si visitano, le risaie non si calpestano
 anticipo: • Passeggiata nella zona dei templi di Takayama (Higashiyama, a est del centro)
 stanchi: • Saltate il mercato: il bus della gita parte comunque alle 8:30
-contanti: ¥4.000–8.000 a testa
+contanti: ¥5.000–9.000 a testa
   • Mercato mattutino di Miyagawa: bancarelle in contanti
   • Irori (~¥1.500–3.000): niente Visa e Mastercard, pagate in contanti
   • Snack a Shirakawa-go
-camminata: ~7 km (belvedere con la navetta) · bus ~3 h in tutto · pause: pranzo 1 h, riposo e terme 2 h 30, cena 1 h
+  • Shōwa-kan ¥1.200 (meglio contanti)
+camminata: ~8 km (belvedere con la navetta) · bus ~3 h in tutto · pause: pranzo 1 h, riposo 1 h 30, cena 1 h, terme 45′
 
 ### 2026-11-15
 percorso: takayama > osaka
@@ -2177,7 +2191,7 @@ posti: @alpina
 ### takayama-centro
 nome: Centro storico di Takayama
 cosa: vie di case in legno, distillerie e mercati
-posti: masago-soba, kotte-ushi, jinya, sanmachi, yatai-kaikan, nakabashi, taruhei, kitchen-hida, mercato-miyagawa, neighbird, bar-thumbs-up, pub-yu, red-hill
+posti: masago-soba, kotte-ushi, jinya, sanmachi, yatai-kaikan, nakabashi, taruhei, kitchen-hida, mercato-miyagawa, showa-kan, neighbird, bar-thumbs-up, pub-yu, red-hill
 
 ### shirakawa
 nome: Shirakawa-go
@@ -2944,15 +2958,14 @@ tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298113-d8586387-Revi
 foto: Takayama, Gifu
 
 ### showa-kan
-nome: Showa-kan (alternativa)
+nome: Takayama Shōwa-kan
 tipo: 🕹 Museo
 città: takayama
-giorno: 13/11
-nota: Vita giapponese anni '50
+giorno: 14/11
+nota: 16:05 · 9–17, ¥1.200
 maps: Takayama Showakan
 tripadvisor: https://www.tripadvisor.com/Attraction_Review-g298113-d3385796-Reviews-Takayama_Showakan-Takayama_Gifu_Prefecture_Tokai_Chubu.html
 sito: https://showakan.jp/takayama/
-mappa: no
 foto: Shōwa era
 
 ### kitchen-hida
