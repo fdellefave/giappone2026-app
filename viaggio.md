@@ -116,6 +116,8 @@ Pomeriggio 11/11 (15:30, ancora alla stazione di Kyoto dopo pranzo; richiesta di
 12/11 alle 9:00 scesi ad Arashiyama (35′ di ritardo): bambù 9:10 (20′, senza giro in fondo), Tenryū-ji 9:30 (35′), tram 10:10, Ryōan-ji 10:40, Kinkaku-ji 11:30, taxi 12:10; Okakita 12:35 e il resto invariati. Se si perde il tram delle 10:15: taxi diretto al Kinkaku-ji, Ryōan-ji saltato.
 Poi (9:01) Federico ha chiesto di spostare semplicemente tutto di 30′ rispetto al piano della notte: bambù 8:55 … Okakita 13:05, Ginkaku-ji 15:55, Nishiki 17:05 (in chiusura), Nintendo 17:55, Kotetsu 19:30, stazione 21:05, lavanderia 21:30.
 
+Biglietti del 15/11 (13/11, foto di Federico): ritirati in stazione a Takayama, 3 a testa (base Takayama → Osaka città ¥6.380 valido 15–17/11, Hida 4 ¥2.930 carrozza 2 posto 5B, Nozomi 247 ¥3.470 carrozza 12 posto 3B); orari e posti coincidono col file.
+
 Sera del 13/11 (13/11 alle 12:56, richiesta di Federico: dopo le 17 era vuota): vie antiche di Sanmachi al buio dopo Nakabashi, check-in e riposo, Taruhei invariato, poi giro di bar (Bar Thumbs Up → Japanese Pub YU, Red Hill alternativa) e onsen alle 22:30 (aperto fino all'1). Scartate: casa Murahan e centro esperienze (opzioni proposte non scelte), sala giochi (una sola in città, recensioni pessime).
 
 Pasti senza doppioni (30/10, richiesta di Federico): mai due pasti dello stesso tipo nello stesso giorno. 6/11 cena: sushi in piedi da Uogashi Nihonichi (stazione di Akihabara) al posto del ramen Kyushu Jangara. 13/11 pranzo: ramen di Takayama da Masago Soba al posto di Kotte Ushi (manzo + bistecca la sera); Kotte Ushi resta alternativa.
@@ -1035,10 +1037,13 @@ con: voi due
 - 07:40 hotel Check-out dall'Alpina | alloggio: alpina | via piedi: @alpina > Takayama Station (Hotel → stazione di Takayama)
   breve: colazione veloce · 3′ a piedi alla stazione
 - 08:00 viaggio Treno Hida (espresso) Takayama → Nagoya | foto: Hida (train) | treno: hida-15 | prenotato
-  breve: 8:00 → 10:34 · Hida 4
+  breve: 8:00 → 10:34 · Hida 4 · carrozza 2, posti 5A e 5B
+  biglietti: a testa 3 biglietti di carta (ritirati il 13/11 a Takayama): biglietto base Takayama → Osaka (¥6.380), supplemento espresso Hida (¥2.930), supplemento Shinkansen (¥3.470). Teneteli tutti e tre insieme fino all'uscita a Shin-Osaka.
+  come: al tornello di Takayama infilate insieme il biglietto base e quello dell'espresso Hida: ve li restituisce. Carrozza non fumatori.
 - 10:58 viaggio Shinkansen (treno superveloce) Nagoya → Osaka | foto: Tōkaidō Shinkansen | treno: shink-15 | prenotato
-  breve: 10:58 → 11:48 · Nozomi 247 · cambio di 24′
-  come: dal binario 4 al 17 seguendo i cartelli dello Shinkansen, passando dai tornelli di cambio (si infilano i biglietti)
+  breve: 10:58 → 11:48 · Nozomi 247 · carrozza 12, posti 3A e 3B · cambio di 24′
+  come: dal binario 4 al 17 seguendo i cartelli dello Shinkansen. Al tornello di cambio (quello con scritto «Transfer», da linee normali a Shinkansen) infilate insieme i tre biglietti: si tiene quello dell'espresso Hida e vi restituisce gli altri due. All'uscita di Shin-Osaka infilate base + Shinkansen: li trattiene entrambi.
+  attenzione: il biglietto base vale fino a qualunque stazione JR dentro la città di Osaka, ma solo senza uscire prima: si esce a Shin-Osaka e la metro si paga a parte (ICOCA o Suica).
   Shin-Osaka è la stazione dello Shinkansen di Osaka, diversa dalla stazione centrale.
 - 12:00 sposta Hotel Hillarys | città: osaka | via mezzi: Shin-Osaka Station > @hillarys (Shin-Osaka → Hotel Hillarys)
   breve: metro 15′ + a piedi 4′
@@ -1627,7 +1632,7 @@ pagato da: Federico
 conferma: 2026-10-15
 emesso: 2026-10-15
 link: https://s.klook.com/c/Z3Or7m_o3k
-nota: Un solo biglietto Klook fino a Shin-Osaka, con cambio di 24′ a Nagoya.
+nota: Un solo biglietto Klook fino a Shin-Osaka, con cambio di 24′ a Nagoya. Biglietti di carta ritirati il 13/11 alla stazione di Takayama (3 a testa: base ¥6.380, espresso Hida ¥2.930, Shinkansen ¥3.470). Carrozza non fumatori.
 
 ### shink-15
 data: 2026-11-15
@@ -1637,6 +1642,7 @@ orario: 10:58 → 11:48
 posti: carrozza 12, posti 3A e 3B
 binari: parte dal 17 a Nagoya, arriva al 22 a Shin-Osaka
 prezzo: compreso nel biglietto del treno Hida
+nota: Biglietto di carta ritirato il 13/11 a Takayama insieme a quelli del treno Hida. Il biglietto base (Takayama → Osaka città) vale dal 15 al 17/11.
 stato: pagato
 pagato da: Federico
 conferma: 2026-10-15
