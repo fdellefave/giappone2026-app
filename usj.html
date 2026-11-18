@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#14181f">
+<title>USJ 16/11 · Mappa</title>
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<style>
+:root{--bg:#14181f;--card:#1f2530;--tx:#eef1f6;--mu:#9aa4b2;--skip:#22c55e;--fila:#f59e0b;--fumo:#a78bfa;--altro:#64748b;--acc:#3b82f6}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--tx);font:15px/1.4 -apple-system,system-ui,sans-serif}
+header{position:sticky;top:0;z-index:20;background:rgba(20,24,31,.92);backdrop-filter:blur(12px);padding:calc(env(safe-area-inset-top) + 8px) 12px 8px}
+.emb header{padding-top:8px}
+.top{display:flex;align-items:center;gap:8px}
+.top a{color:var(--acc);text-decoration:none;font-size:14px;white-space:nowrap}
+.top h1{flex:1;font-size:16px;margin:0;text-align:center}
+.tabs{display:flex;gap:6px;margin-top:8px}
+.tabs button{flex:1;border:0;border-radius:10px;padding:8px;background:var(--card);color:var(--mu);font:inherit;font-weight:600}
+.tabs button.on{background:var(--acc);color:#fff}
+#now{margin-top:8px;background:var(--card);border-radius:12px;padding:8px 10px;font-size:14px}
+#now b{color:#fff}#now .lbl{color:var(--mu);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+#now .btn{display:block;width:100%;margin-top:6px;padding:8px;font-size:14px}
+.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:12px;color:var(--mu);margin-top:6px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+#mapwrap{overflow:auto;-webkit-overflow-scrolling:touch;position:fixed;left:0;right:0;bottom:0}
+#map{position:relative;width:100%}
+#map img{width:100%;display:block;user-select:none;-webkit-user-select:none}
+#map svg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.pin{position:absolute;transform:translate(-50%,-50%);min-width:22px;height:22px;padding:0 5px;border-radius:11px;border:2px solid #fff;color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,.5);cursor:pointer}
+.pin.skip{background:var(--skip)}.pin.fila{background:var(--fila)}.pin.fumo{background:var(--fumo)}.pin.altro{background:var(--altro);opacity:.85}.pin.base{background:var(--acc)}
+.pin.done{opacity:.35}
+.pin.next{animation:pulse 1.2s infinite;z-index:5}
+.pin.sel{outline:3px solid #fff;outline-offset:2px;z-index:6}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(59,130,246,.9)}100%{box-shadow:0 0 0 16px rgba(59,130,246,0)}}
+.zoom{position:fixed;right:12px;bottom:calc(env(safe-area-inset-bottom) + 14px);display:flex;flex-direction:column;gap:8px;z-index:15}
+.zoom button{width:44px;height:44px;border-radius:22px;border:0;background:rgba(31,37,48,.9);color:#fff;font-size:22px;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+#sheet{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--card);border-radius:18px 18px 0 0;padding:14px 16px calc(env(safe-area-inset-bottom) + 16px);box-shadow:0 -6px 24px rgba(0,0,0,.5);transform:translateY(110%);transition:transform .2s;max-height:60vh;overflow:auto}
+#sheet.open{transform:none}
+#sheet h2{margin:0 0 2px;font-size:18px}
+#sheet .tag{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:8px;margin:4px 6px 6px 0}
+.tag.skip{background:rgba(34,197,94,.2);color:var(--skip)}.tag.fila{background:rgba(245,158,11,.2);color:var(--fila)}.tag.fumo{background:rgba(167,139,250,.2);color:var(--fumo)}.tag.altro,.tag.base{background:rgba(100,116,139,.25);color:#cbd5e1}
+#sheet p{margin:6px 0;color:#d6dbe3}
+.btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.btn{flex:1;min-width:120px;border:0;border-radius:12px;padding:11px;font:inherit;font-weight:600;text-align:center;text-decoration:none;color:#fff;background:var(--acc)}
+.btn.sec{background:#334155}
+.x{position:absolute;right:12px;top:10px;border:0;background:none;color:var(--mu);font-size:24px}
+#list{display:none;padding:8px 12px calc(env(safe-area-inset-bottom) + 24px)}
+.it{display:flex;gap:10px;background:var(--card);border-radius:12px;padding:10px;margin-bottom:8px;align-items:flex-start}
+.it .t{font-weight:700;width:46px;flex:none}
+.it .b{flex:1}.it .n{font-weight:600}.it .s{color:var(--mu);font-size:13px}
+.it.done{opacity:.45}.it.next{outline:2px solid var(--acc)}
+.it .ck{flex:none;width:30px;height:30px;border-radius:15px;border:2px solid #475569;background:none;color:#fff;font-size:15px}
+.it.done .ck{background:var(--skip);border-color:var(--skip)}
+h3{font-size:13px;color:var(--mu);text-transform:uppercase;letter-spacing:.05em;margin:18px 4px 8px}
+</style>
+</head>
+<body>
+<header>
+  <div class="top"><a href="./" id="back">‹ Itinerario</a><h1>Universal Studios · 16/11</h1><a href="#" id="reset" style="visibility:hidden">x</a></div>
+  <div class="tabs"><button id="tMap" class="on">Mappa</button><button id="tList">Programma</button></div>
+  <div id="now"></div>
+  <div class="legend"><span><i style="background:var(--skip)"></i>skip line (pagato)</span><span><i style="background:var(--fila)"></i>fila</span><span><i style="background:var(--fumo)"></i>area fumatori</span><span><i style="background:var(--altro)"></i>altro</span></div>
+</header>
+<div id="mapwrap"><div id="map"><img src="usj-mappa.jpg" alt="Mappa di Universal Studios Japan"><svg id="ov" viewBox="0 0 100 100" preserveAspectRatio="none"></svg></div></div>
+<div id="list"></div>
+<div class="zoom" id="zoom"><button id="zin">+</button><button id="zout">−</button></div>
+<div id="sheet"><button class="x" id="close">×</button><div id="sc"></div></div>
+<script>
+// Coordinate in pixel della foto originale (1512×2016), ritagliata da y=220 a y=1880.
+var W = 1512, Y0 = 220, H = 1660;
+var Q = ", Universal Studios Japan, Osaka";
+var P = {
+  armadietti: { x: 365, y: 1590, n: "Armadietti", q: "Universal Studios Japan coin lockers", k: "base" },
+  ingresso: { x: 365, y: 1490, n: "Ingresso del parco", q: "Universal Studios Japan main gate", k: "base" },
+  hd: { x: 640, y: 1150, n: "Hollywood Dream", q: "Hollywood Dream The Ride" + Q, k: "fila", num: 1 },
+  snw: { x: 1195, y: 1300, n: "Ingresso Super Nintendo World", q: "Super Nintendo World" + Q, k: "base" },
+  mk: { x: 1313, y: 1397, n: "Mario Kart: Koopa's Challenge", q: "Mario Kart Koopa's Challenge" + Q, k: "skip", num: 21 },
+  mc: { x: 1265, y: 1595, n: "Mine-Cart Madness", q: "Mine-Cart Madness Donkey Kong Country" + Q, k: "skip", num: 23 },
+  yo: { x: 1238, y: 1425, n: "Yoshi's Adventure", q: "Yoshi's Adventure" + Q, k: "fila", num: 22 },
+  mb: { x: 768, y: 585, n: "Minion Blast", q: "Villain-Con Minion Blast" + Q, k: "skip", num: 10 },
+  hp: { x: 1035, y: 1535, n: "Harry Potter and the Forbidden Journey", q: "Harry Potter and the Forbidden Journey" + Q, k: "skip", num: 19 },
+  hi: { x: 995, y: 1508, n: "Flight of the Hippogriff", q: "Flight of the Hippogriff" + Q, k: "fila", num: 20 },
+  fd: { x: 1048, y: 598, n: "The Flying Dinosaur", q: "The Flying Dinosaur" + Q, k: "skip", num: 11 },
+  jp: { x: 1050, y: 656, n: "Jurassic Park – The Ride", q: "Jurassic Park The Ride" + Q, k: "fila", num: 12 },
+  mm: { x: 738, y: 432, n: "Minion Mayhem", q: "Despicable Me Minion Mayhem" + Q, k: "fila", num: 9 },
+  // altre attrazioni e spettacoli
+  ww: { x: 1255, y: 968, n: "WaterWorld (spettacolo)", q: "WaterWorld" + Q, k: "altro", num: 13, d: "Spettacolo di stunt con moto d'acqua ed esplosioni, ~20′, gratis. Più repliche al giorno: orari nell'app USJ." },
+  ja: { x: 930, y: 1030, n: "JAWS", q: "JAWS" + Q, k: "altro", num: 14, d: "Giro in barca nel porto di Amity, attaccati dallo squalo del film. Coda normale." },
+  um: { x: 720, y: 1050, n: "Universal Monsters Live (spettacolo)", q: "Universal Monsters Live Rock and Roll Show" + Q, k: "altro", num: 2, d: "Spettacolo rock coi mostri dei vecchi film Universal (Dracula, Frankenstein). Gratis, orari nell'app." },
+  si: { x: 612, y: 838, n: "SING on Tour (spettacolo)", q: "SING on Tour" + Q, k: "altro", num: 3, d: "Spettacolo musicale coi personaggi del film d'animazione Sing. Gratis." },
+  sf: { x: 352, y: 908, n: "Space Fantasy", q: "Space Fantasy The Ride" + Q, k: "altro", num: 6, d: "Montagne russe al chiuso che girano su sé stesse, tra pianeti e luci. Coda normale." },
+  co: { x: 355, y: 830, n: "Detective Conan 4-D (spettacolo)", q: "Detective Conan 4-D Live Show" + Q, k: "altro", num: 7, d: "Spettacolo 4-D (film con effetti in sala) del detective Conan, manga giapponese famosissimo." },
+  fr: { x: 718, y: 512, n: "Freeze Ray Sliders", q: "Freeze Ray Sliders" + Q, k: "altro", num: 8, d: "Giostra girevole dei Minion, corta." },
+  sn: { x: 935, y: 1237, n: "Snoopy's Flying Ace", q: "Snoopy's Flying Ace Adventure" + Q, k: "altro", num: 15, d: "Aeroplanini che girano e si inclinano, nella zona per bambini." },
+  // aree fumatori (castel.jp, ottobre 2026)
+  f1: { x: 250, y: 1470, n: "Area fumatori · Annual Pass Center", q: "Universal Studios Japan Annual Pass Center", k: "fumo", num: "🚬", d: "Accanto all'Annual Pass Center (sportello degli abbonamenti), a sinistra appena dentro l'ingresso, verso Hollywood. All'aperto, dietro le piante, ~4 posacenere. Posizione sulla mappa approssimativa." },
+  f2: { x: 1130, y: 820, n: "Area fumatori · Jurassic Park", q: "Discovery Restaurant Lost World" + Q, k: "fumo", num: "🚬", d: "In Jurassic Park, a sinistra dell'ingresso del Lost World Restaurant, accanto alla cascata dove scende Jurassic Park – The Ride. All'aperto, ~6 posacenere. Posizione sulla mappa approssimativa." }
+};
+// Programma di oggi (stesso di viaggio.md)
+var IT = [
+  { t: "08:25", p: "armadietti", n: "Valigie negli armadietti", s: "ritiro alle 18:10" },
+  { t: "09:00", p: "hd", n: "Hollywood Dream", k: "fila", s: "montagne russe con la musica · se la coda supera i 60′, salta" },
+  { t: "10:00", p: null, n: "Giro del parco", s: "esplorazione libera · alle 10:45 all'ingresso di Super Nintendo World" },
+  { t: "10:45", p: "snw", n: "Ingresso Super Nintendo World", s: "dal castello di Peach, accanto a Water World · prima delle 11 non si entra" },
+  { t: "11:00", p: "mk", n: "Mario Kart: Koopa's Challenge", k: "skip", s: "Express Pass 11:00–11:30 · kart con visore a realtà aumentata" },
+  { t: "11:30", p: "mc", n: "Mine-Cart Madness", k: "skip", s: "Express Pass 11:30–12:00 · montagne russe di Donkey Kong" },
+  { t: "12:00", p: "yo", n: "Yoshi's Adventure", k: "fila", s: "giro su Yoshi, poi foto · se la coda supera i 30′, salta" },
+  { t: "13:00", p: "mb", n: "Minion Blast", k: "skip", s: "Express Pass 13:00–13:30 · uscite da Nintendo alle 12:40" },
+  { t: "13:30", p: null, n: "Pranzo · Mel's Drive-In", s: "hamburger · oppure la parata NO LIMIT! verso le 14 (orario nell'app USJ)", q: "Mel's Drive-In" + Q },
+  { t: "14:30", p: "hp", n: "Harry Potter and the Forbidden Journey", k: "skip", s: "Express Pass, senza orario · nel castello di Hogwarts" },
+  { t: "15:15", p: "hi", n: "Flight of the Hippogriff", k: "fila", s: "piccole montagne russe accanto al castello · se supera i 45′, salta" },
+  { t: "16:00", p: "fd", n: "The Flying Dinosaur", k: "skip", s: "Express Pass, senza orario · appesi a pancia in giù" },
+  { t: "16:30", p: "jp", n: "Jurassic Park – The Ride", k: "fila", s: "barca e tuffo finale, ci si bagna · se supera i 45′, salta" },
+  { t: "17:20", p: "mm", n: "Minion Mayhem", k: "fila", s: "simulatore 3D · in alternativa JAWS o WaterWorld" },
+  { t: "18:10", p: "armadietti", n: "Ritiro valigie", s: "poi treno JR per Shin-Osaka, Shinkansen alle 20:00" }
+];
+var KL = { skip: "skip line · Express Pass", fila: "fila · coda normale", fumo: "area fumatori", altro: "non in programma", base: "punto di passaggio" };
+var DONE = {};
+try { DONE = JSON.parse(localStorage.getItem("usj16done") || "{}"); } catch (e) {}
+function save() { try { localStorage.setItem("usj16done", JSON.stringify(DONE)); } catch (e) {} }
+function px(p) { return { l: p.x / W * 100, t: (p.y - Y0) / H * 100 }; }
+function maps(q) { return "https://maps.apple.com/?daddr=" + encodeURIComponent(q) + "&dirflg=w"; }
+function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+function nowMin() {
+  var d = new Date(Date.now() + 9 * 3600e3); // ora di Tokyo
+  return d.getUTCHours() * 60 + d.getUTCMinutes();
+}
+function m(t) { return +t.slice(0, 2) * 60 + +t.slice(3); }
+function state() {
+  var nm = nowMin(), cur = -1, nxt = -1;
+  for (var i = 0; i < IT.length; i++) if (m(IT[i].t) <= nm) cur = i;
+  for (var j = cur + 1; j < IT.length; j++) if (!DONE[j]) { nxt = j; break; }
+  return { cur: cur, nxt: nxt };
+}
+var map = document.getElementById("map"), ov = document.getElementById("ov"), sel = null;
+function pinHtml(id) {
+  var p = P[id], c = px(p), st = state();
+  var idx = IT.map(function (x, i) { return x.p === id ? i : -1; }).filter(function (i) { return i >= 0; });
+  var done = idx.length && idx.every(function (i) { return DONE[i]; });
+  var isNext = st.nxt >= 0 && IT[st.nxt].p === id;
+  var label = p.num || (idx.length ? IT[idx[0]].t.replace(/^0/, "") : "•");
+  if (idx.length && p.k !== "fumo" && p.k !== "altro") label = IT[idx[0]].t.replace(/^0/, "");
+  return '<div class="pin ' + p.k + (done ? " done" : "") + (isNext ? " next" : "") + (sel === id ? " sel" : "") + '" data-id="' + id + '" style="left:' + c.l + "%;top:" + c.t + '%">' + esc(label) + "</div>";
+}
+function draw() {
+  var h = "";
+  Object.keys(P).forEach(function (id) { h += pinHtml(id); });
+  map.querySelectorAll(".pin").forEach(function (e) { e.remove(); });
+  map.insertAdjacentHTML("beforeend", h);
+  // percorso del programma + freccia verso la prossima tappa
+  var st = state(), pts = IT.filter(function (x) { return x.p; }).map(function (x) { return px(P[x.p]); });
+  var line = '<polyline points="' + pts.map(function (c) { return c.l + "," + c.t; }).join(" ") + '" fill="none" stroke="rgba(255,255,255,.55)" stroke-width=".35" stroke-dasharray="1 .8" vector-effect="non-scaling-stroke" style="stroke-width:2px"/>';
+  if (st.nxt > 0) {
+    var a = null;
+    for (var i = st.nxt - 1; i >= 0; i--) if (IT[i].p) { a = px(P[IT[i].p]); break; }
+    var b = IT[st.nxt].p ? px(P[IT[st.nxt].p]) : null;
+    if (a && b) line += '<line x1="' + a.l + '" y1="' + a.t + '" x2="' + b.l + '" y2="' + b.t + '" stroke="#3b82f6" vector-effect="non-scaling-stroke" style="stroke-width:5px;stroke-linecap:round"/>';
+  }
+  ov.innerHTML = line;
+  drawNow(); drawList(); fit();
+}
+function drawNow() {
+  var st = state(), h = "";
+  if (st.cur >= 0 && !DONE[st.cur]) h += '<div><span class="lbl">Adesso</span> · <b>' + esc(IT[st.cur].n) + "</b>" + tagTxt(IT[st.cur].k) + "</div>";
+  if (st.nxt >= 0 && st.nxt !== st.cur) h += '<div><span class="lbl">Dopo · ' + IT[st.nxt].t + "</span> · <b>" + esc(IT[st.nxt].n) + "</b>" + tagTxt(IT[st.nxt].k) + "</div>";
+  if (st.nxt >= 0) h += '<button class="btn" data-go="' + st.nxt + '">Portami alla prossima</button>';
+  if (!h) h = "<b>Giornata finita</b> · buon viaggio verso Tokyo";
+  document.getElementById("now").innerHTML = h;
+}
+function tagTxt(k) { return k ? ' <span style="color:var(--' + k + ');font-weight:700">(' + (k === "skip" ? "skip line" : "fila") + ")</span>" : ""; }
+function drawList() {
+  var st = state(), h = "<h3>Programma di oggi</h3>";
+  IT.forEach(function (x, i) {
+    h += '<div class="it' + (DONE[i] ? " done" : "") + (i === st.nxt ? " next" : "") + '" data-go="' + i + '"><div class="t">' + x.t + '</div><div class="b"><div class="n">' + esc(x.n) + tagTxt(x.k) + '</div><div class="s">' + esc(x.s) + '</div></div><button class="ck" data-ck="' + i + '">' + (DONE[i] ? "✓" : "") + "</button></div>";
+  });
+  h += "<h3>Aree fumatori</h3>";
+  ["f1", "f2"].forEach(function (id) { h += '<div class="it" data-pin="' + id + '"><div class="t">🚬</div><div class="b"><div class="n">' + esc(P[id].n) + '</div><div class="s">' + esc(P[id].d) + "</div></div></div>"; });
+  h += '<div class="it"><div class="t">🚬</div><div class="b"><div class="n">Fuori dal parco · CityWalk 4° piano</div><div class="s">Al chiuso, dalle 10:00: salite le scale accanto al grande gorilla blu e cercate l\'insegna «Georgia». Uscire dal parco = niente rientro.</div></div></div>';
+  h += '<p class="s" style="color:var(--mu);font-size:12px;margin:12px 4px">Nel parco si fuma solo nelle aree segnate, mai camminando o in coda. Le aree possono cambiare: l\'app USJ le mostra sulla mappa. Fonte: castel.jp, ottobre 2026.</p>';
+  document.getElementById("list").innerHTML = h;
+}
+function openItem(i) {
+  var x = IT[i], p = x.p ? P[x.p] : null;
+  var h = "<h2>" + esc(x.n) + '</h2><span class="tag ' + (x.k || "base") + '">' + x.t + " · " + (x.k ? KL[x.k] : "programma") + "</span><p>" + esc(x.s) + "</p>";
+  var q = x.q || (p && p.q);
+  h += '<div class="btns">' + (q ? '<a class="btn" href="' + maps(q) + '" target="_blank" rel="noopener">Indicazioni a piedi</a>' : "") + '<button class="btn sec" data-ck="' + i + '">' + (DONE[i] ? "Non fatta" : "Fatta ✓") + "</button></div>";
+  sheet(h);
+  if (p) focus(x.p);
+}
+function openPin(id) {
+  var idx = IT.map(function (x, i) { return x.p === id ? i : -1; }).filter(function (i) { return i >= 0; });
+  if (idx.length) { var st = state(); var pick = idx.filter(function (i) { return !DONE[i]; })[0]; return openItem(pick != null ? pick : idx[0]); }
+  var p = P[id];
+  sheet("<h2>" + esc(p.n) + '</h2><span class="tag ' + p.k + '">' + KL[p.k] + "</span><p>" + esc(p.d || "") + '</p><div class="btns"><a class="btn" href="' + maps(p.q) + '" target="_blank" rel="noopener">Indicazioni a piedi</a></div>');
+  focus(id);
+}
+function sheet(h) { document.getElementById("sc").innerHTML = h; document.getElementById("sheet").classList.add("open"); }
+function closeSheet() { document.getElementById("sheet").classList.remove("open"); sel = null; draw(); }
+function focus(id) {
+  sel = id; draw(); tab("map");
+  var c = px(P[id]), wrap = document.getElementById("mapwrap");
+  wrap.scrollTo({ left: c.l / 100 * map.offsetWidth - wrap.clientWidth / 2, top: c.t / 100 * map.offsetHeight - wrap.clientHeight / 3, behavior: "smooth" });
+}
+var Z = 1;
+function zoom(f) {
+  var wrap = document.getElementById("mapwrap"), cx = (wrap.scrollLeft + wrap.clientWidth / 2) / map.offsetWidth, cy = (wrap.scrollTop + wrap.clientHeight / 2) / map.offsetHeight;
+  Z = Math.max(1, Math.min(3.5, Z * f)); map.style.width = Z * 100 + "%";
+  wrap.scrollLeft = cx * map.offsetWidth - wrap.clientWidth / 2; wrap.scrollTop = cy * map.offsetHeight - wrap.clientHeight / 2;
+}
+function tab(t) {
+  document.getElementById("tMap").classList.toggle("on", t === "map");
+  document.getElementById("tList").classList.toggle("on", t === "list");
+  document.getElementById("mapwrap").style.display = t === "map" ? "" : "none";
+  document.getElementById("zoom").style.display = t === "map" ? "" : "none";
+  document.getElementById("list").style.display = t === "list" ? "block" : "none";
+}
+document.addEventListener("click", function (e) {
+  var t = e.target, ck = t.closest("[data-ck]");
+  if (ck) { e.stopPropagation(); var i = +ck.dataset.ck; DONE[i] = !DONE[i]; save(); draw(); if (ck.closest("#sheet")) openItem(i); return; }
+  var pin = t.closest(".pin"); if (pin) return openPin(pin.dataset.id);
+  var go = t.closest("[data-go]"); if (go) return openItem(+go.dataset.go);
+  var dp = t.closest("[data-pin]"); if (dp) return openPin(dp.dataset.pin);
+});
+document.getElementById("close").onclick = closeSheet;
+if (window.parent !== window) {
+  document.documentElement.classList.add("emb");
+  document.getElementById("back").onclick = function (e) { e.preventDefault(); window.parent.postMessage("closeParkMap", "*"); };
+}
+document.getElementById("tMap").onclick = function () { tab("map"); };
+document.getElementById("tList").onclick = function () { tab("list"); };
+document.getElementById("zin").onclick = function () { zoom(1.5); };
+document.getElementById("zout").onclick = function () { zoom(1 / 1.5); };
+function fit() { document.getElementById('mapwrap').style.top = document.querySelector('header').offsetHeight + 'px'; }
+fit(); addEventListener('resize', fit);
+draw(); fit();
+zoom(1.8);
+(function () { var st = state(); var i = st.nxt; while (i > 0 && !IT[i].p) i--; if (i >= 0 && IT[i].p) { focus(IT[i].p); sel = null; draw(); } })();
+setInterval(draw, 60000);
+</script>
+</body>
+</html>

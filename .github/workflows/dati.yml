@@ -1,0 +1,36 @@
+# Rete di sicurezza: se viaggio.md o build.py cambiano senza un data.json aggiornato
+# (per esempio modificando il file dal sito di GitHub), rigenera data.json e lo pubblica.
+# Il back office e Claude pubblicano già entrambi: in quel caso non fa nulla.
+name: Rigenera data.json
+on:
+  push:
+    branches: [main]
+    paths: [viaggio.md, build.py]
+permissions:
+  contents: write
+concurrency:
+  group: dati
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: build.py
+        run: |
+          cp data.json /tmp/prima.json
+          python3 build.py
+          if python3 -c "
+          import json, sys
+          a, b = json.load(open('/tmp/prima.json')), json.load(open('data.json'))
+          a.pop('generated', None); b.pop('generated', None)
+          sys.exit(0 if a == b else 1)"; then
+            echo "data.json era già aggiornato"
+            git checkout -- data.json
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data.json
+            git commit -m "data.json rigenerato da viaggio.md"
+            git push
+          fi
